@@ -208,6 +208,13 @@ const CITAS = [
   "img": "media/retratos/museo2/adam-smith.jpg"
  },
  {
+  "c": "Man is only a reed, the weakest in nature, but he is a thinking reed.",
+  "a": "Blaise Pascal",
+  "o": "Pensées, fr. 200 (Lafuma ed.) / 347 (Brunschvicg ed.)",
+  "e": "modern",
+  "img": "media/retratos/museo2/pascal.jpg"
+ },
+ {
   "c": "Reason is, and ought only to be, the slave of the passions.",
   "a": "David Hume",
   "o": "A Treatise of Human Nature II, 3, 3",
@@ -1076,6 +1083,12 @@ const CITAS = [
   "c": "We are all patchwork, and so shapeless and diverse in composition that each piece, each moment, plays its own game. And there is as much difference between us and ourselves as between us and others.",
   "a": "Montaigne",
   "o": "Essays (1580) II, 1",
+  "e": "modern"
+ },
+ {
+  "c": "Nothing is just or unjust that does not change its quality with a change of climate. […] A fine justice that is bounded by a river! Truth on this side of the Pyrenees, error on the other.",
+  "a": "Blaise Pascal",
+  "o": "Pensées, fr. 60 (Lafuma ed.) / 294 (Brunschvicg ed.)",
   "e": "modern"
  },
  {
