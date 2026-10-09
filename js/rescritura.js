@@ -536,5 +536,39 @@ const RESCRITURA_TEXTOS = [
     "porque": "It exaggerates in two ways. Kant is not talking about a mere wish, but about a will that uses ‘every means within our power’. And he does not say that talents or happiness are bad: he says they are good in many respects, but not without conditions."
    }
   ]
+ },
+ {
+  "id": "politica",
+  "autor": "Aristotle",
+  "obra": "<em>Politics</em>, Book I, Chapter 2 (4th century BC)",
+  "original": "From all this it is evident that the city belongs among the things that exist by nature, and that man is by nature a political animal. And whoever, by nature and not by chance, lives outside the city is either a being lower or a being higher than man. The reason why man is a political animal to a greater degree than any bee or any herd animal is clear: nature, as we say, does nothing in vain, and man is the only animal that has speech. The voice is a sign of pain and pleasure, and that is why the other animals have it too, for their nature goes as far as feeling pain and pleasure and signalling them to one another. But speech exists to make clear what is beneficial and what is harmful, and so also what is just and what is unjust. And this is what is proper to man as against the other animals: that he alone has a perception of good and bad, of just and unjust, and of the other things of this kind. It is the sharing of these things that makes a household and a city. Whoever cannot live in a community, or needs nothing because he is sufficient for himself, is no part of the city, but either a beast or a god.",
+  "terminos": [
+   "city",
+   "political animal",
+   "speech",
+   "nature"
+  ],
+  "versiones": [
+   {
+    "tipo": "rescritura",
+    "texto": "For Aristotle, living in a city is neither an invention nor an agreement: it belongs to human nature, because we are political animals. We are so more than bees or any animal that lives in a group, and the proof is that only we have speech. Other animals have a voice, which is enough for them to express and share whatever makes them suffer or enjoy themselves. Speech, by contrast, is for something more: saying what helps us and what hurts us, which things are just and which are not. Since nature gives nothing without a purpose, if it has given us speech, it is so that we share that idea of the good and of justice, and that is where the family and the city come from. That is why someone who truly cannot live with others, or has no need of them at all, stands below the human, like a beast, or above it, like a god.",
+    "porque": "It follows the whole argument (the city is natural, the proof from speech, the difference between voice and speech, the conclusion) in a different order and in its own sentences, and it keeps the terms ‘political animal’, ‘speech’ and ‘city’."
+   },
+   {
+    "tipo": "copia",
+    "texto": "The city belongs among the things that exist by nature, and man is by nature a political animal, to a greater degree than any bee or any herd animal, because nature does nothing in vain and man is the only animal that has speech. The voice is a sign of pain and pleasure, and that is why the other animals have it too; but speech exists to make clear what is beneficial and what is harmful, and so also what is just and what is unjust. It is the sharing of these things that makes a household and a city. Whoever cannot live in a community is no part of the city, but either a beast or a god.",
+    "porque": "It strings whole sentences from the original together with commas and skips the rest. It looks like a good summary, but there is not a single sentence of the writer’s own."
+   },
+   {
+    "tipo": "sinonimia",
+    "texto": "From everything above it plainly follows that the polis ranks among the realities that occur by essence, and that the human being is by essence a social creature. And whoever, by essence and not by accident, dwells outside the polis is either an entity lower or an entity higher than the human being. The cause why the human being is a social creature to a greater extent than any bee or any flock beast is obvious: essence, as we state, does nothing pointlessly, and the human being is the only living thing that possesses language. Sound is an indication of suffering and delight, and that is why the remaining living things possess it too, for their essence reaches as far as sensing suffering and delight and conveying them to one another. But language exists to express what is advantageous and what is detrimental, and so also what is fair and what is wicked. And this is what is characteristic of the human being as against the remaining living things: that it alone possesses the notion of good and bad, of fair and wicked, and of the remaining matters of this sort. It is the participation in these matters that forms a home and a polis. Whoever cannot dwell in society, or requires nothing because it is self-sufficient, is no member of the polis, but either a wild beast or a deity.",
+    "porque": "The same text, sentence by sentence, with synonyms. And it damages the key concepts: ‘political animal’ is not ‘social creature’ (bees are social too; the political requires speech and justice), ‘nature’ is not ‘essence’ and ‘speech’ is not just any ‘language’."
+   },
+   {
+    "tipo": "malinterpretacion",
+    "texto": "Aristotle holds that human beings are like bees: we live in society by instinct, like any herd animal. That is why someone who lives alone, like a hermit, is a higher being, almost a god, because they have managed to free themselves from that instinct.",
+    "porque": "It says two things the text denies. Aristotle sets human beings apart from bees precisely by speech and the sense of justice; he does not put them on a level with them. And whoever lives outside the city by nature is ‘either a beast or a god’, not someone admirable for having freed themselves."
+   }
+  ]
  }
 ];
