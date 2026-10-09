@@ -442,17 +442,17 @@ const GEN_TESIS = {
   {
    "k": "kan-sapere|soc-examen",
    "tipo": "acuerdo",
-   "por": "Thinking for yourself and examining your own life: the Enlightenment takes up the Socratic ideal of accepting nothing without examination."
+   "por": "Thinking for oneself and examining one's own life: accepting nothing without examination. Kant himself compares his approach to Socrates': philosophy teaches common reason nothing new, it only makes it attend to its own principle (Groundwork, AA IV 404). The difference: Socrates examines in dialogue with others; Kant asks for the courage to use one's own understanding without another's guidance."
   },
   {
    "k": "des-cogito|mar-conciencia",
    "tipo": "desacuerdo",
-   "por": "Descartes starts from a consciousness that knows itself before it knows the world; for Marx consciousness is a product of material and social conditions."
+   "por": "It is not a direct dispute (Marx is arguing with Hegel and Feuerbach), but they clash over the starting point. Descartes begins with a self that thinks and knows it exists before it knows anything of the world or of others; for Marx there is no such isolated self: consciousness and its ideas arise from material and social life, because the human essence is ‘the ensemble of the social relations’ (Theses on Feuerbach, VI)."
   },
   {
    "k": "mar-tesis|pla-rey",
    "tipo": "desacuerdo",
-   "por": "Plato wants those who contemplate the truth to rule; Marx criticises a philosophy that only contemplates and interprets: what matters is the praxis that transforms."
+   "por": "Plato is not content with interpreting either: he wants philosophy to change the city. The disagreement is about who does the transforming. For Plato, a few who know the Good govern the rest; Marx refuses to divide society into those who know and educate and those who are educated, because ‘the educator must himself be educated’ (Theses on Feuerbach, III): change is the work of the workers' own practice."
   },
   {
    "k": "pla-ideas|nie-fabula",
