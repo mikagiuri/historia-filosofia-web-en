@@ -49,6 +49,7 @@
           <button data-view="glosario">Glossary</button>
           <button data-view="ilustres">Illustrious Thinkers</button>
           <button data-view="citas">Sayings</button>
+          <button data-view="adagios">Adages</button>
         </div>
       </div>
       <div class="navsec">
@@ -288,6 +289,16 @@
     <div id="citasbody"></div>
   </section>
 
+  <section class="view" id="adagios">
+    <!-- (09-10) Adagios: lemas clásicos como lenguaje común, al modo de los lugares comunes del Renacimiento
+         (adagios.js + adagiosview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">Reference</p>
+    <h1 class="title">Adages: the common language of philosophy</h1>
+    <p class="lead">Latin and Greek mottoes that philosophers have been quoting for centuries: what they say, where they come from and when to use them. Learn them like a Renaissance student.</p>
+    <div class="filterbar" id="adagiosfilter" role="group" aria-label="Filter adages"></div>
+    <div id="adagiosbox"></div>
+  </section>
+
   <!-- TARJETAS -->
   <section class="view" id="tarjetas">
     <p class="eyebrow">Tool</p>
@@ -452,14 +463,25 @@
         <li>Immanuel Kant, <em>An Answer to the Question: What Is Enlightenment?</em>: translations by Roberto R. Aramayo (Alianza) and Eugenio Ímaz.</li>
         <li>Friedrich Nietzsche, <em>Ecce Homo</em>: translation by Andrés Sánchez Pascual (Alianza).</li>
         <li>Simone de Beauvoir, <em>The Second Sex</em>: translation by Alicia Martorell (Cátedra).</li>
-        <li>The other quotations and short readings come from public-domain translations, adapted.</li>
-        <li>Network of theses (Genealogies): the selection, references and relations are our own; the idea of linking theses, rather than authors, by agreement or disagreement comes from <em>History of Philosophy — Summarized &amp; Visualized</em> (denizcemonduygu.com/philo, Deniz Cem Önduygu).</li>
+        <li>Sayings: each quotation gives its author, work and location, and those that are not verbatim are marked as paraphrases, traditional formulas or attributed. The translation is not identified quotation by quotation: they are our own or adapted versions, so before quoting them in a piece of work it is advisable to check them against an edition. Those by twentieth- and twenty-first-century authors are reproduced as short quotations, with their author and work.</li>
+        <li>Genealogies: the line map (traditions, thinkers and oppositions) is our own, with deliberately approximate relations. Network of theses (Genealogies): the selection, references and relations are our own; the idea of linking theses, rather than authors, by agreement or disagreement comes from <em>History of Philosophy — Summarized &amp; Visualized</em> (denizcemonduygu.com/philo, Deniz Cem Önduygu).</li>
+        <li>Adages: Latin and Greek texts in the public domain; our own translations and commentaries. The selection and reference numbers follow Erasmus of Rotterdam's <em>Adagia</em> (editions from 1500 to 1536) and the annotated English translation in the <em>Collected Works of Erasmus</em> (University of Toronto Press, vols 31-36).</li>
         <li>Knots and film worksheets (scene, questions and misreading trap): our own work. The idea of pointing out the tensions between a respondent’s answers comes from <em>Philosophy Experiments</em> (philosophyexperiments.com, Jeremy Stangroom).</li>
-        <li>Rewriting: the passages from Plato, Aristotle, Epicurus, Hobbes, Descartes, Hume, Rousseau, Kant, Mill and Marx are our own versions based on the originals, which are in the public domain; the four versions of each are our own work.</li>
-        <li>Exploration ‘Poets and Philosophers’ (topic 19): the passages from Kant, Hamann, Goethe, Schiller, Friedrich Schlegel and the <em>Oldest Systematic Programme of German Idealism</em> are our own translations from the German originals, which are in the public domain.</li>
-        <li>Exploration ‘The Library Marx Wanted to Publish’ (topic 21): the plan for the ‘Library of the Best Foreign Socialist Writers’ (Marx’s notebook, March 1845) and Engels’s letter to Marx of 17 March 1845, in <em>Marx-Engels Collected Works</em>, vols. 4 and 38 (Lawrence &amp; Wishart); Marx and Engels, <em>The Holy Family</em> (1845) and <em>Manifesto of the Communist Party</em> (1848). Owen is quoted in the original English; the passages from Morelly, Maréchal, Fourier and Proudhon are our own translations, and those from the Manifesto and The Holy Family follow the standard English translations.</li>
+        <li>Rewriting: the passages from Plato, Aristotle, Epicurus, Hobbes, Descartes, Hume, Rousseau, Kant, Mill and Marx are our own versions based on the originals (the originals are in the public domain); the four versions of each are our own work.</li>
+        <li>Exploration ‘Surface and Depth’ (topic 6): the verbatim quotations from Plato (<em>Apology</em> 38a; <em>Republic</em> VI, 510a) and Nietzsche (<em>The Gay Science</em>, preface, 4) are from an unidentified translation; the other passages from Plato (<em>Republic</em> VII and X, <em>Sophist</em>, <em>Gorgias</em>, <em>Phaedrus</em>, <em>Symposium</em>) are summarised in our own words, based on a starting text by the teacher.</li>
+        <li>Exploration ‘Prejudice, Opinion and Axiom’ (topic 6): no verbatim quotations; Plato’s theses on opinion, knowledge and hypotheses are summarised in our own words.</li>
+        <li>Exploration ‘Plato and Saint Augustine’ (topic 11): the quotations from Augustine of Hippo (<em>Confessions</em> I, 1; <em>The City of God</em> XIV, 28) are from an unidentified translation; the table ‘Four Thinkers Face to Face’ is the teacher’s own work, translated from the Basque original; the rest is summarised in our own words.</li>
+        <li>Exploration ‘Montaigne and the <em>Essays</em>’ (topic 13): the seven texts discussed and the short quotations from the <em>Essays</em> are from Constantino Román y Salamero’s Spanish translation (Garnier, Paris, 1898), which is in the public domain; two stray sentences in the commentary, one by Montaigne (II, 1) and one by Pascal, do not come from that translation and are from an unidentified translation.</li>
+        <li>Exploration ‘Simulation, Solipsism and the Cogito’ (topic 14): no verbatim quotations except ‘pienso, luego existo’ (‘I think, therefore I am’), in Manuel García Morente’s Spanish translation; the <em>Meditations on First Philosophy</em> are summarised in our own words, based on a starting text by the teacher.</li>
+        <li>Exploration ‘Spinoza: Philosophy as a System’ (Philosophy 1st Bach., topic 1; History of Philosophy, topic 15): the passages in the ‘Spinoza against…’ boxes (<em>Ethics</em> I, appendix; II, 35, scholium; III, preface; IV, 45, scholium; letter 56; <em>Theological-Political Treatise</em>, preface; <em>Political Treatise</em> I, 1) are our own versions from the Latin original; the other short sentences by Spinoza (<em>Ethics</em> II, 7; IV, 67; V, 42; <em>Theological-Political Treatise</em>, 20) are from an unidentified translation.</li>
+        <li>Leibniz’s Workshop: the texts are our own; the quotations and facts have been checked against C. I. Gerhardt (ed.), <em>Die philosophischen Schriften von G. W. Leibniz</em>, vol. VII (the ‘let us calculate’), the <em>Monadology</em> (§ 17), Joachim Bouvet’s letter to Leibniz of 4 November 1701 and the surviving example of the calculating machine (Hanover library).</li>
+        <li>Readings for the ‘Duel of Reasons’ debates (Plato, Descartes, Spinoza, La Mettrie, Kant, Hegel and Fichte): our own condensed versions, not literal translations; the sentences in quotation marks summarise the passage. The selection and the guides are our own work.</li>
+        <li>Reading on justice in the <em>Republic</em>: Book I (Thrasymachus and Socrates), in our own condensed version; the passage from Book VII (519e-520a), in a Spanish translation attributed to Patricio de Azcárate that has not been checked against his 1872 edition.</li>
+        <li>Saint Augustine, <em>On the Happy Life</em> (ch. 2): Spanish translation made from the teacher’s Basque version.</li>
+        <li>Exploration ‘Poets and Philosophers’ (topic 19): the passages from Kant, Hamann, Goethe, Schiller, Friedrich Schlegel and the <em>Oldest Systematic Programme of German Idealism</em> are our own translations from the German originals (the originals are in the public domain).</li>
+        <li>Exploration ‘The Library Marx Wanted to Publish’ (topic 21): the plan for the ‘Library of the Best Foreign Socialist Writers’ (Marx’s notebook, March 1845) and Engels’s letter to Marx of 17 March 1845, in <em>Marx-Engels Collected Works</em>, vols. 4 and 38 (Lawrence &amp; Wishart); Marx and Engels, <em>The Holy Family</em> (1845) and <em>Manifesto of the Communist Party</em> (1848). Owen is quoted in the original English; the passages from Morelly, Maréchal, Fourier and Proudhon are our own translations from the originals (the originals are in the public domain), and those from the Manifesto and The Holy Family follow the standard English translations.</li>
         <li>Exploration ‘Universal Spinoza’ (topic 15): the passages from the 1656 herem, Spinoza, Kant (<em>What Does It Mean to Orient Oneself in Thinking?</em>, AA VIII, 143, note), Schelling, Nietzsche and Einstein are our own translations from the originals; those that summarise a passage are marked as such.</li>
-        <li>Exploration ‘The Heart of Stone’ (topic 21): Dickens, Blake and Carlyle are quoted in the original English and the Communist Manifesto in Samuel Moore’s translation; the passages from Schiller, Hegel, Goethe, Balzac, Büchner and Heine are our own translations from the originals, which are in the public domain.</li>
+        <li>Exploration ‘The Heart of Stone’ (topic 21): Dickens, Blake and Carlyle are quoted in the original English and the <em>Communist Manifesto</em> in Samuel Moore’s translation; the passages from Schiller, Hegel, Goethe, Balzac, Büchner and Heine are our own translations from the originals (the originals are in the public domain).</li>
       </ul>
       <h2>Official documents</h2>
       <ul>
@@ -474,11 +496,15 @@
         <li>Eukeni Acebal, Areté collection: <em>Philosophy</em>, <em>Filosofiaren historia</em> and <em>Preparación de la PAU</em> (CC BY-SA 4.0).</li>
         <li>Open guides to commentary and essay writing: <em>El taller de Filosofía</em>, <em>La lechuza de Minerva</em>, <em>Suma-T</em> and selectividadfilosofia.com.</li>
         <li>Professor Rafael Robles’s website: an essay from a 2025 exam model, linked so it can be commented on.</li>
-        <li>For the appendix ‘Poets and Philosophers’: Rüdiger Safranski, <em>Goethe y Schiller. Historia de una amistad</em> and <em>Romanticismo. Una odisea del espíritu alemán</em> (Tusquets); Isaiah Berlin, <em>The Roots of Romanticism</em> (Princeton University Press) and <em>The Magus of the North: J. G. Hamann and the Origins of Modern Irrationalism</em> (John Murray); Frederick C. Beiser, <em>The Fate of Reason. German Philosophy from Kant to Fichte</em> (Harvard University Press); Philippe Lacoue-Labarthe and Jean-Luc Nancy, <em>The Literary Absolute: The Theory of Literature in German Romanticism</em> (SUNY Press); Immanuel Kant, <em>Crítica del discernimiento</em>, edited by Roberto R. Aramayo and Salvador Mas (Alianza).</li>
-        <li>For the appendix ‘Universal Spinoza’: Steven Nadler, <em>Spinoza: A Life</em> (Cambridge University Press); Jonathan Israel, <em>Radical Enlightenment</em> (Oxford University Press, 2001); Gilles Deleuze, <em>Spinoza: Practical Philosophy</em> (City Lights); Spinoza, <em>Ethics</em>; Gabriel Albiac, <em>La sinagoga vacía</em> (Hiperión).</li>
-        <li>For the appendix ‘The Heart of Stone’: Michael Löwy and Robert Sayre, <em>Romanticism Against the Tide of Modernity</em> (Duke University Press); Raymond Williams, <em>Culture and Society, 1780-1950</em>; Marshall Berman, <em>All That Is Solid Melts into Air</em>.</li>
+        <li>For the exploration ‘Simulation, Solipsism and the Cogito’: discussion of Nick Bostrom, ‘Are You Living in a Computer Simulation?’ (<em>Philosophical Quarterly</em>, 2003), David J. Chalmers, <em>Reality+</em> (2022), and Hilary Putnam, <em>Reason, Truth and History</em> (1981), ch. 1.</li>
+        <li>For the exploration ‘Surface and Depth’: discussion of Byung-Chul Han, <em>Saving Beauty</em>.</li>
+        <li>Hints: the routes are our own; the format of progressive hints, from the vaguest to the most concrete, comes from the <em>Universal Hint System</em> (UHS) used in video game guides.</li>
+        <li>Logic Corner: paradoxes, exercises and classic arguments, written up by us; the origin of each paradox is given on its card.</li>
+        <li>For the exploration ‘Poets and Philosophers’: Rüdiger Safranski, <em>Goethe y Schiller. Historia de una amistad</em> and <em>Romanticismo. Una odisea del espíritu alemán</em> (Tusquets); Isaiah Berlin, <em>The Roots of Romanticism</em> (Princeton University Press) and <em>The Magus of the North: J. G. Hamann and the Origins of Modern Irrationalism</em> (John Murray); Frederick C. Beiser, <em>The Fate of Reason. German Philosophy from Kant to Fichte</em> (Harvard University Press); Philippe Lacoue-Labarthe and Jean-Luc Nancy, <em>The Literary Absolute: The Theory of Literature in German Romanticism</em> (SUNY Press); Immanuel Kant, <em>Crítica del discernimiento</em>, edited by Roberto R. Aramayo and Salvador Mas (Alianza).</li>
+        <li>For the exploration ‘Universal Spinoza’: Steven Nadler, <em>Spinoza: A Life</em> (Cambridge University Press); Jonathan Israel, <em>Radical Enlightenment</em> (Oxford University Press, 2001); Gilles Deleuze, <em>Spinoza: Practical Philosophy</em> (City Lights); Spinoza, <em>Ethics</em>; Gabriel Albiac, <em>La sinagoga vacía</em> (Hiperión).</li>
+        <li>For the exploration ‘The Heart of Stone’: Michael Löwy and Robert Sayre, <em>Romanticism Against the Tide of Modernity</em> (Duke University Press); Raymond Williams, <em>Culture and Society, 1780-1950</em>; Marshall Berman, <em>All That Is Solid Melts into Air</em>.</li>
         <li>John Cottingham, <em>Descartes</em> (Alianza), and Bernard Williams, <em>Descartes: The Project of Pure Enquiry</em> (Cátedra).</li>
-        <li>Gamification material from Gabriel Aresti BHI, original idea for the game ‘Eudaimonia’.</li>
+        <li>Gamification material from Gabriel Aresti BHI (Year 2 of Bachillerato): original idea for the games ‘Eudaimonia’ and ‘The Republic’, and artwork for the ‘Eudaimonia’ cards.</li>
       </ul>
       <!-- NOTAS-ARETE-INICIO -->
       <h2>Notes and references by topic</h2>
@@ -892,6 +918,7 @@
         <li>Works of art and portraits from Wikimedia Commons and from museums and libraries (Metropolitan Museum, Rijksmuseum, LACMA, Wellcome Collection, New York Public Library, Library of Congress, Walters Art Museum), in the public domain or under CC0, CC BY and CC BY-SA licences. Each image carries its credit.</li>
         <li>Exploration ‘Poets and Philosophers’: portraits, first editions, paintings and views from Wikimedia Commons, in the public domain or under CC0 and CC BY licences; photochroms by Photoglob Zürich from around 1900 (Library of Congress), an engraving by Daniel Chodowiecki (Rijksmuseum) and a photograph by H.-P. Haack of the first edition of <em>The Robbers</em>.</li>
         <li>Exploration ‘The Library Marx Wanted to Publish’ and Illustrious Thinkers: portraits, title pages and engravings from Wikimedia Commons, in the public domain or under CC0 (Rijksmuseum, Paris Musées, National Library of Wales).</li>
+        <li>Adages: paintings, engravings, title pages and mosaics from Wikimedia Commons, in the public domain or under CC0 (Prado Museum, National Gallery London, British Library, British Museum, Rijksmuseum, Walters Art Museum, Bibliothèque nationale de France, among others); Montaigne's motto and a medal of Montaigne.</li>
         <li>Exploration ‘Universal Spinoza’: portraits, engravings, title pages and photographs from Wikimedia Commons, in the public domain or under CC0 (Herzog August Bibliothek, Rijksmuseum, Library of Congress, among others).</li>
         <li>Exploration ‘The Heart of Stone’: works by Goya, Loutherbourg, Turner, Daumier, Hübner, Kollwitz and others, and period illustrations, from Wikimedia Commons, in the public domain or under CC0 (National Gallery, London; National Gallery of Art, Washington; Statens Museum for Kunst, among others).</li>
         <li>Photographs from Unsplash.</li>
@@ -969,6 +996,8 @@
 <script src="js/rescrituraview.js"></script>
 <script src="js/nudos.js"></script>
 <script src="js/nudosview.js"></script>
+<script src="js/adagios.js"></script>
+<script src="js/adagiosview.js"></script>
 <script src="js/juego_aristoteles.js"></script>
 <script src="js/aristotelesview.js"></script>
 <script src="js/platonview.js"></script>
