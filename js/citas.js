@@ -1227,5 +1227,209 @@ const CITAS = [
   "e": "contemporary",
   "id": "freud",
   "img": "media/retratos/museo2/freud.jpg"
+ },
+ {
+  "c": "Reason is language, logos.",
+  "a": "Johann Georg Hamann",
+  "o": "Letter to Herder, 6 August 1784",
+  "e": "modern",
+  "id": "hamann",
+  "img": "media/retratos/ilustres/hamann.jpg"
+ },
+ {
+  "c": "Already as an animal, the human being has language.",
+  "a": "Johann Gottfried Herder",
+  "o": "Treatise on the Origin of Language (1772), first sentence",
+  "e": "modern",
+  "id": "herder",
+  "img": "media/retratos/ilustres/herder.jpg"
+ },
+ {
+  "c": "I return into myself and find a world.",
+  "a": "Johann Wolfgang von Goethe",
+  "o": "The Sorrows of Young Werther (1774), letter of 22 May",
+  "e": "modern",
+  "id": "goethe",
+  "img": "media/retratos/ilustres/goethe.jpg"
+ },
+ {
+  "c": "In the beginning was the deed.",
+  "a": "Johann Wolfgang von Goethe",
+  "o": "Faust I (1808), the study scene",
+  "e": "modern",
+  "id": "goethe",
+  "img": "media/retratos/ilustres/goethe.jpg"
+ },
+ {
+  "c": "The human being only plays when he is human in the full sense of the word, and he is only fully human when he plays.",
+  "a": "Friedrich Schiller",
+  "o": "Letters on the Aesthetic Education of Man (1795), letter 15",
+  "e": "modern",
+  "id": "schiller",
+  "img": "media/retratos/ilustres/schiller.jpg"
+ },
+ {
+  "c": "That is not an experience, that is an idea.",
+  "a": "Friedrich Schiller",
+  "o": "Reply to Goethe about the primal plant (1794), according to Goethe, Fortunate Event (1817)",
+  "e": "modern",
+  "id": "schiller",
+  "img": "media/retratos/ilustres/schiller.jpg"
+ },
+ {
+  "c": "Genius is the talent (natural gift) that gives the rule to art.",
+  "a": "Immanuel Kant",
+  "o": "Critique of Judgement (1790), § 46",
+  "e": "modern",
+  "id": "kant",
+  "img": "media/retratos/museo/kant.jpg"
+ },
+ {
+  "c": "Romantic poetry is a progressive universal poetry.",
+  "a": "Friedrich Schlegel",
+  "o": "Athenaeum (1798), fragment 116",
+  "e": "contemporary",
+  "id": "schlegel",
+  "img": "media/retratos/ilustres/schlegel.jpg"
+ },
+ {
+  "c": "Nothing in society shall belong to anyone individually or as property, except the things of which he makes actual use.",
+  "a": "Étienne-Gabriel Morelly",
+  "o": "Code of Nature (1755), first fundamental law",
+  "e": "modern",
+  "id": "morelly"
+ },
+ {
+  "c": "The French Revolution is but the forerunner of another revolution, far greater, far more solemn, which will be the last.",
+  "a": "Sylvain Maréchal",
+  "o": "Manifesto of the Equals (1796), written for Babeuf's Conspiracy",
+  "e": "modern"
+ },
+ {
+  "c": "Any general character, from the best to the worst, from the most ignorant to the most enlightened, may be given to any community, even to the world at large, by the application of proper means.",
+  "a": "Robert Owen",
+  "o": "A New View of Society (1813), First Essay",
+  "e": "contemporary",
+  "id": "owen",
+  "img": "media/retratos/ilustres/owen.jpg"
+ },
+ {
+  "c": "Social progress takes place in proportion to the progress of women towards freedom.",
+  "a": "Charles Fourier",
+  "o": "The Theory of the Four Movements (1808)",
+  "e": "contemporary",
+  "id": "fourier",
+  "img": "media/retratos/ilustres/fourier.jpg"
+ },
+ {
+  "c": "Property is theft.",
+  "a": "Pierre-Joseph Proudhon",
+  "o": "What Is Property? (1840), ch. 1",
+  "e": "contemporary",
+  "id": "proudhon",
+  "img": "media/retratos/ilustres/proudhon.jpg"
+ },
+ {
+  "c": "If man is shaped by environment, his environment must be made human.",
+  "a": "Marx & Engels",
+  "o": "The Holy Family (1845), ch. VI",
+  "e": "contemporary",
+  "id": "marx",
+  "img": "media/retratos/museo/marx.jpg"
+ },
+ {
+  "c": "The true purpose of the State is freedom.",
+  "a": "Spinoza",
+  "o": "Theological-Political Treatise (1670), ch. 20",
+  "e": "modern",
+  "id": "spinoza",
+  "img": "media/retratos/museo/spinoza.jpg"
+ },
+ {
+  "c": "Happiness is not the reward of virtue, but virtue itself.",
+  "a": "Spinoza",
+  "o": "Ethics (1677), V, proposition 42",
+  "e": "modern",
+  "id": "spinoza",
+  "img": "media/retratos/museo/spinoza.jpg"
+ },
+ {
+  "c": "No one, so far, has determined what the body can do.",
+  "a": "Spinoza",
+  "o": "Ethics (1677), III, proposition 2, scholium",
+  "e": "modern",
+  "id": "spinoza",
+  "img": "media/retratos/museo/spinoza.jpg"
+ },
+ {
+  "c": "Spinozism leads straight to enthusiasm.",
+  "a": "Immanuel Kant",
+  "o": "What Does It Mean to Orient Oneself in Thinking? (1786), AA VIII 143, note",
+  "e": "modern",
+  "id": "kant",
+  "img": "media/retratos/museo/kant.jpg"
+ },
+ {
+  "c": "Meanwhile, I have become a Spinozist.",
+  "a": "Friedrich Wilhelm Joseph Schelling",
+  "o": "Letter to Hegel, 4 February 1795",
+  "e": "contemporary",
+  "id": "schelling",
+  "img": "media/retratos/ilustres/schelling.jpg"
+ },
+ {
+  "c": "I believe in Spinoza's God who reveals himself in the orderly harmony of what exists, not in a God who concerns himself with fates and actions of human beings.",
+  "a": "Albert Einstein",
+  "o": "Telegram to Rabbi Herbert S. Goldstein, April 1929",
+  "e": "contemporary",
+  "id": "einstein",
+  "img": "media/retratos/museo/einstein.jpg"
+ },
+ {
+  "c": "Every philosopher has two philosophies: his own and Spinoza's.",
+  "a": "Henri Bergson",
+  "o": "attributed; letter to Léon Brunschvicg on the 250th anniversary of Spinoza's death",
+  "e": "contemporary",
+  "img": "media/galeria_museo/spinoza_universal/bergson.jpg"
+ },
+ {
+  "c": "Eternally chained to a small, isolated fragment of the whole, the human being himself is formed only as a fragment.",
+  "a": "Friedrich Schiller",
+  "o": "Letters on the Aesthetic Education of Man (1795), letter 6",
+  "e": "modern",
+  "id": "schiller",
+  "img": "media/retratos/ilustres/schiller.jpg"
+ },
+ {
+  "c": "For all its excess of wealth, civil society is not rich enough to prevent an excess of poverty and the formation of a rabble.",
+  "a": "Hegel",
+  "o": "Philosophy of Right (1820), § 245",
+  "e": "contemporary",
+  "id": "hegel",
+  "img": "media/retratos/museo/hegel.jpg"
+ },
+ {
+  "c": "The secret of great fortunes with no apparent cause is a forgotten crime, because it was cleanly done.",
+  "a": "Honoré de Balzac",
+  "o": "Le Père Goriot (1835), Vautrin's words",
+  "e": "contemporary",
+  "id": "balzac",
+  "img": "media/retratos/ilustres/balzac.jpg"
+ },
+ {
+  "c": "Peace to the huts! War on the palaces!",
+  "a": "Georg Büchner",
+  "o": "The Hessian Courier (1834), with Friedrich Ludwig Weidig; slogan of the French Revolution",
+  "e": "contemporary",
+  "id": "buchner",
+  "img": "media/retratos/ilustres/buchner.jpg"
+ },
+ {
+  "c": "It has drowned the most heavenly ecstasies of religious fervour, of chivalrous enthusiasm, of philistine sentimentalism, in the icy water of egotistical calculation.",
+  "a": "Marx & Engels",
+  "o": "The Communist Manifesto (1848), ch. I, on the bourgeoisie",
+  "e": "contemporary",
+  "id": "marx",
+  "img": "media/retratos/museo/marx.jpg"
  }
 ];

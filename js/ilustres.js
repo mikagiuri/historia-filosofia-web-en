@@ -2665,6 +2665,7 @@ const ILUSTRES = {
    "hf-utilitarismo",
    "hf-etica-deber",
    "hf-marx-biblioteca",
+   "hf-corazon-piedra",
    "hf-posmodernidad"
   ]
  },
@@ -2716,7 +2717,8 @@ const ILUSTRES = {
   "temas": [
    "hf-spinoza-sistema",
    "hf-spinoza-universal",
-   "hf-kant-poetas"
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
   ]
  },
  "roux": {
@@ -2783,7 +2785,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-marx-biblioteca"
+   "hf-marx-biblioteca",
+   "hf-corazon-piedra"
   ]
  },
  "hebert": {
@@ -2832,7 +2835,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion",
-   "hf-marx-biblioteca"
+   "hf-marx-biblioteca",
+   "hf-corazon-piedra"
   ]
  },
  "schiller": {
@@ -2858,7 +2862,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-kant-poetas"
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
   ]
  },
  "babeuf": {
@@ -3015,6 +3020,7 @@ const ILUSTRES = {
    "hf-spinoza-universal",
    "hf-kant-poetas",
    "hf-sospecha",
+   "hf-corazon-piedra",
    "hf-capitalismo",
    "hf-posmodernidad",
    "hf-beauvoir"
@@ -3322,7 +3328,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-spinoza-universal"
+   "hf-spinoza-universal",
+   "hf-corazon-piedra"
   ]
  },
  "comte": {
@@ -3350,6 +3357,33 @@ const ILUSTRES = {
    "hf-modernidad",
    "hf-etica-deber",
    "hf-sospecha"
+  ]
+ },
+ "balzac": {
+  "name": "Honoré de Balzac",
+  "dates": "1799 – 1850",
+  "born": 1799,
+  "died": 1850,
+  "place": "Tours (France)",
+  "role": "novelist",
+  "idea": "The novel can portray a whole society, and in modern society what drives almost every character is money.",
+  "bio": "<p>Honoré de Balzac was born in Tours in 1799. He studied Law in Paris and worked in a lawyers' office, but he wanted to be a writer. Before he succeeded he failed as a publisher and printer, and that business left him with debts that pursued him all his life. His first novel signed with his own name, <em>The Chouans</em>, appeared in 1829. From then on he wrote tirelessly, at night and fuelled by coffee, dozens of novels. In 1850 he married the Polish countess Ewelina Hańska, with whom he had corresponded for almost twenty years, and he died in Paris five months later.</p>\n<p>Balzac gathered his works under the title <em>The Human Comedy</em>: more than ninety novels and stories in which the same characters reappear from one book to another, as in a real society. He wanted to be the ‘secretary’ of his age and to describe bankers, moneylenders, journalists, peasants and civil servants. He is the great master of <strong>realism</strong>. Politically he was a monarchist and a Catholic, but his portrait of the bourgeoisie was so accurate that Engels, in a letter of 1888, wrote that he had learnt more from him than from all the historians, economists and statisticians of the period put together. Engels called this the <strong>triumph of realism</strong>: the novelist saw the truth of his time even against his own political sympathies.</p>",
+  "obras": [
+   "The Wild Ass's Skin (1831)",
+   "Eugénie Grandet (1833)",
+   "Le Père Goriot (1835)",
+   "Lost Illusions (1837-1843)"
+  ],
+  "anecdota": "<p>Balzac spent half his life running away from his creditors. On 1 October 1840 he rented a house in Passy, then a village on the outskirts of Paris, but not in his own name: the lease was in the name of his housekeeper, Louise Breugnol, and he passed himself off as ‘Monsieur de Breugnol’. In his previous house, in the rue des Batailles, he had gone by the name of ‘the widow Durand’. The Passy house was built on a slope and could be entered from two streets: it is said that if a debt collector knocked at the upper door, Balzac would go down the stairs and slip out through the lower one, today's rue Berton. He wrote to Madame Hańska that he was there ‘hidden away for a while’. He stayed seven years, and it was there that he revised <em>The Human Comedy</em>. Today it is the Maison de Balzac, a museum.</p>",
+  "fuente": "Lease (1840) and letter from Balzac to Ewelina Hańska (16 November 1840); Maison de Balzac (Paris)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
   ]
  },
  "feuerbach": {
@@ -3532,6 +3566,60 @@ const ILUSTRES = {
    "hf-marx-biblioteca"
   ]
  },
+ "dickens": {
+  "name": "Charles Dickens",
+  "dates": "1812 – 1870",
+  "born": 1812,
+  "died": 1870,
+  "place": "Portsmouth (England)",
+  "role": "novelist and journalist",
+  "idea": "A society that counts only data, profits and usefulness forgets people, above all children and the poor.",
+  "bio": "<p>Charles Dickens was born in Portsmouth in 1812. His family was always in debt, and as a child he knew poverty at first hand. He learnt shorthand and started out as a parliamentary reporter, until <em>The Pickwick Papers</em> (1836-1837) made him famous. He published his novels in instalments, so that millions of readers waited for each chapter. In later life he toured Great Britain and the United States giving public readings in which he acted out his characters. He died in 1870 at his home, Gad's Hill, in Kent, and was buried in Westminster Abbey.</p>\n<p>His novels give a voice to abandoned children, workhouses, debtors' prisons and the working-class districts of the <strong>Industrial Revolution</strong>. Dickens did not want a revolution; he wanted to awaken his readers' compassion in order to reform society. In <em>Hard Times</em> (1854), dedicated to Thomas Carlyle, he attacks the narrowest version of Bentham's <strong>utilitarianism</strong> and of political economy: a school and an industrial town where only what can be measured counts, and where the workers are mere ‘hands’. The novel does not reject science, but a way of thinking that forgets imagination and feelings. It is one of the literary forms of the suspicion of the bourgeois world that this topic studies alongside Marx.</p>",
+  "obras": [
+   "Oliver Twist (1837-1839)",
+   "A Christmas Carol (1843)",
+   "David Copperfield (1849-1850)",
+   "Hard Times (1854)"
+  ],
+  "anecdota": "<p>In 1824, when Charles was twelve, his father was imprisoned for debt in the Marshalsea prison in London. The boy had to leave school and go to work at Warren's, a boot-blacking factory beside the Thames. For ten hours a day he stuck labels on the pots, among rats, for six shillings a week. When his father got out of prison and quarrelled with the owner, the boy was able to go back to school, but his mother wanted him to stay on at the factory, and Dickens never forgave her. He kept the secret all his life: he told only his friend John Forster, who revealed it in his biography after the writer's death. Part of that experience found its way into <em>David Copperfield</em>.</p>",
+  "fuente": "Autobiographical fragment by Dickens included by John Forster in The Life of Charles Dickens (1872-1874)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
+  ]
+ },
+ "buchner": {
+  "name": "Georg Büchner",
+  "dates": "1813 – 1837",
+  "born": 1813,
+  "died": 1837,
+  "place": "Goddelau (Germany)",
+  "role": "playwright, physician and revolutionary",
+  "idea": "Nature does not act according to purposes: everything that exists is there for its own sake, and science must look for its laws instead of asking what it is for.",
+  "bio": "<p>Georg Büchner was born in 1813 in Goddelau, in the Grand Duchy of Hesse, the son of a doctor. He studied Medicine in Strasbourg and in Giessen. In 1834 he wrote a revolutionary pamphlet for the peasants and, hunted by the police, fled to Strasbourg in 1835. Before fleeing he had written the drama <em>Danton's Death</em> in about five weeks. In exile he wrote the story <em>Lenz</em>, the comedy <em>Leonce and Lena</em> and the draft of <em>Woyzeck</em>. He took his doctorate with a study of the nervous system of a fish, the barbel, and in 1836 he went to Zurich as a university lecturer. He died there of typhus in February 1837, aged twenty-three.</p>\n<p>Büchner was also a scientist and a philosopher. On 5 November 1836 he gave his trial lecture in Zurich, <em>On Cranial Nerves</em>. In it he rejects the <strong>teleological</strong> explanation, which understands each organ by its usefulness, like a part of a machine, and defends another that he calls ‘philosophical’: nature does not pursue purposes, everything that exists is there for its own sake, and we must look for its law. It is an idea close to <strong>Spinoza</strong>, whom he studied in depth together with Descartes: in 1836 he prepared lectures on both for a course on German philosophy since Descartes. In his plays, this outlook without purposes becomes social suspicion: his poor characters are not useful parts, but crushed human beings.</p>",
+  "obras": [
+   "Danton's Death (1835)",
+   "Lenz (1835-1836)",
+   "Leonce and Lena (1836)",
+   "Woyzeck (1836-1837)"
+  ],
+  "anecdota": "<p>On 13 June 1835, when Büchner had already been safe in Strasbourg for three months, the examining magistrate of Hesse signed a wanted notice against him for ‘participation in acts of high treason’. The notice was published several times in the Darmstadt and Frankfurt press, and called on the authorities at home and abroad to arrest him. It included a description of the fugitive: twenty-one years old, fair hair and beard, very prominent forehead, grey eyes, strong nose, small mouth, oval face and a strong, slim build. As a distinguishing mark, only one: he was short-sighted. Thanks to that notice we have one of the few ‘official’ portraits of the young writer, made by the police who were hunting him.</p>",
+  "fuente": "Wanted notice signed by Judge Georgi (Darmstadt, 13 June 1835), published in the Großherzoglich Hessische Zeitung (18 June 1835); Georg Büchner Portal",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
+  ]
+ },
  "marx": {
   "name": "Karl Marx",
   "dates": "1818 – 1883",
@@ -3559,9 +3647,11 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-spinoza-universal",
    "hf-ilustracion",
+   "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha",
    "hf-marx-biblioteca",
+   "hf-corazon-piedra",
    "hf-capitalismo"
   ]
  },
