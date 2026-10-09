@@ -52,6 +52,31 @@ const NUDOS = [
     "fuente": "Augustine of Hippo, On Lying (De mendacio, c. 395): he classifies lies and condemns white lies too."
    },
    {
+    "k": "M1=D|M9=A",
+    "tipo": "real",
+    "por": "Lying is a form of deceiving. If deceiving is wrong even when everything you say is true, then what is wrong is not the falsehood but making someone believe what is not so. Why, then, would lying not be wrong in itself, when that is exactly what it always aims at?",
+    "distinguir": "Hint: perhaps what is wrong is the intention to mislead, not the falsehood of what is said. But then, doesn’t a white lie have that intention too? Think about it alongside your answer about the present.",
+    "fuente": "Bernard Williams, Truth and Truthfulness (2002), ch. 5, on lying and other forms of deception."
+   },
+   {
+    "k": "M4=A|M5=D",
+    "tipo": "aparente",
+    "por": "They seem to clash: the white lie is acceptable and the government’s lie ‘for the good of the population’ is not, although both are justified by the good of the other person. But it is not a contradiction if there are relevant differences: the power of the one who lies, the scale, the fact that those deceived can neither check it nor consent to it, and what is at stake, public trust.",
+    "fuente": "Plato, Republic III (414b-415d), the ‘noble lie’; Sissela Bok, Lying: Moral Choice in Public and Private Life (1978), on lies told by governments."
+   },
+   {
+    "k": "M6=A|M4=A",
+    "tipo": "aparente",
+    "por": "They seem to clash: you accept that if everyone lied whenever it suited them, nobody could trust anybody (the premise of Kant’s universalisation), yet you accept the white lie, which Kant would reject. It is not a contradiction if ‘lying when it suits you’ is not the same as lying in limited, recognisable cases, such as politeness about a present, which do not destroy trust.",
+    "fuente": "Kant, Groundwork of the Metaphysics of Morals (1785), AA IV 422: the example of the false promise."
+   },
+   {
+    "k": "M6=A|M3=A",
+    "tipo": "aparente",
+    "por": "They seem to clash: you accept Kant’s premise (if everyone lied whenever it suited them, nobody could trust anybody) and reject his conclusion (you may not lie even to the murderer). It is not a contradiction if the rule you universalise is not ‘lie when it suits you’ but ‘lie to someone who wants to use the truth to do harm’, which does not destroy trust between people of good faith.",
+    "fuente": "Kant, ‘On a Supposed Right to Lie from Philanthropy’ (1797), AA VIII 425-430; Christine Korsgaard, ‘The Right to Lie: Kant on Dealing with Evil’ (1986)."
+   },
+   {
     "k": "M2=A|M6=A",
     "tipo": "aparente",
     "por": "They seem to clash (‘only consequences count’ versus a reason of principle not to lie), but it is not a contradiction: the claim about trust is precisely a consequentialist argument. What is wrong with lying would be that it destroys trust, and that is a consequence.",

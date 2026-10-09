@@ -35,6 +35,7 @@ const NUD_TXT = {
   lDist: "I distinguished between ‘{a}’ and ‘{b}’.", lBala: "I bit the bullet between ‘{a}’ and ‘{b}’.", lAp: "Apparent knot between ‘{a}’ and ‘{b}’.",
   miRazon: "My reason: {t}",
   sinNudos: "No knots appeared with your answers. Is that because you are consistent, or because you answered ‘It depends’ a lot? Both may be true.",
+  sinNudosPocoP: "None of our knots has been triggered, but that does not prove there are none: look for one yourself among your answers and write it in the final challenge.",
   reto: "Final challenge", retoTxt: "Choose the answer you are most sure of and write the best objection that could be raised against it. Then answer it.",
   imprimir: "Print or save as PDF", copiar: "Copy as text", inicio: "Back to the start",
   copiado: "Copied.", noCopia: "Could not copy; use ‘Print’.",
@@ -165,7 +166,7 @@ function nudCuaderno(){
     if (e.tipo === "cambio") return "<li>" + nudT("lCambio", { a: af(e.id), de: nudVal(e.de), x: nudVal(e.a) }) + (e.razon ? "<br>" + nudT("porQue", { t: nudEsc(e.razon) }) : "") + "</li>";
     const p = nudPar(e.n), k = { distingo: "lDist", bala: "lBala", aparente: "lAp" }[e.tipo];
     return "<li>" + nudT(k, { a: af(p.a), b: af(p.b) }) + "<br>" + nudT("miRazon", { t: nudEsc(e.razon) }) + "</li>";
-  }).join("") || '<li class="nud-muted">' + nudT("sinNudos") + "</li>";
+  }).join("") || '<li class="nud-muted">' + nudT(NUD.orden.filter(id => NUD.resp[id].v === "P").length >= 3 ? "sinNudos" : "sinNudosPocoP") + "</li>";   // (09-10) el mensaje de «mucho Depende» solo si de verdad lo hay
   box.innerHTML = '<div class="nud-card nud-cuaderno"><h3>' + nudT("cuaderno") + '</h3><p class="nud-small nud-muted">' + NUD.m.titulo + " · " + new Date().toLocaleDateString(document.documentElement.lang || "es") + ". " + nudT("cuadSub") + "</p>" +
     "<h4>" + nudT("misResp") + "</h4><ul>" + NUD.orden.map(id => "<li>" + af(id) + " — <strong>" + nudVal(NUD.resp[id].v) + "</strong>" + (NUD.resp[id].dep ? '<br><span class="nud-small">' + nudT("dependeDe", { t: nudEsc(NUD.resp[id].dep) }) + "</span>" : "") + "</li>").join("") + "</ul>" +
     "<h4>" + nudT("misNudos") + '</h4><ul class="nud-log">' + lineas + "</ul>" +

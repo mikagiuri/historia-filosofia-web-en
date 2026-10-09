@@ -21,7 +21,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-mito"
+   "hf-mito",
+   "hf-kant-poetas"
   ]
  },
  "hesiodo": {
@@ -224,7 +225,8 @@ const ILUSTRES = {
   "temas": [
    "hf-preso",
    "hf-ap",
-   "hf-platon"
+   "hf-platon",
+   "hf-montaigne-ensayos"
   ]
  },
  "anaxagoras": {
@@ -436,6 +438,8 @@ const ILUSTRES = {
    "hf-antropologia",
    "hf-etica",
    "hf-politica",
+   "hf-montaigne-ensayos",
+   "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha"
   ]
@@ -619,7 +623,9 @@ const ILUSTRES = {
    "hf-platon-agustin",
    "hf-fe-razon",
    "hf-modernidad",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
+   "hf-kant-poetas",
    "hf-sospecha",
    "hf-descartes-makro"
   ]
@@ -715,6 +721,7 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-fe-razon",
    "hf-modernidad",
+   "hf-montaigne-ensayos",
    "hf-contrato",
    "hf-utilitarismo",
    "hf-descartes-makro"
@@ -777,6 +784,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-helenismo",
+   "hf-montaigne-ensayos",
    "hf-descartes-makro"
   ]
  },
@@ -802,7 +810,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-helenismo"
+   "hf-helenismo",
+   "hf-montaigne-ensayos"
   ]
  },
  "straton": {
@@ -926,6 +935,32 @@ const ILUSTRES = {
   ],
   "temas": []
  },
+ "seneca": {
+  "name": "Seneca",
+  "dates": "c. 4 BC – AD 65",
+  "born": -4,
+  "died": 65,
+  "place": "Cordoba (Hispania)",
+  "role": "Roman Stoic philosopher",
+  "idea": "We do not control what happens to us, but we do control how we face it; wisdom consists in mastering the passions and making good use of the time of one’s life.",
+  "bio": "<p>Lucius Annaeus Seneca was born in Cordoba, in the Roman province of Hispania, and was educated in Rome, where he studied rhetoric and philosophy. He was a lawyer, senator and successful writer. Exiled to Corsica for several years, on his return he became tutor and adviser to the young emperor <strong>Nero</strong>, with whom he came to have great power. Later he withdrew from public life. In AD 65, accused of taking part in a conspiracy against Nero, he was ordered to take his own life and did so.</p>\n<p>Seneca is the great representative of Roman <strong>Stoicism</strong>. More than physics or logic, he is interested in practical ethics: how to live well. He maintains that we do not control what happens, but we do control our reaction to it. That is why he proposes <strong>self-mastery</strong>: controlling emotions such as anger, accepting what cannot be changed and facing death with serenity. In <em>On the Shortness of Life</em> he argues that life is not short, but that we waste it, and that time should be devoted to what truly matters.</p>\n<p>He also wrote tragedies and a large number of moral letters. Widely read in the Middle Ages and the Renaissance, he influenced Montaigne and many moralists, and in Spain he was regarded as a thinker of their own, to the point that people spoke of ‘Senecanism’. Today his works remain one of the most popular ways into the Stoic philosophy of Zeno of Citium.</p>",
+  "obras": [
+   "Letters to Lucilius",
+   "On the Shortness of Life",
+   "On Anger",
+   "On the Happy Life"
+  ],
+  "anecdota": "<p>In <em>On Anger</em>, Seneca describes a habit he took from the philosopher Sextius. Every night, when the lamp had been removed and his wife had fallen silent, he went over his whole day: what he had done wrong, where he had given way to anger, what he could improve. He asked himself, like a judge before himself, which fault he had cured that day. He said that after this examination he slept a calm, deep sleep. It is an example of Stoicism as a daily practice: philosophy is not just theory, but an <strong>exercise</strong> for governing oneself.</p>",
+  "fuente": "Seneca, On Anger III",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-montaigne-ensayos"
+  ]
+ },
  "tertuliano": {
   "name": "Tertullian",
   "dates": "c. 155 – c. 220",
@@ -1022,6 +1057,7 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-platon-agustin",
    "hf-fe-razon",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-descartes-makro"
   ]
@@ -1254,7 +1290,8 @@ const ILUSTRES = {
    "hf-aa",
    "hf-antropologia",
    "hf-medieval",
-   "hf-fe-razon"
+   "hf-fe-razon",
+   "hf-montaigne-ensayos"
   ]
  },
  "maimonides": {
@@ -1359,7 +1396,8 @@ const ILUSTRES = {
    "hf-aa",
    "hf-antropologia",
    "hf-medieval",
-   "hf-fe-razon"
+   "hf-fe-razon",
+   "hf-montaigne-ensayos"
   ]
  },
  "llull": {
@@ -1725,6 +1763,30 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "campanella": {
+  "name": "Tommaso Campanella",
+  "dates": "1568 – 1639",
+  "born": 1568,
+  "died": 1639,
+  "place": "Stilo (Calabria, Italy)",
+  "role": "Dominican friar, philosopher and utopian writer",
+  "idea": "In a just society there would be no private property: goods would be held in common and everyone would work a few hours a day.",
+  "bio": "<p>Tommaso Campanella was born in Stilo, in Calabria, in 1568. He joined the Dominican order very young and soon clashed with the Church over his philosophical ideas, which were opposed to Aristotle. In 1599 he was arrested for taking part in a conspiracy against Spanish rule in Calabria, and he spent some 27 years in the prisons of Naples. It was there that he wrote much of his work. Released in 1626, he eventually took refuge in France, and he died in Paris in 1639.</p>\n<p>His best-known work is <em>The City of the Sun</em>, written in prison in 1602 and published in Latin in 1623. It describes an ideal city without <strong>private property</strong>, where everything is held in common, no one is rich or poor and everyone works about four hours a day, so that they have time left to learn. It follows the tradition of Plato’s <em>Republic</em> and Thomas More’s <em>Utopia</em>. That is why he is counted among the classics of <strong>utopian communism</strong>: nineteenth-century socialists such as Marx read him as a forerunner who had already imagined a society without private property.</p>",
+  "obras": [
+   "The City of the Sun (1602; published in 1623)",
+   "Defence of Galileo (1622)"
+  ],
+  "anecdota": "<p>In 1600, Campanella was accused of conspiracy and heresy, and he might have ended up at the stake. Since the law did not allow a madman to be executed, he began to pretend he had lost his mind: he talked nonsense and even set fire to his mattress. The judges wanted to check whether he was faking, and in 1601 they subjected him to a torture called ‘the vigil’, in which he spent some 36 hours hanging and without sleep. He held out without dropping his act. Thanks to this he saved his life, although he was sentenced to life imprisonment.</p>",
+  "fuente": "Records of the Naples trial (1601); biographies of Campanella based on them",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
  "kepler": {
   "name": "Johannes Kepler",
   "dates": "1571 – 1630",
@@ -1878,9 +1940,11 @@ const ILUSTRES = {
    "hf-platon-agustin",
    "hf-fe-razon",
    "hf-modernidad",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-descartes-simulacion",
    "hf-metafisica",
+   "hf-spinoza-sistema",
    "hf-kant",
    "hf-capitalismo",
    "hf-existencialismo",
@@ -1939,8 +2003,12 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-medieval",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-metafisica",
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
+   "hf-kant-poetas",
    "hf-descartes-makro"
   ]
  },
@@ -1970,6 +2038,7 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-racionalismo",
    "hf-metafisica",
+   "hf-spinoza-universal",
    "hf-contrato",
    "hf-utilitarismo",
    "hf-ilustracion",
@@ -2055,6 +2124,7 @@ const ILUSTRES = {
   "temas": [
    "hf-racionalismo",
    "hf-metafisica",
+   "hf-spinoza-universal",
    "hf-kant",
    "hf-descartes-makro"
   ]
@@ -2132,6 +2202,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-spinoza-universal",
    "hf-ilustracion"
   ]
  },
@@ -2157,6 +2228,31 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metafisica"
+  ]
+ },
+ "mably": {
+  "name": "Gabriel Bonnot de Mably",
+  "dates": "1709 – 1785",
+  "born": 1709,
+  "died": 1785,
+  "place": "Grenoble (France)",
+  "role": "abbé, historian and political thinker",
+  "idea": "Inequality of wealth is the source of social evils; the equality and virtue of citizens are worth more than riches.",
+  "bio": "<p>Gabriel Bonnot de Mably was born in Grenoble in 1709. He was the elder brother of the philosopher Condillac. He studied at the seminary of Saint-Sulpice, in Paris, but was never ordained a priest, although he was always called ‘abbé’. He worked as a political adviser to Cardinal de Tencin, a minister of Louis XV, until he broke with him. From then on he lived modestly, devoted to writing history and politics. He died in Paris in 1785.</p>\n<p>Mably admired the ancient republics of Sparta and Rome, and thought that <strong>inequality</strong> of wealth corrupts citizens and destroys freedom. That is why he criticised the physiocrats, economists who defended private property as the basis of a ‘natural order’ of society. In his <em>Doubts Put to the Economist Philosophers</em> (1768) he argues that the <strong>community of goods</strong> would be the state most in keeping with nature, although he admits that it would be very difficult to return to it and settles for laws that limit wealth. His books were widely read during the French Revolution and, like Morelly’s, are counted among the sources of Babeuf’s communism.</p>",
+  "obras": [
+   "Doubts Put to the Economist Philosophers on the Natural and Essential Order of Political Societies (1768)",
+   "On Legislation, or the Principles of Laws (1776)",
+   "On the Rights and Duties of the Citizen (written in 1758; published in 1789)"
+  ],
+  "anecdota": "<p>Mably had a reputation for refusing honours. According to his first biographers, the Marshal de Richelieu pressed him so hard to stand for the Académie française that Mably did not dare say no. But as soon as he left the meeting he rushed to see his brother Condillac so that he would get him out of the commitment at any cost. The reason: new academicians had to deliver a eulogy of Cardinal Richelieu, the founder of the Académie, and Mably did not want to praise a politician whose ideas he rejected. He never became an academician.</p>",
+  "fuente": "Biographies of Mably from the late 18th century, collected in later biographical dictionaries (e.g. Chalmers’s)",
+  "tradicion": true,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
   ]
  },
  "hume": {
@@ -2192,8 +2288,10 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-fe-razon",
    "hf-modernidad",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-metafisica",
+   "hf-spinoza-universal",
    "hf-kant",
    "hf-descartes-makro"
   ]
@@ -2221,6 +2319,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-medieval",
+   "hf-montaigne-ensayos",
    "hf-contrato",
    "hf-ilustracion",
    "hf-kant"
@@ -2249,7 +2348,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-ilustracion"
+   "hf-ilustracion",
+   "hf-marx-biblioteca"
   ]
  },
  "helvetius": {
@@ -2269,7 +2369,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
  },
  "dalembert": {
   "name": "Jean le Rond d’Alembert",
@@ -2295,6 +2397,30 @@ const ILUSTRES = {
    "hf-ilustracion"
   ]
  },
+ "morelly": {
+  "name": "Étienne-Gabriel Morelly",
+  "dates": "c. 1717 – c. 1778",
+  "born": 1717,
+  "died": 1778,
+  "place": "France (probably Paris)",
+  "role": "Enlightenment writer and communist thinker",
+  "idea": "Private property is the root of all vices; in a society in keeping with nature, nothing would belong to anyone in particular.",
+  "bio": "<p>Very little is known about Étienne-Gabriel Morelly. He was born around 1717, probably in Paris, and spent his childhood in Vitry-le-François, in north-eastern France. He published several books on human beings, education and politics, and from 1755 onwards almost all trace of him is lost. The dates of his life are approximate: 1778 is usually given as the year of his death, but it is not certain.</p>\n<p>His main work is the <em>Code of Nature</em> (1755). Morelly holds that human beings are not bad by nature: they are corrupted by <strong>private property</strong>, which awakens greed and gives rise to the other vices. That is why he proposes laws under which goods are held in common, each citizen works according to their strength and receives what they need from the public storehouse. He had earlier set out similar ideas in the form of a novel, the <em>Basiliade</em> (1753). The book influenced Babeuf and the Conspiracy of the Equals, which is why it has a place among the origins of <strong>modern communism</strong>: it is one of the first to turn the common sharing of goods into a programme of concrete laws.</p>",
+  "obras": [
+   "The Shipwreck of the Floating Islands, or Basiliade (1753)",
+   "Code of Nature (1755)"
+  ],
+  "anecdota": "<p>The <em>Code of Nature</em> was published without the author’s name, and for half a century almost everyone believed it had been written by Diderot, the editor of the <em>Encyclopédie</em>. The mistake even made its way into editions of Diderot’s works. Babeuf believed it too: at his trial in 1797 he quoted the book in his defence as if it were by Diderot, to show that his ideas had the backing of a great philosopher. Only at the beginning of the 19th century did bibliographers prove that the author was Morelly, an almost unknown writer.</p>",
+  "fuente": "Babeuf’s defence before the court of Vendôme (1797); Antoine-Alexandre Barbier, Dictionary of Anonymous Works",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
  "holbach": {
   "name": "Baron d’Holbach",
   "dates": "1723 – 1789",
@@ -2313,7 +2439,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-metafisica"
+   "hf-metafisica",
+   "hf-marx-biblioteca"
   ]
  },
  "smith": {
@@ -2364,13 +2491,153 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metodos",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-metafisica",
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
    "hf-ilustracion",
    "hf-kant",
+   "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha",
    "hf-descartes-makro"
+  ]
+ },
+ "lessing": {
+  "name": "Gotthold Ephraim Lessing",
+  "dates": "1729 – 1781",
+  "born": 1729,
+  "died": 1781,
+  "place": "Kamenz (Germany)",
+  "role": "playwright, critic and Enlightenment philosopher",
+  "idea": "No religion can prove that it possesses the whole truth; its worth is seen in the conduct of those who practise it, above all in tolerance.",
+  "bio": "<p>Gotthold Ephraim Lessing was born in 1729 in Kamenz, in Saxony, the son of a Protestant pastor. He studied Theology and Medicine in Leipzig, but devoted himself to writing: he was one of the first Germans who tried to live by the pen. He renewed German theatre with comedies and dramas such as <em>Minna von Barnhelm</em> and, as a critic, defended Shakespeare against the rules of French theatre. From 1770 he was librarian to the Duke of Brunswick in Wolfenbüttel. He died in Brunswick in 1781.</p>\n<p>Lessing thought that truth is something we seek rather than possess. He published fragments of an anonymous manuscript, the work of Hermann Samuel Reimarus, which criticised the Bible, and this set him against Pastor Goeze. In <em>Nathan the Wise</em> he defends <strong>religious tolerance</strong> with the parable of the three rings, and in <em>The Education of the Human Race</em> he presents religions as stages in humanity's learning. For the character of Nathan he drew on his friend Moses Mendelssohn. After his death, Jacobi recounted that in 1780 Lessing had confessed to him that he was a follower of Spinoza with the Greek formula ‘Hen kai pan’, ‘one and all’. When this was published in 1785, the <strong>pantheism controversy</strong> broke out.</p>",
+  "obras": [
+   "Laocoön (1766)",
+   "Minna von Barnhelm (1767)",
+   "Nathan the Wise (1779)",
+   "The Education of the Human Race (1780)"
+  ],
+  "anecdota": "<p>In the controversy with Pastor Goeze, Lessing wrote so quickly and with so much irony that his opponents turned to the authorities. In the summer of 1778, the Duke of Brunswick withdrew his permission to publish without censorship and forbade him to write any more about religion. Lessing did not give up. In a letter of September 1778 to Elise Reimarus, daughter of the author of the fragments, he explained that he was going to see whether they would at least let him preach in peace from his old pulpit: the theatre. The following year he published <em>Nathan the Wise</em>, a drama in verse about a Jew, a Muslim sultan and a Christian knight. Censorship had closed the door of theology to him, so he came in through the door of the stage.</p>",
+  "fuente": "Letter from Lessing to Elise Reimarus (6 September 1778)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "mendelssohn": {
+  "name": "Moses Mendelssohn",
+  "dates": "1729 – 1786",
+  "born": 1729,
+  "died": 1786,
+  "place": "Dessau (Germany)",
+  "role": "philosopher of the Jewish Enlightenment",
+  "idea": "Reason can prove the existence of God and the immortality of the soul, and the State must not compel anyone in matters of belief.",
+  "bio": "<p>Moses Mendelssohn was born in 1729 in Dessau, the son of a humble copyist of Jewish religious texts. At fourteen he followed his teacher, Rabbi David Fränkel, to Berlin. There he was a tutor and later bookkeeper and partner in a silk factory, while teaching himself German, Latin, mathematics and philosophy. His friendship with Lessing opened up the city's literary life to him. Because he was Jewish he never had full rights: in 1771 the Berlin Academy elected him a member, but King Frederick II did not confirm the appointment. He died in Berlin in 1786.</p>\n<p>He was called the ‘German Socrates’ because of his <em>Phaedon</em>, a dialogue in the manner of Plato that defends the <strong>immortality of the soul</strong>. In <em>Jerusalem</em> he called for the separation of State and religion and for <strong>freedom of conscience</strong>, and he translated the five books of Moses into German to bring Jews closer to European culture. When Jacobi told him about Lessing's alleged Spinozism, Mendelssohn replied with the <em>Morning Hours</em> (1785): he tried to save his friend by presenting him as the defender of a ‘purified pantheism’, compatible with religion. Kant joined the dispute the following year with the essay <em>What Does It Mean to Orient Oneself in Thinking?</em></p>",
+  "obras": [
+   "Philosophical Conversations (1755)",
+   "Phaedon (1767)",
+   "Jerusalem (1783)",
+   "Morning Hours (1785)"
+  ],
+  "anecdota": "<p>In 1763, the Berlin Academy of Sciences announced a prize competition with a difficult question: can the truths of metaphysics be as evident as those of mathematics? The prize was won by a man with no university education who earned his living in a silk factory: Moses Mendelssohn. The essay that came second was signed by a still little-known professor from Königsberg, Immanuel Kant. The Academy published the two works together. That same year, Mendelssohn obtained from the king the status of ‘protected Jew’, which allowed him to live in Berlin without fear of being expelled. He and Kant later kept up a correspondence full of mutual respect.</p>",
+  "fuente": "Berlin Academy of Sciences prize competition (1763) and correspondence between Kant and Mendelssohn",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "hamann": {
+  "name": "Johann Georg Hamann",
+  "dates": "1730 – 1788",
+  "born": 1730,
+  "died": 1788,
+  "place": "Königsberg (now Kaliningrad, Russia)",
+  "role": "religious thinker, the ‘Magus of the North’",
+  "idea": "There is no pure reason separate from language, tradition and history: we always think with inherited words.",
+  "bio": "<p>Johann Georg Hamann was born in Königsberg in 1730, the son of a barber-surgeon. He studied at his city's university without graduating and worked as a tutor in noble households in the Baltic. After a personal crisis in London he returned to Königsberg, where he spent almost all his life as a modest employee of the customs administration. He lived in financial difficulty and wrote short texts, full of quotations and allusions, so obscure that a contemporary called him the ‘Magus of the North’. He died in 1788 in Münster, during a journey to visit his friends, Jacobi among them.</p>\n<p>Hamann was Kant's friend and neighbour and, at the same time, his sharpest critic. Against the Enlightenment he defended <strong>faith</strong> and feeling, and held that <strong>reason is language</strong>: there is no pure reason that can be separated from the words and the history in which we think. That is why he wrote a <em>Metacritique</em> (1784) against the <em>Critique of Pure Reason</em>, published after his death. He was Herder's teacher and inspired the Sturm und Drang. In <em>Golgotha and Scheblimini</em> (1784) he criticised Mendelssohn's <em>Jerusalem</em>, and during the pantheism controversy he supported Jacobi with his letters.</p>",
+  "obras": [
+   "Socratic Memorabilia (1759)",
+   "Crusades of the Philologist (1762)",
+   "Golgotha and Scheblimini (1784)",
+   "Metacritique on the Purism of Reason (1784)"
+  ],
+  "anecdota": "<p>In 1757, a Riga trading house sent the young Hamann to London on a commercial mission. It was a complete failure. Alone in the city, he spent the money on clothes, entertainment and bad company, fell into debt and ended up ill and isolated in a boarding house. In March 1758, not knowing what to do, he began to read the Bible from beginning to end. He later said that this reading made him see himself in the story he was reading and that he came out of it converted. He set it down in writing in his <em>Thoughts about the Course of My Life</em>. When he returned to Königsberg he was no longer a man of the Enlightenment: he was the believer whom Kant would try, without success, to bring back to reason.</p>",
+  "fuente": "Hamann, Thoughts about the Course of My Life (1758)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-sospecha"
+  ]
+ },
+ "jacobi": {
+  "name": "Friedrich Heinrich Jacobi",
+  "dates": "1743 – 1819",
+  "born": 1743,
+  "died": 1819,
+  "place": "Düsseldorf (Germany)",
+  "role": "philosopher and novelist, critic of the Enlightenment",
+  "idea": "Reason, taken all the way, ends in Spinoza and in the denial of freedom; only a leap of faith gives us God and the free person.",
+  "bio": "<p>Friedrich Heinrich Jacobi was born in Düsseldorf in 1743, the son of a wealthy merchant. He trained for commerce in Frankfurt and in Geneva, where he discovered Rousseau, and later became a finance official of the Duchy of Jülich-Berg. His country house at Pempelfort, near Düsseldorf, was a meeting place for writers. He wrote two philosophical novels, <em>Allwill</em> and <em>Woldemar</em>. Fleeing the armies of the French Revolution, he settled in northern Germany and, from 1805, in Munich, where he was president of the Bavarian Academy of Sciences. He died there in 1819.</p>\n<p>Jacobi was the great philosophical critic of the Enlightenment. In <em>On the Doctrine of Spinoza</em> (1785), written in the form of letters to Mendelssohn, he told of his conversation with Lessing and argued that every rational philosophy, if it is consistent, ends in Spinoza's system: an impersonal God and a world without freedom. The way out is a <strong>mortal leap</strong> into <strong>faith</strong>, an immediate certainty that cannot be proved. He also criticised Kant: he objected that Kant needed the ‘thing in itself’ to get into his system, but could not keep it inside it. And in his open letter to Fichte (1799) he called a philosophy that reduces everything to the I <strong>nihilism</strong>.</p>",
+  "obras": [
+   "Woldemar (1779)",
+   "Concerning the Doctrine of Spinoza in Letters to Mr Moses Mendelssohn (1785)",
+   "David Hume on Faith, or Idealism and Realism (1787)",
+   "Letter to Fichte (1799)"
+  ],
+  "anecdota": "<p>In July 1774, Goethe, who had just published <em>Werther</em>, was travelling along the Rhine and spent a few days with Jacobi. They got on at once. In Cologne they visited the old house of the Jabach family, and Goethe recited his most recent ballads to his companions, among them ‘The King in Thule’. That night, when they had already gone to bed, Goethe went to find Jacobi to carry on talking. As he himself told it, the moonlight trembled on the broad Rhine while they talked by the window. Goethe admitted that Jacobi was far ahead of him in the study of Spinoza. Eleven years later, Spinoza would be at the centre of the controversy Jacobi set off.</p>",
+  "fuente": "Goethe, Poetry and Truth, Book XIV",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "herder": {
+  "name": "Johann Gottfried Herder",
+  "dates": "1744 – 1803",
+  "born": 1744,
+  "died": 1803,
+  "place": "Mohrungen (now Morąg, Poland)",
+  "role": "philosopher of language and of history",
+  "idea": "Every people and every era has its own language, its own culture and its own worth; history is not a ladder leading up to enlightened Europe.",
+  "bio": "<p>Johann Gottfried Herder was born in 1744 in Mohrungen, in East Prussia, into a humble family. Between 1762 and 1764 he studied Theology in Königsberg, where he was a student of Kant and a friend of Hamann. He worked as a teacher and preacher in Riga, met Goethe in Strasbourg in 1770 and was court preacher in Bückeburg. In 1776, thanks to Goethe, he settled in Weimar as the highest authority of the duchy's Protestant Church. He died there in 1803.</p>\n<p>Herder argued that <strong>language</strong> arises from human nature itself and that each people thinks and feels through its language. That is why he valued folk poetry, collected songs from many countries and held that each culture has its own worth. He ended up as the opponent of the teacher of his youth: Kant criticised his <em>Ideas</em> in 1785, and Herder replied years later with a <em>Metacritique</em> against the <em>Critique of Pure Reason</em>. He also joined the pantheism controversy. In <em>God: Some Conversations</em> (1787) he defended Spinoza, whom he read as the philosopher of a God present throughout nature as a living <strong>force</strong>.</p>",
+  "obras": [
+   "Treatise on the Origin of Language (1772)",
+   "This Too a Philosophy of History (1774)",
+   "Ideas for the Philosophy of the History of Humanity (1784-1791)",
+   "God: Some Conversations (1787)"
+  ],
+  "anecdota": "<p>In 1769, aged twenty-four, Herder was fed up with Riga. He resigned as teacher and preacher and boarded a merchant ship bound for France, with no clear plan. For weeks, on the high seas, with no books and no obligations, he devoted himself to thinking and writing. In his travel journal he imagines school reforms, book projects and a history of humanity. He also reproaches himself for having lived until then among papers, far from real life. The ship reached Nantes, and from there Herder went on to Paris. His <em>Journal of My Voyage in the Year 1769</em> was not published until long after his death.</p>",
+  "fuente": "Herder, Journal of My Voyage in the Year 1769",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas",
+   "hf-sospecha"
   ]
  },
  "bentham": {
@@ -2397,6 +2664,7 @@ const ILUSTRES = {
   "temas": [
    "hf-utilitarismo",
    "hf-etica-deber",
+   "hf-marx-biblioteca",
    "hf-posmodernidad"
   ]
  },
@@ -2423,6 +2691,58 @@ const ILUSTRES = {
    "hf-ilustracion"
   ]
  },
+ "goethe": {
+  "name": "Johann Wolfgang von Goethe",
+  "dates": "1749 – 1832",
+  "born": 1749,
+  "died": 1832,
+  "place": "Frankfurt am Main (Germany)",
+  "role": "poet, novelist, naturalist and minister",
+  "idea": "The universal is not reached by moving away from things, but by looking at them carefully: in the particular, well observed, the law can be seen.",
+  "bio": "<p>Johann Wolfgang Goethe was born in 1749 in Frankfurt am Main, into a well-off family. He studied Law in Leipzig and Strasbourg, where he met Herder, and became famous with <em>The Sorrows of Young Werther</em>. In 1775 he settled in Weimar, where he was the duke's minister, director of the theatre and responsible for the University of Jena. He was ennobled in 1782. His journey to Italy led him towards classicism, and his friendship with Schiller, from 1794, gave rise to Weimar Classicism. He died in Weimar in 1832.</p>\n<p>Goethe was not a systematic philosopher and distrusted abstractions, but he thought a great deal about nature. He studied the <strong>metamorphosis</strong> of plants, bones and colours, always looking for the common form that recurs in living things. As a young man he read Spinoza's <em>Ethics</em>, which calmed him, as he said, and he went back to it in 1784-1785. From Spinoza he took the idea of a God present in <strong>nature</strong> and not separate from it. His poem <em>Prometheus</em> was at the origin of the pantheism controversy. What interested him most in Kant was the <em>Critique of Judgement</em>, because it dealt with art and living beings together.</p>",
+  "obras": [
+   "The Sorrows of Young Werther (1774)",
+   "The Metamorphosis of Plants (1790)",
+   "Wilhelm Meister's Apprenticeship (1795-1796)",
+   "Faust (1808 and 1832)"
+  ],
+  "anecdota": "<p>In Goethe's time it was said that one difference between human beings and other mammals was that we lacked the intermaxillary bone, the one that holds the upper incisors in animals. Goethe suspected that nature does not make such leaps. In March 1784, comparing skulls in Jena with the anatomist Loder, he found traces of that bone in the human skull. He wrote straight away to Herder, overjoyed: he had found neither gold nor silver, but something that gave him unspeakable joy. For him it was proof that all animals follow a single plan. He was not the first to describe it, but he reached it on his own.</p>",
+  "fuente": "Letter from Goethe to Herder (27 March 1784)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "roux": {
+  "name": "Jacques Roux",
+  "dates": "1752 – 1794",
+  "born": 1752,
+  "died": 1794,
+  "place": "Pranzac (France)",
+  "role": "priest and ‘enragé’ revolutionary",
+  "idea": "Freedom is an illusion if one class of people can starve another; hoarders must be punished and prices fixed.",
+  "bio": "<p>Jacques Roux was born in Pranzac, in western France, in 1752. He was ordained a priest and taught at a seminary. With the Revolution he swore the oath to the new Civil Constitution of the Clergy and settled in Paris, in a working-class district, where he preached on behalf of the poor: he was called the ‘red priest’. He was elected to the Paris Commune and led, with Leclerc and Varlet, the group of the <strong>‘enragés’</strong> (‘the furious ones’). Arrested in 1793, he took his own life in Bicêtre prison in February 1794.</p>\n<p>On 25 June 1793 he read before the Convention the text known as the <em>Manifesto of the Enragés</em>. In it he argues that freedom and equality mean nothing as long as the rich can hoard food and push up prices. That is why he calls for laws against <strong>speculators</strong> and maximum prices for basic goods. The deputies threw him out of the chamber. Roux did not defend the community of goods, but he put the social question at the centre. Marx, in <em>The Holy Family</em> (1845), includes him with Leclerc in the revolutionary movement that led to Babeuf and produced the <strong>communist idea</strong>.</p>",
+  "obras": [
+   "Manifesto of the Enragés (1793)",
+   "Le Publiciste de la République française (newspaper, 1793)"
+  ],
+  "anecdota": "<p>On 21 January 1793, the Paris Commune instructed Roux, as a member of its council, to accompany Louis XVI to the guillotine. Before leaving, the king wanted to hand him a packet with his will so that he would pass it on to the Commune and to his family. According to the report that Roux himself wrote that day, the commissioners replied that their only task was to take him to the scaffold. The king then gave the packet to another of the commissioners. For the royalists, the scene turned Roux into the symbol of revolutionary harshness.</p>",
+  "fuente": "Report by Jacques Roux to the General Council of the Paris Commune (21 January 1793)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
  "hamilton": {
   "name": "Alexander Hamilton",
   "dates": "c. 1755 – 1804",
@@ -2440,6 +2760,54 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": []
+ },
+ "godwin": {
+  "name": "William Godwin",
+  "dates": "1756 – 1836",
+  "born": 1756,
+  "died": 1836,
+  "place": "Wisbech (England)",
+  "role": "political philosopher and novelist",
+  "idea": "Governments and accumulated property corrupt people; a society guided by reason could live without the State and share out goods according to need.",
+  "bio": "<p>William Godwin was born in Wisbech, in the east of England, in 1756, the son of a Protestant minister. He himself was a minister for a few years, until he lost his faith and devoted himself to writing in London. In 1797 he married the philosopher Mary Wollstonecraft, who died that same year after giving birth to their daughter, the future novelist Mary Shelley. He wrote a great deal, but almost always lived in financial difficulty. He died in London in 1836.</p>\n<p>In <em>An Enquiry Concerning Political Justice</em> (1793) he argues that reason can improve human beings indefinitely. Governments, laws and <strong>private property</strong> accumulated in a few hands hold back that progress, because they create inequality and submission. In a just society, each person would give their surplus goods to whoever needed them, and the State would end up being unnecessary. That is why he is regarded as a forerunner of <strong>anarchism</strong>, and his criticism of property interested nineteenth-century socialists. His novel <em>Caleb Williams</em> (1794) shows how a powerful man can persecute an innocent servant with the help of the law.</p>",
+  "obras": [
+   "An Enquiry Concerning Political Justice (1793)",
+   "Caleb Williams (1794)",
+   "Memoirs of the Author of ‘A Vindication of the Rights of Woman’ (1798)"
+  ],
+  "anecdota": "<p>Godwin and Mary Wollstonecraft had criticised marriage as an institution that chains people. However, when she became pregnant, they married in March 1797 to protect the baby, and many friends mocked their inconsistency. So they decided to live in a different way: they settled in a house in the London district of Somers Town, but Godwin also rented a flat a few streets away so he could work alone. During the day they wrote each other short notes, which went back and forth between the two houses, and in the evening they met up. Many of those notes survive.</p>",
+  "fuente": "Letters between Godwin and Wollstonecraft (1796-1797); Godwin, Memoirs of the Author of ‘A Vindication of the Rights of Woman’ (1798)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "hebert": {
+  "name": "Jacques-René Hébert",
+  "dates": "1757 – 1794",
+  "born": 1757,
+  "died": 1794,
+  "place": "Alençon (France)",
+  "role": "revolutionary journalist and politician",
+  "idea": "The Revolution must speak the language of ordinary people and punish its enemies without mercy.",
+  "bio": "<p>Jacques-René Hébert was born in Alençon, in Normandy, in 1757. He arrived in Paris penniless and survived on modest jobs, including one at a theatre. With the Revolution he made his name as a journalist and became a leader of the Paris Commune and of the Cordeliers Club. In 1794 he clashed with Robespierre, was accused of conspiring against the Republic and was guillotined in Paris that same year, together with his followers, known as ‘Hébertists’.</p>\n<p>His newspaper, <em>Le Père Duchesne</em> (1790-1794), was the most popular in Paris. It was written as if spoken by a foul-mouthed stove maker, with swear words and street expressions, in order to reach workers and craftsmen, the so-called <strong>sans-culottes</strong>. Hébert called for the punishment of rich hoarders, the guillotine for suspects and the <strong>dechristianisation</strong> of France. His interest for the history of socialism lies in the fact that he gave a political voice to the working people of Paris, although his programme was not communist: he demanded punishments and price controls, not the community of goods.</p>",
+  "obras": [
+   "Le Père Duchesne (newspaper, 1790-1794)"
+  ],
+  "anecdota": "<p>For months, <em>Le Père Duchesne</em> had mocked those condemned to death with macabre jokes about the guillotine, and it celebrated every execution. On 24 March 1794 it was Hébert’s turn. According to witnesses, he lost his nerve completely: he fainted several times during the journey by cart to the scaffold. The crowd, who had once bought his newspaper, insulted him and shouted jibes at him, imitating the style of Father Duchesne himself. The man who had cheered on the guillotine more than anyone was one of those who faced it worst.</p>",
+  "fuente": "Contemporary accounts of the execution of the Hébertists (March 1794)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
  },
  "wollstonecraft": {
   "name": "Mary Wollstonecraft",
@@ -2463,7 +2831,157 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-ilustracion"
+   "hf-ilustracion",
+   "hf-marx-biblioteca"
+  ]
+ },
+ "schiller": {
+  "name": "Friedrich Schiller",
+  "dates": "1759 – 1805",
+  "born": 1759,
+  "died": 1805,
+  "place": "Marbach am Neckar (Germany)",
+  "role": "playwright, poet and historian",
+  "idea": "Human beings are only fully free when reason and sensibility stop fighting, and beauty is the path for educating them in that harmony.",
+  "bio": "<p>Friedrich Schiller was born in 1759 in Marbach, in the Duchy of Württemberg. On the orders of Duke Charles Eugene he had to enter the duke's military academy, where he studied Law and then Medicine. He was a regimental doctor, but found success as a playwright with <em>The Robbers</em> (1781) and in 1782 fled the duchy so that he could write. In 1789 he became professor of History in Jena, in 1794 his friendship with Goethe began and in 1799 he settled in Weimar. There he wrote his great dramas, such as <em>William Tell</em>, until his death in 1805.</p>\n<p>Schiller is the poet who became a philosopher by reading Kant. He accepted human <strong>freedom</strong> and dignity, but challenged the Kantian ethics of duty: in <em>On Grace and Dignity</em> he proposed the ideal of the <strong>beautiful soul</strong>, in which duty and inclination no longer fight. In the <em>Letters on the Aesthetic Education of Man</em>, written after the Terror of the French Revolution, he argued that beauty educates for political freedom. Beethoven set his <em>Ode to Joy</em> (1785) to music in the Ninth Symphony, and that melody is today the anthem of the European Union.</p>",
+  "obras": [
+   "The Robbers (1781)",
+   "On Grace and Dignity (1793)",
+   "Letters on the Aesthetic Education of Man (1795)",
+   "William Tell (1804)"
+  ],
+  "anecdota": "<p>On 26 August 1792, the French Legislative Assembly made several foreigners whom it regarded as friends of liberty honorary citizens. Among them was Schiller, who was known in Paris for <em>The Robbers</em>. But the document went astray: it was addressed to a certain ‘Monsieur Gille’, and nobody knew who that was. The diploma did not reach Weimar until March 1798, almost six years later. By then, several of the revolutionaries who had signed it, such as Danton and Roland, had died during the Terror. Schiller, who had already criticised the violent turn of the Revolution, thus received a certificate of citizenship signed by men whom the Revolution itself had devoured.</p>",
+  "fuente": "Decree of the French Legislative Assembly (26 August 1792); the diploma reached Weimar in March 1798",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas"
+  ]
+ },
+ "babeuf": {
+  "name": "François-Noël Babeuf",
+  "dates": "1760 – 1797",
+  "born": 1760,
+  "died": 1797,
+  "place": "Saint-Quentin (France)",
+  "role": "journalist and revolutionary",
+  "idea": "The Revolution will not be over until there is real equality: the land and its fruits must belong to everyone.",
+  "bio": "<p>François-Noël Babeuf was born near Saint-Quentin, in northern France, in 1760, into a poor family. Before the Revolution he worked for nobles, going through the old documents that set out feudal rights over the peasants, and there he saw at first hand how inequality worked. With the Revolution he became a journalist and was imprisoned several times. After the fall of Robespierre he took the name ‘Gracchus’, in honour of the Gracchi brothers, Roman tribunes who tried to redistribute the land, and published the newspaper <em>Le Tribun du peuple</em>.</p>\n<p>Babeuf held that equality before the law is not enough: <strong>real equality</strong> is needed, with land and goods held in common. In 1796 he organised, with others, the <strong>Conspiracy of the Equals</strong>, which aimed to overthrow the government of the Directory. It was denounced by an informer, and Babeuf was arrested, tried in Vendôme and guillotined in 1797. Marx, in <em>The Holy Family</em> (1845), places Babeuf’s conspiracy at the end of the revolutionary movement that produced the <strong>communist idea</strong>, and <em>The Communist Manifesto</em> (1848) mentions his writings as literature of the first proletarian movement.</p>",
+  "obras": [
+   "Le Tribun du peuple (newspaper, 1794-1796)"
+  ],
+  "anecdota": "<p>On 26 May 1797, the court of Vendôme read out the sentence: Babeuf and his comrade Darthé were condemned to death. At that moment, the two of them drew daggers they had hidden and stabbed themselves so as not to die on the scaffold. They did not manage to kill themselves. That night, Babeuf wrote a farewell letter to his wife and children. The next morning, wounded and covered in blood, they were taken to the guillotine. His friend Buonarroti, who was among the accused and escaped, told the story years later.</p>",
+  "fuente": "Filippo Buonarroti, Conspiracy for Equality, Known as Babeuf’s (1828); records of the Vendôme trial",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "saint-simon": {
+  "name": "Henri de Saint-Simon",
+  "dates": "1760 – 1825",
+  "born": 1760,
+  "died": 1825,
+  "place": "Paris",
+  "role": "social thinker and reformer",
+  "idea": "Modern society must be run by those who produce—scientists, industrialists and workers—and organised to improve the life of the poorest class.",
+  "bio": "<p>Claude-Henri de Rouvroy, Count of Saint-Simon, was born in Paris in 1760 into a noble family. At seventeen he enlisted to fight in the American War of Independence. During the French Revolution he grew rich buying up nationalised property, spent some time in prison as a suspect and ended up losing his fortune. He devoted the rest of his life to writing, nearly always short of money. He died in Paris in 1825.</p>\n<p>Saint-Simon saw that the Revolution had opened up a new era: that of <strong>industrial society</strong>. In it, those who should be in charge are the producers, that is, scientists, industrialists, craftsmen and workers, and not the nobles, soldiers and courtiers, whom he regarded as idle. Politics was to become the administration of production. In his last book, <em>New Christianity</em>, he called for the whole of society to be organised to improve the lot of the poorest class. His disciples founded <strong>Saint-Simonianism</strong>, a very influential movement. <em>The Communist Manifesto</em> (1848) includes him, together with Fourier and Owen, in <strong>critical-utopian socialism</strong>: they criticised the society of their time accurately, but put their trust in ideal plans rather than in the struggle of the working class.</p>",
+  "obras": [
+   "Letters from an Inhabitant of Geneva to His Contemporaries (1803)",
+   "L’Organisateur (1819-1820)",
+   "Catechism of the Industrialists (1823-1824)",
+   "New Christianity (1825)"
+  ],
+  "anecdota": "<p>In 1819, Saint-Simon published a ‘parable’ in his journal <em>L’Organisateur</em>. He asked readers to imagine France suddenly losing its three thousand best scientists, artists and craftsmen: the country would be ruined for a generation. Then he imagined it losing the members of the royal family, among them the Duke of Berry, together with ministers, bishops and great landowners: people would be sorry out of humanity, but the country would carry on working just the same. In February 1820 the Duke of Berry was assassinated, and Saint-Simon was put on trial as if his text had encouraged the crime. The court acquitted him.</p>",
+  "fuente": "Saint-Simon, L’Organisateur (1819); trial before the criminal court (1820)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "buonarroti": {
+  "name": "Filippo Buonarroti",
+  "dates": "1761 – 1837",
+  "born": 1761,
+  "died": 1837,
+  "place": "Pisa (Italy)",
+  "role": "revolutionary and writer",
+  "idea": "Perfect equality, with goods held in common, is the goal of the revolution; to achieve it, an organised and determined minority is needed.",
+  "bio": "<p>Filippo Buonarroti was born in Pisa in 1761, into a noble family related to Michelangelo. He studied law and became enthusiastic about the French Revolution: he went to Corsica, where he founded a revolutionary newspaper and got to know the Bonaparte family, and in 1793 the Convention granted him French citizenship. In prison he met Babeuf and took part with him in the Conspiracy of the Equals of 1796. He escaped the guillotine, but spent years in prison or under surveillance. He then lived in exile in Geneva and Brussels, and died in Paris in 1837.</p>\n<p>His great work is <em>Conspiracy for Equality, Known as Babeuf’s</em> (1828), in which he tells the story of the Equals and explains their ideas: the <strong>community of goods</strong> and the need for a revolution prepared by a secret organisation. The book was the bridge between the French Revolution and the socialists of the 19th century. Thanks to it, revolutionaries such as Blanqui came to know Babeuf’s ideas, and that is why it is a key piece in the history of <strong>communism</strong>: without Buonarroti, the Conspiracy of the Equals would almost have been forgotten.</p>",
+  "obras": [
+   "Conspiracy for Equality, Known as Babeuf’s (1828)"
+  ],
+  "anecdota": "<p>Buonarroti devoted much of his life to secret societies. From exile, in Geneva and then in Brussels, he ran for decades a network of clandestine groups that communicated by coded letters and had different ranks: the members at the bottom did not know the ultimate aims of those at the top, which were communist. Some of these societies used Masonic lodges as a front. Because of this skill at conspiring without being discovered, the anarchist Bakunin called him ‘the greatest conspirator of his age’.</p>",
+  "fuente": "Historical studies of Buonarroti (Elizabeth Eisenstein, The First Professional Revolutionist, 1959); Bakunin’s testimony",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "fichte": {
+  "name": "Johann Gottlieb Fichte",
+  "dates": "1762 – 1814",
+  "born": 1762,
+  "died": 1814,
+  "place": "Rammenau (Germany)",
+  "role": "idealist philosopher",
+  "idea": "Everything starts from the activity of the I, which posits itself and posits the world over against itself as the obstacle on which it exercises its freedom.",
+  "bio": "<p>Johann Gottlieb Fichte was born in 1762 in Rammenau, a village in Saxony, into a family of poor weavers. A local nobleman paid for his education, and afterwards he worked for years as a tutor. Around 1790 he read Kant, and that reading changed his life. His first book, <em>Attempt at a Critique of All Revelation</em> (1792), appeared without his name and many took it for a work by Kant. In 1794 he obtained a chair in Jena, which he lost in 1799 when he was accused of atheism. He settled in Berlin and died there in 1814.</p>\n<p>Fichte presented himself as Kant's successor, but he took a step Kant did not want to take: doing away with the thing in itself. For him everything starts from the <strong>I</strong>, understood not as a thing but as a free activity that posits itself and posits the world, the not-I, over against itself as the obstacle on which it exercises its freedom. Thus <strong>German idealism</strong> was born. Kant publicly rejected this philosophy in 1799. During the French occupation, Fichte delivered the <em>Addresses to the German Nation</em> (1807-1808) in Berlin, which made him a figure of German nationalism.</p>",
+  "obras": [
+   "Attempt at a Critique of All Revelation (1792)",
+   "Foundations of the Entire Science of Knowledge (1794-1795)",
+   "The Vocation of Man (1800)",
+   "Addresses to the German Nation (1808)"
+  ],
+  "anecdota": "<p>In 1791, Fichte travelled to Königsberg to meet Kant, and the visit disappointed him: the old professor received him coldly. To catch his attention, he wrote in a few weeks an essay on revelation applying the critical philosophy, and sent it to him. Shortly afterwards, with no money to get home, he dared to ask him for a loan. Kant did not give it to him, but he helped him publish the manuscript with his own publisher. The book came out in 1792 without the author's name or his preface, and a Jena journal took it for granted that it was by Kant. When Kant made it clear publicly that the author was a certain Fichte, that unknown tutor became famous overnight.</p>",
+  "fuente": "Correspondence between Fichte and Kant (1791); Kant's statement in the Allgemeine Literatur-Zeitung of Jena (1792)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas"
+  ]
+ },
+ "schleiermacher": {
+  "name": "Friedrich Schleiermacher",
+  "dates": "1768 – 1834",
+  "born": 1768,
+  "died": 1834,
+  "place": "Breslau (now Wrocław, Poland)",
+  "role": "theologian, philosopher and translator",
+  "idea": "Religion is neither a form of knowledge nor a morality, but the feeling and intuition of the infinite in the finite.",
+  "bio": "<p>Friedrich Schleiermacher was born in Breslau in 1768, the son of a Protestant army chaplain. He was educated by the Moravian Brethren, a very pious community, but his doubts led him to study at the University of Halle, where he read Kant thoroughly. He was a preacher in Berlin, where he mixed with the Romantics and in particular with Friedrich Schlegel. He helped to found the University of Berlin, where he taught Theology, and he translated most of Plato's dialogues into German. He died in Berlin in 1834.</p>\n<p>In 1799 he published, unsigned, <em>On Religion: Speeches to Its Cultured Despisers</em>. For him, religion is not a set of doctrines, as it is for metaphysics, nor a support for morality, as in Kant, but <strong>feeling and intuition of the universe</strong>: the experience of the infinite in the finite. That is why he asked his readers to honour ‘the holy and repudiated Spinoza’, whom many considered an atheist. Later he defined religion as a <strong>feeling of absolute dependence</strong>. He is also the founder of modern <strong>hermeneutics</strong>, the art of interpreting texts.</p>",
+  "obras": [
+   "On Religion: Speeches to Its Cultured Despisers (1799)",
+   "Soliloquies (1800)",
+   "The Christian Faith (1821-1822)"
+  ],
+  "anecdota": "<p>On 21 November 1797, Schleiermacher turned twenty-nine, and his Romantic friends in Berlin threw him a party. Friedrich Schlegel, who was living with him at the time, took advantage of the celebration to extract a promise from him: before he turned thirty he had to write a book of his own. Schleiermacher, who until then had published hardly anything of his own, held out for months; in a letter to his sister Charlotte in 1798 he confessed that he did not think he was capable of finishing anything long. But in the end he kept his word. The book was <em>On Religion</em>, which appeared in 1799 without his name and made him famous throughout Germany.</p>",
+  "fuente": "Letters from Schleiermacher to his sister Charlotte (1797-1798)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal"
   ]
  },
  "hegel": {
@@ -2492,10 +3010,319 @@ const ILUSTRES = {
    "hf-historicidad",
    "hf-metodos",
    "hf-mito",
+   "hf-montaigne-ensayos",
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
+   "hf-kant-poetas",
    "hf-sospecha",
    "hf-capitalismo",
    "hf-posmodernidad",
    "hf-beauvoir"
+  ]
+ },
+ "holderlin": {
+  "name": "Friedrich Hölderlin",
+  "dates": "1770 – 1843",
+  "born": 1770,
+  "died": 1843,
+  "place": "Lauffen am Neckar (Germany)",
+  "role": "poet",
+  "idea": "Human beings have lost the unity with nature that the Greeks lived, and poetry can help to recover it.",
+  "bio": "<p>Friedrich Hölderlin was born in 1770 in Lauffen am Neckar, in Württemberg. His mother wanted him to become a Protestant pastor, which is why he studied at the Tübingen seminary, where he shared a room with Hegel and Schelling. There they read Plato, Kant and Spinoza together. In February 1791 Hölderlin wrote in Hegel's album the Greek formula ‘Hen kai pan’, ‘one and all’, which summed up the pantheism attributed to Spinoza. He worked as a tutor in several households; in Frankfurt he fell in love with Susette Gontard, his pupil's mother, whom he called Diotima in his work.</p>\n<p>In his novel <em>Hyperion</em> (1797-1799), a young Greek seeks to recover the <strong>unity with nature</strong> that the ancients lived and that modern man has lost. Hölderlin admired Kant, whom he called ‘the Moses of our nation’ in a letter to his brother, but he believed that reason alone is not enough: <strong>beauty</strong> and poetry allow us to feel what philosophy separates. From 1806 he suffered from a serious mental illness, and he spent the last thirty-six years of his life in Tübingen, where he died in 1843.</p>",
+  "obras": [
+   "Hyperion, or the Hermit in Greece (1797-1799)",
+   "The Death of Empedocles (1797-1800, unfinished)",
+   "Translations of Sophocles' Oedipus the King and Antigone (1804)"
+  ],
+  "anecdota": "<p>In 1807, after leaving a clinic in Tübingen, Hölderlin was taken in by the carpenter Ernst Zimmer, an admirer of <em>Hyperion</em>, who gave him a room in a tower by the River Neckar. He lived there for thirty-six years, looked after by the Zimmer family. He played the piano, walked in the garden and received curious students and poets, such as Eduard Mörike. He went on writing short, serene poems about the seasons of the year, which he signed with an invented name, Scardanelli, and dated with impossible years, a century earlier or a century later. The tower, known today as the Hölderlinturm, can be visited in Tübingen.</p>",
+  "fuente": "Accounts by Ernst Zimmer and Wilhelm Waiblinger; manuscripts of the tower poems",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "leclerc": {
+  "name": "Théophile Leclerc",
+  "dates": "1771 – 1820",
+  "born": 1771,
+  "died": 1820,
+  "place": "Lézigneux (France)",
+  "role": "‘enragé’ revolutionary journalist",
+  "idea": "The Revolution must keep going in favour of the poor, without stopping to compromise with the rich.",
+  "bio": "<p>Jean-Théophile-Victoire Leclerc was born in Lézigneux, in central France, in 1771. While still very young he travelled to the island of Martinique, where he took the side of the local revolutionaries and was expelled in 1791. Back in France, he became a soldier and fought at the battle of Jemappes (1792). In 1793 he was in Lyon, from where he went to Paris as an envoy of the city’s radical revolutionaries. That same year he married Pauline Léon, one of the founders of the Society of Revolutionary Republican Women. Little is known about his later life; he is believed to have died in 1820.</p>\n<p>In Paris he joined Jacques Roux and Varlet in the group of the <strong>‘enragés’</strong>. After Marat’s murder, in July 1793, he published <em>L’Ami du peuple</em>, intended as a continuation of Marat’s newspaper. He called for maximum prices for food, a purge of the army and a firm hand with suspects. The Jacobins expelled him for being too radical. Marx, in <em>The Holy Family</em> (1845), mentions <strong>Leclerc and Roux</strong> as links in the revolutionary movement that, from the Cercle social to Babeuf, produced the communist idea.</p>",
+  "obras": [
+   "L’Ami du peuple, par Leclerc (newspaper, 1793)"
+  ],
+  "anecdota": "<p>Leclerc and his wife, Pauline Léon, were an unusual revolutionary couple. In 1791 she had demanded that women be allowed to bear arms to defend the Revolution, and in 1793 she founded a club of republican women. He wrote the most radical newspaper in Paris. They married in November 1793, when the ‘enragés’ were already being persecuted by the Jacobins. In April 1794 they were both arrested and spent several months in prison. They came out in August, after the fall of Robespierre, and from then on withdrew from politics.</p>",
+  "fuente": "Police and court documents from 1794; Pauline Léon’s statement in prison",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "owen": {
+  "name": "Robert Owen",
+  "dates": "1771 – 1858",
+  "born": 1771,
+  "died": 1858,
+  "place": "Newtown (Wales)",
+  "role": "industrialist and socialist reformer",
+  "idea": "People’s character is formed by the circumstances in which they live; if those circumstances are improved, with education and decent work, people improve.",
+  "bio": "<p>Robert Owen was born in Newtown, in Wales, in 1771, the son of a craftsman. At the age of ten he started work as a draper’s apprentice, and when he was little more than twenty he was already managing a spinning mill in Manchester. In 1800 he took over the management of the cotton mills at New Lanark, in Scotland, which he turned into a model famous throughout Europe. He died in his home town in 1858.</p>\n<p>At New Lanark, Owen reduced the working day, stopped employing young children, improved the housing and opened schools, including one of the first for very young children. He started from one idea: <strong>character</strong> does not depend on each individual, but on the <strong>circumstances</strong> in which they are brought up. In 1825 he founded the community of New Harmony in the United States, which failed within two years. Afterwards he promoted <strong>cooperatives</strong> and the British trade unions. <em>The Communist Manifesto</em> (1848) includes him, with Saint-Simon and Fourier, in <strong>critical-utopian socialism</strong>, and Engels admired him as the reformer who did most for the working class in England.</p>",
+  "obras": [
+   "A New View of Society (1813)",
+   "Report to the County of Lanark (1821)",
+   "The Book of the New Moral World (1836-1844)",
+   "The Life of Robert Owen (1857)"
+  ],
+  "anecdota": "<p>In 1806, the United States stopped sending cotton to Britain and many mills had to stop. Those at New Lanark were left almost without work for four months. The normal thing would have been to dismiss the workers or stop paying them, but Owen persuaded his partners to keep paying full wages for the whole of that time, just to keep the machines clean and in order. That gesture won him the trust of the workers, who until then had been suspicious of him, and allowed him to carry out his reforms.</p>",
+  "fuente": "Robert Owen, The Life of Robert Owen, Written by Himself (1857)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "fourier": {
+  "name": "Charles Fourier",
+  "dates": "1772 – 1837",
+  "born": 1772,
+  "died": 1837,
+  "place": "Besançon (France)",
+  "role": "utopian socialist thinker",
+  "idea": "Work can be pleasant if society is organised in accordance with human passions, in free communities called phalansteries.",
+  "bio": "<p>Charles Fourier was born in Besançon in 1772, the son of a cloth merchant. He lost much of his inheritance in the siege of Lyon in 1793, during the Revolution, and earned his living almost always as a clerk and travelling salesman, a trade he loathed. He lived alone and with few resources, writing books that were little read in his time. He died in Paris in 1837.</p>\n<p>Fourier denounced the society of his age, which he called ‘civilisation’, for the disorder and deceit of trade and for the poverty it produced alongside wealth. He proposed replacing it with communities of about 1,600 people, the <strong>phalansteries</strong>, in which everyone would change tasks several times a day according to their tastes. In this way work would stop being a punishment and would become <strong>attractive work</strong>. He also defended the freedom of women and held that the degree of women’s emancipation measures the progress of a society. <em>The Communist Manifesto</em> (1848) places him, with Saint-Simon and Owen, in <strong>critical-utopian socialism</strong>; his followers, led by Victor Considerant, spread his ideas through Europe and America.</p>",
+  "obras": [
+   "The Theory of the Four Movements (1808)",
+   "Treatise on Domestic and Agricultural Association (1822)",
+   "The New Industrial and Societary World (1829)",
+   "False Industry (1835)"
+  ],
+  "anecdota": "<p>Fourier said that his great discovery began with an apple. Newly arrived in Paris from Rouen, he saw in a restaurant that a single apple cost much more than a whole heap of them did in the countryside. This seemed to him proof that trade was an absurd system, which enriched middlemen at everyone else’s expense. From then on he spoke of the four famous apples of history: Adam and Eve’s, that of Paris, which caused the Trojan War, Newton’s… and his own, which had revealed to him the disorder of society.</p>",
+  "fuente": "Fourier’s manuscripts, published by his school after his death",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "novalis": {
+  "name": "Novalis",
+  "dates": "1772 – 1801",
+  "born": 1772,
+  "died": 1801,
+  "place": "Oberwiederstedt (Germany)",
+  "role": "poet and thinker of Early Romanticism",
+  "idea": "The world must be romanticised: we must give back to the ordinary its mystery and discover the infinite in the finite.",
+  "bio": "<p>Friedrich von Hardenberg, who signed his works as Novalis, was born in 1772 in Oberwiederstedt, into a family of the minor nobility. He studied Law in Jena, where he was a student of Schiller, and then in Leipzig and Wittenberg. Later he studied mining in Freiberg in Saxony and worked as an inspector of salt works. At twenty-two he became engaged to Sophie von Kühn, who was thirteen. Her death in 1797 marked all his work. He died of tuberculosis in Weissenfels in 1801, aged only twenty-eight.</p>\n<p>Novalis studied Fichte in depth, but wanted to go further: if the I creates the world, it can also transform it with the imagination. He proposed to <strong>romanticise the world</strong>, that is, to discover the infinite in the finite and mystery in everyday life. For him, poetry, philosophy and science were to form a single body of knowledge. He admired Spinoza, whom he called ‘a God-intoxicated man’. In his <em>Hymns to the Night</em>, night and death are not the end, but the passage to a higher life. His unfinished novel <em>Heinrich von Ofterdingen</em> made the <strong>blue flower</strong> the symbol of Romantic longing.</p>",
+  "obras": [
+   "Pollen (1798)",
+   "Hymns to the Night (1800)",
+   "Christendom or Europe (1799, published in 1826)",
+   "Heinrich von Ofterdingen (1802, posthumous)"
+  ],
+  "anecdota": "<p>Sophie von Kühn died in March 1797, two days after turning fifteen. Novalis then began a diary in which he counted the days since her death, and he often visited her grave in Grüningen. On 13 May 1797 he noted that, at dusk, by the grave, he had felt an indescribable joy: it seemed to him that the tomb crumbled like dust, that centuries passed like moments and that he could feel her close. That experience passed, with few changes, into the <em>Hymns to the Night</em>. The following year, however, Novalis became engaged to another young woman, Julie von Charpentier.</p>",
+  "fuente": "Novalis's diary (1797)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "schlegel": {
+  "name": "Friedrich Schlegel",
+  "dates": "1772 – 1829",
+  "born": 1772,
+  "died": 1829,
+  "place": "Hanover (Germany)",
+  "role": "critic, philosopher and theorist of Romanticism",
+  "idea": "Romantic poetry is a progressive universal poetry: it unites all genres, unites poetry and philosophy, and is never finished.",
+  "bio": "<p>Friedrich Schlegel was born in Hanover in 1772. He studied Law, but devoted himself to Greek literature, criticism and philosophy. His first political writing, the <em>Essay on the Concept of Republicanism</em> (1796), was a reply to Kant's <em>Perpetual Peace</em>. With his brother August Wilhelm he founded the journal <em>Athenaeum</em> (1798-1800), the centre of the Jena Romantic circle. Later he studied Sanskrit, converted to Catholicism in 1808 and worked in Vienna in the service of the Austrian government. He died in Dresden in 1829.</p>\n<p>Schlegel is the great theorist of Early Romanticism. Against the classical work, perfect and closed, he champions the <strong>fragment</strong>, the open and always unfinished work. His concept of <strong>Romantic irony</strong> describes the attitude of the artist who creates and, at the same time, distances himself from what he creates, because no work can contain the infinite. In his <em>Dialogue on Poetry</em> (1800) he called for a new mythology and presented Spinoza as a source of inspiration for poets. His book on the language of India paved the way for comparative linguistics.</p>",
+  "obras": [
+   "Essay on the Concept of Republicanism (1796)",
+   "Lucinde (1799)",
+   "Dialogue on Poetry (1800)",
+   "On the Language and Wisdom of the Indians (1808)"
+  ],
+  "anecdota": "<p>In 1797, in Berlin, Friedrich Schlegel met Dorothea Veit, daughter of the philosopher Moses Mendelssohn, who was married to a banker, at a literary salon. They fell in love, and she divorced in order to live with him. In 1799 Schlegel published <em>Lucinde</em>, a novel about free and passionate love in which everyone recognised the couple. The scandal was enormous: many readers considered it indecent, and some of his own friends criticised it. Schleiermacher, with whom Schlegel had shared lodgings in Berlin, came to his defence with his <em>Confidential Letters on Lucinde</em> (1800). Friedrich and Dorothea married in 1804.</p>",
+  "fuente": "Schleiermacher, Confidential Letters on Schlegel's Lucinde (1800); correspondence of the Jena circle",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas"
+  ]
+ },
+ "laborde": {
+  "name": "Alexandre de Laborde",
+  "dates": "1773 – 1842",
+  "born": 1773,
+  "died": 1842,
+  "place": "Paris",
+  "role": "archaeologist, traveller and liberal politician",
+  "idea": "The free association of people and their capital is the best way to improve the life of the whole community.",
+  "bio": "<p>Alexandre de Laborde was born in Paris in 1773, the son of a wealthy court banker, who was guillotined in 1794. When the Revolution broke out, his family sent him to Austria, and he served as an officer in the Austrian army. He returned to France, travelled to Spain with Lucien Bonaparte’s embassy in 1800 and was a senior official under Napoleon. Later he was a liberal deputy for almost twenty years. He died in Paris in 1842.</p>\n<p>Laborde is known above all for his illustrated travel books, such as the <em>Picturesque and Historical Journey through Spain</em> (1807-1818), with engravings of monuments from all over the peninsula. In 1818 he published <em>On the Spirit of Association in All the Interests of the Community</em>. In this book he argues that the free <strong>association</strong> of people and capital, in companies, savings banks or aid institutions, can improve industry and the lives of workers. He was not a socialist but a reforming liberal, yet the theme of association was central for the first French socialists, who wanted to replace <strong>competition</strong> with cooperation.</p>",
+  "obras": [
+   "Picturesque and Historical Journey through Spain (1807-1818)",
+   "Descriptive Itinerary of Spain (1809)",
+   "On the Spirit of Association in All the Interests of the Community (1818)"
+  ],
+  "anecdota": "<p>In July 1830, King Charles X signed ordinances that abolished freedom of the press and cut back the right to vote. On 26 July, Laborde, who was already 56, gathered some fifteen liberal deputies at his house to decide what to do. The next day the insurrection broke out in Paris and Laborde joined it: he was on the barricades and was cheered at the offices of the liberal newspaper <em>Le National</em>. After the revolution triumphed, on 29 July he was appointed prefect of the Seine, the post that governed Paris.</p>",
+  "fuente": "Chronicles of the July Days of 1830; Archives parlementaires",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "thompson": {
+  "name": "William Thompson",
+  "dates": "1775 – 1833",
+  "born": 1775,
+  "died": 1833,
+  "place": "Cork (Ireland)",
+  "role": "Irish economist and socialist thinker",
+  "idea": "Whoever works has a right to everything they produce; the wealth that owners keep without working is an injustice.",
+  "bio": "<p>William Thompson was born in Cork, in Ireland, in 1775, into a wealthy merchant family. When his father died he inherited a merchant fleet and some land in the west of County Cork, where he lived among his tenants, whose education and farming methods he tried to improve. He was a friend of Jeremy Bentham, in whose London house he lived for a time. He never married. He died in Rosscarbery, near Cork, in 1833.</p>\n<p>Thompson started out as a utilitarian, but came to the conclusion that the greatest happiness of the greatest number was impossible as long as workers did not receive the <strong>whole product of their labour</strong>. He analysed how the owners of capital appropriate part of what others produce, and proposed replacing competition with <strong>cooperative communities</strong>. With his friend Anna Wheeler he wrote a plea for <strong>women’s political rights</strong>, against James Mill, who wanted to keep the vote for men. He is one of the English socialist economists whom Marx read and quoted in <em>The Poverty of Philosophy</em> (1847) and in <em>Capital</em>.</p>",
+  "obras": [
+   "An Inquiry into the Principles of the Distribution of Wealth (1824)",
+   "Appeal of One Half the Human Race, Women, Against the Pretensions of the Other Half, Men (1825)",
+   "Labour Rewarded (1827)"
+  ],
+  "anecdota": "<p>Thompson wanted his death to serve his ideas too. In his will he left most of his fortune to the cooperative movement and asked for his body to be given to science. A nephew, however, buried him with a Christian funeral, which scandalised those who knew him as an atheist, and his remains had to be dug up so that his wishes could be carried out. His brothers and sisters contested the will, claiming that he was mad. The lawsuit lasted some twenty-five years and the legal costs swallowed up the inheritance: neither the family nor the cooperatives received anything.</p>",
+  "fuente": "Thompson’s will and the subsequent lawsuit; local press in Cork",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "schelling": {
+  "name": "Friedrich Wilhelm Joseph Schelling",
+  "dates": "1775 – 1854",
+  "born": 1775,
+  "died": 1854,
+  "place": "Leonberg (Germany)",
+  "role": "idealist philosopher",
+  "idea": "Nature and spirit are two sides of one and the same absolute reality: nature is spirit that does not yet know itself.",
+  "bio": "<p>Friedrich Wilhelm Joseph Schelling was born in Leonberg, in Württemberg, in 1775. He was a precocious student: at fifteen he entered the Tübingen seminary, where he shared a room with Hegel and Hölderlin. In 1795 he wrote to Hegel: ‘I have become a Spinozist’, and explained the difference to him: for Spinoza the world was everything; for him, the I. At only twenty-three he was appointed professor in Jena. He later taught in Würzburg, Munich and Berlin, and died in 1854 at the Swiss spa town of Bad Ragaz.</p>\n<p>Schelling started from Fichte, but soon objected that Fichte reduced nature to a mere obstacle for the I. For Schelling, nature is alive and has its own history: it is <strong>slumbering spirit</strong>, which awakens in human beings and comes to know itself. That is why he defended a <strong>philosophy of nature</strong> and the underlying <strong>identity</strong> of nature and spirit. He also saw in art the highest way of reaching the absolute, an idea that delighted the Romantics. In his maturity he dealt with human freedom, evil and religion.</p>",
+  "obras": [
+   "Ideas for a Philosophy of Nature (1797)",
+   "System of Transcendental Idealism (1800)",
+   "Philosophical Investigations into the Essence of Human Freedom (1809)"
+  ],
+  "anecdota": "<p>In 1841, after Hegel's death, the King of Prussia called Schelling to Berlin to counter the influence of the Hegelians. His first lectures were an event: Kierkegaard, Engels, Bakunin and the historian Jacob Burckhardt came together in the lecture hall. Kierkegaard had travelled from Copenhagen just to hear him. At first he wrote enthusiastically that, when Schelling uttered the word ‘reality’, he had trembled with joy. A few months later, in letters to a friend, he was complaining that Schelling talked unbearable nonsense, and he went back to Denmark before the course ended. Engels, for his part, wrote pamphlets against him.</p>",
+  "fuente": "Letters and journals of Søren Kierkegaard (1841-1842)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "lamennais": {
+  "name": "Félicité de Lamennais",
+  "dates": "1782 – 1854",
+  "born": 1782,
+  "died": 1854,
+  "place": "Saint-Malo (France)",
+  "role": "priest and political writer",
+  "idea": "The Gospel demands freedom and justice for the people; the Church must separate itself from the power of kings and take the side of the poor.",
+  "bio": "<p>Félicité Robert de Lamennais was born in Saint-Malo, in Brittany, in 1782, the son of a shipowner. He was ordained a priest in 1816 and became famous with his <em>Essay on Indifference in Matters of Religion</em>, a passionate defence of the Church. He died in Paris in 1854.</p>\n<p>Over time, Lamennais came to defend the <strong>separation of Church and State</strong> and freedom of the press, of education and of conscience. In 1830 he founded the newspaper <em>L’Avenir</em>, which Pope Gregory XVI condemned in 1832. Lamennais ended up breaking with the Church, and in 1834 he published <em>Words of a Believer</em>, a short book written as if it were the Bible, in which he denounces the oppression of the poor by kings and the rich. It was a huge success, and the Pope condemned it in another encyclical. In 1841 he spent a year in prison for a pamphlet against the Government, and in 1848 he was elected a deputy. He is a key figure of <strong>Christian socialism</strong> and of Christian democracy, although he rejected communism. His influence over workers was so great that communists such as Dézamy wrote books to refute him.</p>",
+  "obras": [
+   "Essay on Indifference in Matters of Religion (1817-1823)",
+   "Words of a Believer (1834)",
+   "The Book of the People (1837)"
+  ],
+  "anecdota": "<p>Lamennais died in Paris in February 1854, without having been reconciled with the Church. He had left very clear instructions: he wanted his body to go to the cemetery without passing through any church, and to be buried in the common grave ‘among the poor’, as the poor were buried, without even a stone on his grave. And so it was done, in the Père-Lachaise cemetery. The police, fearing unrest, kept watch over the burial, and the crowd that wanted to accompany him was dispersed.</p>",
+  "fuente": "Lamennais’s will; accounts of his burial (1 March 1854)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "cabet": {
+  "name": "Étienne Cabet",
+  "dates": "1788 – 1856",
+  "born": 1788,
+  "died": 1856,
+  "place": "Dijon (France)",
+  "role": "lawyer and communist politician",
+  "idea": "Injustice is born of private property; a community of goods, achieved peacefully, would bring equality and fraternity.",
+  "bio": "<p>Étienne Cabet was born in Dijon in 1788, the son of a cooper. He was a lawyer and republican politician, and in 1831 he was elected a deputy. In 1833 he founded the newspaper <em>Le Populaire</em>, and the following year he was sentenced to two years in prison for his articles against King Louis-Philippe. To avoid serving the sentence he went into exile in England, where he read Thomas More’s <em>Utopia</em> and the ideas of Robert Owen. He died in St Louis (United States) in 1856.</p>\n<p>Back in France he published, in 1840, <em>Travels in Icaria</em>, a novel describing an imaginary country where there is no private property, everything is produced and shared out in common and the State organises the whole of life. Cabet defended a <strong>peaceful communism</strong>, achieved through propaganda and example, not through violence, and presented it as true Christianity. His ideas, those of the ‘<strong>Icarians</strong>’, had many followers among French workers in the 1840s, which explains why Marx included him in his list. However, his more radical collaborators, such as Théodore Dézamy, broke with him for being moderate and religious.</p>",
+  "obras": [
+   "Travels in Icaria (1840)",
+   "True Christianity According to Jesus Christ (1846)"
+  ],
+  "anecdota": "<p>Cabet decided to found Icaria for real in America. On 3 February 1848, a few weeks before the revolution that overthrew Louis-Philippe, an advance party of 69 settlers sailed from the port of Le Havre bound for Texas. The land was far from everything, the march was exhausting and malaria killed several of them. The survivors withdrew to New Orleans. In 1849 Cabet took them to Nauvoo, in Illinois, a town the Mormons had just abandoned. There the community lasted several years, until the settlers themselves rebelled against his authoritarianism.</p>",
+  "fuente": "History of the Icarian colony; Icarian press (Le Populaire)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "heine": {
+  "name": "Heinrich Heine",
+  "dates": "1797 – 1856",
+  "born": 1797,
+  "died": 1856,
+  "place": "Düsseldorf (Germany)",
+  "role": "poet and journalist",
+  "idea": "German philosophy, from Kant to Hegel, was a revolution in thought as profound as the French Revolution was in politics.",
+  "bio": "<p>Heinrich Heine was born in 1797 in Düsseldorf, into a Jewish merchant family. He studied Law and in Berlin attended Hegel's lectures. In 1825 he was baptised a Protestant, because many professions were closed to Jews. His <em>Book of Songs</em> (1827) made him famous as a poet. In 1831 he went to Paris, where he lived for the rest of his life as a correspondent and writer, always pursued by German censorship. From 1848 an illness left him bedridden, and he died in Paris in 1856.</p>\n<p>To explain Germany to the French he wrote <em>On the History of Religion and Philosophy in Germany</em> (1834). In it he compares Kant's <strong>Critique of Pure Reason</strong> with the French Revolution: Kant beheaded the old theology just as the revolutionaries beheaded the king. With irony he tells how Kant's life was so regular that his neighbours set their clocks when they saw him out walking, and how afterwards he gave God back out of pity for his old servant Lampe. Heine also devoted pages of admiration to Spinoza and to his idea of a God present in nature, <strong>pantheism</strong>, which he saw as the secret religion of Germany.</p>",
+  "obras": [
+   "Book of Songs (1827)",
+   "On the History of Religion and Philosophy in Germany (1834)",
+   "Germany: A Winter's Tale (1844)",
+   "Romanzero (1851)"
+  ],
+  "anecdota": "<p>In the epilogue to his <em>Romanzero</em> (1851), Heine tells of his last outing into the street. It was in May 1848, when his illness already made it almost impossible for him to walk. He dragged himself to the Louvre to say goodbye to the Venus de Milo, and when he reached her he collapsed. He says that he spent a long time weeping at her feet, and that the goddess looked at him with compassion, but could not help him, because she had no arms. From then on he lived for eight years lying in what he called his ‘mattress grave’. Scholars believe that Heine embellished or invented the scene as a symbolic farewell to the Greek gods.</p>",
+  "fuente": "Heine, epilogue to the Romanzero (1851)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal"
   ]
  },
  "comte": {
@@ -2548,6 +3375,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-sospecha",
+   "hf-marx-biblioteca",
    "hf-capitalismo"
   ]
  },
@@ -2579,6 +3407,80 @@ const ILUSTRES = {
    "hf-sospecha"
   ]
  },
+ "gay": {
+  "name": "Jules Gay",
+  "dates": "1807 – 1887",
+  "born": 1807,
+  "died": 1887,
+  "place": "Paris",
+  "role": "publisher and communist propagandist",
+  "idea": "The community of goods proposed by Robert Owen is the way to achieve social equality and equality between men and women.",
+  "bio": "<p>Jules Gay was born in Paris in 1807, the son of a publisher. In 1835 he became a disciple of Robert Owen and wrote in his English newspapers. In 1837 he translated a work by Owen into French and married, in London, Désirée Véret, a seamstress and feminist activist. In 1840 the couple tried to open a school for young children near Paris, which failed for lack of money. He died in Brussels in 1887.</p>\n<p>Gay was one of the few Frenchmen who spread Owen’s ideas: the <strong>community of goods</strong>, education and <strong>equality between the sexes</strong>. Marx, in <em>The Holy Family</em> (1845), mentions him alongside Dézamy among the French communists who developed <strong>materialism</strong> as the logical foundation of communism. In 1849 he published a single issue of a journal called <em>Le Communiste</em>. Afterwards he devoted himself to publishing and became a well-known bibliographer, although his books cost him several trials and the loss of his licence. In 1864 he left France and lived in Belgium, Switzerland and Italy. In exile he joined the International Workingmen’s Association.</p>",
+  "obras": [
+   "Fundamental Propositions of the Social System of the Community of Goods (translation of Owen, 1837)",
+   "Rational Socialism and Authoritarian Socialism (1868)"
+  ],
+  "anecdota": "<p>Jules Gay carried his ideas into his own life. His wife, Désirée Véret, had been a young Saint-Simonian seamstress who in 1832 took part in founding a newspaper written only by women. They married in London in 1837, in the thick of the Owenite milieu, and Jules supported her in her feminist activism, which she kept up all her life. His admiration for the English reformer was such that, when their second son was born, in 1842, they named him Owen. Désirée, for her part, never gave up the struggle: in 1866 she chaired the women’s section of the International Workingmen’s Association.</p>",
+  "fuente": "Biographies of Jules and Désirée Gay (Biographical Dictionary of the French Labour Movement)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "considerant": {
+  "name": "Victor Considerant",
+  "dates": "1808 – 1893",
+  "born": 1808,
+  "died": 1893,
+  "place": "Salins (France)",
+  "role": "engineer and Fourierist socialist politician",
+  "idea": "Society can be transformed peacefully by associating capital, labour and talent, without the need for a violent revolution.",
+  "bio": "<p>Victor Considerant was born in Salins, in the French Jura, in 1808. He studied at the École Polytechnique in Paris and was an officer in the military engineers, but he left the army to devote himself to spreading the ideas of Charles Fourier. When his master died, in 1837, he became the head of the Fourierist school. He died in Paris in 1893. He himself insisted that his surname is written without an accent.</p>\n<p>Considerant turned Fourierism into an organised movement, with newspapers such as the daily <em>La Démocratie pacifique</em>, founded in 1843. He defended a <strong>peaceful democracy</strong>: reforming society through the <strong>association</strong> of capital, labour and talent, without violence. In 1848 he was elected a deputy, and after taking part in the protest of 13 June 1849 against Louis-Napoléon Bonaparte he had to go into exile in Belgium and later in the United States. He returned to France in 1869 and supported the Paris Commune. In the 1840s he was the best-known spokesman of Fourier’s school, at which <em>The Communist Manifesto</em> (1848) directs its criticism of <strong>critical-utopian socialism</strong>.</p>",
+  "obras": [
+   "Social Destiny (1834)",
+   "Principles of Socialism. Manifesto of Democracy in the Nineteenth Century (1847)",
+   "In Texas (1855)"
+  ],
+  "anecdota": "<p>In exile, Considerant decided to put Fourier’s dream into practice in Texas. In 1855 he founded, by the Trinity River, near the small town of Dallas, the colony of La Réunion, where some two hundred French, Belgian and Swiss settlers arrived. Many were craftsmen, artists or intellectuals who did not know how to farm, the soil was poor and the climate harsh. The colony broke up within a few years. Many of those settlers stayed in Dallas and helped turn it into a city.</p>",
+  "fuente": "Considerant, In Texas; history of the colony of La Réunion (Dallas)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "dezamy": {
+  "name": "Théodore Dézamy",
+  "dates": "1808 – 1850",
+  "born": 1808,
+  "died": 1850,
+  "place": "Luçon (France)",
+  "role": "schoolteacher and communist theorist",
+  "idea": "Communism must be based on reason and materialism, not on religion: a well-organised community of goods would make vices and crimes pointless.",
+  "bio": "<p>Théodore Dézamy was born in Luçon, in the Vendée, in 1808. He was a schoolteacher in his region and later a supervisor at a boarding school in Paris. There he joined the secret republican societies and was secretary to Étienne Cabet, on whose newspaper he worked. He died in 1850, aged only forty-two.</p>\n<p>Dézamy soon criticised Cabet for his moderation and for presenting communism as a form of Christianity, and he broke with him at the end of 1841. In 1842 he published the <em>Code of the Community</em>, in which he describes in detail a society without private property, inspired by the French <strong>materialist</strong> philosophers of the 18th century. For him, <strong>communism</strong> does not need to rest on faith, but on reason and on knowledge of human nature. During the revolution of 1848 he founded a republican society with Blanqui and stood for election. Marx, in <em>The Holy Family</em> (1845), mentions him alongside Jules Gay among the French communists who developed <strong>materialism</strong> as the logical foundation of communism.</p>",
+  "obras": [
+   "Monsieur Lamennais Refuted by Himself (1841)",
+   "Code of the Community (1842)",
+   "Organisation of Liberty and Universal Well-Being (1846)"
+  ],
+  "anecdota": "<p>In the France of 1840 political meetings were banned, but banquets were not. So on 1 July of that year Dézamy and Jean-Jacques Pillot organised a large banquet in Belleville, then a village on the outskirts of Paris. Some 1,200 people attended, most of them workers. The speeches were disguised as toasts, and each toast was in fact a short lecture. It was the first time that a public event in France openly presented itself as communist, and the police took careful note of the organisers.</p>",
+  "fuente": "Accounts of the communist banquet at Belleville (1840)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
  "darwin": {
   "name": "Charles Darwin",
   "dates": "1809 – 1882",
@@ -2602,6 +3504,32 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-sospecha"
+  ]
+ },
+ "proudhon": {
+  "name": "Pierre-Joseph Proudhon",
+  "dates": "1809 – 1865",
+  "born": 1809,
+  "died": 1865,
+  "place": "Besançon (France)",
+  "role": "socialist and anarchist thinker",
+  "idea": "Property that allows people to live off the work of others is theft; a just society is based on free agreements between producers, without a State to dominate them.",
+  "bio": "<p>Pierre-Joseph Proudhon was born in Besançon in 1809, into a very humble family. As a child he herded cows, and he had to leave school to work as a typesetter, a trade in which he taught himself while setting and correcting books. A grant from the Academy of Besançon allowed him to devote himself to study. He died in Paris in 1865.</p>\n<p>In 1840 he published <em>What Is Property?</em>, with an answer that became famous: ‘property is theft’. He meant the property that allows people to collect rents and profits without working. In that book he declared himself an <strong>anarchist</strong>: a supporter of a society without government based on free agreements between producers, <strong>mutualism</strong>. Marx praised this work in <em>The Holy Family</em> (1845), but harshly criticised his <em>The Philosophy of Poverty</em> (1846) and replied to it with <em>The Poverty of Philosophy</em> (1847); <em>The Communist Manifesto</em> presents him as an example of <strong>conservative or bourgeois socialism</strong>. In 1848 he was elected a deputy and afterwards spent three years in prison for his articles against Louis-Napoléon Bonaparte. His influence on the labour movement, above all the anarchist movement, was enormous.</p>",
+  "obras": [
+   "What Is Property? (1840)",
+   "The System of Economic Contradictions, or The Philosophy of Poverty (1846)",
+   "General Idea of the Revolution in the Nineteenth Century (1851)",
+   "On the Political Capacity of the Working Classes (1865)"
+  ],
+  "anecdota": "<p>In 1846, Marx wrote to Proudhon inviting him to join a network of socialist correspondents from several countries. Proudhon accepted, but on one condition. He replied from Lyon that he was willing to search together for the laws of society, but that he did not want them to become the leaders of a new intolerance or to present themselves as the apostles of a new religion, even if it were the religion of reason. That letter foreshadowed the break: a few months later, Marx attacked his new book with <em>The Poverty of Philosophy</em>.</p>",
+  "fuente": "Letter from Proudhon to Marx (Lyon, 17 May 1846)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
   ]
  },
  "marx": {
@@ -2629,9 +3557,11 @@ const ILUSTRES = {
   "temas": [
    "hf-metodos",
    "hf-metafisica",
+   "hf-spinoza-universal",
    "hf-ilustracion",
    "hf-etica-deber",
    "hf-sospecha",
+   "hf-marx-biblioteca",
    "hf-capitalismo"
   ]
  },
@@ -2686,7 +3616,11 @@ const ILUSTRES = {
    "hf-metodos",
    "hf-platon-superficie",
    "hf-platon-agustin",
+   "hf-montaigne-ensayos",
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
    "hf-ilustracion",
+   "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha",
    "hf-posmodernidad",
@@ -2826,6 +3760,32 @@ const ILUSTRES = {
    "hf-analitica"
   ]
  },
+ "einstein": {
+  "name": "Albert Einstein",
+  "dates": "1879 – 1955",
+  "born": 1879,
+  "died": 1955,
+  "place": "Ulm (Germany)",
+  "role": "theoretical physicist",
+  "idea": "With the theory of relativity he showed that space and time are not absolute, but depend on the observer and on the presence of matter and energy.",
+  "bio": "<p>Albert Einstein was born in Ulm, into a Jewish family, and studied in Zurich. While working at the patent office in Bern he published several papers in 1905 that transformed physics. He was a professor in Prague, Zurich and Berlin and received the 1921 Nobel Prize in Physics for his explanation of the photoelectric effect. In 1933, with the Nazis’ rise to power, he emigrated to the United States, where he worked at Princeton until his death.</p>\n<p>His great contribution is the <strong>theory of relativity</strong>: the special (1905) and the general (1915). According to them, space and time are not absolute, and gravity is a curvature of space-time. He appears in the syllabus as an example of a <strong>scientific revolution</strong> in Kuhn’s sense: his physics replaced Newton’s <strong>paradigm</strong>, which had dominated for more than two centuries.</p>",
+  "obras": [
+   "Special theory of relativity (1905)",
+   "General theory of relativity (1915)"
+  ],
+  "anecdota": "<p>When he was four or five and ill in bed, Einstein’s father gave him a compass. The boy was fascinated: the needle always pointed in the same direction, as if an invisible force were guiding it, without anything touching it. Many years later, in his autobiographical notes, he recalled that moment as a wonder that left a deep impression on him: he understood that behind things there had to be ‘something deeply hidden’. That curiosity about the invisible forces that govern nature stayed with him all the way to the theory of relativity.</p>",
+  "fuente": "Einstein, Autobiographical Notes (1949)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
  "schlick": {
   "name": "Moritz Schlick",
   "dates": "1882 – 1936",
@@ -2918,6 +3878,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-historicidad",
+   "hf-montaigne-ensayos",
    "hf-analitica"
   ]
  },
@@ -3121,6 +4082,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-montaigne-ensayos",
    "hf-capitalismo"
   ]
  },

@@ -876,19 +876,25 @@ const CITAS = [
   "c": "That axiom accepted among philosophers will be raised against me: that there is nothing in the soul that does not come from the senses. But the soul itself and its affections must be excepted.",
   "a": "Leibniz",
   "o": "New Essays on Human Understanding (1704; publ. 1765) II, 1, § 2",
-  "e": "modern"
+  "e": "modern",
+  "id": "leibniz",
+  "img": "media/retratos/museo2/leibniz.jpg"
  },
  {
   "c": "Their being is to be perceived, and it is not possible for them to have any existence out of the minds or thinking things which perceive them.",
   "a": "Berkeley",
   "o": "A Treatise Concerning the Principles of Human Knowledge (1710) I, § 3",
-  "e": "modern"
+  "e": "modern",
+  "id": "berkeley",
+  "img": "media/retratos/museo2/berkeley.jpg"
  },
  {
   "c": "Just as light reveals itself and reveals darkness, so truth is the standard of itself and of what is false.",
   "a": "Spinoza",
   "o": "Ethics (1677) II, proposition 43, scholium",
-  "e": "modern"
+  "e": "modern",
+  "id": "spinoza",
+  "img": "media/retratos/museo/spinoza.jpg"
  },
  {
   "c": "To say of what is that it is not, or of what is not that it is, is false; to say of what is that it is, and of what is not that it is not, is true.",
@@ -974,13 +980,17 @@ const CITAS = [
   "c": "By convention sweet and by convention bitter; by convention hot, by convention cold, by convention colour; but in reality, atoms and void.",
   "a": "Democritus",
   "o": "fragment DK 68 B9 (in Sextus Empiricus, Against the Mathematicians VII, 135)",
-  "e": "ancient"
+  "e": "ancient",
+  "id": "democrito",
+  "img": "media/retratos/museo2/democrito.jpg"
  },
  {
   "c": "Speech is a powerful lord which, with the smallest and most invisible body, accomplishes most divine works: it can stop fear, remove grief, produce joy and increase pity.",
   "a": "Gorgias",
   "o": "Encomium of Helen, 8 (DK 82 B11)",
-  "e": "ancient"
+  "e": "ancient",
+  "id": "gorgias",
+  "img": "media/retratos/museo2/gorgias.jpg"
  },
  {
   "c": "Let no one, however young, put off philosophising; nor, however old, grow weary of philosophising. For the health of the soul no one is either too early or too late.",
@@ -1001,13 +1011,16 @@ const CITAS = [
   "c": "Philosophy is not a popular trade nor is it made for display; it lies not in words, but in deeds. […] It forms and shapes the soul, orders life, governs actions.",
   "a": "Seneca",
   "o": "Letters to Lucilius 16, 3",
-  "e": "ancient"
+  "e": "ancient",
+  "id": "seneca",
+  "img": "media/retratos/museo/seneca.jpg"
  },
  {
   "c": "What is not useful to the swarm is not useful to the bee either.",
   "a": "Marcus Aurelius",
   "o": "Meditations VI, 54",
-  "e": "ancient"
+  "e": "ancient",
+  "img": "media/retratos/museo/marco-aurelio.jpg"
  },
  {
   "c": "It is not you who are mortal, but this body; nor are you the one whom that form of yours shows: the mind of each person is that person, and not that figure which can be pointed at with a finger.",
@@ -1083,13 +1096,15 @@ const CITAS = [
   "c": "We are all patchwork, and so shapeless and diverse in composition that each piece, each moment, plays its own game. And there is as much difference between us and ourselves as between us and others.",
   "a": "Montaigne",
   "o": "Essays (1580) II, 1",
-  "e": "modern"
+  "e": "modern",
+  "img": "media/retratos/museo2/montaigne.jpg"
  },
  {
   "c": "Nothing is just or unjust that does not change its quality with a change of climate. […] A fine justice that is bounded by a river! Truth on this side of the Pyrenees, error on the other.",
   "a": "Blaise Pascal",
   "o": "Pensées, fr. 60 (Lafuma ed.) / 294 (Brunschvicg ed.)",
-  "e": "modern"
+  "e": "modern",
+  "img": "media/retratos/museo2/pascal.jpg"
  },
  {
   "c": "The ideas of the ruling class are in every epoch the ruling ideas; that is, the class which is the ruling material force of society is at the same time its ruling intellectual force.",
@@ -1103,13 +1118,16 @@ const CITAS = [
   "c": "The consciousness of God is the self-consciousness of man; the knowledge of God, the knowledge that man has of himself.",
   "a": "Feuerbach",
   "o": "The Essence of Christianity (1841), Introduction, 2",
-  "e": "contemporary"
+  "e": "contemporary",
+  "id": "feuerbach",
+  "img": "media/retratos/museo2/feuerbach.jpg"
  },
  {
   "c": "Compassion is the real basis of all free justice and of all genuine love of one’s neighbour.",
   "a": "Schopenhauer",
   "o": "On the Basis of Morality (1840), § 16",
-  "e": "contemporary"
+  "e": "contemporary",
+  "img": "media/retratos/museo/schopenhauer.jpg"
  },
  {
   "c": "Over himself, over his own body and mind, the individual is sovereign.",
@@ -1179,7 +1197,9 @@ const CITAS = [
   "c": "In poetry we meet directly the concrete, individual human being. In philosophy, the human being in his universal history.",
   "a": "María Zambrano",
   "o": "Philosophy and Poetry (1939)",
-  "e": "contemporary"
+  "e": "contemporary",
+  "id": "zambrano",
+  "img": "media/retratos/museo/zambrano.jpg"
  },
  {
   "c": "If the injustice is of such a nature that it requires you to be the agent of injustice towards another, then I say: break the law.",
@@ -1191,7 +1211,8 @@ const CITAS = [
   "c": "The unfortunate need nothing else in this world but people capable of giving them their attention. […] The fullness of love of one’s neighbour consists simply in being capable of asking him: ‘What are you going through?’",
   "a": "Simone Weil",
   "o": "‘Reflections on the Right Use of School Studies with a View to the Love of God’ (1942), in Waiting for God",
-  "e": "contemporary"
+  "e": "contemporary",
+  "img": "media/retratos/museo2/weil.jpg"
  },
  {
   "c": "If all men are born free, how is it that all women are born slaves?",
