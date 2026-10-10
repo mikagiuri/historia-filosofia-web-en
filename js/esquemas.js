@@ -91,6 +91,131 @@ const ESQUEMAS = {
    "idea": "For Aristotle, to change is to pass from potentiality to actuality, and a change is fully explained only by its four causes: of what, what, who and what for. Everything in nature tends towards an end."
   }
  },
+ "B1-REL-01": {
+  "subject": "hf",
+  "block": "B",
+  "tema": "Augustine of Hippo",
+  "title": "Saint Augustine: the human being between two loves",
+  "mermaid": "flowchart TD\n  n0[\"SAINT AUGUSTINE: THE HUMAN BEING BETWEEN TWO LOVES\"]:::axis\n  n1[\"Body\"]\n  n2[\"Disordered love\"]\n  n3[\"Free will\"]:::key\n  n4[\"Sin and evil\"]\n  n5[\"Grace\"]\n  n6[\"Inwardness\"]:::key\n  n7[\"If I am mistaken, I exist\"]\n  n8[\"Illumination\"]\n  n9[\"True happiness\"]\n  n10[\"The two cities\"]:::key\n  n11[\"Earthly city\"]\n  n12[\"City of God\"]\n  n13[\"Providence\"]\n  n14[\"God the Creator\"]\n  n15[\"Exemplary ideas\"]\n  n16[\"Time\"]\n  n0 -->|has a| n1\n  n1 -->|can drag it into| n2\n  n0 -->|chooses with its| n3\n  n3 -->|by turning away from God| n4\n  n3 -->|wounded, it needs| n5\n  n0 -->|searches in| n6\n  n6 -->|first certainty| n7\n  n6 -->|knows through| n8\n  n6 -->|finds| n9\n  n0 -->|lives in history| n10\n  n10 -->|love of self| n11\n  n10 -->|love of God| n12\n  n10 -->|mixed together, guided by| n13\n  n0 -->|everything comes from| n14\n  n14 -->|according to the| n15\n  n14 -->|creates along with the world| n16",
+  "v2": {
+   "pregunta": "Why does the human being, who seeks happiness, so often seek it where it is not to be found?",
+   "raiz": "SAINT AUGUSTINE: THE HUMAN BEING BETWEEN TWO LOVES",
+   "raiz_d": "‘You have made us for yourself, and our heart is restless until it rests in you’ (Confessions I 1,1). His whole philosophy explains that restlessness and the way out of it.",
+   "ramas": [
+    {
+     "rel": "has a",
+     "t": "Body",
+     "d": "Created by God and, therefore, good. It is neither a prison nor the origin of evil.",
+     "c": [
+      {
+       "rel": "can drag it into",
+       "t": "Disordered love",
+       "d": "Preferring lesser, sensible and passing goods as if they were the ultimate end. What is bad is not the goods themselves, but the order of love."
+      }
+     ]
+    },
+    {
+     "rel": "chooses with its",
+     "t": "Free will",
+     "k": true,
+     "d": "The will can turn towards God or turn away from him.",
+     "c": [
+      {
+       "rel": "by turning away from God",
+       "t": "Sin and evil",
+       "d": "Evil is not a substance: it is the privation of good. It arises from the will that turns away from the unchangeable Good (Confessions VII 12,18 and 16,22; Enchiridion 11-12)."
+      },
+      {
+       "rel": "wounded, it needs",
+       "t": "Grace",
+       "d": "After original sin, the will cannot turn back to God on its own (against Pelagius). Salvation depends on God: this is the problem of predestination."
+      }
+     ]
+    },
+    {
+     "rel": "searches in",
+     "t": "Interiority",
+     "k": true,
+     "d": "‘Do not go outside; return to yourself; truth dwells in the inner man’ (On True Religion 39,72).",
+     "c": [
+      {
+       "rel": "first certainty",
+       "t": "If I am mistaken, I exist",
+       "d": "Si fallor, sum (City of God XI 26): whoever doubts or is mistaken already exists. It is a forerunner of Descartes’s cogito."
+      },
+      {
+       "rel": "knows through",
+       "t": "Illumination",
+       "d": "The mind sees eternal truths thanks to a light that comes from God (On the Trinity XII 15,24). It is debated whether this is a special help or the mind’s natural participation in the divine mind."
+      },
+      {
+       "rel": "finds",
+       "t": "True happiness",
+       "d": "Only those who possess God, the supreme Good, which cannot be lost, are happy."
+      }
+     ]
+    },
+    {
+     "rel": "lives in history",
+     "t": "The two cities",
+     "k": true,
+     "d": "‘Two loves have made two cities’ (City of God XIV 28).",
+     "c": [
+      {
+       "rel": "self-love",
+       "t": "Earthly city",
+       "d": "Love of self to the point of contempt for God. Its political power can bring order and peace, but not salvation."
+      },
+      {
+       "rel": "love of God",
+       "t": "City of God",
+       "d": "Love of God to the point of contempt for self. It is neither the visible Church nor a place: it is a community of those who love God."
+      },
+      {
+       "rel": "mixed together, guided by",
+       "t": "Providence",
+       "d": "The two cities live together, intermingled, until the end of time (City of God I 35); God guides history."
+      }
+     ]
+    },
+    {
+     "rel": "everything comes from",
+     "t": "God the Creator",
+     "d": "He creates the world out of nothing, freely.",
+     "c": [
+      {
+       "rel": "according to the",
+       "t": "Exemplary ideas",
+       "d": "The models of all things are in the mind of God: they are Plato’s Ideas, placed in God (Eighty-Three Different Questions, q. 46)."
+      },
+      {
+       "rel": "creates along with the world",
+       "t": "Time",
+       "d": "The world was not created in time, but with time. ‘What, then, is time? If no one asks me, I know; if I wish to explain it, I do not know’ (Confessions XI 14,17)."
+      }
+     ]
+    }
+   ],
+   "cruces": [
+    {
+     "de": "Disordered love",
+     "rel": "founds the",
+     "a": "Earthly city"
+    },
+    {
+     "de": "Grace",
+     "rel": "leads to",
+     "a": "City of God"
+    },
+    {
+     "de": "Exemplary ideas",
+     "rel": "are known through",
+     "a": "Illumination"
+    }
+   ],
+   "idea": "The human being is free to love: if they love God above all things, they find truth and happiness within; if they love themselves and lesser goods as an end, they fall into evil. These two loves divide history into two cities, and everything comes from God, who creates the world according to his ideas."
+  }
+ },
  "BH-REL-01": {
   "subject": "hf",
   "block": "B",
