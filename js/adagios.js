@@ -37,7 +37,8 @@ const ADAGIOS = [
   "t": [
    "hf-sofistas",
    "hf-antropologia",
-   "fil-t2"
+   "fil-t2",
+   "hf-montaigne-ensayos"
   ]
  },
  {
@@ -697,6 +698,439 @@ const ADAGIOS = [
   "e": "mod",
   "t": [
    "hf-metafisica"
+  ]
+ },
+ {
+  "id": "examen",
+  "img": "media/galeria_museo/adagios/examen.jpg",
+  "pie": "Bust of Socrates, Roman copy of a Greek original from the 4th century BC (Vatican Museums)",
+  "la": "Ho anexétastos bíos ou biotós",
+  "gr": "Ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ",
+  "tr": "ho de anexétastos bíos ou biotós anthrópoi",
+  "es": "The unexamined life is not worth living.",
+  "o": "Plato, Apology of Socrates 38a",
+  "sen": "Socrates says this before the court that is trying him: he would rather die than stop examining himself and others. To live as a human being is to ask why we do what we do.",
+  "uso": "To explain what philosophy is for or to introduce Socrates.",
+  "trampa": "It does not say that the life of someone who does not philosophise is worth less, but that examining oneself is part of living well. Socrates does not ask anyone to write treatises: he asks them to ask themselves questions.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-sofistas",
+   "hf-antropologia",
+   "fil-t1"
+  ]
+ },
+ {
+  "id": "geometria",
+  "img": "media/galeria_museo/adagios/geometria.jpg",
+  "pie": "Mosaic of Plato's Academy, from a villa in Pompeii (1st century; National Archaeological Museum, Naples)",
+  "la": "Ageometretos medeis eisito",
+  "gr": "Ἀγεωμέτρητος μηδεὶς εἰσίτω",
+  "tr": "ageométretos medéis eisíto",
+  "es": "Let no one ignorant of geometry enter.",
+  "o": "Inscription that tradition places at the entrance to Plato's Academy; it is handed down by 6th-century commentators on Aristotle, such as John Philoponus and Elias",
+  "sen": "For Plato, mathematics trains the mind to think about what cannot be seen with the eyes: it is the step that comes before reaching the Ideas.",
+  "uso": "For Plato, the theory of Ideas and the divided line.",
+  "trampa": "There is no evidence that the inscription existed in Plato's time: it appears almost a thousand years later. What is Plato's is the place of mathematics in the philosopher's education (Republic VII).",
+  "amb": "saber",
+  "e": "ant",
+  "t": [
+   "hf-platon",
+   "hf-ap"
+  ]
+ },
+ {
+  "id": "arche",
+  "img": "media/galeria_museo/adagios/arche.jpg",
+  "pie": "Bust of Bias of Priene with his name in Greek, Roman copy (Vatican Museums)",
+  "la": "Magistratus virum indicat",
+  "gr": "Ἀρχὴ ἄνδρα δείκνυσι",
+  "tr": "arkhé ándra deíknysi",
+  "es": "Office will show the man.",
+  "er": "I, x, 76",
+  "o": "Saying attributed to Bias of Priene, one of the Seven Sages; quoted by Aristotle, Nicomachean Ethics V, 1, 1130a",
+  "sen": "As long as they have no power, anyone seems just. It is when they are in command, when their decisions affect others, that you really see what a person is like.",
+  "uso": "For justice, politics or the myth of the ring of Gyges.",
+  "amb": "politica",
+  "e": "ant",
+  "t": [
+   "hf-etica",
+   "hf-politica",
+   "fil-t6"
+  ]
+ },
+ {
+  "id": "primum",
+  "img": "media/galeria_museo/adagios/primum.jpg",
+  "pie": "The Peasant Wedding, by Pieter Bruegel the Elder (c. 1568; Kunsthistorisches Museum, Vienna)",
+  "la": "Primum vivere, deinde philosophari",
+  "es": "First live, then philosophise.",
+  "o": "Traditional formula, sometimes attributed to Hobbes without confirmation; a similar idea appears in the Greek poet Phocylides: ‘seek first a livelihood, and then virtue’",
+  "sen": "Before thinking you have to eat: philosophy needs basic needs to be met. Aristotle already said that philosophy was born when there was leisure.",
+  "uso": "For the origin of philosophy or for the relationship between material conditions and thought (Marx).",
+  "trampa": "It does not mean that philosophising is a useless luxury. It is often used to say the opposite: that only those who live with dignity can think freely.",
+  "amb": "humano",
+  "e": "mod",
+  "t": [
+   "hf-mito",
+   "hf-sospecha",
+   "fil-t1"
+  ]
+ },
+ {
+  "id": "ancilla",
+  "img": "media/galeria_museo/adagios/ancilla.jpg",
+  "pie": "The Triumph of St Thomas Aquinas, by Benozzo Gozzoli (c. 1470; Louvre Museum): Aristotle and Plato at his sides, Averroes at his feet",
+  "la": "Philosophia ancilla theologiae",
+  "es": "Philosophy is the handmaid of theology.",
+  "o": "Scholastic formula; the image comes from Philo and Clement of Alexandria and is attributed to Peter Damian (11th century), although the exact formula became widespread much later",
+  "sen": "Reason is at the service of faith: it serves to explain and defend what is believed, not to judge it.",
+  "uso": "For the topic of faith and reason in the Middle Ages.",
+  "trampa": "Not all medieval thinkers thought this way. Thomas Aquinas grants philosophy its own field, and Averroes held that the truth of reason does not contradict that of faith.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "hf-fe-razon",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "gratia",
+  "img": "media/galeria_museo/adagios/gratia.jpg",
+  "pie": "The Triumph of St Thomas Aquinas over the Heretics, by Filippino Lippi (1489-1491; Carafa Chapel, Santa Maria sopra Minerva, Rome)",
+  "la": "Gratia non tollit naturam, sed perficit",
+  "es": "Grace does not destroy nature but perfects it.",
+  "o": "Thomas Aquinas, Summa Theologiae I, q. 1, a. 8, ad 2",
+  "sen": "What God gives through faith does not cancel out what human beings achieve by themselves through reason, but completes it. Faith and reason work together.",
+  "uso": "For Thomas Aquinas's synthesis of Aristotle and Christianity.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "hf-fe-razon",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "adaequatio",
+  "img": "media/galeria_museo/adagios/adaequatio.jpg",
+  "pie": "St Thomas Aquinas, by Carlo Crivelli (1476; National Gallery, London)",
+  "la": "Veritas est adaequatio rei et intellectus",
+  "es": "Truth is the adequation of thing and intellect.",
+  "o": "Thomas Aquinas, De veritate q. 1, a. 1, who attributes it to Isaac Israeli; the idea comes from Aristotle, Metaphysics IV, 7",
+  "sen": "A statement is true when what we think matches what things are. It is the correspondence theory of truth.",
+  "uso": "For theories of truth in epistemology.",
+  "trampa": "It is not the only possible definition: there are coherence and consensus theories of truth, and the pragmatists understand truth as what works.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "fil-t3",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "recipitur",
+  "img": "media/galeria_museo/adagios/recipitur.jpg",
+  "pie": "The Milkmaid, by Johannes Vermeer (c. 1660; Rijksmuseum, Amsterdam): the milk takes the shape of the vessel",
+  "la": "Quidquid recipitur ad modum recipientis recipitur",
+  "es": "Whatever is received is received according to the mode of the receiver.",
+  "o": "Scholastic axiom; Thomas Aquinas, Summa Theologiae I, q. 75, a. 5; it originates in the Neoplatonism of the Book of Causes",
+  "sen": "Whoever receives something transforms it according to their own nature, as a liquid takes the shape of its container. The same happens with knowledge: each person understands according to their capacity.",
+  "uso": "For epistemology, from scholasticism to Kant, or to talk about how a work is received.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "fil-t3",
+   "hf-kant",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "parendo",
+  "img": "media/galeria_museo/adagios/parendo.jpg",
+  "pie": "Francis Bacon, portrait attributed to Paul van Somer (1617)",
+  "la": "Natura non nisi parendo vincitur",
+  "es": "Nature, to be commanded, must be obeyed.",
+  "o": "Francis Bacon, Novum Organum I, 3 (1620)",
+  "sen": "To master nature you have to know its laws and respect them. Knowledge and power go together.",
+  "uso": "For Bacon, the Scientific Revolution or technology.",
+  "trampa": "It is not a call to respect nature in an environmentalist sense: Bacon wanted to know it in order to master it better.",
+  "amb": "saber",
+  "e": "ren",
+  "t": [
+   "hf-modernidad",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "etsi",
+  "img": "media/galeria_museo/adagios/etsi.jpg",
+  "pie": "Hugo Grotius, by Michiel van Mierevelt (1631)",
+  "la": "Etsi Deus non daretur",
+  "es": "Even if God did not exist.",
+  "o": "Hugo Grotius, On the Law of War and Peace (1625), Prolegomena, 11: ‘even if we were to concede [...] that there is no God’; the short formula is later",
+  "sen": "The basic rules of justice would hold even if God did not exist, because they are grounded in human nature and in reason. It is the starting point of modern natural law.",
+  "uso": "For natural law, the social contract or secularism.",
+  "trampa": "Grotius was a believer: he does not deny God, but shows that law does not depend on each person's faith. He adds that supposing God does not exist would be a most grievous sin.",
+  "amb": "politica",
+  "e": "mod",
+  "t": [
+   "hf-contrato",
+   "fil-t6",
+   "fil-t5"
+  ]
+ },
+ {
+  "id": "aeternitatis",
+  "img": "media/galeria_museo/adagios/aeternitatis.jpg",
+  "pie": "Portrait of Spinoza, anonymous Dutch artist (c. 1665-1666)",
+  "la": "Sub specie aeternitatis",
+  "es": "Under the aspect of eternity.",
+  "o": "Spinoza, Ethics II, proposition 44, corollary 2 (‘sub quadam aeternitatis specie’), and Ethics V",
+  "sen": "It is in the nature of reason to see things as necessary, not as accidents of the moment. Seeing them this way frees us from the passions and brings a serene joy.",
+  "uso": "For Spinoza or to talk about stepping back from what is immediate.",
+  "amb": "realidad",
+  "e": "mod",
+  "t": [
+   "hf-metafisica"
+  ]
+ },
+ {
+  "id": "saltus",
+  "img": "media/galeria_museo/adagios/saltus.jpg",
+  "pie": "Title page of Linnaeus's Philosophia botanica (Stockholm, 1751), where the Latin formula appears",
+  "fit": "contain",
+  "la": "Natura non facit saltus",
+  "es": "Nature does not make leaps.",
+  "o": "Leibniz, New Essays on Human Understanding, preface: ‘nature never makes leaps’; the Latin formula, in Linnaeus, Philosophia botanica (1751)",
+  "sen": "In nature everything changes gradually, without breaks: between two states there are always intermediate ones. It is Leibniz's law of continuity.",
+  "uso": "For Leibniz, the classification of living things or Darwin's theory of evolution, which repeats it.",
+  "trampa": "20th-century physics calls it into question: in quantum mechanics energy changes in jumps.",
+  "amb": "realidad",
+  "e": "mod",
+  "t": [
+   "hf-metafisica",
+   "fil-metafisica"
+  ]
+ },
+ {
+  "id": "determinatio",
+  "img": "media/galeria_museo/adagios/determinatio.jpg",
+  "pie": "Hegel, by Jakob Schlesinger (1831)",
+  "la": "Omnis determinatio est negatio",
+  "es": "All determination is negation.",
+  "o": "Spinoza, letter 50 to Jarig Jelles (1674): ‘determinatio negatio est’; Hegel turned it into a formula, with ‘omnis’",
+  "sen": "Saying what something is means saying what it is not: to define is to set limits. For Hegel, negation is the driving force of thought and of reality.",
+  "uso": "For Spinoza, Hegel and dialectics, including Marx's.",
+  "amb": "realidad",
+  "e": "mod",
+  "t": [
+   "hf-metafisica",
+   "hf-sospecha",
+   "fil-metafisica"
+  ]
+ },
+ {
+  "id": "carro",
+  "img": "media/galeria_museo/adagios/carro.jpg",
+  "pie": "‘The World Upside Down’, Flemish broadsheet (Turnhout, c. 1880): an ox mows the grass and a cockerel hatches the eggs",
+  "fit": "contain",
+  "la": "Currus bovem trahit",
+  "es": "To put the cart before the horse.",
+  "er": "I, vii, 28",
+  "o": "‘The cart draws the ox’, a proverb about doing things the wrong way round",
+  "sen": "Doing things in the wrong order, starting at the end. In logic it means reversing cause and effect, or taking as proven what you are trying to prove.",
+  "uso": "For argumentation and fallacies: confusing cause and effect, or begging the question.",
+  "trampa": "Erasmus's image, the Latin one, is slightly different: a cart that pulls the ox instead of being drawn by it.",
+  "amb": "saber",
+  "e": "ren",
+  "t": [
+   "fil-t4",
+   "hf-metodos"
+  ]
+ },
+ {
+  "id": "necesidad",
+  "img": "media/galeria_museo/adagios/necesidad.jpg",
+  "pie": "Title page of Nova reperta (‘New Inventions’), engraving after Jan van der Straet (c. 1590)",
+  "la": "Necessitas magistra",
+  "es": "Necessity is the mother of invention.",
+  "er": "IV, vi, 55",
+  "o": "The idea is in Plato, Republic II, 369c, where Socrates says of the city that ‘our need will be the real creator’; the Roman poet Persius calls the belly the ‘master of the arts’ (Satires, prologue)",
+  "sen": "Techniques, trades and even cities arise to meet needs: when we lack something, we find ingenious ways to get it.",
+  "uso": "For the origin of technology, of society or of the city in Plato.",
+  "trampa": "The phrase with ‘mother’ is not Plato's: it was made famous by a 19th-century English translation, Benjamin Jowett's.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-politica",
+   "hf-platon",
+   "fil-t6"
+  ]
+ },
+ {
+  "id": "hecho",
+  "img": "media/galeria_museo/adagios/hecho.jpg",
+  "pie": "Vanitas, by Philippe de Champaigne (1646; Musée de Tessé, Le Mans): a tulip, a skull and an hourglass",
+  "la": "Quod factum est, infectum fieri non potest",
+  "gr": "μόνου γὰρ αὐτοῦ καὶ θεὸς στερίσκεται, ἀγένητα ποιεῖν ἅσσ᾽ ἂν ᾖ πεπραγμένα",
+  "tr": "mónou gar autoú kai theós sterísketai, agéneta poiéin háss' an ei pepragména",
+  "es": "What's done is done.",
+  "er": "II, iii, 72",
+  "o": "The proverb has a forerunner in the poet Agathon, quoted by Aristotle, Nicomachean Ethics VI, 2, 1139b: ‘for this alone is lacking even to God, to make undone things that have once been done’; in Latin, Plautus, Aulularia 741",
+  "sen": "What has been done cannot be undone, so you have to accept the consequences. Aristotle quotes the line to explain that we only deliberate about the future, not about the past.",
+  "uso": "For moral responsibility, deliberation in Aristotle or the debate on whether God can change the past.",
+  "trampa": "The proverb asks us to accept the consequences; the Greek line says something stronger: not even omnipotence can change the past.",
+  "amb": "etica",
+  "e": "ant",
+  "t": [
+   "hf-etica",
+   "fil-t5"
+  ]
+ },
+ {
+  "id": "habito",
+  "img": "media/galeria_museo/adagios/habito.jpg",
+  "pie": "St Francis in Meditation, by Francisco de Zurbarán (1639; National Gallery, London)",
+  "la": "Cucullus non facit monachum",
+  "es": "The cowl does not make the monk.",
+  "o": "Medieval Latin proverb of uncertain origin; Shakespeare quotes it in Twelfth Night (I, 5) and in Measure for Measure (V, 1)",
+  "sen": "Appearance does not change what you are: dressing like a monk makes no one holy. We must judge by actions, not by image.",
+  "uso": "For the distinction between appearance and reality or for the critique of hypocrisy.",
+  "trampa": "It does not mean that appearance does not matter at all: it warns that it is not enough.",
+  "amb": "humano",
+  "e": "med",
+  "t": [
+   "hf-platon",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "oro",
+  "img": "media/galeria_museo/adagios/oro.jpg",
+  "pie": "The Alchemist, by David Teniers the Younger (c. 1640-1650; Mauritshuis, The Hague)",
+  "la": "Non teneas aurum totum quod splendet ut aurum",
+  "es": "All that glitters is not gold.",
+  "o": "Alain de Lille, Book of Parables (12th century): ‘do not take as gold everything that shines like gold’",
+  "sen": "What seems valuable is not always so. Appearances are deceptive, and you have to examine things before you trust them.",
+  "uso": "For the difference between appearance and reality, Plato's cave or critical thinking about information.",
+  "trampa": "It does not say that nothing that glitters is gold, but that not all of it is. The prudent conclusion is to examine, not to despise.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "hf-platon",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "taurum",
+  "img": "media/galeria_museo/adagios/taurum.jpg",
+  "pie": "The Moschophoros, statue of a man carrying a calf (c. 570 BC), newly unearthed on the Acropolis of Athens (photograph from c. 1865)",
+  "la": "Taurum tollet, qui vitulum sustulerit",
+  "es": "Whoever has carried the calf will carry the bull.",
+  "er": "I, ii, 51",
+  "o": "Ancient proverb collected by Erasmus; in the Essays I, 23 (‘Of custom’) Montaigne tells the story of a peasant woman who, from carrying a calf in her arms, went on carrying it when it was already an ox",
+  "sen": "Habit makes possible what seemed impossible: what is done little by little, every day, ends up seeming natural. That is why, for Montaigne, custom is so powerful, for good and for ill.",
+  "uso": "For the power of custom and habit (Aristotle, Hume) or for Montaigne.",
+  "trampa": "Montaigne does not tell it in praise of effort, but as a warning: custom also accustoms us to the absurd and stops us from seeing it.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-racionalismo",
+   "fil-t2"
+  ]
+ },
+ {
+  "id": "mores",
+  "img": "media/galeria_museo/adagios/mores.jpg",
+  "pie": "Nemesis or The Great Fortune, engraving by Albrecht Dürer (c. 1501-1502)",
+  "fit": "contain",
+  "la": "Sui cuique mores fingunt fortunam",
+  "es": "Each person's character shapes their fortune.",
+  "er": "II, iv, 30",
+  "o": "Line quoted by Cornelius Nepos, Life of Atticus 11; Erasmus comments on it at length, and Montaigne ends essay I, 42 (‘Of the inequality amongst us’) with it",
+  "sen": "Each person's lot depends more on their character than on chance. Montaigne uses it at the end of an essay on inequality: what truly distinguishes some people from others is not their wealth or their office, but what they are.",
+  "uso": "For character and fortune in ethics (the Stoics, Machiavelli) or for Montaigne.",
+  "trampa": "It does not mean that everyone gets what they deserve: Montaigne criticises precisely the fact that we judge people by their outward fortune.",
+  "amb": "etica",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-etica",
+   "fil-t5"
+  ]
+ },
+ {
+  "id": "sellis",
+  "img": "media/galeria_museo/adagios/sellis.jpg",
+  "pie": "Netherlandish Proverbs, by Pieter Bruegel the Elder (1559; Gemäldegalerie, Berlin): among the more than a hundred proverbs painted is that of the man who ends up in the ashes between two stools",
+  "la": "Duabus sedere sellis",
+  "es": "To fall between two stools.",
+  "er": "I, vii, 2",
+  "o": "Ancient proverb collected by Erasmus; Montaigne uses it in the Essays I, 54 (‘Of vain subtleties’) for the half-learned, who have been left ‘between two stools’",
+  "sen": "Whoever does not decide between two positions ends up with neither. Montaigne applies it to knowledge: simple peasants and true philosophers are decent people; those who do harm are the ones who have left natural ignorance behind without reaching wisdom.",
+  "uso": "For indecision, the misunderstood golden mean or Montaigne's criticism of pedants.",
+  "amb": "saber",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "lucernam",
+  "img": "media/galeria_museo/adagios/lucernam.jpg",
+  "pie": "Astronomer by Candlelight, by Gerrit Dou (c. 1656-1659; Getty Museum)",
+  "la": "Olet lucernam",
+  "es": "It smells of the lamp.",
+  "er": "I, vii, 71",
+  "o": "Plutarch, Life of Demosthenes 8: a rival said that Demosthenes' speeches smelt of the lamp; Erasmus collects it, and Montaigne uses it in the Essays I, 10 (‘Of prompt or slow speech’)",
+  "sen": "A work that ‘smells of the lamp’ shows too much of the effort of nights spent working: it feels stiff and unnatural. Montaigne preferred speech that seems spontaneous.",
+  "uso": "For style, essay writing or improvisation versus preparation.",
+  "trampa": "Montaigne does not despise hard work: he says that some minds need to prepare and others shine when improvising, and that each person should know their own.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos"
+  ]
+ },
+ {
+  "id": "crastinum",
+  "img": "media/galeria_museo/adagios/crastinum.jpg",
+  "pie": "Plutarch, in an engraving from 1565. Montaigne read his Lives in Jacques Amyot's French translation",
+  "la": "In crastinum seria",
+  "es": "Serious business tomorrow.",
+  "er": "IV, vii, 60",
+  "o": "Plutarch, Life of Pelopidas 10: it was said by Archias, tyrant of Thebes, when he left unopened the letter warning him of the conspiracy against him; Erasmus collects it, and Montaigne uses it as the title of essay II, 4 (‘Let business wait till tomorrow’)",
+  "sen": "Putting off what is urgent until tomorrow can cost dearly: Archias died that very night. Montaigne qualifies this: a wise person may put off a piece of news out of courtesy or for a more important matter, but not for their own pleasure.",
+  "uso": "For prudence, the tendency to put off what matters or Montaigne's essay.",
+  "amb": "etica",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-etica"
+  ]
+ },
+ {
+  "id": "stultitia",
+  "img": "media/galeria_museo/adagios/stultitia.jpg",
+  "pie": "Page from Montaigne's Essays in the 1595 edition",
+  "fit": "contain",
+  "la": "In nihil sapiendo iucundissima vita",
+  "gr": "Ἐν τῷ φρονεῖν γὰρ μηδὲν ἥδιστος βίος",
+  "tr": "en to phronéin gar medén hédistos bíos",
+  "es": "The sweetest life lies in knowing nothing.",
+  "er": "II, x, 81",
+  "o": "Sophocles, Ajax 554. Under this adage Erasmus gathers examples and quotations that Montaigne copies almost wholesale into the ‘Apology for Raymond Sebond’ (Essays II, 12). Montaigne knew the Adages so well that he wrote that, had he seen Erasmus, he would have taken everything he said to his servant for an adage (III, 2)",
+  "sen": "Whoever neither knows nor suspects does not suffer: sometimes ignorance seems happier than wisdom. Montaigne tells the story of a man who believed he owned all the ships that arrived at Piraeus and was sorry to be cured.",
+  "uso": "For Montaigne's scepticism, the ‘Apology’ or the debate on whether knowledge brings happiness (Ecclesiastes: ‘in much wisdom is much grief’).",
+  "trampa": "Montaigne does not simply praise ignorance: he uses it to take proud reason down a peg. And the line is spoken by Ajax in a tragedy, not by a philosopher.",
+  "amb": "saber",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-helenismo",
+   "fil-t1"
   ]
  }
 ];
