@@ -1873,6 +1873,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-marxismos",
    "hf-descartes-makro"
   ]
  },
@@ -2137,6 +2138,7 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-ilustracion",
    "hf-kant",
+   "hf-marxismos",
    "hf-analitica",
    "hf-descartes-makro"
   ]
@@ -3277,7 +3279,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-marx-biblioteca"
+   "hf-marx-biblioteca",
+   "hf-marxismos"
   ]
  },
  "schelling": {
@@ -3703,8 +3706,32 @@ const ILUSTRES = {
    "hf-etica-deber",
    "hf-sospecha",
    "hf-marx-biblioteca",
+   "hf-marxismos",
    "hf-corazon-piedra",
    "hf-capitalismo"
+  ]
+ },
+ "mendel": {
+  "name": "Gregor Mendel",
+  "dates": "1822 – 1884",
+  "born": 1822,
+  "died": 1884,
+  "place": "Heinzendorf (Silesia, now the Czech Republic)",
+  "role": "Augustinian friar and naturalist",
+  "idea": "Hereditary traits are transmitted through separate units, today called genes, which combine from generation to generation according to regular, predictable proportions.",
+  "bio": "<p>Gregor Mendel was born into a peasant family in Austrian Silesia. He entered the Augustinian monastery in Brno (then Brünn, in Moravia), which allowed him to study science at the University of Vienna. In the monastery garden he carried out crossing experiments for years with thousands of pea plants. In 1868 he was elected abbot, and the duties of the office drew him away from research.</p>\n<p>Mendel discovered the <strong>laws of heredity</strong>: characteristics pass from parents to offspring through separate units that combine according to regular proportions. His work went almost unnoticed until it was rediscovered in 1900. He appears in the syllabus because <strong>genetics</strong> explained how the variations selected by evolution are transmitted; combined with Darwin’s theory, it gave rise to the synthetic theory or neo-Darwinism.</p>",
+  "obras": [
+   "Experiments on Plant Hybridisation (1866)"
+  ],
+  "anecdota": "<p>After publishing his experiments with peas, Mendel sent his paper to Carl von Nägeli, one of the most prestigious botanists of his day, hoping for support. Nägeli replied with some scepticism and suggested he repeat the crosses with another plant, hawkweed (<em>Hieracium</em>). Mendel tried for years, but the results did not fit his laws: today we know that this plant often reproduces without fertilisation. Discouraged and busy as abbot, he abandoned his research, and his laws had to wait until 1900.</p>",
+  "fuente": "Mendel’s correspondence with Carl von Nägeli",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos"
   ]
  },
  "kropotkin": {
@@ -3848,7 +3875,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-etica-deber"
+   "hf-etica-deber",
+   "hf-marxismos"
   ]
  },
  "russell": {
@@ -4103,6 +4131,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-marxismos",
    "hf-capitalismo"
   ]
  },
@@ -4128,6 +4157,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-marxismos",
    "hf-capitalismo"
   ]
  },
@@ -4230,6 +4260,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-montaigne-ensayos",
+   "hf-marxismos",
    "hf-capitalismo"
   ]
  },
@@ -4283,6 +4314,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-marxismos",
    "hf-existencialismo",
    "hf-beauvoir"
   ]
@@ -4574,6 +4606,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-marxismos",
    "hf-capitalismo",
    "hf-posmodernidad"
   ]
