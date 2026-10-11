@@ -167,6 +167,72 @@ const LEIBNIZ = {
   "lineas": "Lines (Leibniz only)",
   "puente": "Practise with many more syllogisms in the <a href=\"#logica/silogismos\">Logic Corner</a>."
  },
+ "calculo": {
+  "titulo": "Calculus: Leibniz invents the signs ∫ and d",
+  "partes": [
+   {
+    "h": "Two old problems",
+    "texto": [
+     "Ever since Archimedes, mathematicians had faced two problems. One was finding the <strong>tangent</strong> to a curve at a point, that is, its slope: this gives us, for example, the speed at each instant. The other was finding the <strong>area</strong> enclosed by a curve, its ‘quadrature’. In the 17th century, Cavalieri, Fermat, Pascal and Barrow solved many cases, each with a different trick. Two things were missing: a general method that would work for any curve, and the realisation that the two problems are the inverse of each other. Newton and Leibniz achieved this, each on his own."
+    ]
+   },
+   {
+    "h": "Paris, 1672-1676: adding up differences",
+    "texto": [
+     "Leibniz arrived in Paris in 1672 knowing very little modern mathematics, and the Dutch physicist Christiaan Huygens became his teacher. To test him, Huygens asked him to add up the reciprocals of the triangular numbers: 1 + 1/3 + 1/6 + 1/10 + … Leibniz saw that each term is twice a difference, 2 × (1/n − 1/(n+1)), so when you add them almost everything cancels out and the result is 2.",
+     "From this he drew the idea that guides his whole calculus: <strong>adding up the differences undoes the difference</strong>. If something changes little by little, the sum of all its small changes is how much it has changed in total. Infinitesimal calculus is that same idea, taken to infinitely small changes."
+    ]
+   },
+   {
+    "h": "The characteristic triangle and the series for π",
+    "texto": [
+     "In 1673, while reading Pascal, Leibniz noticed a tiny triangle stuck to the curve: one side is an infinitely small increase in x, another the increase in y, and the third a little piece of the curve itself. He called it the <strong>characteristic triangle</strong>. The ratio between its first two sides is the slope of the tangent, what today we write as dy/dx.",
+     "With it he invented a method for turning one area into another that is easier to calculate, the <strong>transmutation theorem</strong> (1673-1674). Applied to the circle, it gave him an astonishing formula: π/4 = 1 − 1/3 + 1/5 − 1/7 + … He published it in 1682 in the journal <em>Acta Eruditorum</em>. Later he acknowledged that the Scotsman James Gregory had got there first, and today we know that in India, in Kerala, the mathematician Madhava already knew it around 1400."
+    ]
+   },
+   {
+    "h": "29 October 1675: the ∫ is born",
+    "texto": [
+     "Until then, to add up infinitely many lines and obtain an area, Leibniz wrote <em>omn.</em>, from <em>omnes lineae</em> (‘all the lines’), Cavalieri’s expression. In a manuscript dated 29 October 1675 he noted: ‘it will be useful to write ∫ instead of <em>omn.</em>’. The sign is an <strong>elongated S</strong>, the initial of <em>summa</em>, because an integral is a sum of infinitely many infinitely small terms.",
+     "In the following weeks he added the <strong>d</strong>, from <em>differentia</em>, for the infinitely small difference: dx, dy. By 21 November he was already writing the integral with its dx after it, as we do today, and the product rule appears in the same manuscript: d(xy) = x dy + y dx. In 1676 he found the power rule, d(xⁿ) = n·xⁿ⁻¹ dx, for both whole and fractional exponents."
+    ]
+   },
+   {
+    "h": "The fundamental theorem: d and ∫ undo each other",
+    "texto": [
+     "The central idea is that d and ∫ undo each other, like adding and subtracting: ∫ dy = y, and d(∫ y dx) = y dx. This is the <strong>fundamental theorem of calculus</strong>. To find an area you do not actually need to add up infinitely many rectangles: it is enough to find a quantity whose difference is the one you are given.",
+     "For example, since d(x³/3) = x² dx, the area under the parabola y = x² between 0 and 1 is ∫ x² dx = 1/3. You can check it below by adding up thinner and thinner rectangles: the sum gets as close to 1/3 as you like.",
+     "Leibniz published a geometric proof in 1693, in <em>Acta Eruditorum</em> (<em>Supplement to the Geometry of Measurement</em>): every problem of areas comes down to finding a curve with a given ‘law of tangents’. His proof is very similar to one by Isaac Barrow, Newton’s teacher, in his <em>Geometrical Lectures</em> (1670), a book Leibniz had obtained in London in 1673 and never cited."
+    ]
+   },
+   {
+    "h": "Publishing: a six-page enigma",
+    "texto": [
+     "The first article, <em>New Method for Maxima and Minima…</em>, came out in 1684 in <em>Acta Eruditorum</em>: six pages with the rules for d and no proofs. Jacob Bernoulli said it was ‘more an enigma than an explanation’. The sign ∫ appeared in print for the first time in 1686, in <em>On a Hidden Geometry</em>.",
+     "The word <strong>integral</strong> is not Leibniz’s: Jacob Bernoulli began using it in 1690. Leibniz preferred ‘summatory calculus’, but in 1696 he agreed with Johann Bernoulli that ‘integral calculus’ was better."
+    ]
+   },
+   {
+    "h": "Why his notation won",
+    "texto": [
+     "Leibniz’s signs think for us. dy/dx behaves almost like a fraction: the chain rule is written dy/dx = (dy/du) · (du/dx), as if the du cancelled out. This is exactly what he was looking for with his ‘universal characteristic’: signs that make reasoning visible. The Bernoulli brothers and the Marquis de L’Hôpital, author of the first calculus textbook (1696), spread them throughout Europe.",
+     "In England, out of loyalty to Newton, his dot notation was kept, and British mathematics fell behind for a century. Around 1812, some Cambridge students, among them Charles Babbage, founded the Analytical Society to bring in Leibniz’s signs. Babbage jokingly proposed a motto: ‘the Principles of pure D-ism in opposition to the <em>Dot-age</em> of the University’, a pun on <em>dot</em> (the dot of Newton’s notation) and <em>dotage</em> (senility)."
+    ]
+   },
+   {
+    "h": "What is a dx? A philosophical problem",
+    "texto": [
+     "A dx cannot be zero, because then dy/dx would be 0/0, but it is not an ordinary quantity either: it is smaller than any number we can give. Leibniz said that infinitely small quantities are ‘useful fictions’, like the imaginary roots of algebra: they do not exist as things, but they let us calculate correctly.",
+     "Bishop George Berkeley mocked them in <em>The Analyst</em> (1734): they would be ‘the ghosts of departed quantities’. The answer came in the 19th century, when Cauchy and Weierstrass rebuilt calculus on the idea of a <strong>limit</strong>, without infinitesimals. And in the 1960s Abraham Robinson showed, with what is called non-standard analysis, that Leibniz’s infinitesimals can also be handled with complete rigour."
+    ]
+   }
+  ],
+  "rectTit": "The integral is a sum",
+  "rectTxt": "Move the slider: the area under y = x² between 0 and 1 is calculated by adding up rectangles. The more there are, the thinner they are and the closer the sum gets to the exact area, ∫ x² dx = 1/3. That sum of infinitely many infinitely thin rectangles is what Leibniz wrote with an elongated S.",
+  "serieTit": "The Leibniz series",
+  "serieTxt": "Add up the first terms of 1 − 1/3 + 1/5 − 1/7 + … and multiply by 4: the result gets closer to π, but very slowly, jumping from one side to the other.",
+  "cuidado": "Trick case: ‘Leibniz invented calculus’ is only half true. Newton had it earlier, around 1665-1666, although he did not publish it, and many separate results came from Archimedes, Cavalieri, Fermat, Pascal and Barrow. What belongs to Leibniz alone is the notation: the ∫, the d and the way of calculating with them that we still use."
+ },
  "calculemos": {
   "titulo": "Let us calculate!",
   "cita": "When controversies arise, there will be no more need for dispute between two philosophers than between two accountants. It will be enough to take up the pen, sit down at the abacus and say to one another (calling a friend, if desired): let us calculate.",

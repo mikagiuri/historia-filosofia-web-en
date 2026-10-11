@@ -1,5 +1,12 @@
 // Generado por web_i18n/i18n_rebuild.js (en) a partir de web/js/esquemas.js. No editar a mano: editar la memoria tm/en.json y regenerar.
 const ESQUEMAS = {
+ "AP-REL-01": {
+  "subject": "hf",
+  "block": "A",
+  "tema": "Plato",
+  "title": "Plato: the cycle of degeneration of governments",
+  "mermaid": "flowchart TD\n  n0[\"PLATO: THE CYCLE OF DEGENERATION OF GOVERNMENTS\"]:::axis\n  a[\"Aristocracy: the philosophers rule\"]:::key\n  a2[\"values reason and the Good\"]\n  b[\"Timocracy: the warriors rule\"]:::key\n  b2[\"values honour\"]\n  c[\"Oligarchy: the rich rule\"]:::key\n  c2[\"values money\"]\n  d[\"Democracy: everyone rules\"]:::key\n  d2[\"values freedom without limits\"]\n  e[\"Tyranny: one rules for himself\"]:::key\n  e2[\"a slave to his desires\"]\n  n0 --> a\n  a -->|\"education is neglected\"| b\n  b -->|\"wealth accumulates\"| c\n  c -->|\"the poor rebel\"| d\n  d -->|\"disorder calls for a saviour\"| e\n  a --- a2\n  b --- b2\n  c --- c2\n  d --- d2\n  e --- e2\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
+ },
  "AA-REL-02": {
   "subject": "hf",
   "block": "A",

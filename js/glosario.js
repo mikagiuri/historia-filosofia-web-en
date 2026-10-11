@@ -2417,6 +2417,59 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Paideia",
+  "et": "From the Greek παιδεία (*paideía*), ‘upbringing, education’, from παῖς (*país*), ‘child’.",
+  "area": "Politics",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "Classical politics",
+  "def": "Education in a broad sense: the shaping of character and mind. In Plato, the main task of the city, which selects its rulers after a long course of studies and tests.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Timocracy",
+  "et": "From the Greek τιμή (*timḗ*), ‘honour’, and κράτος (*krátos*), ‘power’.",
+  "area": "Politics",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "Classical politics",
+  "def": "In Plato, the rule of the warriors, who value honour and victory; the first step in the degeneration of the ideal city, before oligarchy, democracy and tyranny.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Metic",
+  "et": "From the Greek μέτοικος (*métoikos*), ‘one who lives with’, ‘resident’.",
+  "area": "Politics",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "Classical politics",
+  "def": "A foreign resident in Athens: metics paid taxes and could serve in the army, but they had no political rights and could not own land.",
+  "ilustre": [
+   "aristoteles"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "The Thirty Tyrants",
+  "et": "This is what their enemies called them; they presented themselves as a government of the best.",
+  "area": "Politics",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "Classical politics",
+  "def": "An oligarchic government imposed on Athens, with Spartan support, after the defeat in the Peloponnesian War (404-403 BC). Among them were Critias and Charmides, relatives of Plato.",
+  "ilustre": [
+   "platon",
+   "socrates"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Ostracism",
   "et": "From the Greek ὄστρακον (*óstrakon*), ‘potsherd’: on it the Athenians wrote the name of the person they wanted to banish.",
   "area": "Politics",

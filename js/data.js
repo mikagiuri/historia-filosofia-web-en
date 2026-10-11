@@ -6218,6 +6218,50 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "The condemnation of the most just man showed Plato that politics without knowledge, dominated by changing opinion, corrupts justice; hence his project of a city governed by knowledge."
+   },
+   {
+    "q": "Which two experiences does Plato recount in the Seventh Letter to explain his distrust of the politics of his time?",
+    "o": [
+     "The victory in the Persian Wars and the death of Pericles.",
+     "The violent rule of the Thirty Tyrants and the condemnation of Socrates by the restored democracy.",
+     "His journey to Egypt and his stay in Sparta.",
+     "The founding of the Lyceum and the death of Alexander."
+    ],
+    "a": 1,
+    "fb": "Plato recounts a double disappointment: that of the Thirty Tyrants, who even tried to involve Socrates in their crimes, and that of the restored democracy, which sentenced him to death."
+   },
+   {
+    "q": "In the education of the rulers that Plato proposes in the Republic, what is studied between the ages of 30 and 35?",
+    "o": [
+     "Gymnastics and music.",
+     "Dialectic.",
+     "Rhetoric for speaking in the assembly.",
+     "Nothing: it is the time for military service."
+    ],
+    "a": 1,
+    "fb": "After ten years of mathematics, a new selection leads to five years of dialectic, the path to reaching the Forms through reason; then come fifteen years of practical offices."
+   },
+   {
+    "q": "According to Plato, why does oligarchy fall?",
+    "o": [
+     "Because the warriors seek honour.",
+     "Because the city splits in two, rich and poor, and the poor rebel.",
+     "Because the philosophers neglect education.",
+     "Because a tyrant conquers it from outside."
+    ],
+    "a": 1,
+    "fb": "Oligarchy values money and divides the city into rich and poor; the rebellion of the poor gives way to democracy."
+   },
+   {
+    "q": "What does Aristotle illustrate with the example of the meal to which each guest brings a dish?",
+    "o": [
+     "That property should be held in common.",
+     "That many people, together, can judge better than a few, even if none of them is excellent on their own.",
+     "That the best regime is tyranny.",
+     "That the family is prior to the polis."
+    ],
+    "a": 1,
+    "fb": "In the Politics (III, 11) Aristotle argues that the combined prudence of many can surpass that of a few: that is why the people can elect the rulers and hold them to account."
    }
   ]
  },
