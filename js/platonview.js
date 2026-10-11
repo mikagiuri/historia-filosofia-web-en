@@ -124,7 +124,7 @@ const REP_EVENTS = [
     threat:"If the city produces more than enough (surplus ≥ 40% of the population), there is prosperity.",
     effect:()=>{ return (repProd()-repPop()) >= repPop()*0.4 ? { d:2, msg:"Surplus: +2." } : { d:0, msg:"No notable surplus." }; } },
   // — Atenas y su historia (contexto de Platón y Aristóteles) —
-  { id:"delos", name:"Delian League", src:"Historia", img:"ev-delos",
+  { id:"delos", name:"Delian League", src:"History", img:"ev-delos",
     threat:"With a strong fleet (warriors ≥ producers ÷ 2.5), the allies pay tribute; if not, they rebel.",
     effect:()=>{ return repNGeff() >= rep.t.E.n/2.5 ? { d:2, msg:"Tribute from the allies: +2." } : { d:-1, msg:"The allies rebel: −1." }; } },
   { id:"esparta", name:"Invasion by Sparta", src:"Peloponnesian War", img:"ev-esparta",
@@ -133,7 +133,7 @@ const REP_EVENTS = [
   { id:"socrates", name:"Trial of Socrates", src:"Apology", img:"ev-socrates",
     threat:"The city judges its wisest man. Without a fully wise guardian (SJ 5), it condemns him.",
     effect:()=>{ return rep.t.Z.max>=5 ? { d:1, msg:"Wisdom acquits him: +1." } : { d:-2, msg:"They condemn the wisest man: −2." }; } },
-  { id:"pericles", name:"The ambition of Pericles", src:"Historia", img:"ev-pericles",
+  { id:"pericles", name:"The ambition of Pericles", src:"History", img:"ev-pericles",
     threat:"A brilliant leader undertakes great works. With temperate guardians (average temperance ≥4.5) it is a golden age; without moderation, hubris.",
     effect:()=>{ const tavg=rep.t.Z.t/Math.max(1,rep.t.Z.n); return tavg>=4.5 ? { d:2, msg:"The golden age of Pericles: +2." } : { d:-2, msg:"Excessive ambition (hubris): −2." }; } },
   { id:"sofistas", name:"Rise of the Sophists", src:"Gorgias", img:"ev-sofistas",

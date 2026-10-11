@@ -50,9 +50,17 @@
           <button data-view="reto">Challenge</button>
           <button data-view="parejas">Pairs</button>
           <button data-view="glosario">Glossary</button>
-          <button data-view="ilustres">Illustrious Thinkers</button>
           <button data-view="citas">Sayings</button>
           <button data-view="adagios">Adages</button>
+        </div>
+      </div>
+      <div class="navsec">
+        <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">History</span>
+        <div class="navmenu">
+          <button data-view="ilustres">Illustrious Thinkers</button>
+          <button data-view="epocas">Periods</button>
+          <button data-view="cronogramas">Chronograms</button>
+          <button data-view="genealogias">Genealogies</button>
           <button data-view="polemicas">Controversies</button>
           <button data-view="perseguidos">Persecuted</button>
           <button data-view="comunidades">Communities</button>
@@ -77,8 +85,6 @@
           <button data-view="infografias">Infographics</button>
           <button data-view="galeria">Gallery</button>
           <button data-view="mapas">Concept maps</button>
-          <button data-view="cronogramas">Chronograms</button>
-          <button data-view="genealogias">Genealogies</button>
           <button data-view="esquemas">Outlines</button>
         </div>
       </div>
@@ -279,7 +285,7 @@
 
   <!-- ILUSTRES -->
   <section class="view" id="ilustres">
-    <p class="eyebrow">Reference</p>
+    <p class="eyebrow">History</p>
     <h1 class="title">Illustrious Thinkers</h1>
     <p class="lead">The biographies of the thinkers who appear in the theory, from the Presocratics to today: who they were, what they thought and in which topics we study them. Filter by <strong>period</strong> or search by name, work or idea.</p>
     <div class="filterbar" id="ilufilter" role="group" aria-label="Filter illustrious thinkers"></div>
@@ -305,10 +311,18 @@
     <div id="duelobox"></div>
   </section>
 
+  <section class="view" id="epocas">
+    <!-- (12-10) Índice de las fichas de época (epocas_fichas.js), que antes solo se abrían desde Ilustres; cada tarjeta lleva el cosmos de su época. -->
+    <p class="eyebrow">History</p>
+    <h1 class="title">Periods</h1>
+    <p class="lead">Seven cards, from ancient Greece to today: what changed in each era in society, politics, science, art and thought, and how the cosmos was pictured.</p>
+    <div id="epocasbox"></div>
+  </section>
+
   <section class="view" id="polemicas">
     <!-- (11-10) Polémicas: pensadores coetáneos que se enfrentaron cara a cara, por cartas, con libros o desde escuelas rivales
          (polemicas.js + polemicasview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
-    <p class="eyebrow">Study</p>
+    <p class="eyebrow">History</p>
     <h1 class="title">Controversies: face to face</h1>
     <p class="lead">Philosophers who lived at the same time and really clashed. Choose whose side you are on, give your reason and look at the best argument from the other side.</p>
     <div class="filterbar" id="polemicasfilter" role="group" aria-label="Filter controversies"></div>
@@ -318,7 +332,7 @@
   <section class="view" id="perseguidos">
     <!-- (11-10) Perseguidos por sus ideas y Comunidades de filósofos: fichas (perseguidos.js, comunidades.js + casosview.js, casos.css).
          Solo Bachillerato: la web de ESO no las lleva (build_eso.js). -->
-    <p class="eyebrow">Study</p>
+    <p class="eyebrow">History</p>
     <h1 class="title">Persecuted for their ideas</h1>
     <p class="lead">Philosophers and scientists whose way of thinking cost them their lives, their freedom or their homeland.</p>
     <div class="filterbar" id="perseguidosfilter" role="group" aria-label="Filter the persecuted"></div>
@@ -326,7 +340,7 @@
   </section>
 
   <section class="view" id="comunidades">
-    <p class="eyebrow">Study</p>
+    <p class="eyebrow">History</p>
     <h1 class="title">Communities of philosophers</h1>
     <p class="lead">Schools, circles and groups of thinkers, and the places where they met: gardens, gymnasiums, houses and lecture rooms.</p>
     <div class="filterbar" id="comunidadesfilter" role="group" aria-label="Filter communities"></div>
@@ -396,7 +410,7 @@
   </section>
 
   <section class="view" id="cronogramas">
-    <p class="eyebrow">Visual</p>
+    <p class="eyebrow">History</p>
     <h1 class="title">Chronograms</h1>
     <p class="lead">The course’s chronological axis (periods, events and authors) and the timelines from the History of Philosophy textbook: the lives and periods of each block on a time axis.</p>
     <div class="crono-filter" id="cronofilter" role="group" aria-label="Filter by block"></div>
@@ -405,7 +419,7 @@
   </section>
 
   <section class="view" id="genealogias">
-    <p class="eyebrow">Visual</p>
+    <p class="eyebrow">History</p>
     <h1 class="title">Genealogies</h1>
     <p class="lead">The great lines of thought throughout history, like a metro map: each tradition is a line and its stations are the thinkers who continue it, in the order in which they lived. Where two lines share a thinker there is an interchange; in red, the key oppositions. The Chronograms show who overlaps in time; the Genealogies, how ideas pass from one thinker to another. Click a name to see their profile.</p>
     <div id="geneabox"></div>
