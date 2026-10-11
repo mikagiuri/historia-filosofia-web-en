@@ -1030,7 +1030,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentialism",
-  "def": "Husserl's ‘lifeworld’ (German Lebenswelt): the world of lived experience that lies before and beneath science, full of everyday meaning. Existentialism starts from there to explain that the human being is situated in the world."
+  "def": "Husserl's ‘lifeworld’ (German Lebenswelt): the world of lived experience that lies before and beneath science, full of everyday meaning. Existentialism starts from there to explain that the human being is situated in the world.",
+  "ilustre": [
+   "husserl"
+  ]
  },
  {
   "subject": "hf",
@@ -1184,7 +1187,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Struggles after Marxism",
-  "def": "Marcuse does not understand desire only as a private risk. The body, the imagination and art can be a critical force against everyday normality."
+  "def": "Marcuse does not understand desire only as a private risk. The body, the imagination and art can be a critical force against everyday normality.",
+  "ilustre": [
+   "marcuse"
+  ]
  },
  {
   "subject": "hf",
@@ -1668,7 +1674,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentialism",
-  "def": "A basic feature of phenomenology (Husserl): consciousness is always ‘consciousness of something’, always directed at something. Thinking, wanting or fearing always have an object."
+  "def": "A basic feature of phenomenology (Husserl): consciousness is always ‘consciousness of something’, always directed at something. Thinking, wanting or fearing always have an object.",
+  "ilustre": [
+   "husserl"
+  ]
  },
  {
   "subject": "hf",
@@ -3034,7 +3043,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Struggles after Marxism",
-  "def": "According to Marcuse, every civilisation needs certain limits, but capitalist society adds to those necessary limits a surplus social discipline, in favour of work, consumption and obedience."
+  "def": "According to Marcuse, every civilisation needs certain limits, but capitalist society adds to those necessary limits a surplus social discipline, in favour of work, consumption and obedience.",
+  "ilustre": [
+   "marcuse"
+  ]
  },
  {
   "subject": "hf",
@@ -3218,7 +3230,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Struggles after Marxism",
-  "def": "For Marcuse, the society that arises when criticism and political alternatives are absorbed into the system. Dissent itself can become a market style."
+  "def": "For Marcuse, the society that arises when criticism and political alternatives are absorbed into the system. Dissent itself can become a market style.",
+  "ilustre": [
+   "marcuse"
+  ]
  },
  {
   "subject": "hf",

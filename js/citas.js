@@ -832,6 +832,7 @@ const CITAS = [
   "a": "Karl Jaspers",
   "o": "Philosophy (1950), ch. I",
   "e": "contemporary",
+  "id": "jaspers",
   "img": "media/retratos/citas/jaspers.jpg",
   "sen": "Jaspers says that philosophy is not finished knowledge, but a path: what matters is to keep asking, because every answer opens up new questions.",
   "uso": "To introduce what philosophy is at the start of the year, or in an essay on the difference between philosophy and science."
@@ -1780,6 +1781,7 @@ const CITAS = [
   "a": "Henri Bergson",
   "o": "attributed; letter to Léon Brunschvicg on the 250th anniversary of Spinoza's death",
   "e": "contemporary",
+  "id": "bergson",
   "img": "media/galeria_museo/spinoza_universal/bergson.jpg",
   "sen": "The saying underlines Spinoza’s enormous influence: every philosopher, besides his own thought, would have to position himself in relation to him.",
   "uso": "To introduce Spinoza’s importance in the history of modern and contemporary philosophy.",

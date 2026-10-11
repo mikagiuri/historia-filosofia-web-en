@@ -183,6 +183,27 @@ const ILUSTRES = {
    "hf-preso"
   ]
  },
+ "lao_zi": {
+  "name": "Lao Zi",
+  "dates": "6th–4th century BC (according to tradition)",
+  "born": -570,
+  "died": -480,
+  "place": "State of Chu (China)",
+  "role": "Chinese sage, to whom the Daodejing is attributed",
+  "idea": "The Dao, the way of nature, acts without forcing: the sage follows its example, prefers what is humble and flexible, and governs by interfering as little as possible (wu wei).",
+  "bio": "<p>Lao Zi (also written Laozi or Lao Tzu) means ‘the old master’. According to tradition, he was an archivist at the Zhou court, somewhat older than Confucius, whom he is said to have received. But historians doubt that he existed as a real individual: the book attributed to him, the <em>Daodejing</em> (<em>Tao Te Ching</em>, ‘The Book of the Way and of Virtue’), seems to be a collection of sayings that took shape around the 4th–3rd centuries BC. It is one of the founding texts of <strong>Taoism</strong> and one of the most translated books in the world.</p>\n<p>At its centre is the <strong>Dao</strong>, ‘the way’: the nameless origin of all things, which cannot be defined in words. The sage imitates the Dao by practising <strong>wu wei</strong>, ‘non-action’: not standing still, but acting without forcing, like water, which is the softest thing in the world and yet wears away stone. The flexible overcomes the rigid. Unlike Confucius, who trusts in rites and education, Lao Zi distrusts rules and too much government: the more laws and prohibitions there are, the more thieves there will be. That is why he has sometimes been read as praising nature and simplicity against civilisation.</p>",
+  "obras": [
+   "Daodejing or Tao Te Ching (attributed)"
+  ],
+  "anecdota": "<p>The historian Sima Qian tells how Lao Zi, seeing the decline of the court, decided to leave for the west. When he reached the border pass, the guard, Yin Xi, asked him not to leave without writing down his wisdom. Lao Zi then wrote a book of about five thousand characters, in two parts, on the way and on virtue, and went away; nobody knew where he ended his days. Later tradition added that he travelled riding an ox. It is a legend, but it explains the origin that the Chinese attributed to the <em>Daodejing</em> for centuries.</p>",
+  "fuente": "Sima Qian, Records of the Grand Historian, ch. 63 (1st century BC)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "confucio": {
   "name": "Confucius",
   "dates": "551 – 479 BC",
@@ -416,6 +437,27 @@ const ILUSTRES = {
    "hf-preso",
    "hf-kant-juicios"
   ]
+ },
+ "buda": {
+  "name": "Siddhartha Gautama, the Buddha",
+  "dates": "5th century BC (dates uncertain)",
+  "born": -480,
+  "died": -400,
+  "place": "Lumbini (present-day Nepal)",
+  "role": "Indian spiritual teacher, founder of Buddhism",
+  "idea": "Life is shot through with suffering, which arises from desire and attachment; that suffering can be extinguished by following a right and balanced way of life.",
+  "bio": "<p>Siddhartha Gautama was born in northern India, into a noble family of the Shakya clan. His dates are uncertain: tradition places him in the 6th century BC, and many historians today around the 5th. According to the traditional accounts, at the age of 29 he left palace life to seek an end to suffering; for years he tried extreme asceticism, until he almost starved to death, and he rejected it in favour of a <strong>middle way</strong> between pleasure and self-mortification. Meditating under a tree at Bodh Gaya, he reached ‘awakening’: ‘Buddha’ means ‘the awakened one’. He spent the rest of his life teaching and died at around the age of 80.</p>\n<p>His teaching is summed up in the <strong>Four Noble Truths</strong>: life is marked by suffering (<em>dukkha</em>); that suffering arises from desire and attachment; it can be extinguished (<strong>nirvana</strong>); and there is a path to achieve this, the Noble Eightfold Path (right understanding, intention, speech, action and livelihood, right effort, mindfulness and concentration). Everything is <strong>impermanent</strong>, and there is no fixed, permanent self to cling to either. The Buddha wrote nothing; his discourses were passed on by memory and written down centuries later. His thought reached Europe in the 19th century and had a strong influence on Schopenhauer.</p>",
+  "obras": [
+   "He wrote nothing: his teachings are collected in the Pali Canon (Tipitaka) and in the Dhammapada"
+  ],
+  "anecdota": "<p>According to legend, his father brought him up in luxury so that he would never know pain. But one day, on leaving the palace, Siddhartha saw an old man, then a sick man and then a corpse, and he understood that old age, sickness and death await everyone. Finally he came across a serene ascetic, and decided to follow that path. These are the ‘Four Sights’, a story from long after his lifetime which expresses the starting point of his teaching rather than a historical fact.</p>",
+  "fuente": "Ashvaghosha, Life of the Buddha (Buddhacarita, 1st–2nd century AD)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "filolao": {
   "name": "Philolaus of Croton",
@@ -1706,6 +1748,30 @@ const ILUSTRES = {
    "hf-renacimiento-magia"
   ]
  },
+ "leonardo": {
+  "name": "Leonardo da Vinci",
+  "dates": "1452 – 1519",
+  "born": 1452,
+  "died": 1519,
+  "place": "Vinci (Tuscany, Italy)",
+  "role": "Renaissance artist, engineer and researcher",
+  "idea": "Experience is the mother of knowledge: to understand nature you have to observe it, measure it and draw it, rather than relying only on books.",
+  "bio": "<p>Leonardo was born in Vinci, the illegitimate son of a notary, and trained as an apprentice in the workshop of the painter Verrocchio, in Florence. He worked for the Medici, for Ludovico Sforza in Milan, for Cesare Borgia and, at the end of his life, for King Francis I of France, at whose court he died. He painted works such as <em>The Last Supper</em> and the <em>Mona Lisa</em>, but he left many works unfinished: he was as interested in research as in painting.</p>\n<p>Leonardo called himself an ‘unlettered man’, because he had not studied Latin at university. Precisely for that reason he distrusted the authority of books and championed <strong>experience</strong>: observing, experimenting and drawing. In thousands of pages of notebooks he studied human anatomy (he dissected corpses), the flight of birds, the movement of water, optics and mechanics, and he designed machines that were never built. He was not a scientist in the modern sense, because he published nothing and formulated no mathematical laws, but his way of combining eye, hand and reason foreshadows the science that would come with Galileo.</p>",
+  "obras": [
+   "The Last Supper (1495–1498)",
+   "Vitruvian Man (c. 1490)",
+   "Mona Lisa (c. 1503–1519)",
+   "Notebooks (Codex Atlanticus, Codex Leicester and others)"
+  ],
+  "anecdota": "<p>Leonardo wrote almost all his notes backwards, from right to left and with the letters reversed, so that to read them comfortably you have to hold them up to a mirror. For a long time it was said that he did this to keep his inventions secret, but the most likely explanation is simpler: he was left-handed, and writing this way stopped his hand from smudging the ink.</p>",
+  "fuente": "Leonardo’s notebooks (Codex Atlanticus, Biblioteca Ambrosiana, Milan)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "pico": {
   "name": "Giovanni Pico della Mirandola",
   "dates": "1463 – 1494",
@@ -2472,6 +2538,29 @@ const ILUSTRES = {
    "hf-ilustracion",
    "hf-kant-juicios"
   ]
+ },
+ "du_chatelet": {
+  "name": "Émilie du Châtelet",
+  "dates": "1706 – 1749",
+  "born": 1706,
+  "died": 1749,
+  "place": "Paris (France)",
+  "role": "Enlightenment mathematician, physicist and philosopher",
+  "idea": "Newton’s physics must be completed with a philosophical reflection on its foundations; and knowledge, for women too, is one of the sources of happiness.",
+  "bio": "<p>Gabrielle Émilie Le Tonnelier de Breteuil, Marquise du Châtelet, was born into a noble family in Paris. Her father allowed her an exceptional education for a woman of her time: Latin, languages and, above all, mathematics, which she went on studying as an adult with mathematicians such as Maupertuis. For fifteen years she shared her life and work with Voltaire at the château of Cirey, which became a small research centre with a library and a laboratory.</p>\n<p>In her <em>Foundations of Physics</em> (Institutions de physique, 1740) she tried to give Newton’s physics philosophical foundations by drawing on ideas from Leibniz, and, on the basis of ’s Gravesande’s experiments, she argued that the ‘living force’ of a moving body depends on the square of its velocity, an idea close to what we now call kinetic energy. Her great work is her <strong>annotated French translation of Newton’s <em>Principia</em></strong>, which is still the standard French version. In her <em>Discourse on Happiness</em> she maintains that the love of study is the passion that depends most on oneself, especially for women, to whom almost every other path was closed. She died at 42, a few days after giving birth.</p>",
+  "obras": [
+   "Foundations of Physics (Institutions de physique, 1740)",
+   "Discourse on Happiness (written around 1746–1747, published in 1779)",
+   "Newton’s Mathematical Principles of Natural Philosophy, translation and commentary (published in 1759)"
+  ],
+  "anecdota": "<p>In 1749, pregnant at the age of 42, Émilie du Châtelet knew that childbirth could cost her her life. That is why she was determined to finish her translation of Newton in time: she worked late into the night and slept very little. At the beginning of September she sent the manuscript to the King’s Library so that it would be safe. She gave birth to a baby girl and died a few days later. The translation, with her commentary, was published ten years later, with a preface by Voltaire.</p>",
+  "fuente": "Letters of Émilie du Châtelet (1749); Voltaire’s preface to the 1759 edition",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "euler": {
   "name": "Leonhard Euler",
@@ -4180,6 +4269,59 @@ const ILUSTRES = {
    "hf-posmodernidad"
   ]
  },
+ "bergson": {
+  "name": "Henri Bergson",
+  "dates": "1859 – 1941",
+  "born": 1859,
+  "died": 1941,
+  "place": "Paris (France)",
+  "role": "French philosopher of duration and of life",
+  "idea": "Lived time, duration, cannot be measured like the time of clocks: only intuition grasps what changes and flows, and life is a creative impulse.",
+  "bio": "<p>Henri Bergson was born in Paris, the son of a Polish Jewish musician and an English mother. Brilliant at mathematics, he chose philosophy. He was a professor at the Collège de France, where his lectures filled the halls with people from all over the city, and in 1927 he was awarded the Nobel Prize in Literature. He died in Nazi-occupied Paris in January 1941.</p>\n<p>His starting point is <strong>time</strong>. The time of physics and of clocks is a ‘spatialised’ time, divided into equal instants that can be counted. But the time we live inwardly, <strong>duration</strong>, is a continuous flow in which the past carries on into the present, like the notes of a melody. The intellect, which cuts reality into pieces so as to be able to handle it, is useful for technology; to grasp what changes you need <strong>intuition</strong>. In <em>Creative Evolution</em> (1907) he presents life as a <strong>vital impulse</strong> (<em>élan vital</em>) that creates new forms, and in <em>The Two Sources of Morality and Religion</em> (1932) he distinguishes between a closed morality, that of group pressure, and an open morality, that of the people who extend love to the whole of humanity.</p>",
+  "obras": [
+   "Time and Free Will: An Essay on the Immediate Data of Consciousness (1889)",
+   "Matter and Memory (1896)",
+   "Laughter (1900)",
+   "Creative Evolution (1907)",
+   "The Two Sources of Morality and Religion (1932)"
+  ],
+  "anecdota": "<p>On 6 April 1922, during a visit by Einstein to Paris, he and Bergson met at a session of the French Philosophical Society. Bergson argued that, besides the time measured by physicists, there is a lived time that the theory of relativity cannot do away with. Einstein replied with a sentence that became famous: ‘The time of the philosophers does not exist.’ The clash between the two shaped the relationship between philosophy and physics for decades.</p>",
+  "fuente": "Bulletin of the French Philosophical Society (1922)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal"
+  ]
+ },
+ "husserl": {
+  "name": "Edmund Husserl",
+  "dates": "1859 – 1938",
+  "born": 1859,
+  "died": 1938,
+  "place": "Prossnitz (Moravia, now Prostějov, Czech Republic)",
+  "role": "German philosopher, founder of phenomenology",
+  "idea": "We must ‘go back to the things themselves’: describe without prejudice how things appear in consciousness, which is always consciousness of something.",
+  "bio": "<p>Edmund Husserl was born into a Jewish family in Moravia and began by studying mathematics. Influenced by Franz Brentano, he switched to philosophy and was a professor at Göttingen and Freiburg, where Edith Stein and Martin Heidegger were among his students and assistants. When the Nazis came to power, because of his Jewish origins, he was removed from the university and treated as an outcast; he died in Freiburg in 1938.</p>\n<p>Husserl founded <strong>phenomenology</strong>, which aims to be a rigorous philosophy, free of presuppositions. His motto is ‘back to the things themselves’: to describe carefully how things are given to us in experience. The key is <strong>intentionality</strong>: all consciousness is consciousness <em>of</em> something; to see is to see something, to desire is to desire something. To study that relationship we must practise the <strong>epoché</strong>, ‘putting in brackets’ our usual beliefs about the world, without denying them, so as to focus on how it appears. In his final period he speaks of the <strong>lifeworld</strong>, the everyday world that we take for granted, and accuses the sciences of having forgotten it by reducing everything to numbers. His method influenced Heidegger, Sartre, Merleau-Ponty and much of 20th-century philosophy.</p>",
+  "obras": [
+   "Logical Investigations (1900–1901)",
+   "Ideas Pertaining to a Pure Phenomenology (1913)",
+   "Cartesian Meditations (1931)",
+   "The Crisis of European Sciences and Transcendental Phenomenology (1936)"
+  ],
+  "anecdota": "<p>When he died, Husserl left some 40,000 pages of manuscripts written in shorthand, almost all unpublished. In 1938 they were a treasure in danger: the Nazis might destroy them because their author was Jewish. A young Belgian Franciscan, Herman Van Breda, managed to smuggle them out of Germany, through the Belgian embassy, and take them to Leuven. There the Husserl Archives were founded, which still study and publish them today.</p>",
+  "fuente": "H. L. Van Breda, ‘The Rescue of Husserl’s Nachlass’ (1959)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-existencialismo"
+  ]
+ },
  "unamuno": {
   "name": "Miguel de Unamuno",
   "dates": "1864 – 1936",
@@ -4361,6 +4503,30 @@ const ILUSTRES = {
    "hf-beauvoir"
   ]
  },
+ "jaspers": {
+  "name": "Karl Jaspers",
+  "dates": "1883 – 1969",
+  "born": 1883,
+  "died": 1969,
+  "place": "Oldenburg (Germany)",
+  "role": "German psychiatrist and existentialist philosopher",
+  "idea": "In boundary situations (death, suffering, struggle, guilt) a person discovers their own existence and freedom, and learns to communicate genuinely with others.",
+  "bio": "<p>Karl Jaspers studied medicine and worked as a psychiatrist in Heidelberg; his <em>General Psychopathology</em> (1913) was a standard work in psychiatry. He then devoted himself to philosophy. Married to Gertrud Mayer, who came from a Jewish family, he was dismissed from his professorship by the Nazis in 1937 and banned from publishing. After the war he returned to the university, wrote <em>The Question of German Guilt</em> (1946) on the responsibility of the Germans, and in 1948 moved to Basel, in Switzerland, where he lived until his death. He was Hannah Arendt’s teacher and friend.</p>\n<p>Jaspers is one of the founders of the philosophy of existence. Science explains the world, but it cannot tell us who we are or how to live. We discover that in <strong>boundary situations</strong>, those we cannot escape: death, suffering, struggle, guilt. Faced with them, a person becomes aware of their existence and their freedom. For Jaspers, truth is reached through <strong>communication</strong> with others, not alone. He also coined the idea of an <strong>Axial Age</strong>: between 800 and 200 BC, in China, India, Persia, Israel and Greece, Confucius and Lao Zi, the Buddha, the prophets and the Greek philosophers appeared almost at the same time, and with them the great questions about human beings.</p>",
+  "obras": [
+   "General Psychopathology (1913)",
+   "Philosophy (1932)",
+   "The Question of German Guilt (1946)",
+   "The Origin and Goal of History (1949)"
+  ],
+  "anecdota": "<p>During the last years of the war, Jaspers and his wife Gertrud lived in Heidelberg in constant fear that she would be deported to an extermination camp. They had decided that, if they came for her, they would take their own lives together, and they kept poison at home for that moment. They learnt that her deportation was planned for mid-April 1945. On 30 March, American troops entered Heidelberg and it never happened.</p>",
+  "fuente": "K. Jaspers, Philosophical Autobiography (1957); letters with Hannah Arendt",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "sapir": {
   "name": "Edward Sapir",
   "dates": "1884 – 1939",
@@ -4539,6 +4705,33 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-analitica"
+  ]
+ },
+ "marcuse": {
+  "name": "Herbert Marcuse",
+  "dates": "1898 – 1979",
+  "born": 1898,
+  "died": 1979,
+  "place": "Berlin (Germany)",
+  "role": "Frankfurt School philosopher",
+  "idea": "Advanced industrial society creates false needs and makes us feel free while integrating us into the system, so that we lose the ability to imagine another way of living.",
+  "bio": "<p>Herbert Marcuse was born into a Jewish family in Berlin. He studied with Husserl and Heidegger in Freiburg and joined the Institute for Social Research in Frankfurt. When the Nazis came to power he went into exile in the United States in 1934, where during the war he worked for the American intelligence services analysing Nazi Germany. Afterwards he taught at several universities, the last of them in California.</p>\n<p>In <em>Eros and Civilization</em> (1955) he brings together Marx and Freud: society represses desires more than is necessary to maintain work and order. In <em>One-Dimensional Man</em> (1964) he argues that consumer society creates <strong>false needs</strong> and absorbs even protest, so that people no longer imagine alternatives. His essay on <strong>repressive tolerance</strong> (1965) argued that, in unequal societies, a tolerance that treats all ideas equally favours the powerful. His ideas inspired part of the 1968 student movement, but they also drew serious criticism: many liberals saw in that thesis a justification for denying a voice to those who think differently, and other left-wing thinkers criticised him for being too pessimistic or too abstract. It is a debate about the limits of tolerance that is still open.</p>",
+  "obras": [
+   "Reason and Revolution (1941)",
+   "Eros and Civilization (1955)",
+   "One-Dimensional Man (1964)",
+   "‘Repressive Tolerance’ (1965)"
+  ],
+  "anecdota": "<p>In the student protests of 1968, in Europe and the United States, some demonstrators chanted and painted on walls the ‘three Ms’: Marx, Mao and Marcuse. The 70-year-old professor was surprised to find himself turned into a symbol, and he did not always recognise himself in what was said in his name. Among his students in California was Angela Davis, who would become a well-known activist.</p>",
+  "fuente": "Press reports from 1968; interviews with Marcuse",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos",
+   "hf-capitalismo"
   ]
  },
  "ryle": {
