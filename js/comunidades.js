@@ -104,37 +104,37 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Academia Antigua",
+    "nom": "The Old Academy",
     "a": "around 387 – around 268 BC",
     "q": "Plato, Speusippus, Xenocrates, Polemo and Crates",
     "d": "They develop Plato’s ideas in mathematics, metaphysics and ethics. Zeno of Citium, who would later found Stoicism, studied with Polemo."
    },
    {
-    "n": "Academia escéptica",
+    "nom": "The Sceptical Academy",
     "a": "around 268 – 241 BC",
     "q": "Arcesilaus",
     "d": "A return to the Socrates who knows that he does not know: against the Stoics, it defends suspending judgement when there is no certainty."
    },
    {
-    "n": "Academia Nueva",
+    "nom": "The New Academy",
     "a": "2nd century BC",
     "q": "Carneades and Clitomachus",
     "d": "A moderate scepticism: there is no certainty, but there are ideas that are more or less convincing and enough to guide life."
    },
    {
-    "n": "Filón y Antíoco",
+    "nom": "Philo and Antiochus",
     "a": "around 110 – 79 BC",
     "q": "Philo of Larissa and Antiochus of Ascalon",
     "d": "Philo, the last known head, fled to Rome during the war against Mithridates. His disciple Antiochus abandoned scepticism and held that Platonists, Aristotelians and Stoics were basically saying the same thing, which brought the school closer to Stoicism."
    },
    {
-    "n": "Platonismo en la Atenas romana",
+    "nom": "Platonism in Roman Athens",
     "a": "1st century BC – 4th century AD",
     "q": "Platonist teachers, without a continuous school",
     "d": "After the war of 86 BC Plato is still taught in Athens, but no longer in the same institution. In 176 the emperor Marcus Aurelius creates paid chairs in the city for Platonists, Aristotelians, Stoics and Epicureans."
    },
    {
-    "n": "Escuela neoplatónica de Atenas",
+    "nom": "The Neoplatonic school of Athens",
     "a": "around 400 – 529",
     "q": "Plutarch of Athens, Syrianus, Proclus and Damascius",
     "d": "They call themselves Plato’s ‘successors’ and read his dialogues, following Plotinus, as a path towards the One. Justinian bans them from teaching in 529, and Damascius and others take refuge in Persia for a time."
@@ -234,25 +234,25 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Aristóteles",
+    "nom": "Aristotle",
     "a": "335 – 323 BC",
     "q": "Aristotle, Theophrastus, Eudemus, Aristoxenus and Dicaearchus",
     "d": "A group of researchers working as partners: they collect data, discuss and write about almost every field of knowledge."
    },
    {
-    "n": "Teofrasto y Estratón",
+    "nom": "Theophrastus and Strato",
     "a": "322 – around 269 BC",
     "q": "Theophrastus and Strato of Lampsacus",
     "d": "Theophrastus organises the study of plants and buys land and buildings for the school. Strato gives physics a more naturalistic turn."
    },
    {
-    "n": "Decadencia",
+    "nom": "Decline",
     "a": "around 269 – 86 BC",
     "q": "Lycon, Ariston of Ceos, Critolaus and others",
     "d": "The school carries on, but without great new ideas: Stoicism and Epicureanism are more attractive. The war of 86 BC puts an end to it."
    },
    {
-    "n": "Los comentaristas",
+    "nom": "The commentators",
     "a": "1st century BC – 3rd century AD",
     "q": "Andronicus of Rhodes and Alexander of Aphrodisias",
     "d": "It is no longer a matter of extending Aristotle’s work, but of editing it, explaining it and defending it. That tradition will pass to the Arab philosophers and to the Latin Middle Ages."
@@ -436,19 +436,19 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Estoa antigua",
+    "nom": "The Early Stoa",
     "a": "around 300 – mid-2nd century BC",
     "q": "Zeno, Cleanthes, Chrysippus, Diogenes of Babylon and Antipater",
     "d": "The system is built: logic, physics and ethics. Chrysippus is its great organiser. Of these authors only fragments quoted by others remain."
    },
    {
-    "n": "Estoa media",
+    "nom": "The Middle Stoa",
     "a": "2nd – 1st centuries BC",
     "q": "Panaetius and Posidonius",
     "d": "They engage in dialogue with Plato and Aristotle and bring Stoicism to the Romans. Cicero draws on Panaetius for his work On Duties. The centre moves from Athens to Rhodes."
    },
    {
-    "n": "Estoicismo romano",
+    "nom": "Roman Stoicism",
     "a": "1st century – 3rd century",
     "q": "Musonius Rufus, Seneca, Epictetus and Marcus Aurelius",
     "d": "A practical philosophy for living: letters, conversations and personal notes. They are the only Stoic works that survive complete."
@@ -760,25 +760,25 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Los comienzos",
+    "nom": "The beginnings",
     "a": "1923 – 1930",
     "q": "Felix Weil, Carl Grünberg and Friedrich Pollock",
     "d": "The first Marxist research centre at a German university, with a Marxism that was still fairly classical and academic."
    },
    {
-    "n": "Horkheimer y el exilio",
+    "nom": "Horkheimer and exile",
     "a": "1930 – 1950",
     "q": "Horkheimer, Adorno, Marcuse, Fromm, Löwenthal and Pollock; Benjamin as a collaborator",
     "d": "‘Critical theory’ is born. With Nazism, the Institute flees to Geneva and then to New York and California, where Dialectic of Enlightenment is written."
    },
    {
-    "n": "El regreso",
+    "nom": "The return",
     "a": "1951 – 1969",
     "q": "Horkheimer (director until 1958) and Adorno (until 1969)",
     "d": "Only Horkheimer, Adorno and Pollock return. The Institute trains new sociologists in post-war Germany and in the end clashes with the student movement."
    },
    {
-    "n": "La segunda generación y después",
+    "nom": "The second generation and after",
     "a": "from the 1960s",
     "q": "Jürgen Habermas and, later, Axel Honneth",
     "d": "Habermas puts communication and rational dialogue at the centre; Honneth, the struggle for recognition."
