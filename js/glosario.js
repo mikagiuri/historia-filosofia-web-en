@@ -63,6 +63,45 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Appetitive soul",
+  "et": "From the Latin *concupiscere*, ‘to desire ardently’. Plato calls it τὸ ἐπιθυμητικόν (*to epithymētikón*), ‘that which desires’; it is also called the *concupiscible* part.",
+  "area": "Anthropology",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "The lowest part of the soul: the desires and appetites of the body (food, drink, pleasure, money). Its seat is the belly and its virtue is temperance.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Spirited soul",
+  "et": "From the Latin *irascibilis*, from *irasci*, ‘to become angry’. Plato calls it τὸ θυμοειδές (*to thymoeidés*), from θυμός (*thymós*), ‘spirit, courage’.",
+  "area": "Anthropology",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "The part of the soul that feels spirit, courage and indignation; if it obeys reason, it helps reason to master the desires. Its seat is the chest and its virtue is courage.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Rational soul",
+  "et": "*Soul*, from the Latin *anima*, ‘breath’; *rational*, from *ratio*, ‘reason’. Plato calls it τὸ λογιστικόν (*to logistikón*), ‘that which calculates’.",
+  "area": "Anthropology",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "The highest part of the soul according to Plato (*Republic* IV): it thinks, knows the Forms and must govern the other two parts. Its seat is the head and its virtue is wisdom.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Otherness",
   "et": "From the Latin *alter*, ‘the other’ (of two).",
   "area": "Feminism",
@@ -70,6 +109,19 @@ const GLOSARIO = [
   "unidad": "C9",
   "tema": "Feminism",
   "def": "Throughout history woman has been defined as “the other”, in contrast to the universal male subject. She is not defined by herself, but as what is not a man."
+ },
+ {
+  "subject": "hf",
+  "t": "Anamnesis",
+  "et": "From the Greek ἀνάμνησις (*anámnēsis*), ‘recollection, remembering’, from ἀναμιμνῄσκειν (*anamimnḗiskein*), ‘to remind’.",
+  "area": "Epistemology",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "To know is to recollect: the soul, which beheld the Forms before being joined to the body, recalls them when the sensible world gives it the occasion. Plato sets this out in the *Meno* (the slave who discovers a geometrical theorem through questions alone) and in the *Phaedo*.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -613,6 +665,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Dialectic (Plato)",
+  "et": "From the Greek διαλεκτική (*dialektikḗ*), ‘the art of conversation’, from διαλέγεσθαι (*dialégesthai*), ‘to converse’.",
+  "area": "Epistemology",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "For Plato, the method of philosophy: dialogue that examines hypotheses through questions and answers and ascends from Form to Form up to the Good, without relying on sensible images. It is the path of noesis.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Materialist dialectic",
   "et": "*Dialectic*, from the Greek διαλέγεσθαι (*dialégesthai*), ‘to converse’: the art of dialogue.",
   "area": "Method",
@@ -635,6 +700,19 @@ const GLOSARIO = [
   "def": "In Adorno's proposal, thought must not be in a hurry to close reality in a peaceful formula. It tries to listen to what concepts do not fully capture.",
   "ilustre": [
    "adorno"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Dianoia",
+  "et": "From the Greek διάνοια (*diánoia*), ‘thought, reasoning’.",
+  "area": "Epistemology",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "In the divided line (*Republic* VI), discursive thought: it knows intelligible realities by starting from hypotheses that it does not examine and by using figures, as mathematics does. It is the first level of episteme.",
+  "ilustre": [
+   "platon"
   ]
  },
  {
@@ -764,6 +842,19 @@ const GLOSARIO = [
   "unidad": "C1",
   "tema": "The Enlightenment",
   "def": "The principle that holds that all people must be educated to use reason and act as citizens."
+ },
+ {
+  "subject": "hf",
+  "t": "Eikasia",
+  "et": "From the Greek εἰκασία (*eikasía*), ‘conjecture’, from εἰκών (*eikṓn*), ‘image’. Hence *icon*.",
+  "area": "Epistemology",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "The lowest level of knowledge in the divided line (*Republic* VI): imagination or conjecture, which grasps only images, shadows and reflections of sensible things. It is the first level of doxa.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1693,7 +1784,7 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Plato",
-  "def": "For Plato, justice is not only external law. It is the harmony that arises when each part of the soul and of the city properly fulfils its function.",
+  "def": "For Plato, justice is not only external law. It is the harmony that arises when each part of the soul and of the city properly fulfils its function. It is achieved by whoever balances the other three virtues (wisdom, courage and temperance): that is why it is the virtue that orders all the others.",
   "ilustre": [
    "platon"
   ]
@@ -2345,6 +2436,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Noesis",
+  "et": "From the Greek νόησις (*nóēsis*), ‘intellection’, from νοῦς (*nous*), ‘intelligence’.",
+  "area": "Epistemology",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "The highest level of knowledge in the divided line: the intelligence that, by means of dialectic, contemplates the Forms themselves up to the Good, without making use of images.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Nominalism",
   "et": "From the Latin *nomen*, ‘name’: for nominalism, universals are only names.",
   "area": "Epistemology",
@@ -2593,6 +2697,19 @@ const GLOSARIO = [
   "unidad": "A4",
   "tema": "The first philosophers",
   "def": "Nature, but not only as a passive object: the living reality that is born, grows, changes and orders itself."
+ },
+ {
+  "subject": "hf",
+  "t": "Pistis",
+  "et": "From the Greek πίστις (*pístis*), ‘trust, belief’.",
+  "area": "Epistemology",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "In the divided line, belief: knowledge of sensible things themselves (animals, plants, manufactured objects). Together with eikasia, it makes up doxa.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -2969,6 +3086,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Wisdom (sophía)",
+  "et": "From the Greek σοφία (*sophía*), ‘knowledge, wisdom’. In the *Republic* Plato also calls it *phrónesis*, ‘prudence’.",
+  "area": "Ethics",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "The virtue of the rational part of the soul: knowing what is good for each part and for the whole. In the ideal city it is the virtue of the rulers, the philosophers.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Sensation and reflection",
   "et": "*Reflection*, from the Latin *reflectere*, “to bend back”: the mind turning back on itself.",
   "area": "Epistemology",
@@ -3219,6 +3349,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Temperance (sophrosyne)",
+  "et": "From the Latin *temperantia*, ‘moderation’. It translates the Greek σωφροσύνη (*sōphrosýnē*), ‘soundness of mind, self-mastery’.",
+  "area": "Ethics",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "The virtue of the appetitive part of the soul: that the desires allow themselves to be governed by reason. For Plato it is an agreement among all the parts about who should rule; in the city everyone needs it, above all the producers.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Critical theory",
   "et": "*Theory*, from the Greek θεωρία (*theoría*), “contemplation, gaze”. *Critical*, from κρίνειν (*krínein*), “to separate, to judge”.",
   "area": "History",
@@ -3387,6 +3530,19 @@ const GLOSARIO = [
   "unidad": "B7",
   "tema": "Utilitarianism and liberalism",
   "def": "The perspective that measures the value of an action or institution by its consequences; the aim is to create greater well-being or happiness."
+ },
+ {
+  "subject": "hf",
+  "t": "Courage (andreía)",
+  "et": "From the Greek ἀνδρεία (*andreía*), ‘manliness, courage’, from ἀνήρ (*anḗr*), ‘man’.",
+  "area": "Ethics",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "The virtue of the spirited part of the soul: to hold on, in the face of fear and pleasure, to what reason teaches us we should and should not fear. In the ideal city it is the virtue of the guardians.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -3874,8 +4030,16 @@ const GLOSARIO_TRAMPAS = {
    "Theory of Forms"
   ],
   [
-   "Sensible world",
-   "Participation (méthexis)"
+   "Dianoia",
+   "Noesis"
+  ],
+  [
+   "Spirited soul",
+   "Appetitive soul"
+  ],
+  [
+   "Dianoia",
+   "Noesis"
   ],
   [
    "Actuality and potentiality",
