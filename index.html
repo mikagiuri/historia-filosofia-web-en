@@ -53,12 +53,13 @@
           <button data-view="ilustres">Illustrious Thinkers</button>
           <button data-view="citas">Sayings</button>
           <button data-view="adagios">Adages</button>
+          <button data-view="polemicas">Controversies</button>
         </div>
       </div>
       <div class="navsec">
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Games</span>
         <div class="navmenu">
-          <a class="gamelink" href="media/juego_duelo_de_razones_en.html#hf" target="_blank" rel="noopener">Battle of reasons ↗</a>
+          <button data-view="duelo">Duel of Reasons</button>
           <button data-view="eudaimonia">Eudaimonia</button>
           <button data-view="republica">The Republic</button>
           <button data-view="rayuela">Philosophical hopscotch</button>
@@ -291,6 +292,25 @@
     <p class="lead">Famous sayings from philosophy, from Antiquity to today: each with its <strong>author</strong> and its <strong>work</strong>. Filter by <strong>period</strong>.</p>
     <div class="filterbar" id="citasfilter" role="group" aria-label="Filter sayings by period"></div>
     <div id="citasbody"></div>
+  </section>
+
+  <section class="view" id="duelo">
+    <!-- (11-10) Duelo de razones: antes juego aparte (media/juego_duelo_de_razones*.html, cinco copias); ahora sección (duelo.js + dueloview.js).
+         En todas las webs: cada una muestra los debates de su nivel (eso | fil | hf). -->
+    <p class="eyebrow">Games</p>
+    <h1 class="title">Duel of Reasons</h1>
+    <div class="due-top"><button type="button" class="due-proybtn" id="dueproy">Projector mode</button></div>
+    <div id="duelobox"></div>
+  </section>
+
+  <section class="view" id="polemicas">
+    <!-- (11-10) Polémicas: pensadores coetáneos que se enfrentaron cara a cara, por cartas, con libros o desde escuelas rivales
+         (polemicas.js + polemicasview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">Study</p>
+    <h1 class="title">Controversies: face to face</h1>
+    <p class="lead">Philosophers who lived at the same time and really clashed. Choose whose side you are on, give your reason and look at the best argument from the other side.</p>
+    <div class="filterbar" id="polemicasfilter" role="group" aria-label="Filter controversies"></div>
+    <div id="polemicasbox"></div>
   </section>
 
   <section class="view" id="adagios">
@@ -541,6 +561,7 @@
       <h2>Terminology of the translations</h2>
       <ul>
         <li>Basque: terminology decisions are made with the <em>Euskaltzaindiaren Hiztegia</em> (the dictionary of the Royal Academy of the Basque Language), and each consultation is linked here. 11-10-2026: ‘época’, meaning a historical period, is ‘aro’ (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=aro" target="_blank" rel="noopener">aro</a>, sense 4: each of the parts into which historical time is divided), not ‘garai’ (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=garai" target="_blank" rel="noopener">garai</a>, a period of time in general); ‘falacia’ (fallacy) is ‘falazia’ (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=falazia" target="_blank" rel="noopener">falazia</a>), not ‘faltsukeria’, which means ‘falsehood’.</li>
+        <li>Basque, 12-10-2026: ‘libre albedrío’ (free will) is ‘borondate askea’ (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=borondate" target="_blank" rel="noopener">borondate</a>, sense 1: the capacity to will, to do or not do something, or to choose freely), the form the site already uses.</li>
       </ul>
       <!-- NOTAS-ARETE-INICIO -->
       <h2>Notes and references by topic</h2>
@@ -965,6 +986,7 @@
         <li>Exploration ‘The Heart of Stone’: works by Goya, Loutherbourg, Turner, Daumier, Hübner, Kollwitz and others, and period illustrations, from Wikimedia Commons, in the public domain or under CC0 (National Gallery, London; National Gallery of Art, Washington; Statens Museum for Kunst, among others).</li>
         <li>Photographs from Unsplash.</li>
         <li>Illustrations generated with artificial intelligence (Gemini and Nano Banana, from Google, and FLUX).</li>
+        <li>The infographics are our own work, made with the help of artificial intelligence tools and checked by the teacher.</li>
       </ul>
       <h2>Films, series and videos</h2>
       <ul>
@@ -976,10 +998,15 @@
         <li>Mermaid and Markmap (MIT licence) for outlines and maps.</li>
         <li>Spectral, IBM Plex and Fraunces typefaces (SIL Open Font License).</li>
       </ul>
+      <h2>Licence</h2>
+      <ul>
+        <li>The original material on this website (texts, activities, quizzes, outlines and infographics) is published under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence (CC BY-NC-SA 4.0)</a>: it may be copied and adapted provided its source is credited, it is not used commercially and it is shared under the same licence.</li>
+        <li>Excluded from this licence are the PAU texts, translations published by publishers, and third-party images and texts, which keep their own licence, as stated on this page and in each credit.</li>
+      </ul>
     </article>
   </section>
 </main>
-<footer class="wrap sitefoot"><a href="#mapa">Site map</a> · <a href="#fuentes">Sources and notice</a></footer>
+<footer class="wrap sitefoot"><a href="#mapa">Site map</a> · <a href="#fuentes">Sources and notice</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">CC BY-NC-SA 4.0</a></footer>
 
 <script src="js/store.js"></script>
 <script src="js/data.js"></script>
@@ -1042,6 +1069,10 @@
 <script src="js/nudosview.js"></script>
 <script src="js/adagios.js"></script>
 <script src="js/adagiosview.js"></script>
+<script src="js/polemicas.js"></script>
+<script src="js/polemicasview.js"></script>
+<script src="js/duelo.js"></script>
+<script src="js/dueloview.js"></script>
 <script src="js/juego_aristoteles.js"></script>
 <script src="js/aristotelesview.js"></script>
 <script src="js/platonview.js"></script>
