@@ -83,7 +83,9 @@ const LOGM_REGLAS = [
 const LOGM_FALACIAS = [
   { k: "ac", n: "Affirming the consequent", p: "p → q; q", c: "p", ej: "If it rains, the ground gets wet. The ground is wet. Therefore it has rained.", por: "The ground may be wet for another reason: someone has watered it. The sufficient condition is not the only possible one." },
   { k: "na", n: "Denying the antecedent", p: "p → q; ¬p", c: "¬q", ej: "If you study, you pass. You have not studied. Therefore you will not pass.", por: "The rule does not say what happens if you don’t study: you might pass for another reason." },
-  { k: "ad", n: "Affirming a disjunct", p: "p ∨ q; p", c: "¬q", ej: "Either we go to the cinema or we go out for dinner. We are going to the cinema. Therefore we are not going out for dinner.", por: "The logical ‘or’ is inclusive: you can do both. It would only be valid if the sentence ruled out both at once." }
+  { k: "ad", n: "Affirming a disjunct", p: "p ∨ q; p", c: "¬q", ej: "Either we go to the cinema or we go out for dinner. We are going to the cinema. Therefore we are not going out for dinner.", por: "The logical ‘or’ is inclusive: you can do both. It would only be valid if the sentence ruled out both at once." },
+  { k: "nc", n: "Denying a conjunct", p: "¬(p ∧ q)", c: "¬p", ej: "It is not true that they are at home and at school at the same time. Therefore they are not at home.", por: "It is enough for one of the two not to hold: they can be at home and not at school. From ¬(p ∧ q) only ¬p ∨ ¬q follows (De Morgan)." },
+  { k: "cc", n: "Converting the conditional", p: "p → q", c: "q → p", ej: "If it is a dog, it is a mammal. Therefore, if it is a mammal, it is a dog.", por: "That p is enough for q does not mean that q is enough for p: a cat is a mammal too. It is the same mistake as confusing ‘if’ with ‘only if’." }
 ];
 const LOGM_EJ = [
   { t: "If Socrates is a human being, he is mortal. Socrates is a human being. Therefore Socrates is mortal.", r: "mp" },
@@ -95,7 +97,9 @@ const LOGM_EJ = [
   { t: "If I doubt, I think. I doubt. Therefore I think.", r: "mp" },
   { t: "Ana studies Philosophy or History. She studies Philosophy. Therefore she does not study History.", r: "ad" },
   { t: "If the soul were material, it would decay like the body. The soul does not decay. Therefore the soul is not material.", r: "mt" },
-  { t: "If the theory is good, its predictions come true. Its predictions come true. Therefore the theory is good.", r: "ac" }
+  { t: "If the theory is good, its predictions come true. Its predictions come true. Therefore the theory is good.", r: "ac" },
+  { t: "If it rains, there are clouds. Therefore, if there are clouds, it rains.", r: "cc" },
+  { t: "It is not true that the accused is guilty and acted alone. Therefore the accused is not guilty.", r: "nc" }
 ];
 function logmTodas(){ return LOGM_REGLAS.concat(LOGM_FALACIAS); }
 function logmForma(x){ return x.p.split(";").map(s => s.trim()).join(" · ") + " ⊢ " + x.c; }
@@ -108,6 +112,7 @@ function logRenderInferencia(){
   const T = logmTodas();
   return '<div class="lg-panel"><h2>' + logmT("validas") + '</h2><div class="lg-reglas">' + LOGM_REGLAS.map(x => logmCarta(x, false)).join("") + "</div></div>" +
     '<div class="lg-panel"><h2>' + logmT("falacias") + '</h2><div class="lg-reglas">' + LOGM_FALACIAS.map(x => logmCarta(x, true)).join("") + "</div></div>" +
+    logmPuedeNoPuede() +
     '<div class="lg-panel"><h2>' + logmT("ejTit") + '</h2><p class="lg-nota">' + logmT("ejAyuda") + "</p>" +
     LOGM_EJ.map((e, i) => {
       const r = LOG.inf[i], bien = T.find(x => x.k === e.r);
@@ -127,6 +132,10 @@ const LOGM_CQ_TXT = {
   cqNeg: "Negating a quantifier: ¬∀x Px is equivalent to ∃x ¬Px (‘not all’ = ‘some are not’), and ¬∃x Px is equivalent to ∀x ¬Px (‘none’ = ‘all are not’). That is why A and O are contradictories, and so are E and I.",
   cqMundo: "A small world", cqMundoAyuda: "Five individuals (a, b, c, d, e). Mark which are S and which are P and see which propositions turn out true.",
   cqInd: "Individual", cqVacio: "Try leaving S empty: then ‘All S are P’ and ‘No S are P’ are both true at once, and ‘Some S are P’ is false. In modern logic, the universal proposition does not take it for granted that there are any S: this is the existential import of Topic 4.",
+  cqOrdenTit: "A quantifier fallacy: changing the order",
+  cqOrden: "‘Everyone has a mother’ is ∀x ∃y Myx: for each person x there is someone y who is their mother. ‘There is a mother of everyone’ is ∃y ∀x Myx: there is a y who is the mother of every x. Changing the order of ∀ and ∃ changes what is said: the second does not follow from the first.",
+  cqOrdenMadre: "their mother", cqOrdenContra: "Counterexample: in this world each person has their own mother, so ∀x ∃y Myx is true; but none of them is the mother of all three, so ∃y ∀x Myx is false. A true premise and a false conclusion: the inference is not valid. (The other way round does work: if there is a mother of everyone, each person has a mother.)",
+  cqOrdenFilo: "In philosophy: it is debated whether Aristotle makes this leap at the beginning of the ‘Nicomachean Ethics’ (I 2), because from the fact that every action aims at some end it does not follow that there is a single end at which all actions aim. And some critics of cosmological arguments see it in the step from ‘everything has a cause’ to ‘there is a cause of everything’.",
   cqTesti: "Shown by: {x}", cqContra: "Fails for: {x}", cqNadie: "there are none", cqSinS: "true because there is no S",
   cqPresets: "Example worlds:", cqP1: "All S are P", cqP2: "No S are P", cqP3: "Some are and some are not", cqP4: "There is no S",
   cqEjTit: "Which formula is it?", cqEjAyuda: "Choose the formula that says the same as the sentence. The capital letter is the predicate and the lower-case letter, a particular individual.",
@@ -152,7 +161,9 @@ const LOGM_CQ_EJ = [
   { f: "Only citizens voted in the assembly.", d: "V = voted in the assembly, C = citizen", o: ["∀x (Cx → Vx)", "∀x (Vx → Cx)", "∃x (Vx ∧ Cx)"], r: 1, por: "Trick case: ‘only Cs’ puts the necessary condition after the arrow: everyone who voted was a citizen (not every citizen voted)." },
   { f: "There is something that has not been caused by anything else.", d: "C = caused by something else", o: ["¬∃x Cx", "∀x ¬Cx", "∃x ¬Cx"], r: 2, por: "There is at least one x that is not caused: this is the idea of Aristotle’s prime mover or of Thomas Aquinas’s first cause." },
   { f: "Socrates is mortal.", d: "M = mortal, s = Socrates", o: ["∃x Mx", "Ms", "∀x Mx"], r: 1, por: "A particular individual is written with a lower-case letter (a constant): no quantifier is needed." },
-  { f: "Everyone who thinks exists.", d: "P = thinks, E = exists", o: ["∀x (Px → Ex)", "∀x (Ex → Px)", "∃x (Px ∧ Ex)"], r: 0, por: "Universal affirmative (A). To derive ‘I exist’ you would also need the premise ‘I think’ (Pi) and universal instantiation, as with Socrates." }
+  { f: "Everyone who thinks exists.", d: "P = thinks, E = exists", o: ["∀x (Px → Ex)", "∀x (Ex → Px)", "∃x (Px ∧ Ex)"], r: 0, por: "Universal affirmative (A). To derive ‘I exist’ you would also need the premise ‘I think’ (Pi) and universal instantiation, as with Socrates." },
+  { f: "Everyone has a mother.", d: "M = ‘y is the mother of x’", o: ["∃y ∀x Myx", "∀x ∃y Myx", "∀x ∀y Myx"], r: 1, por: "For each person there is some mother (she may be different in each case). ∃y ∀x Myx would say that there is a single mother of everyone: this is the quantifier shift." },
+  { f: "There is someone whom everyone admires.", d: "A = ‘x admires y’", o: ["∀x ∃y Axy", "∃y ∀x Axy", "∃x ∃y Axy"], r: 1, por: "There is a y such that everyone admires y. ∀x ∃y Axy would only say that each person admires someone, perhaps different people." }
 ];
 function logmCqEval(m){
   const ix = i => LOGM_CQ_IND[i], S = m.map(r => !!r[0]), P = m.map(r => !!r[1]), all = [0, 1, 2, 3, 4];
@@ -180,6 +191,10 @@ function logRenderCuantificadores(){
     '<div class="lg-panel"><h2>' + logmT("cqMundo") + '</h2><p class="lg-nota">' + logmT("cqMundoAyuda") + '</p><p class="lg-nota">' + logmT("cqPresets") + " " +
     [["p1", "cqP1"], ["p2", "cqP2"], ["p3", "cqP3"], ["p4", "cqP4"]].map(([k, l]) => '<button type="button" class="chip" data-cqpre="' + k + '">' + logmT(l) + "</button>").join(" ") + "</p>" +
     '<div id="lg-cq">' + logmCqMundo() + '</div><p class="lg-nota">' + logmT("cqVacio") + "</p></div>" +
+    logmGeneralizacion() +
+    /* (12-10) la falacia del cambio de orden de los cuantificadores, con su contraejemplo */
+    '<div class="lg-panel"><h2>' + logmT("cqOrdenTit") + "</h2><p>" + logmT("cqOrden") + '</p><div class="tablewrap"><table class="lg-tabla"><thead><tr><th>x</th><th>' + logmT("cqOrdenMadre") + "</th></tr></thead><tbody>" +
+      [["a", "m1"], ["b", "m2"], ["c", "m3"]].map(([x, y]) => "<tr><td>" + x + "</td><td>" + y + "</td></tr>").join("") + '</tbody></table></div><p class="lg-nota">' + logmT("cqOrdenContra") + '</p><p class="lg-nota">' + logmT("cqOrdenFilo") + "</p></div>" +
     '<div class="lg-panel"><h2>' + logmT("cqEjTit") + '</h2><p class="lg-nota">' + logmT("cqEjAyuda") + "</p>" +
     LOGM_CQ_EJ.map((e, i) => {
       const r = ej[i];
@@ -190,6 +205,58 @@ function logRenderCuantificadores(){
 }
 
 Object.assign(LOGM_TXT, LOGM_CQ_TXT);
+
+/* ---------- (12-10) lo que faltaba: conversión ilícita, generalización apresurada y «lo que la lógica puede y no puede refutar» ---------- */
+const LOGM_EXTRA_TXT = {
+  convTit: "Conversion: can a proposition be turned round?",
+  convIntro: "To convert is to swap the subject and the predicate. Sometimes truth is preserved and sometimes it is not: turning a proposition round when you cannot is the fallacy of illicit conversion.",
+  convProp: "Proposition", convConv: "Converse", convVale: "Valid?", convEj: "Example",
+  convSi: "Sí", convNo: "No: illicit conversion", convAcc: "Only ‘Some P is S’ (if there are any S)",
+  genTit: "From some to all: hasty generalisation",
+  gen: "From ∃x (Sx ∧ Px), ‘some S is P’, it does not follow that ∀x (Sx → Px), ‘every S is P’. Logic shows this with a counterexample: in the world ‘Some are and some are not’, the I is true and the A is false. How many cases you need in order to generalise prudently is no longer a question of deductive logic but of induction: no number of cases guarantees it.",
+  genVer: "See it in the small world",
+  lpTit: "What logic can and cannot refute",
+  lpIntro: "The formal fallacies above are refuted by their form: a single counterexample is enough. Other fallacies have no flaw in their form, but formalising them helps you to see them; and others cannot be refuted by logic, because the problem lies in the content.",
+  lpAyuda: "Logic helps, but it is not enough", lpNo: "Logic does not refute them", lpQueVe: "What logic shows",
+  lpNoIntro: "Their form may be valid or they may not even be an argument: the flaw lies in whether the premises are true or relevant. To detect them you have to ask about the content.",
+  lpDuelo: "Practise them in the Duel of Reasons →"
+};
+const LOGM_CONV = [
+  ["A", "All S are P", "Every P is S", "no", "Every dog is a mammal; but not every mammal is a dog."],
+  ["E", "No S are P", "No P is S", "si", "No fish is a mammal; therefore no mammal is a fish."],
+  ["I", "Some S are P", "Some P is S", "si", "Some philosopher is Greek; therefore some Greek is a philosopher."],
+  ["O", "Some S are not P", "Some P is not S", "no", "Some animal is not a dog; but it does not follow that some dog is not an animal."]
+];
+const LOGM_AYUDA = [
+  { n: "Equivocation", ej: "The end of a thing is its perfection. Death is the end of life. Therefore death is the perfection of life.", ve: "When formalising, ‘end’ as ‘purpose’ and ‘end’ as ‘termination’ receive different letters: a fourth term appears and the syllogism is no longer valid." },
+  { n: "Begging the question", ej: "This book tells the truth, because the book itself says so.", ve: "The argument is valid (p ⊢ p), but the conclusion was already in the premise: it proves nothing that was not taken for granted." },
+  { n: "False dilemma", ej: "Either you are with me or you are against me. You are not with me. Therefore you are against me.", ve: "The form is a disjunctive syllogism, which is valid. What fails is the premise p ∨ q: there are more options." },
+  { n: "Slippery slope", ej: "If we let people use their mobiles at break time, they will use them in class; if they use them in class, nobody will pay attention; if nobody pays attention, everybody will fail.", ve: "The chain p → q, q → r, r → s is valid (hypothetical syllogism), but each conditional is, at most, probable: probability is lost at every step." },
+  { n: "Enthymeme", ej: "It is expensive, so it must be good.", ve: "For it to be valid, a premise is missing: ‘everything expensive is good’. Formalising brings it to light, and then you can see that it is false." }
+];
+const LOGM_NOFORMAL = [
+  ["Attack on the person (ad hominem)", "It attacks the speaker, not what is said."],
+  ["False authority", "It rests the conclusion on someone who is not an expert in that field."],
+  ["Appeal to the majority (ad populum)", "That many people believe something does not make it true."],
+  ["Appeal to pity or fear", "It seeks an emotion instead of giving a reason."],
+  ["Straw man", "It refutes a distorted version of what the other person said."],
+  ["False cause", "That one thing happens after another does not prove that the first causes the second."]
+];
+function logmConversion(){
+  return '<div class="lg-panel"><h2>' + logmT("convTit") + '</h2><p class="lg-nota">' + logmT("convIntro") + '</p><div class="tablewrap"><table class="lg-tabla"><thead><tr><th></th><th>' + logmT("convProp") + "</th><th>" + logmT("convConv") + "</th><th>" + logmT("convVale") + "</th><th>" + logmT("convEj") + "</th></tr></thead><tbody>" +
+    LOGM_CONV.map(([t, p, c, v, e]) => "<tr><th>" + t + "</th><td>" + logEsc(p) + "</td><td>" + logEsc(c) + '</td><td class="lg-' + (v === "si" ? "v" : "f") + '">' + logmT(v === "si" ? "convSi" : "convNo") + (t === "A" ? "<br><small>" + logmT("convAcc") + "</small>" : "") + "</td><td>" + logEsc(e) + "</td></tr>").join("") + "</tbody></table></div></div>";
+}
+function logmGeneralizacion(){
+  return '<div class="lg-panel"><h2>' + logmT("genTit") + "</h2><p>" + logmT("gen") + '</p><p><button type="button" class="btn ghost" data-cqpre="p3">' + logmT("genVer") + "</button></p></div>";
+}
+function logmPuedeNoPuede(){
+  const duelo = document.getElementById("duelo") ? '<p><button type="button" class="btn ghost" data-igo="duelo" data-iarg="">' + logmT("lpDuelo") + "</button></p>" : "";
+  return '<div class="lg-panel"><h2>' + logmT("lpTit") + '</h2><p class="lg-nota">' + logmT("lpIntro") + "</p><h3>" + logmT("lpAyuda") + '</h3><div class="lg-reglas">' +
+    LOGM_AYUDA.map(x => '<div class="lg-regla lg-medio"><h3>' + logEsc(x.n) + '</h3><p><b>' + logmT("ejemplo") + ":</b> " + logEsc(x.ej) + "</p><p><b>" + logmT("lpQueVe") + ":</b> " + logEsc(x.ve) + "</p></div>").join("") + "</div>" +
+    "<h3>" + logmT("lpNo") + '</h3><p class="lg-nota">' + logmT("lpNoIntro") + '</p><ul class="lg-nof">' + LOGM_NOFORMAL.map(([n, d]) => "<li><b>" + logEsc(n) + ":</b> " + logEsc(d) + "</li>").join("") + "</ul>" + duelo + "</div>";
+}
+Object.assign(LOGM_TXT, LOGM_EXTRA_TXT);
+
 
 /* ---------- eventos (delegados en la caja del Rincón; logicaview.js maneja los demás) ---------- */
 (function(){
@@ -203,7 +270,7 @@ Object.assign(LOGM_TXT, LOGM_CQ_TXT);
     else if (b.dataset.fzsol != null){ const i = +b.dataset.fzsol; LOG.fz[i] = Object.assign(LOG.fz[i] || {}, { sol: true }); const r = document.getElementById("lg-fzr-" + i); if (r) r.innerHTML = logmFzRes(i); }
     else if (b.dataset.infp != null){ LOG.prem = b.dataset.infp; LOG.concl = b.dataset.infc; LOG.tab = "tablas"; logRender(); const a = document.getElementById("lg-arg"); if (a) a.scrollIntoView({ block: "center" }); }
     else if (b.dataset.cqi != null){ const r = LOG.cq.m[+b.dataset.cqi]; r[+b.dataset.cqj] = r[+b.dataset.cqj] ? 0 : 1; const c = document.getElementById("lg-cq"); if (c) c.innerHTML = logmCqMundo(); }
-    else if (b.dataset.cqpre){ LOG.cq.m = LOGM_CQ_PRE[b.dataset.cqpre].map(r => r.slice()); const c = document.getElementById("lg-cq"); if (c) c.innerHTML = logmCqMundo(); }
+    else if (b.dataset.cqpre){ LOG.cq.m = LOGM_CQ_PRE[b.dataset.cqpre].map(r => r.slice()); const c = document.getElementById("lg-cq"); if (c){ c.innerHTML = logmCqMundo(); if (b.closest(".lg-panel") !== c.closest(".lg-panel")) c.scrollIntoView({ block: "center" }); } }
     else if (b.dataset.cqej != null){ LOG.cq.ej[+b.dataset.cqej] = +b.dataset.cqo; const y = window.scrollY; logRender(); window.scrollTo(0, y); }
     else if (b.dataset.infej != null){ LOG.inf[+b.dataset.infej] = b.dataset.infr; const y = window.scrollY; logRender(); window.scrollTo(0, y); }
   });
