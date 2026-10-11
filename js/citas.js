@@ -67,6 +67,7 @@ const CITAS = [
   "a": "Epictetus",
   "o": "Enchiridion 1, 1",
   "e": "ancient",
+  "id": "epicteto",
   "img": "media/retratos/citas/epicteto.jpg",
   "sen": "For the Stoics, our judgements, desires and decisions are up to us; the body, fame and wealth are not. Serenity consists in concerning ourselves only with the former.",
   "uso": "To explain Stoic ethics and imperturbability, or in an essay on inner freedom and controlling the emotions."
@@ -273,6 +274,7 @@ const CITAS = [
   "a": "Blaise Pascal",
   "o": "Pensées, fr. 200 (Lafuma ed.) / 347 (Brunschvicg ed.)",
   "e": "modern",
+  "id": "pascal",
   "img": "media/retratos/museo2/pascal.jpg",
   "sen": "The human being is fragile and anything can destroy him, but he is superior to the universe because he knows that he dies. His dignity lies in thought.",
   "uso": "To introduce Pascal and the human condition between greatness and wretchedness, or in an essay on human dignity."
@@ -859,6 +861,7 @@ const CITAS = [
   "a": "Kierkegaard",
   "o": "Fear and Trembling (1843), Problem I",
   "e": "contemporary",
+  "id": "kierkegaard",
   "img": "media/retratos/museo2/kierkegaard.jpg",
   "sen": "For Kierkegaard, faith is not reasonable: the believer, like Abraham, relates directly to God above universal ethics, something reason cannot justify.",
   "uso": "To explain the religious stage and the figure of Abraham in Kierkegaard, or in debates about faith and reason."
@@ -1283,6 +1286,7 @@ const CITAS = [
   "a": "Epictetus",
   "o": "Enchiridion 5",
   "e": "ancient",
+  "id": "epicteto",
   "img": "media/retratos/citas/epicteto.jpg",
   "sen": "For Epictetus, what disturbs us is not things but our opinions about them. The wise person does not look for someone to blame: he accepts what is not up to him and concerns himself with what is.",
   "uso": "To explain Stoicism and the distinction between what is and what is not up to us, or in debates about responsibility."
@@ -1302,6 +1306,7 @@ const CITAS = [
   "a": "Marcus Aurelius",
   "o": "Meditations VI, 54",
   "e": "ancient",
+  "id": "marco_aurelio",
   "img": "media/retratos/museo/marco-aurelio.jpg",
   "sen": "For Marcus Aurelius, the individual is part of a rational community; that is why his true good cannot go against the common good.",
   "uso": "To explain Stoic cosmopolitanism, or in debates about the relationship between individual interest and the common good."
@@ -1401,6 +1406,7 @@ const CITAS = [
   "a": "Montaigne",
   "o": "Essays (1580) II, 1",
   "e": "modern",
+  "id": "montaigne",
   "img": "media/retratos/museo2/montaigne.jpg",
   "sen": "For Montaigne, we are not a fixed and coherent self, but a changing collection of pieces: depending on the moment we act one way or another, and sometimes we resemble ourselves less than we resemble someone else.",
   "uso": "To introduce Montaigne’s Essays and his scepticism, or in an essay on personal identity: are we always the same person?"
@@ -1410,6 +1416,7 @@ const CITAS = [
   "a": "Blaise Pascal",
   "o": "Pensées, fr. 60 (Lafuma ed.) / 294 (Brunschvicg ed.)",
   "e": "modern",
+  "id": "pascal",
   "img": "media/retratos/museo2/pascal.jpg",
   "sen": "Pascal mocks those who believe in a universal justice: what is just changes from country to country, and a border as arbitrary as a river or a mountain is enough to turn a truth into an error.",
   "uso": "To explain moral and cultural relativism, or in an essay on whether there is a natural justice valid for everyone."
@@ -1439,6 +1446,7 @@ const CITAS = [
   "a": "Schopenhauer",
   "o": "On the Basis of Morality (1840), § 16",
   "e": "contemporary",
+  "id": "schopenhauer",
   "img": "media/retratos/museo/schopenhauer.jpg",
   "sen": "For Schopenhauer, an action only has moral worth when it springs from compassion, that is, from feeling the suffering of another as one’s own; neither selfishness nor mere duty can ground morality.",
   "uso": "To introduce Schopenhauer’s ethics as opposed to Kantian duty, or in an essay on whether morality is grounded in reason or in feelings."

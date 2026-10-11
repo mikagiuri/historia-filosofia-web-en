@@ -3466,7 +3466,8 @@ const GLOSARIO = [
   "tema": "Nietzsche",
   "def": "For Schopenhauer, at the bottom of reality there is no transparent reason, but a drive with no rational end and an insatiable desire.",
   "ilustre": [
-   "nietzsche"
+   "nietzsche",
+   "schopenhauer"
   ]
  },
  {
