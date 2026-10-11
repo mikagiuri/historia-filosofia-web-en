@@ -201,7 +201,7 @@ function iluAbrirGlosario(t, sub){
 /* (10-10) Fichas de época (epocas_fichas.js): mismo marco que la ficha de un pensador. Apartados fijos y, al final,
    los pensadores de esa época en Ilustres (calculado) y el paso a la época siguiente. */
 const ILU_EPO = { ver: "See the period profile", abre: "What opens it", social: "Society", politico: "Politics",
-  ciencia: "Science and technology", pensamiento: "Thought", pensadores: "Thinkers of this period", rupturas: "Breaks and transitions",
+  ciencia: "Science and technology", arte: "Art", pensamiento: "Thought", pensadores: "Thinkers of this period", rupturas: "Breaks and transitions",
   trampa: "Trap", epoca: "Period", volver: "← All illustrious thinkers" };
 function iluListaPlegada(items, n){
   const resto = items.slice(n);
@@ -229,7 +229,7 @@ function loadEpoca(b){
     '<article class="ilu-ficha ilu-epoca" data-b="' + blk + '">' +
       '<header class="ilu-epo-head"><p class="ilu-era-tag"><i class="ilu-dot" data-b="' + blk + '" aria-hidden="true"></i>' + ILU_EPO.epoca + '</p>' +
         '<h2>' + iluEsc(iluNombreFicha(b)) + '</h2>' + (f.anos ? '<p class="ilu-life">' + iluEsc(f.anos) + '</p>' : '') + '</header>' +
-      sec("abre") + sec("social") + sec("politico") + sec("ciencia") + sec("pensamiento") +
+      sec("abre") + sec("social") + sec("politico") + sec("ciencia") + sec("arte") + sec("pensamiento") +
       (ps.length ? '<div class="ilu-sec ilu-conc"><h3>' + ILU_EPO.pensadores + '</h3><div class="ilu-conc-txt">' +
         iluListaPlegada(ps.map(p => '<button type="button" class="ilu-rel-a" data-go-ilu="' + iluEsc(p.id) + '" title="' + iluEsc(p.dates) + '">' + iluEsc(p.name) + '</button>'), 20) + '</div></div>' : '') +
       sec("rupturas") + sec("trampa", "ilu-anec") +
