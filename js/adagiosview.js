@@ -65,7 +65,7 @@ const ADG_AMB = ["saber", "realidad", "etica", "politica", "human"];
 const ADG_ILU = [
   ["Augustine of Hippo", "agustin"], ["Anselm of Canterbury", "anselmo"], ["Thomas Aquinas", "tomas"], ["Francis Bacon", "francis_bacon"],
   ["Erasmus of Rotterdam", "erasmo"], ["Erasmus", "erasmo"], ["Socrates", "socrates"], ["Plato", "platon"], ["Aristotle", "aristoteles"],
-  ["Heraclitus", "heraclito"], ["Parménides", "parmenides"], ["Protagoras", "protagoras"], ["Epicurus", "epicuro"], ["Séneca", "seneca"],
+  ["Heraclitus", "heraclito"], ["Parmenides", "parmenides"], ["Protagoras", "protagoras"], ["Epicurus", "epicuro"], ["Seneca", "seneca"],
   ["Tertullian", "tertuliano"], ["Ockham", "ockham"], ["Machiavelli", "maquiavelo"], ["Hobbes", "hobbes"], ["Spinoza", "spinoza"],
   ["Locke", "locke"], ["Leibniz", "leibniz"], ["Kant", "kant"], ["Heidegger", "heidegger"],
   ["Averroes", "averroes"], ["Hegel", "hegel"], ["Marx", "marx"], ["Darwin", "darwin"]
