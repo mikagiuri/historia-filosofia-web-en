@@ -486,7 +486,7 @@ const DILEMAS = [
   ],
   "ysi": "What if your classmate, on reaching power, turns out to be as cruel as she said the group was? Nietzsche would say the master is not cruel out of resentment but out of an excess of strength. Is there a difference for the victim?",
   "pau": "‘Do moral values have a history, or are they eternal?’ Reflect in 200-300 words from Nietzsche's genealogy and at least one other position (Kant, Marx or Beauvoir), with a present-day example.",
-  "dato": "Nietzsche's sister, Elisabeth, manipulated his manuscripts after his madness and put them at the service of Nazism. The philosopher who despised antisemitism and German nationalism ended up being, against his own text, the philosopher of the Reich."
+  "dato": "It has been repeated for decades that Nietzsche's sister Elisabeth had thoroughly manipulated his manuscripts to put them at the service of Nazism. Philology has now corrected this: she barely altered his writings. What she did do was publish in 1901, after his collapse, a compilation of stray notes as if it were his great work: “The Will to Power”."
  },
  {
   "subject": "hf",
