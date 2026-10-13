@@ -347,9 +347,9 @@ const DECKS = {
   ]
  },
  "citasA": {
-  "name": "Quotes · Ancient (Block A)",
+  "name": "Sayings · Ancient",
   "subject": "hf",
-  "block": "A",
+  "epoca": "ant",
   "tipo": "frases",
   "cards": [
    [
@@ -404,10 +404,10 @@ const DECKS = {
    ]
   ]
  },
- "citasB": {
-  "name": "Quotes · Medieval, Modern and Enlightenment (B)",
+ "citasM": {
+  "name": "Sayings · Medieval",
   "subject": "hf",
-  "block": "B",
+  "epoca": "med",
   "tipo": "frases",
   "cards": [
    [
@@ -439,7 +439,15 @@ const DECKS = {
     "💡",
     "‘Revelation must be understood according to human capacity, resorting to metaphors and symbols to express the ineffable.’",
     "Maimonides — The difficulty of interpretation (Guide for the Perplexed I, 31)"
-   ],
+   ]
+  ]
+ },
+ "citasMo": {
+  "name": "Sayings · Modern",
+  "subject": "hf",
+  "epoca": "mod",
+  "tipo": "frases",
+  "cards": [
    [
     "💡",
     "‘We have given you, O Adam, no fixed place, no form of your own, no gift peculiar to you, so that whatever place, form and gifts you may choose, you may have them according to your will and your decision.’",
@@ -482,6 +490,29 @@ const DECKS = {
    ],
    [
     "💡",
+    "‘Many have imagined republics and principalities that have never been seen or known to exist in reality; for there is such a gap between how one lives and how one ought to live, that whoever abandons what is done for what ought to be done learns his ruin rather than his preservation.’",
+    "Machiavelli — Virtù and fortune (The Prince XV)"
+   ],
+   [
+    "💡",
+    "‘The whole frame of nature bespeaks an intelligent author; and no rational enquirer can, after serious reflection, suspend his belief a moment with regard to the primary principles of genuine Theism.’",
+    "Hume — Critique of religion (Dialogues Concerning Natural Religion X)"
+   ],
+   [
+    "💡",
+    "‘The mind has no sex.’",
+    "Poulain de la Barre — The mind has no sex (On the Equality of the Two Sexes)"
+   ]
+  ]
+ },
+ "citasI": {
+  "name": "Sayings · Enlightenment",
+  "subject": "hf",
+  "epoca": "ilu",
+  "tipo": "frases",
+  "cards": [
+   [
+    "💡",
     "‘Each of us puts his person and all his power in common under the supreme direction of the general will.’",
     "Rousseau — The general will (The Social Contract I, 6)"
    ],
@@ -507,11 +538,6 @@ const DECKS = {
    ],
    [
     "💡",
-    "‘The mind has no sex.’",
-    "Poulain de la Barre — The mind has no sex (On the Equality of the Two Sexes)"
-   ],
-   [
-    "💡",
     "‘I do not wish them to have power over men; but over themselves.’",
     "Wollstonecraft — Education and equality (A Vindication of the Rights of Woman IV)"
    ],
@@ -522,28 +548,8 @@ const DECKS = {
    ],
    [
     "💡",
-    "‘The most oppressed man can oppress a being: his wife. She is the proletarian of the proletarian himself.’",
-    "Flora Tristan — Workers’ and women’s emancipation (The Workers’ Union)"
-   ],
-   [
-    "💡",
     "‘Act only according to that maxim whereby you can at the same time will that it should become a universal law.’",
     "Kant — Categorical imperative (Groundwork, BA 52)"
-   ],
-   [
-    "💡",
-    "‘The true is the whole.’",
-    "Hegel — Absolute spirit (Phenomenology of Spirit, Preface)"
-   ],
-   [
-    "💡",
-    "‘Many have imagined republics and principalities that have never been seen or known to exist in reality; for there is such a gap between how one lives and how one ought to live, that whoever abandons what is done for what ought to be done learns his ruin rather than his preservation.’",
-    "Machiavelli — Virtù and fortune (The Prince XV)"
-   ],
-   [
-    "💡",
-    "‘The whole frame of nature bespeaks an intelligent author; and no rational enquirer can, after serious reflection, suspend his belief a moment with regard to the primary principles of genuine Theism.’",
-    "Hume — Critique of religion (Dialogues Concerning Natural Religion X)"
    ],
    [
     "💡",
@@ -556,22 +562,32 @@ const DECKS = {
     " — Sapere aude Kant, What Is Enlightenment?"
    ],
    [
-    "💡",
-    "‘Reason governs the world.’",
-    "Hegel — Reason in history (Philosophy of History, Introduction)"
+    "🌍",
+    "‘Enlightenment is man’s emergence from his self-incurred immaturity.’",
+    " — What Is Enlightenment? Kant 1784"
    ]
   ]
  },
  "citasC": {
-  "name": "Quotes · Contemporary (Block C)",
+  "name": "Sayings · Contemporary",
   "subject": "hf",
-  "block": "C",
+  "epoca": "con",
   "tipo": "frases",
   "cards": [
    [
     "🌍",
-    "‘Enlightenment is man’s emergence from his self-incurred immaturity.’",
-    " — What Is Enlightenment? Kant 1784"
+    "‘The true is the whole.’",
+    "Hegel — Absolute spirit (Phenomenology of Spirit, Preface)"
+   ],
+   [
+    "🌍",
+    "‘Reason governs the world.’",
+    "Hegel — Reason in history (Philosophy of History, Introduction)"
+   ],
+   [
+    "🌍",
+    "‘The most oppressed man can oppress a being: his wife. She is the proletarian of the proletarian himself.’",
+    "Flora Tristan — Workers’ and women’s emancipation (The Workers’ Union)"
    ],
    [
     "🌍",

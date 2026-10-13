@@ -42,6 +42,7 @@
       <div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Study</span><div class="navmenu"><button data-view="hf" aria-current="true">Theory</button><button data-view="esqautor">Summaries</button><button data-view="tarjetas">Cards</button><button data-view="mapas">Concept maps</button><button data-view="infografias">Infographics</button><button data-view="glosario">Glossary</button><div class="navfold"><button type="button" class="navfold-head" aria-expanded="false">History</button><div class="navfold-body"><button data-view="epocas">Periods</button><button data-view="ilustres">Illustrious Thinkers</button><button data-view="perseguidos">Persecuted</button><button data-view="comunidades">Communities</button><button data-view="cronogramas">Chronograms</button><button data-view="genealogias">Genealogies</button><button data-view="adagios">Adages</button><button data-view="galeria">Gallery</button></div></div></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Practise</span><div class="navmenu"><button data-view="cuestionarios">Quizzes</button><button data-view="pistas">Hints</button><button data-view="rescritura">Rewriting</button><button data-view="logica">Logic Corner</button><div class="navfold"><button type="button" class="navfold-head" aria-expanded="false">Games</button><div class="navfold-body"><button data-view="reto">Challenge</button><button data-view="parejas">Pairs</button><button data-view="eudaimonia">Eudaimonia</button><button data-view="republica">The Republic</button><button data-view="rayuela">Philosophical hopscotch</button><button data-view="leibniz">Leibniz’s Workshop</button></div></div><div class="navfold"><button type="button" class="navfold-head" aria-expanded="false">Debate</button><div class="navfold-body"><button data-view="dilemas">Ethical dilemmas</button><button data-view="polemicas">Controversies</button><button data-view="duelo">Duel of Reasons</button><button data-view="nudos">Knots</button></div></div></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">PAU</span><div class="navmenu"><button data-view="pau">Guide to the exam</button><button data-view="comentario">Text commentary</button><button data-view="disertaciones">Essays</button><button data-view="lecturas">Readings</button></div></div>
     </nav>
     <button class="navtoggle" id="navtoggle" aria-label="Open sections menu" aria-expanded="false">☰</button>
+    <button class="theme" id="helpbtn" title="How to use the website" aria-label="How to use the website">?</button>
     <details class="langmenu" id="langmenu"><summary class="theme langbtn" title="Language" aria-label="Language">🌐</summary><div class="langlist"><a href="https://mikagiuri.github.io/historia-filosofia-web/" hreflang="es" lang="es" onclick="this.href=this.href.split('#')[0]+location.hash">Castellano</a><a href="https://mikagiuri.github.io/historia-filosofia-web-eu/" hreflang="eu" lang="eu" onclick="this.href=this.href.split('#')[0]+location.hash">Euskara</a><a href="https://mikagiuri.github.io/historia-filosofia-web-fr/" hreflang="fr" lang="fr" onclick="this.href=this.href.split('#')[0]+location.hash">Français</a><a href="https://mikagiuri.github.io/historia-filosofia-web-en/" hreflang="en" lang="en" aria-current="true" onclick="this.href=this.href.split('#')[0]+location.hash">English</a><a href="https://mikagiuri.github.io/historia-filosofia-web-ar/" hreflang="ar" lang="ar" onclick="this.href=this.href.split('#')[0]+location.hash">العربية</a></div></details>
     <button class="theme" id="theme" title="Switch light/dark mode" aria-label="Switch light/dark mode">◐</button>
   </div>
@@ -55,6 +56,8 @@
   <!-- MATERIAS (se rellenan desde js/app.js) -->
   
   <section class="view" id="hf"></section>
+  <!-- GUÍA «Cómo usar la web» (guia.js + guiaview.js, 13-10): solo Bachillerato -->
+  <section class="view" id="guia"></section>
   
 
   <!-- SESIONES -->
@@ -1084,6 +1087,8 @@
 <script src="js/itinerario.js"></script>
 <script src="js/mapaview.js"></script>
 <script src="js/epocas.js"></script>
+<script src="js/guia.js"></script>
+<script src="js/guiaview.js"></script>
 <script src="js/compacto.js"></script>
 <script src="js/nav_toc.js"></script>
 <script src="js/lazy_libs.js"></script>

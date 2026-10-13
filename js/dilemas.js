@@ -63,7 +63,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "5th century BC, the Greek Enlightenment",
+   "epoca": "Siglo V a. C., la Ilustración griega",
    "texto": "‘Was it not we who begot you, raised you and educated you? […] Do you think you stand on equal terms with your homeland, so that whatever she does to you, you may do back to her?’",
    "fuente": "Plato, Crito, 50a-51c (the Laws speak to Socrates).",
    "unidad": "hf-sofistas"
@@ -115,7 +115,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "4th century BC",
+   "epoca": "Siglo IV a. C.",
    "texto": "‘It is our task to compel the best natures to attain the knowledge of the Good, to climb that steep ascent and, once they have reached it, not to allow them what is now allowed: to stay there and refuse to go down again among the prisoners.’",
    "fuente": "Plato, Republic, VII, 519c-520a (PAU text).",
    "unidad": "hf-platon"
@@ -166,7 +166,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "4th-3rd centuries BC, the Hellenistic period",
+   "epoca": "Siglos IV-III a. C., el helenismo",
    "texto": "‘Of things, some depend on us and others do not. […] If you consider yours what is not yours, you will lament, you will be disturbed and you will blame the gods and men.’",
    "fuente": "Epictetus, Handbook, 1. Epicurus replies in the Letter to Menoeceus: ‘Pleasure is the beginning and the end of the blessed life’.",
    "unidad": "hf-helenismo"
@@ -217,7 +217,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "2nd-14th centuries",
+   "epoca": "Siglos II-XIV",
    "texto": "‘Understand in order to believe, believe in order to understand.’ And Thomas: ‘Faith presupposes natural knowledge, as grace presupposes nature’.",
    "fuente": "Augustine, Sermon 43; Thomas Aquinas, Summa Theologiae, I, q. 2, a. 2.",
    "unidad": "hf-fe-razon"
@@ -267,7 +267,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "13th century",
+   "epoca": "Siglo XIII",
    "texto": "‘Although the Christian faith is above reason, there can be no opposition between them, because both come from God.’",
    "fuente": "Thomas Aquinas, Summa contra Gentiles, I, 7. Bishop Tempier's condemnation of 1277 bans the thesis that ‘there are things true according to philosophy that are not true according to faith’.",
    "unidad": "hf-medieval"
@@ -319,7 +319,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "17th century",
+   "epoca": "Siglo XVII",
    "texto": "‘Because I wished to devote myself solely to the search for truth, I thought I ought to reject as absolutely false everything in which I could imagine the least doubt, in order to see whether, after that, there would remain in my belief something entirely indubitable.’",
    "fuente": "Descartes, Discourse on Method, IV (1637).",
    "unidad": "hf-racionalismo"
@@ -370,7 +370,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "17th-18th centuries",
+   "epoca": "Siglos XVII-XVIII",
    "texto": "‘Man is born free, and everywhere he is in chains.’ Against Hobbes: ‘Covenants, without the sword, are but words, and of no strength to secure a man at all’.",
    "fuente": "Rousseau, The Social Contract, I, 1 (1762); Hobbes, Leviathan, XVII (1651).",
    "unidad": "hf-contrato"
@@ -422,7 +422,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "1797, the Constant-Kant debate",
+   "epoca": "1797, el debate Constant-Kant",
    "texto": "‘Truthfulness in statements that cannot be avoided is a formal duty of man to everyone, however great the disadvantage that may result from it for him or for another.’",
    "fuente": "Kant, On a Supposed Right to Lie from Philanthropy (1797), in reply to Constant.",
    "unidad": "hf-etica-deber"
