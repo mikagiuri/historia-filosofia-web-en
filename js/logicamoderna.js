@@ -40,7 +40,9 @@ const LOGM_FZ = [
   { f: "I will call you if and only if you are late.", d: [["p", "I call you"], ["q", "you are late"]], s: "p ↔ q", pista: "‘If and only if’ joins two conditionals: p → q and q → p." },
   { f: "Either you study or you work, but not both.", d: [["p", "you study"], ["q", "you work"]], s: "(p ∨ q) ∧ ¬(p ∧ q)", pista: "Trick case: the logical ‘or’ is inclusive; here you have to add that the two do not both happen." },
   { f: "It is not true that, if it rains, the match is called off.", d: [["p", "it rains"], ["q", "the match is called off"]], s: "¬(p → q)", pista: "The ‘it is not true that’ denies the whole conditional: it goes in front of the brackets." },
-  { f: "Epicurus: ‘When we are here, death is not; and when death is here, we are no longer.’", d: [["p", "we are here"], ["q", "death is here"]], s: "(p → ¬q) ∧ (q → ¬p)", pista: "They are two conditionals joined by ‘and’. (Letter to Menoeceus, 125.)" }
+  { f: "Epicurus: ‘When we are here, death is not; and when death is here, we are no longer.’", d: [["p", "we are here"], ["q", "death is here"]], s: "(p → ¬q) ∧ (q → ¬p)", pista: "They are two conditionals joined by ‘and’. (Letter to Menoeceus, 125.)" },
+  /* (17-10) caso «Mónica» con cinco letras (docs/34): la ficha de Argumentos clásicos lo formaliza con tres */
+  { f: "Monica, to the letter: ‘If someone desires good things and has them, they are happy; but if they desire bad things, even though they have them, they are unhappy’.", d: [["p", "is happy"], ["q", "desires good things"], ["r", "has good things"], ["s", "desires bad things"], ["t", "has bad things"]], s: "((q ∧ r) → p) ∧ ((s ∧ t) → ¬p)", pista: "‘But’ and ‘even though’ are written with ∧: ‘even though they have them’ does not deny that they have them, it asserts it. Compare it with the three-letter reading in Monica’s card (Classic arguments): someone who desires what is good and what is bad, has everything and is happy? One formula admits it and the other does not." }
 ];
 function logmEquiv(a, b){
   const vars = logVars([a, b]);
