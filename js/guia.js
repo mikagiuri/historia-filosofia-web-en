@@ -11,9 +11,7 @@ const GUIA = {
   "materia_hf": "History of Philosophy",
   "materia_fil": "Philosophy 1st Bach."
  },
- "pdf": {
-  "hf": "media/guia/hf/guia_aula_de_filosofia_hf.pdf"
- },
+ "pdf": {},
  "bloques": [
   {
    "type": "h",
