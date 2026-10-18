@@ -21255,7 +21255,7 @@ const QUIZZES = {
     "fb": "The phrase appears in Rosa Luxemburg’s The Russian Revolution (1918), in which she warned that the dictatorship of a party could betray the revolution."
    },
    {
-    "q": "Who proposed in 1910 the celebration of an International Women’s Day, which would end up being fixed on 8 March?",
+    "q": "Which socialist thinker proposed in 1910, together with Käte Duncker and other delegates, celebrating an International Women’s Day every year, which would end up being fixed on 8 March?",
     "o": [
      "Rosa Luxemburg",
      "Clara Zetkin",
@@ -21263,7 +21263,7 @@ const QUIZZES = {
      "Simone de Beauvoir"
     ],
     "a": 1,
-    "fb": "It was Clara Zetkin who proposed International Women’s Day in 1910, uniting the liberation of women and the class struggle."
+    "fb": "It was Clara Zetkin who proposed it, together with Käte Duncker and other delegates, at the conference of socialist women in Copenhagen (1910), still without a fixed date; in this way she brought together the liberation of women and the class struggle."
    },
    {
     "q": "Fanon holds that the colonised person is deprived not only of land, but that their language, their body and their self-image are also marked. What does he conclude from this?",

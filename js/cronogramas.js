@@ -924,6 +924,359 @@ const CRONOGRAMAS = [
   "groupsLabel": "Currents"
  },
  {
+  "id": "B-MED-VIAS-01",
+  "code": "B-MED-VIAS-01",
+  "title": "The five ways and their antecedents: each argument, from Plato to the 20th century",
+  "type": "timeline",
+  "groupsLabel": "Arguments",
+  "start": -450,
+  "end": 2026,
+  "groups": [
+   {
+    "name": "1st way: motion",
+    "color": "var(--e-ant)"
+   },
+   {
+    "name": "2nd way: cause",
+    "color": "var(--e-mod)"
+   },
+   {
+    "name": "3rd way: contingency",
+    "color": "var(--e-ilu)"
+   },
+   {
+    "name": "4th way: degrees",
+    "color": "var(--e-med)"
+   },
+   {
+    "name": "5th way: order and design",
+    "color": "var(--e-con)"
+   },
+   {
+    "name": "Ontological argument",
+    "color": "var(--e-ren)"
+   },
+   {
+    "name": "Kalam: the world began",
+    "color": "var(--e-int)"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Plato",
+    "start": -427,
+    "end": -347,
+    "grp": 0,
+    "note": "Laws X: the soul is the only thing that moves itself, origin of all motion"
+   },
+   {
+    "name": "Plato · degrees",
+    "start": -427,
+    "end": -347,
+    "grp": 3,
+    "note": "The Idea of the Good: good things participate in it"
+   },
+   {
+    "name": "Aristotle",
+    "start": -384,
+    "end": -322,
+    "grp": 0,
+    "note": "Physics VIII and Metaphysics XII: the unmoved mover, which moves as the beloved does"
+   },
+   {
+    "name": "Aristotle · cause",
+    "start": -384,
+    "end": -322,
+    "grp": 1,
+    "note": "The four causes; the efficient cause is the one that produces"
+   },
+   {
+    "name": "Aristotle · degrees",
+    "start": -384,
+    "end": -322,
+    "grp": 3,
+    "note": "Metaphysics II: what is most true is most fully being (cited by the 4th way)"
+   },
+   {
+    "name": "Cicero",
+    "start": -106,
+    "end": -43,
+    "grp": 4,
+    "note": "On the Nature of the Gods II: the sundial and the sphere of Posidonius"
+   },
+   {
+    "name": "Augustine of Hippo",
+    "start": 354,
+    "end": 430,
+    "grp": 3,
+    "note": "On Free Choice of the Will II: truth is above the mind"
+   },
+   {
+    "name": "Boethius",
+    "start": 480,
+    "end": 524,
+    "grp": 3,
+    "note": "The Consolation of Philosophy III: from the imperfect good to the perfect"
+   },
+   {
+    "name": "John of Damascus",
+    "start": 675,
+    "end": 749,
+    "grp": 4,
+    "note": "Exposition of the Faith I, 3: the order of the world"
+   },
+   {
+    "name": "Al-Kindi",
+    "start": 801,
+    "end": 873,
+    "grp": 6,
+    "note": "The world began, so it has a cause"
+   },
+   {
+    "name": "Saadia Gaon",
+    "start": 882,
+    "end": 942,
+    "grp": 6,
+    "note": "The same argument, in Judaism"
+   },
+   {
+    "name": "Avicenna · cause",
+    "start": 980,
+    "end": 1037,
+    "grp": 1,
+    "note": "What is necessary through another depends on a chain that cannot hold itself up"
+   },
+   {
+    "name": "Avicenna",
+    "start": 980,
+    "end": 1037,
+    "grp": 2,
+    "note": "The Healing: the possible in itself and the necessary in itself"
+   },
+   {
+    "name": "Anselm · degrees",
+    "start": 1033,
+    "end": 1109,
+    "grp": 3,
+    "note": "Monologion (1076): from the degrees of goodness to the supremely good"
+   },
+   {
+    "name": "Anselm of Canterbury",
+    "start": 1033,
+    "end": 1109,
+    "grp": 5,
+    "note": "Proslogion (1077-1078): that than which nothing greater can be thought"
+   },
+   {
+    "name": "Gaunilo (critic)",
+    "start": 1080,
+    "end": null,
+    "fl": true,
+    "grp": 5,
+    "note": "On Behalf of the Fool: the lost island"
+   },
+   {
+    "name": "Al-Ghazali",
+    "start": 1058,
+    "end": 1111,
+    "grp": 6,
+    "note": "Holds that the world had a beginning"
+   },
+   {
+    "name": "Averroes",
+    "start": 1126,
+    "end": 1198,
+    "grp": 0,
+    "note": "Returns to Aristotle’s proof from motion"
+   },
+   {
+    "name": "Maimonides",
+    "start": 1138,
+    "end": 1204,
+    "grp": 0,
+    "note": "Guide for the Perplexed II, 1: the proof from the first mover"
+   },
+   {
+    "name": "Maimonides · contingency",
+    "start": 1138,
+    "end": 1204,
+    "grp": 2,
+    "note": "Not everything can come into being and pass away, even in an eternal world"
+   },
+   {
+    "name": "Bonaventure",
+    "start": 1217,
+    "end": 1274,
+    "grp": 6,
+    "note": "Reason can prove that the world began"
+   },
+   {
+    "name": "Thomas Aquinas · 1st way",
+    "start": 1225,
+    "end": 1274,
+    "grp": 0,
+    "note": "Summa Theologiae I, q. 2, a. 3 (around 1266-1268): the first mover"
+   },
+   {
+    "name": "Thomas Aquinas · 2nd way",
+    "start": 1225,
+    "end": 1274,
+    "grp": 1,
+    "note": "The first efficient cause"
+   },
+   {
+    "name": "Thomas Aquinas · 3rd way",
+    "start": 1225,
+    "end": 1274,
+    "grp": 2,
+    "note": "What is necessary in itself"
+   },
+   {
+    "name": "Thomas Aquinas · 4th way",
+    "start": 1225,
+    "end": 1274,
+    "grp": 3,
+    "note": "The maximum, cause of all perfection"
+   },
+   {
+    "name": "Thomas Aquinas · 5th way",
+    "start": 1225,
+    "end": 1274,
+    "grp": 4,
+    "note": "An intelligence that orders nature"
+   },
+   {
+    "name": "Thomas · against Anselm",
+    "start": 1225,
+    "end": 1274,
+    "grp": 5,
+    "note": "Rejects Anselm’s argument (I, q. 2, a. 1, ad 2)"
+   },
+   {
+    "name": "Thomas · against the kalam",
+    "start": 1225,
+    "end": 1274,
+    "grp": 6,
+    "note": "Denies that reason can prove that the world began (I, q. 46, a. 2)"
+   },
+   {
+    "name": "Duns Scotus",
+    "start": 1266,
+    "end": 1308,
+    "grp": 1,
+    "note": "A first cause, starting from the possible"
+   },
+   {
+    "name": "William of Ockham",
+    "start": 1287,
+    "end": 1347,
+    "grp": 1,
+    "note": "The cause that now conserves things in existence"
+   },
+   {
+    "name": "Descartes",
+    "start": 1596,
+    "end": 1650,
+    "grp": 5,
+    "note": "Meditation V (1641): the idea of a perfect being"
+   },
+   {
+    "name": "Leibniz",
+    "start": 1646,
+    "end": 1716,
+    "grp": 2,
+    "note": "Principle of sufficient reason: why is there something rather than nothing? (1714)"
+   },
+   {
+    "name": "Leibniz · ontological",
+    "start": 1646,
+    "end": 1716,
+    "grp": 5,
+    "note": "Completes the argument: it must first be proved that God is possible"
+   },
+   {
+    "name": "Hume (critic)",
+    "start": 1711,
+    "end": 1776,
+    "grp": 2,
+    "note": "Dialogues (1779): causality does not go beyond experience"
+   },
+   {
+    "name": "Hume · design (critic)",
+    "start": 1711,
+    "end": 1776,
+    "grp": 4,
+    "note": "Dialogues: the analogy between the world and a machine is weak"
+   },
+   {
+    "name": "Kant (critic)",
+    "start": 1724,
+    "end": 1804,
+    "grp": 2,
+    "note": "Critique of Pure Reason (1781): the cosmological proof hides the ontological one"
+   },
+   {
+    "name": "Kant · design (critic)",
+    "start": 1724,
+    "end": 1804,
+    "grp": 4,
+    "note": "The proof from the order of the world does not reach a perfect being"
+   },
+   {
+    "name": "Kant · ontological (critic)",
+    "start": 1724,
+    "end": 1804,
+    "grp": 5,
+    "note": "‘Being is not a real predicate’"
+   },
+   {
+    "name": "Paley",
+    "start": 1743,
+    "end": 1805,
+    "grp": 4,
+    "note": "Natural Theology (1802): the watch and the eye"
+   },
+   {
+    "name": "Darwin (critic)",
+    "start": 1809,
+    "end": 1882,
+    "grp": 4,
+    "note": "On the Origin of Species (1859): adaptation without a designer"
+   },
+   {
+    "name": "Russell (critic)",
+    "start": 1872,
+    "end": 1970,
+    "grp": 2,
+    "note": "BBC debate (1948): the universe is just there"
+   },
+   {
+    "name": "Copleston",
+    "start": 1907,
+    "end": 1994,
+    "grp": 2,
+    "note": "Defends the argument from contingency against Russell (1948)"
+   },
+   {
+    "name": "Plantinga",
+    "start": 1932,
+    "end": null,
+    "vive": true,
+    "grp": 5,
+    "note": "Modal version of the argument (1974)"
+   },
+   {
+    "name": "William Lane Craig",
+    "start": 1949,
+    "end": null,
+    "vive": true,
+    "grp": 6,
+    "note": "The kalam returns (1979)"
+   }
+  ],
+  "events": []
+ },
+ {
   "id": "B-REN-KRO-01",
   "code": "B-REN-KRO-01",
   "title": "The Renaissance: humanism, the Reformation and the scientific revolution (15th–17th centuries)",

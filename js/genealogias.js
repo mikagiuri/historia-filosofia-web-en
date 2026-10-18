@@ -366,3 +366,159 @@ const GENEALOGIAS = {
   }
  ]
 };
+const GENEALOGIAS_PLANOS = [
+ {
+  "id": "dios",
+  "name": "Proofs of the existence of God",
+  "desc": "How the arguments about God passed from one thinker to another, from Plato to the 20th century, and who attacked them.",
+  "lineas": [
+   {
+    "id": "mov",
+    "name": "1st way: motion",
+    "color": "#e0a526",
+    "desc": "Whatever moves is moved by something else, and the chain cannot be infinite: there is a first mover.",
+    "ilustre": [
+     "platon",
+     "aristoteles",
+     "averroes",
+     "maimonides",
+     "tomas"
+    ]
+   },
+   {
+    "id": "cau",
+    "name": "2nd way: cause",
+    "color": "#3fa7c9",
+    "desc": "Nothing is the cause of itself, and without a first cause there would be none: there is a first cause.",
+    "ilustre": [
+     "aristoteles",
+     "avicena",
+     "tomas",
+     "duns_escoto",
+     "ockham"
+    ]
+   },
+   {
+    "id": "con",
+    "name": "3rd way: contingency",
+    "color": "#7b61d9",
+    "desc": "What might not exist needs something else in order to exist: there is a being necessary in itself.",
+    "ilustre": [
+     "avicena",
+     "maimonides",
+     "tomas",
+     "leibniz",
+     "copleston"
+    ]
+   },
+   {
+    "id": "gra",
+    "name": "4th way: degrees",
+    "color": "#b44fc4",
+    "desc": "If there are things more or less good and true, there is a maximum that is their measure and their cause.",
+    "ilustre": [
+     "platon",
+     "agustin",
+     "boecio",
+     "anselmo",
+     "tomas"
+    ]
+   },
+   {
+    "id": "ord",
+    "name": "5th way: order",
+    "color": "#2e9e6b",
+    "desc": "Things without knowledge act for an end, like the arrow directed by the archer: there is an intelligence that orders nature.",
+    "ilustre": [
+     "ciceron",
+     "tomas",
+     "paley"
+    ]
+   },
+   {
+    "id": "ont",
+    "name": "Ontological argument",
+    "color": "#d95f02",
+    "desc": "From the mere concept of God, ‘that than which nothing greater can be thought’, it would follow that he exists.",
+    "ilustre": [
+     "anselmo",
+     "descartes",
+     "leibniz"
+    ]
+   },
+   {
+    "id": "kal",
+    "name": "Kalam: the world began",
+    "color": "#9a7b5f",
+    "desc": "The world had a beginning, and everything that begins to exist has a cause.",
+    "ilustre": [
+     "al_kindi",
+     "al_ghazali",
+     "buenaventura"
+    ]
+   },
+   {
+    "id": "cri",
+    "name": "The critics",
+    "color": "#6e6e78",
+    "desc": "Those who questioned whether reason can prove the existence of God.",
+    "ilustre": [
+     "hume",
+     "kant",
+     "darwin",
+     "russell"
+    ]
+   }
+  ],
+  "op": [
+   {
+    "ilustre": [
+     "anselmo",
+     "tomas"
+    ]
+   },
+   {
+    "ilustre": [
+     "tomas",
+     "buenaventura"
+    ]
+   },
+   {
+    "ilustre": [
+     "avicena",
+     "averroes"
+    ]
+   },
+   {
+    "ilustre": [
+     "al_ghazali",
+     "averroes"
+    ]
+   },
+   {
+    "ilustre": [
+     "descartes",
+     "kant"
+    ]
+   },
+   {
+    "ilustre": [
+     "hume",
+     "paley"
+    ]
+   },
+   {
+    "ilustre": [
+     "paley",
+     "darwin"
+    ]
+   },
+   {
+    "ilustre": [
+     "russell",
+     "copleston"
+    ]
+   }
+  ]
+ }
+];
