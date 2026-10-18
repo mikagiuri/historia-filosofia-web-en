@@ -527,7 +527,8 @@ const ILUSTRES = {
    "hf-kant-poetas",
    "hf-kant-juicios",
    "hf-etica-deber",
-   "hf-sospecha"
+   "hf-sospecha",
+   "hf-filosofas-dialogo"
   ]
  },
  "aspasia": {
@@ -548,7 +549,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-sofistas"
+   "hf-sofistas",
+   "hf-filosofas-dialogo"
   ]
  },
  "democrito": {
@@ -722,10 +724,12 @@ const ILUSTRES = {
    "hf-modernidad",
    "hf-montaigne-ensayos",
    "hf-renacimiento-magia",
+   "hf-utopias-autoras",
    "hf-racionalismo",
    "hf-kant-poetas",
    "hf-kant-juicios",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-descartes-makro"
   ]
  },
@@ -812,6 +816,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-beefs",
    "hf-mito",
@@ -924,7 +929,33 @@ const ILUSTRES = {
   "temas": [
    "hf-helenismo",
    "hf-montaigne-ensayos",
+   "hf-bayle-diccionario",
    "hf-descartes-makro"
+  ]
+ },
+ "hiparquia": {
+  "name": "Hipparchia of Maroneia",
+  "dates": "c. 350 – c. 280 BC",
+  "born": -350,
+  "died": -280,
+  "place": "Maroneia (Thrace); lived in Athens",
+  "role": "Cynic philosopher",
+  "idea": "She lived out to the full the Cynic philosophy she preached: she gave up wealth and the role her age reserved for women in order to live according to nature, as an equal to her partner Crates.",
+  "bio": "<p>Hipparchia was born in Maroneia, in Thrace, into a well-off family. She came to know Cynic philosophy through her brother Metrocles, a pupil of <strong>Crates of Thebes</strong>, and was so won over by it that, against her parents' wishes, she decided to share Crates's life: voluntary poverty, with no house or belongings, living in the street according to <strong>nature</strong> (<em>physis</em>) and not according to social convention (<em>nómos</em>).</p>\n<p>The Cynics argued for equality between men and women, but in practice Hipparchia had to make her way in a society, and in a school, that still mistrusted women. She did so through her own consistency: by her actions she was the finest representative of the Cynic life, and one of the very few women philosophers of antiquity of whom we have any record. She wrote several works —<em>Philosophical Hypotheses</em>, <em>Epicheiremes</em>, <em>Questions to Theodorus</em>—, all lost, so we know her above all through what Diogenes Laërtius recorded about her.</p>\n<p>She appears in the syllabus alongside the Cynics and the schools of the <strong>Hellenistic period</strong>, and as a figure who tests how far the equality those schools proclaimed really went.</p>",
+  "obras": [
+   "Philosophical Hypotheses (lost)",
+   "Epicheiremes (lost)",
+   "Questions to Theodorus the Atheist (lost)"
+  ],
+  "anecdota": "<p>At a banquet in the house of Lysimachus, the philosopher Theodorus the Atheist reproached her for not behaving as a woman should and for having abandoned the loom. Hipparchia answered him with a joking syllogism —what is no offence in Theodorus is none in her either— and, faced with the attack, retorted without turning a hair: &iquest;did he think it wrong that she had spent on study the time she should, by his account, have spent weaving?</p>",
+  "fuente": "Diogenes Laërtius, *Lives of the Eminent Philosophers* VI (life of Crates); the titles of her lost works come from the *Suda* (s.v. Hipparchia); epigram by Antipater of Sidon, *Palatine Anthology* VII, 413; adapted from Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, ‘En diálogo con…’ series; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
   ]
  },
  "epicuro": {
@@ -1102,8 +1133,32 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-helenismo",
    "hf-montaigne-ensayos"
+  ]
+ },
+ "quintiliano": {
+  "name": "Quintilian",
+  "dates": "c. 35 – c. 100 AD",
+  "born": 35,
+  "died": 100,
+  "place": "Calagurris (Hispania; present-day Calahorra, La Rioja)",
+  "role": "Roman rhetorician and teacher",
+  "idea": "The aim of education is to form the perfect orator, who is not merely someone who speaks well but the ‘good man skilled in speaking’: without honesty there is no true eloquence.",
+  "bio": "<p>Marcus Fabius Quintilianus was born around the year 35 in Calagurris, present-day Calahorra (La Rioja), in Roman Hispania. He trained in Rome and, after spending some time back in Hispania, returned to the capital, where he opened a school of rhetoric and practised as a lawyer. The emperor <strong>Vespasian</strong> granted him a public chair of rhetoric paid for by the State, something unheard of until then: he was one of the first teachers to be paid from the public purse for teaching. He taught for some twenty years —Pliny the Younger was among his pupils— and, once retired, wrote his great work.</p>\n<p>The <em>Institutio Oratoria</em> (<em>Institutio oratoria</em>), in twelve books, is the most complete treatise on education in antiquity: it follows the training of the future orator from the cradle to maturity. Quintilian argues for learning through play in the early years, for adapting teaching to each child's character, and he rejects <strong>corporal punishment</strong>, which he considers humiliating and useless. His ideal, which he takes from a phrase of Cato's, is the <em>vir bonus dicendi peritus</em>, ‘the good man skilled in speaking’: words well used are worth nothing without virtue. Much read in the Renaissance, he influenced the humanist idea of education.</p>",
+  "obras": [
+   "Institutes of Oratory (Institutio oratoria, or On the Training of the Orator)"
+  ],
+  "anecdota": "<p>In the preface to book VI of the <em>Institutes</em>, Quintilian breaks off his treatise to recount a personal tragedy: he had lost his young wife and, shortly afterwards, his two small sons, in whom he had placed all his hopes. He confesses that he was on the point of abandoning the work and that he carried on writing only to give some meaning to his grief. It is one of the most heartfelt passages in Latin literature: the teacher who taught others to speak in public shows himself, for once, as a father broken by loss.</p>",
+  "fuente": "Quintilian, Institutio Oratoria VI, proem (the phrase ‘vir bonus dicendi peritus’, in XII, 1; our own translation from the Latin)",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
   ]
  },
  "epicteto": {
@@ -1282,6 +1337,32 @@ const ILUSTRES = {
    "hf-helenismo"
   ]
  },
+ "isidoro": {
+  "name": "Isidore of Seville",
+  "dates": "c. 556 – 636",
+  "born": 556,
+  "died": 636,
+  "place": "Cartagena (Hispania; bishop in Seville)",
+  "role": "bishop, encyclopaedist and Father of the Church",
+  "idea": "To gather and order all the learning of antiquity so as to save it in an age of ruin; his method is etymology, because knowing where the name of a thing comes from helps to understand the thing itself.",
+  "bio": "<p>Isidore was born around the year 556 into a Hispano-Roman family, probably in Cartagena, from where his people moved to Seville. It was a family of saints: his brothers Leander and Fulgentius became bishops and his sister Florentina an abbess. On Leander's death, around the year 600, Isidore succeeded him as <strong>Archbishop of Seville</strong>, a post he held for more than thirty years in the Hispania of the Visigothic kings. He presided over important councils, such as the Fourth Council of Toledo (633), which organised the Church and education in the kingdom.</p>\n<p>He happened to live when the Western Roman Empire had already fallen and much ancient culture was being lost. To save it he wrote the <em>Etymologies</em> (<em>Etymologiae</em> or <em>Origines</em>), an encyclopaedia in twenty books that sums up everything then known: grammar, medicine, law, geography, agriculture, animals, stones... His method is to seek the origin of words, because —he writes— ‘when you see where a name has come from, you grasp its meaning sooner’ (<em>Etymologies</em> I, 29; our own translation from the Latin). The work, which he left unfinished and which his friend Braulio of Zaragoza arranged, was one of the most copied books of the Middle Ages.</p>",
+  "obras": [
+   "Etymologies (Etymologiae or Origines)",
+   "On the Nature of Things (De natura rerum)",
+   "History of the Goths (Historia Gothorum)",
+   "Sentences (Sententiae)"
+  ],
+  "anecdota": "<p>In the late 1990s, a group of Catholics from the world of the internet began to propose Isidore as the patron saint of the web and of computer scientists: his <em>Etymologies</em>, they said, worked like a database ahead of its time, since they linked one field of knowledge to another just as a search engine today links pages. In the year 2000 the Order of Saint Isidore of Seville was founded with that aim, and around 2001 the Vatican even went so far as to consider the appointment. It was never made fully official, but the idea spread so widely that in many places he is called, half seriously, ‘the saint of the internet’.</p>",
+  "fuente": "ACI Prensa, ‘¿Quién es el patrono de internet?’; Word on Fire, ‘The Patron Saint of the Internet’; the appointment is not official",
+  "tradicion": false,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "escoto_erigena": {
   "name": "John Scotus Eriugena",
   "dates": "c. 810 – c. 877",
@@ -1357,6 +1438,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-medieval",
+   "hf-fe-razon",
    "hf-racionalismo"
   ]
  },
@@ -1498,6 +1581,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-aa",
    "hf-antropologia",
@@ -1527,6 +1611,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-aa",
    "hf-aristoteles-arabe",
    "hf-verdad-no-contradice",
@@ -1644,7 +1729,31 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-renacimiento-magia"
+  ]
+ },
+ "porete": {
+  "name": "Marguerite Porete",
+  "dates": "c. 1250 – 1310",
+  "born": 1250,
+  "died": 1310,
+  "place": "Hainaut (today between Belgium and northern France)",
+  "role": "mystic and Beguine",
+  "idea": "She held that the soul that loves can unite with God through love and freedom, with no need of the clergy or the sacraments; she was burned at the stake for refusing to recant her book.",
+  "bio": "<p>Marguerite Porete was a Beguine, that is, a religious woman who did not enter any monastic order governed by rules laid down by men, but lived devoted to those most in need. Around 1290 she wrote <em>The Mirror of Simple Souls</em>, and she did so in French, breaking with the tradition of writing in Latin: she wanted ordinary people to understand it.</p>\n<p>The book is an allegory in which the Soul, Love (standing for God), Reason and the Virtues hold a dialogue. Its most daring claim is that the soul, carried by love, can reach a ‘land of freedom’ in which it no longer needs even Reason or the mediation of the Church. That idea of direct union with God through desire and freedom was what aroused the suspicions of the courts.</p>\n<p>In 1310, the Paris Inquisition condemned her as a heretic and burned her alive for refusing to abjure her work. The book went on circulating in anonymous copies or under men's names, and only in the 20th century was its authorship restored to her. She appears in the syllabus as a link between medieval mysticism and modern thought about the freedom of the individual.</p>",
+  "obras": [
+   "The Mirror of Simple Souls (Le Mirouer des simples âmes)"
+  ],
+  "anecdota": "<p>During her trial, Marguerite refused to testify or to ask for pardon, and for that she was handed over to the secular arm and executed. Her book later circulated without an author's name, sometimes attributed to men, and for six centuries no one knew who had written it. Only in 1946 did the researcher Romana Guarnieri identify that anonymous <em>Mirror</em> and the Marguerite Porete burned in 1310 as the same work and the same person.</p>",
+  "fuente": "Marguerite Porete, *The Mirror of Simple Souls*; records of the Paris inquisitorial trial (1310); adapted from Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, ‘En diálogo con…’ series; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
   ]
  },
  "dante": {
@@ -1725,6 +1834,33 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-fe-razon",
    "hf-modernidad"
+  ]
+ },
+ "pizan": {
+  "name": "Christine de Pizan",
+  "dates": "1364 – c. 1430",
+  "born": 1364,
+  "died": 1430,
+  "place": "Venice; lived at the French court",
+  "role": "writer and thinker",
+  "idea": "The first woman in Europe to live by her pen; in *The Book of the City of Ladies* she refuted the misogyny of her age with arguments and defended the dignity and the intellectual capacity of women.",
+  "bio": "<p>Of Venetian origin, Christine de Pizan spent her childhood at the court of Charles V of France, where her father was a physician and astrologer. Thanks to him she received an education that was not usual for women. Widowed at 25 with children to support, instead of marrying again or entering a convent she chose an almost unheard-of path: to keep herself as a <strong>professional writer</strong>.</p>\n<p>Her best-known work, <em>The Book of the City of Ladies</em> (1405), is an allegory in which three figures —Reason, Rectitude and Justice— help the author build a symbolic city peopled by illustrious women of history, safe from slander. With it she answers, point by point and with arguments, the texts that presented woman as an inferior being. Earlier she had been a leading figure in the so-called <strong>Quarrel of the Rose</strong>, a literary dispute against the misogyny of the <em>Roman de la Rose</em>.</p>\n<p>She is regarded as a forerunner of the ‘quarrel of women’ and, for many, of feminism. She appears tied to the closing stretch of the Middle Ages and to the tradition of utopias written by women.</p>",
+  "obras": [
+   "The Book of the City of Ladies",
+   "The Book of the Three Virtues",
+   "The Letter to the God of Love",
+   "Song in honour of Joan of Arc (Ditié de Jehanne d'Arc)"
+  ],
+  "anecdota": "<p>Simone de Beauvoir, in <em>The Second Sex</em>, notes that with Christine de Pizan's <em>Letter to the God of Love</em> we see ‘for the first time a woman take up her pen in defence of her sex’ (paraphrase). Centuries after her death, a group of men went so far as to found an ‘Order of the Rose’ to defend her cause in that dispute.</p>",
+  "fuente": "Christine de Pizan, *The Book of the City of Ladies*; Simone de Beauvoir, *The Second Sex* (introduction); adapted from Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, ‘En diálogo con…’ series; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-utopias-autoras",
+   "hf-filosofas-dialogo"
   ]
  },
  "nicolas_cusa": {
@@ -1817,6 +1953,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-modernidad"
   ]
@@ -1895,7 +2032,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-modernidad"
+   "hf-filosofia-espanola",
+   "hf-modernidad",
+   "hf-utopias-autoras"
   ]
  },
  "lutero": {
@@ -1926,6 +2065,110 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "vitoria": {
+  "name": "Francisco de Vitoria",
+  "dates": "c. 1483 – 1546",
+  "born": 1483,
+  "died": 1546,
+  "place": "Burgos or Vitoria",
+  "role": "Dominican theologian and jurist",
+  "idea": "There is a law common to all peoples, the peoples of America included: neither difference of religion nor difference of custom is by itself enough to justify conquering them or taking their lands.",
+  "bio": "<p>Francisco de Vitoria was born around 1483 (whether in Burgos or in Vitoria is disputed) and entered the order of the <strong>Dominicans</strong> very young. He studied in Paris and, from 1526, held the principal chair of Theology at the University of Salamanca, where he taught until his death. Around him formed the so-called <strong>School of Salamanca</strong>, a group of theologians and jurists who rigorously debated the great problems of their time. He published no books: what we have are the <em>relectiones</em>, solemn lectures he delivered aloud and which his pupils copied down.</p>\n<p>His greatest contribution springs from a question awkward for the Crown: by what right was Spain conquering the territories of America? In <em>On the Indians</em> he argues that the indigenous peoples were the true owners of their lands and were capable of governing themselves, so that neither their religion nor their customs were enough to dispossess them. He did admit, though, some titles that might legitimise the Spanish presence, such as the right to trade and to travel. For reflecting on the rights and duties between peoples, Vitoria is regarded as one of the <strong>fathers of international law</strong>.</p>",
+  "obras": [
+   "On the Indians (Relectio de Indis, 1539)",
+   "On the Law of War (Relectio de iure belli, 1539)",
+   "Theological Relectiones (collected by his pupils)"
+  ],
+  "anecdota": "<p>Vitoria wrote none of the books for which he is famous today. He taught by speaking, and once a year he delivered a <em>relectio</em>, a public and solemn lecture before the whole university. His students took notes so carefully that, thanks to those notebooks, his ideas could be reconstructed and published after his death. It is a good example of how, before cheap printing and digital notes, the thought of a teacher could survive only if someone took the trouble to copy it down well.</p>",
+  "fuente": "The relectiones De Indis and De iure belli survive and are edited from his pupils' manuscripts; Vitoria did not publish in his lifetime (a fact recorded in the critical editions of his Relectiones)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-euskal-herria",
+   "hf-filosofia-espanola"
+  ]
+ },
+ "las_casas": {
+  "name": "Bartolomé de las Casas",
+  "dates": "c. 1484 – 1566",
+  "born": 1484,
+  "died": 1566,
+  "place": "Seville",
+  "role": "Dominican friar, defender of the indigenous peoples of America",
+  "idea": "The indigenous peoples of America are free and rational human beings, with the same rights as anyone; to conquer and enslave them by force is an injustice.",
+  "bio": "<p>Bartolomé de las Casas was born in Seville around 1484 and went as a young man to the newly discovered Indies, where at first he was an <strong>encomendero</strong>, that is, the owner of the forced labour of a group of indigenous people. Around 1514, after reading and reflecting on the injustice of that system, he gave up his encomienda and devoted the rest of his long life to defending the indigenous peoples. He became a Dominican friar, rose to be Bishop of Chiapas and crossed the Atlantic many times to plead for laws that would protect the natives. He is known as the <strong>‘Protector of the Indians’</strong>.</p>\n<p>His most famous book, the <em>A Short Account of the Destruction of the Indies</em>, describes the conquistadors' abuses in stark terms in order to move the king and force a change of policy. Las Casas influenced the <strong>New Laws</strong> of 1542, which tried to limit the encomiendas. His work had two opposite effects: it served to denounce injustice, but it was also used by Spain's rival countries to create the <strong>‘black legend’</strong>, an exaggeratedly cruel image of everything Spanish. Whether his defence of the indigenous peoples was a first great cry for human rights, or whether his account exaggerated the figures and the facts, is something historians still debate, with arguments on both sides.</p>",
+  "obras": [
+   "A Short Account of the Destruction of the Indies (1552)",
+   "History of the Indies",
+   "Apología (defence read at the Valladolid debate, 1550)"
+  ],
+  "anecdota": "<p>Las Casas did not begin as a defender of the indigenous peoples: at first he was himself an encomendero and profited from their labour. The turning point, as he tells it in his <em>History of the Indies</em>, came when he was preparing to preach and paused over a passage of the Bible that condemned taking bread from the poor and underpaying the labourer. Reflecting on it, he concluded that everything being done to the indigenous peoples was unjust, gave up his own and changed his life. It is an interesting case to think about: the man who later denounced a system had been part of it, which does not cancel his criticism, but makes it necessary to read it knowing where it came from.</p>",
+  "fuente": "Bartolomé de las Casas, History of the Indies (account of his own conversion, around 1514)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola",
+   "hf-beefs"
+  ]
+ },
+ "sepulveda": {
+  "name": "Juan Ginés de Sepúlveda",
+  "dates": "c. 1490 – 1573",
+  "born": 1490,
+  "died": 1573,
+  "place": "Pozoblanco (Córdoba)",
+  "role": "humanist, royal chronicler and translator of Aristotle",
+  "idea": "Drawing on Aristotle, he argued that some peoples are by nature better suited to command and others to obey, and that for this reason war against the indigenous peoples could be just.",
+  "bio": "<p>Juan Ginés de Sepúlveda was born near Córdoba around 1490 and trained in Italy, where he became a great expert in Greek and an admired translator of <strong>Aristotle</strong> into Latin. He was official chronicler to the emperor Charles V and one of the most respected Spanish humanists of his day. Today he is remembered above all for having been Bartolomé de las Casas's great rival in the debate on the conquest of America, which sometimes makes his worth as a philologist and translator easy to forget.</p>\n<p>In his work <em>Democrates secundus</em> he argued that war against the indigenous peoples could be <strong>just</strong>. For this he used the Aristotelian idea that there are persons and peoples who are ‘slaves by nature’, better suited to obey than to govern themselves, and he added that subduing them served to put an end to human sacrifice and to bring them Christianity. His arguments are hard to accept today, but at the time they rested on highly valued authorities, such as Aristotle and the law of war. Understanding why a learned person could defend such a thing, and what was said in reply, helps us see that unjust ideas do not always come from ignorant people: that is why we must examine the reasons, not just the intentions.</p>",
+  "obras": [
+   "Democrates secundus, or On the Just Causes of the War against the Indians (Democrates alter, c. 1544)",
+   "Latin translations of Aristotle (the Politics, among others)",
+   "Chronicles of Charles V"
+  ],
+  "anecdota": "<p>The book in which Sepúlveda defended war against the indigenous peoples, <em>Democrates secundus</em>, was never published in the author's lifetime. When he applied for the official licence to print it, the matter was sent to the universities of Salamanca and Alcalá, and the theologians advised <strong>against authorising it</strong>. It is a telling detail: although we associate that age with intolerance today, Sepúlveda's ideas did not convince all the learned men of his own country either, and met with opposition within Spain. The complete text was only published many years after his death.</p>",
+  "fuente": "History of the censorship of the Democrates secundus: the opinions of Salamanca and Alcalá (around 1548) advised against printing it, recorded in the modern editions of the work",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola",
+   "hf-beefs"
+  ]
+ },
+ "vives": {
+  "name": "Juan Luis Vives",
+  "dates": "1493 – 1540",
+  "born": 1493,
+  "died": 1540,
+  "place": "Valencia",
+  "role": "Valencian humanist and educator",
+  "idea": "Education should start from experience and from the observation of each person, and should reach women and the poor too, not only a cultured minority.",
+  "bio": "<p>Juan Luis Vives was born in Valencia in 1493, into a family of Jews converted to Christianity (conversos). Very young he left to study in Paris and spent almost his whole life outside Spain, above all in Flanders, in the city of Bruges. He was a friend of <strong>Erasmus of Rotterdam</strong> and of <strong>Thomas More</strong>, taught at the University of Leuven and in England, where he was tutor to Princess Mary Tudor. He wrote almost always in Latin, the learned language of the age, and is regarded as one of the great humanists of the European Renaissance.</p>\n<p>Vives was interested above all in <strong>education</strong> and in the knowledge of the human being. In <em>De disciplinis</em> he criticises the rote teaching of his day and proposes learning by observing nature and one's own experience; in <em>De anima et vita</em> he studies the emotions before many later philosophers. He defended the schooling of women in <em>The Education of a Christian Woman</em> and, in <em>On Assistance to the Poor</em>, he proposed to the city of Bruges that care for the needy should be an organised task of the community, and not merely occasional charity. That blend of humanism, pedagogy and social concern is what makes him a thinker still relevant today.</p>",
+  "obras": [
+   "The Education of a Christian Woman (De institutione feminae christianae, 1523)",
+   "On Assistance to the Poor (De subventione pauperum, 1526)",
+   "On the Disciplines (De disciplinis, 1531)",
+   "On the Soul and Life (De anima et vita, 1538)"
+  ],
+  "anecdota": "<p>Vives's family suffered the <strong>Inquisition</strong> at close hand. They were a converso family, and in Valencia the courts kept watch on those they suspected of still practising Judaism in secret. His father was tried and executed at the stake in 1524, and years later, his mother having died, her remains were ordered to be dug up and burned on the same charge. These facts, hidden for centuries, came to light in the 20th century when the inquisitorial archives were studied. They help explain why Vives always lived far from his homeland and why he wrote about religion so cautiously. It is worth remembering as a painful episode that historians still debate, not as a closed verdict on a whole age.</p>",
+  "fuente": "Research by Miguel de la Pinta Llorente and José María de Palacio on the inquisitorial trials of the Vives family (16th-century archives, published in 1964)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "calvino": {
   "name": "John Calvin",
   "dates": "1509 – 1564",
@@ -1947,7 +2190,33 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola",
    "hf-descartes-makro"
+  ]
+ },
+ "servet": {
+  "name": "Michael Servetus",
+  "dates": "1511 – 1553",
+  "born": 1511,
+  "died": 1553,
+  "place": "Villanueva de Sijena (Aragon)",
+  "role": "Aragonese physician and theologian",
+  "idea": "He argued that there is no basis for the dogma of the Trinity and called for freedom to think in matters of religion; he also described how the blood passes through the lungs.",
+  "bio": "<p>Michael Servetus was born in 1511 in Villanueva de Sijena, in Aragon. He was a restless, universal mind: he studied law, medicine, geography and theology. As a physician, in his work <em>The Restoration of Christianity</em> he described the <strong>pulmonary</strong> or ‘lesser’ circulation of the blood: he explained that the blood passes from the heart to the lungs, mixes there with the air and returns to the heart. It was one of the first descriptions of that course in Europe, though it lay buried in a book of theology that hardly anyone ever read.</p>\n<p>What made him famous and what cost him his life were his religious ideas. Servetus denied the dogma of the <strong>Trinity</strong> (that God is Father, Son and Holy Spirit in a single essence) and called for a return to a Christianity that, he claimed, was the original one. This made him an enemy of both the Catholic Church and the Protestant reformers. Hunted by the French Inquisition, he fled and ended up in Geneva, where the reformer <strong>John Calvin</strong> was in charge. There he was tried and <strong>burned at the stake</strong> in 1553. His death sparked a debate that still matters: can a power, whether religious or political, kill someone for what they think? Shortly afterwards, Sebastian Castellio wrote that compelling belief by force and killing for an idea cannot be defended, in one of the first great calls for <strong>tolerance</strong>.</p>",
+  "obras": [
+   "On the Errors of the Trinity (De Trinitatis erroribus, 1531)",
+   "The Restoration of Christianity (Christianismi restitutio, 1553)"
+  ],
+  "anecdota": "<p>The description of the circulation of the blood through the lungs does not appear in a medical treatise, but hidden in the middle of a book of theology, the <em>Restoration of Christianity</em>. Almost all the copies were burned along with their author, and only a few survived; for a long time it was doubted whether Servetus had really written it, until those rare copies were tracked down. For this reason the scientific discovery passed almost unnoticed in its day: medicine had to rediscover that same course of the blood later, by other routes.</p>",
+  "fuente": "Michael Servetus, Christianismi restitutio (1553), where the pulmonary circulation is described; from the few copies that escaped the burning",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola"
   ]
  },
  "montaigne": {
@@ -1971,7 +2240,10 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-montaigne-ensayos",
+   "hf-utopias-autoras",
+   "hf-bayle-diccionario",
    "hf-kant-poetas"
   ]
  },
@@ -1998,6 +2270,31 @@ const ILUSTRES = {
    "hf-renacimiento-magia"
   ]
  },
+ "suarez": {
+  "name": "Francisco Suárez",
+  "dates": "1548 – 1617",
+  "born": 1548,
+  "died": 1617,
+  "place": "Granada",
+  "role": "Jesuit theologian and philosopher",
+  "idea": "Political power does not come down directly from God to the king; rather, God places it in the people, and the people hand it to whoever governs; that is why power has limits.",
+  "bio": "<p>Francisco Suárez was born in Granada in 1548 and entered the <strong>Society of Jesus</strong>. He was a professor at several universities and ended up at Coimbra, in Portugal. He was called <em>Doctor Eximius</em> (‘outstanding doctor’) and was one of the last great representatives of <strong>scholasticism</strong>, the philosophy born in the medieval universities that joined the reason of Aristotle to Christian theology. His work <em>Metaphysical Disputations</em> set out the problems of metaphysics so clearly that it was studied for over a century throughout Europe, in Protestant universities too.</p>\n<p>In politics, Suárez continued the ideas of the School of Salamanca. He held that the king does not receive power directly from God, as some monarchs claimed, but that God deposits it in the <strong>community</strong>, and it is the community that transfers it to the ruler by a kind of pact. From this it follows that the king's power is not absolute and that unjust laws can be challenged. In <em>Defence of the Catholic Faith</em> he rejected the claim of King James I of England to rule his subjects' religious conscience as well. These ideas about the origin of power influenced the modern discussion of sovereignty.</p>",
+  "obras": [
+   "Metaphysical Disputations (Disputationes metaphysicae, 1597)",
+   "On Laws (De legibus, 1612)",
+   "Defence of the Catholic Faith (Defensio fidei catholicae, 1613)"
+  ],
+  "anecdota": "<p>In 1613 Suárez published the <em>Defence of the Catholic Faith</em> against King <strong>James I of England</strong>, who was demanding of Catholics an oath of allegiance that clashed with their religion. The book so angered the monarchies that championed absolute power that it was publicly burned in London in 1613 and in Paris in 1614, the latter by order of the French parliament. That a book by a professor of theology should end on the pyre in two capitals shows just how far the question ‘where does the power of the ruler come from?’ was then an explosive political matter, and not a mere academic dispute.</p>",
+  "fuente": "A fact recorded in the biographies of Suárez and in the studies on the Defensio fidei (1613), condemned to be burned in London and in Paris",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "francis_bacon": {
   "name": "Francis Bacon",
   "dates": "1561 – 1626",
@@ -2021,6 +2318,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-renacimiento-magia",
+   "hf-utopias-autoras",
    "hf-racionalismo"
   ]
  },
@@ -2076,6 +2374,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-renacimiento-magia",
+   "hf-utopias-autoras",
    "hf-marx-biblioteca"
   ]
  },
@@ -2230,6 +2529,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-medieval",
    "hf-platon-agustin",
@@ -2241,10 +2541,38 @@ const ILUSTRES = {
    "hf-descartes-simulacion",
    "hf-metafisica",
    "hf-spinoza-sistema",
+   "hf-bayle-diccionario",
    "hf-kant",
+   "hf-filosofas-dialogo",
    "hf-capitalismo",
    "hf-existencialismo",
    "hf-descartes-makro"
+  ]
+ },
+ "gracian": {
+  "name": "Baltasar Gracián",
+  "dates": "1601 – 1658",
+  "born": 1601,
+  "died": 1658,
+  "place": "Belmonte de Calatayud (Aragon)",
+  "role": "Jesuit writer and moralist philosopher",
+  "idea": "In a world full of appearances and deceit, living well calls for sharpness, prudence and the art of knowing other people and oneself.",
+  "bio": "<p>Baltasar Gracián was born in 1601 near Calatayud, in Aragon, and entered the <strong>Society of Jesus</strong>. He was a teacher and preacher, but above all a most refined writer, a master of the terse, cutting style known as <strong>conceptismo</strong>: saying a great deal in few words, with sentences that make you think. He lived at the height of the <strong>Baroque</strong>, a disenchanted age that distrusted appearances, and his work reflects that climate: the world is a theatre of deceits and one must learn to move through it without being beaten.</p>\n<p>In the <em>Pocket Oracle and Art of Prudence</em> he gathered three hundred brief maxims for conducting oneself cleverly among others; it is a book that has come back into fashion as a manual of shrewdness and self-knowledge. In <em>El Criticón</em>, his major work, he tells in the form of a novel the journey of two characters through life, from innocence to the wisdom of disillusion. Gracián does not propose a philosophical system in the manner of Descartes, but a <strong>practical wisdom</strong>: how to think, how to speak and how to deal with people. His lucid and at times pessimistic outlook later influenced thinkers such as Schopenhauer and Nietzsche.</p>",
+  "obras": [
+   "The Hero (1637)",
+   "The Pocket Oracle and Art of Prudence (1647)",
+   "Wit and the Art of Ingenuity (1648)",
+   "El Criticón (1651–1657)"
+  ],
+  "anecdota": "<p>Gracián had trouble with his own order. He published several works without the Jesuits' permission and under a false name, that of his brother Lorenzo Gracián, to dodge the internal censorship. When he brought out the third part of <em>El Criticón</em>, the Society reacted: he was reprimanded, removed from his chair, confined by transfer to another house and forbidden to publish again. (The ‘penance of bread and water’ repeated in some popular biographies is not documented in the order's records.) It is an example of something common in the history of thought: a brilliant author who clashes with the institution he belongs to, and who has to find ways round it in order to publish what he thinks.</p>",
+  "fuente": "Internal documentation of the Society of Jesus on the sanctions against Gracián after he published El Criticón without a licence, recorded in the modern biographies of the author",
+  "tradicion": false,
+  "block": "mod",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
   ]
  },
  "isabel": {
@@ -2267,6 +2595,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofas-dialogo",
    "hf-descartes-makro"
   ]
  },
@@ -2332,6 +2661,7 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-spinoza-sistema",
    "hf-spinoza-universal",
+   "hf-bayle-diccionario",
    "hf-kant-poetas",
    "hf-kant-juicios",
    "hf-descartes-makro"
@@ -2361,6 +2691,7 @@ const ILUSTRES = {
   "temas": [
    "hf-aa",
    "hf-medieval",
+   "hf-utopias-autoras",
    "hf-racionalismo",
    "hf-metafisica",
    "hf-spinoza-universal",
@@ -2451,10 +2782,12 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-racionalismo",
    "hf-metafisica",
    "hf-spinoza-universal",
+   "hf-bayle-diccionario",
    "hf-kant",
    "hf-kant-juicios",
    "hf-descartes-makro"
@@ -2483,7 +2816,33 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-spinoza-universal"
+   "hf-spinoza-universal",
+   "hf-bayle-diccionario"
+  ]
+ },
+ "feijoo": {
+  "name": "Benito Jerónimo Feijoo",
+  "dates": "1676 – 1764",
+  "born": 1676,
+  "died": 1764,
+  "place": "Casdemiro (Ourense, Galicia)",
+  "role": "Benedictine monk and essayist",
+  "idea": "To combat, with experience and reason, common errors, superstitions and false miracles: one should not believe something because everyone says it or because it is customary, but because there is evidence for it.",
+  "bio": "<p>Benito Jerónimo Feijoo was born in 1676 in Casdemiro, a hamlet in Ourense (Galicia), into a family of the lesser nobility. Very young he joined the order of the <strong>Benedictines</strong> and spent almost his whole life in the monastery of San Vicente in Oviedo, where he was a university professor. He hardly ever left it, but he read everything that arrived from Europe —science, medicine, philosophy— and made it available to the Spanish public in clear Spanish. He lived 87 years and died in Oviedo in 1764.</p>\n<p>His work consists of two great collections of essays, the <em>Teatro crítico universal</em> (1726-1740) and the <em>Cartas eruditas y curiosas</em> (1742-1760), written to disabuse the reader of ‘common errors’: quacks, false miracles, omens, absurd remedies. Feijoo was no revolutionary; he remained a believing friar, but he asked that what faith teaches be distinguished from what mere superstition maintains, and that one trust <strong>experience</strong> and <strong>reason</strong>. He is regarded as the man who introduced the modern critical spirit into Spain, at the dawn of the Enlightenment. In his essay ‘In Defence of Women’ he argued that women's supposed intellectual inferiority comes not from nature but from a lack of education.</p>",
+  "obras": [
+   "Teatro crítico universal (1726-1740)",
+   "Cartas eruditas y curiosas (1742-1760)",
+   "‘In Defence of Women’ (in the Teatro crítico universal, vol. I, 1726)"
+  ],
+  "anecdota": "<p>For almost twenty-five years, dozens of authors published books attacking or defending Feijoo: it was the greatest intellectual controversy in 18th-century Spain. In 1750, to settle it, King <strong>Ferdinand VI</strong> issued an order forbidding the printing of writings against the friar and his work. It is an unusual case: royal power came out in defence of a writer against his critics. The measure came after a quarter of a century of replies and counter-replies.</p>",
+  "fuente": "Royal order of Ferdinand VI of 1750; studies on the Feijoo controversy (Centre for 18th-Century Studies, University of Oviedo)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
   ]
  },
  "berkeley": {
@@ -2562,6 +2921,7 @@ const ILUSTRES = {
    "hf-beefs",
    "hf-spinoza-universal",
    "hf-ilustracion",
+   "hf-bayle-diccionario",
    "hf-kant-juicios"
   ]
  },
@@ -2698,6 +3058,7 @@ const ILUSTRES = {
    "hf-racionalismo",
    "hf-metafisica",
    "hf-spinoza-universal",
+   "hf-bayle-diccionario",
    "hf-kant",
    "hf-kant-juicios",
    "hf-descartes-makro"
@@ -2757,6 +3118,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion",
+   "hf-bayle-diccionario",
    "hf-marx-biblioteca"
   ]
  },
@@ -2802,7 +3164,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-ilustracion"
+   "hf-ilustracion",
+   "hf-bayle-diccionario"
   ]
  },
  "morelly": {
@@ -2898,6 +3261,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-beefs",
    "hf-montaigne-ensayos",
@@ -2911,6 +3275,7 @@ const ILUSTRES = {
    "hf-kant-juicios",
    "hf-etica-deber",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-descartes-makro"
   ]
  },
@@ -3076,6 +3441,32 @@ const ILUSTRES = {
    "hf-sospecha"
   ]
  },
+ "jovellanos": {
+  "name": "Gaspar Melchor de Jovellanos",
+  "dates": "1744 – 1811",
+  "born": 1744,
+  "died": 1811,
+  "place": "Gijón (Asturias)",
+  "role": "figure of the Enlightenment, jurist, politician and writer",
+  "idea": "A country's progress depends above all on education and on removing the obstacles that stifle the economy: public instruction is the first source of social prosperity.",
+  "bio": "<p>Gaspar Melchor de Jovellanos was born in Gijón in 1744, into a noble family fallen on hard times. He studied law and was a magistrate in Seville and then in Madrid. A central figure of the Spanish Enlightenment, he belonged to the academies and to the <strong>Economic Societies of Friends of the Country</strong>, which sought to modernise the country. In 1794 he founded in his home town the Royal Asturian Institute of Nautical Studies and Mineralogy, a school of useful knowledge. He rose to be Minister of Grace and Justice (1797-1798), though he lasted only a short time in the post.</p>\n<p>His most influential writing is the <em>Report on the Agrarian Law</em> (1795): following the ideas of the economist <strong>Adam Smith</strong>, he argued for giving agriculture more freedom and removing the obstacles that held it back (entailed estates, lands in mortmain, the privileges of the Mesta). He also wrote memoranda on education and on public entertainments, and <em>Diaries</em> that are a great portrait of his age. In politics he was a moderate reformer: he wanted to change Spain from within, through laws and education, not through a revolution. During the war against Napoleon he was a member of the Central Junta that governed in the name of the absent king.</p>",
+  "obras": [
+   "Report on the Agrarian Law (1795)",
+   "Memorandum on Public Education (1802)",
+   "Memorandum on Public Entertainments and Diversions (1790)",
+   "Diaries"
+  ],
+  "anecdota": "<p>In 1801, through political intrigue and with no trial, Jovellanos was arrested and shut up in the castle of Bellver, in Majorca, by order of the royal favourite <strong>Godoy</strong>. There he spent more than seven years a prisoner, without a sentence, until the fall of Godoy in 1808 gave him back his freedom. During his imprisonment he never stopped studying and writing: he composed descriptions of the castle itself and of the island. The reformer who had served the State ended up jailed by that same power.</p>",
+  "fuente": "Jovellanos's Diaries; standard biographies (Real Academia de la Historia, ‘Gaspar Melchor de Jovellanos’; Biblioteca Virtual Miguel de Cervantes)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "bentham": {
   "name": "Jeremy Bentham",
   "dates": "1748 – 1832",
@@ -3125,7 +3516,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-ilustracion"
+   "hf-utopias-autoras",
+   "hf-ilustracion",
+   "hf-filosofas-dialogo"
   ]
  },
  "goethe": {
@@ -3272,8 +3665,10 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-utopias-autoras",
    "hf-ilustracion",
    "hf-marx-biblioteca",
+   "hf-filosofas-dialogo",
    "hf-corazon-piedra"
   ]
  },
@@ -3587,6 +3982,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-utopias-autoras",
    "hf-marx-biblioteca"
   ]
  },
@@ -3793,6 +4189,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-sospecha"
   ]
@@ -4060,6 +4457,32 @@ const ILUSTRES = {
    "hf-marx-biblioteca"
   ]
  },
+ "balmes": {
+  "name": "Jaime Balmes",
+  "dates": "1810 – 1848",
+  "born": 1810,
+  "died": 1848,
+  "place": "Vic (Barcelona, Catalonia)",
+  "role": "priest, philosopher and political writer",
+  "idea": "To think well is to see the truth of things and to tell the true from the false; faith and reason do not oppose each other, but need each other.",
+  "bio": "<p>Jaime Balmes (Jaume Balmes in Catalan) was born in Vic in 1810, the son of a humble family. He was ordained a <strong>priest</strong> and took a doctorate in theology. Of frail health, he lived only 37 years, but in that time he wrote a huge body of work in philosophy, apologetics and politics and founded highly influential journals. He died of tuberculosis in his home town in 1848.</p>\n<p>His most widely read book is <em>El criterio</em> (1845), a practical guide to learning to <strong>think well</strong>, in plain language and full of examples: for over a century it was used in Spanish schools. In <em>Fundamental Philosophy</em> he sought a secure starting point for knowledge, in dialogue with Descartes. He held that faith and reason complement each other, along the lines of the Christian philosophy later called neo-scholasticism. He was also a great political journalist: in works such as <em>Protestantism Compared with Catholicism</em> he compared the role of the two confessions in the history of Europe.</p>",
+  "obras": [
+   "El criterio (1845)",
+   "Fundamental Philosophy (1846)",
+   "Protestantism Compared with Catholicism in its Relations with European Civilisation (1842-1844)",
+   "Elementary Philosophy (1847)"
+  ],
+  "anecdota": "<p>Balmes wrote <em>Protestantism Compared with Catholicism</em> partly as a reply to the <em>History of Civilisation in Europe</em> by the Frenchman François Guizot, who attributed much of modern progress to Protestantism. Balmes's work was soon translated into French, Italian, German and English, and made a priest from a small Catalan town known across Europe. He was one of the few Spanish thinkers of his century with an international echo in his own lifetime.</p>",
+  "fuente": "J. Balmes, El protestantismo comparado con el catolicismo (1842-1844); F. Guizot, Histoire de la civilisation en Europe (1828); standard biographies (Real Academia de la Historia, ‘Jaime Balmes’)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "dickens": {
   "name": "Charles Dickens",
   "dates": "1812 – 1870",
@@ -4187,8 +4610,10 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-beefs",
+   "hf-utopias-autoras",
    "hf-metafisica",
    "hf-spinoza-universal",
    "hf-ilustracion",
@@ -4284,6 +4709,7 @@ const ILUSTRES = {
    "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-posmodernidad",
    "hf-existencialismo"
   ]
@@ -4339,6 +4765,7 @@ const ILUSTRES = {
   "temas": [
    "hf-ilustracion",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-capitalismo",
    "hf-posmodernidad"
   ]
@@ -4420,6 +4847,31 @@ const ILUSTRES = {
   ],
   "temas": []
  },
+ "salome": {
+  "name": "Lou Andreas-Salomé",
+  "dates": "1861 – 1937",
+  "born": 1861,
+  "died": 1937,
+  "place": "Saint Petersburg",
+  "role": "writer and psychoanalyst",
+  "idea": "She thought about religiosity without God, about eroticism and about artistic creation; an interlocutor of Nietzsche, Rilke and Freud, she made her own freedom a form of thought.",
+  "bio": "<p>Lou was born in Saint Petersburg in 1861, into a well-off family of German origin. As a young woman she studied classical languages, philosophy and literature, and set off for the University of Zurich —one of the few that admitted women— determined to devote her life to thought and to keep her independence.</p>\n<p>In 1882 she met Paul Rée and <strong>Nietzsche</strong> in Rome, with whom she formed an intense intellectual trio. She turned down marriage proposals from both. After the break she published <em>Friedrich Nietzsche in His Works</em> (1894), one of the first serious studies of his philosophy. Later she was a friend and guide of the poet <strong>Rilke</strong> and, at the turn of the century, drew close to <strong>psychoanalysis</strong>: she met <strong>Freud</strong>, trained under him and wrote on eroticism and on female psychology.</p>\n<p>She died in Göttingen in 1937; the Gestapo confiscated her library soon afterwards. In the syllabus she serves as a counterpoint to Nietzsche: she was the thinker he most admired, later silenced by those who turned his work into a banner of Nazism.</p>",
+  "obras": [
+   "Friedrich Nietzsche in His Works",
+   "Eroticism",
+   "My Life (memoirs)"
+  ],
+  "anecdota": "<p>Rather than marry, Salomé proposed to Nietzsche and Rée that the three of them live together as an intellectual ‘commune’ devoted to study. From that period comes the famous photograph in which she poses in a little cart holding a toy whip, with the two philosophers pulling it. She said of herself: ‘I am not able to live according to models, nor could I ever serve as a model to anyone’ (paraphrase).</p>",
+  "fuente": "Lou Andreas-Salomé, *Friedrich Nietzsche in His Works* and *My Life*; adapted from Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, ‘En diálogo con…’ series; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
+  ]
+ },
  "unamuno": {
   "name": "Miguel de Unamuno",
   "dates": "1864 – 1936",
@@ -4444,6 +4896,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-existencialismo"
   ]
  },
@@ -4606,6 +5059,29 @@ const ILUSTRES = {
    "hf-kant-poetas"
   ]
  },
+ "maeztu": {
+  "name": "María de Maeztu",
+  "dates": "1881 – 1948",
+  "born": 1881,
+  "died": 1948,
+  "place": "Vitoria-Gasteiz",
+  "role": "educator",
+  "idea": "She put educational equality for women into practice: from the Residencia de Señoritas she opened to young women access to university and to the intellectual life of the Spain of her time.",
+  "bio": "<p>María de Maeztu y Whitney was born in Vitoria in 1881. She trained as a schoolteacher and then studied philosophy, as a pupil of <strong>Unamuno</strong> and <strong>Ortega y Gasset</strong>, and furthered her studies in Germany and in the United States. She was fluent in several languages and soon ranked among the most respected figures in Spanish education.</p>\n<p>In the circle of the <strong>Institución Libre de Enseñanza</strong> she ran, between 1915 and 1936, the <strong>Residencia de Señoritas</strong>, her most important project: a place where any young woman could study, lodge and prepare for university, at a time when Spanish women still needed special permits to enter it. Intellectuals such as Gabriela Mistral and María Montessori passed through it. She also promoted the Instituto-Escuela and chaired the Lyceum Women's Club.</p>\n<p>Her pedagogy argued for an active student body, far from rote learning, with education as the engine of social reform. When the Civil War broke out, and after her brother Ramiro was executed, she went into exile in Argentina, where she went on teaching until her death, in Mar del Plata, in 1948. She appears tied to Spanish thought of the first third of the 20th century, alongside Ortega and María Zambrano.</p>",
+  "obras": [],
+  "anecdota": "<p>The Residencia de Señoritas was far more than a place to stay: it became the meeting point of the intellectual women of Madrid. Its secular character earned it attacks from the most conservative quarters, which went so far as to call its members ‘women without virtue or piety’. Under Francoism, the Lyceum's own building ended up occupied by the Sección Femenina, whose ideals were the opposite of hers.</p>",
+  "fuente": "Adapted from Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, ‘En diálogo con…’ series; CC BY-NC-SA 4.0); dates according to the Auñamendi Biographical Dictionary (Eusko Ikaskuntza) and EcuRed (she died on 7-1-1948 in Mar del Plata; the book gives 1952 in error)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-euskal-herria",
+   "hf-filosofia-espanola",
+   "hf-filosofas-dialogo"
+  ]
+ },
  "schlick": {
   "name": "Moritz Schlick",
   "dates": "1882 – 1936",
@@ -4650,6 +5126,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-existencialismo",
    "hf-beauvoir"
   ]
@@ -4752,6 +5229,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-posmodernidad",
    "hf-existencialismo"
@@ -4804,6 +5282,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-marxismos",
    "hf-capitalismo"
   ]
@@ -4932,6 +5411,32 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "gaos": {
+  "name": "José Gaos",
+  "dates": "1900 – 1969",
+  "born": 1900,
+  "died": 1969,
+  "place": "Gijón (Asturias)",
+  "role": "philosopher and translator of the Spanish exile in Mexico",
+  "idea": "The Spanish exiles in America were not simple ‘deportees’ but ‘transplanted ones’: they had changed land, but were still on a land of their own through the shared language and culture.",
+  "bio": "<p>José Gaos was born in Gijón in 1900 and was a pupil of <strong>Ortega y Gasset</strong> in Madrid. A professor of philosophy, he rose to be Rector of the University of Madrid in the years of the Second Republic and the Civil War. When the war ended he went into exile and in 1938 settled in Mexico, where he taught at the National University (UNAM) and at El Colegio de México until his death, in 1969.</p>\n<p>In Mexico he coined the word by which he is remembered: for the Spanish intellectuals who, like him, were rebuilding their lives on the far side of the Atlantic, he preferred <strong>‘transterrados’ (transplanted)</strong> to ‘desterrados’ (deported), because they had not lost their land but moved it to a country that spoke their language. He was also a decisive translator: his version of <em>Being and Time</em>, by Heidegger (1951), was for half a century the gateway to that book in the Spanish-speaking world. He trained a whole generation of Mexican philosophers and left a body of work on the history of ideas and on what philosophy itself is.</p>",
+  "obras": [
+   "On Philosophy",
+   "Professional Confessions (1958)",
+   "History of Our Idea of the World",
+   "translation of Heidegger's «Being and Time» (1951)"
+  ],
+  "anecdota": "<p>When Gaos translated <em>Being and Time</em>, by Heidegger, he had to invent words in Spanish for ideas that German expressed with extremely difficult terms. His rendering of Heidegger's <em>Dasein</em> —the human being understood as ‘being-there’— was debated for decades. The translation, published in Mexico in 1951, was the only one available in Spanish for half a century and shaped the way several generations read Heidegger in our language.</p>",
+  "fuente": "M. Heidegger, Being and Time, trans. José Gaos, Fondo de Cultura Económica, Mexico, 1951 (translator's preface)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "popper": {
   "name": "Karl Popper",
   "dates": "1902 – 1994",
@@ -4958,6 +5463,7 @@ const ILUSTRES = {
    "hf-beefs",
    "hf-platon",
    "hf-politica",
+   "hf-utopias-autoras",
    "hf-sospecha",
    "hf-capitalismo",
    "hf-analitica"
@@ -5014,6 +5520,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-existencialismo"
   ]
  },
@@ -5097,6 +5604,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion",
+   "hf-filosofas-dialogo",
    "hf-beauvoir"
   ]
  },
@@ -5490,6 +5998,31 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-posmodernidad"
+  ]
+ },
+ "heller": {
+  "name": "Ágnes Heller",
+  "dates": "1929 – 2019",
+  "born": 1929,
+  "died": 2019,
+  "place": "Budapest",
+  "role": "philosopher",
+  "idea": "From a renewed Marxism she thought of everyday life as the basis of the social and of ‘radical needs’ as the engine of change; later she defended democracy against the ‘dictatorship over needs’ of actually existing socialism.",
+  "bio": "<p>Ágnes Heller was born in 1929 in Budapest, into a Jewish family. Her father died in Auschwitz and she and her mother managed to survive the Nazi persecution. She studied philosophy after hearing the Marxist <strong>Georg Lukács</strong>, who was her teacher; with other pupils she formed the <strong>Budapest School</strong>, which sought to rethink Marxism starting from the young Marx.</p>\n<p>Her thought turns on three ideas: <strong>everyday life</strong> as the fundamental sphere of the social (‘without it there is no society’), the <strong>theory of radical needs</strong> —those that capitalism cannot satisfy and that drive change— and an <strong>ethics of personality</strong>. On applying her own theory to Soviet socialism she saw that it had become a ‘dictatorship over needs’; that criticism led her into exile in 1977, to Australia and then to New York, where she held Hannah Arendt's chair.</p>\n<p>Over the years she defended liberal democracy as the fairest framework for ‘a good life’, without abandoning her materialist roots. She returned to Hungary in 1989 and went on teaching. She appears in the syllabus as an example of the critical renewal of Marxism in the 20th century.</p>",
+  "obras": [
+   "The Theory of Need in Marx",
+   "Everyday Life",
+   "A Philosophy of History in Fragments"
+  ],
+  "anecdota": "<p>A survivor of the Budapest ghetto and of political exile, Heller used to say that, thrown into contingency, we can carve out our own destiny. She died in 2019, at the age of ninety, while swimming in Lake Balaton, as she did every morning.</p>",
+  "fuente": "Ágnes Heller, *The Theory of Need in Marx* and *Everyday Life*; adapted from Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, ‘En diálogo con…’ series; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
   ]
  },
  "derrida": {

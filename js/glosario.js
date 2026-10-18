@@ -4000,6 +4000,100 @@ const GLOSARIO = [
    "descartes",
    "leibniz"
   ]
+ },
+ {
+  "subject": "hf",
+  "t": "Hipparchia of Maroneia",
+  "area": "History",
+  "bloque": "A",
+  "unidad": "A10",
+  "tema": "Hellenism",
+  "def": "Cynic philosopher (4th-3rd century BC), one of the very few women philosophers of antiquity of whom there is any record. She gave up wealth to live according to nature alongside Crates, applying the Cynic ideal to her condition as a woman too.",
+  "ilustre": [
+   "hiparquia"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Marguerite Porete",
+  "area": "Religion",
+  "bloque": "B",
+  "tema": "Medieval philosophy",
+  "def": "Mystic and Beguine (c. 1250-1310). In *The Mirror of Simple Souls* she defended the direct union of the soul with God through love and freedom, without the mediation of the clergy. The Paris Inquisition burned her as a heretic in 1310.",
+  "ilustre": [
+   "porete"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Christine de Pizan",
+  "area": "Feminism",
+  "bloque": "B",
+  "tema": "Medieval philosophy",
+  "def": "Writer (1364-c. 1430), the first woman in Europe to live by her pen. In *The Book of the City of Ladies* she refuted the misogyny of her age with arguments; she is regarded as a forerunner of the ‘quarrel of women’.",
+  "ilustre": [
+   "pizan"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Quarrel of women",
+  "area": "Feminism",
+  "bloque": "B",
+  "tema": "Medieval philosophy",
+  "def": "A long controversy, opened by Christine de Pizan around 1400 with the ‘Quarrel of the Rose’, over the dignity and the intellectual capacity of women; it ran on in European culture until the French Revolution.",
+  "ilustre": [
+   "pizan"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "María de Maeztu",
+  "area": "Education",
+  "bloque": "C",
+  "unidad": "C8",
+  "tema": "Existentialism",
+  "def": "Educator (1881-1948), a pupil of Unamuno and Ortega. She ran the Residencia de Señoritas (1915-1936), which opened to young Spanish women access to university and to intellectual life.",
+  "ilustre": [
+   "maeztu"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Lou Andreas-Salomé",
+  "area": "Psychology",
+  "bloque": "C",
+  "unidad": "CN",
+  "tema": "The philosophers of suspicion",
+  "def": "Writer and psychoanalyst (1861-1937), an interlocutor of Nietzsche, Rilke and Freud. Author of one of the first serious studies of Nietzsche's philosophy and of essays on eroticism and religiosity.",
+  "ilustre": [
+   "salome"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Radical needs",
+  "et": "*Radical*, from the Latin *radix*, ‘root’: that which affects the root.",
+  "area": "Politics",
+  "bloque": "C",
+  "unidad": "C5A",
+  "tema": "Struggles after Marxism",
+  "def": "According to Ágnes Heller, the qualitatively higher needs that capitalism cannot satisfy and that, on colliding with social reality, push towards an emancipatory change.",
+  "ilustre": [
+   "heller"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Ágnes Heller",
+  "area": "Politics",
+  "bloque": "C",
+  "unidad": "C5A",
+  "tema": "Struggles after Marxism",
+  "def": "Hungarian philosopher (1929-2019), of the Budapest School. She thought about everyday life and radical needs from within Marxism; she later criticised actually existing socialism as a ‘dictatorship over needs’ and defended democracy.",
+  "ilustre": [
+   "heller"
+  ]
  }
 ];
 const GLOSARIO_TRAMPAS = {

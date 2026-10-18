@@ -648,6 +648,14 @@ const CITAS = [
   "uso": "To open a topic on scientific knowledge and the relationship between mind and reality, or in an essay on philosophical wonder."
  },
  {
+  "c": "Feminism is an unwanted child of the Enlightenment.",
+  "a": "Amelia Valcárcel",
+  "o": "‘Collective Memory and the Challenges of Feminism’ (2000)",
+  "e": "contemporary",
+  "sen": "Feminism is born of taking seriously the equality and universality proclaimed by the Enlightenment and applying them to women too, to whom the Enlightenment itself denied them.",
+  "uso": "To explain Enlightenment feminism (Poulain de la Barre, Mary Wollstonecraft) and the relationship between the Enlightenment and equality."
+ },
+ {
   "c": "The sad truth is that most evil is done by people who never make up their minds to be either good or evil.",
   "a": "Arendt",
   "o": "The Life of the Mind (1978), vol. I, ‘Thinking’",

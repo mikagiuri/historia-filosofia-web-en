@@ -295,7 +295,9 @@ const PERSEGUIDOS = [
  },
  {
   "id": "servet",
-  "cas_ilu": [],
+  "cas_ilu": [
+   "servet"
+  ],
   "nombre": "Michael Servetus",
   "fechas": "Vienne (France) and Geneva, 1553",
   "cas_epoca": "ren",
