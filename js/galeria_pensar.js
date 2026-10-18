@@ -77,7 +77,7 @@ const GALERIA_PENSAR = [
   "t": "Duck or rabbit? (1892)",
   "pie": "The same image, two readings: we see what we expect to see.",
   "license": "Public domain",
-  "artist": "Unknown artistUnknown artist",
+  "artist": "Unknown author",
   "page": "https://commons.wikimedia.org/wiki/File:Kaninchen_und_Ente.png"
  },
  {
