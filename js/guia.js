@@ -165,7 +165,7 @@ const GUIA = {
      "view": "epocas"
     },
     {
-     "nombre": "Illustrious Thinkers",
+     "nombre": "Biographies",
      "texto": "Biographies of the thinkers who appear in the theory: who they were, what they thought and in which topics we study them.",
      "view": "ilustres"
     },
