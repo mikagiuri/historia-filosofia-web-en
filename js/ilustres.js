@@ -2460,6 +2460,32 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "bayle": {
+  "name": "Pierre Bayle",
+  "dates": "1647 – 1706",
+  "born": 1647,
+  "died": 1706,
+  "place": "Le Carla (France)",
+  "role": "philosopher and scholar, a precursor of the Enlightenment",
+  "idea": "He defended tolerance and freedom of conscience and argued that a society of atheists could be as moral as one of believers; his Historical and Critical Dictionary turned doubt and the criticism of sources into a method and was a reference work for the Enlightenment.",
+  "bio": "<p>Pierre Bayle was born in 1647 in Le Carla, a village in the south of France (today Carla-Bayle), into a Huguenot family, that is, Calvinist Protestants; his father was a pastor. He studied with the Jesuits in Toulouse, where he briefly converted to Catholicism, and shortly afterwards returned to Protestantism. As French law treated that return as a crime, he had to flee to Geneva. He was a professor of philosophy at the Protestant academy of Sedan and, when Louis XIV closed it in 1681, he settled in Rotterdam, in the Netherlands, where he taught at the Illustrious School and almost single-handedly ran the journal <em>News from the Republic of Letters</em>. He lost his chair in 1693 after a clash with another Huguenot refugee, the theologian Pierre Jurieu, and died in Rotterdam in 1706, working to the end.</p>\n<p>Bayle devoted his work to combating superstition, fanaticism and intolerance. In <em>Various Thoughts on the Comet</em> he argued that comets do not foretell disasters and defended an idea scandalous for his time: that a <strong>society of atheists</strong> could be as orderly and honest as one of believers, because conduct does not depend on religious beliefs. In the <em>Philosophical Commentary</em> he defended <strong>tolerance</strong> and freedom of conscience, even that of someone who errs in good faith. His major work is the <em>Historical and Critical Dictionary</em>, made up of short articles accompanied by enormously long <strong>notes</strong> at the foot of the page, where he examines sources, religions and philosophical systems with doubts and objections. There, in the article ‘Spinoza’, he praised the philosopher's upright life while rejecting his doctrine. The <em>Dictionary</em> was one of the most widely read books of the 18th century and one of the great reference works of the Enlightenment.</p>",
+  "obras": [
+   "Various Thoughts on the Comet (1682)",
+   "Philosophical Commentary on the Words ‘Compel Them to Come In’ (1686)",
+   "Historical and Critical Dictionary (1697; 2nd ed. 1702)",
+   "News from the Republic of Letters (journal, 1684–1687)"
+  ],
+  "anecdota": "<p>In 1685, because of Pierre's writings, which from Rotterdam criticised Louis XIV's religious policy, the French authorities arrested his elder brother Jacob, a pastor like their father. Jacob died a few months later in prison, from the harsh conditions of his confinement. Bayle received the news almost at the same time as that of the revocation of the Edict of Nantes, which stripped French Protestants of their rights. Many scholars place in that year, the hardest of his life, a change of tone in his work.</p>",
+  "fuente": "Stanford Encyclopedia of Philosophy, ‘Pierre Bayle’ (plato.stanford.edu/entries/bayle)",
+  "tradicion": false,
+  "block": "mod",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal"
+  ]
+ },
  "berkeley": {
   "name": "George Berkeley",
   "dates": "1685 – 1753",
@@ -4370,6 +4396,30 @@ const ILUSTRES = {
    "hf-existencialismo"
   ]
  },
+ "dewey": {
+  "name": "John Dewey",
+  "dates": "1859 – 1952",
+  "born": 1859,
+  "died": 1952,
+  "place": "Burlington (United States)",
+  "role": "pragmatist philosopher and reformer of American education",
+  "idea": "Thinking is inquiry to solve the problems that experience throws up; that is why education does not consist in memorising but in ‘learning by doing’, and democracy is above all a shared way of life.",
+  "bio": "<p>John Dewey was born in Burlington, in the state of Vermont (United States), in 1859. He studied at the University of Vermont and took his doctorate at Johns Hopkins University. He was a professor in Michigan and, from 1894, at the University of Chicago, where he ran a famous experimental school; in 1904 he moved to Columbia University, in New York, where he taught for the rest of his life. He took a very active part in public debates on education, democracy and rights, travelled to countries such as Japan, China, Mexico and the Soviet Union, and died in New York in 1952, at the age of ninety-two.</p>\n<p>Dewey is, together with Charles S. Peirce and William James, one of the great figures of American <strong>pragmatism</strong>, a current for which the value of an idea is measured by its practical consequences. His version, <strong>instrumentalism</strong>, understands thought as an instrument for solving the problems that arise in <strong>experience</strong>: to think is, at bottom, to inquire. Hence his best-known educational proposal, ‘learning by doing’, opposed to teaching based on memory alone, and his defence of <strong>democracy</strong> not as a mere system of government but as a way of life in which people cooperate and decide together. He appears in the syllabus as a representative of pragmatism and of a way of understanding truth, knowledge and education different from the European rationalist tradition.</p>",
+  "obras": [
+   "The School and Society (1899)",
+   "How We Think (1910)",
+   "Democracy and Education (1916)",
+   "Art as Experience (1934)"
+  ],
+  "anecdota": "<p>In January 1896, while a professor at the University of Chicago, Dewey set up an experimental school, known as the ‘Laboratory School’. It began with a handful of pupils and two teachers, and worked as a laboratory in which to test whether his educational ideas really worked in the classroom: the children learned by cooking, sewing or building things, rather than merely memorising. Within a few years it grew from that initial group to more than a hundred pupils. The experience, recorded some time later by two of its teachers, became a model cited by the educational reform movements of the 20th century.</p>",
+  "fuente": "K. C. Mayhew and A. C. Edwards, The Dewey School (1936)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "unamuno": {
   "name": "Miguel de Unamuno",
   "dates": "1864 – 1936",
@@ -4424,6 +4474,33 @@ const ILUSTRES = {
    "hf-marxismos"
   ]
  },
+ "luxemburgo": {
+  "name": "Rosa Luxemburg",
+  "dates": "1871 – 1919",
+  "born": 1871,
+  "died": 1919,
+  "place": "Zamość (Poland)",
+  "role": "Marxist thinker and revolutionary",
+  "idea": "Socialism and democracy are inseparable: she criticised both the reformism that gives up on transforming society and the rule of a single party, and trusted in the spontaneous initiative of the workers.",
+  "bio": "<p>Rosa Luxemburg was born in 1871 in Zamość, a town in the part of Poland that then belonged to the Russian Empire, into a Jewish family. She went to study in Switzerland and took a doctorate in political science (law and economics) at the University of Zurich in 1897, with a thesis on the industrial development of Poland. She then settled in Germany, where she joined the Social Democratic Party (SPD) and became one of its leading theorists. She firmly opposed the First World War and spent much of it in prison for her agitation against the war. Together with Karl Liebknecht she founded the Spartacus League and, in the last days of 1918, the Communist Party of Germany. In January 1919, during the Spartacist uprising in Berlin, she was arrested and murdered by Freikorps soldiers.</p>\n<p>Luxemburg was a <strong>Marxist</strong> thinker, but she never understood Marxism as a closed system. In <em>Reform or Revolution?</em> (1899) she argued with Eduard Bernstein, who proposed improving capitalism bit by bit instead of transforming it; she maintained that reforms are not enough, without giving up day-to-day action because of it. She trusted more in the <strong>mass strike</strong>, the collective and spontaneous action of the workers, than in control by a party directed from above. That is why, although she welcomed the Russian Revolution of 1917, she soon criticised Lenin and Trotsky for suppressing the elected assembly and the other parties: for her, <strong>socialism and democracy</strong> could not be separated. She appears in the History of Philosophy syllabus, in the critique of capitalism after Marx, alongside Lenin and Clara Zetkin, as evidence that within Marxism there was an open debate about the relationship between revolution, freedom and democracy.</p>",
+  "obras": [
+   "Reform or Revolution? (1899)",
+   "The Mass Strike, the Party and the Trade Unions (1906)",
+   "The Accumulation of Capital (1913)",
+   "The Russian Revolution (written in 1918)"
+  ],
+  "anecdota": "<p>In December 1917, imprisoned in Breslau jail, Rosa Luxemburg wrote to her friend Sophie Liebknecht a letter about some buffaloes brought from Romania as war booty and forced to haul heavy loads. She told how a soldier beat one of the animals with the handle of his whip until it bled, and how the buffalo's gaze, defenceless, made her weep. In that scene she saw reflected the suffering of war and of the oppressed. The letter is part of her prison correspondence and is one of the best-known pages of her private life.</p>",
+  "fuente": "Rosa Luxemburg, letter to Sophie Liebknecht from Breslau prison (mid-December 1917), collected in her Letters from Prison",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos",
+   "hf-capitalismo"
+  ]
+ },
  "russell": {
   "name": "Bertrand Russell",
   "dates": "1872 – 1970",
@@ -4448,6 +4525,32 @@ const ILUSTRES = {
   "temas": [
    "hf-mito",
    "hf-analitica"
+  ]
+ },
+ "kollontai": {
+  "name": "Alexandra Kollontai",
+  "dates": "1872 – 1952",
+  "born": 1872,
+  "died": 1952,
+  "place": "Saint Petersburg (Russian Empire)",
+  "role": "Soviet revolutionary and diplomat",
+  "idea": "She brought together socialism and the emancipation of women: legal equality is not enough if domestic work, the family and love relationships do not change.",
+  "bio": "<p>Alexandra Mikhailovna Kollontai was born in 1872 in Saint Petersburg, into a Russian aristocratic family, but she broke early with that milieu to devote herself to socialist activism. She studied economics in Zurich and, after years of exile around Europe, joined the Bolsheviks. After the revolution of 1917 she was appointed People's Commissar for Social Welfare, in one of the first governments in the world to include a woman. In the following decades she was also one of the first women to represent her country as head of a diplomatic mission, in Norway, Mexico and Sweden. She died in Moscow in 1952.</p>\n<p>Kollontai brought together <strong>socialism</strong> and the <strong>emancipation of women</strong>: she held that the vote and equality before the law are not enough if domestic work, the family and love relationships do not change. She advocated socialising household tasks and the care of children, and reflected on a <strong>new morality</strong> of love, freed from economic dependence. Within the party itself she led the <strong>Workers' Opposition</strong>, which criticised the bureaucratisation of Soviet power. She appears in the syllabus among those who extended and debated Marxism, and her work remains a reference point for socialist feminisms, in a debate still open about the relationship between economic equality and personal freedom.</p>",
+  "obras": [
+   "The Social Basis of the Woman Question (1909)",
+   "The New Morality and the Working Class (1918)",
+   "The Workers' Opposition (1921)",
+   "Make Way for Winged Eros! (1923)"
+  ],
+  "anecdota": "<p>In 1923 the Soviet government sent her to Norway at the head of its diplomatic mission, and shortly afterwards she was officially accredited: she was one of the first women in the world to represent her country as head of a legation. She remained in the diplomatic service for almost twenty years, mainly in Sweden. There, her health already much weakened after a stroke that forced her to use a wheelchair, she took part in 1944 in the contacts that helped to bring an end to the war between Finland and the Soviet Union.</p>",
+  "fuente": "Cathy Porter, Alexandra Kollontai. A Biography (Virago, 1980)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos"
   ]
  },
  "moore": {
@@ -4677,6 +4780,32 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-analitica"
+  ]
+ },
+ "gramsci": {
+  "name": "Antonio Gramsci",
+  "dates": "1891 – 1937",
+  "born": 1891,
+  "died": 1937,
+  "place": "Ales (Italy)",
+  "role": "Italian Marxist thinker and politician",
+  "idea": "A class does not dominate by force alone but through hegemony: the consent it obtains through culture (school, the press, religion). That is why politics is also played out on the terrain of ideas and common sense.",
+  "bio": "<p>Antonio Gramsci was born in 1891 in Ales, a village in Sardinia (Italy), into a modest and large family. Of frail health from childhood, he won a scholarship and studied linguistics at the University of Turin, though he left his degree to devote himself to journalism and politics. In Turin, a city of large factories, he drew close to the workers' movement, wrote in the socialist press and in 1919 founded the journal <em>The New Order</em> (<em>L'Ordine Nuovo</em>). In 1921 he was one of the founders of the Communist Party of Italy and in 1924 he was elected a deputy. Mussolini's Fascist regime arrested him in 1926, despite his parliamentary immunity, and sentenced him to more than twenty years in prison. Ill and never recovered, he died in Rome in 1937, a few days after being formally released.</p>\n<p>In prison he wrote his <em>Prison Notebooks</em>, thousands of pages of notes that he could not publish in his lifetime. His best-known idea is that of <strong>hegemony</strong>: a social class does not stay in power only by coercion but also through the consent it wins when it manages to make its view of the world pass for the <strong>common sense</strong> of the whole of society, through school, the press, religion or culture. To explain that cultural work he spoke of <strong>organic intellectuals</strong>, people whom each social group produces to give shape to its ideas. Gramsci is a central figure of so-called Western Marxism, which shifted attention from the economy towards culture and consciousness. He appears in the syllabus within that block, and his concept of hegemony is used today in debates of very different political stripes, which keeps him alive and disputed.</p>",
+  "obras": [
+   "The Southern Question (1926)",
+   "Letters from Prison (written 1926-1937)",
+   "Prison Notebooks (written 1929-1935)"
+  ],
+  "anecdota": "<p>At the trial held in Rome in 1928, the prosecutor demanded a very harsh sentence with a phrase that has become famous: that brain had to be stopped from working for twenty years. The court sentenced Gramsci to twenty years, four months and five days in prison. The regime wanted to silence his ideas, but it was precisely in prison that he wrote the <em>Notebooks</em> that would make him known throughout the world.</p>",
+  "fuente": "Giuseppe Fiori, Life of Antonio Gramsci (1966); records of the 1928 trial",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos",
+   "hf-capitalismo"
   ]
  },
  "benjamin": {
@@ -4971,6 +5100,30 @@ const ILUSTRES = {
    "hf-beauvoir"
   ]
  },
+ "weil": {
+  "name": "Simone Weil",
+  "dates": "1909 – 1943",
+  "born": 1909,
+  "died": 1943,
+  "place": "Paris (France)",
+  "role": "French philosopher",
+  "idea": "Before rights come obligations towards others; paying true attention to those who suffer is the highest form of justice and of respect for their dignity.",
+  "bio": "<p>Simone Weil was born in Paris in 1909, into a cultured and well-off Jewish family; her brother, André Weil, was a famous mathematician. A brilliant student, she gained the agrégation in philosophy in 1931 and taught at several secondary schools. Concerned about the condition of workers, in 1934 she took leave to work as a labourer in factories in Paris. In 1936 she spent a few months in the Spanish Civil War, in an anarchist column. During the Second World War she went into exile with her family and ended up in London, working with Free France. She died in Ashford (England) in 1943, at the age of 34, ill with tuberculosis and weakened because she ate scarcely more than what, according to her, the French received under the occupation.</p>\n<p>Weil is a thinker hard to classify, between philosophy, political commitment and mysticism. She held that, before rights, come <strong>obligations</strong> towards others, and that every person deserves respect for the mere fact of being one. She gave a central place to <strong>attention</strong>: knowing how to truly look at the other, above all at the one who endures <strong>affliction</strong> (what she called <em>malheur</em>), a misfortune that humiliates and isolates. She also reflected on work, oppression and freedom, and in her last period on the sacred and the need to <strong>put down roots</strong> in a community. She features in the section as one of the most original voices of 20th-century thought, joining ethical and political reflection with experience lived at first hand.</p>",
+  "obras": [
+   "Reflections on the Causes of Liberty and Social Oppression (written in 1934; published in 1955)",
+   "Gravity and Grace (1947)",
+   "The Need for Roots (1949)",
+   "Waiting for God (1950)"
+  ],
+  "anecdota": "<p>In 1934, Simone Weil, who was a brilliant philosophy teacher, took leave to work as an unskilled labourer in factories in Paris, among them one belonging to Renault. She wanted to know from the inside, and not only from books, what fatigue, the assembly line and submission to the bosses meant. For almost a year she endured exhausting work and noted down each day what she experienced in a notebook, her ‘factory journal’. That experience marked for ever her way of thinking about oppression and the dignity of work.</p>",
+  "fuente": "Simone Pétrement, Simone Weil: A Life (1973); Simone Weil, The Worker's Condition (factory diary, 1934-1935)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "turing": {
   "name": "Alan Turing",
   "dates": "1912 – 1954",
@@ -5129,6 +5282,32 @@ const ILUSTRES = {
    "hf-posmodernidad"
   ]
  },
+ "feyerabend": {
+  "name": "Paul Feyerabend",
+  "dates": "1924 – 1994",
+  "born": 1924,
+  "died": 1994,
+  "place": "Vienna (Austria)",
+  "role": "philosopher of science",
+  "idea": "There is no single scientific method valid for all time; the great advances of science were often achieved by breaking the rules, which is why ‘anything goes’.",
+  "bio": "<p>Paul Feyerabend was born in Vienna in 1924. During the Second World War he was conscripted into the German army and was seriously wounded at the front: a bullet in the spine forced him to walk with a stick and caused him pain for the rest of his life. When the war ended he studied in Vienna and came to the philosophy of science through Karl Popper, in London. From 1958 he was a professor for decades at the University of California, Berkeley, and he also taught in Zurich. He died in Switzerland in 1994.</p>\n<p>Feyerabend is known for his <strong>methodological anarchism</strong>, defended in <em>Against Method</em> (1975): he argued that there is no rule of scientific method that has not had to be broken at some point for science to advance, and summed it up in the slogan <strong>‘anything goes’</strong>. He did not mean to reject science but to question its authority: he called for the <strong>separation of science and the state</strong>, just like that of religion and the state, so that no view of the world should be imposed on the others. In the syllabus he appears as the most radical link in the philosophy of science, in debate with Popper's falsifiability and Kuhn's paradigms.</p>",
+  "obras": [
+   "Against Method (1975)",
+   "Science in a Free Society (1978)",
+   "Farewell to Reason (1987)",
+   "Killing Time (autobiography, 1995)"
+  ],
+  "anecdota": "<p>The pain that stayed with Feyerabend all his life came from the war. As he tells it in his autobiography, in 1945, as an officer in the German army during the retreat, he was hit by several shots while directing the traffic of the troops; one of the bullets lodged in his spine. He was left with permanent after-effects and walked with a stick from then on. He himself recounted the episode with bitter humour, without heroics, as one more of the chance events that had marked his life.</p>",
+  "fuente": "Paul Feyerabend, Killing Time (autobiography, 1995); the slogan ‘anything goes’ in Against Method (1975)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-analitica"
+  ]
+ },
  "bauman": {
   "name": "Zygmunt Bauman",
   "dates": "1925 – 2017",
@@ -5150,6 +5329,35 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-siglo21"
+  ]
+ },
+ "deleuze": {
+  "name": "Gilles Deleuze",
+  "dates": "1925 – 1995",
+  "born": 1925,
+  "died": 1995,
+  "place": "Paris (France)",
+  "role": "French philosopher of difference and desire",
+  "idea": "Philosophy does not describe eternal essences but creates concepts to think difference and change; and desire is not a lack but a force that produces bonds and worlds.",
+  "bio": "<p>Gilles Deleuze was born in Paris in 1925 and spent almost all his life there. He was a professor at the University of Paris VIII (Vincennes), where his classes, open to anyone who wanted to come in, became famous. From 1969 he wrote several books together with the psychoanalyst Félix Guattari. Ill with his lungs for years, he died in Paris in 1995.</p>\n<p>In <em>Difference and Repetition</em> (1968) he argues that philosophy has given too much importance to the identical and the general, and he reclaims <strong>difference</strong> as something primary, not as a mere comparison between things already given. With Guattari he maintains that <strong>desire</strong> is not a private lack but a force that produces relationships, images and institutions, and he proposes the image of the <strong>rhizome</strong>: a way of thinking made of multiple connections, with no centre and no fixed hierarchy, as opposed to the model of the tree. In the syllabus he appears as one of the voices of postmodernity (topic 23) and, above all, for his reading of Spinoza: for Deleuze, Spinoza is the philosopher of joy and of <strong>power</strong>, and the question ‘what can a body do?’ sums up his way of understanding ethics.</p>",
+  "obras": [
+   "Nietzsche and Philosophy (1962)",
+   "Difference and Repetition (1968)",
+   "Anti-Oedipus (1972, with Félix Guattari)",
+   "A Thousand Plateaus (1980, with Félix Guattari)"
+  ],
+  "anecdota": "<p>In 1988 and 1989, Deleuze agreed to record with the journalist Claire Parnet a long interview of some eight hours, arranged as an abecedary: one word for each letter, from A for ‘Animal’ to Z for ‘Zigzag’. He set as an initial condition that it should not be broadcast until after his death, though in the end he authorised its release: the series, known as <em>Gilles Deleuze's Abecedary</em>, was broadcast on the Arte channel between 1994 and 1995, in the last year of his life, and has become one of the most widely known ways of approaching his thought.</p>",
+  "fuente": "François Dosse, Gilles Deleuze and Félix Guattari. Intersecting Lives (2007)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
+   "hf-kant-poetas",
+   "hf-posmodernidad"
   ]
  },
  "foucault": {
@@ -5301,6 +5509,32 @@ const ILUSTRES = {
   ],
   "anecdota": "<p>In late 1981 Derrida travelled to Prague to give a clandestine seminar to intellectuals who were dissidents of the Czechoslovak communist regime. As he left, the police arrested him at the airport: they claimed to have found drugs in his suitcase, which in fact they had planted themselves. He spent a night in prison and was charged with drug trafficking. The protest of the French government, with President Mitterrand at its head, secured his release and expulsion from the country. The philosopher of suspicion towards texts ended up the victim of a fabricated case.</p>",
   "fuente": "Benoît Peeters, Derrida (biography, 2010); press of the time",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-posmodernidad"
+  ]
+ },
+ "rorty": {
+  "name": "Richard Rorty",
+  "dates": "1931 – 2007",
+  "born": 1931,
+  "died": 2007,
+  "place": "New York (United States)",
+  "role": "American philosopher, a representative of neopragmatism",
+  "idea": "There is no truth that is an exact copy of reality and no ultimate foundation of knowledge; in a democracy it is better to replace the search for Truth with conversation, irony and solidarity.",
+  "bio": "<p>Richard Rorty was born in New York in 1931, the son of two left-wing writers opposed to Stalin. He studied at the universities of Chicago and Yale. He taught philosophy at Princeton, where he was trained within analytic philosophy, and later at the University of Virginia and at Stanford, by then as a professor of the humanities. He died in Palo Alto, in California, in 2007.</p>\n<p>Rorty took up the American pragmatist tradition of Dewey and James and broke with the idea that the mind is a <strong>mirror</strong> reflecting reality as it is: to that image he devoted <em>Philosophy and the Mirror of Nature</em> (1979). For him there is no <strong>truth</strong> understood as an exact copy of the world and no ultimate foundation of knowledge; truth is rather what a community accepts after putting it to the test. In <em>Contingency, Irony, and Solidarity</em> (1989) he argued that, in a liberal democracy, rather than seeking an absolute foundation it is better to cultivate <strong>conversation</strong>, irony (knowing that one's own vocabulary is not sacred) and <strong>solidarity</strong>. On the website he appears in the postmodernity topic of Philosophy: after the critique of suspicion, he proposes replacing the dispute over who possesses the Truth with democratic conversation, without truth or justice thereby ceasing to matter.</p>",
+  "obras": [
+   "Philosophy and the Mirror of Nature (1979)",
+   "Consequences of Pragmatism (1982)",
+   "Contingency, Irony, and Solidarity (1989)",
+   "Achieving Our Country (1998)"
+  ],
+  "anecdota": "<p>In 1992 Rorty published an autobiographical essay, ‘Trotsky and the Wild Orchids’, in which he told how as a child he tried to reconcile two things that seemed not to fit together: the commitment to social justice he had inherited from his parents and his private, almost secret, hobby of hunting for wild orchids in the hills of north-western New Jersey. For years, he said, he looked for a single truth that would unite ‘Trotsky’ and ‘the orchids’, until he came to think that it was not necessary: the public, that is, solidarity, and the private, the beauty that matters to each person, could follow separate paths. From that attempt much of his philosophy was born.</p>",
+  "fuente": "Richard Rorty, ‘Trotsky and the Wild Orchids’ (1992), collected in Filosofía y futuro (Spanish ed., Gedisa, 2002)",
   "tradicion": false,
   "block": "con",
   "subjects": [
