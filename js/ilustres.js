@@ -2969,6 +2969,32 @@ const ILUSTRES = {
    "hf-sospecha"
   ]
  },
+ "jefferson": {
+  "name": "Thomas Jefferson",
+  "dates": "1743 – 1826",
+  "born": 1743,
+  "died": 1826,
+  "place": "Shadwell, Virginia (British colonies of America)",
+  "role": "American Enlightenment politician, author of the Declaration of Independence",
+  "idea": "All human beings have natural rights, such as life, liberty and the pursuit of happiness; governments exist to protect them, derive their power from the consent of the governed and must be separate from religion.",
+  "bio": "<p>Thomas Jefferson was born in Virginia, into a family of landowners, and studied law at the College of William &amp; Mary. He was the main drafter of the United States <strong>Declaration of Independence</strong> (1776), ambassador to France on the eve of the Revolution, Secretary of State under Washington and the country’s third president (1801-1809). In his old age he founded the University of Virginia. He died at his home in Monticello on 4 July 1826, exactly fifty years after the Declaration.</p>\n<p>The Declaration takes up <strong>Locke</strong>’s theory of natural rights and the social contract: all men are created equal, with inalienable rights to ‘life, liberty and the pursuit of happiness’, and if a government violates them, the people may change it. Jefferson also defended <strong>religious freedom</strong> and a ‘wall of separation’ between Church and State. His great contradiction: he proclaimed equality and at the same time owned hundreds of enslaved people throughout his life.</p>",
+  "obras": [
+   "Declaration of Independence (1776)",
+   "Notes on the State of Virginia (1785)",
+   "Virginia Statute for Religious Freedom (1786)",
+   "The Life and Morals of Jesus of Nazareth (1820)"
+  ],
+  "anecdota": "<p>Jefferson prepared his own version of the Gospels: with a razor he cut out from several copies of the Bible the verses containing Jesus’s moral teachings and pasted them in order, leaving out the miracles and the supernatural. He wrote to John Adams that telling the genuine apart was as easy as distinguishing diamonds in a dunghill. The volume, known as the ‘Jefferson Bible’, is kept at the Smithsonian Institution.</p>",
+  "fuente": "Letter from Jefferson to John Adams (12-10-1813); original copy at the Smithsonian Institution (Washington)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-metafisica"
+  ]
+ },
  "jacobi": {
   "name": "Friedrich Heinrich Jacobi",
   "dates": "1743 – 1819",
@@ -3349,6 +3375,28 @@ const ILUSTRES = {
   "temas": [
    "hf-kant-poetas"
   ]
+ },
+ "malthus": {
+  "name": "Thomas Robert Malthus",
+  "dates": "1766 – 1834",
+  "born": 1766,
+  "died": 1834,
+  "place": "Surrey (England)",
+  "role": "English clergyman and economist",
+  "idea": "If nothing checks it, population grows much faster than food; that is why hunger, disease and misery act as a check, unless people limit births.",
+  "bio": "<p>Thomas Robert Malthus was born in Surrey, into a well-off family; his father was a friend of Rousseau. He studied at the University of Cambridge and was ordained a clergyman of the Anglican Church. From 1805 he taught history and political economy at the East India Company’s college, and was the first professor of political economy in England. For years he argued with his friend the economist David Ricardo. He died in Bath in 1834.</p>\n<p>In <em>An Essay on the Principle of Population</em> (1798), written against the optimism of <strong>Godwin</strong> and <strong>Condorcet</strong>, he holds that population tends to grow in geometric progression (1, 2, 4, 8…) and food only in arithmetic progression (1, 2, 3, 4…). That is why indefinite progress is impossible: hunger, disease and war check population, and the only thing that can prevent them is ‘moral restraint’ (marrying late and not having more children than one can support). His ideas influenced the laws against relief for the poor and, years later, Darwin.</p>",
+  "obras": [
+   "An Essay on the Principle of Population (1798; enlarged edition, 1803)",
+   "Principles of Political Economy (1820)"
+  ],
+  "anecdota": "<p>In October 1838, Charles Darwin read ‘for amusement’ <em>An Essay on the Principle of Population</em>. There he found the idea he was missing: if far more beings are born than can survive, in the struggle for existence favourable variations will be preserved and unfavourable ones will disappear. And so, Darwin recounted, he had at last got a theory by which to work: natural selection.</p>",
+  "fuente": "Charles Darwin, Autobiography (1887)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "schleiermacher": {
   "name": "Friedrich Schleiermacher",

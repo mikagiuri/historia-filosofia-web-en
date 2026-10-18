@@ -653,6 +653,144 @@ const COMUNIDADES = [
   ]
  },
  {
+  "id": "coterie-holbach",
+  "cas_ilu": [
+   "holbach",
+   "diderot",
+   "helvetius",
+   "dalembert",
+   "hume",
+   "rousseau"
+  ],
+  "nombre": "Baron d’Holbach’s salon (the ‘coterie holbachique’)",
+  "fechas": "Paris and Grandval, around 1750 – 1789",
+  "cas_epoca": "ilu",
+  "lugar": "Baron d’Holbach’s house on the rue Royale, butte Saint-Roch, in the centre of Paris. Twice a week, on Thursdays and Sundays, long dinners were held there at which people spoke with a freedom found almost nowhere else in Europe. In summer the group moved to the countryside, to the house belonging to the family of Holbach’s wife at Grandval, in the Marne valley, south-east of Paris, where Diderot would spend whole weeks and from where he wrote his letters to Sophie Volland.",
+  "hoy": "The old rue Royale, butte Saint-Roch was absorbed into the layout of the present-day 1st arrondissement of Paris, near the church of Saint-Roch, and nothing marked survives of Holbach’s house. The Grandval estate stood in what is now Sucy-en-Brie (Marne valley); we have not been able to confirm anything about its present state from a reliable source.",
+  "miembros": "The host was Paul-Henri Thiry, Baron d’Holbach, a German settled in Paris who had inherited a great fortune. The soul of the group was his close friend Denis Diderot, director of the Encyclopédie. Regular guests included Helvétius, the critic Friedrich Melchior Grimm (who reported these gatherings in his Correspondance littéraire), the abbé Raynal, the abbé Morellet, the writer Marmontel and Jacques-André Naigeon, Holbach’s secretary and collaborator, who would later edit his works. D’Alembert, co-director of the Encyclopédie, also attended. And famous foreign travellers passed by that table: David Hume, Adam Smith, Laurence Sterne, Edward Gibbon, Cesare Beccaria and Benjamin Franklin. Rousseau was among the first to frequent the group, but ended up breaking with it. (Grimm, Raynal, Morellet, Marmontel and Naigeon do not have their own entry here.)",
+  "vida": "It was not a school or an academy, but a gathering of friends: people ate well and argued about everything for hours — science, religion, politics and morality. Many of them wrote for the Encyclopédie; Holbach himself drafted several hundred articles, above all on chemistry, mineralogy and German science, which he translated. The house also worked as a small clandestine printing house of ideas: from there came the group’s boldest works, under false names and published outside France.",
+  "ideas": "They were the most radical wing of the French Enlightenment. They defended a complete materialism (only matter in motion exists, thought included), a head-on critique of religion and a morality based on reason and the pursuit of common happiness, not on the reward or punishment of another life. Holbach was among the first authors to declare themselves openly atheist. Not everyone thought alike —Hume was not an atheist and would argue with them, and many preferred a more cautious deism—, but they shared the conviction that no authority, neither the Church nor the king, should remain beyond the scrutiny of reason.",
+  "cita": {
+   "t": "Look around the table: we are eighteen; fifteen are plain atheists, and the other three have not yet made up their minds.",
+   "ref": "Baron d’Holbach’s reply to David Hume —who said he had never met an atheist—, as narrated by Diderot in a letter to Sophie Volland (October 1765); the figures vary somewhat depending on the version"
+  },
+  "fin": "It did not end all at once: it faded away with its leading figures. Helvétius died in 1771, Hume in 1776, Rousseau in 1778, D’Alembert in 1783 and Diderot in 1784. Holbach himself died in Paris on 21 January 1789, months before the French Revolution broke out. None of them saw it. Naigeon went on editing and spreading the baron’s works during the Revolution.",
+  "trampa": "It is tempting to draw a straight line —‘the philosophers of the Enlightenment prepared and provoked the French Revolution’—, but it is worth slowing down. Almost all the members of the salon had died before 1789, and most were neither revolutionaries nor democrats: Holbach distrusted crowds and hoped for reforms made from above, not a revolution from below. Historians argue about how much these ideas really influenced what came afterwards (see ‘The debate’). And another common confusion: ‘materialist’ and ‘atheist’ did not mean here ‘selfish’ or ‘without morals’; on the contrary, they defended a reasoned ethics and shared happiness.",
+  "pregunta": "Do ideas discussed at a dinner among friends change the world, or do only events change it? When, after a revolution or a catastrophe, culprits are sought among earlier thinkers, is one explaining or accusing?",
+  "temas": [
+   "hf-ilustracion",
+   "hf-metafisica",
+   "hf-contrato"
+  ],
+  "fuentes": [
+   {
+    "t": "Stanford Encyclopedia of Philosophy: Paul-Henri Thiry (Baron) d’Holbach",
+    "url": "https://plato.stanford.edu/entries/holbach/"
+   },
+   {
+    "t": "Wikipedia: Coterie holbachique",
+    "url": "https://en.wikipedia.org/wiki/Coterie_Holbachique"
+   },
+   {
+    "t": "Wikipedia: Baron d’Holbach",
+    "url": "https://es.wikipedia.org/wiki/Barón_d%27Holbach"
+   }
+  ],
+  "imgs": [
+   {
+    "f": "media/galeria_museo/comunidades/coterie_holbach_retrato.jpg",
+    "pie": "Baron d’Holbach, a pencil-and-watercolour portrait by Louis Carrogis Carmontelle (1766)",
+    "page": "https://commons.wikimedia.org/wiki/File:D%27Holbach.jpg"
+   },
+   {
+    "f": "media/galeria_museo/comunidades/coterie_holbach_enciclopedia.jpg",
+    "pie": "Frontispiece of the Encyclopédie of Diderot and D’Alembert, engraved in 1772 by Benoît-Louis Prévost from a 1764 drawing by Charles-Nicolas Cochin: Reason and Philosophy lift the veil covering Truth. Holbach wrote many articles for the work, above all on chemistry and mineralogy.",
+    "page": "https://commons.wikimedia.org/wiki/File:Encyclopedie_frontispice_full.jpg"
+   },
+   {
+    "f": "media/galeria_museo/comunidades/coterie_holbach_sistema.jpg",
+    "pie": "Title page of the System of Nature (1770), Holbach’s most radical work, published under the name of an author already dead, ‘M. Mirabaud’, to escape censorship",
+    "page": "https://commons.wikimedia.org/wiki/File:Systemedelanature.jpg"
+   }
+  ],
+  "cronologia": [
+   {
+    "a": "1723",
+    "t": "Paul-Henri Thiry, the future Baron d’Holbach, is born in Edesheim (Palatinate, present-day Germany). He would be raised and grow rich in France."
+   },
+   {
+    "a": "around 1750",
+    "t": "Settled in Paris and master of a great fortune, Holbach opens his house to the philosophers. The Thursday and Sunday dinners begin."
+   },
+   {
+    "a": "1751",
+    "t": "The first volume of the Encyclopédie appears, directed by Diderot and D’Alembert. Holbach contributes science articles."
+   },
+   {
+    "a": "1759",
+    "t": "The authorities revoke the Encyclopédie’s privilege and the work is banned; Diderot continues it partly in secret."
+   },
+   {
+    "a": "around 1761-1766",
+    "t": "Christianity Unveiled circulates clandestinely, Holbach’s first great attack on religion."
+   },
+   {
+    "a": "1765",
+    "t": "David Hume, passing through Paris, dines at Holbach’s house: hence the famous anecdote about the atheists at the table. That year the remaining ten volumes of text of the Encyclopédie appear, with a false imprint."
+   },
+   {
+    "a": "1770",
+    "t": "The System of Nature is published under the name of ‘Mirabaud’. The Parlement of Paris condemns it and orders it to be burned; Voltaire refutes it to defend his deism."
+   },
+   {
+    "a": "1771",
+    "t": "Helvétius, one of the regulars of the salon, dies."
+   },
+   {
+    "a": "1772",
+    "t": "The plate volumes of the Encyclopédie are completed."
+   },
+   {
+    "a": "1784",
+    "t": "Diderot dies, Holbach’s closest friend and the soul of the group (D’Alembert had died in 1783)."
+   },
+   {
+    "a": "21 January 1789",
+    "t": "Baron d’Holbach dies in Paris, a few months before the Revolution."
+   },
+   {
+    "a": "14 July 1789",
+    "t": "The French Revolution begins. None of the salon’s main members lived to see it."
+   }
+  ],
+  "etapas": [
+   {
+    "nom": "The table fills up",
+    "a": "around 1750 – 1759",
+    "q": "Holbach, Diderot, Grimm, Rousseau (at first) and D’Alembert",
+    "d": "The salon is born around Holbach’s dinners, just as the Encyclopédie is getting under way. Rousseau frequents the group, but disagreements grow and he will end up breaking with what he scornfully called the ‘coterie holbachique’."
+   },
+   {
+    "nom": "The years of the Encyclopédie",
+    "a": "1751 – 1772",
+    "q": "Diderot, D’Alembert, Holbach, Helvétius, Marmontel, Morellet and Raynal",
+    "d": "Many of the circle write for the Encyclopédie despite the ban. The house also becomes a meeting point for the enlightened foreign travellers passing through Paris."
+   },
+   {
+    "nom": "The clandestine books",
+    "a": "around 1761 – 1776",
+    "q": "Holbach and his secretary Naigeon",
+    "d": "Holbach publishes his boldest works —culminating in the System of Nature (1770)— under false names and printed outside France. It is the most combative moment of the group’s materialism and atheism."
+   },
+   {
+    "nom": "The end and the later debate",
+    "a": "from 1771",
+    "q": "The last survivors and, later, the historians",
+    "d": "The salon fades out as its members die, all before 1789. Ever since, there has been debate about what relation these ideas had with the Revolution: the historian Jonathan Israel places this ‘radical Enlightenment’ at the origin of the democratic values of 1789, while other scholars qualify that thesis and recall that most of these philosophers were neither revolutionaries nor democrats."
+   }
+  ]
+ },
+ {
   "id": "escuela-francfort",
   "cas_ilu": [
    "horkheimer",
