@@ -118,6 +118,63 @@ const GUIA = {
   },
   {
    "type": "h",
+   "x": "The importance dots (●●●●●)",
+   "solo": "hf"
+  },
+  {
+   "type": "p",
+   "solo": "hf",
+   "x": "On this site, thinkers, topics and glossary terms carry from one to five <strong>importance dots</strong> ●●●●○: the more dots, the more weight it has in the subject and in the PAU. Each level has its name:"
+  },
+  {
+   "type": "list",
+   "solo": "hf",
+   "rows": [
+    {
+     "nombre": "●●●●● Essential",
+     "texto": "A PAU reading or author, or something without which they cannot be understood."
+    },
+    {
+     "nombre": "●●●●○ Core",
+     "texto": "What the curriculum marks as essential (with an asterisk) or what has already come up in the PAU."
+    },
+    {
+     "nombre": "●●●○○ Important",
+     "texto": "What the curriculum names, or what is needed to understand the above."
+    },
+    {
+     "nombre": "●●○○○ Complement",
+     "texto": "Useful as context or for arguing in the essay."
+    },
+    {
+     "nombre": "●○○○○ Further reading",
+     "texto": "Curiosity or further reading: to find out more."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "solo": "hf",
+   "x": "Criterion: first the Basque curriculum (Decree 76/2023), then the UPV/EHU PAU. In other words, what the law requires you to study in this subject and what is asked in the exam."
+  },
+  {
+   "type": "p",
+   "solo": "hf",
+   "x": "The dots appear in <strong>Biographies</strong> (next to each thinker’s dates; in their entry, with the name of the level and a <strong>Why</strong> line giving the reason), in the <strong>list of topics</strong> on the subject page and in the <strong>Glossary</strong>. In Biographies and in the Glossary, the <strong>Essential and core only</strong> button keeps only those with five and four dots, and <strong>What the dots mean</strong> opens this same explanation."
+  },
+  {
+   "type": "img",
+   "solo": "hf",
+   "src": "11_imprescindibles.webp",
+   "cap": "An entry in Biographies: the dots, the name of the level and the ‘Why’."
+  },
+  {
+   "type": "tip",
+   "solo": "hf",
+   "x": "If you are short of time, start with what has five and four dots; the rest helps you understand it better and argue in the essay."
+  },
+  {
+   "type": "h",
    "x": "Study"
   },
   {

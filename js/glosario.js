@@ -2,6 +2,8 @@
 const GLOSARIO = [
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
   "t": "A priori",
   "et": "From the Latin *a priori*, ‘from what comes before’: before experience.",
   "area": "Epistemology",
@@ -15,8 +17,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Abstraction",
-  "et": "From the Latin *abstrahere*, ‘to draw out, to separate’ (*abs-* ‘away’ + *trahere* ‘to draw’).",
+  "et": "From the Latin *abstrahere*, ‘to draw out, to separate’ (*abs-* ‘away’ + *trahere* ‘to draw’). It translates the Greek ἀφαίρεσις (*aphaíresis*), ‘separation’, Aristotle’s term.",
   "area": "Epistemology",
   "bloque": "A",
   "unidad": "AA",
@@ -28,6 +32,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Actuality and potentiality",
   "et": "From the Latin *actus*, ‘action, deed’, and *potentia*, ‘power, capacity’. They translate the Greek ἐνέργεια (*enérgeia*) and δύναμις (*dýnamis*): hence *energy* and *dynamics*.",
   "area": "Metaphysics",
@@ -41,6 +47,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Akrasía (incontinence, weakness of will)",
   "et": "From the Greek ἀκρασία (*akrasía*), ‘lack of self-control’: from privative ἀ- and κράτος (*krátos*), ‘strength, power’.",
   "area": "Ethics",
@@ -54,6 +62,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Alexandria",
   "area": "History",
   "bloque": "A",
@@ -63,6 +73,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Alienation",
   "et": "From the Latin *alienatio*, from *alienus*, ‘foreign, belonging to another’: becoming a stranger to oneself.",
   "area": "Anthropology",
@@ -76,6 +88,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 2,
   "t": "Appetitive soul",
   "et": "From the Latin *concupiscere*, ‘to desire ardently’. Plato calls it τὸ ἐπιθυμητικόν (*to epithymētikón*), ‘that which desires’; it is also called the *concupiscible* part.",
   "area": "Anthropology",
@@ -89,6 +103,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 2,
   "t": "Spirited soul",
   "et": "From the Latin *irascibilis*, from *irasci*, ‘to become angry’. Plato calls it τὸ θυμοειδές (*to thymoeidés*), from θυμός (*thymós*), ‘spirit, courage’.",
   "area": "Anthropology",
@@ -102,6 +118,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 2,
   "t": "Rational soul",
   "et": "*Soul*, from the Latin *anima*, ‘breath’; *rational*, from *ratio*, ‘reason’. Plato calls it τὸ λογιστικόν (*to logistikón*), ‘that which calculates’.",
   "area": "Anthropology",
@@ -115,6 +133,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 7,
   "t": "Otherness",
   "et": "From the Latin *alter*, ‘the other’ (of two).",
   "area": "Feminism",
@@ -125,6 +145,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 2,
   "t": "Anamnesis",
   "et": "From the Greek ἀνάμνησις (*anámnēsis*), ‘recollection, remembering’, from ἀναμιμνῄσκειν (*anamimnḗiskein*), ‘to remind’.",
   "area": "Epistemology",
@@ -138,6 +160,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Methodological anarchism",
   "et": "*Anarchy*, from the Greek ἀναρχία (*anarkhía*): ἀν- (*an-*) ‘without’ + ἀρχή (*arkhé*) ‘rule’.",
   "area": "Method",
@@ -148,6 +172,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Anguish",
   "et": "From the Latin *angustia*, ‘narrowness’, from *angustus*, ‘narrow’: the feeling that the air is running out.",
   "area": "Anthropology",
@@ -158,6 +184,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Anti-capitalism",
   "et": "*Capital*, from the Latin *capitalis*, from *caput*, ‘head’: the principal of a debt or of a set of goods.",
   "area": "Economics",
@@ -168,6 +196,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Antinomy",
   "et": "From the Greek ἀντινομία (*antinomía*): ἀντί (*antí*) ‘against’ + νόμος (*nómos*) ‘law’: two laws that clash.",
   "area": "Metaphysics",
@@ -181,6 +211,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Apatheia",
   "et": "From the Greek ἀπάθεια (*apátheia*): ἀ- (*a-*) ‘without’ + πάθος (*páthos*) ‘passion, what one suffers’. Hence *apathy*.",
   "area": "Ethics",
@@ -191,6 +223,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Apologists",
   "et": "From the Greek ἀπολογία (*apología*), ‘defence’ before a court: the apologists defended Christianity against its accusers.",
   "area": "Religion",
@@ -204,6 +238,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Aponia",
   "et": "From the Greek ἀπονία (*aponía*): ἀ- (*a-*) ‘without’ + πόνος (*pónos*) ‘pain, toil’.",
   "area": "Ethics",
@@ -214,6 +250,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Aporia",
   "et": "From the Greek ἀπορία (*aporía*): ἀ- (*a-*) ‘without’ + πόρος (*póros*) ‘passage, way’: ‘without a way out’.",
   "area": "Method",
@@ -224,6 +262,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Arete",
   "et": "From the Greek ἀρετή (*areté*), ‘excellence’: the best that something or someone can become. It is usually linked to ἄριστος (*áristos*), ‘the best’, whence *aristocracy*.",
   "area": "Ethics",
@@ -234,6 +274,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Ontological argument",
   "et": "*Ontological*, from the Greek ὄν, ὄντος (*on, óntos*), ‘that which is’, and λόγος (*lógos*), ‘reason, study’: an argument that starts only from what God is.",
   "area": "Metaphysics",
@@ -247,6 +289,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Arkhé",
   "et": "From the Greek ἀρχή (*arkhé*), ‘principle, origin’ and also ‘rule’. Hence *archaeology* and *monarchy*.",
   "area": "Metaphysics",
@@ -257,6 +301,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Ataraxia",
   "et": "From the Greek ἀταραξία (*ataraxía*): ἀ- (*a-*) ‘without’ + ταράσσειν (*tarássein*) ‘to stir, to disturb’.",
   "area": "Ethics",
@@ -267,6 +313,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Aura",
   "et": "From the Greek αὔρα (*aúra*), ‘breeze, breath’.",
   "area": "Aesthetics",
@@ -277,6 +325,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Autarky",
   "et": "From the Greek αὐτάρκεια (*autárkeia*): αὐτός (*autós*) ‘oneself’ + ἀρκεῖν (*arkéin*) ‘to suffice’: ‘to be sufficient to oneself’.",
   "area": "Ethics",
@@ -287,6 +337,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
   "t": "Autonomy",
   "et": "From the Greek αὐτός (*autós*) ‘oneself’ + νόμος (*nómos*) ‘law’: ‘giving oneself the law’.",
   "area": "Ethics",
@@ -300,6 +352,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Banality of evil",
   "et": "*Banal*, from the French *banal*: originally, what was in common use by all the tenants of a lordship (the oven, the mill); hence ‘commonplace, trivial’.",
   "area": "Ethics",
@@ -313,6 +367,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Biopolitics",
   "et": "From the Greek βίος (*bíos*) ‘life’ + πολιτική (*politiké*) ‘what concerns the city’.",
   "area": "Politics",
@@ -323,6 +379,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Capabilities",
   "area": "Feminism",
   "bloque": "C",
@@ -335,6 +393,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Category",
   "et": "From the Greek κατηγορία (*kategoría*), ‘accusation’, from κατηγορεῖν (*kategoréin*), ‘to accuse, to say something about someone’. Aristotle used it for the ways of saying something of something.",
   "area": "Epistemology",
@@ -348,6 +408,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Cynicism",
   "et": "From the Greek κυνικός (*kynikós*), ‘dog-like’, from κύων (*kýon*), ‘dog’: this is what Diogenes and his followers were called for living without shame or conventions.",
   "area": "Ethics",
@@ -358,6 +420,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Circumstance",
   "et": "From the Latin *circumstantia*: *circum* ‘around’ + *stare* ‘to stand’: what stands around me.",
   "area": "Anthropology",
@@ -371,6 +435,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Limited citizenship",
   "area": "Politics",
   "bloque": "C",
@@ -380,7 +446,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Middle class",
+  "et": "In Greek, οἱ μέσοι (*hoi mésoi*), ‘those in the middle’, in Aristotle’s *Politics*.",
   "area": "Politics",
   "bloque": "A",
   "unidad": "A9",
@@ -392,6 +461,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Cogito",
   "et": "From the Latin *cogito*, ‘I think’, from *cogitare* (*co-* + *agitare*): ‘to turn something over in one's head’.",
   "area": "Anthropology",
@@ -405,6 +476,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Faith-reason collaboration",
   "et": "*Faith*, from the Latin *fides*, ‘trust’. *Reason*, from the Latin *ratio*, ‘calculation, account’.",
   "area": "Religion",
@@ -418,6 +491,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Colonialism",
   "et": "*Colony*, from the Latin *colonus*, ‘farmer’, from *colere*, ‘to cultivate, to inhabit’.",
   "area": "Politics",
@@ -428,6 +503,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Consumerism",
   "et": "From the Latin *consumere*, ‘to spend, to use up’.",
   "area": "Economics",
@@ -441,6 +518,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Countersexuality",
   "area": "Feminism",
   "bloque": "C",
@@ -450,8 +529,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Social contract",
-  "et": "*Contract*, from the Latin *contractus*, from *contrahere*, ‘to draw together, to close a deal’.",
+  "et": "*Contract*, from the Latin *contractus*, from *contrahere*, ‘to draw together, to close a deal’. The idea of a pact that founds justice already appears in Greek as συνθήκη (*synthéke*), ‘agreement’: in Glaucon (Plato, *Republic* II) and in Epicurus.",
   "area": "Politics",
   "bloque": "B",
   "unidad": "B6",
@@ -460,8 +541,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Conversion",
-  "et": "From the Latin *conversio*, from *convertere*, ‘to turn round, to turn’ in another direction.",
+  "et": "From the Latin *conversio*, from *convertere*, ‘to turn round, to turn’ in another direction. It translates the Greek ἐπιστροφή (*epistrophé*), ‘turning towards’, the soul’s return to its principle in Plotinus.",
   "area": "Religion",
   "bloque": "B",
   "unidad": "B1",
@@ -473,6 +556,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Cosmopolitanism",
   "et": "From the Greek κοσμοπολίτης (*kosmopolítes*): κόσμος (*kósmos*) ‘world’ + πολίτης (*polítes*) ‘citizen’. Diogenes called himself a ‘citizen of the world’.",
   "area": "Politics",
@@ -486,6 +571,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Ecological crisis",
   "et": "*Crisis*, from the Greek κρίσις (*krísis*), ‘decision, decisive moment’. *Ecology*, from the Greek οἶκος (*oîkos*) ‘house’ + λόγος (*lógos*) ‘study’.",
   "area": "Ecology",
@@ -496,6 +583,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
   "t": "Criticism",
   "et": "From the Greek κρίνειν (*krínein*), ‘to separate, to judge, to decide’. Criticism separates what reason can know from what it cannot.",
   "area": "Epistemology",
@@ -509,6 +598,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Critical",
   "et": "From the Greek κρίνειν (*krínein*), ‘to separate, to judge, to decide’.",
   "area": "Method",
@@ -522,6 +613,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Material critique",
   "area": "Method",
   "bloque": "C",
@@ -534,6 +627,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Social Darwinism",
   "area": "Politics",
   "bloque": "C",
@@ -546,6 +641,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Dasein",
   "et": "From the German *da* ‘there’ + *sein* ‘being’: ‘being-there’. In everyday German it means ‘existence’.",
   "area": "Anthropology",
@@ -559,8 +656,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
   "t": "Duty",
-  "et": "From the Latin *debere* (*de-* + *habere*, ‘to have’): to have something received from another and be obliged to return it.",
+  "et": "From the Latin *debere* (*de-* + *habere*, ‘to have’): to have something received from another and be obliged to return it. Its Greek antecedent is τὸ καθῆκον (*tò kathêkon*), ‘what is fitting’, from the Stoics, which Cicero translated as *officium*.",
   "area": "Ethics",
   "bloque": "C",
   "unidad": "CK",
@@ -572,6 +671,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Deconstruction",
   "area": "Language",
   "bloque": "C",
@@ -581,7 +682,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Degeneration of regimes",
+  "et": "In Greek, μεταβολὴ πολιτειῶν (*metabolè politeiôn*), ‘change of constitutions’: Plato, *Republic* VIII, and Aristotle, *Politics* V; Aristotle calls the degenerate forms παρεκβάσεις (*parekbáseis*), ‘deviations’ (*Politics* III 7).",
   "area": "Politics",
   "bloque": "A",
   "unidad": "A9",
@@ -593,8 +697,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Natural rights",
-  "et": "*Right* (Spanish *derecho*), from the Latin *directum*, ‘what is straight’. *Natural*, from *natura*, which comes from *nasci*, ‘to be born’.",
+  "et": "*Right* (Spanish *derecho*), from the Latin *directum*, ‘what is straight’. *Natural*, from *natura*, which comes from *nasci*, ‘to be born’. Its Greek antecedent is τὸ φυσικὸν δίκαιον (*tò physikòn díkaion*), ‘what is just by nature’, from Aristotle, although for him it is what is just, not a right of each person.",
   "area": "Politics",
   "bloque": "B",
   "unidad": "B6",
@@ -606,6 +712,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Biological decentring",
   "area": "Science",
   "bloque": "C",
@@ -615,6 +723,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Decolonisation",
   "et": "*Colony*, from the Latin *colonus*, ‘farmer’, from *colere*, ‘to cultivate, to inhabit’.",
   "area": "Politics",
@@ -625,6 +735,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Productive desire",
   "area": "Society",
   "bloque": "C",
@@ -634,6 +746,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Undoing gender",
   "area": "Feminism",
   "bloque": "C",
@@ -646,6 +760,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "After suspicion",
   "area": "Hermeneutics",
   "bloque": "C",
@@ -655,6 +771,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Deus sive Natura",
   "et": "From the Latin: ‘God, that is, Nature’ (*sive*, ‘that is’).",
   "area": "Metaphysics",
@@ -668,6 +786,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Dialectic",
   "et": "From the Greek διαλεκτική (*dialektiké*), from διαλέγεσθαι (*dialégesthai*), ‘to converse’: the art of dialogue.",
   "area": "Method",
@@ -678,6 +798,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Dialectic (Plato)",
   "et": "From the Greek διαλεκτική (*dialektikḗ*), ‘the art of conversation’, from διαλέγεσθαι (*dialégesthai*), ‘to converse’.",
   "area": "Epistemology",
@@ -691,6 +813,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Materialist dialectic",
   "et": "*Dialectic*, from the Greek διαλέγεσθαι (*dialégesthai*), ‘to converse’: the art of dialogue.",
   "area": "Method",
@@ -704,6 +828,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Negative dialectics",
   "et": "*Dialectic*, from the Greek διαλέγεσθαι (*dialégesthai*), ‘to converse’: the art of dialogue.",
   "area": "Method",
@@ -717,6 +843,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Dianoia",
   "et": "From the Greek διάνοια (*diánoia*), ‘thought, reasoning’.",
   "area": "Epistemology",
@@ -730,6 +858,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Différance",
   "et": "A word invented by Derrida: a mixture of the French *différence*, ‘difference’, and *différer*, ‘to defer’. The *a* is noticeable only in writing; when heard, it sounds the same as *différence*.",
   "area": "Language",
@@ -743,6 +873,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Dignity",
   "et": "From the Latin *dignitas*, from *dignus*, ‘worthy’.",
   "area": "Ethics",
@@ -756,6 +888,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Dignitas hominis",
   "et": "From the Latin: ‘the dignity of the human being’. *Dignitas* comes from *dignus*, ‘worthy’.",
   "area": "Anthropology",
@@ -769,6 +903,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Algorithmic discrimination",
   "area": "Technology",
   "bloque": "C",
@@ -778,6 +914,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Sex-gender distinction",
   "area": "Feminism",
   "bloque": "C",
@@ -790,6 +928,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Doxa",
   "et": "From the Greek δόξα (*dóxa*), ‘opinion, appearance’, from δοκεῖν (*dokéin*), ‘to seem’. Hence *orthodox* and *paradox*.",
   "area": "Epistemology",
@@ -803,6 +943,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Dualism",
   "et": "From the Latin *duo*, ‘two’.",
   "area": "Metaphysics",
@@ -813,6 +955,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Ontological dualism",
   "et": "*Dualism*, from the Latin *duo*, ‘two’. *Ontological*, from the Greek ὄν, ὄντος (*on, óntos*), ‘that which is’, and λόγος (*lógos*), ‘study’.",
   "area": "Metaphysics",
@@ -826,6 +970,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Methodical doubt",
   "et": "*Doubt*, from the Latin *dubitare*, related to *duo*, ‘two’: being between two possibilities. *Method*, from the Greek μέθοδος (*méthodos*), ‘path’.",
   "area": "Epistemology",
@@ -839,6 +985,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Eco-dependence",
   "et": "*Eco-*, from the Greek οἶκος (*oîkos*), ‘house’: the Earth as the common home.",
   "area": "Ecology",
@@ -849,6 +997,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Egalitarian education",
   "area": "Education",
   "bloque": "C",
@@ -858,6 +1008,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Eikasia",
   "et": "From the Greek εἰκασία (*eikasía*), ‘conjecture’, from εἰκών (*eikṓn*), ‘image’. Hence *icon*.",
   "area": "Epistemology",
@@ -871,6 +1023,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "The absurd",
   "et": "From the Latin *absurdus*, ‘out of tune, discordant’ (*ab-* + *surdus*, ‘deaf’).",
   "area": "Anthropology",
@@ -884,6 +1038,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The master and the slave",
   "area": "Anthropology",
   "bloque": "C",
@@ -897,7 +1053,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "The Good",
+  "et": "In Greek, ἡ τοῦ ἀγαθοῦ ἰδέα (*he toû agathoû idéa*), ‘the Idea of the Good’, in Plato’s *Republic*.",
   "area": "Epistemology",
   "bloque": "A",
   "unidad": "AP",
@@ -909,6 +1068,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "The owl of Minerva",
   "area": "Metaphysics",
   "bloque": "C",
@@ -918,6 +1079,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 1,
+  "impg": 14,
   "t": "The Canon of Medicine",
   "et": "*Canon*, from the Greek κανών (*kanón*), ‘measuring rod, rule’.",
   "area": "Science",
@@ -931,6 +1094,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The criterion of authority",
   "et": "*Criterion*, from the Greek κριτήριον (*kritérion*), ‘that which serves for judging’. *Authority*, from the Latin *auctoritas*, from *auctor*, ‘the one who makes grow, the author’.",
   "area": "Epistemology",
@@ -941,6 +1106,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 6,
   "t": "Destiny",
   "area": "Feminism",
   "bloque": "C",
@@ -953,6 +1120,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "The State (Hegel)",
   "area": "Politics",
   "bloque": "C",
@@ -965,6 +1134,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "The evil genius",
   "et": "*Genius*, from the Latin *genius*, the spirit that accompanies each person. *Evil* (*maligno*), from *malus*, ‘bad’.",
   "area": "Method",
@@ -978,6 +1149,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "The flying man",
   "area": "Epistemology",
   "bloque": "B",
@@ -990,6 +1163,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The Lyceum",
   "et": "From the Greek Λύκειον (*Lýkeion*), the gymnasium in Athens next to the temple of Apollo Lyceus where Aristotle taught. Hence *lycée*, ‘school’.",
   "area": "Education",
@@ -1003,6 +1178,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Civilization and Its Discontents",
   "area": "Psychology",
   "bloque": "C",
@@ -1012,6 +1189,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "The myth of the cave",
   "et": "*Myth*, from the Greek μῦθος (*mýthos*), ‘story, narrative’.",
   "area": "Epistemology",
@@ -1025,6 +1204,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 7,
   "t": "The myth of motherhood",
   "area": "Feminism",
   "bloque": "C",
@@ -1037,6 +1218,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "The lifeworld (Lebenswelt)",
   "et": "From the German *Leben* ‘life’ + *Welt* ‘world’.",
   "area": "Anthropology",
@@ -1050,6 +1233,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "The problem of induction",
   "et": "*Induction*, from the Latin *inductio*, from *inducere*, ‘to lead towards’: from cases to the rule. It translates the Greek ἐπαγωγή (*epagogé*).",
   "area": "Epistemology",
@@ -1063,7 +1248,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "The problem of the two worlds",
+  "et": "Aristotle criticises the Platonists for ‘separating’ (ἐχώρισαν) the Ideas from things (*Metaphysics* M 4); hence the name χωρισμός (*khorismós*), ‘separation’, by which the problem is known.",
   "area": "Metaphysics",
   "bloque": "A",
   "unidad": "AA",
@@ -1075,6 +1263,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "The rejection of the Forms",
   "area": "Metaphysics",
   "bloque": "A",
@@ -1087,7 +1277,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Being",
+  "et": "The Latin *esse*, ‘being’, corresponds to the Greek εἶναι (*eînai*); Aquinas reworks Aristotle’s τὸ ὂν ᾗ ὄν (*tò òn hêi ón*), ‘being qua being’.",
   "area": "Metaphysics",
   "bloque": "B",
   "unidad": "BT",
@@ -1099,7 +1292,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Being (Parmenides)",
+  "et": "In Greek, τὸ ἐόν (*tò eón*), ‘that which is’, in Parmenides’ poem.",
   "area": "Metaphysics",
   "bloque": "A",
   "unidad": "A4",
@@ -1111,6 +1307,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The Necessary Being",
   "area": "Metaphysics",
   "bloque": "B",
@@ -1123,7 +1321,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The Third Man",
+  "et": "In Greek, ὁ τρίτος ἄνθρωπος (*ho trítos ánthropos*), the name Aristotle uses for the argument.",
   "area": "Metaphysics",
   "bloque": "A",
   "unidad": "AA",
@@ -1135,7 +1336,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The void",
+  "et": "In Greek, τὸ κενόν (*tò kenón*), ‘the void’, from the atomists.",
   "area": "Metaphysics",
   "bloque": "A",
   "unidad": "A4",
@@ -1147,6 +1351,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The angel of history",
   "area": "History",
   "bloque": "C",
@@ -1159,6 +1365,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Emotivism",
   "et": "*Emotion*, from the Latin *emovere*, ‘to move out of place, to stir’.",
   "area": "Ethics",
@@ -1172,6 +1380,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Empiricism",
   "et": "From the Greek ἐμπειρία (*empeiría*), ‘experience’, from πεῖρα (*peîra*), ‘trial, attempt’.",
   "area": "Epistemology",
@@ -1182,6 +1392,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Episteme",
   "et": "From the Greek ἐπιστήμη (*epistéme*), ‘firm knowledge, science’. Hence *epistemology*.",
   "area": "Epistemology",
@@ -1195,6 +1407,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Eros and liberation",
   "area": "Aesthetics",
   "bloque": "C",
@@ -1207,6 +1421,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Scholasticism",
   "et": "From the Greek σχολή (*skholé*), ‘leisure, free time’, which came to mean ‘place of study’. Hence *school*.",
   "area": "Method",
@@ -1220,6 +1436,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Public sphere",
   "area": "Politics",
   "bloque": "C",
@@ -1229,6 +1447,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Public space",
   "area": "Politics",
   "bloque": "C",
@@ -1241,6 +1461,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Objective spirit",
   "et": "*Spirit*, from the Latin *spiritus*, ‘breath’. It translates the German *Geist*.",
   "area": "Politics",
@@ -1254,6 +1476,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Schematism",
   "et": "From the Greek σχῆμα (*skhêma*), ‘form, figure’.",
   "area": "Epistemology",
@@ -1267,6 +1491,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Manufacturing consent",
   "area": "Politics",
   "bloque": "C",
@@ -1276,8 +1502,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Fallacy",
-  "et": "From the Latin *fallacia*, ‘deception’, from *fallere*, ‘to deceive’.",
+  "et": "From the Latin *fallacia*, ‘deception’, from *fallere*, ‘to deceive’. In Greek, σόφισμα (*sóphisma*) or παραλογισμός (*paralogismós*), in Aristotle’s *Sophistical Refutations*.",
   "area": "Method",
   "bloque": "A",
   "unidad": "A1-A2",
@@ -1286,6 +1514,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Falsifiability",
   "et": "From the Latin *falsus*, ‘deceptive, false’.",
   "area": "Science",
@@ -1299,6 +1529,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Consumer fascism",
   "area": "Economics",
   "bloque": "C",
@@ -1308,6 +1540,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Feminism",
   "et": "From the Latin *femina*, ‘woman’.",
   "area": "Feminism",
@@ -1318,6 +1552,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Phenomenalism",
   "et": "From the Greek φαινόμενον (*phainómenon*), ‘that which appears’, from φαίνεσθαι (*phaínesthai*), ‘to appear, to show oneself’.",
   "area": "Epistemology",
@@ -1331,6 +1567,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
   "t": "Phenomenon",
   "et": "From the Greek φαινόμενον (*phainómenon*), ‘that which appears’, from φαίνεσθαι (*phaínesthai*), ‘to show oneself’.",
   "area": "Epistemology",
@@ -1344,6 +1582,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Fetishism",
   "et": "*Fetish*, from the Portuguese *feitiço*, ‘spell, magic object’, and this from the Latin *facticius*, ‘handmade, artificial’.",
   "area": "Economics",
@@ -1357,6 +1597,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 6,
   "t": "Genealogy of morals",
   "et": "*Genealogy*, from the Greek γενεά (*geneá*) ‘lineage’ + λόγος (*lógos*) ‘study’: seeking where something comes from.",
   "area": "Politics",
@@ -1370,6 +1612,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Anthropological turn",
   "et": "*Anthropological*, from the Greek ἄνθρωπος (*ánthropos*), ‘human being’, and λόγος (*lógos*), ‘study’.",
   "area": "Anthropology",
@@ -1380,6 +1624,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Linguistic turn",
   "area": "Language",
   "bloque": "C",
@@ -1389,6 +1635,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Globalisation",
   "et": "From the Latin *globus*, ‘ball’.",
   "area": "Society",
@@ -1399,6 +1647,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Philosophical genre",
   "area": "Text",
   "bloque": "A",
@@ -1408,6 +1658,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Bundle of perceptions",
   "et": "*Perception*, from the Latin *perceptio*, from *percipere* (*per-* + *capere* ‘to take’): ‘to grasp’.",
   "area": "Metaphysics",
@@ -1421,6 +1673,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Cultural hegemony",
   "et": "*Hegemony*, from the Greek ἡγεμονία (*hegemonía*), ‘leadership’, from ἡγεμών (*hegemón*), ‘the one who guides, who goes first’.",
   "area": "Politics",
@@ -1431,6 +1685,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Hellenism",
   "et": "From the Greek Ἕλλην (*Héllen*), ‘Greek’: the Greeks called themselves Hellenes.",
   "area": "History",
@@ -1441,6 +1697,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Hermeneutics",
   "et": "From the Greek ἑρμηνευτική (*hermeneutiké*), from ἑρμηνεύειν (*hermeneúein*), ‘to interpret, to translate’. It is usually related to Hermes, the messenger of the gods, although that connection is doubtful.",
   "area": "Language",
@@ -1451,6 +1709,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Hylomorphism",
   "et": "From the Greek ὕλη (*hýle*) ‘matter’ (originally, ‘wood’) + μορφή (*morphé*) ‘form’.",
   "area": "Metaphysics",
@@ -1464,6 +1724,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Hylozoism",
   "et": "From the Greek ὕλη (*hýle*) ‘matter’ + ζωή (*zoé*) ‘life’: ‘living matter’.",
   "area": "Metaphysics",
@@ -1474,6 +1736,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Historicity",
   "et": "*History*, from the Greek ἱστορία (*historía*), ‘enquiry, investigation’.",
   "area": "History",
@@ -1484,6 +1748,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Historicisation",
   "area": "History",
   "bloque": "C",
@@ -1493,6 +1759,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Homoeomeries",
   "et": "From the Greek ὅμοιος (*hómoios*) ‘similar’ + μέρος (*méros*) ‘part’: ‘similar parts’.",
   "area": "Metaphysics",
@@ -1506,6 +1774,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Mass strike",
   "area": "Politics",
   "bloque": "C",
@@ -1515,8 +1785,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Humanism",
-  "et": "From the Latin *humanitas*, from *humanus*. *Homo*, ‘human being’, is related to *humus*, ‘earth’.",
+  "et": "From the Latin *humanitas*, from *humanus*. *Homo*, ‘human being’, is related to *humus*, ‘earth’. The Latin *humanitas* translates the Greek παιδεία (*paideía*), ‘education, upbringing’ (Aulus Gellius).",
   "area": "Anthropology",
   "bloque": "B",
   "unidad": "B3",
@@ -1525,8 +1797,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Habit",
-  "et": "From the Latin *habitus*, ‘way of being’, from *habere*, ‘to have’.",
+  "et": "From the Latin *habitus*, ‘way of being’, from *habere*, ‘to have’. Its Greek antecedent is ἕξις (*héxis*), ‘acquired disposition’, from Aristotle; the habit that comes from repetition, Hume’s *custom*, is rather the Greek ἔθος (*éthos*).",
   "area": "Epistemology",
   "bloque": "B",
   "unidad": "BH",
@@ -1538,6 +1812,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Regulative idea",
   "area": "Metaphysics",
   "bloque": "C",
@@ -1550,6 +1826,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Clear and distinct ideas",
   "et": "*Idea*, from the Greek ἰδέα (*idéa*), ‘aspect, visible form’. *Distinct*, from the Latin *distinctus*, ‘separated’ from the rest.",
   "area": "Epistemology",
@@ -1563,6 +1841,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Ideology",
   "et": "From the Greek ἰδέα (*idéa*) + λόγος (*lógos*): the word was coined by Destutt de Tracy in 1796 for a ‘science of ideas’.",
   "area": "Society",
@@ -1576,6 +1856,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Formal / material equality",
   "area": "Feminism",
   "bloque": "C",
@@ -1585,6 +1867,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Imperialism",
   "et": "From the Latin *imperium*, ‘command’.",
   "area": "Economics",
@@ -1595,8 +1879,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Impression",
-  "et": "From the Latin *impressio*, from *imprimere*, ‘to press upon, to leave a mark’, like a seal on wax.",
+  "et": "From the Latin *impressio*, from *imprimere*, ‘to press upon, to leave a mark’, like a seal on wax. The image of the seal in wax is already in Plato (*Theaetetus* 191c) and in Aristotle (*On the Soul* II 12); the Stoics called the representation τύπωσις (*týposis*), ‘impression’, in the soul.",
   "area": "Epistemology",
   "bloque": "B",
   "unidad": "BH",
@@ -1608,8 +1894,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Incommensurability",
-  "et": "From the Latin *in-* ‘not’ + *commensurabilis* ‘that can be measured with the same measure’: without a common measure.",
+  "et": "From the Latin *in-* ‘not’ + *commensurabilis* ‘that can be measured with the same measure’: without a common measure. Kuhn takes the term from Greek mathematics: ἀσύμμετρος (*asýmmetros*), ‘without a common measure’, like the diagonal and the side of the square (Aristotle, *Nicomachean Ethics* III 3).",
   "area": "Science",
   "bloque": "C",
   "unidad": "C7",
@@ -1618,6 +1906,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Culture industry",
   "et": "*Industry*, from the Latin *industria*, ‘activity, diligence’.",
   "area": "Aesthetics",
@@ -1628,6 +1918,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Base / superstructure",
   "et": "From the Latin *infra* ‘below’ and *super* ‘above’ + *structura*, from *struere*, ‘to build’.",
   "area": "Society",
@@ -1641,6 +1933,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Immaterialism",
   "et": "*Matter*, from the Latin *materia*, ‘timber, building material’, related to *mater*, ‘mother’.",
   "area": "Metaphysics",
@@ -1655,8 +1949,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Innatism",
-  "et": "From the Latin *innatus*, ‘born within’ (*in* + *nasci* ‘to be born’).",
+  "et": "From the Latin *innatus*, ‘born within’ (*in* + *nasci* ‘to be born’). Its Greek antecedent is the ἀνάμνησις (*anámnesis*), ‘recollection’, from Plato.",
   "area": "Epistemology",
   "bloque": "B",
   "unidad": "BD",
@@ -1668,8 +1964,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 3,
   "t": "Moral intellectualism",
-  "et": "*Intellect*, from the Latin *intellectus*, from *intellegere*, ‘to understand’ (literally, ‘to choose between’).",
+  "et": "*Intellect*, from the Latin *intellectus*, from *intellegere*, ‘to understand’ (literally, ‘to choose between’). The thesis is summed up in Greek as οὐδεὶς ἑκὼν ἁμαρτάνει (*oudeìs hekòn hamartánei*), ‘no one errs willingly’, drawing on Plato, *Protagoras* 345d-e.",
   "area": "Ethics",
   "bloque": "A",
   "unidad": "A5",
@@ -1681,6 +1979,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Intentionality",
   "et": "From the Latin *intendere*, ‘to stretch towards’: consciousness always points towards something.",
   "area": "Epistemology",
@@ -1694,6 +1994,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Interiority",
   "et": "From the Latin *interior*, ‘further within’.",
   "area": "Religion",
@@ -1707,6 +2009,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Intersectionality",
   "et": "From the Latin *intersectio*, from *inter* ‘between’ + *secare* ‘to cut’: the point where two lines cross.",
   "area": "Feminism",
@@ -1717,6 +2021,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Pure intuitions",
   "et": "*Intuition*, from the Latin *intuitus*, from *intueri*, ‘to look at attentively’.",
   "area": "Epistemology",
@@ -1730,6 +2036,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Socratic irony",
   "et": "From the Greek εἰρωνεία (*eironeía*), ‘dissimulation’: pretending not to know.",
   "area": "Method",
@@ -1743,6 +2051,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Isegoria",
   "et": "From the Greek ἰσηγορία (*isegoría*): ἴσος (*ísos*) ‘equal’ + ἀγορεύειν (*agoreúein*) ‘to speak in the assembly’, the ἀγορά (*agorá*): the equal right to take the floor.",
   "area": "Politics",
@@ -1753,6 +2063,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Isomorphism",
   "et": "From the Greek ἴσος (*ísos*) ‘equal’ + μορφή (*morphé*) ‘form’.",
   "area": "Language",
@@ -1766,6 +2078,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Isonomia",
   "et": "From the Greek ἰσονομία (*isonomía*): ἴσος (*ísos*) ‘equal’ + νόμος (*nómos*) ‘law’: equality before the law.",
   "area": "Politics",
@@ -1776,6 +2090,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Language game",
   "area": "Language",
   "bloque": "C",
@@ -1788,6 +2104,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Judgement and conscience",
   "area": "Political ethics",
   "bloque": "A",
@@ -1800,8 +2118,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Justice",
-  "et": "From the Latin *iustitia*, from *ius*, ‘law, right’.",
+  "et": "From the Latin *iustitia*, from *ius*, ‘law, right’. It translates the Greek δικαιοσύνη (*dikaiosýne*).",
   "area": "Politics",
   "bloque": "A",
   "unidad": "AP",
@@ -1813,6 +2133,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Kakía (vice)",
   "et": "From the Greek κακία (*kakía*), ‘badness’, from κακός (*kakós*), ‘bad’.",
   "area": "Ethics",
@@ -1826,6 +2148,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Koine",
   "et": "From the Greek κοινὴ διάλεκτος (*koiné diálektos*), ‘common language’.",
   "area": "History",
@@ -1836,6 +2160,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Kultur and Zivilisation",
   "area": "Culture",
   "bloque": "C",
@@ -1845,6 +2171,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The Academy",
   "et": "From the Greek Ἀκαδήμεια (*Akadémeia*), the garden in Athens dedicated to the hero Akademos where Plato founded his school.",
   "area": "Education",
@@ -1858,6 +2186,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 7,
   "t": "Ambiguity",
   "area": "Anthropology",
   "bloque": "C",
@@ -1870,6 +2200,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The harmony of the cosmos",
   "et": "*Harmony*, from the Greek ἁρμονία (*harmonía*), ‘fitting together, joint’. *Cosmos*, from the Greek κόσμος (*kósmos*), ‘order’ and also ‘adornment’: hence *cosmetics*.",
   "area": "Psychology",
@@ -1883,6 +2215,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "The cunning of reason",
   "area": "History",
   "bloque": "C",
@@ -1892,7 +2226,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "The just city",
+  "et": "Plato calls it, in Greek, καλλίπολις (*kallípolis*), ‘the beautiful city’ (*Republic* VII).",
   "area": "Politics",
   "bloque": "A",
   "unidad": "A9",
@@ -1904,6 +2241,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 7,
   "t": "The construction of gender",
   "area": "Feminism",
   "bloque": "C",
@@ -1916,6 +2255,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 7,
   "t": "Existence first",
   "et": "*Existence*, from the Latin *exsistere* (*ex-* ‘out’ + *sistere* ‘to place oneself’): ‘to step out, to emerge’.",
   "area": "Anthropology",
@@ -1929,6 +2270,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "The happiness of the majority",
   "et": "*Happiness* (Spanish *felicidad*), from the Latin *felicitas*, from *felix*, which first meant ‘fertile’ and later ‘fortunate’.",
   "area": "Ethics",
@@ -1939,6 +2282,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "God's guarantee",
   "area": "Metaphysics",
   "bloque": "B",
@@ -1951,6 +2296,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "The crack in universality",
   "area": "Feminism",
   "bloque": "C",
@@ -1960,6 +2307,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 6,
   "t": "The death of God",
   "area": "Religion",
   "bloque": "C",
@@ -1972,6 +2321,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Women in the Middle Ages",
   "area": "History",
   "bloque": "B",
@@ -1984,7 +2335,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "The blank page",
+  "et": "Aristotle compares the understanding with a γραμματεῖον (*grammateîon*), ‘writing tablet’, on which nothing is written: hence the Latin *tabula rasa*.",
   "area": "Epistemology",
   "bloque": "A",
   "unidad": "AA",
@@ -1997,6 +2351,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 7,
   "t": "The situation",
   "area": "Anthropology",
   "bloque": "C",
@@ -2010,6 +2366,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The burnout society",
   "area": "Society",
   "bloque": "C",
@@ -2019,6 +2377,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Inner truth",
   "et": "*Truth* (Spanish *verdad*), from the Latin *veritas*, from *verus*, ‘true’. The Greek said ἀλήθεια (*alétheia*), ‘that which is not hidden’.",
   "area": "Anthropology",
@@ -2032,7 +2392,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "The four causes",
+  "et": "In Greek, τὰ αἴτια (*tà aítia*), ‘the causes’, from Aristotle.",
   "area": "Metaphysics",
   "bloque": "A",
   "unidad": "AA",
@@ -2044,6 +2407,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "The waves",
   "area": "History",
   "bloque": "C",
@@ -2053,6 +2418,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "The roots of totalitarianism",
   "et": "*Totalitarian*, from the Latin *totus*, ‘whole’.",
   "area": "Politics",
@@ -2066,6 +2433,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 2,
   "t": "The three parts of the soul",
   "et": "*Soul* (Spanish *alma*), from the Latin *anima*, ‘breath’, like the Greek ψυχή (*psykhé*). Hence *psychology*.",
   "area": "Anthropology",
@@ -2079,6 +2448,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Lathe biosas",
   "et": "From the Greek λάθε βιώσας (*láthe biósas*), ‘live unnoticed’: Epicurus' advice to withdraw from public life.",
   "area": "Ethics",
@@ -2092,6 +2463,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Law of the three stages",
   "area": "Politics",
   "bloque": "C",
@@ -2104,7 +2477,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Natural law",
+  "et": "Its Greek antecedent is the common law of the Stoics, ὁ κοινὸς νόμος (*ho koinòs nómos*), which is right reason.",
   "area": "Politics",
   "bloque": "B",
   "unidad": "BT",
@@ -2116,6 +2492,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Political liberalism",
   "et": "From the Latin *liber*, ‘free’.",
   "area": "Politics",
@@ -2126,6 +2504,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 8,
   "t": "The Apollonian",
   "et": "From Apollo, Ἀπόλλων (*Apóllon*), god of light, measure and form.",
   "area": "Aesthetics",
@@ -2139,6 +2519,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 8,
   "t": "The Dionysian",
   "et": "From Dionysus, Διόνυσος (*Diónysos*), god of wine, intoxication and festival.",
   "area": "Aesthetics",
@@ -2152,6 +2534,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Logos",
   "et": "From the Greek λόγος (*lógos*), ‘word, reason, discourse’ and also ‘account, calculation’, from λέγειν (*légein*), ‘to say, to gather’. Hence *logic* and all the words ending in *-logy*.",
   "area": "History",
@@ -2162,6 +2546,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Logos pharmakon",
   "et": "From the Greek φάρμακον (*phármakon*), which meant both ‘remedy’ and ‘poison’. Hence *pharmacy*.",
   "area": "Language",
@@ -2175,6 +2561,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The interests of knowledge",
   "area": "Epistemology",
   "bloque": "C",
@@ -2187,6 +2575,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
   "t": "The limits of reason",
   "et": "*Reason*, from the Latin *ratio*, ‘calculation, account’, from *reri*, ‘to calculate, to think’.",
   "area": "Epistemology",
@@ -2200,6 +2590,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Class struggle",
   "et": "*Class*, from the Latin *classis*: in Rome, each of the groups into which citizens were divided according to their wealth.",
   "area": "Politics",
@@ -2213,6 +2605,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Line of flight",
   "area": "Anthropology",
   "bloque": "C",
@@ -2222,6 +2616,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Masters of suspicion",
   "et": "*Suspicion*, from the Latin *suspectare*, from *suspicere*, ‘to look up from below’.",
   "area": "Method",
@@ -2237,6 +2633,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Materialism",
   "et": "*Matter*, from the Latin *materia*, ‘timber, building material’, related to *mater*, ‘mother’.",
   "area": "Metaphysics",
@@ -2247,6 +2645,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Historical materialism",
   "et": "*Matter*, from the Latin *materia*, ‘timber, building material’, related to *mater*, ‘mother’.",
   "area": "History",
@@ -2260,6 +2660,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Maieutics",
   "et": "From the Greek μαιευτικὴ τέχνη (*maieutiké tékhne*), ‘the art of the midwife’, from μαῖα (*maîa*), ‘midwife’: Socrates' mother was one.",
   "area": "Method",
@@ -2273,6 +2675,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Mechanism",
   "et": "From the Greek μηχανή (*mekhané*), ‘machine, contrivance’.",
   "area": "Metaphysics",
@@ -2283,6 +2687,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Metanarrative",
   "et": "*Meta-*, from the Greek μετά (*metá*), ‘beyond’: a narrative above the other narratives.",
   "area": "Language",
@@ -2296,6 +2702,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Unfinished modernity",
   "et": "*Modern*, from the Late Latin *modernus*, from *modo*, ‘just now’.",
   "area": "History",
@@ -2309,6 +2717,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Liquid modernity",
   "et": "*Modern*, from the Late Latin *modernus*, from *modo*, ‘just now’.",
   "area": "Society",
@@ -2322,6 +2732,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Mode",
   "et": "From the Latin *modus*, ‘measure, manner’.",
   "area": "Metaphysics",
@@ -2335,7 +2747,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Unmoved Mover",
+  "et": "In Greek, τὸ πρῶτον κινοῦν ἀκίνητον (*tò prôton kinoûn akíneton*), ‘the first unmoved mover’, from Aristotle.",
   "area": "Metaphysics",
   "bloque": "A",
   "unidad": "AA",
@@ -2347,8 +2762,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Sensible world",
-  "et": "*Sensible*, from the Latin *sentire*, ‘to perceive by the senses’.",
+  "et": "*Sensible*, from the Latin *sentire*, ‘to perceive by the senses’. Plato says in Greek τὸ ὁρατόν (*tò horatón*), ‘the visible’, as opposed to τὸ νοητόν (*tò noetón*), ‘the intelligible’.",
   "area": "Metaphysics",
   "bloque": "A",
   "unidad": "AP",
@@ -2360,6 +2777,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Critical method",
   "et": "*Criticism*, from the Greek κρίνειν (*krínein*), ‘to separate, to judge, to decide’.",
   "area": "Synthesis",
@@ -2373,6 +2792,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Experimental method",
   "et": "*Experiment*, from the Latin *experiri*, ‘to try, to attempt’.",
   "area": "Method",
@@ -2386,6 +2807,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Philosophical method",
   "et": "*Method*, from the Greek μέθοδος (*méthodos*): μετά (*metá*) ‘after, along’ + ὁδός (*hodós*) ‘path’. *Philosophy*: φίλος (*phílos*) ‘friend’ + σοφία (*sophía*) ‘wisdom’.",
   "area": "Method",
@@ -2396,6 +2819,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Geometric method",
   "et": "*Geometry*, from the Greek γεωμετρία (*geometría*): γῆ (*ge*) ‘earth’ + μέτρον (*métron*) ‘measure’.",
   "area": "Method",
@@ -2409,6 +2834,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Monads",
   "et": "From the Greek μονάς (*monás*), ‘unit’, from μόνος (*mónos*), ‘alone, single’.",
   "area": "Metaphysics",
@@ -2422,6 +2849,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Natality",
   "et": "From the Latin *natalis*, from *nasci*, ‘to be born’.",
   "area": "Anthropology",
@@ -2435,6 +2864,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "False needs",
   "area": "Society",
   "bloque": "C",
@@ -2444,6 +2875,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Neoplatonism",
   "et": "*Neo-*, from the Greek νέος (*néos*), ‘new’.",
   "area": "Religion",
@@ -2458,6 +2891,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 6,
   "t": "Nihilism",
   "et": "From the Latin *nihil*, ‘nothing’.",
   "area": "Ethics",
@@ -2471,6 +2906,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Noesis",
   "et": "From the Greek νόησις (*nóēsis*), ‘intellection’, from νοῦς (*nous*), ‘intelligence’.",
   "area": "Epistemology",
@@ -2484,8 +2921,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Nominalism",
-  "et": "From the Latin *nomen*, ‘name’: for nominalism, universals are only names.",
+  "et": "From the Latin *nomen*, ‘name’: for nominalism, universals are only names. The debate revolves around the universals, in Greek τὰ καθόλου (*tà kathólou*), Aristotle’s term.",
   "area": "Epistemology",
   "bloque": "B",
   "unidad": "BOC",
@@ -2497,6 +2936,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Nomos",
   "et": "From the Greek νόμος (*nómos*), ‘law, norm, custom’. Hence *autonomy*.",
   "area": "Politics",
@@ -2507,6 +2948,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Language normalisation",
   "area": "Language",
   "bloque": "C",
@@ -2516,6 +2959,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Nous",
   "et": "From the Greek νοῦς (*noûs*), ‘mind, intellect’.",
   "area": "Metaphysics",
@@ -2529,6 +2974,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
   "t": "Noumenon",
   "et": "From the Greek νοούμενον (*nooúmenon*), ‘that which is thought’, from νοεῖν (*noéin*), ‘to think’: what can only be thought, not seen.",
   "area": "Epistemology",
@@ -2542,6 +2989,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Occasionalism",
   "et": "From the Latin *occasio*, ‘occasion’, from *ob-* + *cadere*, ‘to fall’: what presents itself at a given moment.",
   "area": "Metaphysics",
@@ -2556,6 +3005,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Paideia",
   "et": "From the Greek παιδεία (*paideía*), ‘upbringing, education’, from παῖς (*país*), ‘child’.",
   "area": "Politics",
@@ -2569,6 +3020,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Timocracy",
   "et": "From the Greek τιμή (*timḗ*), ‘honour’, and κράτος (*krátos*), ‘power’.",
   "area": "Politics",
@@ -2582,6 +3035,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Metic",
   "et": "From the Greek μέτοικος (*métoikos*), ‘one who lives with’, ‘resident’.",
   "area": "Politics",
@@ -2595,8 +3050,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "The Thirty Tyrants",
-  "et": "This is what their enemies called them; they presented themselves as a government of the best.",
+  "et": "This is what their enemies called them; they presented themselves as a government of the best. In Greek, οἱ τριάκοντα (*hoi triákonta*), ‘the Thirty’.",
   "area": "Politics",
   "bloque": "A",
   "unidad": "A9",
@@ -2609,6 +3066,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Ostracism",
   "et": "From the Greek ὄστρακον (*óstrakon*), ‘potsherd’: on it the Athenians wrote the name of the person they wanted to banish.",
   "area": "Politics",
@@ -2619,6 +3078,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Panta rhei",
   "et": "From the Greek πάντα ῥεῖ (*pánta rheî*), ‘everything flows’.",
   "area": "Metaphysics",
@@ -2632,6 +3093,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Paradigm",
   "et": "From the Greek παράδειγμα (*parádeigma*), ‘model, example’, from παραδεικνύναι (*paradeiknýnai*), ‘to show side by side’.",
   "area": "Science",
@@ -2642,6 +3105,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Participation (méthexis)",
   "et": "From the Greek μέθεξις (*méthexis*), ‘participation’, from μετέχειν (*metékhein*), ‘to have a share in’. In Latin, *participatio*, from *pars* ‘part’ + *capere* ‘to take’.",
   "area": "Metaphysics",
@@ -2655,6 +3120,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Vanguard party",
   "et": "*Vanguard*, from the French *avant-garde*, ‘the guard at the front’ of an army.",
   "area": "Anthropology",
@@ -2665,6 +3132,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Patristics",
   "et": "From the Latin *pater, patris*, ‘father’: the Fathers of the Church.",
   "area": "Religion",
@@ -2678,6 +3147,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Weak thought",
   "area": "Metaphysics",
   "bloque": "C",
@@ -2690,6 +3161,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Performativity",
   "et": "From the English *to perform*, ‘to carry out’.",
   "area": "Language",
@@ -2700,6 +3173,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Integral perspective",
   "area": "Anthropology",
   "bloque": "B",
@@ -2712,6 +3187,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 8,
   "t": "Perspectivism",
   "et": "From the Latin *perspicere*, ‘to look through’.",
   "area": "Epistemology",
@@ -2725,6 +3202,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Physis",
   "et": "From the Greek φύσις (*phýsis*), ‘nature’, from φύειν (*phýein*), ‘to sprout, to grow’. Hence *physics*.",
   "area": "Metaphysics",
@@ -2735,6 +3214,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Pistis",
   "et": "From the Greek πίστις (*pístis*), ‘trust, belief’.",
   "area": "Epistemology",
@@ -2748,6 +3229,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Pluralism",
   "area": "Metaphysics",
   "bloque": "A",
@@ -2761,6 +3244,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Surplus value",
   "et": "From the Latin *plus* ‘more’ + *value*. It translates the German *Mehrwert*, ‘more value’.",
   "area": "Economics",
@@ -2774,6 +3259,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Power / knowledge",
   "area": "Politics",
   "bloque": "C",
@@ -2786,6 +3273,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Legitimate power",
   "et": "*Legitimate*, from the Latin *legitimus*, from *lex, legis*, ‘law’: ‘in accordance with the law’.",
   "area": "Politics",
@@ -2796,6 +3285,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Power and violence",
   "area": "Politics",
   "bloque": "C",
@@ -2808,6 +3299,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Polis",
   "et": "From the Greek πόλις (*pólis*), ‘city’. Hence *politics*.",
   "area": "Politics",
@@ -2818,6 +3311,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Body politics",
   "area": "Politics",
   "bloque": "C",
@@ -2827,6 +3322,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Positivity",
   "et": "From the Latin *positivus*, from *ponere*, ‘to put’: what is posited, what is given.",
   "area": "Society",
@@ -2837,6 +3334,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Postmodernity",
   "et": "From the Latin *post* ‘after’ + *modernus*, from *modo*, ‘just now’.",
   "area": "History",
@@ -2847,6 +3346,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Praxis",
   "et": "From the Greek πρᾶξις (*prâxis*), ‘action’.",
   "area": "Method",
@@ -2860,6 +3361,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Precarity",
   "et": "From the Latin *precarius*, ‘obtained by entreaty’ (*prex*, ‘prayer’): what is allowed to you as a favour and can be taken away.",
   "area": "Economics",
@@ -2870,6 +3373,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Principle of charity",
   "area": "Method",
   "bloque": "A",
@@ -2879,8 +3384,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Principle of non-contradiction",
-  "et": "*Contradiction*, from the Latin *contradicere*, ‘to speak against’.",
+  "et": "*Contradiction*, from the Latin *contradicere*, ‘to speak against’. It translates the Greek ἀντίφασις (*antíphasis*), ‘contradiction’; Aristotle calls this principle ‘the firmest of all’, βεβαιοτάτη ἀρχή (*bebaiotáte arkhé*).",
   "area": "Logic",
   "bloque": "A",
   "unidad": "AA",
@@ -2892,6 +3399,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Harm principle",
   "area": "Politics",
   "bloque": "B",
@@ -2904,6 +3413,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Research programme",
   "area": "Science",
   "bloque": "C",
@@ -2913,6 +3424,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Propaganda",
   "et": "From the Latin *propaganda*, ‘what must be propagated’: it comes from the name of the Church congregation created in 1622 to spread the faith (*de propaganda fide*).",
   "area": "Politics",
@@ -2926,6 +3439,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Psychopolitics",
   "et": "From the Greek ψυχή (*psykhé*) ‘soul, mind’ + πολιτική (*politiké*).",
   "area": "Politics",
@@ -2936,6 +3451,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Rationalism",
   "et": "From the Latin *ratio*, ‘reason’, which first meant ‘calculation, account’.",
   "area": "Epistemology",
@@ -2946,6 +3463,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Communicative reason",
   "area": "Language",
   "bloque": "C",
@@ -2958,6 +3477,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Critical reason",
   "et": "*Criticism*, from the Greek κρίνειν (*krínein*), ‘to separate, to judge, to decide’.",
   "area": "Epistemology",
@@ -2968,6 +3489,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Instrumental reason",
   "area": "History",
   "bloque": "C",
@@ -2977,6 +3500,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Poetic reason",
   "et": "*Poetic*, from the Greek ποίησις (*póiesis*), ‘creation, the act of making something’.",
   "area": "Anthropology",
@@ -2990,8 +3515,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Realism",
-  "et": "From the Latin *res*, ‘thing’: *real* is what exists as a thing, not only in the mind.",
+  "et": "From the Latin *res*, ‘thing’: *real* is what exists as a thing, not only in the mind. The debate revolves around the universals, in Greek τὰ καθόλου (*tà kathólou*), Aristotle’s term.",
   "area": "Metaphysics",
   "bloque": "A",
   "unidad": "AA",
@@ -3003,6 +3530,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Recognition",
   "area": "Politics",
   "bloque": "C",
@@ -3015,6 +3544,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Redistribution and recognition",
   "area": "Feminism",
   "bloque": "C",
@@ -3027,6 +3558,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Relative relativism",
   "area": "Ethics",
   "bloque": "C",
@@ -3040,6 +3573,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Representation",
   "et": "From the Latin *repraesentare*, ‘to make present again’.",
   "area": "Epistemology",
@@ -3053,6 +3588,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Repression",
   "et": "From the Latin *reprimere*, ‘to push back, to hold in’.",
   "area": "Psychology",
@@ -3063,6 +3600,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Surplus repression",
   "et": "*Repression*, from the Latin *reprimere*, ‘to push back, to hold in’.",
   "area": "Psychology",
@@ -3076,6 +3615,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Res cogitans",
   "et": "From the Latin: ‘thinking thing’.",
   "area": "Anthropology",
@@ -3089,6 +3630,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 6,
   "t": "Ressentiment",
   "et": "From the French *re-* + *sentir*: ‘to feel again’ an offence over and over.",
   "area": "Ethics",
@@ -3102,6 +3645,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Rhizome",
   "et": "From the Greek ῥίζωμα (*rhízoma*), “mass of roots”, from ῥίζα (*rhíza*), “root”.",
   "area": "Metaphysics",
@@ -3112,6 +3657,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Integral knowledge",
   "area": "Education",
   "bloque": "B",
@@ -3124,6 +3671,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Wisdom (sophía)",
   "et": "From the Greek σοφία (*sophía*), ‘knowledge, wisdom’. In the *Republic* Plato also calls it *phrónesis*, ‘prudence’.",
   "area": "Ethics",
@@ -3137,6 +3686,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Sensation and reflection",
   "et": "*Reflection*, from the Latin *reflectere*, “to bend back”: the mind turning back on itself.",
   "area": "Epistemology",
@@ -3150,6 +3701,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Common sense",
   "area": "Society",
   "bloque": "C",
@@ -3159,6 +3712,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Tragic sense of life",
   "et": "*Tragedy*, from the Greek τραγῳδία (*tragoidía*): according to the most widespread explanation, τράγος (*trágos*) “goat” + ᾠδή (*oidé*) “song”.",
   "area": "Anthropology",
@@ -3172,6 +3727,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Being-towards-death",
   "area": "Metaphysics",
   "bloque": "C",
@@ -3184,6 +3741,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 7,
   "t": "Being-for-itself",
   "area": "Anthropology",
   "bloque": "C",
@@ -3196,6 +3755,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Syllogism",
   "et": "From the Greek συλλογισμός (*syllogismós*): σύν (*syn*) “together” + λόγος (*lógos*) “reason, calculation”: “reasoning that brings together” the premises.",
   "area": "Logic",
@@ -3209,8 +3770,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Simulacrum",
-  "et": "From the Latin *simulacrum*, “image, copy”, from *simulare*, “to imitate”.",
+  "et": "From the Latin *simulacrum*, ‘image, copy’, from *simulare*, ‘to imitate’. It translates the Greek εἴδωλον (*eídolon*), ‘image, copy’; in the *Sophist* Plato distinguishes faithful copies, εἰκόνες (*eikónes*), from deceptive appearances, φαντάσματα (*phantásmata*).",
   "area": "Anthropology",
   "bloque": "C",
   "unidad": "C6",
@@ -3219,6 +3782,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Ideal speech situation",
   "area": "Language",
   "bloque": "C",
@@ -3228,8 +3793,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Sovereignty",
-  "et": "From the Late Latin *superanus*, from *super*, “above”: the power that has no other above it.",
+  "et": "From the Late Latin *superanus*, from *super*, ‘above’: the power that has no other above it. Its Greek antecedent is τὸ κύριον (*tò kýrion*), ‘what has authority’: Aristotle asks who should be τὸ κύριον of the city (*Politics* III 10).",
   "area": "Politics",
   "bloque": "B",
   "unidad": "B6",
@@ -3238,6 +3805,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Mass society",
   "et": "*Mass*, from the Latin *massa*, “dough, lump”.",
   "area": "Society",
@@ -3251,6 +3820,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "One-dimensional society",
   "area": "Society",
   "bloque": "C",
@@ -3263,6 +3834,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Sophists",
   "et": "From the Greek σοφιστής (*sophistés*), “expert, wise man”, from σοφία (*sophía*), “wisdom”. The sense of “trickster” came later.",
   "area": "Education",
@@ -3273,6 +3846,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Political loneliness",
   "area": "Politics",
   "bloque": "C",
@@ -3285,6 +3860,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Solidarity",
   "et": "From the Latin *in solidum*, “for the whole”: when several people answer together for the same debt.",
   "area": "Society",
@@ -3295,6 +3872,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Solipsism",
   "et": "From the Latin *solus* “alone” + *ipse* “oneself”: “only myself”.",
   "area": "Metaphysics",
@@ -3308,6 +3887,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Suspicion",
   "et": "From the Latin *suspectare*, from *suspicere*, “to look up from below”.",
   "area": "Method",
@@ -3318,8 +3899,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Subjectivism",
-  "et": "*Subject*, from the Latin *subiectum*, “that which lies beneath”.",
+  "et": "*Subject*, from the Latin *subiectum*, ‘that which lies beneath’. Its Greek antecedent is Protagoras’s phrase πάντων χρημάτων μέτρον ἐστὶν ἄνθρωπος (*pánton khremáton métron estìn ánthropos*), ‘the human being is the measure of all things’.",
   "area": "Epistemology",
   "bloque": "A",
   "unidad": "A5",
@@ -3331,6 +3914,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Sublation (Aufhebung)",
   "et": "From the German *aufheben*, which means at once “to abolish”, “to preserve” and “to lift up”: Hegel exploits all three senses.",
   "area": "Method",
@@ -3341,6 +3926,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 6,
   "t": "Overman",
   "et": "From the German *Übermensch*: *über* “above” + *Mensch* “human being”.",
   "area": "Anthropology",
@@ -3354,6 +3941,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Substance (classical)",
   "et": "From the Latin *substantia*: *sub* “under” + *stare* “to stand”: “what stands under” the qualities. It translates the Greek οὐσία (*ousía*).",
   "area": "Metaphysics",
@@ -3367,8 +3956,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Substance (modern)",
-  "et": "From the Latin *substantia*: *sub* “under” + *stare* “to stand”: “what stands under” the qualities.",
+  "et": "From the Latin *substantia*: *sub* ‘under’ + *stare* ‘to stand’: ‘what stands under’ the qualities. It translates the Greek οὐσία (*ousía*); in form, *sub-stantia* copies ὑπόστασις (*hypóstasis*), and Aristotle calls the subject of the qualities ὑποκείμενον (*hypokeímenon*), ‘what lies beneath’.",
   "area": "Metaphysics",
   "bloque": "B",
   "unidad": "B5",
@@ -3377,6 +3968,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Teleology",
   "et": "From the Greek τέλος (*télos*) “end, purpose” + λόγος (*lógos*) “study”.",
   "area": "Metaphysics",
@@ -3390,6 +3983,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Temperance (sophrosyne)",
   "et": "From the Latin *temperantia*, ‘moderation’. It translates the Greek σωφροσύνη (*sōphrosýnē*), ‘soundness of mind, self-mastery’.",
   "area": "Ethics",
@@ -3403,6 +3998,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Critical theory",
   "et": "*Theory*, from the Greek θεωρία (*theoría*), “contemplation, gaze”. *Critical*, from κρίνειν (*krínein*), “to separate, to judge”.",
   "area": "History",
@@ -3413,6 +4010,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Theory of descriptions",
   "area": "Language",
   "bloque": "C",
@@ -3425,6 +4024,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 1,
   "t": "Theory of Forms",
   "et": "*Theory*, from the Greek θεωρία (*theoría*), “contemplation, gaze”. *Idea*, from the Greek ἰδέα (*idéa*), “aspect, visible form”, from ἰδεῖν (*idéin*), “to see”.",
   "area": "Metaphysics",
@@ -3438,6 +4039,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Speech act theory",
   "area": "Language",
   "bloque": "C",
@@ -3447,6 +4050,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Queer theory",
   "area": "Feminism",
   "bloque": "C",
@@ -3456,7 +4061,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Types of soul",
+  "et": "In Greek, Aristotle distinguishes τὸ θρεπτικόν (*tò threptikón*), τὸ αἰσθητικόν (*tò aisthetikón*) and τὸ διανοητικόν (*tò dianoetikón*): the nutritive, the sensitive and the rational.",
   "area": "Anthropology",
   "bloque": "A",
   "unidad": "AA",
@@ -3468,6 +4076,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Tyranny",
   "et": "From the Greek τύραννος (*týrannos*), “absolute lord”: originally, someone who seized power without a legitimate title, whether good or bad.",
   "area": "Politics",
@@ -3478,6 +4088,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Totalitarianism",
   "et": "From the Latin *totus*, “whole”.",
   "area": "Politics",
@@ -3491,6 +4103,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 2,
   "t": "Transmigration of the soul",
   "et": "From the Latin *trans* “across” + *migrare* “to move from place to place”. In Greek, μετεμψύχωσις (*metempsýkhosis*): μετά (*metá*) “change” + ἐν (*en*) “in” + ψυχή (*psykhé*) “soul”.",
   "area": "Anthropology",
@@ -3504,6 +4118,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 6,
   "t": "Revaluation of all values",
   "area": "Ethics",
   "bloque": "C",
@@ -3516,6 +4132,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
   "t": "Transcendental",
   "et": "From the Latin *transcendere* (*trans* “across” + *scandere* “to climb”): “to pass beyond”.",
   "area": "Epistemology",
@@ -3529,8 +4147,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Trivium and quadrivium",
-  "et": "From the Latin: “three ways” and “four ways” (*via*, “way”).",
+  "et": "From the Latin: ‘three ways’ and ‘four ways’ (*via*, ‘way’). The quadrivium takes up the Greek mathematical sciences, τὰ μαθήματα (*tà mathémata*), which Plato requires of the ruler (*Republic* VII: arithmetic, geometry, stereometry, astronomy and harmony).",
   "area": "Education",
   "bloque": "B",
   "unidad": "BOC",
@@ -3542,6 +4162,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "The mean",
   "et": "In Greek, μεσότης (*mesótes*), from μέσος (*mésos*), “middle”.",
   "area": "Ethics",
@@ -3552,6 +4174,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
   "t": "Public use",
   "area": "Politics",
   "bloque": "C",
@@ -3564,6 +4188,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Utilitarianism",
   "et": "From the Latin *utilitas*, ‘usefulness’, from *uti*, ‘to use’.",
   "area": "Ethics",
@@ -3574,6 +4200,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Courage (andreía)",
   "et": "From the Greek ἀνδρεία (*andreía*), ‘manliness, courage’, from ἀνήρ (*anḗr*), ‘man’.",
   "area": "Ethics",
@@ -3587,6 +4215,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Verifiability",
   "et": "From the Latin *verus* “true” + *facere* “to make”: “to make true”, to check.",
   "area": "Epistemology",
@@ -3597,6 +4227,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Viriditas",
   "et": "From the Latin: “greenness”, from *viridis*, “green”.",
   "area": "Religion",
@@ -3610,6 +4242,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
   "t": "Virtue",
   "et": "From the Latin *virtus*, ‘courage, strength’, from *vir*, ‘man’. It translates the Greek ἀρετή (*areté*).",
   "area": "Ethics",
@@ -3620,8 +4254,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Virtù",
-  "et": "From Machiavelli's Italian, and this from the Latin *virtus*, “courage, strength”, from *vir*, “man”.",
+  "et": "From Machiavelli’s Italian, and this from the Latin *virtus*, ‘courage, strength’, from *vir*, ‘man’. The Latin *virtus* translates the Greek ἀρετή (*areté*), ‘excellence’, although Machiavelli gives it another meaning.",
   "area": "Politics",
   "bloque": "B",
   "unidad": "B3",
@@ -3633,8 +4269,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
   "t": "Vita activa",
-  "et": "From the Latin: “active life”.",
+  "et": "From the Latin: ‘active life’. It is the medieval translation of the Greek ὁ πολιτικὸς βίος (*ho politikòs bíos*), ‘the political life’, which Aristotle distinguishes from the contemplative life, ὁ θεωρητικὸς βίος (*ho theoretikòs bíos*).",
   "area": "Anthropology",
   "bloque": "C",
   "unidad": "C5B",
@@ -3646,6 +4284,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Volk",
   "et": "From the German: “people”.",
   "area": "History",
@@ -3656,6 +4296,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Blind will",
   "area": "Metaphysics",
   "bloque": "C",
@@ -3669,6 +4311,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 6,
   "t": "Will to power",
   "et": "From the German *Wille zur Macht*.",
   "area": "Politics",
@@ -3682,6 +4326,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Apeiron",
   "et": "From the Greek ἄπειρον (*ápeiron*): ἀ- (*a-*) “without” + πέρας (*péras*) “limit”: “the unlimited”.",
   "area": "Metaphysics",
@@ -3695,6 +4341,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Atom",
   "et": "From the Greek ἄτομος (*átomos*): ἀ- (*a-*) “not” + τέμνειν (*témnein*) “to cut”: “that which cannot be cut”.",
   "area": "Metaphysics",
@@ -3705,6 +4353,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Ethics",
   "et": "From the Greek ἦθος (*êthos*), ‘character, way of being’, related to ἔθος (*éthos*), ‘custom’. *Moral* comes from the Latin *mos, moris*, ‘custom’.",
   "area": "Ethics",
@@ -3715,6 +4365,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Ethics of care",
   "et": "*Care* (Spanish *cuidado*) comes from the Latin *cogitatus*, “thought”: to care for someone is, originally, to think of them.",
   "area": "Feminism",
@@ -3725,6 +4377,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Autonomy of reason",
   "et": "*Autonomy*, from the Greek αὐτός (*autós*) “self” + νόμος (*nómos*) “law”: “giving oneself the law”.",
   "area": "Epistemology",
@@ -3738,6 +4392,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Rationalism",
   "et": "From the Latin *ratio*, ‘reason’, which first meant ‘calculation, account’.",
   "area": "Epistemology",
@@ -3753,8 +4409,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Innatism",
-  "et": "From the Latin *innatus*, ‘born within’ (*in* + *nasci* ‘to be born’).",
+  "et": "From the Latin *innatus*, ‘born within’ (*in* + *nasci* ‘to be born’). Its Greek antecedent is the ἀνάμνησις (*anámnesis*), ‘recollection’, from Plato.",
   "area": "Epistemology",
   "bloque": "B",
   "unidad": "DM",
@@ -3766,8 +4424,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Intuition",
-  "et": "From the Latin *intuitus*, from *intueri*, “to look at closely”.",
+  "et": "From the Latin *intuitus*, from *intueri*, ‘to look at closely’. Its Greek antecedent is the νόησις (*nóesis*), the direct apprehension of the νοῦς (*noûs*), ‘intellect’.",
   "area": "Epistemology",
   "bloque": "B",
   "unidad": "DM",
@@ -3779,8 +4439,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Deduction",
-  "et": "From the Latin *deducere*, ‘to lead from, to draw out of’.",
+  "et": "From the Latin *deducere*, ‘to lead from, to draw out of’. Its Greek antecedent is ἀπόδειξις (*apódeixis*), ‘demonstration’, made by συλλογισμός (*syllogismós*), in Aristotle.",
   "area": "Epistemology",
   "bloque": "B",
   "unidad": "DM",
@@ -3792,6 +4454,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Methodical doubt",
   "et": "*Doubt*, from the Latin *dubitare*, related to *duo*, ‘two’: being between two possibilities. *Method*, from the Greek μέθοδος (*méthodos*), ‘path’.",
   "area": "Epistemology",
@@ -3805,6 +4469,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Evil demon",
   "et": "*Genius*, from the Latin *genius*, the spirit that accompanies each person. *Evil* (*maligno*), from *malus*, ‘bad’.",
   "area": "Method",
@@ -3818,6 +4484,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Cogito",
   "et": "From the Latin *cogito*, ‘I think’, from *cogitare* (*co-* + *agitare*): ‘to turn something over in one's head’.",
   "area": "Anthropology",
@@ -3831,6 +4499,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Clear and distinct ideas",
   "et": "*Idea*, from the Greek ἰδέα (*idéa*), ‘aspect, visible form’. *Distinct*, from the Latin *distinctus*, ‘separated’ from the rest.",
   "area": "Epistemology",
@@ -3844,6 +4514,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Objective reality",
   "et": "*Object*, from the Latin *obiectum*, “that which is placed before” (*ob-* “before” + *iacere* “to throw”).",
   "area": "Metaphysics",
@@ -3857,6 +4529,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "God's guarantee",
   "area": "Metaphysics",
   "bloque": "B",
@@ -3869,8 +4543,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Substance",
-  "et": "From the Latin *substantia*: *sub* “under” + *stare* “to stand”: “what stands under” the qualities.",
+  "et": "From the Latin *substantia*: *sub* ‘under’ + *stare* ‘to stand’: ‘what stands under’ the qualities. It translates the Greek οὐσία (*ousía*); in form, *sub-stantia* copies ὑπόστασις (*hypóstasis*), and Aristotle calls the subject of the qualities ὑποκείμενον (*hypokeímenon*), ‘what lies beneath’.",
   "area": "Metaphysics",
   "bloque": "B",
   "unidad": "DM",
@@ -3882,6 +4558,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Attribute",
   "et": "From the Latin *attributum*, from *attribuere*, “to assign”.",
   "area": "Metaphysics",
@@ -3895,6 +4573,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Mode",
   "et": "From the Latin *modus*, ‘measure, manner’.",
   "area": "Metaphysics",
@@ -3908,6 +4588,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Res cogitans",
   "et": "From the Latin: ‘thinking thing’.",
   "area": "Anthropology",
@@ -3921,6 +4603,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Res extensa",
   "et": "From the Latin: “extended thing”, which occupies space (*extendere*, “to extend”).",
   "area": "Metaphysics",
@@ -3934,8 +4618,10 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Pineal gland",
-  "et": "*Pineal*, from the Latin *pinea*, “pine cone”, because of its shape. *Gland*, from *glans*, “acorn”.",
+  "et": "*Pineal*, from the Latin *pinea*, ‘pine cone’, because of its shape. *Gland*, from *glans*, ‘acorn’. Galen called it, in Greek, κωνάριον (*konárion*), ‘little pine cone’, and Descartes cites it as *conarium*.",
   "area": "Anthropology",
   "bloque": "B",
   "unidad": "DM",
@@ -3947,6 +4633,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 4,
   "t": "Dualism",
   "et": "From the Latin *duo*, ‘two’.",
   "area": "Anthropology",
@@ -3960,6 +4648,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Mechanism",
   "et": "From the Greek μηχανή (*mekhané*), ‘machine, contrivance’.",
   "area": "Physics",
@@ -3973,6 +4663,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Occasionalism",
   "et": "From the Latin *occasio*, ‘occasion’, from *ob-* + *cadere*, ‘to fall’: what presents itself at a given moment.",
   "area": "Metaphysics",
@@ -3987,6 +4679,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Pantheism",
   "et": "From the Greek πᾶν (*pan*) “all” + θεός (*theós*) “god”.",
   "area": "Metaphysics",
@@ -4001,6 +4695,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Monad",
   "et": "From the Greek μονάς (*monás*), ‘unit’, from μόνος (*mónos*), ‘alone, single’.",
   "area": "Metaphysics",
@@ -4015,6 +4711,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Pre-established harmony",
   "et": "*Harmony*, from the Greek ἁρμονία (*harmonía*), “fitting, joining” of parts.",
   "area": "Metaphysics",
@@ -4029,6 +4727,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Hipparchia of Maroneia",
   "area": "History",
   "bloque": "A",
@@ -4041,6 +4741,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Marguerite Porete",
   "area": "Religion",
   "bloque": "B",
@@ -4052,6 +4754,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Christine de Pizan",
   "area": "Feminism",
   "bloque": "B",
@@ -4063,6 +4767,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Quarrel of women",
   "area": "Feminism",
   "bloque": "B",
@@ -4074,6 +4780,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "María de Maeztu",
   "area": "Education",
   "bloque": "C",
@@ -4086,6 +4794,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Lou Andreas-Salomé",
   "area": "Psychology",
   "bloque": "C",
@@ -4098,6 +4808,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Radical needs",
   "et": "*Radical*, from the Latin *radix*, ‘root’: that which affects the root.",
   "area": "Politics",
@@ -4111,6 +4823,8 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
   "t": "Ágnes Heller",
   "area": "Politics",
   "bloque": "C",
