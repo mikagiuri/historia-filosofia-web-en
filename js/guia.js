@@ -3,7 +3,7 @@ const GUIA = {
  "ui": {
   "titulo": "How to use the website",
   "eyebrow": "A guide for students",
-  "lead": "What the website contains and how to get the most out of it to study, practise and prepare for exams. The screenshots show the website on a computer unless stated otherwise.",
+  "lead": "What there is on the site and how to make the most of it to study, practise and prepare for exams. The screenshots show the site on a computer and in night mode, unless stated otherwise.",
   "abrir": "Open",
   "pie": "How do you use this website? A guide with screenshots",
   "pdf": "Download this guide as a PDF",
@@ -31,13 +31,17 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The menu has <strong>only three tabs</strong>, in order of importance: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training) and <strong>PAU</strong> (the exam, the texts and writing). In each tab, the first item is the most important; the extras are one level further in, in sections that open with a small arrow ▸.",
+   "x": "The menu has <strong>five tabs</strong>. The first three are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training) and <strong>PAU</strong> (the exam, the texts and writing). After a line come the extra ones: <strong>History</strong> (the context of the philosophers) and <strong>Games</strong>.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "The menu has <strong>only three tabs</strong>, in order of importance: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training) and <strong>Write and read</strong> (the essay and the texts). In each tab, the first item is the most important; the extras are one level further in, in sections that open with a small arrow ▸.",
+   "x": "The menu has <strong>five tabs</strong>. The first three are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training) and <strong>Write and read</strong> (the essay and the texts). After a line come the extra ones: <strong>History</strong> (the context of the philosophers) and <strong>Games</strong>.",
    "solo": "fil"
+  },
+  {
+   "type": "p",
+   "x": "Some sections bring together several things of the same kind: at the top they have a <strong>row of buttons</strong> to switch from one to another. For example, in Quizzes you can switch to <strong>Against the clock</strong>, and in Biographies to <strong>Persecuted</strong> or <strong>Communities</strong>."
   },
   {
    "type": "h",
@@ -54,8 +58,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The topics are grouped by <strong>periods</strong> (Introduction, Ancient, Medieval, Modern, Enlightenment and Contemporary), each with its own colour. You will find that colour all over the website: in the filters, the cards and the quizzes.",
+   "x": "The topics are grouped by <strong>periods</strong> (Ancient, Medieval, Renaissance, Modern, Enlightenment and Contemporary), each with its own colour, and the list starts with Topic 3. Topics 1 and 2, which introduce the subject, are at the end. The colour of each period goes with you all over the site: in the filters, the cards and the quizzes.",
    "solo": "hf"
+  },
+  {
+   "type": "p",
+   "x": "If you have used the site before, <strong>Continue where you left off</strong> appears at the top, with the last thing you opened."
   },
   {
    "type": "p",
@@ -74,7 +82,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "In the header you also have the <strong>search</strong> button 🔎, the <strong>language</strong> button 🌐, the <strong>light or dark theme</strong> button ◐ and the button for this <strong>guide</strong> ?."
+   "x": "In the header you also have the <strong>search</strong> 🔎, the <strong>language</strong> button 🌐, the <strong>light or dark theme</strong> button ◐ and the button for this <strong>guide</strong> ?. The screenshots in this guide are in <strong>night mode</strong>; if you prefer a light background, press ◐."
   },
   {
    "type": "h",
@@ -91,12 +99,18 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic: its cards, quizzes, infographics, maps, outlines and the glossary concepts."
+   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, glossary concepts, its period and its chronogram), <strong>Prepare for the PAU</strong> (readings, commentaries, essays and comparisons) and <strong>Go deeper</strong>, which opens when you press it (explorations, controversies, games and, in some topics, videos in Basque with their transcript).",
+   "solo": "hf"
+  },
+  {
+   "type": "p",
+   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, glossary concepts and its period), <strong>Think and write</strong> (readings, essays, dilemmas and the Logic Corner) and <strong>Go deeper</strong>, which opens when you press it (explorations, controversies, games and, in some topics, videos in Basque with their transcript).",
+   "solo": "fil"
   },
   {
    "type": "img",
    "src": "06_para_seguir.webp",
-   "cap": "The box at the end of the topic: each button takes you to material for that same topic."
+   "cap": "The box at the end of the topic, with ‘Go deeper’ open: each button takes you to material on that same topic."
   },
   {
    "type": "tip",
@@ -109,7 +123,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "02_menu_estudiar.webp",
-   "cap": "The “Study” menu, with the “History” section open.",
+   "cap": "The ‘Study’ menu.",
    "w": "menu"
   },
   {
@@ -121,24 +135,14 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
-     "nombre": "Summaries",
-     "texto": "One summary per topic or author, on a single page, to revise before the exam. With the “View as diagram” button you see the same summary as a diagram of concepts joined by arrows.",
-     "view": "esqautor"
-    },
-    {
      "nombre": "Cards",
      "texto": "Click the card (or press the space bar) to turn it over and mark the ones you have mastered with “I know it”. Your progress is saved.",
      "view": "tarjetas"
     },
     {
-     "nombre": "Concept maps",
-     "texto": "Maps that fold and unfold: click a node to open or close its branches, drag to move around and use the wheel to zoom in.",
+     "nombre": "Maps and infographics",
+     "texto": "Maps that fold and unfold: press a node to open or close its branches, drag to move around and use the wheel to zoom in. The infographics and outlines for each topic open from the ‘To continue with this topic’ box or from ‘Explore the subject’, on the subject page.",
      "view": "mapas"
-    },
-    {
-     "nombre": "Infographics",
-     "texto": "Visual sheets for each topic, to revise at a glance.",
-     "view": "infografias"
     },
     {
      "nombre": "Glossary",
@@ -153,64 +157,13 @@ const GUIA = {
    "cap": "Cards: choose the type, the filter and the deck; below are the buttons to move on, shuffle and mark “I know it”."
   },
   {
-   "type": "p",
-   "x": "Clicking <strong>History ▸</strong> opens material to help you understand the philosophers’ context. It is not essential, but it helps a lot to place the ideas:"
-  },
-  {
-   "type": "list",
-   "rows": [
-    {
-     "nombre": "Periods",
-     "texto": "Sheets for each period: what society, politics, science and art were like, and how people imagined the cosmos.",
-     "view": "epocas"
-    },
-    {
-     "nombre": "Biographies",
-     "texto": "Biographies of the thinkers who appear in the theory: who they were, what they thought and in which topics we study them.",
-     "view": "ilustres"
-    },
-    {
-     "nombre": "Persecuted",
-     "texto": "Philosophers and scientists whose way of thinking cost them their life, their freedom or their homeland.",
-     "view": "perseguidos"
-    },
-    {
-     "nombre": "Communities",
-     "texto": "Schools and groups of thinkers, and the places where they met.",
-     "view": "comunidades"
-    },
-    {
-     "nombre": "Chronograms",
-     "texto": "Timelines: who lived at the same time as whom.",
-     "view": "cronogramas",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Genealogies",
-     "texto": "The great traditions of thought drawn like an underground map.",
-     "view": "genealogias",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Adages",
-     "texto": "Latin and Greek mottos that philosophers have been quoting for centuries, and when to use them.",
-     "view": "adagios"
-    },
-    {
-     "nombre": "Gallery",
-     "texto": "Images by author and topic; click them to see them full screen.",
-     "view": "galeria"
-    }
-   ]
-  },
-  {
    "type": "h",
    "x": "Practise"
   },
   {
    "type": "img",
    "src": "03_menu_practicar.webp",
-   "cap": "The “Practise” menu, with “Games” and “Debate” open.",
+   "cap": "The ‘Practise’ menu.",
    "w": "menu"
   },
   {
@@ -218,7 +171,7 @@ const GUIA = {
    "rows": [
     {
      "nombre": "Quizzes",
-     "texto": "Multiple-choice questions with instant marking and an explanation of each answer. Your best score is saved.",
+     "texto": "Multiple-choice questions with instant marking and an explanation of each answer. Your best score is saved. At the top, the Against the clock button: timed questions, with points for speed and for streaks.",
      "view": "cuestionarios"
     },
     {
@@ -235,78 +188,22 @@ const GUIA = {
      "nombre": "Logic Corner",
      "texto": "Truth tables, valid arguments, syllogisms with Venn diagrams, paradoxes and exercises.",
      "view": "logica"
+    },
+    {
+     "nombre": "Debate",
+     "texto": "Four ways of training your argumentation, with their buttons at the top: Dilemmas (choose between two things that matter and give your reason), Controversies (philosophers of the same period who really clashed), Duel (debate against the computer) and Knots (find out where your own opinions clash).",
+     "view": "dilemas"
     }
    ]
   },
   {
    "type": "img",
    "src": "08_cuestionarios.webp",
-   "cap": "Quizzes: filter, choose the quiz from the drop-down list and answer."
+   "cap": "Quizzes: at the top, the Against the clock button; below, filter, choose the quiz from the drop-down list and answer."
   },
   {
    "type": "tip",
    "x": "Do the quiz for a topic without looking at your notes and always read the explanation of the questions you get wrong: that is where the learning happens."
-  },
-  {
-   "type": "p",
-   "x": "The <strong>Games ▸</strong> and <strong>Debate ▸</strong> sections are for revising through play and for training your argumentation:"
-  },
-  {
-   "type": "list",
-   "rows": [
-    {
-     "nombre": "Challenge",
-     "texto": "Questions against the clock, with points for speed and for streaks.",
-     "view": "reto"
-    },
-    {
-     "nombre": "Pairs",
-     "texto": "Match each glossary term with its definition, against the clock.",
-     "view": "parejas"
-    },
-    {
-     "nombre": "Eudaimonia",
-     "texto": "Play a Greek thinker and face moral dilemmas: your decisions determine whether you reach the good life.",
-     "view": "eudaimonia",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Republic",
-     "texto": "Divide the population into Plato’s three classes and keep the city in harmony.",
-     "view": "republica",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Philosophical hopscotch",
-     "texto": "A journey through a network of ideas: your answers decide the route, and at the end you find out which philosophers you agree with.",
-     "view": "rayuela"
-    },
-    {
-     "nombre": "Leibniz’s Workshop",
-     "texto": "From a 17th-century multiplying machine to the zeros and ones in your phone.",
-     "view": "leibniz"
-    },
-    {
-     "nombre": "Ethical dilemmas",
-     "texto": "Choose between two things that matter, give your reason and see whether you change your mind.",
-     "view": "dilemas"
-    },
-    {
-     "nombre": "Controversies",
-     "texto": "Philosophers from the same period who really clashed: choose whose side you are on and read the best argument from the other side.",
-     "view": "polemicas"
-    },
-    {
-     "nombre": "Duel of Reasons",
-     "texto": "Debate against the computer; a meter shows who the audience finds more convincing.",
-     "view": "duelo"
-    },
-    {
-     "nombre": "Knots",
-     "texto": "Find out where your own opinions clash and untie each knot with a reason.",
-     "view": "nudos"
-    }
-   ]
   },
   {
    "type": "p",
@@ -385,6 +282,92 @@ const GUIA = {
   },
   {
    "type": "h",
+   "x": "History"
+  },
+  {
+   "type": "p",
+   "x": "The <strong>History</strong> tab brings together material for understanding the philosophers’ context. It is not essential, but it helps a lot to place the ideas:"
+  },
+  {
+   "type": "list",
+   "rows": [
+    {
+     "nombre": "Periods",
+     "texto": "Sheets for each period: what society, politics, science and art were like, and how people imagined the cosmos. At the top, the Chronograms and Genealogies buttons.",
+     "view": "epocas",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Periods",
+     "texto": "Sheets for each period: what society, politics, science and art were like, and how people imagined the cosmos.",
+     "view": "epocas",
+     "solo": "fil"
+    },
+    {
+     "nombre": "Chronograms",
+     "texto": "Timelines: who lived at the same time as whom.",
+     "view": "cronogramas",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Biographies",
+     "texto": "The biographies of the thinkers who appear in the theory: who they were, what they thought and in which topics we study them. At the top, the Persecuted buttons (philosophers and scientists whose way of thinking cost them their life, their freedom or their homeland) and Communities (schools and groups of thinkers).",
+     "view": "ilustres"
+    },
+    {
+     "nombre": "Adages",
+     "texto": "Latin and Greek mottos that philosophers have been quoting for centuries, and when to use them.",
+     "view": "adagios"
+    },
+    {
+     "nombre": "Gallery",
+     "texto": "Images by author and topic; click them to see them full screen.",
+     "view": "galeria"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "x": "Games"
+  },
+  {
+   "type": "p",
+   "x": "The <strong>Games</strong> tab is for revising while you play:"
+  },
+  {
+   "type": "list",
+   "rows": [
+    {
+     "nombre": "Eudaimonia",
+     "texto": "Play a Greek thinker and face moral dilemmas: your decisions determine whether you reach the good life.",
+     "view": "eudaimonia",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Republic",
+     "texto": "Divide the population into Plato’s three classes and keep the city in harmony.",
+     "view": "republica",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Philosophical hopscotch",
+     "texto": "A journey through a network of ideas: your answers decide the route, and at the end you find out which philosophers you agree with.",
+     "view": "rayuela"
+    },
+    {
+     "nombre": "Leibniz’s Workshop",
+     "texto": "From a 17th-century multiplying machine to the zeros and ones in your phone.",
+     "view": "leibniz"
+    },
+    {
+     "nombre": "The Aristotelian universe",
+     "texto": "Physics, chemistry, biology and philosophy according to Aristotle, and what modern science did with them.",
+     "view": "universo"
+    }
+   ]
+  },
+  {
+   "type": "h",
    "x": "The search"
   },
   {
@@ -402,7 +385,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The website works the same way on your phone. The menu folds into the ☰ button: tap it and the three tabs open one below the other, and each section marked ▸ opens when you tap it. If you use it often, add it to your home screen from the browser menu (“Add to home screen”): it will open like an app."
+   "x": "The site works the same way on a mobile phone. The menu is tucked into the ☰ button: when you press it, the five tabs open one below another, and each one unfolds when you tap it. If you use it often, add it to your home screen from the browser menu (‘Add to home screen’): it will open like an app."
   },
   {
    "type": "img",
@@ -423,9 +406,9 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
-     "titulo": "Revise with the summary",
-     "texto": "Study › Summaries. If visuals help you, click “View as diagram”.",
-     "view": "esqautor"
+     "titulo": "Revise with the outline",
+     "texto": "From the ‘To continue with this topic’ box, open its outline, its map or its infographic.",
+     "view": "MATERIA"
     },
     {
      "titulo": "Fix the concepts",
@@ -456,7 +439,7 @@ const GUIA = {
     },
     {
      "titulo": "If you want more",
-     "texto": "The History ▸, Games ▸ and Debate ▸ sections: context, games and debates to go further."
+     "texto": "The History and Games tabs, Practise › Debate and the ‘Go deeper’ block in the topic box: context, games, debates and videos to go further."
     }
    ]
   },
