@@ -2687,6 +2687,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
+  "t": "Metanoia",
+  "et": "From the Greek μετάνοια (*metánoia*): μετά (*metá*), ‘change, after’, + νοῦς (*noûs*), ‘mind’: ‘change of mind’, and also ‘repentance’. Plato says περιαγωγή (*periagōgḗ*), ‘turning around’ (*Republic* VII, 518d).",
+  "area": "Anthropology",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Plato",
+  "def": "A deep change in one’s way of thinking and living, not in a single opinion. In Plato it is the ‘turning around’ of the whole soul: education does not put sight into the soul, which already has it, but turns it as a whole from what changes towards what is, like the prisoner who leaves the cave (*Republic* VII, 518c-d). Christianity makes it repentance and conversion (‘repent’, μετανοεῖτε, Mark 1:15), and Augustine tells it in the *Confessions*. In rhetoric, ‘metanoia’ is also the figure that corrects out loud what one has just said (‘it’s good; no, excellent’).",
+  "ilustre": [
+   "platon",
+   "agustin"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Metanarrative",
