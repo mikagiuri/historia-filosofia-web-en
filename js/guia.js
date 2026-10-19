@@ -412,14 +412,9 @@ const GUIA = {
      "view": "rayuela"
     },
     {
-     "nombre": "Leibniz’s Workshop",
-     "texto": "From a 17th-century multiplying machine to the zeros and ones in your phone.",
+     "nombre": "Workshops",
+     "texto": "Three workshops that link philosophy with other subjects, with their buttons at the top: Leibniz’s Workshop (maths and computing), The Aristotelian universe (physics, chemistry and biology) and The Art of the Word (literature, rhetoric and classical languages).",
      "view": "leibniz"
-    },
-    {
-     "nombre": "The Aristotelian universe",
-     "texto": "Physics, chemistry, biology and philosophy according to Aristotle, and what modern science did with them.",
-     "view": "universo"
     }
    ]
   },
