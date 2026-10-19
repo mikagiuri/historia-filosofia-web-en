@@ -41,6 +41,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Akrasía (incontinence, weakness of will)",
+  "et": "From the Greek ἀκρασία (*akrasía*), ‘lack of self-control’: from privative ἀ- and κράτος (*krátos*), ‘strength, power’.",
+  "area": "Ethics",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "Classical ethics",
+  "def": "The state of someone who knows what they ought to do, but gives in to desire and acts against their own judgement; afterwards they regret it. For Aristotle it shows, against Socratic intellectualism, that knowing the good is not enough to do it.",
+  "ilustre": [
+   "aristoteles"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Alexandria",
   "area": "History",
   "bloque": "A",
@@ -1796,6 +1809,19 @@ const GLOSARIO = [
   "def": "For Plato, justice is not only external law. It is the harmony that arises when each part of the soul and of the city properly fulfils its function. It is achieved by whoever balances the other three virtues (wisdom, courage and temperance): that is why it is the virtue that orders all the others.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Kakía (vice)",
+  "et": "From the Greek κακία (*kakía*), ‘badness’, from κακός (*kakós*), ‘bad’.",
+  "area": "Ethics",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "Classical ethics",
+  "def": "A bad disposition of character: the vicious person acts badly by choice, convinced that this is the good, and so does not regret it. Aristotle opposes it to virtue and distinguishes it from incontinence (akrasía), which does feel regret.",
+  "ilustre": [
+   "aristoteles"
   ]
  },
  {
