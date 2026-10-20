@@ -484,6 +484,263 @@ const REP_DIAL = {
    ]
   }
  ],
+ "versiones": {
+  "degen": {
+   "emoji": "⛓️",
+   "eyebrow": "Version A",
+   "name": "Degeneration of regimes",
+   "libros": "Republic VIII-IX and X",
+   "lema": "City and soul become corrupted: from aristocracy to tyranny.",
+   "intro": "Found the just city and hold out: each crisis can make it step down a rung. Whoever does not fall wins."
+  },
+  "clases": {
+   "emoji": "⚖️",
+   "eyebrow": "Version B",
+   "name": "The classes that save the pólis",
+   "libros": "Republic II-IV",
+   "lema": "Each class performs its function and justice saves the city.",
+   "intro": "Distribute the three classes, educate the guardians and make sure everyone does their own part: wisdom at the top, courage in the auxiliaries, moderation in all."
+  }
+ },
+ "acciones": [
+  {
+   "id": "censura",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-censura",
+   "name": "Censorship of the poets",
+   "src": "República II-III, 377b-392c",
+   "d": "Young people grow up with models of virtue: +1 wisdom for each guardian."
+  },
+  {
+   "id": "limite",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-limite",
+   "name": "Limit on wealth",
+   "src": "Leyes V, 744d-e",
+   "d": "Nobody may own more than four times what the poorest person has: this curbs oligarchy (+1 harmony)."
+  },
+  {
+   "id": "sorteo",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-sorteo",
+   "name": "Offices by lot",
+   "src": "República VIII, 557a",
+   "d": "More citizens govern (+2 AP), but for Plato this is the step towards democracy (−1 harmony)."
+  },
+  {
+   "id": "escolta",
+   "v": "a",
+   "ap": 2,
+   "img": "ac-escolta",
+   "name": "Personal bodyguard",
+   "src": "República VIII, 566b",
+   "d": "A champion of the people asks for an escort: +2 harmony now, but −0.5 on every following turn."
+  },
+  {
+   "id": "consejo",
+   "v": "a",
+   "ap": 2,
+   "img": "ac-consejo",
+   "name": "Nocturnal Council",
+   "src": "Leyes XII, 961a-b",
+   "d": "The best citizens meet to watch over the laws: +2 harmony."
+  },
+  {
+   "id": "zanganos",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-zanganos",
+   "name": "Out with the drones",
+   "src": "República VIII, 552c",
+   "d": "The idle who spend without producing are the disease of the hive: +1 harmony."
+  },
+  {
+   "id": "oficio",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-oficio",
+   "name": "One trade per person",
+   "src": "República II, 370a-c",
+   "d": "Each person does one single thing, the one that suits their nature: +6 production."
+  },
+  {
+   "id": "musica",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-musica",
+   "name": "Music and gymnastics",
+   "src": "República III, 410c-412a",
+   "d": "Education of soul and body: +1 wisdom for each guardian."
+  },
+  {
+   "id": "lana",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-lana",
+   "name": "Dyeing the wool",
+   "src": "República IV, 429d-430b",
+   "d": "Education fixes in the auxiliaries the right opinion about what is to be feared, like a dye that does not wash out: this turn the warriors are worth ×1.5."
+  },
+  {
+   "id": "pruebas",
+   "v": "b",
+   "ap": 2,
+   "img": "ac-pruebas",
+   "name": "Trials of the guardians",
+   "src": "República III, 413c-414a",
+   "d": "Only those who withstand pleasures and fears rule: all your guardians count as just."
+  },
+  {
+   "id": "comun",
+   "v": "b",
+   "ap": 2,
+   "img": "ac-comun",
+   "name": "Communal life of the guardians",
+   "src": "República III, 416d-417b",
+   "d": "With no gold and no houses of their own, nothing separates them from the city: +2 harmony."
+  },
+  {
+   "id": "mito",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-mito",
+   "name": "Myth of the metals",
+   "src": "República III, 415a-c",
+   "d": "A shared story unites the city: +1 harmony."
+  },
+  {
+   "id": "rey",
+   "v": "b",
+   "ap": 3,
+   "img": "ac-rey",
+   "name": "Philosopher-king",
+   "src": "República V, 473c-d",
+   "d": "If you have guardians of full wisdom, they rule: +3 harmony. If not, it is of no use."
+  },
+  {
+   "id": "bajar",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-bajar",
+   "name": "Returning to the cave",
+   "src": "República VII, 519c-520d",
+   "d": "The wise go down to rule: +2 harmony, but −1 wisdom for each guardian."
+  }
+ ],
+ "fases": [
+  {
+   "name": "Specialisation",
+   "lema": "Each person, one trade: the city is born from the fact that nobody is self-sufficient (369b)."
+  },
+  {
+   "name": "Guardians",
+   "lema": "Educating those who defend: music, gymnastics and right opinion."
+  },
+  {
+   "name": "Government",
+   "lema": "Who commands? Those who know, if there are any."
+  },
+  {
+   "name": "Test",
+   "lema": "Does justice hold when crises arrive?"
+  }
+ ],
+ "funciones": [
+  {
+   "k": "sophia",
+   "emoji": "🦉",
+   "name": "Wisdom",
+   "gr": "σοφία (*sophía*)",
+   "clase": "rulers",
+   "ok": "There are rulers of full wisdom, with knowledge of the Good.",
+   "no": "No guardian reaches full wisdom.",
+   "loc": "Republic IV, 428b-429a"
+  },
+  {
+   "k": "andreia",
+   "emoji": "🛡️",
+   "name": "Courage",
+   "gr": "ἀνδρεία (*andreía*)",
+   "clase": "auxiliaries",
+   "ok": "The auxiliaries are enough to defend the city and preserve right opinion about what is to be feared.",
+   "no": "There are too few defenders.",
+   "loc": "Republic IV, 429b-430c"
+  },
+  {
+   "k": "sophrosyne",
+   "emoji": "🍷",
+   "name": "Moderation",
+   "gr": "σωφροσύνη (*sophrosýne*)",
+   "clase": "all classes",
+   "ok": "The city is self-sufficient: everyone accepts who rules.",
+   "no": "Production falls short: appetite overwhelms the city.",
+   "loc": "Republic IV, 430d-432a"
+  },
+  {
+   "k": "dikaiosyne",
+   "emoji": "⚖️",
+   "name": "Justice",
+   "gr": "δικαιοσύνη (*dikaiosýne*)",
+   "clase": "the whole city",
+   "ok": "Each class does its own part: the city is just.",
+   "no": "One of the three is missing: there is not yet justice.",
+   "loc": "Republic IV, 433a-434c"
+  }
+ ],
+ "doxa": "The auxiliaries do not have knowledge, ἐπιστήμη (*epistéme*), but right opinion, ὀρθὴ δόξα (*orthè dóxa*): their courage is ‘the preservation of right and lawful opinion about what is to be feared and what is not’ (Republic IV, 430b). Only the rulers leave the cave.",
+ "finB": [
+  {
+   "min": 8,
+   "todas": true,
+   "emoji": "🏛️",
+   "name": "Kallipolis: the just city",
+   "lema": "The three classes do their own part and the city holds together."
+  },
+  {
+   "min": 5,
+   "emoji": "⚖️",
+   "name": "A city still standing, not yet fully just",
+   "lema": "It endures, but some function fails."
+  },
+  {
+   "min": 0.1,
+   "emoji": "⚠️",
+   "name": "A disorderly city",
+   "lema": "Each class invades the part of the others."
+  },
+  {
+   "min": -999,
+   "emoji": "💥",
+   "name": "The city dissolves",
+   "lema": "Without justice, the city ceases to be one."
+  }
+ ],
+ "er": {
+  "titulo": "Epilogue · the myth of Er",
+  "situacion": "Er, a warrior killed in battle, comes back to life on the pyre and tells what he saw: souls choose their next life. The first to choose, without thinking, takes that of the most powerful tyrant; then he discovers that it is written in it that he will devour his own children.",
+  "cita": "‘The blame lies with the one who chooses; the god is blameless.’",
+  "loc": "Republic X, 617e",
+  "griego": "αἰτία ἑλομένου· θεὸς ἀναίτιος (*aitía heloménou; theòs anaítios*).",
+  "pregunta": "It is your turn to choose a life. Which do you pick?",
+  "opts": [
+   {
+    "t": "The life of the tyrant: unlimited power.",
+    "r": "This is the choice of the first soul, who came from a well-ordered city but had been virtuous ‘by habit, without philosophy’ (619c-d)."
+   },
+   {
+    "t": "The quiet life of a private citizen, like Odysseus.",
+    "r": "Odysseus, cured of his ambition, searches for a long time for the life of a private man without office, and chooses it gladly (620c-d)."
+   },
+   {
+    "t": "The life that best knows how to tell good from bad.",
+    "r": "This is what Socrates advises: learning always to choose the best life among those possible is what matters most (618b-c)."
+   }
+  ],
+  "cierre": "This is how the Republic ends: ‘the myth was saved and was not lost, and it will save us if we heed it’ (621b-c)."
+ },
  "ui": {
   "regTitulo": "Your city's regime (Republic, book VIII)",
   "degenera": "Your city degenerates",
@@ -506,6 +763,35 @@ const REP_DIAL = {
   "dTuya": "Your conclusion: which position from your game would you defend in writing, and why?",
   "glosario": "Concepts in the glossary",
   "sinDialogos": "There were no dialogues in this game.",
-  "hudReg": "Regime"
+  "hudReg": "Regime",
+  "elegir": "Choose a version",
+  "accionesMax": "Actions (max. 3 this turn)",
+  "elegirIntro": "Two games with the same engine and different focuses. You can switch whenever you like.",
+  "jugarEsta": "Play this version →",
+  "cambiar": "↺ Change version",
+  "fase": "Phase",
+  "nuevaFase": "New phase: +2 AP",
+  "funciones": "The functions of the city",
+  "escolta": "The personal bodyguard grows: −0.5 harmony.",
+  "erElige": "Your choice",
+  "verFin": "See the ending →",
+  "version": "Version",
+  "chuleta": "📋 Game cheat sheet",
+  "chuletaT": "Cheat sheet: all the rules and formulas",
+  "volver": "← Back",
+  "cAcciones": "Action cards (cost in AP and effect)",
+  "cComunes": "Common to both versions",
+  "cEventos": "Events (what triggers them and what they do)",
+  "cEconomia": "Points economy",
+  "cEconomiaT": "You start with 8 AP. Each turn you gain 1 more AP; in Version B, each new phase gives 2 AP. You can use up to 3 actions per turn, each one once.",
+  "cVictoria": "How you win and how you lose",
+  "cVictoriaA": "Version A: you start as an aristocracy with 10 harmony. Below 8, timocracy; below 6, oligarchy; below 4, democracy; below 2, tyranny. There is no going back up. With 0 harmony or fewer than 3 inhabitants, the city sinks. You win if you end in aristocracy or timocracy.",
+  "cVictoriaB": "Version B: you win Kallipolis if you end with 8 or more harmony and all four functions fulfilled; with 5 or more, the city is still standing. With 0 harmony or fewer than 3 inhabitants, it dissolves.",
+  "cFunciones": "The four functions (Version B): wisdom = some guardian with wisdom 5; courage = warriors ≥ producers ÷ 2.5; moderation = production ≥ population; justice = all three at once.",
+  "cClases": "The classes and their cost",
+  "cClasesT": "Cost of each profile = sum of its three virtues. Guardian: all three ≥4. Warrior: courage and moderation ≥4. Producer: moderation ≥4; each producer feeds 2 people. Below 30 inhabitants, the ‘Shrinking City’ event subtracts. In Real, producers ≥ 2 × (guardians + warriors): this is a rule of the game, not of Plato.",
+  "cDialogos": "Dialogues: those of your version appear, one every three turns. You choose a position and a reason; the result changes the city.",
+  "cDestino": "Fate cards (plague, war, earthquake, death of the founder): they subtract and kill, whatever your decisions. 3 appear in Real and 2 in Easy.",
+  "cTurnos": "Length: 12 turns in Easy and 14 in Real."
  }
 };
