@@ -66,6 +66,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Joy and sadness (Spinoza)",
+  "id": "g-alegria-y-tristeza",
+  "et": "*Joy*, from the Latin *alacer*, ‘lively, spirited’; *sadness*, from the Latin *tristitia*, the word Spinoza uses.",
+  "area": "Ethics",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Together with desire, the basic affects: joy is the passage to a greater perfection or power of acting; sadness, the passage to a lesser one (*Ethics* III, prop. 11, scholium). Love is joy accompanied by the idea of an external cause, and hatred is sadness accompanied by that idea (prop. 13, scholium).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Alexandria",
@@ -394,6 +410,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Blessedness (Spinoza)",
+  "id": "g-beatitud",
+  "et": "From the Latin *beatitudo*, from *beatus*, ‘happy, blessed’.",
+  "area": "Ethics",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "The highest happiness, which arises from knowing God or Nature and from the intellectual love that this knowledge produces. Blessedness is not the reward of virtue, but virtue itself (*Ethics* V, prop. 42).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Biopolitics",
@@ -537,6 +569,22 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Struggles after Marxism",
   "def": "The political, economic and cultural dependence of a country or people. For Fanon, colonialism also wounds the subject's self-image."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Conatus",
+  "id": "g-conatus",
+  "et": "From the Latin *conatus*, ‘effort, endeavour’, from *conari*, ‘to try’.",
+  "area": "Anthropology",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "The effort by which each thing, as far as it can, strives to persevere in its being. For Spinoza it is not something a thing has, but its very essence (*Ethics* III, props. 6-7). In human beings, when they are conscious of it, it is called desire.",
+  "ilustre": [
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -1946,6 +1994,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 15,
+  "t": "Adequate idea",
+  "id": "g-idea-adecuada",
+  "et": "From the Latin *adaequatus*, ‘made equal, fitted’.",
+  "area": "Epistemology",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "The idea that has within itself all the properties of a true idea, because it understands its object through its causes (*Ethics* II, def. 4). It is the key to freedom: an affect that is a passion ceases to be one as soon as we form a clear and distinct idea of it (V, prop. 3).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 10,
   "t": "Regulative idea",
   "id": "g-idea-regulativa",
@@ -3121,6 +3185,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Natura naturans and natura naturata",
+  "id": "g-natura-naturans",
+  "et": "Scholastic Latin: the active and passive participles of *naturare*, ‘to produce as nature does’: the one that produces and the one that is produced.",
+  "area": "Metaphysics",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Two ways of looking at the one reality. As free cause, the substance with its attributes, which is in itself and is conceived through itself, is *natura naturans*; as everything that follows necessarily from it, its modes, it is *natura naturata* (*Ethics* I, prop. 29, scholium).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "False needs",
@@ -3284,6 +3364,22 @@ const GLOSARIO = [
   "def": "Education in a broad sense: the shaping of character and mind. In Plato, the main task of the city, which selects its rulers after a long course of studies and tests.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Bondage (Spinoza)",
+  "id": "g-servidumbre",
+  "et": "From the Latin *servitudo*, from *servus*, ‘slave’.",
+  "area": "Ethics",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Human powerlessness to moderate and restrain the affects: anyone subject to them is not their own master, but at the mercy of fortune (*Ethics* IV, preface). It is not overcome by willpower, because an affect can only be restrained by another, contrary and stronger one (IV, prop. 7).",
+  "ilustre": [
+   "spinoza"
   ]
  },
  {

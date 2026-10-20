@@ -1248,6 +1248,10 @@ const IMPRESCINDIBLES = {
   "14": [
    1,
    "Curiosity or further reading"
+  ],
+  "15": [
+   4,
+   "Basic vocabulary of Spinoza’s Ethics (Topic 15, level 5 in the teacher’s review of 20 Oct 2026)"
   ]
  }
 };
