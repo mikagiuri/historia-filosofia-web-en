@@ -2792,7 +2792,7 @@ const ILUSTRES = {
    "Ethics Demonstrated in Geometrical Order (1677)",
    "Treatise on the Emendation of the Intellect (1677)"
   ],
-  "anecdota": "<p>In August 1672, an enraged mob murdered the De Witt brothers in The Hague, leaders of the Dutch republic whom Spinoza admired. Indignant, the philosopher, so serene as a rule, wanted to go out and hang a placard near the spot bearing the Latin words <em>ultimi barbarorum</em>, ‘the lowest of barbarians’. His landlord, fearing that they would kill him too, locked the door and would not let him go out. Spinoza told Leibniz about it years later, and Leibniz noted it down.</p>",
+  "anecdota": "<p>In August 1672, an enraged mob murdered the De Witt brothers in The Hague, leaders of the Dutch Republic whom Spinoza admired. Outraged, the philosopher, usually so calm, wanted to go out that night and put up a placard near the spot with the Latin words <em>ultimi barbarorum</em>, ‘the lowest of barbarians’, that is, the very depths of barbarity. His landlord, fearing that the mob would tear him to pieces too, locked the house and would not let him out. Spinoza told the story four years later to Leibniz, who wrote it down.</p>",
   "fuente": "Leibniz, notes of his conversation with Spinoza (1676)",
   "tradicion": false,
   "vida": [

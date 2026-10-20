@@ -60,6 +60,33 @@ const DILEMAS = [
     "elige": "B",
     "porque": "He inherits his teacher's answer, but in the Republic he concludes that the underlying problem is another: as long as those who do not know govern, the laws will be unjust; the solution is not to flee but for philosophers to govern.",
     "ilustre": "platon"
+   },
+   {
+    "quien": "Spinoza",
+    "elige": "B",
+    "porque": "With nuances. The free man never acts deceitfully, not even to escape a danger of death (Ethics, IV, 72, scholium), and fleeing by evading the laws of one’s own city would look much like that. But withdrawing in time takes as much strength of mind as fighting (IV, 69, corollary), and he himself, expelled from his community like Socrates, stepped aside cautiously so he could go on thinking: neither martyr nor fugitive.",
+    "ilustre": "spinoza"
+   },
+   {
+    "quien": "Kant",
+    "elige": "B",
+    "porque": "Obey in your actions and reason in public: the officer carries out the order and may afterwards criticise it in writing (What is Enlightenment?, 1784). In the Metaphysics of Morals (1797) he denies any right of rebellion; whether that also rules out refusing to carry out an immoral order is an open debate among his interpreters.",
+    "ilustre": "kant"
+   }
+  ],
+  "otra": "Spinoza’s, condemned like Socrates by his own community: neither fleeing by evading the law nor staying to die, but stepping aside in time, keeping quiet about what was strictly necessary (his motto was ‘Caute’, with caution) and going on thinking.",
+  "enlaces": [
+   {
+    "t": "Persecuted for their ideas: Socrates",
+    "href": "#perseguidos/socrates"
+   },
+   {
+    "t": "Persecuted for their ideas: Spinoza",
+    "href": "#perseguidos/spinoza"
+   },
+   {
+    "t": "Exploration - Flee or stay?",
+    "href": "#teoria/hf-spinoza-huir"
    }
   ],
   "debate": {
