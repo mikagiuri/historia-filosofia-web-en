@@ -13,6 +13,11 @@ const PISTAS = [
     "fase": "Phase 1 · Recall",
     "etiqueta": "Opening question",
     "pregunta": "What do the prisoners, the shadows and the outside of the cave represent?",
+    "repaso": [
+     "Have I said that it is an allegory about knowledge, not a real story?",
+     "Have I explained that the shadows are opinion (<em>doxa</em>) about the sensible world?",
+     "Have I said that the outside and the sun are the Ideas and the Good, which only reason reaches (<em>episteme</em>)?"
+    ],
     "intro": [
      "Recall the scene: prisoners chained since childhood look at the wall at the back of a cave. Try to explain what Plato means before asking for help."
     ],
@@ -32,12 +37,14 @@ const PISTAS = [
       [
        "The world of the Ideas.",
        false,
-       "No: the world of the Ideas is outside, lit by the sun."
+       "No: the world of the Ideas is outside, lit by the sun.",
+       "g-mundo-sensible"
       ],
       [
        "A real prison of the Athens of his time.",
        false,
-       "It is not a historical account: it is an allegory about knowledge."
+       "It is not a historical account: it is an allegory about knowledge.",
+       "g-el-mito-de-la-caverna"
       ],
       [
        "Each person’s subconscious.",
@@ -141,6 +148,11 @@ const PISTAS = [
     "fase": "Phase 2 · Going deeper",
     "etiqueta": "New question",
     "pregunta": "Why must the freed prisoner return to the cave?",
+    "repaso": [
+     "Have I said that whoever has seen the Good has a duty to go back for the others?",
+     "Have I linked the return to the rule of philosophers in the <em>Republic</em>?",
+     "Have I mentioned that the prisoners reject him, just as Athens condemned Socrates?"
+    ],
     "intro": [
      "The story does not end outside: the one who has seen the sun goes back to look for the others. Think about what that has to do with Plato’s politics."
     ],
@@ -170,7 +182,8 @@ const PISTAS = [
       [
        "That there was nothing to see outside.",
        false,
-       "Outside is the most real thing: the Ideas and the sun (the Good)."
+       "Outside is the most real thing: the Ideas and the sun (the Good).",
+       "g-el-bien"
       ]
      ],
      "ok": "Exactly. The allegory joins theory of knowledge and politics.",
@@ -242,6 +255,11 @@ const PISTAS = [
     "fase": "Phase 1 · Recall",
     "etiqueta": "Opening question",
     "pregunta": "What is methodical doubt and what does Descartes use it for?",
+    "repaso": [
+     "Have I said that it is a method for reaching an indubitable truth, not for staying in doubt?",
+     "Have I named the reasons for doubting: the senses, dreams and the evil demon?",
+     "Have I distinguished Descartes from the sceptic?"
+    ],
     "intro": [
      "Descartes decides to doubt everything that can be doubted. Try to explain why anyone would do such a thing before asking for help."
     ],
@@ -261,7 +279,8 @@ const PISTAS = [
       [
        "To show that we cannot know anything.",
        false,
-       "That would be scepticism. Descartes doubts precisely in order to escape from doubt."
+       "That would be scepticism. Descartes doubts precisely in order to escape from doubt.",
+       "g-duda-metodica"
       ],
       [
        "To mock earlier philosophers.",
@@ -369,6 +388,11 @@ const PISTAS = [
     "fase": "Phase 2 · Going deeper",
     "etiqueta": "New question",
     "pregunta": "What certainty withstands the most radical doubt?",
+    "repaso": [
+     "Have I said that the certainty is 'I think, therefore I am' (<em>cogito</em>)?",
+     "Have I justified why it resists: to doubt, and even to be deceived, I must think, and to think, I must exist?",
+     "Have I said that it is the first principle on which Descartes rebuilds knowledge?"
+    ],
     "intro": [
      "Suppose the evil genius deceives you about everything. Is there anything you still cannot doubt?"
     ],
@@ -388,7 +412,8 @@ const PISTAS = [
       [
        "Because the senses show me that I exist.",
        false,
-       "The senses have already been doubted: the cogito does not depend on them."
+       "The senses have already been doubted: the cogito does not depend on them.",
+       "g-cogito"
       ],
       [
        "Because the philosophical tradition says so.",
@@ -398,7 +423,8 @@ const PISTAS = [
       [
        "Because the evil genius cannot deceive anyone.",
        false,
-       "He can deceive me about everything else, but not about the fact that I exist while I think."
+       "He can deceive me about everything else, but not about the fact that I exist while I think.",
+       "g-el-genio-maligno"
       ]
      ],
      "ok": "Exactly. The more I doubt, the surer I am that I think, and therefore that I exist.",
@@ -471,6 +497,11 @@ const PISTAS = [
     "fase": "Phase 1 · Recall",
     "etiqueta": "Opening question",
     "pregunta": "What is the categorical imperative?",
+    "repaso": [
+     "Have I said that it is a command that binds without conditions, with no 'if you want…' behind it?",
+     "Have I distinguished it from the hypothetical imperative?",
+     "Have I said that it gives the action its moral worth: acting from duty, not from interest?"
+    ],
     "intro": [
      "Try to answer before opening a hint. You do not need a perfect definition: it is enough to recover its essential feature."
     ],
@@ -486,7 +517,8 @@ const PISTAS = [
       [
        "It is a rule that indicates which means to use to achieve an end.",
        false,
-       "That is a hypothetical imperative: the obligation depends on the end you pursue."
+       "That is a hypothetical imperative: the obligation depends on the end you pursue.",
+       "g-imperativo-hipotetico"
       ],
       [
        "It is a command that binds unconditionally, without depending on a desired end.",
@@ -598,6 +630,11 @@ const PISTAS = [
     "fase": "Phase 2 · Going deeper",
     "etiqueta": "New question",
     "pregunta": "How does Kant check whether a maxim is moral?",
+    "repaso": [
+     "Have I said that what is examined is the maxim, the rule on which I act?",
+     "Have I explained the test: whether I can will that maxim to become a law for everyone?",
+     "Have I given an example of a maxim that fails it, such as the false promise?"
+    ],
     "intro": [
      "A new cycle begins. We are no longer trying to define what the categorical imperative is, but how it is used as a test. Kant expressed it in several ways: do you remember any?"
     ],
@@ -627,7 +664,8 @@ const PISTAS = [
       [
        "The isolated action, without regard to its rule.",
        false,
-       "No: what is examined is the rule that guides the action."
+       "No: what is examined is the rule that guides the action.",
+       "g-imperativo-categorico"
       ]
      ],
      "ok": "Exactly. It is not an isolated action that is universalised, but the rule or maxim that guides it.",
@@ -671,7 +709,8 @@ const PISTAS = [
         [
          "The isolated action, without regard to its rule.",
          false,
-         "Re-read the quotation: which word goes with ‘universal law’?"
+         "Re-read the quotation: which word goes with ‘universal law’?",
+         "g-imperativo-categorico"
         ]
        ],
        "ok": "Exactly. What is universalised is the maxim.",
@@ -703,6 +742,11 @@ const PISTAS = [
     "fase": "Phase 1 · Recall",
     "etiqueta": "Opening question",
     "pregunta": "What does it mean to treat humanity always as an end and never only as a means?",
+    "repaso": [
+     "Have I said that what is forbidden is treating someone <em>merely</em> as a means, not making use of their help?",
+     "Have I explained that persons have dignity, not a price?",
+     "Have I grounded that dignity in the person being rational and giving the moral law to themselves?"
+    ],
     "intro": [
      "Try to explain it in your own words before asking for help. Think of an example of someone who is ‘used’."
     ],
@@ -722,7 +766,8 @@ const PISTAS = [
       [
        "Buying bread from the baker.",
        false,
-       "You use her as a means, but not only as a means: she freely accepts the exchange."
+       "You use her as a means, but not only as a means: she freely accepts the exchange.",
+       "g-dignidad"
       ],
       [
        "Asking a classmate for help with an exercise, explaining to him what you need it for.",
@@ -829,6 +874,11 @@ const PISTAS = [
     "fase": "Phase 2 · Relating",
     "etiqueta": "New question",
     "pregunta": "Why does the false promise fail both formulas at once?",
+    "repaso": [
+     "Have I explained why the maxim of the false promise cannot be universalised?",
+     "Have I said that, by lying to them, I use the other person merely as a means?",
+     "Have I concluded that the two formulas express the same moral law?"
+    ],
     "intro": [
      "You already know the universal law formula and the humanity formula. Now it is time to relate them through a single case: making a false promise to get money."
     ],
@@ -858,7 +908,8 @@ const PISTAS = [
       [
        "Only the first is categorical; the second is a hypothetical imperative.",
        false,
-       "The humanity formula does not say ‘if you want…’: it binds without conditions, like the first."
+       "The humanity formula does not say ‘if you want…’: it binds without conditions, like the first.",
+       "g-imperativo-hipotetico"
       ]
      ],
      "ok": "Exactly. The rule that cannot be universalised is also the one that uses someone only as a means.",

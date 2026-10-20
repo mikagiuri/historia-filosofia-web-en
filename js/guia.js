@@ -247,7 +247,7 @@ const GUIA = {
     },
     {
      "nombre": "Logic Corner",
-     "texto": "Truth tables, valid arguments, syllogisms with Venn diagrams, paradoxes and exercises.",
+     "texto": "Truth tables, valid arguments, syllogisms with Venn diagrams, paradoxes and exercises; and a laboratory with truth trees, a world of shapes, relations and guided proofs.",
      "view": "logica"
     },
     {
@@ -417,7 +417,7 @@ const GUIA = {
     },
     {
      "nombre": "Workshops",
-     "texto": "Three workshops that link philosophy with other subjects, with their buttons at the top: Leibniz’s Workshop (maths and computing), The Aristotelian universe (physics, chemistry and biology) and The Art of the Word (literature, rhetoric and classical languages).",
+     "texto": "Four workshops that link philosophy with other subjects, with their buttons at the top: Leibniz’s Workshop (maths and computing), The Aristotelian universe (physics, chemistry and biology), The Art of the Word (literature, rhetoric and classical languages) and Spinoza's affects (psychology and a model simulated step by step).",
      "view": "leibniz"
     }
    ]
