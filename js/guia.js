@@ -149,6 +149,10 @@ const GUIA = {
     {
      "nombre": "●○○○○ Further reading",
      "texto": "Curiosity or further reading: to find out more."
+    },
+    {
+     "nombre": "●●●◐○ Half point",
+     "texto": "Between two levels. A 3.5 does not yet count as essential."
     }
    ]
   },

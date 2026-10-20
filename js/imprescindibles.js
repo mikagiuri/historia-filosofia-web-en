@@ -130,8 +130,8 @@ const IMPRESCINDIBLES = {
    "Decree 25; the natural comparison for Beauvoir; essay in the 2026 extraordinary sitting (open project)"
   ],
   "arendt": [
-   4,
-   "Decree 22*: totalitarianism and radical evil (PAU 2025)"
+   5,
+   "Teacher’s review (20-10-2026): Hannah Arendt, PAU"
   ],
   "habermas": [
    4,
@@ -1076,16 +1076,16 @@ const IMPRESCINDIBLES = {
    "Decree content without an asterisk: the starting point of the course"
   ],
   "2": [
-   4,
-   "Decree: ‘methods and tools*’ (text commentary, argumentative dialogue, essay)"
+   3,
+   "Teacher’s review (20-10-2026)"
   ],
   "3": [
-   4,
-   "Decree: ‘mythical worldview and philosophical theorisation*’"
+   3,
+   "Teacher’s review (20-10-2026)"
   ],
   "4": [
-   3,
-   "Decree, without an asterisk; key to Plato (Parmenides and Heraclitus)"
+   3.5,
+   "Teacher’s review (20-10-2026)"
   ],
   "5": [
    4,
@@ -1096,88 +1096,100 @@ const IMPRESCINDIBLES = {
    "PAU reading: Republic VII"
   ],
   "7": [
-   3,
-   "Decree, without an asterisk; the Platonic soul is the section that has come up most often"
+   5,
+   "Teacher’s review (20-10-2026)"
   ],
   "8": [
-   4,
-   "Decree: ‘Socratic-Platonic intellectualism*’; essay in the 2026 PAU"
+   5,
+   "Teacher’s review (20-10-2026)"
   ],
   "9": [
-   3,
-   "Decree, without an asterisk; model question for Ex. 3"
+   5,
+   "Teacher’s review (20-10-2026)"
   ],
   "10": [
    4,
    "Decree: ‘Stoicism, Epicureanism, Cynicism and Scepticism*’"
   ],
   "11": [
-   4,
-   "Decree: ‘medieval philosophy*’"
+   3,
+   "Teacher’s review (20-10-2026)"
   ],
   "12": [
-   4,
-   "Decree: ‘faith and reason*’; Ex. 3 of the 2026 PAU"
+   3.5,
+   "Teacher’s review (20-10-2026)"
   ],
   "13": [
-   4,
-   "Decree: ‘the birth of European modernity*’"
+   3.5,
+   "Teacher’s review (20-10-2026)"
   ],
   "14": [
    5,
    "PAU reading: Discourse on Method II–IV"
   ],
   "15": [
-   4,
-   "Decree: ‘the Cartesian theory of substances*’"
+   5,
+   "Teacher’s review (20-10-2026)"
   ],
   "16": [
    4,
    "Decree: ‘origin and foundation of society and power*’"
   ],
   "17": [
-   4,
-   "Decree: ‘utilitarianism and liberalism… competitiveness and cooperation*’"
+   3.5,
+   "Teacher’s review (20-10-2026)"
   ],
   "18": [
    5,
    "PAU reading: What Is Enlightenment?"
   ],
   "19": [
-   4,
-   "Decree: ‘Kant’s critical philosophy*’"
+   5,
+   "Teacher’s review (20-10-2026)"
   ],
   "20": [
    4,
    "Decree: ‘Kantian ethics versus utilitarianism*’"
   ],
   "21": [
-   4,
-   "Decree: ‘the philosophers of suspicion*’"
+   5,
+   "PAU reading: Ecce Homo (Nietzsche) and Marx; teacher’s review (20-10-2026)"
   ],
   "22": [
    4,
    "Decree: ‘Frankfurt School*’ and ‘Hannah Arendt*’"
   ],
   "23": [
-   5,
-   "PAU reading: Ecce Homo"
+   3,
+   "Teacher’s review (20-10-2026): the PAU reading of Nietzsche is studied in topic 21"
   ],
   "24": [
    3,
    "Decree, without an asterisk"
   ],
   "25": [
-   4,
-   "Decree: ‘María Zambrano*’; essay in the 2026 PAU (open project)"
+   3.5,
+   "Teacher’s review (20-10-2026)"
   ],
   "26": [
    5,
-   "PAU reading: The Second Sex"
+   "PAU reading: The Second Sex (Simone de Beauvoir)"
   ],
   "27": [
-   4,
-   "Decree: challenges of the 21st century* (one author from the list is enough)"
+   3,
+   "Teacher’s review (20-10-2026)"
+  ],
+  "hf-ap": [
+   5,
+   "Teacher’s review (20-10-2026): Plato, PAU reading (Republic VII)"
+  ],
+  "hf-aa": [
+   5,
+   "Teacher’s review (20-10-2026): Aristotle, the complete system"
+  ],
+  "hf-descartes-makro": [
+   5,
+   "Teacher’s review (20-10-2026): PAU reading (Discourse on the Method II-IV)"
   ]
  },
  "glosarioGrupos": {

@@ -1251,7 +1251,7 @@ const GLOSARIO = [
   "imp": 5,
   "impg": 1,
   "t": "The problem of the two worlds",
-  "et": "Aristotle criticises the Platonists for ‘separating’ (ἐχώρισαν) the Ideas from things (*Metaphysics* M 4); hence the name χωρισμός (*khorismós*), ‘separation’, by which the problem is known.",
+  "et": "Aristotle criticises the Platonists for ‘separating’ (ἐχώρισαν, *ekhórisan*) the Ideas from things (*Metaphysics* M 4); hence the name χωρισμός (*khorismós*), ‘separation’, by which the problem is known.",
   "area": "Metaphysics",
   "bloque": "A",
   "unidad": "AA",
@@ -2695,7 +2695,7 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Plato",
-  "def": "A deep change in one’s way of thinking and living, not in a single opinion. In Plato it is the ‘turning around’ of the whole soul: education does not put sight into the soul, which already has it, but turns it as a whole from what changes towards what is, like the prisoner who leaves the cave (*Republic* VII, 518c-d). Christianity makes it repentance and conversion (‘repent’, μετανοεῖτε, Mark 1:15), and Augustine tells it in the *Confessions*. In rhetoric, ‘metanoia’ is also the figure that corrects out loud what one has just said (‘it’s good; no, excellent’).",
+  "def": "A deep change in one’s way of thinking and living, not in a single opinion. In Plato it is the ‘turning around’ of the whole soul: education does not put sight into the soul, which already has it, but turns it as a whole from what changes towards what is, like the prisoner who leaves the cave (*Republic* VII, 518c-d). Christianity makes it repentance and conversion (‘repent’, μετανοεῖτε, *metanoeîte*, Mark 1:15), and Augustine tells it in the *Confessions*. In rhetoric, ‘metanoia’ is also the figure that corrects out loud what one has just said (‘it’s good; no, excellent’).",
   "ilustre": [
    "platon",
    "agustin"
