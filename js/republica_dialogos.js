@@ -766,6 +766,16 @@ const REP_DIAL = {
   "hudReg": "Regime",
   "elegir": "Choose a version",
   "accionesMax": "Actions (max. 3 this turn)",
+  "clasesB": [
+   "Rulers",
+   "Auxiliaries",
+   "Producers"
+  ],
+  "rosterB": [
+   "🦉 Rulers: σοφία (*sophía*) <span class=\"rep-floor\">all three virtues ≥4 · few, those who deliberate about the whole</span>",
+   "🛡️ Auxiliaries: ἀνδρεία (*andreía*) <span class=\"rep-floor\">courage and moderation ≥4 · they keep right opinion</span>",
+   "🌾 Producers: σωφροσύνη (*sophrosýne*) <span class=\"rep-floor\">moderation ≥4 · they feed the city</span>"
+  ],
   "elegirIntro": "Two games with the same engine and different focuses. You can switch whenever you like.",
   "jugarEsta": "Play this version →",
   "cambiar": "↺ Change version",
