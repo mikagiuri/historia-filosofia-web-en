@@ -53,6 +53,11 @@ const PISTAS = [
       "boton": "I need to see the outline",
       "etiqueta": "Outline of the allegory",
       "titulo": "What each thing is",
+      "glosario": [
+       "g-el-mito-de-la-caverna",
+       "g-doxa",
+       "g-episteme"
+      ],
       "definicion": [
        "<strong>Chained prisoners</strong> → human beings without philosophical education.",
        "<strong>Shadows on the wall</strong> → sensible appearances: opinion (<em>doxa</em>).",
@@ -91,6 +96,11 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "The two worlds",
+      "glosario": [
+       "g-mundo-sensible",
+       "g-teoria-de-las-ideas",
+       "g-dualismo-ontologico"
+      ],
       "definicion": [
        "Plato separates the <strong>sensible world</strong> (changing, multiple, grasped by the senses) from the <strong>intelligible world</strong>, or world of the Ideas (eternal, unchanging, grasped by reason).",
        "The sensible is only an imperfect copy of the Ideas, just as shadows are copies of objects.",
@@ -171,6 +181,10 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Knowledge and politics",
       "titulo": "The philosopher’s return",
+      "glosario": [
+       "g-el-bien",
+       "g-dialectica-ap"
+      ],
       "definicion": [
        "The freed man goes back and, used to the light, sees badly in the dark: the prisoners laugh at him and, if they could, would kill him. The one who returns is <strong>Socrates</strong>, and the prisoners are his <strong>fellow Athenian citizens</strong>, who condemned him to death in 399 BC.",
        "For Plato, governing well requires knowing the Idea of the Good. That is why, in the just city, the <strong>philosophers</strong> rule, even though they would rather stay and contemplate.",
@@ -268,6 +282,9 @@ const PISTAS = [
       "boton": "I need to see the steps",
       "etiqueta": "The path of doubt",
       "titulo": "Three reasons to doubt",
+      "glosario": [
+       "g-el-genio-maligno"
+      ],
       "definicion": [
        "<strong>The senses</strong>: they sometimes deceive us → ordinary perception is not entirely reliable.",
        "<strong>Dreams</strong>: we cannot always tell waking from dreaming with certainty → the external world may be doubtful.",
@@ -308,6 +325,10 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Methodical doubt",
+      "glosario": [
+       "g-duda-metodica",
+       "g-ideas-claras-y-distintas"
+      ],
       "definicion": [
        "<strong>Methodical doubt</strong> consists in treating as false, provisionally, everything that can be doubted.",
        "It is not <strong>scepticism</strong>: the sceptic stays in doubt; Descartes uses it as a tool to find a firm foundation.",
@@ -388,6 +409,11 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "The first certainty",
       "titulo": "The cogito",
+      "glosario": [
+       "g-cogito",
+       "g-res-cogitans",
+       "g-la-garantia-de-dios"
+      ],
       "definicion": [
        "Even if everything else is doubtful, there is something I cannot deny: that I am doubting. And doubting is thinking.",
        "If I think, I exist as a thing that thinks: ‘<strong>I think, therefore I am</strong>’ (<em>cogito, ergo sum</em>).",
@@ -485,6 +511,9 @@ const PISTAS = [
       "boton": "I need to read a text",
       "etiqueta": "Supporting text",
       "titulo": "Read and look for the decisive opposition",
+      "glosario": [
+       "g-deber"
+      ],
       "cita": {
        "texto": "‘An action done from duty has its moral worth, not in the purpose to be attained by it, but in the maxim by which it is decided.’",
        "fuente": "Kant, Groundwork of the Metaphysics of Morals, ch. I"
@@ -524,6 +553,11 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Categorical imperative",
+      "glosario": [
+       "g-imperativo-categorico",
+       "g-imperativo-hipotetico",
+       "g-autonomia"
+      ],
       "definicion": [
        "It is a moral command that binds <strong>unconditionally</strong>: it does not depend on our wanting to achieve a particular end.",
        "A hypothetical imperative takes the form ‘if you want X, you must do Y’. The categorical one commands acting from duty, even if the action does not benefit us. Example: ‘Do not lie’ holds even when lying would benefit you.",
@@ -604,6 +638,10 @@ const PISTAS = [
       "boton": "Show the formulation",
       "etiqueta": "Formulation of the universal law",
       "titulo": "The formulation",
+      "glosario": [
+       "g-imperativo-categorico",
+       "g-a-priori"
+      ],
       "cita": {
        "texto": "‘Act only according to that maxim whereby you can at the same time will that it should become a universal law.’",
        "fuente": "Kant, Groundwork of the Metaphysics of Morals, ch. II"
@@ -705,6 +743,9 @@ const PISTAS = [
       "boton": "I need to read a text",
       "etiqueta": "Supporting text",
       "titulo": "Read the formula and notice two expressions",
+      "glosario": [
+       "g-imperativo-categorico"
+      ],
       "cita": {
        "texto": "‘Act in such a way that you treat humanity, whether in your own person or in the person of any other, always at the same time as an end and never merely as a means.’",
        "fuente": "Kant, Groundwork of the Metaphysics of Morals, ch. II"
@@ -744,6 +785,10 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Price and dignity",
+      "glosario": [
+       "g-dignidad",
+       "g-autonomia"
+      ],
       "definicion": [
        "For Kant, things have a <strong>price</strong>: they can be replaced by something equivalent. Persons have <strong>dignity</strong>: a value that admits no equivalent and no exchange.",
        "Dignity comes from <strong>autonomy</strong>: the rational being is capable of giving itself the moral law. That is why it is an end in itself and not a mere instrument.",
@@ -824,6 +869,10 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "The two tests, applied to the same case",
       "titulo": "The false promise, seen twice",
+      "glosario": [
+       "g-deber",
+       "g-imperativo-categorico"
+      ],
       "definicion": [
        "<strong>Universal law.</strong> If everyone made false promises when it suited them, nobody would believe promises any more: the maxim destroys itself when universalised.",
        "<strong>Humanity.</strong> The person who receives the false promise cannot consent to a plan that consists in deceiving them: they are used only as a means.",

@@ -3152,5 +3152,324 @@ const JUEGO_ARIS = {
   "Is it worth being incorruptible if that may cost you your life?",
   "What distinguishes the political, the discursive and the contemplative life? Which, according to Aristotle, is the happiest?",
   "Why is phronesis (prudence) so important for living well?"
- ]
+ ],
+ "juzgar": {
+  "causas": {
+   "fidelidad": {
+    "nombre": "For not betraying their principles",
+    "desc": "dies defending justice or truth, or for refusing to answer one injustice with another"
+   },
+   "temeridad": {
+    "nombre": "For taking needless risks",
+    "desc": "dies seeking a danger that could have been avoided"
+   },
+   "ambicion": {
+    "nombre": "Out of ambition",
+    "desc": "dies pursuing power or glory"
+   },
+   "enemigos": {
+    "nombre": "At the hands of their enemies",
+    "desc": "the enemies they have built up end their life (a trial or an assassination)"
+   },
+   "salud": {
+    "nombre": "From exhaustion",
+    "desc": "their body can take no more"
+   },
+   "ruina": {
+    "nombre": "In ruin",
+    "desc": "loses everything and is shut out of the life of the city"
+   }
+  },
+  "teorias": [
+   {
+    "id": "aristoteles",
+    "nombre": "Aristotle",
+    "sub": "as in the game",
+    "w": {
+     "car": 2,
+     "phr": 1,
+     "sal": 1,
+     "hac": 1,
+     "rep": 1,
+     "ene": 0
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 8,
+     "hac": 8,
+     "rep": 6,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 0.6,
+     "temeridad": 0.35,
+     "ambicion": 0.4,
+     "enemigos": 0.5,
+     "salud": 0.5,
+     "ruina": 0.5
+    },
+    "txt": "Happiness is activity of the soul in accordance with virtue, and, what is more, “in a complete life: one swallow does not make a summer” (Nicomachean Ethics I, 7). But it needs external goods: someone who is very ugly, of low birth, or solitary and childless is hardly likely to be happy (I, 8), and no one calls happy a man who ends in great misfortunes, like Priam (I, 9). Here that becomes a sum of character and goods with caps: on this reading, beyond a certain point more wealth adds no happiness. A life cut short is not a complete life, although not every death weighs the same: courage is the mean between cowardice and rashness (III, 7), and dying nobly is not the same as dying recklessly."
+   },
+   {
+    "id": "estoicos",
+    "nombre": "Stoics",
+    "sub": "virtue alone",
+    "w": {
+     "car": 3,
+     "phr": 2,
+     "sal": 0,
+     "hac": 0,
+     "rep": 0,
+     "ene": 0
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 12,
+     "hac": 12,
+     "rep": 12,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 1,
+     "temeridad": 0.8,
+     "ambicion": 0.7,
+     "enemigos": 1,
+     "salud": 1,
+     "ruina": 1
+    },
+    "txt": "Virtue is the only good; life, health, wealth and fame are neither goods nor evils but “indifferents” (Diogenes Laertius VII, 101-103; Epictetus, Handbook 1). The sage is happy even if he loses everything, and death takes nothing from him either: what matters is how one lives while one lives. On this reading, only dying through a passion, such as rashness or ambition, counts against a life, because that does reveal a mistaken judgement."
+   },
+   {
+    "id": "epicuro",
+    "nombre": "Epicurus",
+    "sub": "a tranquil pleasure",
+    "w": {
+     "car": 1,
+     "phr": 1,
+     "sal": 2,
+     "hac": 0.5,
+     "rep": 0,
+     "ene": -1
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 10,
+     "hac": 4,
+     "rep": 12,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 1,
+     "temeridad": 0.9,
+     "ambicion": 0.8,
+     "enemigos": 1,
+     "salud": 1,
+     "ruina": 1
+    },
+    "txt": "The pleasure we seek is freedom from pain in the body and from trouble in the soul (Letter to Menoeceus, in Diogenes Laertius X, 131), and death is nothing to us (X, 124). What is necessary is enough: more wealth brings no more pleasure. On this reading, fame and enemies bring disturbance, which is why enemies count against a life."
+   },
+   {
+    "id": "spinoza",
+    "nombre": "Spinoza",
+    "sub": "power and understanding",
+    "w": {
+     "car": 1,
+     "phr": 2,
+     "sal": 1,
+     "hac": 0.5,
+     "rep": 0.5,
+     "ene": -1
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 10,
+     "hac": 6,
+     "rep": 6,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 1,
+     "temeridad": 0.7,
+     "ambicion": 0.7,
+     "enemigos": 1,
+     "salud": 1,
+     "ruina": 1
+    },
+    "txt": "We call good what serves to preserve our being, that is, what increases our power of acting (Ethics IV, 8, proof). The greatest contentment of mind arises from the third kind of knowledge (V, 27), and blessedness is not the reward of virtue but virtue itself (V, 42). Nothing is more useful to man than man (IV, 18, scholium), and hatred can never be good (IV, 45). The free man thinks of nothing less than of death (IV, 67): on this reading, a short life is not worse for being short. But how one dies is not indifferent: the free man shows the same strength of mind in a timely retreat as in fighting (IV, 69, corollary), so dying through rashness or carried away by ambition reveals a passion, not freedom."
+   },
+   {
+    "id": "trasimaco",
+    "nombre": "Thrasymachus",
+    "sub": "power",
+    "w": {
+     "car": 0,
+     "phr": 0.5,
+     "sal": 1,
+     "hac": 2,
+     "rep": 2,
+     "ene": 0
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 12,
+     "hac": 12,
+     "rep": 12,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 0.3,
+     "temeridad": 0.6,
+     "ambicion": 0.9,
+     "enemigos": 0.7,
+     "salud": 0.7,
+     "ruina": 0.3
+    },
+    "txt": "Justice is the advantage of the stronger (Plato, Republic I, 338c), and the happiest man is the one who commits the most complete injustice, the tyrant (344a-c). He calls justice “a most noble simplicity” (348c). On this reading, character does not count, enemies are the price of success, and dying for justice would be the height of folly."
+   }
+  ],
+  "mia": {
+   "nombre": "Your theory",
+   "sub": "edit it",
+   "txt": "Move the weights and the caps: what counts in a good life, and how far? A negative weight subtracts (enemies, for example)."
+  },
+  "estilos": [
+   {
+    "id": "prudente",
+    "nombre": "Prudent",
+    "w": {
+     "phr": 2,
+     "car": 1.5,
+     "sal": 1,
+     "hac": 0.5,
+     "rep": 0.5,
+     "ene": -1.5
+    },
+    "muerte": 20
+   },
+   {
+    "id": "ambicioso",
+    "nombre": "Ambitious",
+    "w": {
+     "rep": 2,
+     "hac": 2,
+     "car": 0,
+     "phr": 0.3,
+     "sal": 0.5,
+     "ene": -0.2
+    },
+    "muerte": 3
+   },
+   {
+    "id": "incorruptible",
+    "nombre": "Incorruptible",
+    "w": {
+     "car": 3,
+     "phr": 1,
+     "rep": 0.2,
+     "hac": 0,
+     "sal": 0.3,
+     "ene": 0
+    },
+    "muerte": 1
+   },
+   {
+    "id": "epicureo",
+    "nombre": "Tranquil",
+    "w": {
+     "sal": 2,
+     "ene": -2,
+     "phr": 1,
+     "car": 0.5,
+     "hac": 0.5,
+     "rep": -0.5
+    },
+    "muerte": 10
+   },
+   {
+    "id": "azar",
+    "nombre": "At random",
+    "w": null,
+    "muerte": 0
+   }
+  ],
+  "preguntas": [
+   "Find a life that Thrasymachus would call excellent and the Stoics a failure. What does it have? Whom do you agree with?",
+   "Aristotle requires a complete life. Compare two lives cut short for different reasons (for not betraying their principles, through rashness, out of ambition): should they weigh the same? What would a Stoic say? And Spinoza?",
+   "Why do you think the prudent life does well in almost every theory? Is it a feature of the game or a thesis of Aristotle's about phrónesis?",
+   "Build “your theory” and defend it: what weighs most in a good life, and what does not count?",
+   "The weights you see are a debatable interpretation of each philosopher. Change one that seems unfair to you and explain why."
+  ],
+  "ui": {
+   "modoJugar": "Play",
+   "modoJuzgar": "Judge the life",
+   "lede": "Live a Greek life with the Eudaimonia engine and then see how Aristotle, the Stoics, Epicurus, Spinoza and Thrasymachus would judge it. The same life can be a success for some and a failure for others: the formula for happiness is a philosophical thesis too.",
+   "aviso": "The weights, caps and factors for each school are this laboratory's interpretation, made so that they can be compared, not the authors' doctrine: none of them put numbers on happiness. Argue about them and change them in “Your theory”.",
+   "t1": "1 · Live a life",
+   "personaje": "Character",
+   "jugarYo": "Play it myself",
+   "o": "or",
+   "auto": "Live it automatically",
+   "conEstilo": "with a style",
+   "t2": "2 · Life as a trajectory",
+   "t2d": "Each variable, round by round. Run your finger or the mouse over a graph to see which decision was taken at each moment. The shaded band is adulthood.",
+   "t3": "3 · The weights of happiness",
+   "t4": "4 · Compare lives",
+   "t4d": "Save lives and compare them: each theory picks its best life (★). Do they agree?",
+   "guardar": "Save this life",
+   "diez": "Add 10 random automatic lives",
+   "vaciar": "Clear",
+   "paraPensar": "To think about in class",
+   "virtud": "Virtue",
+   "debilidad": "Weakness",
+   "ronda": "round",
+   "bloqueada": "(your character will not allow it)",
+   "sinCambios": "no change",
+   "tuDecision": "Your decision:",
+   "saleBien": "It goes well:",
+   "saleMal": "It goes badly:",
+   "fortuna": "Fortune:",
+   "peligro": "Danger:",
+   "muerte": "Death:",
+   "pasaTiempo": "Time passes:",
+   "seguir": "Continue",
+   "verFinal": "See the ending",
+   "jugadaPorTi": "played by you",
+   "muereAntes": "Dies before their time",
+   "acabaRuina": "Ends in ruin",
+   "completa": "Lives a complete life",
+   "decisiones": "{n} decisions",
+   "conEstiloX": "(“{e}” style)",
+   "bajaVer": "Scroll down to see its trajectory and how each theory judges it.",
+   "puntoPartida": "Starting point:",
+   "rondaX": "Round {n} ({e}):",
+   "deA": "{k}: from {a} to {b}",
+   "juegoDice": "The game itself gives it {n} points of eudaimonia: “{b}”. Below, the same life judged by five theories and by yours (from 0 to 100 %). Click one to see its weights.",
+   "copiar": "Copy these weights into “Your theory” to change them",
+   "variable": "Variable",
+   "peso": "Weight",
+   "tope": "Cap",
+   "truncada": "If the life is cut short: why it is cut short",
+   "causa": "Cause",
+   "factor": "Factor",
+   "multiplica": "The score is multiplied by",
+   "estaVida": "← this life",
+   "pesoDe": "Weight of {k}",
+   "topeDe": "Cap of {k}",
+   "factorDe": "Factor: {k}",
+   "comoCalcula": "How it is calculated: the sum of weight × value (up to the cap) for each variable, divided by the highest possible total. Negative weights subtract.",
+   "curvaT": "Happiness according to {t}, round by round",
+   "curvaAria": "Happiness according to {t} over the whole life: it ends at {p} %",
+   "caida": "The final drop is what this theory takes off for the way the life was cut short ({c}: ×{f}).",
+   "soloFinal": "Aristotle would say that only the end counts: no one can be called happy until we see their whole life.",
+   "rondaN": "round {n}",
+   "vidaCol": "Life",
+   "quitar": "Remove this life",
+   "vacio": "No lives saved yet. Live one and press “Save this life”, or add ten automatic ones."
+  }
+ }
 };
