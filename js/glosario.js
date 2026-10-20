@@ -82,18 +82,6 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "imp": 3,
-  "impg": 12,
-  "t": "Alexandria",
-  "id": "g-alejandria",
-  "area": "History",
-  "bloque": "A",
-  "unidad": "A10",
-  "tema": "Hellenism",
-  "def": "It was one of the main centres of Hellenistic learning. The Library, the Museum and the networks of scholars organised Greek culture within a wider world."
- },
- {
-  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Alienation",
@@ -5210,21 +5198,6 @@ const GLOSARIO = [
   "ilustre": [
    "descartes",
    "leibniz"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
-  "t": "Hipparchia of Maroneia",
-  "id": "g-hiparquia-de-maronea",
-  "area": "History",
-  "bloque": "A",
-  "unidad": "A10",
-  "tema": "Hellenism",
-  "def": "Cynic philosopher (4th-3rd century BC), one of the very few women philosophers of antiquity of whom there is any record. She gave up wealth to live according to nature alongside Crates, applying the Cynic ideal to her condition as a woman too.",
-  "ilustre": [
-   "hiparquia"
   ]
  },
  {

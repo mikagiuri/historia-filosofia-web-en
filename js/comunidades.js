@@ -456,6 +456,40 @@ const COMUNIDADES = [
   ]
  },
  {
+  "id": "museo-alejandria",
+  "cas_ilu": [
+   "hipatia"
+  ],
+  "nombre": "The Museum and Library of Alexandria",
+  "fechas": "Alexandria, c. 300 BC – 4th–5th c. AD",
+  "cas_epoca": "ant",
+  "lugar": "Inside the royal palace of the Ptolemies, next to the harbour of Alexandria, in Egypt. The Museum (Mouseion, “house of the Muses”) was a research institution with study rooms, a common dining hall, a walkway and gardens; beside it, the great Library gathered the papyrus scrolls. A second, more accessible library was kept in the Serapeum, the temple of the god Serapis.",
+  "hoy": "Nothing remains of the ancient buildings: their exact location is debated and much of the Ptolemaic Alexandria now lies under water or beneath the modern city. In 2002 the Bibliotheca Alexandrina was opened by the sea, recalling the ancient one without being its continuation.",
+  "miembros": "It was founded by the first Ptolemies (Ptolemy I and Ptolemy II), following, according to tradition, the advice of Demetrius of Phalerum. It was not a school with a doctrine, but a centre of scholars paid by the king: the mathematician Euclid, Eratosthenes (who measured the circumference of the Earth and directed the Library), the astronomer Aristarchus of Samos (who proposed that the Earth revolves around the Sun), the physicians Herophilus and Erasistratus, and the poet and librarian Callimachus, who arranged the holdings in the Pinakes, the first great catalogue. Centuries later, already in Roman times, the philosopher and mathematician Hypatia taught in Alexandria.",
+  "vida": "The scholars lived on the royal stipend and ate together, devoted to copying, correcting and commenting on texts and to research in mathematics, astronomy, geography and medicine. To fill the Library, the Ptolemies bought scrolls throughout the Mediterranean and, according to Galen, had the books carried on ships that called at the port seized in order to copy them.",
+  "ideas": "The idea of gathering in a single place all the written knowledge of the world and studying it methodically. Alexandria turned knowledge into collective, organized work, sustained by political power.",
+  "cita": {
+   "t": "A big book is a big evil.",
+   "ref": "Saying attributed to Callimachus, librarian of Alexandria, who preferred short works (fragment 465 Pfeiffer)"
+  },
+  "fin": "The Library did not disappear in a single day. It suffered damage during Julius Caesar's war in Alexandria (48 BC) and declined over the centuries as the Ptolemies lost power; the Serapeum was destroyed in AD 391 on the orders of bishop Theophilus. When the Arabs took the city in 642, almost nothing of the great Library remained.",
+  "trampa": "It is often said that the Library burned down all at once — through the fault of Caesar, of Christianity or of the Arabs — and the figure of 700,000 scrolls is repeated. Historians qualify this: the loss was slow and had many causes, the ancient figures are unreliable, and the famous story of the caliph Omar ordering the books to be burned appears for the first time more than five hundred years later, in a 13th-century author.",
+  "pregunta": "Can a single place hold all the knowledge in the world? What is lost when a library is lost?",
+  "temas": [
+   "hf-helenismo"
+  ],
+  "fuentes": [
+   {
+    "t": "Wikipedia: Library of Alexandria",
+    "url": "https://es.wikipedia.org/wiki/Biblioteca_de_Alejandr%C3%ADa"
+   },
+   {
+    "t": "Wikipedia: Museum of Alexandria",
+    "url": "https://es.wikipedia.org/wiki/Museo_de_Alejandr%C3%ADa"
+   }
+  ]
+ },
+ {
   "id": "casa-sabiduria",
   "cas_ilu": [],
   "nombre": "The House of Wisdom (Bayt al-Hikma) in Baghdad",
