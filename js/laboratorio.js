@@ -7,6 +7,7 @@ const LAB = {
   "mesaMundo": "World of shapes",
   "mesaRelaciones": "Relations",
   "mesaDemos": "Guided proofs",
+  "mesaSpinoza": "Spinoza (in development)",
   "intro": "Tables for doing logic with your hands: decipher an unknown connective, grow truth trees, build worlds where sentences are true, draw relations and follow famous proofs step by step.",
   "verdadera": "true",
   "falsa": "false",
@@ -224,6 +225,29 @@ const LAB = {
   "menCuatro": "four squares of area 4",
   "menAria1": "Square with sides of 2 feet divided into 4 small squares",
   "menAria2": "Square with sides of 4 feet: it contains four squares like the original",
+  "mesaKant": "Kant's judgements",
+  "kLede": "For Kant, everything the understanding does comes down to judging (<em>Critique of Pure Reason</em>, A69/B94). That is why he arranges the forms of judgement under four headings of three moments each (A70/B95) and derives from them, one by one, the twelve categories (A80/B106). Click a row to see an example, how it is written today and at which table in the Corner you can work on it.",
+  "kJuicio": "Judgement",
+  "kCategoria": "Category",
+  "kEjemplo": "Example",
+  "kHoy": "In present-day logic",
+  "kQueHace": "What the category does",
+  "kTrabajala": "Work on it at:",
+  "kElige": "Click a row in the table.",
+  "kTercera": "The third category under each heading arises from combining the first two (B110-111): {t}",
+  "kParejaDudosa": "In quantity, Kant pairs the two tables in order (universal-unity, singular-totality), and specialists debate whether this is an oversight.",
+  "kModal": "Modal logic (□, ‘it is necessary that’; ◇, ‘it is possible that’) is not in the Corner: it was built by C. I. Lewis (1918) and Saul Kripke (1959-1963).",
+  "kExplo": "More in the History of Philosophy exploration ‘From judgements to categories’",
+  "kEjTit": "Label it",
+  "kEjAyuda": "According to Kant, every judgement has one form from each heading at the same time. Choose the one for each heading and check. Look at the form of the sentence, not at whether it is true.",
+  "kComprobar": "Check",
+  "kSiguiente": "Another judgement",
+  "kFrase": "Judgement {n} of {m}",
+  "kBien": "Correct.",
+  "kMal": "No: it is {x}.",
+  "kNoSePide": "not asked here",
+  "kTodas": "<strong>All correct!</strong>",
+  "kRevisa": "Check the marked ones again.",
   "menAria3": "Square with sides of 3 feet with 9 small squares",
   "menAria4": "Four 2-foot squares with their diagonals, which form a tilted square"
  },
@@ -443,6 +467,217 @@ const LAB = {
   "Reflexive and antisymmetric, but not transitive",
   "Symmetric and asymmetric at the same time, with at least one arrow"
  ],
+ "kant": {
+  "titulos": [
+   {
+    "nom": "Quantity",
+    "preg": "how many are we talking about?",
+    "momentos": [
+     {
+      "juicio": "Universal",
+      "cat": "Unity",
+      "ej": "All metals are conductors.",
+      "letras": "M: metal · C: conductor",
+      "hace": "Taking something as one",
+      "nota": "Precision is gained: ‘for anything, if it is a metal, it is a conductor’. It does not assert that metals exist."
+     },
+     {
+      "juicio": "Particular",
+      "cat": "Plurality",
+      "ej": "Some metals are magnetic.",
+      "letras": "M: metal · G: magnetic",
+      "hace": "Taking something as many",
+      "nota": "It asserts that at least one exists, and nothing more: ‘some’ does not mean ‘not all’."
+     },
+     {
+      "juicio": "Singular",
+      "cat": "Totality",
+      "ej": "This metal is copper.",
+      "letras": "a: this metal · C: copper",
+      "hace": "Taking many as a whole",
+      "nota": "Kant was right. Traditional logic treated the singular as a universal; present-day logic writes it differently, without a quantifier, with the name of an individual (a)."
+     }
+    ]
+   },
+   {
+    "nom": "Quality",
+    "preg": "is something affirmed or denied?",
+    "momentos": [
+     {
+      "juicio": "Affirmative",
+      "cat": "Reality",
+      "ej": "The soul is mortal.",
+      "letras": "a: the soul · M: mortal",
+      "hace": "Something being given",
+      "nota": "No change."
+     },
+     {
+      "juicio": "Negative",
+      "cat": "Negation",
+      "ej": "The soul is not mortal.",
+      "letras": "a: the soul · M: mortal",
+      "hace": "Something not being given",
+      "nota": "No change."
+     },
+     {
+      "juicio": "Infinite",
+      "cat": "Limitation",
+      "ej": "The soul is non-mortal.",
+      "letras": "a: the soul · M: mortal",
+      "hace": "The real bounded by a negation",
+      "nota": "The distinction is lost. In predicate logic, ‘non-mortal’ and ‘is not mortal’ are written the same way. Only term logics, closer to Aristotle, distinguish negating a predicate from negating a sentence."
+     }
+    ]
+   },
+   {
+    "nom": "Relation",
+    "preg": "how are the parts joined?",
+    "momentos": [
+     {
+      "juicio": "Categorical",
+      "cat": "Substance and accident",
+      "ej": "Water is liquid.",
+      "letras": "a: water · L: liquid",
+      "hace": "What persists beneath what changes",
+      "nota": "The form ‘S is P’ splits in two: predicating something of an individual, or relating two classes."
+     },
+     {
+      "juicio": "Hypothetical",
+      "cat": "Cause and effect",
+      "ej": "If there is perfect justice, the obstinately wicked person will be punished.",
+      "letras": "p: there is perfect justice · q: the obstinately wicked person will be punished",
+      "hace": "That which, once posited, is followed by something else according to a rule",
+      "nota": "As in Kant, it asserts neither p nor q: only their connection. But the present-day ‘→’ is weaker: it is true whenever p is false. Kant's causality is not the connective, but necessary connection in time."
+     },
+     {
+      "juicio": "Disjunctive",
+      "cat": "Community (reciprocal action)",
+      "ej": "The world exists through blind chance, or through inner necessity, or through an external cause.",
+      "letras": "p: through blind chance · q: through inner necessity · r: through an external cause",
+      "hace": "Things that exist at the same time and act on one another",
+      "nota": "The present-day ‘∨’ is inclusive. To say what Kant says, that one and only one of the alternatives is true, you have to add that no two of them hold at once."
+     }
+    ]
+   },
+   {
+    "nom": "Modality",
+    "preg": "with what force is it asserted?",
+    "momentos": [
+     {
+      "juicio": "Problematic",
+      "cat": "Possibility and impossibility",
+      "ej": "It may rain.",
+      "letras": "p: it is raining",
+      "hace": "What fits the conditions of experience",
+      "nota": "It moves into modal logic, with its own rules: ◇p is equivalent to ¬□¬p (‘it is not necessary that not’)."
+     },
+     {
+      "juicio": "Assertoric",
+      "cat": "Existence and non-existence",
+      "ej": "It is raining.",
+      "letras": "p: it is raining",
+      "hace": "What is actually given in perception",
+      "nota": "No operator: it is the plain assertion."
+     },
+     {
+      "juicio": "Apodictic",
+      "cat": "Necessity and contingency",
+      "ej": "It must rain.",
+      "letras": "p: it is raining",
+      "hace": "What cannot fail to be given, according to the laws of experience",
+      "nota": "The meaning changes. For Kant, modality adds nothing to the content of the judgement; in modal logic, □ is part of the content and changes its truth conditions."
+     }
+    ]
+   }
+  ],
+  "terceras": "totality is plurality considered as unity; limitation, reality combined with negation; community, the causality of substances on one another, reciprocally; and necessity, existence given by possibility itself.",
+  "ejercicio": [
+   {
+    "txt": "All bodies are heavy.",
+    "r": [
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Socrates is mortal.",
+    "r": [
+     2,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Some metals are not magnetic.",
+    "r": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "No metal is transparent.",
+    "r": [
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Some planets may have liquid water.",
+    "r": [
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "txt": "The soul is non-mortal.",
+    "r": [
+     -1,
+     2,
+     0,
+     1
+    ],
+    "nota": "The example is Kant's: it affirms, but only places the soul in the unlimited remainder of what is not mortal."
+   },
+   {
+    "txt": "If there is perfect justice, the obstinately wicked person will be punished.",
+    "r": [
+     -1,
+     -1,
+     1,
+     -1
+    ],
+    "nota": "This one is also Kant's (A73/B98): it joins two judgements without asserting either of them."
+   },
+   {
+    "txt": "The world exists through blind chance, or through inner necessity, or through an external cause.",
+    "r": [
+     -1,
+     -1,
+     2,
+     -1
+    ],
+    "nota": "Another of Kant's examples (A73-74/B99): the alternatives exclude one another and together cover everything."
+   },
+   {
+    "txt": "Necessarily, every change has a cause.",
+    "r": [
+     0,
+     0,
+     0,
+     2
+    ]
+   }
+  ]
+ },
  "demos": [
   {
    "id": "raiz2",

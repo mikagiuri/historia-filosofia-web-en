@@ -1,5 +1,5 @@
 // Generado por web_i18n/i18n_rebuild.js (en) a partir de web/js/biografias_pies.js. No editar a mano: editar la memoria tm/en.json y regenerar.
-const ILUSTRES_PIES = {
+const BIOGRAFIAS_PIES = {
  "confucio": "Confucius Tang Dynasty · Wu Daozi (attributed), 685-758 · Public domain",
  "meliso": "Melissus of Samos (imaginary portrait, 1493) · Hartmann Schedel, Nuremberg Chronicle · Public domain",
  "leucipo": "Leucippus (imaginary portrait, 1652-1653) · Luca Giordano · Public domain",

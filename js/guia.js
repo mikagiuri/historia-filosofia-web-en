@@ -373,7 +373,7 @@ const GUIA = {
     {
      "nombre": "Biographies",
      "texto": "The biographies of the thinkers who appear in the theory: who they were, what they thought and in which topics we study them. At the top, the Persecuted buttons (philosophers and scientists whose way of thinking cost them their life, their freedom or their homeland) and Communities (schools and groups of thinkers).",
-     "view": "ilustres"
+     "view": "biografias"
     },
     {
      "nombre": "Adages",
