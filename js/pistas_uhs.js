@@ -494,6 +494,255 @@ const PISTAS = [
   }
  },
  {
+  "id": "aristoteles-etica",
+  "ilustre": "aristoteles",
+  "subject": "hf",
+  "tema": "Topic 8 · Aristotle: ethics",
+  "unidad": "hf-etica",
+  "materia": "Philosophy · Aristotle",
+  "titulo": "What is happiness for Aristotle, and why is virtue a mean?",
+  "lede": "The ethics of the <em>Nicomachean Ethics</em>: an end for a whole life and a character that is shaped by practice. Ask only for the hints you need.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Recall",
+    "etiqueta": "Opening question",
+    "pregunta": "What is happiness (<em>eudaimonía</em>) for Aristotle?",
+    "repaso": [
+     "Have I said that happiness is the ultimate end, what is sought for its own sake and not for the sake of something else?",
+     "Have I explained the function argument (érgon): the characteristic function of human beings is rational activity?",
+     "Have I said that it is an activity in accordance with virtue over a whole life, and that it also needs some external goods?"
+    ],
+    "intro": [
+     "Everything we do, we do for the sake of something: we study to pass, we pass to get a job… Aristotle asks where that chain ends. Try to answer before asking for help."
+    ],
+    "pistas": [
+     "To get you started: every action aims at an <strong>end</strong>. But there cannot be an infinite chain of ‘for the sake of’: there must be an end that is sought <strong>for its own sake</strong>.",
+     "Everyone gives it the same name: <strong>happiness</strong> (<em>eudaimonía</em>). The problem is what it consists in: pleasure, honours, wealth…",
+     "Aristotle answers with the <strong>function</strong> (<em>érgon</em>): a good flute player is one who plays the flute well. What do human beings do that plants and animals do not? <strong>Live according to reason</strong>.",
+     "That is why happiness is an <strong>activity of the soul in accordance with virtue</strong>, not a passing state, and moreover ‘over a whole life’: one swallow does not make a spring."
+    ],
+    "comprobacion": {
+     "pregunta": "According to Aristotle, what is happiness?",
+     "opciones": [
+      [
+       "An activity of the soul in accordance with virtue, sustained over a whole life.",
+       true
+      ],
+      [
+       "The pleasure we feel when we get what we desire.",
+       false,
+       "Pleasure accompanies good activity, but happiness is not a passing feeling.",
+       "g-eudaimonia"
+      ],
+      [
+       "Having a lot of money and many honours.",
+       false,
+       "Wealth and honours are means or depend on others; happiness is sought for its own sake.",
+       "g-eudaimonia"
+      ],
+      [
+       "A prize received after death.",
+       false,
+       "For Aristotle happiness is lived in this life, in activity.",
+       "g-teleologia"
+      ]
+     ],
+     "ok": "Good: activity, in accordance with virtue, over a whole life.",
+     "mal": "Not yet."
+    },
+    "rescate": [
+     {
+      "boton": "I need to read the text",
+      "etiqueta": "Supporting text",
+      "titulo": "The definition",
+      "glosario": [
+       "g-eudaimonia",
+       "g-arete"
+      ],
+      "cita": {
+       "texto": "‘The human good turns out to be an activity of the soul in accordance with virtue […], and moreover over a whole life. For one swallow does not make a spring, nor does a single day; and so neither does a single day, or a short time, make a person blessed and happy.’",
+       "fuente": "Aristotle, <em>Nicomachean Ethics</em> I 7, 1098a16-20 (own translation from the Greek)"
+      },
+      "comprobacion": {
+       "etiqueta": "Checking the text",
+       "pregunta": "What does ‘one swallow does not make a spring’ mean?",
+       "opciones": [
+        [
+         "That a single good moment is not enough: happiness is measured over a whole life.",
+         true
+        ],
+        [
+         "That happiness depends on the season of the year.",
+         false,
+         "It is an image: a single sign is not enough to say that something has arrived."
+        ],
+        [
+         "That happiness is impossible.",
+         false,
+         "It does not say it is impossible, but that it requires continuity."
+        ],
+        [
+         "That animals cannot be happy.",
+         false,
+         "That is true for Aristotle, but it is not what this image says."
+        ]
+       ],
+       "ok": "Exactly: happiness is a matter of a whole life.",
+       "mal": "Read the second sentence again.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definition and explanation",
+      "titulo": "Ultimate end and function",
+      "glosario": [
+       "g-eudaimonia",
+       "g-teleologia"
+      ],
+      "definicion": [
+       "<strong>Ultimate end</strong> → happiness is what is wanted for its own sake; everything else is wanted for the sake of it.",
+       "<strong>Function (<em>érgon</em>)</strong> → what distinguishes human beings is reason; living well is exercising it well.",
+       "<strong>Activity in accordance with virtue</strong> → happiness is not something one has, but something one does, and over a whole life.",
+       "<strong>External goods</strong> → unlike Socrates or the Stoics, Aristotle accepts that some are needed: friends, health, a certain amount of good fortune."
+      ],
+      "comprobacion": {
+       "boton": "Check understanding",
+       "etiqueta": "Final check",
+       "pregunta": "Why does Aristotle say that happiness consists in living according to reason?",
+       "opciones": [
+        [
+         "Because reason is the characteristic function of human beings, what distinguishes them from plants and animals.",
+         true
+        ],
+        [
+         "Because reason frees us from having desires.",
+         false,
+         "Aristotle does not want to eliminate desires, but to order them."
+        ],
+        [
+         "Because only philosophers can be happy.",
+         false,
+         "Anyone who lives in accordance with virtue can be happy, to differing degrees."
+        ],
+        [
+         "Because the gods command it.",
+         false,
+         "The argument starts from human nature, not from a divine command."
+        ]
+       ],
+       "ok": "Correct: being happy is doing well what is characteristic of human beings.",
+       "mal": "Not yet."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Going deeper",
+    "etiqueta": "New question",
+    "pregunta": "What is ethical virtue, how is it acquired, and why is it a mean?",
+    "repaso": [
+     "Have I said that ethical virtue is acquired through habit, by practising: we become just by doing just things?",
+     "Have I defined the mean between two vices, one of excess and one of deficiency, with an example (courage)?",
+     "Have I explained that the mean is relative to us and is determined by practical wisdom (<em>phrónesis</em>)?"
+    ],
+    "intro": [
+     "Nobody is born courageous or just, but nobody is born the opposite either. Think about how one learns to play an instrument and apply it to character."
+    ],
+    "pistas": [
+     "Remember: there are virtues of the intellect, which are learned through teaching, and virtues of character, or <strong>ethical</strong> virtues, which are acquired through <strong>habit</strong>.",
+     "Just as one becomes a lyre player by playing the lyre, <strong>we become just by doing just things</strong> and courageous by doing courageous things. Virtue is a habit.",
+     "Each ethical virtue is a <strong>mean</strong> between two vices: courage lies between cowardice (deficiency) and rashness (excess).",
+     "But this mean is not a mathematical average: it is <strong>relative to us</strong> and to the situation, and it is determined by the reason of the <strong>practically wise person</strong> (<em>phrónesis</em>)."
+    ],
+    "comprobacion": {
+     "pregunta": "According to Aristotle, how is ethical virtue acquired?",
+     "opciones": [
+      [
+       "Through habit: practising virtuous acts until character is formed.",
+       true
+      ],
+      [
+       "By reading and learning what the good is, as Socrates said.",
+       false,
+       "That would hold for the intellectual virtues; the ethical ones are formed by practice.",
+       "g-akrasia"
+      ],
+      [
+       "It is ours by nature from birth.",
+       false,
+       "Nature gives us the capacity, but virtue is acquired through habit.",
+       "g-virtud"
+      ],
+      [
+       "By obeying the laws without thinking.",
+       false,
+       "Practical wisdom is needed: virtue is not blind obedience, but the formation of character.",
+       "g-phronesis"
+      ]
+     ],
+     "ok": "Exactly: character is formed by practice.",
+     "mal": "Not exactly."
+    },
+    "rescate": [
+     {
+      "boton": "Show the explanation",
+      "etiqueta": "The mean",
+      "titulo": "Neither cowardly nor rash",
+      "glosario": [
+       "g-termino-medio",
+       "g-phronesis",
+       "g-virtud"
+      ],
+      "cita": {
+       "texto": "‘Virtue, then, is a state of character concerned with choice, lying in a mean relative to us, determined by reason, and by that reason by which the practically wise person would determine it.’",
+       "fuente": "Aristotle, <em>Nicomachean Ethics</em> II 6, 1106b36-1107a2 (own translation from the Greek)"
+      },
+      "definicion": [
+       "<strong>Habit</strong> → ethical virtue is neither a feeling nor a natural capacity: it is a disposition formed by practice.",
+       "<strong>The mean</strong> → between two vices: courage between cowardice and rashness; generosity between meanness and extravagance.",
+       "<strong>Relative to us</strong> → it is not the arithmetic average: the right portion for an athlete is not the right portion for a beginner. That is why <strong>practical wisdom</strong> is needed to fix it in each case.",
+       "<strong>Against Socrates</strong> → knowing the good is not enough; whoever knows it and does not do it suffers from <em>akrasía</em>, a lack of self-mastery."
+      ],
+      "comprobacion": {
+       "boton": "Finish by checking",
+       "pregunta": "Why is the mean ‘relative to us’?",
+       "opciones": [
+        [
+         "Because it depends on the person and the situation, and it is fixed by practical wisdom, not by a mathematical rule.",
+         true
+        ],
+        [
+         "Because each person decides what they feel like.",
+         false,
+         "It is not a whim: it is fixed by the reason of the practically wise person."
+        ],
+        [
+         "Because it is the exact midpoint between two quantities.",
+         false,
+         "Precisely what Aristotle denies: it is not an arithmetic average."
+        ],
+        [
+         "Because virtue is different in each city and there is nothing in common.",
+         false,
+         "The virtues are the same; what varies is how they are applied to the case."
+        ]
+       ],
+       "ok": "Correct: the mean is adjusted to the case with practical wisdom.",
+       "mal": "Reread the explanation."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "You can now explain Aristotle’s ethics",
+   "parrafos": [
+    "Happiness is the ultimate end: an activity of the soul in accordance with virtue over a whole life. Ethical virtue is a habit formed by practice and consists in a mean relative to us, fixed by practical wisdom: courage, between cowardice and rashness.",
+    "For the essay: compare it with Socrates’ moral intellectualism and with Kant’s ethics of duty, or with Spinoza’s, for whom blessedness is virtue itself."
+   ]
+  }
+ },
+ {
   "id": "descartes-metodo",
   "ilustre": "descartes",
   "subject": "hf",
@@ -2947,6 +3196,255 @@ const PISTAS = [
    "parrafos": [
     "Nietzsche calls himself ‘the first immoralist’: he denies the ‘good’ type of man and Christian morality, which he considers a morality of <em>décadence</em>, hostile to life. His formula is the revaluation of all values: creating values that say yes to life, summed up in ‘Dionysus versus the Crucified’.",
     "For the PAU: in the summary, include the two negations of §4; in option A or B, relate them to the death of God and nihilism."
+   ]
+  }
+ },
+ {
+  "id": "arendt-mal-accion",
+  "ilustre": "arendt",
+  "subject": "hf",
+  "tema": "Topic 22 · Hannah Arendt",
+  "unidad": "hf-capitalismo",
+  "materia": "Philosophy · Hannah Arendt",
+  "titulo": "What is the banality of evil, and why is action the most human thing?",
+  "lede": "Two ideas from Hannah Arendt: the evil that needs no monsters and the active life among others. Ask only for the hints you need.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Recall",
+    "etiqueta": "Opening question",
+    "pregunta": "What does Arendt mean by ‘the banality of evil’?",
+    "repaso": [
+     "Have I described the context: the trial of Eichmann in Jerusalem (1961), which Arendt followed for <em>The New Yorker</em>?",
+     "Have I explained the thesis: an enormous evil can be committed by an ordinary person who refuses to think, not by a monster?",
+     "Have I said that ‘banal’ does not mean that evil is trivial, and that the thesis is debated (Cesarani, Stangneth)?"
+    ],
+    "intro": [
+     "In 1961 Adolf Eichmann, who had organised the deportation of millions of Jews to the extermination camps, was tried in Jerusalem. Arendt expected to find a monster. Think about what might have surprised her."
+    ],
+    "pistas": [
+     "To get you started: Arendt followed the trial as a journalist. What she saw was not a sadist or a foaming-at-the-mouth fanatic, but an <strong>ordinary official</strong>.",
+     "Eichmann spoke in stock phrases and kept repeating that he had followed orders and done his job well. Arendt notices something: he <strong>did not think</strong> about what he was doing.",
+     "Hence her thesis: an immense evil can arise not from a demonic intention but from the <strong>refusal to think</strong> and to put oneself in another’s place, inside a bureaucratic machine.",
+     "‘Banal’ does not mean that evil is trivial: it means that it <strong>needs no monsters</strong>. That is why thinking, judging for oneself, is a moral task."
+    ],
+    "comprobacion": {
+     "pregunta": "According to Arendt, what did Eichmann have that explains his evil?",
+     "opciones": [
+      [
+       "An inability to think about what he was doing and to put himself in other people’s place.",
+       true
+      ],
+      [
+       "A sadistic, demonic wickedness, out of the ordinary.",
+       false,
+       "That is exactly what Arendt expected to find, and did not.",
+       "g-banalidad-del-mal"
+      ],
+      [
+       "A mental illness that stopped him knowing what he was doing.",
+       false,
+       "The psychiatrists declared him normal; for Arendt he is responsible.",
+       "g-banalidad-del-mal"
+      ],
+      [
+       "No guilt: he was only following orders.",
+       false,
+       "Arendt does not excuse him: obeying without thinking does not remove responsibility.",
+       "g-banalidad-del-mal"
+      ]
+     ],
+     "ok": "Good: evil without monsters comes from not thinking.",
+     "mal": "Not yet."
+    },
+    "rescate": [
+     {
+      "boton": "I need to read the text",
+      "etiqueta": "Supporting text",
+      "titulo": "Sheer thoughtlessness",
+      "glosario": [
+       "g-banalidad-del-mal",
+       "g-totalitarismo"
+      ],
+      "cita": {
+       "texto": "It was not stupidity but ‘sheer thoughtlessness’ that made him one of the greatest criminals of his time.",
+       "fuente": "Arendt, <em>Eichmann in Jerusalem: A Report on the Banality of Evil</em> (1963), postscript (paraphrase; the quoted expression in original wording)"
+      },
+      "comprobacion": {
+       "etiqueta": "Checking the text",
+       "pregunta": "What is Arendt distinguishing when she says it was not stupidity but thoughtlessness?",
+       "opciones": [
+        [
+         "That Eichmann was capable of thinking, but did not: he did not stop to judge what he was doing.",
+         true
+        ],
+        [
+         "That Eichmann was not very intelligent.",
+         false,
+         "On the contrary: she expressly says it was not stupidity."
+        ],
+        [
+         "That Eichmann thought too much.",
+         false,
+         "Thoughtlessness is precisely the opposite: not stopping to think."
+        ],
+        [
+         "That Eichmann did not know what was happening in the camps.",
+         false,
+         "He knew what he was organising; what was missing was judgement about it."
+        ]
+       ],
+       "ok": "Exactly: it is not a lack of intelligence, but of judgement.",
+       "mal": "Read the sentence again.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definition and explanation",
+      "titulo": "An evil without monsters, and the debate around it",
+      "glosario": [
+       "g-banalidad-del-mal",
+       "g-soledad-politica"
+      ],
+      "definicion": [
+       "<strong>The thesis</strong> → extreme evil can be the work of ordinary people who obey and do not think, inside a bureaucracy that divides up the work and dilutes responsibility.",
+       "<strong>What it does not say</strong> → it does not say that evil is trivial or that Eichmann was innocent: Arendt approved of his sentence.",
+       "<strong>The debate</strong> → some historians, such as David Cesarani (2004) and Bettina Stangneth (2011), showed from documents that Eichmann was a convinced antisemite and not a mere bureaucrat. Others reply that Arendt’s thesis is about the kind of evil, not just about one man.",
+       "<strong>The lesson</strong> → thinking and judging for oneself is not a luxury of philosophers: it is what can hold evil back."
+      ],
+      "comprobacion": {
+       "boton": "Check understanding",
+       "etiqueta": "Final check",
+       "pregunta": "What does ‘banal’ mean in ‘the banality of evil’?",
+       "opciones": [
+        [
+         "That evil needs no monsters: it can come from ordinary people who do not think.",
+         true
+        ],
+        [
+         "That evil is trivial and should not be taken seriously.",
+         false,
+         "Arendt does not play down the seriousness of the crime; she is talking about its origin."
+        ],
+        [
+         "That evil is boring.",
+         false,
+         "It is not a matter of taste: it is a thesis about where evil comes from."
+        ],
+        [
+         "That everyone is equally guilty.",
+         false,
+         "It does not share out guilt equally: each person answers for what they do."
+        ]
+       ],
+       "ok": "Correct: ‘banal’ is the opposite of ‘demonic’, not of ‘serious’.",
+       "mal": "Not yet."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Going deeper",
+    "etiqueta": "New question",
+    "pregunta": "What distinguishes labour, work and action, and why is action the most important?",
+    "repaso": [
+     "Have I distinguished the three activities: labour (sustaining life), work (making a lasting world) and action (among people, with words and deeds)?",
+     "Have I explained that action needs plurality and a public space?",
+     "Have I linked action with natality: the capacity to begin something new?"
+    ],
+    "intro": [
+     "In <em>The Human Condition</em> (1958), Arendt distinguishes three ways of being active. Think about the difference between eating, building a table and speaking in an assembly."
+    ],
+    "pistas": [
+     "Remember: Arendt calls the sum of what we do the <strong>active life</strong> (<em>vita activa</em>), as opposed to the contemplative life of philosophers.",
+     "<strong>Labour</strong> sustains biological life: eating, cleaning, producing what is consumed and needed again. <strong>Work</strong> makes lasting objects that form a common world: houses, tools, works of art.",
+     "<strong>Action</strong> is different: it happens among people, with no things in between, through words and deeds. It needs <strong>plurality</strong>: we are different and we live together.",
+     "To act is to <strong>begin something new</strong>: every birth brings into the world someone capable of beginning (<strong>natality</strong>). That is why action, which lives in public space, is the basis of political freedom."
+    ],
+    "comprobacion": {
+     "pregunta": "What is distinctive about action, compared with labour and work?",
+     "opciones": [
+      [
+       "That it takes place among people, with words and deeds, and makes it possible to begin something new in a public space.",
+       true
+      ],
+      [
+       "That it produces objects that last a long time.",
+       false,
+       "That is work, which makes the world of things.",
+       "g-vita-activa"
+      ],
+      [
+       "That it serves to sustain biological life.",
+       false,
+       "That is labour: eating, cleaning, producing what is consumed.",
+       "g-vita-activa"
+      ],
+      [
+       "That it is done alone, in thought.",
+       false,
+       "Action needs other people: without plurality there is no action.",
+       "g-espacio-publico"
+      ]
+     ],
+     "ok": "Exactly: action is the political activity par excellence.",
+     "mal": "Not exactly."
+    },
+    "rescate": [
+     {
+      "boton": "Show the explanation",
+      "etiqueta": "The active life",
+      "titulo": "Labour, work and action",
+      "glosario": [
+       "g-vita-activa",
+       "g-natalidad",
+       "g-espacio-publico"
+      ],
+      "cita": {
+       "texto": "Action corresponds to the condition of plurality: ‘men, not Man, live on the earth’.",
+       "fuente": "Arendt, <em>The Human Condition</em> (1958), ch. 1 (paraphrase; the quoted expression in original wording)"
+      },
+      "definicion": [
+       "<strong>Labour</strong> → sustaining life: what is produced is consumed and has to be made again. Its figure is the <em>animal laborans</em>.",
+       "<strong>Work</strong> → making lasting things that form a common world, more stable than our lives. Its figure is the <em>homo faber</em>.",
+       "<strong>Action</strong> → speaking and acting before others, in a public space, and beginning something new (natality). It is where who each person is appears.",
+       "<strong>The danger</strong> → when everything becomes labour and consumption, or when a regime isolates people and destroys public space, action disappears, and with it freedom."
+      ],
+      "comprobacion": {
+       "boton": "Finish by checking",
+       "pregunta": "What is the relationship between action and natality?",
+       "opciones": [
+        [
+         "Every birth brings someone new who is capable of beginning something: to act is that capacity to begin.",
+         true
+        ],
+        [
+         "That action is for having children.",
+         false,
+         "It is a philosophical image: to be born is to begin, and so is to act."
+        ],
+        [
+         "That only young people can act.",
+         false,
+         "Everyone can act: each person is a beginning."
+        ],
+        [
+         "That action always repeats the same thing.",
+         false,
+         "On the contrary: what is characteristic of action is newness."
+        ]
+       ],
+       "ok": "Correct: natality is the root of the freedom to act.",
+       "mal": "Reread the explanation."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "You can now explain two ideas of Arendt",
+   "parrafos": [
+    "The banality of evil: an immense evil can be committed by an ordinary person who refuses to think, not by a monster; the thesis is debated, because the documents show a more ideological Eichmann. The active life: labour sustains life, work makes a world, and action, among people and in a public space, makes it possible to begin something new.",
+    "For the essay: relate Arendt’s ‘thinking’ to Kant’s ‘dare to think’ and to the political loneliness that, in her view, prepares the way for totalitarianism."
    ]
   }
  },

@@ -1635,6 +1635,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Eudaimonía (happiness)",
+  "id": "g-eudaimonia",
+  "et": "From the Greek εὐδαιμονία (*eudaimonía*): εὖ (*eû*) ‘well’ + δαίμων (*daímon*) ‘divinity, destiny’; literally, ‘having a good destiny’.",
+  "area": "Ethics",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "Classical ethics",
+  "def": "For Aristotle, the ultimate end of human life, what is sought for its own sake and not for the sake of something else. It is not a passing feeling but an activity of the soul in accordance with virtue over a whole life; it also needs some external goods (*Nicomachean Ethics* I 7-8).",
+  "ilustre": [
+   "aristoteles"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Manufacturing consent",
@@ -3384,6 +3400,22 @@ const GLOSARIO = [
   "def": "Education in a broad sense: the shaping of character and mind. In Plato, the main task of the city, which selects its rulers after a long course of studies and tests.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Prudence (phronesis)",
+  "id": "g-phronesis",
+  "et": "From the Greek φρόνησις (*phrónesis*), from φρονεῖν (*phroneîn*), ‘to think, to be sensible’. Latin translated it as *prudentia*.",
+  "area": "Ethics",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "Classical ethics",
+  "def": "The intellectual virtue that knows how to deliberate well about what is fitting for living well in each particular situation. It is what determines the mean of the ethical virtues: that is why virtue is defined as ‘what the practically wise person would determine’ (*Nicomachean Ethics* II 6 and VI 5).",
+  "ilustre": [
+   "aristoteles"
   ]
  },
  {
