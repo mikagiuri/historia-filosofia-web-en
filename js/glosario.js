@@ -1301,6 +1301,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "Evil as privation",
+  "id": "g-mal-como-privacion",
+  "et": "*Privation*, from the Latin *privatio*, from *privare*, ‘to take away, to leave without something’. The Scholastics called it *privatio boni*, ‘privation of good’.",
+  "area": "Metaphysics",
+  "bloque": "B",
+  "unidad": "B1",
+  "tema": "Augustine of Hippo",
+  "def": "Augustine’s answer to the problem of evil: evil is not a substance or a principle rivalling God, as the Manichaeans held, but the lack of a good that ought to be there. Everything that exists, insofar as it exists, is good (*Confessions* VII, 12, 18).",
+  "ilustre": [
+   "agustin"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 11,
   "t": "Civilization and Its Discontents",
   "id": "g-el-malestar-en-la-cultura",
@@ -2788,6 +2804,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "Free will",
+  "id": "g-libre-albedrio",
+  "et": "*Free will*, from the Latin *arbitrium*, ‘judgement, decision’; *free*, from the Latin *liber*.",
+  "area": "Anthropology",
+  "bloque": "B",
+  "unidad": "B1",
+  "tema": "Augustine of Hippo",
+  "def": "The capacity of the will to choose. For Augustine it is a good that God gave to human beings so that they might act well; moral evil arises from using it badly, when the will turns away from the greater good towards lesser goods, and that is why the human being, not God, is responsible for it (*On Free Choice of the Will*). Later, against Pelagius, he insists that without grace the will is not enough to do good.",
+  "ilustre": [
+   "agustin"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 8,
   "t": "The Apollonian",
   "id": "g-lo-apolineo",
@@ -3432,6 +3464,22 @@ const GLOSARIO = [
   "def": "The four rules of the *Discourse on Method* (II): evidence (accept nothing that is not known with evidence), analysis (divide each difficulty into as many parts as necessary), synthesis (proceed in order, from the simplest to the most complex) and enumeration (review everything so as to omit nothing).",
   "ilustre": [
    "descartes"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 10,
+  "t": "Relations of ideas and matters of fact",
+  "id": "g-relaciones-de-ideas",
+  "et": "*Relation*, from the Latin *relatio*, ‘the reference of one thing to another’; *fact*, from the Latin *factum*, ‘what has been done, what has happened’.",
+  "area": "Epistemology",
+  "bloque": "B",
+  "unidad": "BH",
+  "tema": "Hume",
+  "def": "The two kinds of knowledge according to Hume (*An Enquiry concerning Human Understanding*, IV): relations of ideas (mathematics and logic), certain by demonstration, because their contrary is contradictory; and matters of fact, which depend on experience and whose contrary is always possible (that the sun will not rise tomorrow). Anything that is neither of the two, he says at the end of the work, belongs ‘in the flames’.",
+  "ilustre": [
+   "hume"
   ]
  },
  {

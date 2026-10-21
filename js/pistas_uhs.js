@@ -1,6 +1,257 @@
 // Generado por web_i18n/i18n_rebuild.js (en) a partir de web/js/pistas_uhs.js. No editar a mano: editar la memoria tm/en.json y regenerar.
 const PISTAS = [
  {
+  "id": "socrates-sofistas",
+  "ilustre": "socrates",
+  "subject": "hf",
+  "tema": "Topic 5 · Socrates and the Sophists",
+  "unidad": "hf-sofistas",
+  "materia": "Philosophy · Socrates",
+  "titulo": "Why did Socrates take on the Sophists, and why did he say that no one does wrong knowingly?",
+  "lede": "Two questions that the 2026 PAU has already asked: the critique of the Sophists and moral intellectualism. Ask only for the hints you need.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Recall",
+    "etiqueta": "Opening question",
+    "pregunta": "How did Socrates differ from the Sophists?",
+    "repaso": [
+     "Have I explained Protagoras’s relativism: ‘the human being is the measure of all things’?",
+     "Have I said that Socrates looks for universal definitions (what justice is, what courage is), valid for everyone?",
+     "Have I described his method: irony (admitting that one does not know) and maieutics (helping the truth to be born)?"
+    ],
+    "intro": [
+     "The Sophists charged a fee for teaching people to speak well in the assembly. Socrates charged nothing and claimed to know nothing. Think about why someone like that could be a problem for them."
+    ],
+    "pistas": [
+     "To get started: the Sophists taught <strong>rhetoric</strong>, the art of persuasion. For many of them, what was just depended on the city and on what each person thought: this is the opposition between <em>nómos</em> (convention) and <em>phýsis</em> (nature).",
+     "Protagoras summed it up like this: the human being is <strong>the measure of all things</strong>. If each person is the measure, there is no common truth: this is <strong>relativism</strong>.",
+     "Socrates asks the opposite question: <strong>what is</strong> justice, courage, piety? He seeks a <strong>universal definition</strong>, the same for everyone.",
+     "His method has two steps: <strong>irony</strong>, admitting that one does not know and dismantling the other person’s apparent knowledge, and <strong>maieutics</strong>, helping them to ‘give birth’ to the truth, like his mother, who was a midwife."
+    ],
+    "comprobacion": {
+     "pregunta": "What does Socrates look for in response to the Sophists’ relativism?",
+     "opciones": [
+      [
+       "Universal definitions of the virtues, valid for everyone.",
+       true
+      ],
+      [
+       "To persuade the assembly with the best speeches.",
+       false,
+       "That is what the Sophists taught with rhetoric.",
+       "g-sofistas"
+      ],
+      [
+       "To show that everyone has their own truth.",
+       false,
+       "That is the position of Protagoras, the one Socrates criticises.",
+       "g-subjetivismo"
+      ],
+      [
+       "To teach rich young men in exchange for money.",
+       false,
+       "Socrates did not charge: it was one of his differences from the Sophists.",
+       "g-sofistas"
+      ]
+     ],
+     "ok": "Well done: against each person’s opinion, a common concept.",
+     "mal": "Not yet."
+    },
+    "rescate": [
+     {
+      "boton": "I need to read the text",
+      "etiqueta": "Supporting text",
+      "titulo": "The measure of all things",
+      "glosario": [
+       "g-sofistas",
+       "g-nomos"
+      ],
+      "cita": {
+       "texto": "‘The human being is the measure of all things: of those that are, that they are; of those that are not, that they are not.’",
+       "fuente": "Protagoras, quoted by Plato in the <em>Theaetetus</em>, 152a (own translation from the Greek)"
+      },
+      "comprobacion": {
+       "etiqueta": "Checking the text",
+       "pregunta": "If the human being is the measure of all things, what conclusion does Protagoras draw?",
+       "opciones": [
+        [
+         "That things are for each person as they appear to that person: there is no common truth.",
+         true
+        ],
+        [
+         "That the human being is the most important being in the universe.",
+         false,
+         "He is not talking about importance, but about who decides what is true."
+        ],
+        [
+         "That everything must be measured with instruments.",
+         false,
+         "The ‘measure’ is the criterion of truth, not a physical ruler."
+        ],
+        [
+         "That only the wise know the truth.",
+         false,
+         "Quite the opposite: each person is a measure, not just a few."
+        ]
+       ],
+       "ok": "Exactly: that is relativism.",
+       "mal": "Read the sentence again.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definition and explanation",
+      "titulo": "Irony and maieutics",
+      "glosario": [
+       "g-ironia-socratica",
+       "g-mayeutica"
+      ],
+      "cita": {
+       "texto": "‘My art of midwifery has everything else that the midwives’ art has, but it differs in that it attends men and not women, and in that it looks after souls in labour, not bodies.’",
+       "fuente": "Plato, <em>Theaetetus</em>, 150b (own translation from the Greek)"
+      },
+      "definicion": [
+       "<strong>Irony</strong> → Socrates presents himself as ignorant and, through questions, shows that the other person does not know what they thought they knew either. In the <em>Apology</em> (21d) he says that his advantage is that he does not think he knows what he does not know; ‘I only know that I know nothing’ is a later formula.",
+       "<strong>Maieutics</strong> → he then helps the other person to discover for themselves the truth they were carrying inside, as a midwife helps with a birth.",
+       "<strong>The aim</strong> → to arrive at the universal definition (the <em>lógos</em>) of each virtue."
+      ],
+      "comprobacion": {
+       "boton": "Check understanding",
+       "etiqueta": "Final check",
+       "pregunta": "What is Socratic irony for?",
+       "opciones": [
+        [
+         "To show that the interlocutor does not know what they thought they knew, and so open up the search.",
+         true
+        ],
+        [
+         "To mock others and win the argument.",
+         false,
+         "It does not seek to humiliate or to win, but for the other person to acknowledge their ignorance."
+        ],
+        [
+         "To teach the correct answer directly.",
+         false,
+         "Socrates does not give the answer: he helps the other person to find it."
+        ],
+        [
+         "To prove that no truth exists.",
+         false,
+         "On the contrary: doubting is the first step towards seeking the truth."
+        ]
+       ],
+       "ok": "Correct: first empty out the false knowledge, then search.",
+       "mal": "Not yet."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Going deeper",
+    "etiqueta": "New question",
+    "pregunta": "What is moral intellectualism, and why does Socrates say that no one does wrong knowingly?",
+    "repaso": [
+     "Have I said that, for Socrates, virtue is knowledge: whoever knows what the good is, does it?",
+     "Have I explained the consequence: evil arises from ignorance, and so no one acts wrongly willingly?",
+     "Have I mentioned Aristotle’s criticism: one can know the good and not do it (<em>akrasía</em>)?"
+    ],
+    "intro": [
+     "If someone knows that something harms them and does it anyway, did they really know? Socrates answers that they did not. Think about why."
+    ],
+    "pistas": [
+     "Remember the search for definitions: for Socrates, knowing what justice is is the condition for being just.",
+     "Take one more step: <strong>virtue is knowledge</strong>. Whoever truly knows the good, does it, because we all seek what seems good to us.",
+     "That is why <strong>no one does wrong knowingly</strong>: whoever acts wrongly is mistaken, and believes that what is not good is good. Evil arises from <strong>ignorance</strong>.",
+     "Hence the task of philosophy: to examine one’s own life. ‘An unexamined life is not worth living.’ Aristotle will object that sometimes we know what is best and do what is worst (<em>akrasía</em>)."
+    ],
+    "comprobacion": {
+     "pregunta": "According to moral intellectualism, where does evil come from?",
+     "opciones": [
+      [
+       "From ignorance: whoever acts wrongly does not truly know what the good is.",
+       true
+      ],
+      [
+       "From a perverse will that chooses evil knowing it to be so.",
+       false,
+       "For Socrates no one chooses evil as evil: that is exactly what he denies.",
+       "g-intelectualismo-moral"
+      ],
+      [
+       "From the passions, which are stronger than reason.",
+       false,
+       "That is rather Aristotle’s objection (<em>akrasía</em>).",
+       "g-akrasia"
+      ],
+      [
+       "From the unjust laws of the city.",
+       false,
+       "Socrates is talking about each person’s knowledge, not about laws.",
+       "g-intelectualismo-moral"
+      ]
+     ],
+     "ok": "Exactly: whoever acts wrongly is mistaken.",
+     "mal": "Not exactly."
+    },
+    "rescate": [
+     {
+      "boton": "Show the explanation",
+      "etiqueta": "Virtue and knowledge",
+      "titulo": "No one errs willingly",
+      "glosario": [
+       "g-intelectualismo-moral",
+       "g-akrasia"
+      ],
+      "cita": {
+       "texto": "‘No human being errs willingly, or knowingly does shameful and bad things.’ ‘A life without examination is not worth living for a human being.’",
+       "fuente": "Plato, <em>Protagoras</em>, 345d-e, and <em>Apology of Socrates</em>, 38a (own translation from the Greek)"
+      },
+      "definicion": [
+       "<strong>Virtue is knowledge</strong> → knowing what the good is is enough to do it; no one seeks their own harm.",
+       "<strong>Evil is ignorance</strong> → whoever acts wrongly mistakes what seems good for what is good. That is why what they need is not punishment but teaching.",
+       "<strong>Aristotle’s objection</strong> → <em>akrasía</em> exists: knowing what one ought to do and yielding to desire. Knowing the good is not enough: one must form one’s character."
+      ],
+      "comprobacion": {
+       "boton": "Finish by checking",
+       "pregunta": "What is Aristotle’s objection to moral intellectualism?",
+       "opciones": [
+        [
+         "That one can know what is right and not do it, through weakness of will (<em>akrasía</em>).",
+         true
+        ],
+        [
+         "That the good cannot be known.",
+         false,
+         "Aristotle does think it can be known; what he says is that knowing it is not enough."
+        ],
+        [
+         "That virtue is a gift of the gods.",
+         false,
+         "For Aristotle, ethical virtue is acquired through habit."
+        ],
+        [
+         "That Socrates knew nothing.",
+         false,
+         "The objection is philosophical, not a judgement on Socrates."
+        ]
+       ],
+       "ok": "Correct: knowing is not enough; character is needed.",
+       "mal": "Reread the explanation."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "You can now explain Socrates",
+   "parrafos": [
+    "Against the Sophists’ relativism (‘the human being is the measure of all things’), Socrates seeks universal definitions through irony and maieutics. His moral intellectualism holds that virtue is knowledge and that no one does wrong knowingly: evil arises from ignorance.",
+    "For the PAU: in the essay, contrast moral intellectualism with Aristotle’s <em>akrasía</em> and with the ethics of habit."
+   ],
+   "siguiente": "aristoteles-etica"
+  }
+ },
+ {
   "id": "hf-caverna",
   "ilustre": "platon",
   "subject": "hf",
@@ -743,6 +994,253 @@ const PISTAS = [
   }
  },
  {
+  "id": "agustin-mal",
+  "ilustre": "agustin",
+  "subject": "hf",
+  "tema": "Topic 12 · Augustine of Hippo",
+  "unidad": "hf-fe-razon",
+  "materia": "Philosophy · Augustine of Hippo",
+  "titulo": "If God is good, where does evil come from?",
+  "lede": "The question that accompanied Augustine for half his life, and one of the most frequently asked in the syllabus. Ask only for the hints you need.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Recall",
+    "etiqueta": "Opening question",
+    "pregunta": "What is evil for Augustine, as opposed to the Manichaeans’ answer?",
+    "repaso": [
+     "Have I set out the problem: if God is good and all-powerful, where does evil come from?",
+     "Have I explained the Manichaeans’ answer: two eternal principles, one good and one evil, in conflict?",
+     "Have I stated Augustine’s answer: evil is not a substance but the privation of a good, because everything that exists is good?"
+    ],
+    "intro": [
+     "As a young man, Augustine belonged for years to the Manichaeans, who had a very simple answer to evil. He later abandoned it. Think about what was attractive about it and what was problematic."
+    ],
+    "pistas": [
+     "To get started: the problem is this. If God is <strong>good</strong> and <strong>all-powerful</strong>, and has created everything, where does evil come from?",
+     "The <strong>Manichaeans</strong> replied that there are <strong>two eternal principles</strong>, one good (light) and one evil (darkness), in conflict. In this way God is not responsible for evil, but he ceases to be the only principle.",
+     "Augustine, with the help of the Neoplatonists, gives another answer: everything that exists, insofar as it exists, is <strong>good</strong>, because it comes from God.",
+     "So evil is <strong>not a thing</strong>, not a substance: it is a <strong>lack of good</strong>, a privation, as blindness is a lack of sight or darkness a lack of light."
+    ],
+    "comprobacion": {
+     "pregunta": "For Augustine, what is evil?",
+     "opciones": [
+      [
+       "The privation, or lack, of a good that ought to be there, not a substance.",
+       true
+      ],
+      [
+       "An eternal principle that fights against God.",
+       false,
+       "That is the Manichaeans’ answer, which Augustine abandoned.",
+       "g-mal-como-privacion"
+      ],
+      [
+       "An illusion: evil does not exist in any way.",
+       false,
+       "Evil exists as a real lack of good: it is not an illusion, but nor is it a thing.",
+       "g-mal-como-privacion"
+      ],
+      [
+       "A creation of God to punish human beings.",
+       false,
+       "Everything God creates is good: evil is not one of his creatures.",
+       "g-mal-como-privacion"
+      ]
+     ],
+     "ok": "Well done: evil is a lack of good, not a thing.",
+     "mal": "Not yet."
+    },
+    "rescate": [
+     {
+      "boton": "I need to read the text",
+      "etiqueta": "Supporting text",
+      "titulo": "Everything that exists is good",
+      "glosario": [
+       "g-mal-como-privacion",
+       "g-neoplatonismo"
+      ],
+      "cita": {
+       "texto": "‘Thus all the things that exist are good; and that evil whose origin I was seeking is not a substance.’",
+       "fuente": "Augustine, <em>Confessions</em> VII, 12, 18 (own translation from the Latin)"
+      },
+      "comprobacion": {
+       "etiqueta": "Checking the text",
+       "pregunta": "According to the text, why can evil not be a substance?",
+       "opciones": [
+        [
+         "Because everything that exists is good: if evil were an existing thing, it would be good.",
+         true
+        ],
+        [
+         "Because evil is too small to count.",
+         false,
+         "It is not a question of size, but of what kind of reality it is."
+        ],
+        [
+         "Because it exists only in the imagination.",
+         false,
+         "The text does not say that it is imaginary: it says that it is not a substance."
+        ],
+        [
+         "Because God destroyed it.",
+         false,
+         "The text does not speak of destruction: it speaks of what evil is."
+        ]
+       ],
+       "ok": "Exactly: what exists is good; evil is what is missing.",
+       "mal": "Read the sentence again.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definition and explanation",
+      "titulo": "From Manichaeism to privation",
+      "glosario": [
+       "g-mal-como-privacion",
+       "g-conversion"
+      ],
+      "definicion": [
+       "<strong>The problem</strong> → if God is good and all-powerful and creates everything, evil seems to contradict him (‘I was seeking where evil comes from’, <em>Confessions</em> VII, 5, 7).",
+       "<strong>The Manichaeans</strong> → two eternal principles, good and evil, in conflict. This solves the problem at the cost of a God who is not the only principle.",
+       "<strong>Augustine</strong> → everything that exists is good insofar as it exists; evil is the privation of a due good (blindness is a lack of sight). He takes the idea from the Neoplatonists."
+      ],
+      "comprobacion": {
+       "boton": "Check understanding",
+       "etiqueta": "Final check",
+       "pregunta": "Which example explains evil as privation well?",
+       "opciones": [
+        [
+         "Blindness, which is not a thing but the lack of sight in someone who ought to see.",
+         true
+        ],
+        [
+         "A poison, which is a harmful substance.",
+         false,
+         "A poison is an existing thing; the example of privation is a lack."
+        ],
+        [
+         "A demon who tempts people.",
+         false,
+         "That would be to think of evil as a being, which Augustine rejects."
+        ],
+        [
+         "A storm, which destroys the harvest.",
+         false,
+         "The storm is something that exists; privation is what is missing."
+        ]
+       ],
+       "ok": "Correct: evil is a lack, not a thing.",
+       "mal": "Not yet."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Going deeper",
+    "etiqueta": "New question",
+    "pregunta": "If evil is not a thing, where does the evil that we human beings do come from?",
+    "repaso": [
+     "Have I said that moral evil arises from the will, which misuses free will?",
+     "Have I explained the ‘misuse’: the will turns away from the supreme good towards lesser goods?",
+     "Have I said that the human being, not God, is thus responsible for moral evil, and have I mentioned the debate with Pelagius over grace?"
+    ],
+    "intro": [
+     "In the <em>Confessions</em>, Augustine asks himself why, as a boy, he stole some pears that he did not even want to eat. The evil we do does not seem to be a mere lack of light. Think about where he locates it."
+    ],
+    "pistas": [
+     "Remember: evil is not a substance. But human beings do evil, and that has to be explained.",
+     "Augustine locates it in the <strong>will</strong>. God gave us <strong>free will</strong>, which is a good: without it we could neither act well nor deserve anything.",
+     "Moral evil is a <strong>misuse</strong> of that freedom: the will turns away from the supreme good (God) and towards lesser goods (pleasure, power, things) as if they were the highest.",
+     "That is why the one responsible for moral evil is the <strong>human being</strong>, not God. Later, against <strong>Pelagius</strong>, Augustine will insist that the wounded will cannot do good without the help of grace."
+    ],
+    "comprobacion": {
+     "pregunta": "According to Augustine, where does moral evil come from?",
+     "opciones": [
+      [
+       "From the misuse of free will: the will turns away from the supreme good towards lesser goods.",
+       true
+      ],
+      [
+       "From God, who made us with defects.",
+       false,
+       "For Augustine what is created is good; moral evil comes from the human will.",
+       "g-libre-albedrio"
+      ],
+      [
+       "From the body, which is evil by nature.",
+       false,
+       "That sounds like Manichaeism; for Augustine the body, as a creature, is good.",
+       "g-mal-como-privacion"
+      ],
+      [
+       "From fate, which no one can change.",
+       false,
+       "Augustine defends the responsibility of the free will.",
+       "g-libre-albedrio"
+      ]
+     ],
+     "ok": "Exactly: moral evil is a disorder of the will.",
+     "mal": "Not exactly."
+    },
+    "rescate": [
+     {
+      "boton": "Show the explanation",
+      "etiqueta": "The will",
+      "titulo": "A twisted will",
+      "glosario": [
+       "g-libre-albedrio",
+       "g-interioridad"
+      ],
+      "cita": {
+       "texto": "‘I asked what iniquity was and found not a substance but the perversion of a will turned away from the supreme substance, from you, God, towards the lowest things.’",
+       "fuente": "Augustine, <em>Confessions</em> VII, 16, 22 (own translation from the Latin)"
+      },
+      "definicion": [
+       "<strong>Free will is a good</strong> → without it there would be neither moral good nor responsibility.",
+       "<strong>Moral evil is a disorder</strong> → loving the lower more than the higher: lesser goods treated as if they were the supreme one.",
+       "<strong>Responsibility</strong> → the evil we do is ours, not God’s.",
+       "<strong>The debate with Pelagius</strong> → Pelagius trusted that the will is enough to do good; Augustine maintained that it needs grace. It is one of his longest controversies."
+      ],
+      "comprobacion": {
+       "boton": "Finish by checking",
+       "pregunta": "In the quotation, what is iniquity (moral evil)?",
+       "opciones": [
+        [
+         "A will that turns away from God, the supreme good, towards the lowest things.",
+         true
+        ],
+        [
+         "A bad substance in the world.",
+         false,
+         "The text expressly says that he did not find a substance."
+        ],
+        [
+         "A punishment from God.",
+         false,
+         "The quotation speaks of the human will, not of a punishment."
+        ],
+        [
+         "Ignorance of the good, as Socrates said.",
+         false,
+         "For Augustine the problem lies in the will, not only in knowledge."
+        ]
+       ],
+       "ok": "Correct: moral evil lies in the direction of the will.",
+       "mal": "Reread the explanation."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "You can now explain the problem of evil in Augustine",
+   "parrafos": [
+    "Against the Manichaeans, who posited two eternal principles, Augustine maintains that everything that exists is good and that evil is not a substance but a privation of good. Moral evil arises from the misuse of free will: a will that turns away from the supreme good towards lesser goods. That is why the human being, not God, is responsible for it.",
+    "For the PAU: contrast his answer with Socrates’s intellectualism (evil as ignorance) and with Spinoza’s (nothing is bad in itself, only in relation to us)."
+   ]
+  }
+ },
+ {
   "id": "descartes-metodo",
   "ilustre": "descartes",
   "subject": "hf",
@@ -1233,6 +1731,256 @@ const PISTAS = [
     "Descartes doubts methodically —the senses, dreams, the evil genius— in order to find an indubitable truth. He finds it in the cogito: if I doubt, I think, and if I think, I exist. His criterion of truth will be clarity and distinctness.",
     "For the PAU: compare this rationalist starting point with Hume’s, for whom all knowledge comes from experience."
    ]
+  }
+ },
+ {
+  "id": "hume-empirismo",
+  "ilustre": "hume",
+  "subject": "hf",
+  "tema": "Topic 14 · Hume",
+  "unidad": "hf-racionalismo",
+  "materia": "Philosophy · Hume",
+  "titulo": "Where do our ideas come from according to Hume, and why can we not see causality?",
+  "lede": "Descartes’s counterpart in the PAU: empiricism taken to its conclusion. Ask only for the hints you need.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Recall",
+    "etiqueta": "Opening question",
+    "pregunta": "What is the difference between impressions and ideas, and what criterion does Hume draw from it?",
+    "repaso": [
+     "Have I defined impressions (vivid perceptions: feeling, seeing, desiring) and ideas (their fainter copies: remembering, imagining)?",
+     "Have I said that every idea comes from a prior impression?",
+     "Have I explained the criterion: if a word refers to no impression, it has no content (and he applied this to substance and the self)?"
+    ],
+    "intro": [
+     "Burning yourself on a frying pan is not the same as remembering that you burned yourself. Hume starts from a difference like that. Try to explain what it is before asking for help."
+    ],
+    "pistas": [
+     "To get started: Hume is an <strong>empiricist</strong>, as opposed to Descartes. Everything in the mind arrives through experience; there are no innate ideas.",
+     "He calls everything in the mind <strong>perceptions</strong>, and divides them into two: <strong>impressions</strong> (what we feel, see or desire, vivid and intense) and <strong>ideas</strong> (their fainter copies, when we remember or imagine).",
+     "The key: <strong>every idea is a copy of an impression</strong>. Even if we imagine a golden mountain, we put it together from impressions of mountains and of gold.",
+     "From this comes a <strong>criterion</strong>: faced with a philosophical word, ask ‘which impression does it come from?’ If there is none, the word has no content. This is how he attacks ideas such as <strong>substance</strong> or the <strong>self</strong>, which is no more than a bundle of perceptions."
+    ],
+    "comprobacion": {
+     "pregunta": "According to Hume, where do all our ideas come from?",
+     "opciones": [
+      [
+       "From earlier impressions: every idea is a fainter copy of an impression.",
+       true
+      ],
+      [
+       "From reason, which has them from birth.",
+       false,
+       "That is Descartes’s innatism, which Hume rejects.",
+       "g-empirismo"
+      ],
+      [
+       "From God, who puts them in our mind.",
+       false,
+       "Hume does not appeal to God to explain knowledge: everything comes from experience.",
+       "g-impresion"
+      ],
+      [
+       "From the imagination, which creates them out of nothing.",
+       false,
+       "The imagination combines, but always with materials that come from impressions.",
+       "g-impresion"
+      ]
+     ],
+     "ok": "Well done: without a prior impression, there is no idea.",
+     "mal": "Not yet."
+    },
+    "rescate": [
+     {
+      "boton": "I need to read the text",
+      "etiqueta": "Supporting text",
+      "titulo": "Copies of impressions",
+      "glosario": [
+       "g-impresion",
+       "g-empirismo"
+      ],
+      "cita": {
+       "texto": "‘All our ideas or more feeble perceptions are copies of our impressions or more lively ones.’",
+       "fuente": "Hume, <em>An Enquiry concerning Human Understanding</em> (1748), II, § 13 (original wording)"
+      },
+      "comprobacion": {
+       "etiqueta": "Checking the text",
+       "pregunta": "According to the text, what distinguishes impressions from ideas?",
+       "opciones": [
+        [
+         "Their vividness: impressions are more vivid; ideas are fainter copies.",
+         true
+        ],
+        [
+         "Their origin: some come from the senses and others from pure reason.",
+         false,
+         "For Hume both come from experience; the difference is one of intensity."
+        ],
+        [
+         "Their truth: impressions are true and ideas are false.",
+         false,
+         "The text does not speak of truth and falsehood, but of vividness."
+        ],
+        [
+         "There is no difference: they are the same.",
+         false,
+         "The text distinguishes them: some are copies of the others."
+        ]
+       ],
+       "ok": "Exactly: the difference is one of force and vividness.",
+       "mal": "Read the sentence again.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definition and explanation",
+      "titulo": "The empiricist criterion",
+      "glosario": [
+       "g-impresion",
+       "g-haz-de-percepciones"
+      ],
+      "definicion": [
+       "<strong>Impressions</strong> → vivid perceptions: sensations, emotions, desires.",
+       "<strong>Ideas</strong> → fainter copies of impressions: what we remember or imagine.",
+       "<strong>Criterion</strong> → every legitimate idea comes from an impression; if a word refers to none, it lacks meaning.",
+       "<strong>Consequences</strong> → we have no impression of a substance lying beneath qualities, nor of a permanent self: the self is a bundle of perceptions."
+      ],
+      "comprobacion": {
+       "boton": "Check understanding",
+       "etiqueta": "Final check",
+       "pregunta": "According to Hume’s criterion, what happens to the idea of a permanent ‘self’?",
+       "opciones": [
+        [
+         "That there is no impression of it: the self is a bundle of perceptions that follow one another.",
+         true
+        ],
+        [
+         "That it is the first certainty, as in Descartes’s <em>cogito</em>.",
+         false,
+         "That is Descartes’s position, which Hume calls into question."
+        ],
+        [
+         "That it is an innate idea.",
+         false,
+         "Hume rejects innate ideas."
+        ],
+        [
+         "That it is perceived through the senses like any other object.",
+         false,
+         "Quite the opposite: we find no impression of the self."
+        ]
+       ],
+       "ok": "Correct: without an impression of the self, only a bundle of perceptions remains.",
+       "mal": "Not yet."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Going deeper",
+    "etiqueta": "New question",
+    "pregunta": "Why does Hume say that we do not know the necessary connection between cause and effect?",
+    "repaso": [
+     "Have I distinguished relations of ideas (certain, like mathematics) from matters of fact (dependent on experience)?",
+     "Have I explained that of causality we see only succession and constant conjunction, not a necessary connection?",
+     "Have I said that causal inference rests on custom or habit, and have I linked it to the problem of induction?"
+    ],
+    "intro": [
+     "One billiard ball hits another and the second one moves. We say that the first ‘caused’ the movement. Hume asks what exactly we have seen."
+    ],
+    "pistas": [
+     "Remember the two kinds of knowledge: <strong>relations of ideas</strong> (such as ‘two and two are four’) are certain without looking at the world; <strong>matters of fact</strong> depend on experience and their contrary is always possible.",
+     "Causality is a matter of fact. Apply the criterion of impressions: with the billiard balls we see one and then the other, <strong>contiguity and succession</strong>, and that this is always repeated. But <strong>we see no necessary connection</strong>.",
+     "Where, then, does the idea that it ‘has to’ happen come from? From <strong>custom</strong>: after seeing the same thing many times, the mind expects it to be repeated.",
+     "That is why we cannot prove that the future will be like the past: this is the <strong>problem of induction</strong>. Even so, custom allows us to live: it is ‘the great guide of human life’."
+    ],
+    "comprobacion": {
+     "pregunta": "According to Hume, where does the idea of necessary connection between cause and effect come from?",
+     "opciones": [
+      [
+       "From custom: after seeing the same thing many times, we expect it to be repeated.",
+       true
+      ],
+      [
+       "From our directly perceiving the force that links the cause to the effect.",
+       false,
+       "That is what Hume denies: we see only succession, not the connection.",
+       "g-habito"
+      ],
+      [
+       "From a rational demonstration, as in mathematics.",
+       false,
+       "Causality is a matter of fact, not a relation of ideas.",
+       "g-relaciones-de-ideas"
+      ],
+      [
+       "From God, who guarantees the order of nature.",
+       false,
+       "Hume does not appeal to God: he explains it through custom.",
+       "g-habito"
+      ]
+     ],
+     "ok": "Exactly: necessity is supplied by habit, not by experience.",
+     "mal": "Not exactly."
+    },
+    "rescate": [
+     {
+      "boton": "Show the explanation",
+      "etiqueta": "Causality and custom",
+      "titulo": "The great guide of life",
+      "glosario": [
+       "g-relaciones-de-ideas",
+       "g-habito",
+       "g-el-problema-de-la-induccion"
+      ],
+      "cita": {
+       "texto": "‘Custom, then, is the great guide of human life.’",
+       "fuente": "Hume, <em>An Enquiry concerning Human Understanding</em> (1748), V, § 36 (original wording)"
+      },
+      "definicion": [
+       "<strong>What we see</strong> → contiguity, succession (first the cause, then the effect) and constant conjunction (it has always happened this way).",
+       "<strong>What we do not see</strong> → the necessary connection, the ‘has to’. There is no impression of it.",
+       "<strong>Where it comes from</strong> → from custom or habit: repetition creates in the mind the expectation that it will be repeated.",
+       "<strong>The consequence</strong> → we cannot prove that the future will resemble the past (the problem of induction). It is a moderate scepticism: it does not prevent us from living, but it lowers the pretensions of reason."
+      ],
+      "comprobacion": {
+       "boton": "Finish by checking",
+       "pregunta": "What is the problem of induction?",
+       "opciones": [
+        [
+         "That we cannot prove that the future will be like the past, however many times something has been repeated.",
+         true
+        ],
+        [
+         "That science is of no use.",
+         false,
+         "Hume does not say that: custom serves us for living, but without absolute certainty."
+        ],
+        [
+         "That mathematics is unreliable.",
+         false,
+         "Relations of ideas, such as mathematics, are certain."
+        ],
+        [
+         "That we have never seen a cause.",
+         false,
+         "We see successions; what we do not see is the necessary connection."
+        ]
+       ],
+       "ok": "Correct: from what is repeated, what is necessary does not follow.",
+       "mal": "Reread the explanation."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "You can now explain Hume’s empiricism",
+   "parrafos": [
+    "All our ideas are copies of impressions; if a word refers to no impression, it has no content. Causality is a matter of fact: we see succession and constant conjunction, but not necessary connection, which arises from custom. That is why we cannot prove that the future will be like the past.",
+    "For the PAU: compare him with Descartes, point by point: the origin of ideas (innate or from experience), the criterion of truth (evidence or impression) and the scope of reason."
+   ],
+   "siguiente": "descartes-metodo"
   }
  },
  {
