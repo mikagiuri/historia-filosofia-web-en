@@ -675,6 +675,263 @@ const LABSPZ = {
    "nota": "It does not follow from anything above: Spinoza bases it on prop. 34 (God’s power is his essence), which is not formalised. If it is added, in a finite world it forces causal circles."
   }
  ],
+ "repaso": {
+  "titulo": "Revision: things, properties and relations",
+  "intro": "Everything the table takes for granted, right here beside it. The labels on the premises open the relevant entry.",
+  "bloques": [
+   {
+    "id": "cosas",
+    "titulo": "Things",
+    "txt": "These are the circles in the drawing. The letters <b>x</b>, <b>y</b>, <b>z</b> are variables: they stand for any thing, like the “someone” in “if someone is late, they miss the train”. A, B, C and D are names of particular things.",
+    "ej": "In a world of three things, “for every x” means: for A, for B and for C."
+   },
+   {
+    "id": "propiedad",
+    "titulo": "Properties: P(x)",
+    "txt": "A property is had, or not had, by <b>one thing alone</b>. It is written with its name and the thing in brackets.",
+    "ej": "increado(A): A is uncreated. In the drawing, the double circle."
+   },
+   {
+    "id": "relacion",
+    "titulo": "Relations: R(x, y)",
+    "txt": "A relation holds <b>between two things</b>, and the order matters: Crea(A, B) says that A created B, not that B created A. In the drawing it is an arrow going from the first to the second.",
+    "ej": "Antes(A, B): A began before B. The arrow leaves A and arrives at B."
+   },
+   {
+    "id": "cuantificadores",
+    "titulo": "All and some",
+    "txt": "<b>∀x</b> is read “for every thing x”: what follows holds for each one. <b>∃x</b> is read “there is some thing x”: it holds for at least one. To refute a “for every” a single case is enough; to refute a “there is some” you have to look at them all.",
+    "ej": "∀x. ¬Crea(x, x): no thing creates itself. ∃x. increado(x): at least one thing is uncreated."
+   },
+   {
+    "id": "formas",
+    "titulo": "The usual forms",
+    "txt": "The sentences of traditional logic have a fixed form:",
+    "lista": [
+     "“All P are Q”: ∀x. P(x) → Q(x). Careful: with “→”, not with “∧”.",
+     "“Some P are Q”: ∃x. P(x) ∧ Q(x). Here it is “∧”.",
+     "“No P is Q”: ∀x. P(x) → ¬Q(x).",
+     "“Some P are not Q”: ∃x. P(x) ∧ ¬Q(x).",
+     "“If… then”: A → B is false only when A is true and B is false."
+    ]
+   },
+   {
+    "id": "irrefl",
+    "titulo": "Irreflexive",
+    "txt": "",
+    "ej": "Nothing began before itself: there are no Antes arrows that return to their own circle."
+   },
+   {
+    "id": "refl",
+    "titulo": "Reflexive",
+    "txt": "",
+    "ej": "“Is the same size as”: every thing is the same size as itself."
+   },
+   {
+    "id": "sim",
+    "titulo": "Symmetric",
+    "txt": "",
+    "ej": "“Is contemporary with”: if A is contemporary with B, B is contemporary with A."
+   },
+   {
+    "id": "asim",
+    "titulo": "Asymmetric",
+    "txt": "",
+    "ej": "Creating, if whoever creates begins first: if A created B, B did not create A (proposition 2)."
+   },
+   {
+    "id": "trans",
+    "titulo": "Transitive",
+    "txt": "",
+    "ej": "If A began before B and B before C, A began before C."
+   },
+   {
+    "id": "inclusion",
+    "titulo": "One relation inside another",
+    "txt": "Every arrow of one relation is also an arrow of the other: ∀x y. R(x, y) → S(x, y). The converse is not required.",
+    "ej": "Crea inside Antes: if A created B, A began before B. But A can begin before B without having created it."
+   },
+   {
+    "id": "unico",
+    "titulo": "At most one arrow arrives",
+    "txt": "At most one arrow of the relation arrives at each thing: ∀x y z. R(x, z) ∧ R(y, z) → x = y.",
+    "ej": "Nothing has two creators: if A and B created C, A and B are the same thing."
+   },
+   {
+    "id": "serie",
+    "titulo": "An arrow arrives at everything",
+    "txt": "Every thing receives at least one arrow: ∀x. ∃y. R(y, x).",
+    "ej": "Everything has been created by something. In a finite world, with “Antes” irreflexive and transitive, that is impossible (proposition 6)."
+   }
+  ],
+  "tSimbolos": "The symbols",
+  "bPracticar": "Practise the properties of relations at the “Relations” table",
+  "tLectura": "It is read like this",
+  "tPasos": "Step by step",
+  "pHip": "assumption",
+  "pFin": "conclusion",
+  "conCosas": "With {x}, the proposition says",
+  "falsoAqui": "In this world that is false: check it in the drawing.",
+  "tForma": "Form",
+  "tFormula": "In logic"
+ },
+ "lectura": {
+  "paraToda": "for every thing {v}",
+  "paraTodas": "for all things {v}",
+  "paraTodo": "for every attribute {v}",
+  "paraTodos": "for all attributes {v}",
+  "hayUna": "there is some thing {v} such that",
+  "hayVarias": "there are things {v} such that",
+  "hayAtr": "there is some attribute {v} such that",
+  "hayAtrs": "there are attributes {v} such that",
+  "hayMixto": "there is some thing {c} and some attribute {a} such that",
+  "noHay": "there is no thing {v} such that",
+  "noHayAtr": "there is no attribute {v} such that",
+  "trasTodo": "{a}: {b}",
+  "conY": "{a} and {b}",
+  "conO": "{a} or {b}",
+  "si": "if {a}, then {b}",
+  "sii": "{a} if and only if {b}",
+  "noEs": "it is not the case that {a}",
+  "igual": "{1} is the same thing as {2}",
+  "distinto": "{1} is different from {2}",
+  "define": "{a} means: {b}",
+  "Dios": "God",
+  "rel": {
+   "Antes": [
+    "{1} began before {2}",
+    "{1} did not begin before {2}"
+   ],
+   "DuraMas": [
+    "{1} lasts longer than {2}",
+    "{1} does not last longer than {2}"
+   ],
+   "Crea": [
+    "{1} created {2}",
+    "{1} did not create {2}"
+   ],
+   "increado": [
+    "{1} is uncreated",
+    "{1} is not uncreated"
+   ],
+   "En": [
+    "{1} is in {2}",
+    "{1} is not in {2}"
+   ],
+   "SeConcibePor": [
+    "{1} is conceived through {2}",
+    "{1} is not conceived through {2}"
+   ],
+   "Causa": [
+    "{1} is the cause of {2}",
+    "{1} is not the cause of {2}"
+   ],
+   "AlgoEnComun": [
+    "{1} and {2} have something in common",
+    "{1} and {2} have nothing in common"
+   ],
+   "EsParteDe": [
+    "{1} is part of {2}",
+    "{1} is not part of {2}"
+   ],
+   "Limita": [
+    "{1} limits {2}",
+    "{1} does not limit {2}"
+   ],
+   "MasRealidad": [
+    "{1} has more reality than {2}",
+    "{1} does not have more reality than {2}"
+   ],
+   "TieneAtributo": [
+    "{1} has the attribute {2}",
+    "{1} does not have the attribute {2}"
+   ],
+   "AtributoSeConcibePor": [
+    "the attribute {1} is conceived through the attribute {2}",
+    "the attribute {1} is not conceived through the attribute {2}"
+   ],
+   "EsenciaImplicaExistencia": [
+    "the essence of {1} involves its existence",
+    "the essence of {1} does not involve its existence"
+   ],
+   "ConcebibleComoNoExistente": [
+    "{1} can be conceived as not existing",
+    "{1} cannot be conceived as not existing"
+   ],
+   "Existe": [
+    "{1} exists",
+    "{1} does not exist"
+   ],
+   "ModoDeAtributo": [
+    "{1} is a mode of the attribute {2}",
+    "{1} is not a mode of the attribute {2}"
+   ],
+   "SigueDeAtributoAbsoluto": [
+    "{1} follows from the absolute nature of the attribute {2}",
+    "{1} does not follow from the absolute nature of the attribute {2}"
+   ],
+   "SigueDeModificacion": [
+    "{1} follows from the attribute modified by {2}",
+    "{1} does not follow from the attribute modified by {2}"
+   ],
+   "sustancia": [
+    "{1} is a substance",
+    "{1} is not a substance"
+   ],
+   "modo": [
+    "{1} is a mode",
+    "{1} is not a mode"
+   ],
+   "afeccion": [
+    "{1} is an affection of {2}",
+    "{1} is not an affection of {2}"
+   ],
+   "anterior_por_naturaleza": [
+    "{1} is prior in nature to {2}",
+    "{1} is not prior in nature to {2}"
+   ],
+   "finita": [
+    "{1} is finite in its kind",
+    "{1} is not finite in its kind"
+   ],
+   "divisible": [
+    "{1} is divisible",
+    "{1} is not divisible"
+   ],
+   "libre": [
+    "{1} is free",
+    "{1} is not free"
+   ],
+   "eterno": [
+    "{1} is eternal",
+    "{1} is not eternal"
+   ],
+   "atributo_eterno": [
+    "the attribute {1} is eternal",
+    "the attribute {1} is not eternal"
+   ],
+   "causa_inmanente": [
+    "{1} is an immanent cause of {2}",
+    "{1} is not an immanent cause of {2}"
+   ],
+   "causa_transitiva": [
+    "{1} is a transitive cause of {2}",
+    "{1} is not a transitive cause of {2}"
+   ],
+   "contingente": [
+    "{1} is contingent",
+    "{1} is not contingent"
+   ],
+   "finita_modo": [
+    "{1} is a finite mode",
+    "{1} is not a finite mode"
+   ],
+   "eterno_por_atributo": [
+    "{1} is eternal through its attribute",
+    "{1} is not eternal through its attribute"
+   ]
+  }
+ },
  "guia": {
   "titulo": "What you have in front of you and how to use it",
   "secciones": [
@@ -854,6 +1111,24 @@ const LABSPZ = {
   "props": [
    {
     "id": "Q1",
+    "pasos": [
+     {
+      "txt": "Suppose some thing x created itself: Crea(x, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Whatever creates begins before what it creates, so x began before x: Antes(x, x).",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "But nothing begins before itself: ¬Antes(x, x). Clash.",
+      "k": "T_irreflexiva"
+     },
+     {
+      "txt": "So the supposition was false: nothing creates itself.",
+      "k": "fin"
+     }
+    ],
     "nombre": "1. Nothing creates itself",
     "pregunta": "Nothing <b>creates</b> itself.",
     "prueba": "If something created itself, it would have begun before itself, and nothing begins before itself.",
@@ -864,6 +1139,28 @@ const LABSPZ = {
    },
    {
     "id": "Q2",
+    "pasos": [
+     {
+      "txt": "Suppose x created y and y created x: Crea(x, y) ∧ Crea(y, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Then x began before y, and y before x: Antes(x, y) ∧ Antes(y, x).",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "Chaining these together, x began before x: Antes(x, x).",
+      "k": "T_transitiva"
+     },
+     {
+      "txt": "But nothing begins before itself. Clash.",
+      "k": "T_irreflexiva"
+     },
+     {
+      "txt": "So, if x creates y, y does not create x.",
+      "k": "fin"
+     }
+    ],
     "nombre": "2. Creating is not reciprocal",
     "pregunta": "If x creates y, <b>y does not create x</b>.",
     "prueba": "x began before y, and y before x; by transitivity, x began before x, which is impossible.",
@@ -875,6 +1172,20 @@ const LABSPZ = {
    },
    {
     "id": "Q3",
+    "pasos": [
+     {
+      "txt": "Start from x having created y and y having created z: Crea(x, y) ∧ Crea(y, z).",
+      "k": "hip"
+     },
+     {
+      "txt": "Then x began before y, and y before z: Antes(x, y) ∧ Antes(y, z).",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "Chaining these together, x began before z: Antes(x, z).",
+      "k": "T_transitiva"
+     }
+    ],
     "nombre": "3. The creator of the creator comes earlier",
     "pregunta": "If x creates y and y creates z, x <b>began before z</b>.",
     "prueba": "x began before y, and y before z; by transitivity, x before z.",
@@ -885,6 +1196,28 @@ const LABSPZ = {
    },
    {
     "id": "Q4",
+    "pasos": [
+     {
+      "txt": "Start from x having created y, and suppose y lasts longer than x: Crea(x, y) ∧ DuraMas(y, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Whatever creates lasts longer than what it creates: DuraMas(x, y).",
+      "k": "C_creador_dura_mas"
+     },
+     {
+      "txt": "Chaining these together, x lasts longer than x: DuraMas(x, x).",
+      "k": "D_transitiva"
+     },
+     {
+      "txt": "But nothing lasts longer than itself. Clash.",
+      "k": "D_irreflexiva"
+     },
+     {
+      "txt": "So what is created does not last longer than its creator.",
+      "k": "fin"
+     }
+    ],
     "nombre": "4. What is created does not outlast its creator",
     "pregunta": "If x creates y, y <b>does not last longer</b> than x.",
     "prueba": "x lasts longer than y (the debatable premise); if y also lasted longer than x, by transitivity x would last longer than itself.",
@@ -902,6 +1235,28 @@ const LABSPZ = {
    },
    {
     "id": "Q6",
+    "pasos": [
+     {
+      "txt": "Suppose nothing is uncreated: every thing has a creator.",
+      "k": "hip"
+     },
+     {
+      "txt": "Pick a thing, find its creator, then that creator's creator, and so on. Each step goes back in time.",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "What began before something that began before, began before: the whole chain runs backwards.",
+      "k": "T_transitiva"
+     },
+     {
+      "txt": "The world is finite, so the chain ends up repeating a thing, which would have begun before itself. Clash.",
+      "k": "T_irreflexiva"
+     },
+     {
+      "txt": "So there is something uncreated. In an infinite world the chain might never repeat: that is why Isabelle proves this only for finite worlds.",
+      "k": "fin"
+     }
+    ],
     "nombre": "6. There is something uncreated",
     "pregunta": "There is something that <b>nothing has created</b>.",
     "prueba": "In a finite world there cannot be a chain of creators with no first one: if everything had a creator, following the chain would lead back to a thing already seen, which would have begun before itself. Isabelle proves this for finite worlds. In an infinite one it does not hold: in the natural numbers, if each number is created by the next, everything has been created and nothing is uncreated. That is why ‘everything has been created’ fits no finite world with these premises.",

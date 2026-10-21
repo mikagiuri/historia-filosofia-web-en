@@ -31,12 +31,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The menu has <strong>five tabs</strong>. The first three are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training) and <strong>PAU</strong> (the exam, the texts and writing). After a line come the extra ones: <strong>History</strong> (the context of the philosophers) and <strong>Games</strong>.",
+   "x": "The menu’s first tabs are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training), <strong>Logic</strong> (the Logic Corner, with its exercises and its laboratory) and <strong>PAU</strong> (the exam, the texts and writing). After a line come the extra ones: <strong>History</strong> (the context of the philosophers) and <strong>Games</strong>.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "The menu has <strong>five tabs</strong>. The first three are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training) and <strong>Write and read</strong> (the essay and the texts). After a line come the extra ones: <strong>History</strong> (the context of the philosophers) and <strong>Games</strong>.",
+   "x": "The menu’s first tabs are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training), <strong>Logic</strong> (the Logic Corner, with its exercises and its laboratory) and <strong>Write and read</strong> (the essay and the texts). After a line come the extra ones: <strong>History</strong> (the context of the philosophers) and <strong>Games</strong>.",
    "solo": "fil"
   },
   {
@@ -209,6 +209,11 @@ const GUIA = {
      "nombre": "Glossary",
      "texto": "The subject’s dictionary: every term with its definition. Search for a word or filter the terms.",
      "view": "glosario"
+    },
+    {
+     "nombre": "Roots",
+     "texto": "Where the words of philosophy come from: their Greek or Latin root, to understand better what they mean today. Search for a word or browse them by topic.",
+     "view": "etimos"
     }
    ]
   },
@@ -246,11 +251,6 @@ const GUIA = {
      "view": "rescritura"
     },
     {
-     "nombre": "Logic Corner",
-     "texto": "Truth tables, valid arguments, syllogisms with Venn diagrams, paradoxes and exercises; and a laboratory with truth trees, a world of shapes, relations and guided proofs.",
-     "view": "logica"
-    },
-    {
      "nombre": "Debate",
      "texto": "Four ways of training your argumentation, with their buttons at the top: Dilemmas (choose between two things that matter and give your reason), Controversies (philosophers of the same period who really clashed), Duel (debate against the computer) and Knots (find out where your own opinions clash).",
      "view": "dilemas"
@@ -269,6 +269,18 @@ const GUIA = {
   {
    "type": "p",
    "x": "The <strong>Debate</strong> activities are good training for the essay: they make you give reasons and take the other side’s into account."
+  },
+  {
+   "type": "h",
+   "x": "Logic"
+  },
+  {
+   "type": "p",
+   "x": "The <strong>Logic Corner</strong> now has its own tab. It brings together truth tables, valid arguments, syllogisms with Venn diagrams, paradoxes and exercises to train your reasoning."
+  },
+  {
+   "type": "p",
+   "x": "At the top, the <strong>Laboratory</strong>, with several tables to work step by step: truth trees, a world of shapes, relations, guided proofs and the tables of Kant’s judgements and Spinoza’s affects."
   },
   {
    "type": "h",
@@ -377,7 +389,7 @@ const GUIA = {
     },
     {
      "nombre": "Adages",
-     "texto": "Latin and Greek mottos that philosophers have been quoting for centuries, and when to use them.",
+     "texto": "Latin and Greek mottos that philosophers have been quoting for centuries, and when to use them. At the top, the <strong>Sayings</strong> button: famous sayings by the thinkers, with what they mean and when to use them.",
      "view": "adagios"
     },
     {
@@ -441,7 +453,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The site works the same way on a mobile phone. The menu is tucked into the ☰ button: when you press it, the five tabs open one below another, and each one unfolds when you tap it. If you use it often, add it to your home screen from the browser menu (‘Add to home screen’): it will open like an app."
+   "x": "The site works the same way on a mobile phone. The menu is tucked into the ☰ button: when you press it, the tabs open one below another, and each one unfolds when you tap it. If you use it often, add it to your home screen from the browser menu (‘Add to home screen’): it will open like an app."
   },
   {
    "type": "img",
