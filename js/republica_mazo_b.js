@@ -692,5 +692,331 @@ const REP_MAZO_B = {
    "desborda": "Meddling: the classes swap places; injustice, ἀδικία (*adikía*).",
    "falta": "Disintegration: the city becomes ‘many’ and at war with itself."
   }
+ ],
+ "dialogos": [
+  {
+   "id": "b_dlg_cerdos",
+   "emoji": "🐖",
+   "quien": "Glaucon",
+   "loc": "Republic II, 372a-e",
+   "situacion": "Socrates describes the first city: barley bread, wine, cheese, olives, myrtle wreaths and a life of peace into old age. Glaucon interrupts him: that is not a city for human beings.",
+   "cita": "‘And if you were founding a city of pigs, Socrates, what else would you fatten them on?’",
+   "griego": "ὑῶν πόλις (*hyôn pólis*): ‘city of pigs’. Glaucon asks for what is ‘customary’: couches, tables, relishes and desserts (372d-e).",
+   "pregunta": "Which city do you found?",
+   "opts": [
+    {
+     "t": "The healthy city: what is necessary and nothing more.",
+     "razon": "Anyone who does not desire the superfluous has no need to take it from anyone.",
+     "ef": {
+      "arm": 1,
+      "prod": -6
+     },
+     "r": "Nobody covets the neighbour’s land (+1 harmony), but the city gives up almost everything beyond eating (−6 production)."
+    },
+    {
+     "t": "Agree with Glaucon: couches, tables and relishes.",
+     "razon": "A human life is more than feeding oneself.",
+     "ef": {
+      "prod": 6,
+      "arm": -1
+     },
+     "r": "Craftsmen, cooks and perfumers arrive (+6 production), but as desire grows, so does the city, and it begins to feel too small (−1 harmony)."
+    },
+    {
+     "t": "Accept the feverish city, but with guardians to restrain it.",
+     "razon": "This is what Plato does: from the luxurious city come war and the guardians (373d-374a).",
+     "req": "ejercito",
+     "si": {
+      "ef": {
+       "prod": 3,
+       "arm": 1
+      },
+      "r": "Your warriors are enough to restrain desire and defend the frontier (+3 production and +1 harmony)."
+     },
+     "no": {
+      "ef": {
+       "prod": 3,
+       "arm": -2
+      },
+      "r": "The city swells and has no one to guard it (+3 production, −2 harmony)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "‘The true city seems to me to be the one we have gone through, a healthy city; but, if you like, let us also look at a city with a fever.’",
+    "loc": "Republic II, 372e"
+   },
+   "critica": {
+    "autor": "Aristotle",
+    "txt": "He faults the Republic for making the city arise from the most necessary trades, as if every city were formed for the sake of what is necessary and not, rather, for the sake of what is fine (paraphrase). Is the healthy city a city, or merely a pantry?",
+    "loc": "Politics IV 4, 1291a10-19"
+   },
+   "glo": [
+    "g-la-ciudad-justa",
+    "g-templanza",
+    "g-alma-concupiscible"
+   ]
+  },
+  {
+   "id": "b_dlg_perro",
+   "emoji": "🐕",
+   "quien": "Glaucon",
+   "loc": "Republic II, 375a-376c",
+   "situacion": "The city needs guardians. Socrates compares them to a pedigree dog: fierce with strangers, gentle with those it knows. The young people who will keep guard must be chosen.",
+   "cita": "‘They must be gentle with their own and harsh with their enemies; otherwise they will not wait for others to destroy them: they will get in first and do it themselves.’",
+   "griego": "φιλόσοφος καὶ θυμοειδής (*philósophos kaì thymoeidés*): ‘a lover of wisdom and spirited’, both at once.",
+   "pregunta": "Whom do you choose to keep guard?",
+   "opts": [
+    {
+     "t": "The fiercest: keeping guard demands courage.",
+     "razon": "A gentle defender does not defend.",
+     "ef": {
+      "mov": [
+       "E",
+       "G",
+       1
+      ],
+      "arm": -1
+     },
+     "r": "A producer becomes a warrior, but his fierceness does not tell strangers from neighbours (−1 harmony)."
+    },
+    {
+     "t": "The gentlest: so that they never turn against the city.",
+     "razon": "The danger of a guardian is that he becomes a wolf.",
+     "ef": {
+      "arm": 1,
+      "ap": -1
+     },
+     "r": "The city is calm (+1 harmony), but its guardians frighten no one and have to be reinforced (−1 AP)."
+    },
+    {
+     "t": "The spirited who also love learning, and educate them.",
+     "razon": "Only knowledge distinguishes friend from enemy.",
+     "req": "flag:musica",
+     "si": {
+      "ef": {
+       "arm": 2,
+       "ap": -1
+      },
+      "r": "Music has already attuned their spirit: fierce outside and gentle within (+2 harmony, −1 AP for the education)."
+     },
+     "no": {
+      "ef": {
+       "arm": -1,
+       "ap": -1
+      },
+      "r": "Without a musical education, their spirit does not know whom to bite (−1 harmony and −1 AP)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "‘The lover of learning and the lover of wisdom are the same.’ So the good guardian will be, by nature, ‘philosophical, spirited, swift and strong’.",
+    "loc": "Republic II, 376b-c"
+   },
+   "critica": {
+    "autor": "Socrates, against Polemarchus (Book I)",
+    "txt": "‘It is not the work of the just person to harm, whether a friend or anyone else, but of his opposite, the unjust.’ Does the guard dog not return to the definition that Socrates refuted: doing good to friends and harm to enemies?",
+    "loc": "Republic I, 335d"
+   },
+   "glo": [
+    "g-alma-irascible",
+    "g-valentia",
+    "g-paideia"
+   ]
+  },
+  {
+   "id": "b_dlg_mujeres",
+   "emoji": "⚔️",
+   "quien": "Socrates",
+   "loc": "Republic V, 451c-457b",
+   "situacion": "This is the first ‘wave’ of Book V: Socrates proposes that women should receive the same education as men and that they too should guard and govern the city. He knows that many will laugh at the sight of them exercising in the gymnasium (452a-b).",
+   "cita": "‘There is no occupation, my friend, among those that administer the city that belongs to a woman because she is a woman, or to a man because he is a man: natures are scattered alike in both, and woman shares by nature in all occupations, and man in all, though in all of them woman is weaker than man.’",
+   "griego": "ὁμοίως διεσπαρμέναι αἱ φύσεις (*homoíos diesparménai hai phýseis*): ‘natures, scattered alike’.",
+   "pregunta": "Do you open the guard to women?",
+   "opts": [
+    {
+     "t": "Yes: the same education and the same offices for anyone with the right nature.",
+     "razon": "What decides the class is the soul, not the sex.",
+     "ef": {
+      "mov": [
+       "E",
+       "G",
+       1
+      ],
+      "arm": -1
+     },
+     "r": "A woman producer joins the guard, but the novelty divides the assembly, which laughs (−1 harmony)."
+    },
+    {
+     "t": "No: each sex has its own virtue.",
+     "razon": "This is what Aristotle will defend: one is the virtue of the one who commands, another that of the one who serves.",
+     "ef": {
+      "arm": 1,
+      "zsj": -1
+     },
+     "r": "Nothing changes and nobody protests (+1 harmony); according to Plato, the city deprives itself of half the natures fit to govern (−1 wisdom for each guardian)."
+    },
+    {
+     "t": "Examine each person, one by one, without looking at sex.",
+     "razon": "There is a woman fit for the guard, and another who is not; just as among men (456a).",
+     "req": "justos",
+     "si": {
+      "ef": {
+       "mov": [
+        "E",
+        "Z",
+        1
+       ]
+      },
+      "r": "Your guardians judge without prejudice: a woman with a soul of gold rises to rule."
+     },
+     "no": {
+      "ef": {
+       "arm": -1
+      },
+      "r": "Your guardians are not impartial and the examination ends in favours (−1 harmony)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "‘There is a woman fit for the guard, and another who is not.’ And the nature for guarding the city is the same in woman and in man, ‘except in so far as she is weaker or he is stronger’.",
+    "loc": "Republic V, 456a"
+   },
+   "critica": {
+    "autor": "Aristotle",
+    "txt": "‘The moderation of a woman is not the same as that of a man, nor is her courage or her justice, as Socrates thought, but one is the courage of command and the other of service.’ From a feminist perspective, some readings see in Book V an unprecedented advance (G. Vlastos, “Was Plato a Feminist?”, 1989); others see an instrumentalisation: Plato makes the women guardians equal to serve the city and by abolishing the family, not for the sake of women’s interests (J. Annas, “Plato’s Republic and Feminism”, 1976) (paraphrase).",
+    "loc": "Politics I 13, 1260a20-24"
+   },
+   "glo": [
+    "g-virtud",
+    "g-paideia",
+    "g-la-ciudad-justa"
+   ]
+  },
+  {
+   "id": "b_dlg_leoncio",
+   "emoji": "👁️",
+   "quien": "Glaucon",
+   "loc": "Republic IV, 439e-440b",
+   "situacion": "Leontius, son of Aglaion, is coming up from the Piraeus and sees corpses lying beside the executioner. He wants to look at them and at the same time is repelled; he covers his face, struggles with himself and, overcome by desire, runs towards them with his eyes wide open (paraphrase of 439e-440a). In your city there is a similar spectacle and the young people crowd round.",
+   "cita": "‘There you are, you wretches: feast your fill on the lovely sight!’",
+   "griego": "θυμός (*thymós*): the spirit, which here grows indignant at desire itself, ἐπιθυμία (*epithymía*).",
+   "pregunta": "What do you do about the desire to look?",
+   "opts": [
+    {
+     "t": "Trust that the spirit of the young will take the side of reason.",
+     "razon": "Leontius’ shame proves that the soul is not only appetite.",
+     "req": "justos",
+     "si": {
+      "ef": {
+       "arm": 2
+      },
+      "r": "Your guardians are well ordered: indignation serves reason and the example spreads (+2 harmony)."
+     },
+     "no": {
+      "ef": {
+       "arm": -2
+      },
+      "r": "The spirit of your guardians is not educated: desire wins, as with Leontius (−2 harmony)."
+     }
+    },
+    {
+     "t": "Ban the spectacle.",
+     "razon": "Better not to put appetite to the test.",
+     "ef": {
+      "arm": 1,
+      "zsj": -1
+     },
+     "r": "Nobody crowds round (+1 harmony), but nobody learns to govern themselves either (−1 wisdom for each guardian)."
+    },
+    {
+     "t": "Let everyone look if they wish.",
+     "razon": "A desire that harms no one is no business of the city.",
+     "ef": {
+      "ap": 2,
+      "arm": -1
+     },
+     "r": "The city saves itself some vigilance (+2 AP), but grows used to appetite deciding (−1 harmony)."
+    }
+   ],
+   "platon": {
+    "txt": "‘This story indicates that anger sometimes wages war with the appetites, as one thing against another.’ When the appetites force someone against reasoning, ‘as between two parties in conflict, the spirit becomes an ally of reason’.",
+    "loc": "Republic IV, 440a-b"
+   },
+   "critica": {
+    "autor": "Aristotle",
+    "txt": "If the soul is divided into parts, the parts turn out to be, in a way, endless; and desire does not fit into just one: if the soul is three, there will be desire in each of them (paraphrase). Is Leontius struggling between parts, or is it a single soul divided?",
+    "loc": "On the Soul III 9, 432a22-b7"
+   },
+   "glo": [
+    "g-las-tres-partes-del-alma",
+    "g-alma-irascible",
+    "g-alma-concupiscible",
+    "g-alma-racional"
+   ]
+  },
+  {
+   "id": "b_dlg_asclepio",
+   "emoji": "⚕️",
+   "quien": "Glaucon",
+   "loc": "Republic III, 405c-408b",
+   "situacion": "The city fills up with chronic invalids and with doctors. Socrates recalls Asclepius: he treated healthy people who fell ill so that they could return to their trade, but he did not prolong the life of someone who could no longer live it (paraphrase of 407c-e). He criticises Herodicus, who invented a medicine that prolongs dying (406a-b).",
+   "cita": "‘In all well-governed cities each person has been assigned a task that he must do, and no one has time to spend his life being ill and curing himself.’",
+   "griego": "",
+   "pregunta": "What medicine will your city have?",
+   "opts": [
+    {
+     "t": "That of Asclepius: cure those who can return to their trade.",
+     "razon": "Medicine serves the life of the city, not the prolonging of illness.",
+     "ef": {
+      "prod": 4,
+      "arm": -1
+     },
+     "r": "The city performs better (+4 production), but many citizens feel abandoned (−1 harmony)."
+    },
+    {
+     "t": "Care for everyone, whatever the cost.",
+     "razon": "Each person’s life is worth something in itself, not because of their trade.",
+     "ef": {
+      "arm": 1,
+      "prod": -6
+     },
+     "r": "Nobody is left behind (+1 harmony), but care absorbs a good part of the city’s labour (−6 production)."
+    },
+    {
+     "t": "Prevent: a simple life that needs few doctors.",
+     "razon": "For Plato, many doctors and judges are a sign of a disordered city (405a).",
+     "req": "alimenta",
+     "si": {
+      "ef": {
+       "arm": 1,
+       "ap": -1
+      },
+      "r": "The city eats well and in moderation: fewer people fall ill (+1 harmony, −1 AP for the reform)."
+     },
+     "no": {
+      "ef": {
+       "arm": -1,
+       "ap": -1
+      },
+      "r": "With hunger, no healthy living is of any use: prevention fails (−1 harmony, −1 AP)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "Asclepius, of the person who was unable to live in the established course of life, ‘thought he should not treat him, since it would profit neither himself nor the city’.",
+    "loc": "Republic III, 407d-e"
+   },
+   "critica": {
+    "autor": "World Medical Association",
+    "txt": "The doctor promises that neither age, nor illness or disability, nor social standing will come between his duty and his patient (paraphrase). Other readers bring the passage closer to the present-day debate on overtreatment at the end of life: where does curing end and prolonging suffering begin?",
+    "loc": "Declaration of Geneva (1948; 2017 revision)"
+   },
+   "glo": [
+    "g-justicia",
+    "g-la-ciudad-justa",
+    "g-templanza"
+   ]
+  }
  ]
 };
