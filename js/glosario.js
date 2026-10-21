@@ -459,6 +459,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "Five ways",
+  "id": "g-cinco-vias",
+  "et": "*Way* renders the Latin *via*, ‘road’: Aquinas speaks of *quinque viae*, ‘five roads’.",
+  "area": "Religion",
+  "bloque": "B",
+  "unidad": "BT",
+  "tema": "Thomas Aquinas",
+  "def": "The five arguments with which Thomas Aquinas sets out to prove a posteriori that God exists. They start from facts about the world (motion, causes, contingency, degrees of perfection and order), show that these depend on something else and conclude that a first foundation is needed: a first mover, a first cause, a necessary being, a most perfect being and a supreme orderer. They are metaphysical arguments, not experimental proofs; Hume and Kant will deny that reason can leap in this way beyond experience.",
+  "ilustre": [
+   "tomas"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 9,
   "t": "Cynicism",
   "id": "g-cinismo",
@@ -752,6 +768,21 @@ const GLOSARIO = [
   "def": "Acting out of respect for the moral law; not merely coinciding with the norm, but having the right moral motivation.",
   "ilustre": [
    "kant"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 11,
+  "t": "Declaration of the Rights of Woman",
+  "id": "g-declaracion-de-los-derechos-de-la-mujer",
+  "area": "Politics",
+  "bloque": "C",
+  "unidad": "C1",
+  "tema": "The Enlightenment",
+  "def": "Olympe de Gouges’s *Declaration of the Rights of Woman and of the Female Citizen* (1791): it rewrites the 1789 one article by article to include woman and denounces the fact that ‘universal’ rights which exclude half of humanity contradict themselves. ‘Woman is born free and remains equal to man in rights’ (art. 1).",
+  "ilustre": [
+   "gouges"
   ]
  },
  {
@@ -1652,6 +1683,24 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "State of nature",
+  "id": "g-estado-de-naturaleza",
+  "et": "*Nature*, from the Latin *natura*, from *nasci*, ‘to be born’.",
+  "area": "Politics",
+  "bloque": "B",
+  "unidad": "B6",
+  "tema": "The social contract",
+  "def": "The hypothetical situation prior to the State, without a common power. It is not a historical fact but a thought experiment to justify power: for Hobbes it is a war of all against all; for Locke there are already natural rights, but they are poorly protected; for Rousseau the human being is free and good, and it is unequal society that corrupts him.",
+  "ilustre": [
+   "hobbes",
+   "locke",
+   "rousseau"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 9,
   "t": "Eudaimonía (happiness)",
   "id": "g-eudaimonia",
@@ -2389,6 +2438,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Synthetic a priori judgements",
+  "id": "g-juicios-sinteticos-a-priori",
+  "et": "*Synthetic*, from the Greek σύνθεσις (*sýnthesis*), ‘composition’; *a priori*, from the Latin, ‘from what comes before’.",
+  "area": "Epistemology",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "Kant's philosophy",
+  "def": "Judgements that extend our knowledge (synthetic) and are at the same time universal and necessary, without depending on experience (a priori), such as ‘7 + 5 = 12’ or ‘everything that happens has a cause’. They are those of mathematics and physics; Kant asks how they are possible and answers with the a priori forms of the subject.",
+  "ilustre": [
+   "kant"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Justice",
@@ -2958,6 +3023,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 11,
+  "t": "Bad faith",
+  "id": "g-mala-fe",
+  "et": "It translates the French *mauvaise foi*.",
+  "area": "Anthropology",
+  "bloque": "C",
+  "unidad": "C8",
+  "tema": "Existentialism",
+  "def": "According to Sartre, the self-deception by which we flee from the anguish of freedom: treating ourselves as a thing with a fixed character (‘that’s just how I am’) or blaming the situation (‘I had no choice’). There is always a choice: not choosing is also choosing.",
+  "ilustre": [
+   "sartre"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 10,
   "t": "Materialism",
   "id": "g-materialismo",
@@ -3452,6 +3533,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
+  "t": "Vital reason",
+  "id": "g-razon-vital",
+  "et": "*Vital*, from the Latin *vita*, ‘life’.",
+  "area": "Epistemology",
+  "bloque": "C",
+  "unidad": "C8",
+  "tema": "Existentialism",
+  "def": "Reason according to Ortega y Gasset: not a cold abstraction, but a tool of concrete life, which is the radical reality. He wants to overcome both pure rationalism and irrational vitalism at once; that is why he says that the human being has no nature, but history.",
+  "ilustre": [
+   "ortega"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 5,
   "impg": 4,
   "t": "Rules of the method",
@@ -3480,6 +3577,22 @@ const GLOSARIO = [
   "def": "The two kinds of knowledge according to Hume (*An Enquiry concerning Human Understanding*, IV): relations of ideas (mathematics and logic), certain by demonstration, because their contrary is contradictory; and matters of fact, which depend on experience and whose contrary is always possible (that the sun will not rise tomorrow). Anything that is neither of the two, he says at the end of the work, belongs ‘in the flames’.",
   "ilustre": [
    "hume"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Copernican revolution",
+  "id": "g-revolucion-copernicana",
+  "et": "After Nicolaus Copernicus, who put the Sun, not the Earth, at the centre.",
+  "area": "Epistemology",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "Kant's philosophy",
+  "def": "Kant’s turn in the theory of knowledge: it is not the subject that conforms to objects, but objects, as we know them, that conform to the a priori forms of the subject (space, time and the categories). It does not mean that the subject invents the world: experience supplies the matter.",
+  "ilustre": [
+   "kant"
   ]
  },
  {
@@ -4799,6 +4912,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
+  "t": "Natural and supernatural truths",
+  "id": "g-verdades-naturales-y-sobrenaturales",
+  "et": "*Supernatural*, from the Latin *super*, ‘above’, and *natura*, ‘nature’.",
+  "area": "Religion",
+  "bloque": "B",
+  "unidad": "BT",
+  "tema": "Thomas Aquinas",
+  "def": "Thomas Aquinas’s distinction between the truths that natural reason reaches (that God exists) and those that go beyond it and are known only by revelation (the Trinity). Some are known by both paths. They cannot contradict each other, because truth is one: faith and reason are distinct, but they work together.",
+  "ilustre": [
+   "tomas"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Verifiability",
@@ -4970,6 +5099,22 @@ const GLOSARIO = [
   "unidad": "C9",
   "tema": "Feminism",
   "def": "The line of thought that brings dependence, vulnerability and relationship to the centre of morality."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 10,
+  "t": "General will",
+  "id": "g-voluntad-general",
+  "et": "The Spanish *voluntad* (‘will’) comes from the Latin *voluntas*, from *velle*, ‘to want’.",
+  "area": "Politics",
+  "bloque": "B",
+  "unidad": "B6",
+  "tema": "The social contract",
+  "def": "According to Rousseau, the common interest of the political community, which arises from the social contract. It is not the ‘will of all’, the sum of private interests. Sovereignty lies with the people and cannot be represented; to be free is to obey the law one has given oneself. His critics dispute who decides in practice what that common interest is.",
+  "ilustre": [
+   "rousseau"
+  ]
  },
  {
   "subject": "hf",
