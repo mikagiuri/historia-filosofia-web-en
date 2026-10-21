@@ -693,14 +693,14 @@ const REP_DIAL = {
  "doxa": "The auxiliaries do not have knowledge, ἐπιστήμη (*epistéme*), but right opinion, ὀρθὴ δόξα (*orthè dóxa*): their courage is ‘the preservation of right and lawful opinion about what is to be feared and what is not’ (Republic IV, 430b). Only the rulers leave the cave.",
  "finB": [
   {
-   "min": 8,
+   "min": 20,
    "todas": true,
    "emoji": "🏛️",
    "name": "Kallipolis: the just city",
    "lema": "The three classes do their own part and the city holds together."
   },
   {
-   "min": 5,
+   "min": 12,
    "emoji": "⚖️",
    "name": "A city still standing, not yet fully just",
    "lema": "It endures, but some function fails."
@@ -766,6 +766,8 @@ const REP_DIAL = {
   "hudReg": "Regime",
   "elegir": "Choose a version",
   "accionesMax": "Actions (max. 3 this turn)",
+  "justiciaTurno": "⚖️ The city is just: each class does its own (+0.5).",
+  "opcional": "optional",
   "clasesB": [
    "Rulers",
    "Auxiliaries",
@@ -796,8 +798,8 @@ const REP_DIAL = {
   "cEconomiaT": "You start with 8 AP. Each turn you gain 1 more AP; in Version B, each new phase gives 2 AP. You can use up to 3 actions per turn, each one once.",
   "cVictoria": "How you win and how you lose",
   "cVictoriaA": "Version A: you start as an aristocracy with 10 harmony. Below 8, timocracy; below 6, oligarchy; below 4, democracy; below 2, tyranny. There is no going back up. With 0 harmony or fewer than 3 inhabitants, the city sinks. You win if you end in aristocracy or timocracy.",
-  "cVictoriaB": "Version B: you win Kallipolis if you end with 8 or more harmony and all four functions fulfilled; with 5 or more, the city is still standing. With 0 harmony or fewer than 3 inhabitants, it dissolves.",
-  "cFunciones": "The four functions (Version B): wisdom = some guardian with wisdom 5; courage = warriors ≥ producers ÷ 2.5; moderation = production ≥ population; justice = all three at once.",
+  "cVictoriaB": "Version B: you win Kallipolis if you finish with 20 or more harmony and the city is just (all three functions fulfilled); with 12 or more, the city still stands. With 0 harmony or fewer than 3 inhabitants, it dissolves. In B harmony rises fast: the hard part is reaching the end with each class in its place.",
+  "cFunciones": "The functions of the city (in both versions): wisdom = some guardian with wisdom 5; courage = warriors ≥ producers ÷ 2.5; moderation = production ≥ population. Justice is not a fourth virtue: it is all three being fulfilled at once, each class doing its own (Republic IV, 433a-c). On every turn the city is just, +0.5 harmony.",
   "cClases": "The classes and their cost",
   "cClasesT": "Cost of each profile = sum of its three virtues. Guardian: all three ≥4. Warrior: courage and moderation ≥4. Producer: moderation ≥4; each producer feeds 2 people. Below 30 inhabitants, the ‘Shrinking City’ event subtracts. In Real, producers ≥ 2 × (guardians + warriors): this is a rule of the game, not of Plato.",
   "cDialogos": "Dialogues: those of your version appear, one every three turns. You choose a position and a reason; the result changes the city.",

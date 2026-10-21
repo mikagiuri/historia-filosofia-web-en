@@ -43,7 +43,7 @@ const REP_MAZO_A = {
    "id": "sorteo",
    "v": "a",
    "ap": 1,
-   "img": "ac-sorteo",
+   "img": "../aristoteles/azar-suerte",
    "name": "Offices shared out by lot",
    "d": "Offices are shared among everyone: +2 AP, but −1 harmony and the city moves closer to democracy.",
    "cita": "‘They share out government and offices equally, and for the most part by lot.’",

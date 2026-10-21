@@ -2,6 +2,7 @@
 const PISTAS = [
  {
   "id": "hf-caverna",
+  "ilustre": "platon",
   "subject": "hf",
   "tema": "Topic 6 · Plato",
   "unidad": "hf-platon",
@@ -243,7 +244,508 @@ const PISTAS = [
   }
  },
  {
+  "id": "platon-alma",
+  "ilustre": "platon",
+  "subject": "hf",
+  "tema": "Topic 7 · Plato: the soul",
+  "unidad": "hf-antropologia",
+  "materia": "Philosophy · Plato",
+  "titulo": "What is the soul like according to Plato, and what is it to be just?",
+  "lede": "The section that has come up most often in the PAU: the three parts of the soul, their virtues and their reflection in the city. Ask only for the hints you need.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Recall",
+    "etiqueta": "Opening question",
+    "pregunta": "What are the three parts of the soul according to Plato, and what does each one do?",
+    "repaso": [
+     "Have I named the three parts: rational (<em>logistikón</em>), spirited (<em>thymoeidés</em>) and appetitive (<em>epithymetikón</em>)?",
+     "Have I said what each one does: to know and guide, to defend what is just with spirit, to seek pleasure and material things?",
+     "Have I explained the argument: impulses clash within us, so the soul is not a single thing?"
+    ],
+    "intro": [
+     "Think of someone who is very thirsty, with a glass of water in front of them that they know is contaminated. Something in them wants to drink and something tells them not to. Plato starts from a scene like this."
+    ],
+    "pistas": [
+     "To get you started: Plato observes that <strong>impulses clash</strong> within us. If one thing wants and another resists at the same time, the soul cannot be a single thing.",
+     "One part <strong>reasons</strong> and calculates what is best; another <strong>desires</strong>: food, drink, pleasure, money.",
+     "There is a third, which is neither reason nor desire: <strong>spirit</strong>, the part that is indignant at injustice and defends honour. It usually sides with reason.",
+     "In the <em>Phaedrus</em> he tells it with an image: a <strong>charioteer</strong> (reason) driving a chariot with two winged horses, one noble (the spirited part) and one unruly (the appetitive part)."
+    ],
+    "comprobacion": {
+     "pregunta": "Which part of the soul is indignant at injustice and usually allies itself with reason?",
+     "opciones": [
+      [
+       "The spirited part (<em>thymoeidés</em>).",
+       true
+      ],
+      [
+       "The appetitive part (<em>epithymetikón</em>).",
+       false,
+       "That is the part of the desires: food, drink, pleasure, wealth.",
+       "g-alma-concupiscible"
+      ],
+      [
+       "The rational part (<em>logistikón</em>).",
+       false,
+       "Reason knows and guides; the part that is indignant and lends it its strength is another.",
+       "g-alma-racional"
+      ],
+      [
+       "None: for Plato the soul is a single thing.",
+       false,
+       "It is precisely the clash of impulses that leads him to distinguish three parts.",
+       "g-las-tres-partes-del-alma"
+      ]
+     ],
+     "ok": "Good: spirit (<em>thymós</em>) is the natural ally of reason.",
+     "mal": "Not yet."
+    },
+    "rescate": [
+     {
+      "boton": "I need to read the text",
+      "etiqueta": "Supporting text",
+      "titulo": "Two parts that clash",
+      "glosario": [
+       "g-alma-racional",
+       "g-alma-concupiscible"
+      ],
+      "cita": {
+       "texto": "‘That with which the soul reasons we shall call the rational; and that with which it loves, hungers and thirsts and is stirred by the other desires, the irrational and appetitive.’",
+       "fuente": "Plato, <em>Republic</em> IV, 439d (my own translation from the Greek)"
+      },
+      "comprobacion": {
+       "etiqueta": "Checking the text",
+       "pregunta": "According to the text, what does the appetitive part of the soul do?",
+       "opciones": [
+        [
+         "It loves, hungers and thirsts and is stirred by desires.",
+         true
+        ],
+        [
+         "It reasons and calculates what is best.",
+         false,
+         "That is what the rational part does, the first one the text names."
+        ],
+        [
+         "It is indignant at injustice.",
+         false,
+         "That is the spirited part, which this passage does not yet name."
+        ],
+        [
+         "It remembers the Forms.",
+         false,
+         "The recollection of the Forms (<em>anámnesis</em>) is a matter for reason, not for the desires."
+        ]
+       ],
+       "ok": "Exactly: it is the part of the desires.",
+       "mal": "Read the second half of the sentence again.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definition and explanation",
+      "titulo": "Three parts, three functions",
+      "glosario": [
+       "g-las-tres-partes-del-alma",
+       "g-alma-irascible"
+      ],
+      "definicion": [
+       "<strong>Rational (<em>logistikón</em>)</strong> → knows the truth and guides the whole soul. In the <em>Timaeus</em>, Plato places it in the head.",
+       "<strong>Spirited (<em>thymoeidés</em>)</strong> → spirit: it is indignant at injustice and defends honour. Ally of reason. In the chest.",
+       "<strong>Appetitive (<em>epithymetikón</em>)</strong> → the desires of the body and of wealth. In the belly.",
+       "<strong>The winged chariot of the <em>Phaedrus</em></strong> → the charioteer is reason; the noble horse, the spirited part; the unruly one, the appetitive part."
+      ],
+      "comprobacion": {
+       "boton": "Check understanding",
+       "etiqueta": "Final check",
+       "pregunta": "In the image of the winged chariot, who is the charioteer?",
+       "opciones": [
+        [
+         "Reason, which must guide the two horses.",
+         true
+        ],
+        [
+         "Desire, which pulls the hardest.",
+         false,
+         "Desire is the unruly horse, not the one holding the reins."
+        ],
+        [
+         "The body, which carries the soul.",
+         false,
+         "The image is entirely about the soul: charioteer and horses are its parts."
+        ],
+        [
+         "The gods, who direct our life.",
+         false,
+         "In the image the gods have their own chariot; the charioteer of the human soul is its reason."
+        ]
+       ],
+       "ok": "Correct: reason holds the reins.",
+       "mal": "Not yet."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Going deeper",
+    "etiqueta": "New question",
+    "pregunta": "What is justice in the soul, and what does it have to do with the classes of the just city?",
+    "repaso": [
+     "Have I said the virtue of each part: wisdom (reason), courage (spirited) and temperance?",
+     "Have I defined justice as each part doing its own, with reason in command: the harmony of the three?",
+     "Have I related the three parts to the three classes of the city: rulers, guardians and producers?"
+    ],
+    "intro": [
+     "In the <em>Republic</em>, Plato looks for justice first in the city, because it is ‘bigger and easier to see’, and then in the soul. Think about what they have in common."
+    ],
+    "pistas": [
+     "Remember: each part of the soul has its <strong>virtue</strong>, its way of being in good order. For reason, <strong>wisdom</strong>; for the spirited part, <strong>courage</strong>.",
+     "<strong>Temperance</strong> is the agreement of all the parts that reason should rule; above all, that the desires let themselves be guided.",
+     "And <strong>justice</strong>? It is not the virtue of one part: it is that <strong>each part does its own</strong> and does not meddle with the others'. It is the harmony of the whole.",
+     "The just city has the same structure: <strong>rulers</strong> (reason, wisdom), <strong>guardians</strong> (spirit, courage) and <strong>producers</strong> (the desires). It is just when each class does its own."
+    ],
+    "comprobacion": {
+     "pregunta": "According to Plato, what is justice in the soul?",
+     "opciones": [
+      [
+       "That each part does its own, with reason in command: the harmony of the three.",
+       true
+      ],
+      [
+       "That reason eliminates the desires.",
+       false,
+       "Plato does not want to eliminate the desires, but to have them obey reason.",
+       "g-templanza"
+      ],
+      [
+       "That all the parts rule equally.",
+       false,
+       "Harmony is not equality of command: reason must guide.",
+       "g-justicia"
+      ],
+      [
+       "To give each person what they deserve according to the law.",
+       false,
+       "That would be legal justice; in the <em>Republic</em> justice is an inner order.",
+       "g-justicia"
+      ]
+     ],
+     "ok": "Exactly: justice is the order of the three parts.",
+     "mal": "Not exactly."
+    },
+    "rescate": [
+     {
+      "boton": "Show the explanation",
+      "etiqueta": "The soul and the city",
+      "titulo": "Doing one's own",
+      "glosario": [
+       "g-justicia",
+       "g-sabiduria",
+       "g-valentia",
+       "g-templanza"
+      ],
+      "cita": {
+       "texto": "‘Doing one's own and not meddling in many things is justice.’",
+       "fuente": "Plato, <em>Republic</em> IV, 433a (my own translation from the Greek)"
+      },
+      "definicion": [
+       "<strong>Soul</strong> → reason (wisdom, <em>sophía</em>), spirited (courage, <em>andreía</em>), appetitive. Temperance (<em>sophrosýne</em>) is the agreement of all of them that reason should rule.",
+       "<strong>City</strong> → philosopher-rulers (wisdom), guardians or auxiliaries (courage) and producers. The auxiliaries do not have knowledge (<em>epistéme</em>) but right opinion about what is to be feared (430b).",
+       "<strong>Justice</strong> (<em>dikaiosýne</em>) → in both, that each part does its own. That is why Plato's ethics and politics are the same question seen small and seen large."
+      ],
+      "comprobacion": {
+       "boton": "Finish by checking",
+       "pregunta": "Which class of the city corresponds to the spirited part of the soul?",
+       "opciones": [
+        [
+         "The guardians or auxiliaries, whose virtue is courage.",
+         true
+        ],
+        [
+         "The philosopher-rulers.",
+         false,
+         "The rulers correspond to reason and wisdom."
+        ],
+        [
+         "The producers: farmers, craftsmen and traders.",
+         false,
+         "The producers correspond to the part of the desires."
+        ],
+        [
+         "None: the city has nothing to do with the soul.",
+         false,
+         "For Plato the city is the soul ‘writ large’."
+        ]
+       ],
+       "ok": "Correct: the soul's spirit, the city's guardians.",
+       "mal": "Reread the explanation."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Now you can explain the soul and justice in Plato",
+   "parrafos": [
+    "The soul has three parts: rational (wisdom), spirited (courage) and appetitive; temperance is their agreement that reason should rule. Justice is each part doing its own, and the just city repeats that structure with rulers, guardians and producers.",
+    "For the PAU: relate this theory of the soul to the cave (educating reason) and to the rule of the philosophers."
+   ],
+   "siguiente": "hf-caverna"
+  }
+ },
+ {
+  "id": "descartes-metodo",
+  "ilustre": "descartes",
+  "subject": "hf",
+  "tema": "Topic 14 · Descartes",
+  "unidad": "hf-racionalismo",
+  "materia": "Philosophy · Descartes",
+  "titulo": "What method does Descartes propose, and how does he live while he doubts?",
+  "lede": "Parts II and III of the ‘Discourse on Method’, from the PAU reading: four rules for thinking and four maxims for living. Ask only for the hints you need.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Recall",
+    "etiqueta": "Opening question",
+    "pregunta": "What are the four rules of the method, and why does he take them from mathematics?",
+    "repaso": [
+     "Have I named the four rules: evidence, analysis, synthesis (order) and enumeration?",
+     "Have I explained the first: accept nothing as true without knowing it with evidence, avoiding precipitancy and prejudice?",
+     "Have I said why mathematics: it was the only knowledge that had reached certain demonstrations, with long chains of reasons?"
+    ],
+    "intro": [
+     "Descartes complains that, after years of study, he has found only doubts. He decides to look for a method. Think about how a difficult geometry problem is solved."
+    ],
+    "pistas": [
+     "To get you started: Descartes prefers <strong>a few rules</strong> well kept to many poorly followed, like a State with few laws that are obeyed.",
+     "The first rule is that of <strong>evidence</strong>: accept nothing that is not presented to the mind clearly and distinctly.",
+     "The next two are like taking something apart and putting it back together: <strong>divide</strong> each difficulty into parts (analysis) and <strong>order</strong> thoughts from the simplest to the most complex (synthesis).",
+     "The fourth: <strong>enumerate</strong> and review everything so as to omit nothing. The model is the geometers, with their ‘long chains of reasons’, simple and certain."
+    ],
+    "comprobacion": {
+     "pregunta": "What does the first rule of the method require?",
+     "opciones": [
+      [
+       "Not to accept as true anything that is not known with evidence, avoiding precipitancy and prejudice.",
+       true
+      ],
+      [
+       "To divide each difficulty into as many parts as possible.",
+       false,
+       "That is the second rule, the rule of analysis.",
+       "g-reglas-del-metodo"
+      ],
+      [
+       "To believe what the ancient sages say.",
+       false,
+       "Quite the opposite: Descartes wants to rely only on evidence, not on authority.",
+       "g-racionalismo"
+      ],
+      [
+       "To test everything with experiments.",
+       false,
+       "Descartes' model is mathematics, not experiment.",
+       "g-intuicion"
+      ]
+     ],
+     "ok": "Good: evidence is the way in.",
+     "mal": "Not yet."
+    },
+    "rescate": [
+     {
+      "boton": "I need to read the text",
+      "etiqueta": "Supporting text",
+      "titulo": "The first rule",
+      "glosario": [
+       "g-reglas-del-metodo",
+       "g-ideas-claras-y-distintas"
+      ],
+      "cita": {
+       "texto": "‘The first was never to accept anything as true that I did not know with evidence to be so; that is, carefully to avoid precipitancy and prejudice, and to include in my judgements nothing more than what presented itself to my mind so clearly and distinctly that I had no occasion to put it in doubt.’",
+       "fuente": "Descartes, <em>Discourse on Method</em>, II (AT VI 18; my own translation from the French)"
+      },
+      "comprobacion": {
+       "etiqueta": "Checking the text",
+       "pregunta": "According to the text, what must be avoided?",
+       "opciones": [
+        [
+         "Precipitancy (judging too soon) and prejudice (preconceived opinions).",
+         true
+        ],
+        [
+         "Doubt, because it paralyses thought.",
+         false,
+         "On the contrary: the criterion is that no occasion for doubt should remain."
+        ],
+        [
+         "Mathematics, because it is too abstract.",
+         false,
+         "The text does not speak of avoiding mathematics; it is his model."
+        ],
+        [
+         "The senses, because they always deceive.",
+         false,
+         "He will deal with that in Part IV; here the subject is precipitancy and prejudice."
+        ]
+       ],
+       "ok": "Exactly: neither haste nor prejudice.",
+       "mal": "Read the first sentence again.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definition and explanation",
+      "titulo": "Four rules",
+      "glosario": [
+       "g-reglas-del-metodo",
+       "g-intuicion",
+       "g-deduccion"
+      ],
+      "definicion": [
+       "<strong>Evidence</strong> → accept only what is presented clearly and distinctly, with no occasion for doubt.",
+       "<strong>Analysis</strong> → divide each difficulty into as many parts as necessary to solve it better.",
+       "<strong>Synthesis (order)</strong> → conduct one's thoughts in order, from the simplest to the most complex.",
+       "<strong>Enumeration</strong> → make reckonings so complete and reviews so general that nothing is omitted."
+      ],
+      "comprobacion": {
+       "boton": "Check understanding",
+       "etiqueta": "Final check",
+       "pregunta": "Why does Descartes take his method from mathematics?",
+       "opciones": [
+        [
+         "Because mathematicians were the only ones who had reached certain and evident demonstrations.",
+         true
+        ],
+        [
+         "Because all knowledge consists in doing sums.",
+         false,
+         "He does not say that everything is sums: he imitates the way of reasoning, not the content."
+        ],
+        [
+         "Because the university of his day required it.",
+         false,
+         "Descartes departs precisely from what the schools taught."
+        ],
+        [
+         "Because mathematics needs no rules.",
+         false,
+         "On the contrary: he draws the rules from it."
+        ]
+       ],
+       "ok": "Correct: he wants the certainty of geometry for all of philosophy.",
+       "mal": "Not yet."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Going deeper",
+    "etiqueta": "New question",
+    "pregunta": "If Descartes puts everything in doubt, how does he live in the meantime? What is provisional morality?",
+    "repaso": [
+     "Have I explained the image of the house: while it is being rebuilt, another one is needed to live in?",
+     "Have I named the maxims: obey the laws and customs, be firm and resolute, conquer oneself rather than fortune, and cultivate reason?",
+     "Have I used the example of the travellers lost in the forest to explain firmness?"
+    ],
+    "intro": [
+     "Methodical doubt is for knowledge, not for daily life: one still has to eat, make decisions and deal with other people. Think about what someone would do who pulls down their house in order to build it anew."
+    ],
+    "pistas": [
+     "Remember the image from Part III: someone who pulls down their house to rebuild it needs <strong>another house</strong> to live in meanwhile.",
+     "That provisional house is a <strong>provisional morality</strong>: a few maxims so as not to remain undecided in action.",
+     "The first: obey the <strong>laws and customs</strong> of his country and follow the most moderate opinions. The second: be <strong>firm</strong> in action, like travellers lost in a forest, who must always walk straight in one direction.",
+     "The third: try to <strong>conquer himself rather than fortune</strong> and to change his own desires rather than the order of the world. And as a conclusion: devote his life to <strong>cultivating reason</strong>."
+    ],
+    "comprobacion": {
+     "pregunta": "What is Descartes' provisional morality for?",
+     "opciones": [
+      [
+       "To be able to act firmly while his reason puts everything in doubt.",
+       true
+      ],
+      [
+       "To replace ethics for ever.",
+       false,
+       "It is provisional: a house to live in while the definitive one is being built.",
+       "g-moral-provisional"
+      ],
+      [
+       "To doubt the laws too and disobey them.",
+       false,
+       "The first maxim asks precisely for obedience to the laws and customs.",
+       "g-moral-provisional"
+      ],
+      [
+       "To prove that God exists.",
+       false,
+       "That is Part IV; provisional morality is for practical life.",
+       "g-la-garantia-de-dios"
+      ]
+     ],
+     "ok": "Exactly: doubt in knowledge, firmness in action.",
+     "mal": "Not exactly."
+    },
+    "rescate": [
+     {
+      "boton": "Show the explanation",
+      "etiqueta": "Living while one doubts",
+      "titulo": "The travellers in the forest",
+      "glosario": [
+       "g-moral-provisional",
+       "g-duda-metodica"
+      ],
+      "cita": {
+       "texto": "‘Imitating in this the travellers who, finding themselves lost in some forest, must not wander this way and that, still less stop in one place, but keep walking as straight as they can in one direction.’",
+       "fuente": "Descartes, <em>Discourse on Method</em>, III (AT VI 24; my own translation from the French)"
+      },
+      "definicion": [
+       "<strong>1st maxim</strong> → obey the laws and customs of his country, keep his religion and follow the most moderate opinions.",
+       "<strong>2nd maxim</strong> → be firm and resolute in action: once decided, keep going even if the opinion is doubtful, like the travellers in the forest.",
+       "<strong>3rd maxim</strong> → conquer himself rather than fortune; change his own desires rather than the order of the world.",
+       "<strong>Conclusion</strong> → spend his life cultivating reason and advancing in the knowledge of truth, following the method."
+      ],
+      "comprobacion": {
+       "boton": "Finish by checking",
+       "pregunta": "What does the example of the travellers lost in the forest teach?",
+       "opciones": [
+        [
+         "That, in action, it is better to follow a decision firmly even if it is doubtful than to stay doubting.",
+         true
+        ],
+        [
+         "That one must wait until one is sure before taking a step.",
+         false,
+         "Exactly what he criticises: whoever waits like that stays in the forest."
+        ],
+        [
+         "That one must go back the way one came.",
+         false,
+         "It does not say go back: it says walk straight in one direction."
+        ],
+        [
+         "That nature is dangerous.",
+         false,
+         "It is an image about decision, not about nature."
+        ]
+       ],
+       "ok": "Correct: by walking straight one ends up leaving the forest.",
+       "mal": "Reread the explanation."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Now you can explain the method and provisional morality",
+   "parrafos": [
+    "Descartes takes four rules from mathematics: evidence, analysis, synthesis and enumeration. While his method puts everything in doubt, he lives with a provisional morality: obey the laws, be firm in action, conquer himself rather than fortune and cultivate reason.",
+    "For the PAU: link these Parts II and III with Part IV (methodical doubt and the cogito), which is where the method bears its first fruit."
+   ],
+   "siguiente": "hf-duda"
+  }
+ },
+ {
   "id": "hf-duda",
+  "ilustre": "descartes",
   "subject": "hf",
   "tema": "Topic 14 · Descartes",
   "unidad": "hf-racionalismo",
@@ -486,6 +988,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-naturaleza",
+  "ilustre": "spinoza",
   "subject": "hf",
   "tema": "Topic 15 · Spinoza",
   "unidad": "hf-metafisica",
@@ -729,6 +1232,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-libertad",
+  "ilustre": "spinoza",
   "subject": "hf",
   "tema": "Topic 15 · Spinoza",
   "unidad": "hf-metafisica",
@@ -976,6 +1480,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-alegria",
+  "ilustre": "spinoza",
   "subject": "hf",
   "tema": "Topic 15 · Spinoza",
   "unidad": "hf-metafisica",
@@ -1219,7 +1724,255 @@ const PISTAS = [
   }
  },
  {
+  "id": "kant-ilustracion",
+  "ilustre": "kant",
+  "subject": "hf",
+  "tema": "Topic 18 · Kant: the Enlightenment",
+  "unidad": "hf-ilustracion",
+  "materia": "Philosophy · Kant",
+  "titulo": "What is Enlightenment, according to Kant?",
+  "lede": "Kant's PAU reading: a newspaper article from 1784 that still challenges its readers. Ask only for the hints you need.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Recall",
+    "etiqueta": "Opening question",
+    "pregunta": "How does Kant define Enlightenment, and why does he say that immaturity is our own fault?",
+    "repaso": [
+     "Have I said that Enlightenment is emergence from an immaturity for which one is oneself to blame?",
+     "Have I explained that immaturity is not knowing how to use one's own understanding without the guidance of another?",
+     "Have I given the causes, laziness and cowardice, and the motto <em>Sapere aude</em>?"
+    ],
+    "intro": [
+     "Kant answers, in a periodical, a question that was then being debated in Berlin. His answer begins with a famous definition. Try to reconstruct it before asking for help."
+    ],
+    "pistas": [
+     "To get you started: for Kant, Enlightenment is not an age or a set of books, but a <strong>change in the person</strong>: an emergence.",
+     "One emerges from an <strong>immaturity</strong>: not knowing how to use one's own understanding without someone else guiding us.",
+     "That immaturity is <strong>our own fault</strong> when what we lack is not understanding but resolve and courage to use it. Its causes: <strong>laziness</strong> and <strong>cowardice</strong>. It is very comfortable to have a book that thinks for me and a guardian who decides for me.",
+     "That is why the motto of the Enlightenment is <em>Sapere aude!</em>: ‘Have the courage to use your own understanding!’"
+    ],
+    "comprobacion": {
+     "pregunta": "According to Kant, why is immaturity self-incurred?",
+     "opciones": [
+      [
+       "Because it is due not to a lack of understanding but to a lack of resolve and courage to use it without the guidance of another.",
+       true
+      ],
+      [
+       "Because minors have not studied enough.",
+       false,
+       "It is not a matter of studies or of age: it is a matter of courage to think for oneself.",
+       "g-minoria-de-edad"
+      ],
+      [
+       "Because rulers do not let people think.",
+       false,
+       "Kant criticises the guardians, but the blame he points to is that of those who let themselves be guided out of laziness and cowardice.",
+       "g-minoria-de-edad"
+      ],
+      [
+       "Because human reason is not capable of knowing the truth.",
+       false,
+       "Kant does not say that we lack reason: he says that we do not dare to use it.",
+       "g-autonomia"
+      ]
+     ],
+     "ok": "Good: immaturity is self-incurred because it arises from laziness and cowardice.",
+     "mal": "Not yet."
+    },
+    "rescate": [
+     {
+      "boton": "I need to read the text",
+      "etiqueta": "Supporting text",
+      "titulo": "The definition",
+      "glosario": [
+       "g-minoria-de-edad",
+       "g-autonomia"
+      ],
+      "cita": {
+       "texto": "‘Enlightenment is the human being's emergence from his self-incurred immaturity. Immaturity is the inability to make use of one's own understanding without the guidance of another.’",
+       "fuente": "Kant, <em>An Answer to the Question: What Is Enlightenment?</em> (1784), Ak. VIII 35 (my own translation from the German)"
+      },
+      "comprobacion": {
+       "etiqueta": "Checking the text",
+       "pregunta": "According to the text, what is immaturity?",
+       "opciones": [
+        [
+         "The inability to use one's own understanding without the guidance of another.",
+         true
+        ],
+        [
+         "Not yet having turned eighteen.",
+         false,
+         "Kant is not talking about legal age: an adult can still be ‘immature’."
+        ],
+        [
+         "Not having political rights.",
+         false,
+         "The text speaks of understanding, not of rights."
+        ],
+        [
+         "Not knowing how to read or write.",
+         false,
+         "One can read a great deal and still let someone else do one's thinking."
+        ]
+       ],
+       "ok": "Exactly: it is not daring to think without a guardian.",
+       "mal": "Read the second sentence again.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definition and explanation",
+      "titulo": "Laziness, cowardice and guardians",
+      "glosario": [
+       "g-minoria-de-edad",
+       "g-autonomia"
+      ],
+      "definicion": [
+       "<strong>Enlightenment</strong> → emerging from immaturity; thinking for oneself.",
+       "<strong>Self-incurred immaturity</strong> → what is lacking is not understanding but resolve and courage. Its causes are laziness (it is comfortable for someone else to think for me) and cowardice (it is frightening to make mistakes alone).",
+       "<strong>The guardians</strong> → those who offer to think for others and make them see the danger of walking alone.",
+       "<strong><em>Sapere aude</em></strong> → ‘dare to know’: the motto Kant takes from a line of Horace."
+      ],
+      "comprobacion": {
+       "boton": "Check understanding",
+       "etiqueta": "Final check",
+       "pregunta": "What role do the guardians play in Kant's text?",
+       "opciones": [
+        [
+         "They offer to think for others and frighten them about walking alone, and so keep them in immaturity.",
+         true
+        ],
+        [
+         "They are the teachers who help people think for themselves.",
+         false,
+         "For Kant they do the opposite: they keep others under their guidance."
+        ],
+        [
+         "They are the only ones who have already emerged from immaturity.",
+         false,
+         "That is not what matters: the text presents them as those who direct others."
+        ],
+        [
+         "They represent the people of the Enlightenment.",
+         false,
+         "On the contrary: the enlightened ask each person to think for themselves, without guardians."
+        ]
+       ],
+       "ok": "Correct: the guardian makes immaturity comfortable.",
+       "mal": "Not yet."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Going deeper",
+    "etiqueta": "New question",
+    "pregunta": "What distinguishes the public use of reason from the private use, and why must only the former always be free?",
+    "repaso": [
+     "Have I defined public use: the use someone makes of it as a scholar before the whole reading public?",
+     "Have I defined private use: the use made in an office or post entrusted to us, where one must obey?",
+     "Have I given an example (the officer, the taxpayer, the pastor) and explained that public use is what brings about Enlightenment?"
+    ],
+    "intro": [
+     "Kant does not ask us to disobey. He asks for something subtler: he distinguishes two uses of reason. Think of an army officer who receives an order that seems wrong to him."
+    ],
+    "pistas": [
+     "Remember the condition Kant sets for Enlightenment: all that is needed is <strong>freedom</strong>, and the most harmless kind of all.",
+     "That freedom is the freedom to make <strong>public use</strong> of one's own reason: to speak as a scholar before the whole reading public.",
+     "<strong>Private use</strong> is the use we make in an office entrusted to us. There it can indeed be restricted: the officer on duty has to obey, even if the order seems wrong to him.",
+     "But that same officer, <strong>as a scholar</strong>, may afterwards write against the failings of the service. That is why Kant sums up what his king says: ‘argue as much as you like and about whatever you like, but obey’."
+    ],
+    "comprobacion": {
+     "pregunta": "An officer receives an order that seems wrong to him. According to Kant, what should he do?",
+     "opciones": [
+      [
+       "Obey while on duty, and afterwards, as a scholar, publicly criticise the error before readers.",
+       true
+      ],
+      [
+       "Disobey, because reason is above orders.",
+       false,
+       "In office, the private use of reason may be restricted: there one must obey.",
+       "g-uso-privado"
+      ],
+      [
+       "Obey and stay silent always, because that is how the State works.",
+       false,
+       "Kant asks that public use always be free: staying silent for ever is not the way out.",
+       "g-uso-publico"
+      ],
+      [
+       "Resign, because one cannot obey and think at the same time.",
+       false,
+       "Kant shows that one can: obey in office and reason in public."
+      ]
+     ],
+     "ok": "Exactly: obey in the private use and reason freely in the public use.",
+     "mal": "Not exactly."
+    },
+    "rescate": [
+     {
+      "boton": "Show the explanation",
+      "etiqueta": "Two uses of reason",
+      "titulo": "Reasoning in public, obeying in office",
+      "glosario": [
+       "g-uso-publico",
+       "g-uso-privado"
+      ],
+      "cita": {
+       "texto": "‘By the public use of one's own reason I understand the use which anyone makes of it, as a scholar, before the entire reading public.’",
+       "fuente": "Kant, <em>What Is Enlightenment?</em> (1784), Ak. VIII 37 (my own translation from the German)"
+      },
+      "definicion": [
+       "<strong>Public use</strong> → speaking or writing as a scholar before all readers. It must always be free, because it is the only use that brings Enlightenment to others.",
+       "<strong>Private use</strong> → the use made in an office entrusted to us (the officer, the civil servant, the pastor before his congregation). It may be restricted without holding back Enlightenment.",
+       "That is why Kant says that he lives in an <strong>age of Enlightenment</strong>, but not in an enlightened age: the road is open, not yet travelled."
+      ],
+      "comprobacion": {
+       "boton": "Finish by checking",
+       "pregunta": "Why must the public use of reason always be free?",
+       "opciones": [
+        [
+         "Because it is the only one that can bring Enlightenment to others.",
+         true
+        ],
+        [
+         "Because that way nobody ever has to obey.",
+         false,
+         "Kant keeps obedience in the private use."
+        ],
+        [
+         "Because only rulers exercise it.",
+         false,
+         "Anyone can exercise it, as a scholar, before readers."
+        ],
+        [
+         "Because it has no consequences.",
+         false,
+         "Kant calls it ‘harmless’ to order, but it is exactly what makes Enlightenment advance."
+        ]
+       ],
+       "ok": "Correct: without free public use, there is no Enlightenment.",
+       "mal": "Reread the explanation."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Now you can explain ‘What Is Enlightenment?’",
+   "parrafos": [
+    "Enlightenment is emergence from an immaturity for which one is oneself to blame: what is lacking is not understanding but resolve and courage (<em>Sapere aude</em>). To emerge, all that is needed is freedom to make public use of reason, which must always be free, whereas private use, that of one's office, may be restricted.",
+    "For the PAU: in the summary, distinguish the definition, the causes and the two uses of reason; in option A or B, relate it to the autonomy of Kant's ethics."
+   ],
+   "siguiente": "kant-imperativo"
+  }
+ },
+ {
   "id": "kant-imperativo",
+  "ilustre": "kant",
   "subject": "hf",
   "tema": "Topic 20 · Kant: the ethics of duty",
   "unidad": "hf-etica-deber",
@@ -1465,6 +2218,7 @@ const PISTAS = [
  },
  {
   "id": "kant-humanidad",
+  "ilustre": "kant",
   "subject": "hf",
   "tema": "Topic 20 · Kant: the ethics of duty",
   "unidad": "hf-etica-deber",
@@ -1704,6 +2458,7 @@ const PISTAS = [
  },
  {
   "id": "marx-alienacion",
+  "ilustre": "marx",
   "subject": "hf",
   "tema": "Topic 21 · Marx",
   "unidad": "hf-sospecha",
@@ -1950,6 +2705,7 @@ const PISTAS = [
  },
  {
   "id": "nietzsche-destino",
+  "ilustre": "nietzsche",
   "subject": "hf",
   "tema": "Topic 21 · Nietzsche",
   "unidad": "hf-sospecha",
@@ -2196,6 +2952,7 @@ const PISTAS = [
  },
  {
   "id": "beauvoir-conclusion",
+  "ilustre": "beauvoir",
   "subject": "hf",
   "tema": "Topic 26 · Beauvoir",
   "unidad": "hf-beauvoir",

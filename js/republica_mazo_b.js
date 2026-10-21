@@ -96,6 +96,7 @@ const REP_MAZO_B = {
    "v": "b",
    "fase": 1,
    "ap": 1,
+   "img": "ac-deporte",
    "name": "Education: gymnastics (γυμναστική, *gymnastiké*)",
    "d": "+1 courage for each auxiliary guardian. If ‘Music’ has already been played, +1 harmony for the balance achieved.",
    "cita": "‘It is not the good body that makes the soul good, but the other way round: the good soul, by its virtue, makes the body as good as it can be. Gymnastics and music are not one for the body and another for the soul: both educate, above all, the soul.’",
@@ -444,6 +445,7 @@ const REP_MAZO_B = {
   {
    "id": "b_ev_desigualdad",
    "v": "b",
+   "img": "../aristoteles/azar-fanaticos",
    "name": "Rebellion over inequality",
    "loc": "Republic IV, 422e-423a",
    "cita": "‘Every city, however small, is in reality two cities at war: that of the poor and that of the rich; and within each, many others. If you treat them as one, you deceive yourself.’",
@@ -521,6 +523,7 @@ const REP_MAZO_B = {
   {
    "id": "b_ev_defensa",
    "v": "b",
+   "img": "../aristoteles/azar-guerra",
    "name": "War over territory",
    "loc": "Republic II, 374a-e",
    "cita": "‘Shall we leave war to just anyone? Or is this too a craft? For if the cobbler cannot also be farmer, weaver and builder, how could one who has another trade be good at war? Guarding the city calls for more care than any other work, and more time, and skill, and dedication.’",

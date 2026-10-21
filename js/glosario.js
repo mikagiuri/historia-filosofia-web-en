@@ -3000,6 +3000,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Immaturity",
+  "id": "g-minoria-de-edad",
+  "et": "Translates the German *Unmündigkeit*: not being *mündig*, ‘of age’, a word that comes from the old *munt*, ‘protection, guardianship’.",
+  "area": "Ethics",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "Kant's philosophy",
+  "def": "For Kant, the inability to use one's own understanding without the guidance of another. One is guilty of it oneself when it is due not to a lack of understanding but to a lack of resolve and courage; its causes are laziness and cowardice (*What Is Enlightenment?*, 1784, Ak. VIII 35).",
+  "ilustre": [
+   "kant"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Unfinished modernity",
@@ -3044,6 +3060,22 @@ const GLOSARIO = [
   "def": "The concrete expression of the single substance. Particular beings are not independent substances, but limited modes.",
   "ilustre": [
    "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 4,
+  "t": "Provisional morality",
+  "id": "g-moral-provisional",
+  "et": "*Provisional*, from the Latin *providere*, ‘to foresee, to provide’: what one adopts until the definitive arrives.",
+  "area": "Ethics",
+  "bloque": "B",
+  "unidad": "DM",
+  "tema": "Descartes and rationalism: complete unit",
+  "def": "The maxims Descartes sets himself in order to live while he puts everything in doubt (*Discourse on Method*, III): to obey the laws and customs of his country, to be firm in his actions once decided, to try to conquer himself rather than fortune, and to devote his life to cultivating reason.",
+  "ilustre": [
+   "descartes"
   ]
  },
  {
@@ -3352,6 +3384,22 @@ const GLOSARIO = [
   "def": "Education in a broad sense: the shaping of character and mind. In Plato, the main task of the city, which selects its rulers after a long course of studies and tests.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 4,
+  "t": "Rules of the method",
+  "id": "g-reglas-del-metodo",
+  "et": "*Rule*, from the Latin *regula*, ‘rule, norm’; *method*, from the Greek μέθοδος (*méthodos*), ‘a way of going after something’.",
+  "area": "Method",
+  "bloque": "B",
+  "unidad": "DM",
+  "tema": "Descartes and rationalism: complete unit",
+  "def": "The four rules of the *Discourse on Method* (II): evidence (accept nothing that is not known with evidence), analysis (divide each difficulty into as many parts as necessary), synthesis (proceed in order, from the simplest to the most complex) and enumeration (review everything so as to omit nothing).",
+  "ilustre": [
+   "descartes"
   ]
  },
  {
@@ -4608,6 +4656,22 @@ const GLOSARIO = [
   "unidad": "A8",
   "tema": "Classical ethics",
   "def": "The right measure between excess and deficiency, adjusted to the situation and to right reason."
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Private use of reason",
+  "id": "g-uso-privado",
+  "et": "*Private*, from the Latin *privatus*, ‘particular, set apart from the public’.",
+  "area": "Politics",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "Kant's philosophy",
+  "def": "The use someone makes of their reason in a civil post or office entrusted to them: an officer on duty, a civil servant, a pastor before his congregation. Kant accepts that it may be restricted, because there one must obey; public use, by contrast, must always be free (Ak. VIII 37).",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
