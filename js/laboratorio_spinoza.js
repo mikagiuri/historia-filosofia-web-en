@@ -94,11 +94,19 @@ const LABSPZ = {
   "mundo": "World",
   "mundoTiempo": "Practice: time, duration and creation",
   "mundoSpinoza": "Spinoza, Ethics I",
-  "ledeTiempo": "A practice world to get the hang of it. Things are told apart only by which began first, which lasts longer and which created which. Choose a proposition and the premises you accept: the table looks for a small world in which all of them hold and the proposition fails; if there can be none because Isabelle has already proved it from those premises, it gives you the proof.",
+  "ledeTiempo": "A practice world to get the hang of it. Things are told apart only by which began first, which lasts longer and which created which. And they can cease to exist: whatever creates something can disappear while its work carries on, so beginning earlier is not lasting longer. Choose a proposition and the premises you accept: the table looks for a small world in which all of them hold and the proposition fails; if there can be none because Isabelle has already proved it from those premises, it gives you the proof.",
   "notaDefsTiempo": "Three relations and one definition, nothing more. Whatever the premises do not say can happen: if you do not tick that nothing began before itself, in the world that is found it can occur.",
   "defsTiempo": "Relations and definition",
   "grupoT": "Practice propositions",
   "selloNada": "Incompatible premises",
+  "selloPosible": "It is possible",
+  "puedeOcurrir": "It can happen",
+  "noPuede": "With these premises it cannot happen",
+  "posibleTxt": "There is a world of {n} in which all the ticked premises hold and this happens.",
+  "imposibleTxt": "There is no world of up to {c} things in which the ticked premises hold and this happens.",
+  "seCompruebaPos": "Checking whether it can happen: {x}",
+  "posibleIsa": "Isabelle builds such a world ({t}).",
+  "imposibleIsa": "Isabelle proves that it cannot happen with {x} ({t}).",
   "incompatibles": "The ticked premises cannot hold together",
   "incompatiblesTxt": "There is no world of up to {c} things in which all of them hold at once; anything at all would follow from such premises. Remove one.",
   "hayMundoT": "There is a world of {n} in which all the ticked premises hold and the proposition fails.",
@@ -755,13 +763,13 @@ const LABSPZ = {
     "id": "unico",
     "titulo": "At most one arrow arrives",
     "txt": "At most one arrow of the relation arrives at each thing: ∀x y z. R(x, z) ∧ R(y, z) → x = y.",
-    "ej": "Nothing has two creators: if A and B created C, A and B are the same thing."
+    "ej": "Nothing has two creators: if A and B created C, then A and B are one and the same thing. Without this premise, two different things can create a third (proposition 9)."
    },
    {
     "id": "serie",
     "titulo": "An arrow arrives at everything",
     "txt": "Every thing receives at least one arrow: ∀x. ∃y. R(y, x).",
-    "ej": "Everything has been created by something. In a finite world, with “Antes” irreflexive and transitive, that is impossible (proposition 6)."
+    "ej": "Everything has been created by something. In a finite world, with “Antes” irreflexive and transitive, that is impossible (proposition 7)."
    }
   ],
   "tSimbolos": "The symbols",
@@ -932,6 +940,42 @@ const LABSPZ = {
    ]
   }
  },
+ "isabelle": {
+  "titulo": "About Isabelle, and thank you",
+  "parrafos": [
+   "This table exists thanks to <b>Isabelle</b>, a proof assistant: a program in which statements are written in a formal language and proved step by step, and which checks every step without taking anything for granted. The logic we use is Isabelle/HOL, higher-order logic. It is free software.",
+   "When the table says “Proved in Isabelle”, it means that Isabelle has checked that proof from those premises. The countermodel finder on this page is more modest: it imitates Nitpick, the Isabelle tool that searches for counterexamples, but it only looks at small worlds. That is why “no countermodel” proves nothing.",
+   "Isabelle descends from Robin Milner’s LCF system, developed in Edinburgh: a small, trusted kernel through which every proof must pass. Lawrence C. Paulson began it at the University of Cambridge in the mid-1980s, and it soon became a joint project with Tobias Nipkow of the Technical University of Munich. Makarius Wenzel created Isar, the language in which structured proofs are written. Paulson named it after Gérard Huet’s daughter. Today it is built by many people and institutions around the world."
+  ],
+  "gracias": "Thank you to Lawrence Paulson, to Tobias Nipkow, to Makarius Wenzel and to everyone who has built Isabelle and offers it as free software. Without decades of their work, formalising Spinoza’s <em>Ethics</em> would not be within reach of a classroom.",
+  "tEnlaces": "To find out more",
+  "enlaces": [
+   {
+    "txt": "Isabelle: the official website",
+    "url": "https://isabelle.in.tum.de/"
+   },
+   {
+    "txt": "Archive of Formal Proofs: the library of proofs checked with Isabelle",
+    "url": "https://www.isa-afp.org/"
+   },
+   {
+    "txt": "Lawrence C. Paulson (University of Cambridge)",
+    "url": "https://www.cl.cam.ac.uk/~lp15/"
+   },
+   {
+    "txt": "Tobias Nipkow (Technical University of Munich)",
+    "url": "https://www.professoren.tum.de/en/nipkow-tobias"
+   },
+   {
+    "txt": "Makarius Wenzel",
+    "url": "https://sketis.net/"
+   },
+   {
+    "txt": "L. C. Paulson, T. Nipkow and M. Wenzel, ‘From LCF to Isabelle/HOL’, Formal Aspects of Computing 31 (2019)",
+    "url": "https://arxiv.org/abs/1907.02836"
+   }
+  ]
+ },
  "guia": {
   "titulo": "What you have in front of you and how to use it",
   "secciones": [
@@ -956,7 +1000,7 @@ const LABSPZ = {
     "lista": [
      "<b>Countermodel: it does not follow.</b> The table has built a small world that satisfies all your premises and in which the proposition fails. This is proof that it does not follow. Look at the drawing to see where it fails, and at the list of facts to check it for yourself.",
      "<b>Proved in Isabelle: it follows.</b> With those premises, Isabelle/HOL, a program that checks proofs step by step without taking anything for granted, has verified the proof. Here it is summarised in words.",
-     "<b>No countermodel.</b> The table has not found a world in which it fails, but it only searches among small worlds, of up to four things. That proves nothing: a larger world, even an infinite one, may be needed. Proposition 6 of the practice world is the example.",
+     "<b>No countermodel.</b> The table has not found a world in which it fails, but it only searches among small worlds, of up to four things. That proves nothing: a larger world, even an infinite one, may be needed. Proposition 7 of the practice world is the example.",
      "<b>Incompatible premises.</b> There is no small world in which all of them hold at once. From premises that contradict one another, anything follows, so they are of no use for proving anything."
     ]
    },
@@ -1021,10 +1065,12 @@ const LABSPZ = {
   "tRecorrido": "A walk-through to get started",
   "recorrido": [
    "Practice world, proposition 2. Press ‘Does it follow?’ as it stands. A premise is missing: look at the countermodel and say which.",
-   "Proposition 4. Remove the debatable premise. What real case resembles the countermodel?",
-   "Proposition 5. It comes with all the compatible premises ticked and still does not follow. Why?",
-   "Proposition 6. Press ‘All’. What does the table tell you? Why can ‘everything has been created’ not sit alongside the others?",
-   "Proposition 7. What would have to be added for there to be only one origin?",
+   "Proposition 4. It comes without the debatable premise and a countermodel appears: what real case resembles it? Then tick it and try again.",
+   "Proposition 5. Can what is created outlast its creator? Look at the world the table builds, then tick the debatable premise.",
+   "Proposition 6. It comes with all the compatible premises ticked and still does not follow. Why?",
+   "Proposition 7. Press ‘All’. What does the table tell you? Why can ‘everything has been created’ not sit alongside the others?",
+   "Proposition 8. What would have to be added for there to be only one origin?",
+   "Proposition 9. Can something have two creators? Count how many things the world needs, then tick “Nothing has two creators”.",
    "Switch to Spinoza’s world, proposition 5. With the premise that is ticked, a countermodel appears: Leibniz’s. Which premise is missing, and what does it say?",
    "Proposition 14. Remove, one by one, the premises that Isabelle used. Which strikes you as the most debatable?"
   ]
@@ -1100,7 +1146,7 @@ const LABSPZ = {
    {
     "id": "C_creador_dura_mas",
     "grupo": "c",
-    "que": "Whatever creates something lasts longer than what it created (debatable)."
+    "que": "Whatever creates something lasts longer than what it created (debatable: things can cease to exist, and a work can outlive its author)."
    },
    {
     "id": "C_todo_creado",
@@ -1220,6 +1266,7 @@ const LABSPZ = {
     ],
     "nombre": "4. What is created does not outlast its creator",
     "pregunta": "If x creates y, y <b>does not last longer</b> than x.",
+    "nota": "Things in this world can cease to exist: whatever creates something can disappear while its work carries on, like the author who dies and the book that remains. Beginning earlier does not oblige lasting longer. For what is created not to outlast its creator, that has to be admitted as a premise: tick the debatable one and try again.",
     "prueba": "x lasts longer than y (the debatable premise); if y also lasted longer than x, by transitivity x would last longer than itself.",
     "leccion": {
      "C_creador_dura_mas": "Being earlier is not lasting longer: without this premise, what is created can outlast its creator, like a book that survives the person who wrote it.",
@@ -1228,8 +1275,16 @@ const LABSPZ = {
     }
    },
    {
+    "id": "Q8",
+    "posible": true,
+    "nombre": "5. What is created can outlive its creator",
+    "pregunta": "There can be something created that <b>lasts longer</b> than whoever created it.",
+    "nota": "It is the author who dies and the book that remains: the creator began earlier, but what was created lasts longer. Nothing we know about time and creation rules it out.",
+    "notaNo": "With the debatable premise ticked it cannot happen: that is proposition 4. Does that premise seem reasonable to you?"
+   },
+   {
     "id": "Q5",
-    "nombre": "5. What is earlier lasts longer",
+    "nombre": "6. What is earlier lasts longer",
     "pregunta": "If x began before y, x <b>lasts longer</b> than y.",
     "nota": "It does not follow from any combination of compatible premises: beginning earlier and lasting longer are different things, and no premise links time with duration except through creation."
    },
@@ -1257,7 +1312,7 @@ const LABSPZ = {
       "k": "fin"
      }
     ],
-    "nombre": "6. There is something uncreated",
+    "nombre": "7. There is something uncreated",
     "pregunta": "There is something that <b>nothing has created</b>.",
     "prueba": "In a finite world there cannot be a chain of creators with no first one: if everything had a creator, following the chain would lead back to a thing already seen, which would have begun before itself. Isabelle proves this for finite worlds. In an infinite one it does not hold: in the natural numbers, if each number is created by the next, everything has been created and nothing is uncreated. That is why ‘everything has been created’ fits no finite world with these premises.",
     "leccion": {
@@ -1268,9 +1323,17 @@ const LABSPZ = {
    },
    {
     "id": "Q7",
-    "nombre": "7. There is only one uncreated thing",
+    "nombre": "8. There is only one uncreated thing",
     "pregunta": "If x and y are uncreated, <b>they are the same thing</b>.",
     "nota": "It does not follow: there can be two independent origins. For there to be only one, something more is needed, and that is what Spinoza tries to prove about substance (props. 5 and 14): move on to the other world."
+   },
+   {
+    "id": "Q9",
+    "posible": true,
+    "nombre": "9. Something can have two creators",
+    "pregunta": "Something can have been created by <b>two different things</b>.",
+    "nota": "Three things are needed: two that create and one that is created. In the drawing, two “created” arrows reach the same thing. This is exactly what the premise “Nothing has two creators” (C_un_creador) rules out: without it, several creators are possible; with it, there is at most one. In Spinoza’s world, that there is only one substance is not taken for granted: he tries to prove it (props. 5 and 14).",
+    "notaNo": "With “Nothing has two creators” ticked, it cannot happen: whatever is created has at most one creator. Untick it and try again."
    }
   ]
  }
