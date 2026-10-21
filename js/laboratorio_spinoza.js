@@ -94,10 +94,64 @@ const LABSPZ = {
   "mundo": "World",
   "mundoTiempo": "Practice: time, duration and creation",
   "mundoSpinoza": "Spinoza, Ethics I",
+  "mundoReloj": "Time, defined",
+  "ledeReloj": "Now we say what time is: there are ordered instants, and each thing begins at one and ends at another. Beginning earlier, lasting longer and outliving stop being loose relations: they are defined in terms of instants. What in the practice world had to be admitted as a premise is proved here.",
+  "notaDefsReloj": "What time is is fixed, because it is what time means in this world. The premises of creation, by contrast, can be removed.",
+  "defsTiempoFijo": "What time is",
+  "defsReloj": "Definitions",
+  "grupoR": "Propositions of defined time",
+  "notaPieR": "Worlds of up to 4 things, called A, B, C and D, and 4 instants are searched. ‘Proved in Isabelle’ means that Isabelle/HOL checked the proof from those premises (theory Mundo_tiempo_definido). If no world is found in which the proposition fails, that proves nothing.",
+  "hayMundoR": "There is a world of {n} and {k} in which all the ticked premises hold and the proposition fails.",
+  "unInst": "1 instant",
+  "nInst": "{n} instants",
+  "sinMundoCompletoR": "There is none with up to {c} things and {a} instants.",
+  "lyVida": "bar: the time it exists",
+  "lyIncreadoR": "thick border: uncreated",
+  "ejeInst": "instants",
+  "hVidas": "When each thing exists",
+  "fVida": "{a}: from instant {b} to {c}",
+  "hRelReloj": "Earlier, outliving and duration",
+  "fSobrevive": "{a} outlives {b}",
+  "errTipoI": "In ‘{x}’, place {n} is for an instant: use t, u, v or w.",
+  "errTipoCI": "In ‘{x}’, place {n} is for a thing; t, u, v and w are instants.",
+  "errComp": "‘{x}’ compares instants: t, u, v or w go on both sides.",
   "ledeTiempo": "A practice world to get the hang of it. Things are told apart only by which began first, which lasts longer and which created which. And they can cease to exist: whatever creates something can disappear while its work carries on, so beginning earlier is not lasting longer. Choose a proposition and the premises you accept: the table looks for a small world in which all of them hold and the proposition fails; if there can be none because Isabelle has already proved it from those premises, it gives you the proof.",
   "notaDefsTiempo": "Three relations and one definition, nothing more. Whatever the premises do not say can happen: if you do not tick that nothing began before itself, in the world that is found it can occur.",
   "defsTiempo": "Relations and definition",
   "grupoT": "Practice propositions",
+  "propiaNombre": "✎ Write your own proposition",
+  "tEscribe": "Your proposition, in logic",
+  "phEscribe": "For example: ∀x y. Crea(x, y) → Antes(x, y)",
+  "tTeclado": "Symbols",
+  "tVocabulario": "Relations and definitions of this world",
+  "atajos": "You can also type ~ (not), & (and), | (or), -> (if… then), <-> (if and only if), != (not equal), «{t}» (∀), «{h}» (∃) and «{n}» (¬). Variables are lower-case letters: x, y, z…",
+  "palTodo": "all",
+  "palHay": "some",
+  "palNo": "not",
+  "hasEscrito": "You have written",
+  "libresTodo": "Variables without «all» or «some» ({x}) hold for anything: it is as if the formula began with «all».",
+  "modoSigue": "Does it follow from the ticked premises?",
+  "modoPosible": "Can it happen given the ticked premises?",
+  "sinIsabelle": "You are writing this yourself, so Isabelle has not checked it: the table only searches small worlds. If it finds none in which the claim fails, that does not prove it.",
+  "tTusPremisas": "Your premises",
+  "phPremisa": "Write a premise; for example: ∀x. ¬Crea(x, x)",
+  "bAnadir": "Add",
+  "bQuitar": "Remove",
+  "noHayPropias": "You have not written any yet.",
+  "errVacio": "Write a formula.",
+  "errSimbolo": "I do not understand «{x}».",
+  "errNombre": "I do not know «{x}». In this world you can use: {y}.",
+  "errArgs": "«{x}» takes {n} inside brackets, separated by commas.",
+  "errFaltaParen": "After «{x}» come brackets with the things: {x}(x, y).",
+  "errTipo": "In «{x}», place {n} is for an attribute: use a or b.",
+  "errTipoC": "In «{x}», place {n} is for a thing; a and b are attributes.",
+  "errEsperabaCosa": "Inside «{y}» go variables (x, y, z…), not «{x}».",
+  "errParen": "A bracket has not been closed.",
+  "errAbre": "There is one closing bracket too many.",
+  "errSobra": "I do not know what to do with «{x}». Is there a ∧, a ∨ or a → missing?",
+  "errCuant": "After {x} come the variables: {x}x. …",
+  "errEsperaba": "I expected a formula here, not «{x}».",
+  "errFin": "The formula breaks off: something is missing at the end.",
   "selloNada": "Incompatible premises",
   "selloPosible": "It is possible",
   "puedeOcurrir": "It can happen",
@@ -805,7 +859,31 @@ const LABSPZ = {
   "distinto": "{1} is different from {2}",
   "define": "{a} means: {b}",
   "Dios": "God",
+  "paraTodoI": "for every instant {v}",
+  "paraTodosI": "for all instants {v}",
+  "hayInst": "there is some instant {v} such that",
+  "hayInsts": "there are instants {v} such that",
+  "hayMixtoI": "there is some thing {c} and some instant {a} such that",
+  "noHayInst": "there is no instant {v} such that",
+  "menorI": "{1} is earlier than {2}",
+  "menorIgI": "{1} is the same as or earlier than {2}",
   "rel": {
+   "Empieza": [
+    "{1} begins at instant {2}",
+    "{1} does not begin at instant {2}"
+   ],
+   "Acaba": [
+    "{1} ends at instant {2}",
+    "{1} does not end at instant {2}"
+   ],
+   "Sobrevive": [
+    "{1} outlives {2}",
+    "{1} does not outlive {2}"
+   ],
+   "ExisteEn": [
+    "{1} exists at instant {2}",
+    "{1} does not exist at instant {2}"
+   ],
    "Antes": [
     "{1} began before {2}",
     "{1} did not begin before {2}"
@@ -1017,9 +1095,9 @@ const LABSPZ = {
     ]
    },
    {
-    "titulo": "Why there are two worlds",
+    "titulo": "Why there are three worlds",
     "parrafos": [
-     "The practice world is small on purpose: three relations that anyone can understand, so as to get the knack. Spinoza’s world formalises Part I of the <em>Ethics</em>. There, the premises beginning with H_ are those that Spinoza treats as obvious and does not write down: we have had to add them to make his proofs work. If any of them strikes you as false, remove it and see what stops following."
+     "The practice world is small on purpose: three relations that anyone can understand, so as to get the knack, although it leaves unsaid what time is. The defined-time world says it: with instants, beginning earlier, lasting longer and outliving are defined, and what were premises become theorems. Spinoza’s world formalises Part I of the <em>Ethics</em>. There, the premises beginning with H_ are those that Spinoza treats as obvious and does not write down: we have had to add them to make his proofs work. If any of them strikes you as false, remove it and see what stops following."
     ]
    }
   ],
@@ -1065,14 +1143,196 @@ const LABSPZ = {
   "tRecorrido": "A walk-through to get started",
   "recorrido": [
    "Practice world, proposition 2. Press ‘Does it follow?’ as it stands. A premise is missing: look at the countermodel and say which.",
+   "Proposition 1. There are two paths. Tick only “the creator lasts longer” and “nothing lasts longer than itself”: does it follow? Compare the proof with the one from time. Which seems sounder to you?",
    "Proposition 4. It comes without the debatable premise and a countermodel appears: what real case resembles it? Then tick it and try again.",
    "Proposition 5. Can what is created outlast its creator? Look at the world the table builds, then tick the debatable premise.",
    "Proposition 6. It comes with all the compatible premises ticked and still does not follow. Why?",
    "Proposition 7. Press ‘All’. What does the table tell you? Why can ‘everything has been created’ not sit alongside the others?",
    "Proposition 8. What would have to be added for there to be only one origin?",
    "Proposition 9. Can something have two creators? Count how many things the world needs, then tick “Nothing has two creators”.",
+   "In the world “Time, defined”, propositions 9 and 10: what would you give up so that everything has a creator, that whatever creates begins first or that time has a beginning? What would Spinoza say of a thing that creates itself?",
+   "Move on to the world “Time, defined”, propositions 5 and 6. How do outliving and lasting longer differ? Look at the bars. Then 7: why is outliving not enough for lasting longer?",
+   "At the end of the drop-down, «✎ Write your own proposition». Write «whoever creates something is uncreated» in logic and see whether it follows. If not, which premise of yours would be needed? Add it under «Your premises».",
    "Switch to Spinoza’s world, proposition 5. With the premise that is ticked, a countermodel appears: Leibniz’s. Which premise is missing, and what does it say?",
    "Proposition 14. Remove, one by one, the premises that Isabelle used. Which strikes you as the most debatable?"
+  ]
+ },
+ "reloj": {
+  "fijas": [
+   {
+    "id": "F_instantes",
+    "origen": "Time",
+    "texto": "There are ordered instants: 0, 1, 2… Time has a beginning, instant 0."
+   },
+   {
+    "id": "F_vida",
+    "origen": "Time",
+    "texto": "Each thing begins at a single instant and ends at a single instant, and nothing ends before it begins."
+   }
+  ],
+  "defs": [
+   {
+    "id": "Antes",
+    "origen": "Definition",
+    "texto": "x began before y: its starting instant is earlier."
+   },
+   {
+    "id": "DuraMas",
+    "origen": "Definition",
+    "texto": "x lasts longer than y: it exists for more time, its bar is longer."
+   },
+   {
+    "id": "Sobrevive",
+    "origen": "Definition",
+    "texto": "x outlives y: it ends later, and is still existing when y no longer exists."
+   },
+   {
+    "id": "ExisteEn",
+    "origen": "Definition",
+    "texto": "x exists at instant t: t lies between its beginning and its end."
+   },
+   {
+    "id": "increado",
+    "origen": "Definition",
+    "texto": "Something is uncreated if nothing has created it."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "k",
+    "nom": "Creation"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "K_existe",
+    "grupo": "k",
+    "que": "Whatever creates exists at the instant at which what it created begins."
+   },
+   {
+    "id": "K_antes",
+    "grupo": "k",
+    "que": "Whatever creates began before what it created."
+   },
+   {
+    "id": "K_no_despues",
+    "grupo": "k",
+    "que": "Whatever creates does not begin after what it creates: it can create at the very instant it begins, or create itself."
+   },
+   {
+    "id": "K_un_creador",
+    "grupo": "k",
+    "que": "Nothing has two creators."
+   },
+   {
+    "id": "K_todo_creado",
+    "grupo": "k",
+    "que": "Everything has been created by something."
+   }
+  ],
+  "props": [
+   {
+    "id": "R1",
+    "nombre": "1. Nothing begins before itself",
+    "pregunta": "Nothing <b>begins before</b> itself.",
+    "prueba": "To begin before is to begin at an earlier instant, and no instant is earlier than itself. It follows from what time is, with no premise: in the practice world it had to be admitted."
+   },
+   {
+    "id": "R2",
+    "nombre": "2. ‘Before’ is transitive",
+    "pregunta": "If x began before y, and y before z, x <b>began before</b> z.",
+    "prueba": "If the instant at which x begins is earlier than y’s, and y’s earlier than z’s, then x’s is earlier than z’s: that is how instants are ordered. No premise is needed here either."
+   },
+   {
+    "id": "R3",
+    "nombre": "3. ‘Before’ is not reciprocal",
+    "pregunta": "If x began before y, y did <b>not begin before</b> x.",
+    "prueba": "Two instants cannot each be earlier than the other. Again, no premises."
+   },
+   {
+    "id": "R4",
+    "nombre": "4. Nothing creates itself",
+    "pregunta": "Nothing <b>creates</b> itself.",
+    "pasos": [
+     {
+      "txt": "Suppose some thing x created itself: Crea(x, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Whatever creates began before what it created, so x began before x: Antes(x, x).",
+      "k": "K_antes"
+     },
+     {
+      "txt": "But nothing begins before itself (proposition 1), and here that is not a premise: it is a theorem. Clash.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "K_antes": "Without it, nothing prevents a thing from creating itself at the very instant at which it begins."
+    }
+   },
+   {
+    "id": "R5",
+    "posible": true,
+    "nombre": "5. What is created can outlive its creator",
+    "pregunta": "There can be something created that <b>keeps existing</b> when its creator no longer exists.",
+    "nota": "Look at the bars: the creator exists for a while, creates while it exists and then disappears; what is created carries on. To outlive is to end later, not to last longer.",
+    "notaNo": "With these premises it cannot happen."
+   },
+   {
+    "id": "R6",
+    "posible": true,
+    "nombre": "6. What is created can last longer than its creator",
+    "pregunta": "There can be something created that <b>exists for longer</b> than its creator.",
+    "nota": "To last longer is to have the longer bar. It is not the same as outliving: compare it with proposition 5.",
+    "notaNo": "With these premises it cannot happen."
+   },
+   {
+    "id": "R7",
+    "nombre": "7. What outlives lasts longer",
+    "pregunta": "If x outlives y, x <b>lasts longer</b> than y.",
+    "nota": "It does not follow: one can begin late and end a little later. The bar ends further to the right, but it is shorter."
+   },
+   {
+    "id": "R8",
+    "nombre": "8. Whatever begins earlier and ends later lasts longer",
+    "pregunta": "If x began before y and outlives y, x <b>lasts longer</b> than y.",
+    "prueba": "The bar of x begins earlier and ends later than that of y: it contains it, so it is longer. It follows from what time is, with no premises."
+   },
+   {
+    "id": "R9",
+    "nombre": "9. There is something uncreated",
+    "pregunta": "There is something that <b>nothing has created</b>.",
+    "pasos": [
+     {
+      "txt": "Suppose everything has a creator.",
+      "k": "hip"
+     },
+     {
+      "txt": "Whatever creates began before: each creator begins at an instant earlier than that of what it creates.",
+      "k": "K_antes"
+     },
+     {
+      "txt": "But time has a beginning: whatever begins first cannot have anything before it. Clash.",
+      "k": "fin"
+     },
+     {
+      "txt": "So these three things cannot all hold together: that everything has a creator, that whatever creates begins first, and that time has a beginning. If the last two are accepted, there is something uncreated, whatever the number of things, even infinitely many: Isabelle proves it. But anyone who wants everything to have a creator can give up that whatever creates begins first: see proposition 10.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "K_antes": "Without it, the creator can begin at the same time as or after what is created, and everything can have a creator: A creates B and B creates A."
+    }
+   },
+   {
+    "id": "R10",
+    "posible": true,
+    "nombre": "10. Everything can have a creator",
+    "pregunta": "<b>Everything</b> can have been created by something.",
+    "nota": "Without “whatever creates began before” it can happen. With “whatever creates does not begin after”, something can create at the very instant what is created begins, or create itself. A thing that creates itself is the cause of itself, the <em>causa sui</em> with which Spinoza’s <em>Ethics</em> begins (definition 1).",
+    "notaNo": "With “whatever creates began before” it cannot happen: that is proposition 9. For everything to have a creator, it has to be given up."
+   }
   ]
  },
  "tiempo": {
@@ -1157,6 +1417,25 @@ const LABSPZ = {
   "props": [
    {
     "id": "Q1",
+    "pruebaAlt": "By duration: if something created itself, it would last longer than itself, and nothing lasts longer than itself.",
+    "pasosAlt": [
+     {
+      "txt": "Suppose some thing x created itself: Crea(x, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Whatever creates lasts longer than what it creates, so x lasts longer than x: DuraMas(x, x).",
+      "k": "C_creador_dura_mas"
+     },
+     {
+      "txt": "But nothing lasts longer than itself: ¬DuraMas(x, x). Clash.",
+      "k": "D_irreflexiva"
+     },
+     {
+      "txt": "So nothing creates itself. This path rests on the debatable premise: if you remove it, it collapses, but the one from time remains.",
+      "k": "fin"
+     }
+    ],
     "pasos": [
      {
       "txt": "Suppose some thing x created itself: Crea(x, x).",
