@@ -430,7 +430,14 @@ const GUIA = {
     {
      "nombre": "Workshops",
      "texto": "Four workshops that link philosophy with other subjects, with their buttons at the top: Leibniz’s Workshop (maths and computing), The Aristotelian universe (physics, chemistry and biology), The Art of the Word (literature, rhetoric and classical languages) and Spinoza's affects (psychology and a model simulated step by step).",
-     "view": "leibniz"
+     "view": "leibniz",
+     "solo": "fil"
+    },
+    {
+     "nombre": "Workshops",
+     "texto": "Five workshops that link philosophy with other subjects, with their buttons at the top: Leibniz’s Workshop (maths and computing), The Aristotelian universe (physics, chemistry and biology), The Art of the Word (literature, rhetoric and classical languages), Spinoza's affects (psychology and a model simulated step by step) and Hegel’s Workshop (history: the path of consciousness and the history of freedom, read as Hegel read it and against the grain).",
+     "view": "leibniz",
+     "solo": "hf"
     }
    ]
   },
