@@ -31,7 +31,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The menu’s first tabs are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training), <strong>Logic</strong> (the Logic Corner, with its exercises and its laboratory) and <strong>PAU</strong> (the exam, the texts and writing). After a line come the extra ones: <strong>History</strong> (the context of the philosophers) and <strong>Games</strong>.",
+   "x": "The menu’s first tabs are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training) and <strong>PAU</strong> (the exam, the texts and writing). After a line come the extra ones: <strong>History</strong> (the context of the philosophers) and <strong>Games</strong>. The <strong>Logic Corner</strong> has no tab on this website: the links in the topics that use it open it.",
    "solo": "hf"
   },
   {
