@@ -3173,7 +3173,7 @@ const ESQUEMAS = {
       },
       {
        "rel": "proves God with",
-       "t": "The five ways",
+       "t": "The Five Ways",
        "d": "A posteriori proofs: they start from motion, causes, contingency, degrees and order."
       }
      ]
@@ -3199,7 +3199,7 @@ const ESQUEMAS = {
    ],
    "cruces": [
     {
-     "de": "The five ways",
+     "de": "The Five Ways",
      "rel": "start from the world, not from",
      "a": "Interiority"
     },

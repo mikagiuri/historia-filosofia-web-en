@@ -95,6 +95,41 @@ const LABSPZ = {
   "mundoTiempo": "Practice: time, duration and creation",
   "mundoSpinoza": "Spinoza, Ethics I",
   "mundoReloj": "Time, defined",
+  "mundoVias": "The Five Ways",
+  "ledeVias": "Thomas Aquinas puts forward five ways to show that God exists (Summa Theologiae, I, question 2, article 3). Here each way is broken down into its premises, so that you can see which one does the work and where the objections press. The table does not decide whether God exists: it only checks what follows from what.",
+  "notaDefsVias": "In the Ways, moving and causing are not events in time. They are <em>per se</em> causes, which act at the same time as their effect, as the hand moves the stick and the stick the stone. The dependence runs in one direction only: what is moved depends on the mover, not the mover on what is moved. That is why only the third way uses instants: it speaks of existing and ceasing to exist. That the world began in time, Thomas holds to be a truth of faith, which reason can neither prove nor refute (I, question 46, articles 1 and 2), and none of the Ways needs it. That everything depends on God for its being, by contrast, he does hold to be demonstrable (I, question 44, article 1).",
+  "defsVias": "Definitions",
+  "grupoV1": "First way: motion",
+  "grupoV2": "Second way: efficient cause",
+  "grupoV3": "Third way: the contingent and the necessary",
+  "grupoV4": "Fourth way: degrees of perfection",
+  "grupoV5": "Fifth way: the governance of things",
+  "grupoVD": "«And this we call God»",
+  "notaPieV": "Worlds of up to 4 things, called A, B, C and D, and 4 instants are searched. «Demostrado en Isabelle» means that Isabelle/HOL checked the proof from those premises (theory Cinco_vias). If no world is found in which the proposition fails, that proves nothing.",
+  "clPrimero": "first",
+  "lyPrimero": "double circle: a first (nothing moves it or nothing causes it)",
+  "lyMueve": "moves",
+  "lyPerfecto": "is more perfect than",
+  "lyDirige": "directs towards its end",
+  "hMovimiento": "Motion",
+  "hExistencia": "When each thing exists",
+  "hPerfeccion": "Perfection",
+  "hFines": "Ends",
+  "fMueveSi": "{a} moves itself",
+  "fMueve": "{a} moves {b}",
+  "fExisteV": "Instants at which {a} exists: {x}",
+  "fPerfSi": "{a} is more perfect than itself",
+  "fPerf": "{a} is more perfect than {b}",
+  "fFin": "{a} tends towards an end",
+  "fConoce": "{a} has knowledge",
+  "fDirigeSi": "{a} directs itself towards its end",
+  "fDirige": "{a} directs {b} towards its end",
+  "eFin": "tends towards an end",
+  "eConoce": "has knowledge",
+  "eExiste": "exists at {x}",
+  "eNunca": "never exists",
+  "verExploVias": "The exploration of the Five Ways, in Theory",
+  "verPlanoDios": "The proofs of the existence of God, in Genealogies",
   "ledeReloj": "Now we say what time is: there are ordered instants, and each thing begins at one and ends at another. Beginning earlier, lasting longer and outliving stop being loose relations: they are defined in terms of instants. What in the practice world had to be admitted as a premise is proved here.",
   "notaDefsReloj": "What time is is fixed, because it is what time means in this world. The premises of creation, by contrast, can be removed.",
   "defsTiempoFijo": "What time is",
@@ -896,6 +931,50 @@ const LABSPZ = {
     "{1} created {2}",
     "{1} did not create {2}"
    ],
+   "Mueve": [
+    "{1} moves {2}",
+    "{1} does not move {2}"
+   ],
+   "MasPerfecto": [
+    "{1} is more perfect than {2}",
+    "{1} is not more perfect than {2}"
+   ],
+   "TiendeAFin": [
+    "{1} tends towards an end",
+    "{1} does not tend towards an end"
+   ],
+   "Conoce": [
+    "{1} has knowledge",
+    "{1} lacks knowledge"
+   ],
+   "Dirige": [
+    "{1} directs {2} towards its end",
+    "{1} does not direct {2} towards its end"
+   ],
+   "movido": [
+    "{1} is moved by something",
+    "{1} is moved by nothing"
+   ],
+   "causado": [
+    "{1} is caused by something",
+    "{1} is caused by nothing"
+   ],
+   "primerMotor": [
+    "{1} is a first mover",
+    "{1} is not a first mover"
+   ],
+   "primeraCausa": [
+    "{1} is a first cause",
+    "{1} is not a first cause"
+   ],
+   "necesario": [
+    "{1} is necessary",
+    "{1} is not necessary"
+   ],
+   "maximo": [
+    "{1} is the greatest",
+    "{1} is not the greatest"
+   ],
    "increado": [
     "{1} is uncreated",
     "{1} is not uncreated"
@@ -1095,9 +1174,10 @@ const LABSPZ = {
     ]
    },
    {
-    "titulo": "Why there are three worlds",
+    "titulo": "Why there are four worlds",
     "parrafos": [
-     "The practice world is small on purpose: three relations that anyone can understand, so as to get the knack, although it leaves unsaid what time is. The defined-time world says it: with instants, beginning earlier, lasting longer and outliving are defined, and what were premises become theorems. Spinoza’s world formalises Part I of the <em>Ethics</em>. There, the premises beginning with H_ are those that Spinoza treats as obvious and does not write down: we have had to add them to make his proofs work. If any of them strikes you as false, remove it and see what stops following."
+     "The practice world is small on purpose: three relations that anyone can understand, so as to get the knack, although it leaves unsaid what time is. The defined-time world says it: with instants, beginning earlier, lasting longer and outliving are defined, and what were premises become theorems. Spinoza’s world formalises Part I of the <em>Ethics</em>. There, the premises beginning with H_ are those that Spinoza treats as obvious and does not write down: we have had to add them to make his proofs work. If any of them strikes you as false, remove it and see what stops following.",
+     "The Five Ways world separates the arguments of Thomas Aquinas into their premises. In almost every way, the conclusion follows at once from one premise: the one that forbids infinite regress, the step from «everything can fail to be» to «at some time there was nothing», or the one that says that what lacks knowledge tends towards an end only if someone directs it. That is where the dispute lies."
     ]
    }
   ],
@@ -1153,8 +1233,266 @@ const LABSPZ = {
    "In the world “Time, defined”, propositions 9 and 10: what would you give up so that everything has a creator, that whatever creates begins first or that time has a beginning? What would Spinoza say of a thing that creates itself?",
    "Move on to the world “Time, defined”, propositions 5 and 6. How do outliving and lasting longer differ? Look at the bars. Then 7: why is outliving not enough for lasting longer?",
    "At the end of the drop-down, «✎ Write your own proposition». Write «whoever creates something is uncreated» in logic and see whether it follows. If not, which premise of yours would be needed? Add it under «Your premises».",
+   "In «The Five Ways», proposition 1. It comes with only «something moves» and a countermodel appears: what fails? Tick «there is no infinite regress» and try again. Then proposition 5: where does the step «if everything can fail to be, at some time nothing was» go wrong?",
    "Switch to Spinoza’s world, proposition 5. With the premise that is ticked, a countermodel appears: Leibniz’s. Which premise is missing, and what does it say?",
    "Proposition 14. Remove, one by one, the premises that Isabelle used. Which strikes you as the most debatable?"
+  ]
+ },
+ "vias": {
+  "defs": [
+   {
+    "id": "movido",
+    "origen": "First way",
+    "texto": "x is moved: something moves it, bringing it from being in potency to being in act."
+   },
+   {
+    "id": "primerMotor",
+    "origen": "First way",
+    "texto": "x is a first mover: it moves, and nothing moves it."
+   },
+   {
+    "id": "causado",
+    "origen": "Second way",
+    "texto": "x is caused: something is its efficient cause."
+   },
+   {
+    "id": "primeraCausa",
+    "origen": "Second way",
+    "texto": "x is a first cause: it causes, and nothing causes it."
+   },
+   {
+    "id": "contingente",
+    "origen": "Third way",
+    "texto": "x is contingent, it can fail to be: there is some instant at which it does not exist."
+   },
+   {
+    "id": "necesario",
+    "origen": "Third way",
+    "texto": "x is necessary: it exists at every instant."
+   },
+   {
+    "id": "maximo",
+    "origen": "Fourth way",
+    "texto": "x is the greatest: it is more perfect than everything else."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "v1",
+    "nom": "First way: motion"
+   },
+   {
+    "id": "v2",
+    "nom": "Second way: efficient cause"
+   },
+   {
+    "id": "v3",
+    "nom": "Third way: the contingent and the necessary"
+   },
+   {
+    "id": "v4",
+    "nom": "Fourth way: degrees of perfection"
+   },
+   {
+    "id": "v5",
+    "nom": "Fifth way: the governance of things"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "V1_hay_movimiento",
+    "grupo": "v1",
+    "que": "Something is in motion. This is certain and evident to the senses."
+   },
+   {
+    "id": "V1_sin_regreso",
+    "grupo": "v1",
+    "que": "There is no infinite regress among movers: one cannot go back from mover to mover without end. On the table, each thing carries an order number and the mover always has a lower one than what it moves. The number is not an instant: movers per se move at the same time."
+   },
+   {
+    "id": "V2_hay_causas",
+    "grupo": "v2",
+    "que": "There are efficient causes: something is caused by something else."
+   },
+   {
+    "id": "V2_sin_regreso",
+    "grupo": "v2",
+    "que": "There is no infinite regress among efficient causes per se."
+   },
+   {
+    "id": "V3_siempre_algo",
+    "grupo": "v3",
+    "que": "At no instant is everything lacking. If there had ever been nothing, there would be nothing now, because what does not exist begins to exist only through something that already does."
+   },
+   {
+    "id": "V3_paso_de_Tomas",
+    "grupo": "v3",
+    "que": "If everything can fail to be, at some instant there was nothing."
+   },
+   {
+    "id": "V4_orden",
+    "grupo": "v4",
+    "que": "«More perfect than» is an order: nothing is more perfect than itself, and if x surpasses y, and y surpasses z, then x surpasses z."
+   },
+   {
+    "id": "V4_comparables",
+    "grupo": "v4",
+    "que": "Any two distinct things can always be compared: one is more perfect than the other."
+   },
+   {
+    "id": "V5_hay_fines",
+    "grupo": "v5",
+    "que": "Whatever lacks knowledge acts for an end: natural bodies act always, or nearly always, in the same way, to achieve what is best."
+   },
+   {
+    "id": "V5_dirigido",
+    "grupo": "v5",
+    "que": "What lacks knowledge tends towards an end only if it is directed by someone who has knowledge, as the archer directs the arrow."
+   }
+  ],
+  "props": [
+   {
+    "id": "W1",
+    "parte": 1,
+    "nombre": "1. There is a first mover",
+    "pregunta": "There is something that <b>moves without being moved</b>.",
+    "pasos": [
+     {
+      "txt": "Something is in motion: let us call it m.",
+      "k": "V1_hay_movimiento"
+     },
+     {
+      "txt": "Something else moves m. If that is moved by another, and that one by yet another, we go back from mover to mover.",
+      "k": "hip"
+     },
+     {
+      "txt": "Since there is no infinite regress, we must arrive at a mover that nothing moves.",
+      "k": "V1_sin_regreso"
+     },
+     {
+      "txt": "So there is a first mover. Isabelle proves this even with infinitely many things. What is proved is that there is at least one: that there is only one does not follow (see 9).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "V1_sin_regreso": "Without it, the movers can go round in a circle: A moves B and B moves A, and neither is first. With infinitely many things, moreover, each can be moved by the next. Note: Thomas does not deny an infinite series of causes in time, one before another, like a father who was begotten by another father, and so on backwards without end (I, question 46, article 2, reply to objection 7). What he denies is infinite regress among movers that move simultaneously, like the hand, the stick and the stone.",
+     "V1_hay_movimiento": "Without it, perhaps nothing moves, and then no mover is needed."
+    }
+   },
+   {
+    "id": "W1b",
+    "parte": 1,
+    "nombre": "2. Nothing moves itself",
+    "cita": "It is impossible for something to be, in the same respect and in the same way, both mover and moved; that is, to move itself.",
+    "pregunta": "Nothing <b>moves itself</b>.",
+    "prueba": "Thomas argues it from potency and act: to be moved is to pass from potency to act, and nothing is both in potency and in act in respect of the same thing. The table finds another route: if something moved itself, going back from mover to mover would never come to an end: x, x again, x again… It is enough not to admit infinite regress.",
+    "leccion": {
+     "V1_sin_regreso": "Without it, something can move itself: this is the shortest circle."
+    }
+   },
+   {
+    "id": "W2",
+    "parte": 2,
+    "nombre": "3. There is a first cause",
+    "pregunta": "There is something that <b>causes without being caused</b>.",
+    "prueba": "It has the same structure as the first way, with «causes» in place of «moves»: there are causes, there is no infinite regress, so there is one that nothing causes. Thomas adds that nothing is the efficient cause of itself, because it would then be prior to itself (prior by nature, not in time). Spinoza, by contrast, begins the <em>Ethics</em> with the cause of itself (definition 1): compare this with proposition 10 of «Time, defined».",
+    "leccion": {
+     "V2_sin_regreso": "Without it, causes can go round in a circle, and none is the first.",
+     "V2_hay_causas": "Without it, perhaps nothing is caused."
+    }
+   },
+   {
+    "id": "W3",
+    "parte": 3,
+    "nombre": "4. There is something necessary",
+    "pregunta": "There is something that <b>exists at every instant</b>.",
+    "pasos": [
+     {
+      "txt": "Suppose that everything is contingent: everything can fail to be.",
+      "k": "hip"
+     },
+     {
+      "txt": "Then at some instant there was nothing.",
+      "k": "V3_paso_de_Tomas"
+     },
+     {
+      "txt": "But at no instant is everything lacking. Clash.",
+      "k": "V3_siempre_algo"
+     },
+     {
+      "txt": "So there is something necessary. Thomas goes on: what is necessary may owe its necessity to another, and here too there can be no infinite regress. The table stops at this first step.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "V3_paso_de_Tomas": "Without it, everything can be contingent and yet there can always be something: two things that relieve each other, one at the start and the other afterwards. See proposition 5.",
+     "V3_siempre_algo": "Without it, there can be an instant with nothing, and then nothing requires that something be necessary."
+    }
+   },
+   {
+    "id": "W3s",
+    "parte": 3,
+    "nombre": "5. «If everything can fail to be, at some time nothing was»",
+    "cita": "What can fail to be, at some time is not. If, then, all things can fail to be, at some time there was nothing.",
+    "pregunta": "If everything can cease to exist, there is an instant at which <b>nothing exists</b>.",
+    "nota": "It does not follow: each thing is missing at some instant, but not all at the same one. This is a quantifier shift, from «for each thing there is an instant at which it does not exist» to «there is an instant at which none exists». Many commentators have pointed this out, for example Anthony Kenny in <em>The Five Ways</em> (1969). Others reply that Thomas is thinking of endless time, in which what can fail to be eventually does not exist, or that the argument concerns the whole series of things that come to be and pass away. Isabelle checks it with a world of two things that relieve each other (lemma via3_salto)."
+   },
+   {
+    "id": "W4",
+    "parte": 4,
+    "nombre": "6. There is something greatest",
+    "pregunta": "There is something <b>more perfect than everything else</b>.",
+    "pasos": [
+     {
+      "txt": "«More perfect than» is an order: there are no circles of perfection.",
+      "k": "V4_orden"
+     },
+     {
+      "txt": "In a finite world, one keeps climbing from one thing to another more perfect, until one reaches something that nothing surpasses.",
+      "k": "hip"
+     },
+     {
+      "txt": "Since everything is comparable, that thing surpasses all the rest.",
+      "k": "V4_comparables"
+     },
+     {
+      "txt": "So there is something greatest. Isabelle proves this in a finite world (via4_finito). With infinitely many things it does not hold: among the numbers, there is always a greater one (via4_sin_maximo). Thomas goes further: the greatest in a kind is the cause of everything in that kind, as fire, the hottest thing, is of heat (he takes this from Aristotle’s <em>Metaphysics</em>, book II). The table checks only the first part.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "V4_comparables": "Without it, there can be two things that cannot be compared, and neither surpasses all the others: two peaks, neither higher. Can the perfection of a rose be compared with that of a number?",
+     "V4_orden": "Without it, perfection can go round in a circle: A surpasses B, B surpasses C and C surpasses A."
+    }
+   },
+   {
+    "id": "W4u",
+    "parte": 4,
+    "nombre": "7. The greatest is only one",
+    "pregunta": "If x and y are the greatest, x and y <b>are the same thing</b>.",
+    "prueba": "If there were two distinct greatest things, each would surpass the other and, because it is an order, each would surpass itself. Clash.",
+    "leccion": {
+     "V4_orden": "Without it, two things can surpass each other, and both are the greatest."
+    }
+   },
+   {
+    "id": "W5",
+    "parte": 5,
+    "nombre": "8. There is someone who has knowledge and directs",
+    "pregunta": "There is something that <b>has knowledge and directs</b> another thing towards its end.",
+    "prueba": "It follows at once: all the force lies in the premise «what lacks knowledge tends towards an end only if someone with knowledge directs it». Some dispute it: Hume, in the <em>Dialogues Concerning Natural Religion</em> (1779), and afterwards those who see in Darwin’s natural selection an order with no one directing it. Others defend it, for example by asking where the regular laws of nature that selection itself presupposes come from.",
+    "leccion": {
+     "V5_dirigido": "Without it, there can be things that tend towards an end without anyone directing them.",
+     "V5_hay_fines": "Without it, perhaps nothing tends towards an end."
+    }
+   },
+   {
+    "id": "WD",
+    "parte": 6,
+    "nombre": "9. The same one in all five ways?",
+    "pregunta": "If x is a first mover and y a first cause, x and y <b>are the same thing</b>.",
+    "nota": "It does not follow from the Ways: there can be a first mover and, separately, a first cause. Each way ends by saying that this is what «everyone calls God», and it is a classic objection that arriving at a first is not yet arriving at a single God. Thomas does not claim that each way, on its own, yields everything said of God: unity, simplicity and perfection he argues for afterwards (I, questions 3, 4 and 11). The table, for the moment, only shows that this step is needed."
+   }
   ]
  },
  "reloj": {

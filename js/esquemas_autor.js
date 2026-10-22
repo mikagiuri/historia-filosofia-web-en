@@ -707,7 +707,7 @@ const ESQUEMAS_AUTOR = [
       "d": "Some are reached by reason; others are known only through revelation."
      },
      {
-      "t": "The five ways",
+      "t": "The Five Ways",
       "d": "A posteriori proofs: they start from motion, causes, contingency, degrees and order."
      }
     ],
