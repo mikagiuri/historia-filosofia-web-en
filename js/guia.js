@@ -277,15 +277,18 @@ const GUIA = {
   },
   {
    "type": "h",
-   "x": "Logic"
+   "x": "Logic",
+   "solo": "fil"
   },
   {
    "type": "p",
+   "solo": "fil",
    "x": "The <strong>Logic Corner</strong> now has its own tab. It brings together truth tables, valid arguments, syllogisms with Venn diagrams, paradoxes and exercises to train your reasoning."
   },
   {
    "type": "p",
-   "x": "At the top, the <strong>Laboratory</strong>, with several tables to work step by step: truth trees, a world of shapes, relations, guided proofs and the tables of Kant’s judgements and Spinoza’s affects."
+   "solo": "fil",
+   "x": "At the top, the <strong>Laboratory</strong>, with several tables to work step by step: truth trees, a world of shapes, relations, guided proofs and the tables of Kant’s judgements and Spinoza’s Ethics."
   },
   {
    "type": "h",
@@ -374,12 +377,6 @@ const GUIA = {
      "texto": "Sheets for each period: what society, politics, science and art were like, and how people imagined the cosmos. At the top, the Chronograms and Genealogies buttons.",
      "view": "epocas",
      "solo": "hf"
-    },
-    {
-     "nombre": "Periods",
-     "texto": "Sheets for each period: what society, politics, science and art were like, and how people imagined the cosmos.",
-     "view": "epocas",
-     "solo": "fil"
     },
     {
      "nombre": "Chronograms",

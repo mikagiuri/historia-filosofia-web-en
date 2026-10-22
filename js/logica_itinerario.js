@@ -14,6 +14,7 @@ const LOG_ITIN = {
  "progreso": "You have passed {n} of {t} levels.",
  "progresoNada": "Tick each level when you pass its checkpoint: it is saved only in this browser.",
  "noAqui": "not on this website",
+ "enLaDe1o": "on the Year 1 website",
  "mapaIntro": "Click a level to open its page. The highlighted box is the next one for you.",
  "estHecho": "completed",
  "estSig": "next",
