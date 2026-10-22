@@ -95,6 +95,15 @@ const LABSPZ = {
   "mundoTiempo": "Practice: time, duration and creation",
   "mundoSpinoza": "Spinoza, Ethics I",
   "mundoReloj": "Time, defined",
+  "chocan": "These premises clash with one another: {x}. Remove one of them and try again: another group may also clash.",
+  "chocanTodas": "They all clash at once: if you remove any one of them, the rest fit together.",
+  "chocanFijas": "They clash with what is fixed in this world, even if you tick no premise.",
+  "sobraIsa": "Isabelle proves that these premises are redundant, each one on its own (not all at once):",
+  "sobraItem": "{x}: without it, the conclusion still follows ({t}).",
+  "bSobra": "Is any premise redundant?",
+  "sobraPosible": "In worlds of up to {c} things, the proposition does not fail either if you remove just one of these: {x}.",
+  "sobraNoDemuestra": "That does not prove they are redundant: a larger world may be needed. To find out, it has to be proved, as Isabelle did with Spinoza’s premises.",
+  "sobraNinguna": "None is redundant: if you remove any one of them, a countermodel appears.",
   "mundoVias": "The Five Ways",
   "ledeVias": "Thomas Aquinas puts forward five ways to show that God exists (Summa Theologiae, I, question 2, article 3). Here each way is broken down into its premises, so that you can see which one does the work and where the objections press. The table does not decide whether God exists: it only checks what follows from what.",
   "notaDefsVias": "In the Ways, moving and causing are not events in time. They are <em>per se</em> causes, which act at the same time as their effect, as the hand moves the stick and the stick the stone. The dependence runs in one direction only: what is moved depends on the mover, not the mover on what is moved. That is why only the third way uses instants: it speaks of existing and ceasing to exist. That the world began in time, Thomas holds to be a truth of faith, which reason can neither prove nor refute (I, question 46, articles 1 and 2), and none of the Ways needs it. That everything depends on God for its being, by contrast, he does hold to be demonstrable (I, question 44, article 1).",
@@ -863,6 +872,64 @@ const LABSPZ = {
   ],
   "tSimbolos": "The symbols",
   "bPracticar": "Practise the properties of relations at the “Relations” table",
+  "tMapa": "Map of properties",
+  "introMapa": "Which property of a relation follows from which. It holds for any relation: starting earlier, creating, moving, causing, being more perfect… What follows is proved in Isabelle; what does not follow has a counterexample, also checked (theory Propiedades_relaciones).",
+  "mapa": [
+   {
+    "sigue": true,
+    "si": "Irreflexive and transitive",
+    "da": "asymmetric"
+   },
+   {
+    "sigue": true,
+    "si": "Asymmetric",
+    "da": "irreflexive"
+   },
+   {
+    "sigue": true,
+    "si": "No infinite regress",
+    "da": "asymmetric, and therefore irreflexive"
+   },
+   {
+    "sigue": true,
+    "si": "No infinite regress, if there is at least one arrow",
+    "da": "there is a first one, which no arrow reaches"
+   },
+   {
+    "sigue": true,
+    "si": "In a finite world, irreflexive and transitive",
+    "da": "no infinite regress"
+   },
+   {
+    "sigue": true,
+    "si": "In a finite world, a strict order in which everything is comparable",
+    "da": "there is a maximum"
+   },
+   {
+    "sigue": false,
+    "si": "Asymmetric",
+    "da": "transitive",
+    "ej": "0 goes to 1 and 1 goes to 2, but 0 does not go to 2."
+   },
+   {
+    "sigue": false,
+    "si": "Irreflexive",
+    "da": "asymmetric",
+    "ej": "‘Is different from’: A is different from B and B from A."
+   },
+   {
+    "sigue": false,
+    "si": "Transitive",
+    "da": "irreflexive",
+    "ej": "The relation that links each thing with all things, itself included."
+   },
+   {
+    "sigue": false,
+    "si": "With infinitely many things, irreflexive and transitive",
+    "da": "no infinite regress",
+    "ej": "In the numbers, each one is preceded by the next, without end. Compare it with the fifth row."
+   }
+  ],
   "tLectura": "It is read like this",
   "tPasos": "Step by step",
   "pHip": "assumption",
