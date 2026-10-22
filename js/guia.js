@@ -196,6 +196,11 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
+     "nombre": "Pillars",
+     "texto": "The great concepts (reason, idea, cause) in ten steps, from the everyday word to today’s debate. Each step corrects the one before and asks you to work: apply the idea to a case, link it to what you have already climbed and check whether you have understood it. Tick the steps you get past: this is saved only in your browser.",
+     "view": "pilares"
+    },
+    {
      "nombre": "Cards",
      "texto": "Click the card (or press the space bar) to turn it over and mark the ones you have mastered with “I know it”. Your progress is saved.",
      "view": "tarjetas"
