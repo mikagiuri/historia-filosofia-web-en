@@ -42,7 +42,18 @@ const LOGM_FZ = [
   { f: "It is not true that, if it rains, the match is called off.", d: [["p", "it rains"], ["q", "the match is called off"]], s: "¬(p → q)", pista: "The ‘it is not true that’ denies the whole conditional: it goes in front of the brackets." },
   { f: "Epicurus: ‘When we are here, death is not; and when death is here, we are no longer.’", d: [["p", "we are here"], ["q", "death is here"]], s: "(p → ¬q) ∧ (q → ¬p)", pista: "They are two conditionals joined by ‘and’. (Letter to Menoeceus, 125.)" },
   /* (17-10) caso «Mónica» con cinco letras (docs/34): la ficha de Argumentos clásicos lo formaliza con tres */
-  { f: "Monica, to the letter: ‘If someone desires good things and has them, they are happy; but if they desire bad things, even though they have them, they are unhappy’.", d: [["p", "is happy"], ["q", "desires good things"], ["r", "has good things"], ["s", "desires bad things"], ["t", "has bad things"]], s: "((q ∧ r) → p) ∧ ((s ∧ t) → ¬p)", pista: "‘But’ and ‘even though’ are written with ∧: ‘even though they have them’ does not deny that they have them, it asserts it. Compare it with the three-letter reading in Monica’s card (Classic arguments): someone who desires what is good and what is bad, has everything and is happy? One formula admits it and the other does not." }
+  { f: "Monica, to the letter: ‘If someone desires good things and has them, they are happy; but if they desire bad things, even though they have them, they are unhappy’.", d: [["p", "is happy"], ["q", "desires good things"], ["r", "has good things"], ["s", "desires bad things"], ["t", "has bad things"]], s: "((q ∧ r) → p) ∧ ((s ∧ t) → ¬p)", pista: "‘But’ and ‘even though’ are written with ∧: ‘even though they have them’ does not deny that they have them, it asserts it. Compare it with the three-letter reading in Monica’s card (Classic arguments): someone who desires what is good and what is bad, has everything and is happy? One formula admits it and the other does not." },
+  /* (22-10, nube) T2a: diez frases más, con casos trampa («a menos que», «solo si» delante, «siempre que», «aunque» + subjuntivo, «salvo que») */
+  { f: "I won’t go unless you come with me.", d: [["p", "I go"], ["q", "you come with me"]], s: "¬q → ¬p", pista: "Trick case: ‘not p unless q’ means ‘if not q, not p’. It is equivalent to p → q: your coming with me is a necessary condition for my going." },
+  { f: "Only if you study will you pass.", d: [["p", "you pass"], ["q", "you study"]], s: "p → q", pista: "Trick case: even though ‘only if’ comes at the beginning, it still marks the necessary condition, which goes after the arrow. If you pass, it means you have studied." },
+  { f: "Whenever you study, you pass.", d: [["p", "you pass"], ["q", "you study"]], s: "q → p", pista: "With the indicative, «whenever» means «every time that», that is, «if»: studying is a sufficient condition and goes before the arrow. Compare it with the previous one. Trick case: with the subjunctive («you will pass whenever you study») it can be read as «only if you study», and then it would be p → q." },
+  { f: "It is neither raining nor sunny, but it is cold.", d: [["p", "it rains"], ["q", "it is sunny"], ["r", "it is cold"]], s: "¬p ∧ ¬q ∧ r", pista: "«Neither… nor…» negates the first two and «but» is another conjunction: ¬p, ¬q and r are asserted." },
+  { f: "It is not true that it rains or snows.", d: [["p", "it rains"], ["q", "it snows"]], s: "¬(p ∨ q)", pista: "The whole disjunction is denied: it does not rain and it does not snow. By De Morgan, ¬p ∧ ¬q is also correct." },
+  { f: "If it isn’t Monday, there is no logic class.", d: [["p", "it is Monday"], ["q", "there is a logic class"]], s: "¬p → ¬q", pista: "Trick case: it is equivalent to q → p (if there is a logic class, it is Monday), not to p → q: the sentence does not promise a class every Monday." },
+  { f: "Even if it rains, we will go out.", d: [["p", "it rains"], ["q", "we go out"]], s: "(p → q) ∧ (¬p → q)", pista: "Trick case: ‘even if’ does not assert that it rains; it says that we will go out whether it rains or not. The formula is equivalent to plain q. (‘Although it is raining, we are going out’ would be p ∧ q.)" },
+  { f: "If it rains, I stay at home; and if not, I go to the park.", d: [["p", "it rains"], ["q", "I stay at home"], ["r", "I go to the park"]], s: "(p → q) ∧ (¬p → r)", pista: "They are two conditionals joined by ‘and’; the ‘if not’ means ‘if it does not rain’." },
+  { f: "Passing the exam is necessary and sufficient for moving up a year.", d: [["p", "you pass the exam"], ["q", "you move up a year"]], s: "p ↔ q", pista: "Sufficient: p → q. Necessary: q → p. Together they make the biconditional." },
+  { f: "If it rains, I don’t go out, unless I have an umbrella.", d: [["p", "it rains"], ["q", "I go out"], ["r", "I have an umbrella"]], s: "(p ∧ ¬r) → ¬q", pista: "Trick case: ‘unless’ means ‘if not’: if it rains and I don’t have an umbrella, I don’t go out. p → (¬r → ¬q), which is equivalent, is also correct." }
 ];
 function logmEquiv(a, b){
   const vars = logVars([a, b]);
@@ -101,7 +112,16 @@ const LOGM_EJ = [
   { t: "If the soul were material, it would decay like the body. The soul does not decay. Therefore the soul is not material.", r: "mt" },
   { t: "If the theory is good, its predictions come true. Its predictions come true. Therefore the theory is good.", r: "ac" },
   { t: "If it rains, there are clouds. Therefore, if there are clouds, it rains.", r: "cc" },
-  { t: "It is not true that the accused is guilty and acted alone. Therefore the accused is not guilty.", r: "nc" }
+  { t: "It is not true that the accused is guilty and acted alone. Therefore the accused is not guilty.", r: "nc" },
+  /* (22-10, nube) T2b: ocho más; cinco son trampas (ac, na, ad, cc, nc) */
+  { t: "If the museum is open, there is a light on at the entrance. There is no light on at the entrance. Therefore the museum is not open.", r: "mt" },
+  { t: "If Plato is right, the soul is immortal. The soul is immortal. Therefore Plato is right.", r: "ac" },
+  { t: "If it is very cold, the lake freezes. It is not very cold. Therefore the lake does not freeze.", r: "na" },
+  { t: "Bea can swim or ride a bike. She can swim. Therefore she cannot ride a bike.", r: "ad" },
+  { t: "If you are from Bilbao, you are from Bizkaia. Therefore, if you are from Bizkaia, you are from Bilbao.", r: "cc" },
+  { t: "If the home team wins, there will be a party; if the away team wins, there will also be a party, because both are from the town. One of the two will win. Therefore there will be a party.", r: "dc" },
+  { t: "If the price of diesel goes up, transport costs go up; if transport costs go up, food prices go up. Therefore, if diesel goes up, food prices go up.", r: "sh" },
+  { t: "It is not true that Juan is both class representative and treasurer. Therefore Juan is not the treasurer.", r: "nc" }
 ];
 function logmTodas(){ return LOGM_REGLAS.concat(LOGM_FALACIAS); }
 function logmForma(x){ return x.p.split(";").map(s => s.trim()).join(" · ") + " ⊢ " + x.c; }
@@ -160,13 +180,22 @@ const LOGM_CQ_EJ = [
   { f: "All philosophers are curious.", d: "F = philosopher, C = curious", o: ["∀x (Fx → Cx)", "∀x (Fx ∧ Cx)", "∃x (Fx ∧ Cx)", "∀x (Cx → Fx)"], r: 0, por: "Universal affirmative (A). With ∧ it would say that everyone is a philosopher and curious; with the arrow the other way round, that everyone curious is a philosopher." },
   { f: "Some sophists charged for teaching.", d: "S = sophist, C = charged for teaching", o: ["∃x (Sx → Cx)", "∃x (Sx ∧ Cx)", "∀x (Sx → Cx)"], r: 1, por: "Particular affirmative (I): there is someone who is a sophist and charged. With the arrow it would be enough for there to be something that was not a sophist." },
   { f: "No god is mortal.", d: "D = god, M = mortal", o: ["¬∀x (Dx → Mx)", "∀x (¬Dx → Mx)", "∀x (Dx → ¬Mx)"], r: 2, por: "Universal negative (E). ¬∃x (Dx ∧ Mx) is also correct: ‘there is nothing that is both a god and mortal’." },
-  { f: "Not all Greeks were philosophers.", d: "G = Greek, F = philosopher", o: ["∀x (Gx → ¬Fx)", "¬∀x (Gx → Fx)", "¬∃x (Gx ∧ Fx)"], r: 1, por: "Trick case: ‘not all’ is not ‘none’. It is equivalent to ∃x (Gx ∧ ¬Fx): some Greek was not a philosopher (O)." },
+  { f: "Not all Greeks were philosophers.", d: "G = Greek, F = philosopher", o: ["∀x (Gx → ¬Fx)", "¬∀x (Gx → Fx)", "¬∀x (Gx ∧ Fx)"], r: 1, por: "Trick case: «not all» is not «none». It is equivalent to ∃x (Gx ∧ ¬Fx): some Greek was not a philosopher (O). ¬∀x (Gx ∧ Fx) would be true if there were merely something that was not Greek." },
   { f: "Only citizens voted in the assembly.", d: "V = voted in the assembly, C = citizen", o: ["∀x (Cx → Vx)", "∀x (Vx → Cx)", "∃x (Vx ∧ Cx)"], r: 1, por: "Trick case: ‘only Cs’ puts the necessary condition after the arrow: everyone who voted was a citizen (not every citizen voted)." },
-  { f: "There is something that has not been caused by anything else.", d: "C = caused by something else", o: ["¬∃x Cx", "∀x ¬Cx", "∃x ¬Cx"], r: 2, por: "There is at least one x that is not caused: this is the idea of Aristotle’s prime mover or of Thomas Aquinas’s first cause." },
+  { f: "There is something that has not been caused by anything else.", d: "C = caused by something else", o: ["¬∃x ¬Cx", "∀x ¬Cx", "∃x ¬Cx"], r: 2, por: "There is at least one x that is not caused: this is the idea of Aristotle’s prime mover or of Thomas Aquinas’s first cause." },
   { f: "Socrates is mortal.", d: "M = mortal, s = Socrates", o: ["∃x Mx", "Ms", "∀x Mx"], r: 1, por: "A particular individual is written with a lower-case letter (a constant): no quantifier is needed." },
   { f: "Everyone who thinks exists.", d: "P = thinks, E = exists", o: ["∀x (Px → Ex)", "∀x (Ex → Px)", "∃x (Px ∧ Ex)"], r: 0, por: "Universal affirmative (A). To derive ‘I exist’ you would also need the premise ‘I think’ (Pi) and universal instantiation, as with Socrates." },
   { f: "Everyone has a mother.", d: "M = ‘y is the mother of x’", o: ["∃y ∀x Myx", "∀x ∃y Myx", "∀x ∀y Myx"], r: 1, por: "For each person there is some mother (she may be different in each case). ∃y ∀x Myx would say that there is a single mother of everyone: this is the quantifier shift." },
-  { f: "There is someone whom everyone admires.", d: "A = ‘x admires y’", o: ["∀x ∃y Axy", "∃y ∀x Axy", "∃x ∃y Axy"], r: 1, por: "There is a y such that everyone admires y. ∀x ∃y Axy would only say that each person admires someone, perhaps different people." }
+  { f: "There is someone whom everyone admires.", d: "A = ‘x admires y’", o: ["∀x ∃y Axy", "∃y ∀x Axy", "∃x ∃y Axy"], r: 1, por: "There is a y such that everyone admires y. ∀x ∃y Axy would only say that each person admires someone, perhaps different people." },
+  /* (22-10, nube) T2c: «solo los», «no todos», «nadie» y relaciones */
+  { f: "Only people of legal age can vote.", d: "V = can vote, M = of legal age", o: ["∀x (Mx → Vx)", "∀x (Mx ∧ Vx)", "∀x (Vx → Mx)"], r: 2, por: "Trick case: «only the M» puts M after the arrow: everyone who can vote is of age. It does not say that everyone of age can vote (∀x (Mx → Vx)), nor that everybody is of age and votes (∀x (Mx ∧ Vx))." },
+  { f: "Not all Sophists were foreigners.", d: "S = Sophist, E = foreigner", o: ["∃x (Sx ∧ ¬Ex)", "∀x (Sx → ¬Ex)", "∃x (Sx → ¬Ex)"], r: 0, por: "«Not all» is the O: at least one sophist was not a foreigner. It is equivalent to ¬∀x (Sx → Ex). ∀x (Sx → ¬Ex) says that no sophist was a foreigner, which is much more; ∃x (Sx → ¬Ex), with the arrow, would be true if there were merely something that was not a sophist." },
+  { f: "Nobody is perfect.", d: "P = perfect (we are talking about people)", o: ["∃x ¬Px", "¬∀x ¬Px", "¬∃x Px"], r: 2, por: "Trick case: «nobody» is «there exists none»: ¬∃x Px, which is equivalent to ∀x ¬Px. ∃x ¬Px says much less: that someone is not perfect. ¬∀x ¬Px is equivalent to ∃x Px: it says that someone is perfect." },
+  { f: "Everyone admires Socrates.", d: "A = ‘x admires y’, s = Socrates", o: ["∀x Asx", "∀x Axs", "∃x Axs"], r: 1, por: "The order of the letters matters: Axs is ‘x admires Socrates’. ∀x Asx would say that Socrates admires everyone." },
+  { f: "Socrates admires someone who does not admire him.", d: "A = ‘x admires y’, s = Socrates", o: ["∃y (Asy → ¬Ays)", "∀y (Asy ∧ ¬Ays)", "∃y (Asy ∧ ¬Ays)"], r: 2, por: "With ∃ goes ∧: there is someone whom Socrates admires and who does not admire him. With the arrow, it would be enough for there to exist someone whom Socrates does not admire; with ∀, the formula contradicts itself: taking y = Socrates, it would say that Socrates admires himself and does not admire himself." },
+  { f: "No Greek philosopher wrote in Latin.", d: "F = philosopher, G = Greek, L = wrote in Latin", o: ["∀x ((Fx ∧ Gx) → ¬Lx)", "∀x (Fx → (Gx ∧ ¬Lx))", "¬∃x (Fx ∧ Lx)"], r: 0, por: "The subject is «Greek philosopher» as a whole: it goes together before the arrow. ∀x (Fx → (Gx ∧ ¬Lx)) says that all philosophers are Greek; ¬∃x (Fx ∧ Lx), that no philosopher wrote in Latin, and Augustine or Thomas did." },
+  { f: "Some students have not read any book.", d: "A = student, B = book, L = ‘x has read y’", o: ["∃x (Ax ∧ ∃y (By ∧ ¬Lxy))", "¬∃x (Ax ∧ ∃y (By ∧ Lxy))", "∃x (Ax ∧ ¬∃y (By ∧ Lxy))"], r: 2, por: "There is a student for whom there exists no book read. ∃x (Ax ∧ ∃y (By ∧ ¬Lxy)) says only that there is a book he has not read (which is true of everyone); ¬∃x (Ax ∧ ∃y (By ∧ Lxy)), that no student has read anything." },
+  { f: "Every effect has a cause.", d: "E = effect, C = ‘y is a cause of x’", o: ["∀x (Ex → ∃y Cyx)", "∃y ∀x (Ex → Cyx)", "∀x ∃y (Ex ∧ Cyx)"], r: 0, por: "Every effect has some cause, perhaps a different one. ∃y ∀x would say that there is a single cause of all effects: moving from one to the other is the quantifier-order shift, and some have seen that leap in certain proofs of the existence of God. ∀x ∃y (Ex ∧ Cyx) says, besides, that everything is an effect." }
 ];
 function logmCqEval(m){
   const ix = i => LOGM_CQ_IND[i], S = m.map(r => !!r[0]), P = m.map(r => !!r[1]), all = [0, 1, 2, 3, 4];
@@ -221,6 +250,7 @@ const LOGM_EXTRA_TXT = {
   lpIntro: "The formal fallacies above are refuted by their form: a single counterexample is enough. Other fallacies have no flaw in their form, but formalising them helps you to see them; and others cannot be refuted by logic, because the problem lies in the content.",
   lpAyuda: "Logic helps, but it is not enough", lpNo: "Logic does not refute them", lpQueVe: "What logic shows",
   lpNoIntro: "Their form may be valid or they may not even be an argument: the flaw lies in whether the premises are true or relevant. To detect them you have to ask about the content.",
+  lpNoNomina: "This is only a sample. The complete list of informal fallacies, with a name for each and its glossary definition, is the one in «Informal fallacies: the Corner's list», further down this tab.", lpNoNominaIr: "Go to the full list ↓",   /* (22-10) remite a la nómina única */
   lpDuelo: "Practise them in the Duel of Reasons →"
 };
 const LOGM_CONV = [
@@ -237,13 +267,13 @@ const LOGM_AYUDA = [
   { n: "Enthymeme", ej: "It is expensive, so it must be good.", ve: "For it to be valid, a premise is missing: ‘everything expensive is good’. Formalising brings it to light, and then you can see that it is false." }
 ];
 const LOGM_NOFORMAL = [
-  ["Attack on the person (ad hominem)", "It attacks the speaker, not what is said."],
-  ["False authority", "It rests the conclusion on someone who is not an expert in that field."],
-  ["Appeal to the majority (ad populum)", "That many people believe something does not make it true."],
-  ["Appeal to pity or fear", "It seeks an emotion instead of giving a reason."],
-  ["Straw man", "It refutes a distorted version of what the other person said."],
-  ["False cause", "That one thing happens after another does not prove that the first causes the second."]
-];
+  ["Attack on the person (ad hominem)", "It attacks the speaker, not what is said.", "g-fil-ad-hominem"],
+  ["False authority", "It rests the conclusion on someone who is not an expert in that field.", "g-fil-apelacion-a-la-autoridad"],
+  ["Appeal to the majority (ad populum)", "That many people believe something does not make it true.", "g-fil-apelacion-a-la-mayoria"],
+  ["Appeal to pity or fear", "It seeks an emotion instead of giving a reason.", "g-fil-apelacion-a-la-emocion"],
+  ["Straw man", "It refutes a distorted version of what the other person said.", "g-fil-hombre-de-paja"],
+  ["False cause", "That one thing happens after another does not prove that the first causes the second.", "g-fil-causa-falsa"]
+];   /* (22-10) tercer campo: entrada del glosario de 1.º; la lista completa es la nómina única (logmNomina, #lg-nomina), en esta misma pestaña */
 function logmConversion(){
   return '<div class="lg-panel"><h2>' + logmT("convTit") + '</h2><p class="lg-nota">' + logmT("convIntro") + '</p><div class="tablewrap"><table class="lg-tabla"><thead><tr><th></th><th>' + logmT("convProp") + "</th><th>" + logmT("convConv") + "</th><th>" + logmT("convVale") + "</th><th>" + logmT("convEj") + "</th></tr></thead><tbody>" +
     LOGM_CONV.map(([t, p, c, v, e]) => "<tr><th>" + t + "</th><td>" + logEsc(p) + "</td><td>" + logEsc(c) + '</td><td class="lg-' + (v === "si" ? "v" : "f") + '">' + logmT(v === "si" ? "convSi" : "convNo") + (t === "A" ? "<br><small>" + logmT("convAcc") + "</small>" : "") + "</td><td>" + logEsc(e) + "</td></tr>").join("") + "</tbody></table></div></div>";
@@ -255,7 +285,8 @@ function logmPuedeNoPuede(){
   const duelo = document.getElementById("duelo") ? '<p><button type="button" class="btn ghost" data-igo="duelo" data-iarg="">' + logmT("lpDuelo") + "</button></p>" : "";
   return '<div class="lg-panel"><h2>' + logmT("lpTit") + '</h2><p class="lg-nota">' + logmT("lpIntro") + "</p><h3>" + logmT("lpAyuda") + '</h3><div class="lg-reglas">' +
     LOGM_AYUDA.map(x => '<div class="lg-regla lg-medio"><h3>' + logEsc(x.n) + '</h3><p><b>' + logmT("ejemplo") + ":</b> " + logEsc(x.ej) + "</p><p><b>" + logmT("lpQueVe") + ":</b> " + logEsc(x.ve) + "</p></div>").join("") + "</div>" +
-    "<h3>" + logmT("lpNo") + '</h3><p class="lg-nota">' + logmT("lpNoIntro") + '</p><ul class="lg-nof">' + LOGM_NOFORMAL.map(([n, d]) => "<li><b>" + logEsc(n) + ":</b> " + logEsc(d) + "</li>").join("") + "</ul>" + duelo + "</div>";
+    "<h3>" + logmT("lpNo") + '</h3><p class="lg-nota">' + logmT("lpNoIntro") + '</p><ul class="lg-nof">' + LOGM_NOFORMAL.map(([n, d, g]) => "<li><b>" + (logmGlos(g) ? '<a href="#glosario/' + g + '">' + logEsc(n) + "</a>" : logEsc(n)) + ":</b> " + logEsc(d) + "</li>").join("") + "</ul>" +
+    (typeof LOGX !== "undefined" && LOGX.falacias ? '<p class="lg-nota">' + logmT("lpNoNomina") + ' <button type="button" class="btn ghost" data-lgnomina="1">' + logmT("lpNoNominaIr") + "</button></p>" : "") + duelo + "</div>";
 }
 Object.assign(LOGM_TXT, LOGM_EXTRA_TXT);
 
@@ -278,7 +309,29 @@ function logRenderFalacias(){
   return '<div class="lg-panel"><h2>' + logmT("falacias") + '</h2><div class="lg-reglas">' + LOGM_FALACIAS.map(x => logmCarta(x, true)).join("") + "</div></div>" +
     '<div class="lg-panel"><h2>' + logmT("falSilTit") + '</h2><p class="lg-nota">' + logmT("falSilIntro") + '</p><div class="lg-reglas">' +
     LOGM_FAL_SIL.map(([r, m]) => '<div class="lg-regla lg-falaz"><h3>' + logmT("falR" + r.slice(1)) + "</h3><p>" + logT(r) + '</p><p class="lg-forma">' + m + '</p><p><button type="button" class="btn ghost" data-falsil="' + m + '">' + logmT("falProbar") + "</button></p></div>").join("") + "</div></div>" +
-    logmConversion() + logmGeneralizacion() + logmCqOrden() + logmPuedeNoPuede();
+    logmConversion() + logmGeneralizacion() + logmCqOrden() + logmPuedeNoPuede() + logmNomina() + logmQueFalacia();
+}
+/* (22-10, nube) T5: falacias no formales. La definición vive en el glosario de 1.º (fuente única); aquí, la lista con sus
+   otros nombres, un ejemplo y cómo pararla, y el ejercicio «¿Qué falacia es?». Datos y textos en logica_ejercicios.js (LOGX).
+   En la web de HF no están esas entradas del glosario: el nombre se queda sin enlace y sin definición. */
+function logmGlos(id){ return typeof GLOSARIO !== "undefined" ? GLOSARIO.find(g => g.id === id) : null; }
+function logmNomina(){
+  if (typeof LOGX === "undefined" || !LOGX.falacias) return "";
+  const e = logEsc, T = LOGX.t;
+  return '<div class="lg-panel" id="lg-nomina"><h2>' + e(T.nomTit) + '</h2><p class="lg-nota">' + e(T.nomIntro) + '</p><div class="lg-reglas">' +
+    LOGX.falacias.map(f => { const g = logmGlos(f.g);
+      return '<div class="lg-regla lg-falaz"><h3>' + (g ? '<a href="#glosario/' + f.g + '">' + e(g.t) + "</a>" : e(f.nom)) + "</h3>" + (g ? "<p>" + e(g.def) + "</p>" : "") +
+        '<p class="lg-nota"><b>' + e(T.nomOtros) + "</b> " + e(f.otros) + "</p><p><b>" + e(T.nomEj) + "</b> " + e(f.ej) + "</p><p><b>" + e(T.nomParar) + "</b> " + e(f.parar) + "</p></div>"; }).join("") + "</div></div>";
+}
+function logmQueFalacia(){
+  if (typeof LOGX === "undefined" || !LOGX.qf) return "";
+  const e = logEsc, T = LOGX.t, R = (LOG.qf = LOG.qf || {}), nom = id => (id === "no-es-falacia" ? T.qfNo : ((LOGX.falacias.find(f => f.g === id) || {}).nom || id));
+  const hechas = Object.keys(R), bien = hechas.filter(i => R[i] === LOGX.qf[i].tipo).length;
+  return '<div class="lg-panel" id="lg-qf"><h2>' + e(T.qfTit) + '</h2><p class="lg-nota">' + e(T.qfIntro) + '</p><p class="lg-nota" aria-live="polite">' + e(T.qfCuenta.replace("{a}", bien).replace("{n}", hechas.length)) + "</p>" +
+    LOGX.qf.map((x, i) => { const r = R[i];
+      return '<div class="lg-infej"><p>' + (i + 1) + ". " + e(x.txt) + '</p><div class="lg-teclas">' +
+        x.o.map(o => '<button type="button" class="chip' + (r != null && o === x.tipo ? " lg-chip-ok" : r === o ? " lg-chip-no" : "") + '" data-qf="' + i + '" data-qfo="' + o + '"' + (r != null ? " disabled" : "") + ">" + e(nom(o)) + "</button>").join("") + "</div>" +
+        (r != null ? '<p class="lg-veredicto ' + (r === x.tipo ? "lg-tautologia" : "lg-contradiccion") + '">' + e(r === x.tipo ? T.qfBien : T.qfMal.replace("{x}", nom(x.tipo))) + " " + e(x.por) + "</p>" : "") + "</div>"; }).join("") + "</div>";
 }
 
 
@@ -437,6 +490,8 @@ function logRenderLeyes(){
     else if (b.dataset.falsil){ const [m, f] = b.dataset.falsil.split("-"); Object.assign(LOG.sil, { may: m[0], men: m[1], con: m[2], fig: +f }); LOG.tab = "silogismos"; logRender(); const c = document.getElementById("lg-sil"); if (c) c.scrollIntoView({ block: "start" }); }
     else if (b.dataset.cqpre){ if (!document.getElementById("lg-cq")){ LOG.tab = "cuantificadores"; logRender(); } LOG.cq.m = LOGM_CQ_PRE[b.dataset.cqpre].map(r => r.slice()); const c = document.getElementById("lg-cq"); if (c){ c.innerHTML = logmCqMundo(); if (b.closest(".lg-panel") !== c.closest(".lg-panel")) c.scrollIntoView({ block: "center" }); } }
     else if (b.dataset.cqej != null){ LOG.cq.ej[+b.dataset.cqej] = +b.dataset.cqo; const y = window.scrollY; logRender(); window.scrollTo(0, y); }
+    else if (b.dataset.lgnomina){ const n = document.getElementById("lg-nomina"); if (n) n.scrollIntoView({ block: "start" }); }   /* (22-10) de la lista breve a la nómina única */
+    else if (b.dataset.qf != null){ LOG.qf = LOG.qf || {}; LOG.qf[+b.dataset.qf] = b.dataset.qfo; const y = window.scrollY; logRender(); window.scrollTo(0, y); }   /* (22-10, nube) T5 */
     else if (b.dataset.infej != null){ LOG.inf[+b.dataset.infej] = b.dataset.infr; const y = window.scrollY; logRender(); window.scrollTo(0, y); }
   });
   box.addEventListener("input", ev => { const t = ev.target; if (t.dataset && t.dataset.fz != null){ const i = +t.dataset.fz; LOG.fz[i] = Object.assign(LOG.fz[i] || {}, { f: t.value, hecho: false, sol: false }); const r = document.getElementById("lg-fzr-" + i); if (r) r.innerHTML = ""; } });

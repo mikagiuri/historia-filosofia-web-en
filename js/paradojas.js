@@ -1,4 +1,7 @@
 // Generado por web_i18n/i18n_rebuild.js (en) a partir de web/js/paradojas.js. No editar a mano: editar la memoria tm/en.json y regenerar.
+const PARADOJAS_TXT = {
+ "lineaNivel": "Pathway: level {n}"
+};
 const PARADOJAS_GRUPOS = [
  {
   "id": "autorref",
@@ -49,6 +52,12 @@ const PARADOJAS_GRUPOS = [
   "intro": "These are not paradoxes: they are sentences we have analysed in class. First we extract their logical form; then we look at what they say, what they take for granted and what they do not say even though it seems they do."
  },
  {
+  "id": "historia",
+  "view": "clasicos",
+  "titulo": "History of logic: the Stoics and the medievals",
+  "intro": "Where some of the Corner’s tools come from. The Stoics, centuries before anyone else, built a logic of propositions; the medieval logicians refined the theory of consequences and the analysis of terms. Aristotle, Leibniz, Kant, Frege and Russell have their place in the History of Philosophy theory and in Leibniz’s Workshop."
+ },
+ {
   "id": "agustin",
   "view": "clasicos",
   "titulo": "Saint Augustine: <em>On the Happy Life</em>",
@@ -59,6 +68,7 @@ const PARADOJAS = [
  {
   "id": "mentiroso",
   "grupo": "autorref",
+  "nivel": 3,
   "titulo": "The Liar",
   "origen": "Eubulides of Miletus, 4th century BC",
   "enunciado": "‘This sentence is false.’",
@@ -69,6 +79,7 @@ const PARADOJAS = [
  {
   "id": "epimenides",
   "grupo": "autorref",
+  "nivel": 6,
   "titulo": "Epimenides: ‘All Cretans are liars’",
   "origen": "Epimenides of Knossos (Crete), 6th century BC. It is sometimes told with Athenians or another people, but the ancient version is the Cretan one.",
   "enunciado": "Epimenides, who is a Cretan, says: ‘All Cretans always lie’.",
@@ -79,6 +90,7 @@ const PARADOJAS = [
  {
   "id": "barbero",
   "grupo": "autorref",
+  "nivel": 5,
   "titulo": "Russell’s barber",
   "origen": "Bertrand Russell used it in 1918 to explain in a simple way his paradox of sets (1901).",
   "enunciado": "In a village there is a barber who shaves all the men who do not shave themselves, and only them. Who shaves the barber?",
@@ -89,6 +101,7 @@ const PARADOJAS = [
  {
   "id": "grelling",
   "grupo": "autorref",
+  "nivel": 5,
   "titulo": "The paradox of ‘heterological’",
   "origen": "Kurt Grelling and Leonard Nelson, 1908.",
   "enunciado": "Some words say something that they themselves satisfy: ‘proparoxytone’ is proparoxytone, ‘polysyllabic’ has many syllables. We call them <em>autological</em>. The rest, like ‘monosyllabic’ or ‘very long’, are <em>heterological</em>. Is the word ‘heterological’ heterological?",
@@ -99,6 +112,7 @@ const PARADOJAS = [
  {
   "id": "cocodrilo",
   "grupo": "autorref",
+  "nivel": 3,
   "titulo": "The Crocodile",
   "origen": "A classic problem of Greek logic, recorded by the Stoics and by Lucian.",
   "enunciado": "A crocodile steals a child and says to the mother: ‘I will give him back if you guess what I am going to do’. The mother replies: ‘You are not going to give him back’.",
@@ -109,6 +123,7 @@ const PARADOJAS = [
  {
   "id": "aquiles",
   "grupo": "zenon",
+  "nivel": 9,
   "titulo": "Achilles and the tortoise",
   "origen": "Zeno of Elea, 5th century BC; Aristotle tells us of it in the <em>Physics</em> (Book VI).",
   "enunciado": "Achilles, the fastest of the Greeks, races a tortoise and gives it a head start. When he reaches the place where the tortoise was, it has already moved on a little. When he reaches that new point, it has moved on a little more. And so on for ever: Achilles never catches it.",
@@ -119,6 +134,7 @@ const PARADOJAS = [
  {
   "id": "dicotomia",
   "grupo": "zenon",
+  "nivel": 9,
   "titulo": "The Dichotomy",
   "origen": "Zeno of Elea, 5th century BC",
   "enunciado": "To cross the classroom, you first have to get to the halfway point. But before that, to half of that half. And before that, to half of that half… There is no first step, so you cannot even start to move.",
@@ -129,6 +145,7 @@ const PARADOJAS = [
  {
   "id": "flecha",
   "grupo": "zenon",
+  "nivel": 9,
   "titulo": "The Arrow",
   "origen": "Zeno of Elea, 5th century BC; also in Aristotle’s <em>Physics</em>.",
   "enunciado": "At every instant, an arrow in flight occupies a space exactly equal to itself: at that instant it is at rest. Time is made of instants. Therefore the arrow is always at rest.",
@@ -139,6 +156,7 @@ const PARADOJAS = [
  {
   "id": "sorites",
   "grupo": "vaguedad",
+  "nivel": 7,
   "titulo": "The heap (sorites)",
   "origen": "Eubulides of Miletus, 4th century BC. ‘Sorites’ comes from the Greek <em>sōrós</em>, ‘heap’.",
   "enunciado": "One grain of sand is not a heap. If something is not a heap, adding a single grain does not make it a heap. Therefore two grains are not a heap, nor three… nor a million.",
@@ -149,6 +167,7 @@ const PARADOJAS = [
  {
   "id": "teseo",
   "grupo": "vaguedad",
+  "nivel": 7,
   "titulo": "The Ship of Theseus",
   "origen": "Plutarch, <em>Life of Theseus</em> (1st–2nd century); Thomas Hobbes added the second part in the 17th century.",
   "enunciado": "The Athenians kept Theseus’s ship and replaced the rotten planks with new ones, until not one of the originals was left. Is it still Theseus’s ship? And if someone had kept the old planks and reassembled them, which of the two would be Theseus’s ship?",
@@ -159,6 +178,7 @@ const PARADOJAS = [
  {
   "id": "sivispacem",
   "grupo": "accion",
+  "nivel": 7,
   "titulo": "‘Si vis pacem, para bellum’",
   "origen": "‘If you want peace, prepare for war.’ The idea comes from Vegetius, a Roman military writer (4th–5th centuries): <em>qui desiderat pacem, praeparet bellum</em>. The short formula is later.",
   "enunciado": "To achieve peace you must prepare for war: whoever is well armed will not be attacked.",
@@ -169,6 +189,7 @@ const PARADOJAS = [
  {
   "id": "tolerancia",
   "grupo": "accion",
+  "nivel": 7,
   "titulo": "The paradox of tolerance",
   "origen": "Karl Popper, <em>The Open Society and Its Enemies</em> (1945), in a note to chapter 7.",
   "enunciado": "If a society is tolerant without limits, even towards those who want to destroy tolerance, they may end up destroying it. Unlimited tolerance leads to the disappearance of tolerance.",
@@ -179,6 +200,7 @@ const PARADOJAS = [
  {
   "id": "buridan",
   "grupo": "accion",
+  "nivel": 7,
   "titulo": "Buridan’s ass",
   "origen": "Attributed to Jean Buridan (14th century), although it does not appear in his works. The idea is already in Aristotle, <em>On the Heavens</em> (Book II).",
   "enunciado": "An ass, equally hungry on both sides, stands exactly between two identical piles of hay. It has no reason to go to one rather than the other, so it does not move and starves to death.",
@@ -189,6 +211,7 @@ const PARADOJAS = [
  {
   "id": "hedonismo",
   "grupo": "accion",
+  "nivel": 7,
   "titulo": "The paradox of hedonism",
   "origen": "Henry Sidgwick, <em>The Methods of Ethics</em> (1874); John Stuart Mill tells of it in his <em>Autobiography</em> (1873).",
   "enunciado": "Whoever seeks pleasure or happiness directly does not find it. It is found by whoever devotes themselves to something else.",
@@ -199,6 +222,7 @@ const PARADOJAS = [
  {
   "id": "examen",
   "grupo": "razonar",
+  "nivel": 7,
   "titulo": "The surprise exam",
   "origen": "It circulated in the 1940s; D. J. O’Connor published it in 1948.",
   "enunciado": "The teacher announces: ‘Next week there will be a surprise exam: you will not know which day it is until that morning’. A student reasons: ‘It cannot be on Friday, because on Thursday afternoon we would know it must be Friday. With Friday ruled out, it cannot be Thursday either, for the same reason… So there cannot be a surprise exam’. On Wednesday there is an exam, and nobody expected it.",
@@ -209,6 +233,7 @@ const PARADOJAS = [
  {
   "id": "protagoras",
   "grupo": "razonar",
+  "nivel": 4,
   "titulo": "Protagoras and Euathlus",
   "origen": "Aulus Gellius, <em>Attic Nights</em> (2nd century), tells it of the sophist Protagoras.",
   "enunciado": "Protagoras teaches law to Euathlus, who is to pay him when he wins his first case. Euathlus finishes his studies and does not defend anyone. Protagoras sues him. Protagoras: ‘If I win, you pay me because the judge orders it; if I lose, you pay me because you will have won your first case’. Euathlus: ‘If I win, I do not pay because the judge orders it; if I lose, I do not pay because I will not yet have won any case’.",
@@ -219,6 +244,7 @@ const PARADOJAS = [
  {
   "id": "omnipotencia",
   "grupo": "razonar",
+  "nivel": 7,
   "titulo": "The stone that cannot be lifted",
   "origen": "The paradox of omnipotence, discussed in medieval philosophy.",
   "enunciado": "Can an all-powerful being create a stone so heavy that even he cannot lift it?",
@@ -229,6 +255,7 @@ const PARADOJAS = [
  {
   "id": "berry",
   "grupo": "autorref",
+  "nivel": 7,
   "titulo": "Berry’s paradox",
   "origen": "Russell published it in 1908 and attributed it to G. G. Berry, a librarian at the University of Oxford.",
   "enunciado": "Think of ‘the smallest natural number that cannot be named in fewer than fifteen words’. There are such numbers, because with fewer than fifteen words only a limited number of sentences can be formed, and numbers never run out; and among them there will be a smallest one. But the sentence in quotation marks has fourteen words.",
@@ -239,6 +266,7 @@ const PARADOJAS = [
  {
   "id": "agripa",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "The Münchhausen trilemma",
   "origen": "Agrippa, a Greek sceptic (1st century), recorded by Sextus Empiricus in <em>Outlines of Pyrrhonism</em> (Book I). The name is Hans Albert’s (1968), after Baron Münchhausen, who claimed to have pulled himself out of a swamp by his own hair.",
   "enunciado": "—How do you know that is true? —For this reason. —And how do you know that reason is true? —For this other one. —And that one? … If we keep on asking, there are only three possible endings.",
@@ -249,6 +277,7 @@ const PARADOJAS = [
  {
   "id": "tortugas",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "Turtles all the way down",
   "origen": "John Locke, <em>An Essay Concerning Human Understanding</em> (1690, Book II, ch. 23), tells the version of the elephant and the tortoise. The one with infinite turtles is an anecdote attributed to several scientists; Stephen Hawking uses it at the start of <em>A Brief History of Time</em> (1988).",
   "enunciado": "A wise man explains that the Earth rests on an elephant, and the elephant on a turtle. —And what does the turtle rest on? —On another turtle. —And that one? —It is useless, young man: it is turtles all the way down.",
@@ -259,6 +288,7 @@ const PARADOJAS = [
  {
   "id": "primermotor",
   "grupo": "regreso",
+  "nivel": 11,
   "titulo": "The first cause: a regress that stops at an absolute",
   "origen": "Aristotle, <em>Physics</em> (Book VIII) and <em>Metaphysics</em> (Book XII); Thomas Aquinas, the ‘five ways’ of the <em>Summa Theologiae</em> (I, question 2, article 3).",
   "enunciado": "Everything that moves is moved by another. That other, in turn, is moved by another. But this cannot go on to infinity, because then there would be no first mover and nothing would move. Therefore there is a first mover that is moved by nothing, ‘and this everyone understands to be God’.",
@@ -269,6 +299,7 @@ const PARADOJAS = [
  {
   "id": "carroll",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "What the Tortoise said to Achilles",
   "origen": "Lewis Carroll, author of <em>Alice’s Adventures in Wonderland</em> and a logic lecturer, in the journal <em>Mind</em> (1895).",
   "enunciado": "Achilles teaches the tortoise an argument: ‘If it rains, the ground gets wet. It is raining. Therefore the ground gets wet’. The tortoise accepts the two premises, but not the conclusion, until the rule is also written down: ‘If it is true that if it rains the ground gets wet, and it is true that it is raining, then the ground gets wet’. Achilles adds it. The tortoise then asks for another rule saying that, with those three, the conclusion follows. And so on for ever.",
@@ -279,6 +310,7 @@ const PARADOJAS = [
  {
   "id": "tercerhombre",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "The Third Man",
   "origen": "Plato raises it against himself in the <em>Parmenides</em> (132a); the name is Aristotle’s (<em>Metaphysics</em>, Book I).",
   "enunciado": "Socrates, Plato and Phaedo are men because they all participate in the Idea of Man. But the Idea of Man and individual men resemble each other in something: all are ‘man’. To explain that resemblance another Idea above them would be needed: a ‘third man’. And that third man would resemble the previous ones, and would need a fourth Idea…",
@@ -289,6 +321,7 @@ const PARADOJAS = [
  {
   "id": "custodes",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "Who watches the watchman?",
   "origen": "Juvenal, <em>Satires</em> (VI, 347–348): <em>quis custodiet ipsos custodes?</em> Plato already raises it in the <em>Republic</em> (III, 403e).",
   "enunciado": "To prevent abuses we appoint a watchman. But the watchman can also abuse his position, so we need someone to watch him. And who watches that one?",
@@ -299,6 +332,7 @@ const PARADOJAS = [
  {
   "id": "huevo",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "Which came first, the chicken or the egg?",
   "origen": "Plutarch discusses the question in his <em>Table Talk</em> (Book II, 3), in the 1st–2nd century.",
   "enunciado": "Every chicken comes from an egg, and every chicken’s egg is laid by a chicken. So before any chicken there was an egg, and before that egg, a chicken… Which was the first?",
@@ -309,6 +343,7 @@ const PARADOJAS = [
  {
   "id": "diccionario",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "The dictionary loop",
   "origen": "A classic problem in the philosophy of language; it is used, for example, by Wittgenstein in the <em>Philosophical Investigations</em> (1953).",
   "enunciado": "You look up ‘large’ in a dictionary and it says something like ‘of greater size than normal’. You look up ‘size’: ‘magnitude of a thing’. You look up ‘magnitude’: ‘size or greatness’. You are back at the beginning.",
@@ -319,6 +354,7 @@ const PARADOJAS = [
  {
   "id": "yablo",
   "grupo": "regreso",
+  "nivel": 6,
   "titulo": "Yablo’s paradox: a liar without self-reference",
   "origen": "Stephen Yablo, in the journal <em>Analysis</em> (1993).",
   "enunciado": "Imagine an infinite list of sentences. Sentence 1 says: ‘All the sentences that come after me are false’. Sentence 2 says the same, and so does 3, and so on without end. None of them speaks of itself.",
@@ -329,6 +365,7 @@ const PARADOJAS = [
  {
   "id": "distintos",
   "grupo": "colectivo",
+  "nivel": 6,
   "titulo": "‘If we all want to be different, then we are all the same’",
   "origen": "A much-repeated idea about fashions. Georg Simmel analysed it in <em>The Philosophy of Fashion</em> (1905); Monty Python took it to the cinema in <em>Life of Brian</em> (1979), where a crowd answers in chorus that they are all individuals.",
   "enunciado": "We all want to be different from others. But if we all want the same thing, in that we are the same. And, in fact, those who flee from fashion all end up dressing alike.",
@@ -339,6 +376,7 @@ const PARADOJAS = [
  {
   "id": "concierto",
   "grupo": "colectivo",
+  "nivel": 7,
   "titulo": "Standing at the concert",
   "origen": "A classic example from economics textbooks to explain the <strong>fallacy of composition</strong>. The name comes from Aristotle (<em>Sophistical Refutations</em>), although he understood it somewhat differently.",
   "enunciado": "At a concert, if one person stands up, they see better. So if the whole audience stands up, everyone will see better.",
@@ -349,6 +387,7 @@ const PARADOJAS = [
  {
   "id": "ahorro",
   "grupo": "colectivo",
+  "nivel": 7,
   "titulo": "The paradox of thrift",
   "origen": "John Maynard Keynes, <em>The General Theory of Employment, Interest and Money</em> (1936), which recalls Mandeville and his <em>Fable of the Bees</em> (1714).",
   "enunciado": "Saving is good for a family: if it spends less than it earns, it will have money for when it needs it. So if in a crisis all families save more, the country will be better off.",
@@ -359,6 +398,7 @@ const PARADOJAS = [
  {
   "id": "comunes",
   "grupo": "colectivo",
+  "nivel": 7,
   "titulo": "The tragedy of the commons",
   "origen": "William Forster Lloyd (1833); Garrett Hardin made it famous in the journal <em>Science</em> (1968).",
   "enunciado": "A meadow belongs to all the herdsmen of the village. It suits each herdsman to add one more sheep: the benefit is all his, and the damage to the meadow is shared among everyone. Since everyone reasons the same way, the meadow is exhausted and nobody can use it.",
@@ -369,6 +409,7 @@ const PARADOJAS = [
  {
   "id": "moore",
   "grupo": "razonar",
+  "nivel": 7,
   "titulo": "Moore’s paradox: ‘It is raining, but I do not believe it’",
   "origen": "G. E. Moore raised it in the 1940s; Wittgenstein gave it its name.",
   "enunciado": "‘It is raining, but I do not believe that it is raining.’",
@@ -379,6 +420,7 @@ const PARADOJAS = [
  {
   "id": "prefacio",
   "grupo": "razonar",
+  "nivel": 7,
   "titulo": "The preface paradox",
   "origen": "David Makinson, in the journal <em>Analysis</em> (1965).",
   "enunciado": "An author has carefully checked her book and believes every one of the sentences she has written. But in the preface she writes: ‘There are surely some errors in this book, and I apologise for them’. She believes this too, because all long books contain errors.",
@@ -389,6 +431,7 @@ const PARADOJAS = [
  {
   "id": "infelices",
   "grupo": "ejercicios",
+  "nivel": 3,
   "titulo": "‘Of all the unhappy…’",
   "origen": "A sentence proposed as a class exercise.",
   "enunciado": "‘Of all the unhappy, those who get everything they want are not the ones who get the worst of it.’",
@@ -449,6 +492,7 @@ const PARADOJAS = [
  {
   "id": "apenas",
   "grupo": "ejercicios",
+  "nivel": 6,
   "titulo": "‘Barely any less unhappy…’",
   "origen": "A sentence proposed as a class exercise, following the previous one.",
   "enunciado": "‘Those who get everything they want are barely any less unhappy than those who get little or nothing.’",
@@ -531,6 +575,7 @@ const PARADOJAS = [
  {
   "id": "tanto",
   "grupo": "ejercicios",
+  "nivel": 3,
   "titulo": "‘Both those who get everything and those who get nothing…’",
   "origen": "A sentence proposed as a class exercise, following the previous ones.",
   "enunciado": "‘Both those who get everything and those who get nothing are unhappy.’",
@@ -583,6 +628,7 @@ const PARADOJAS = [
  {
   "id": "monica",
   "grupo": "agustin",
+  "nivel": 3,
   "titulo": "Monica: ‘If she desires good things and has them, she is happy’",
   "origen": "Monica, Augustine’s mother, in <em>On the Happy Life</em> (II, 10). Augustine replies that she has reached ‘the very citadel of philosophy’.",
   "enunciado": "‘If she desires good things and has them, she is happy; but if she desires bad things, even if she has them, she is wretched.’",
@@ -651,6 +697,7 @@ const PARADOJAS = [
  {
   "id": "agustin",
   "grupo": "agustin",
+  "nivel": 3,
   "titulo": "Augustine: ‘Only those who desire what they cannot lose…’",
   "origen": "Paraphrase of Augustine of Hippo, <em>On the Happy Life</em> (386), chapter II: whoever wishes to be happy must secure what always remains and which no fortune can take from them.",
   "enunciado": "‘Only those who desire what they cannot lose can attain happiness.’",
@@ -689,6 +736,7 @@ const PARADOJAS = [
  {
   "id": "agustin2",
   "grupo": "agustin",
+  "nivel": 3,
   "titulo": "Augustine, variant: ‘…which is the end that we all necessarily seek’",
   "origen": "A variant of the previous sentence. The second part is also Augustine’s: in <em>On the Happy Life</em> (II) he takes it for granted that we all want to be happy.",
   "enunciado": "‘Only those who desire and obtain what they cannot lose can attain happiness, which is the end that we all necessarily seek.’",
@@ -800,6 +848,7 @@ const PARADOJAS = [
  {
   "id": "contrafactico",
   "grupo": "ejercicios",
+  "nivel": 3,
   "titulo": "‘…would be happy if they could not stop desiring it’",
   "origen": "A sentence proposed as a class exercise, in dialogue with Monica and Augustine.",
   "enunciado": "‘Those who obtain something they desire and cannot lose would be happy if they could not stop desiring it.’",
@@ -848,5 +897,60 @@ const PARADOJAS = [
    "contTitulo": "Contingent with the arrow, but empty as a counterfactual",
    "contingencia": "<p>With the arrow of the tables, <em>(q ∧ r) → p</em> has eight rows and only one false: it is <strong>contingent</strong>. The row highlighted in green is the one that the subjunctive takes to be real.</p><div class=\"tablewrap\"><table class=\"lg-tabla lg-zonas\"><thead><tr><th>p</th><th>q</th><th>r</th><th>(q ∧ r) → p</th><th>Who it is</th><th>In the diagram</th></tr></thead><tbody><tr><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td>Happy, obtains it and cannot stop desiring it</td><td>r, inside p.</td></tr><tr><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td>Happy, obtains it and can stop desiring it</td><td>p outside r.</td></tr><tr><td class=\"lg-v\">V</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td>Happy person who obtains nothing they cannot lose and cannot stop desiring it</td><td>Outside the frame: the sentence says nothing.</td></tr><tr><td class=\"lg-v\">V</td><td class=\"lg-f\">F</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td>Happy person who obtains nothing they cannot lose and can stop desiring it</td><td>Outside the frame.</td></tr><tr class=\"lg-contra\"><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td class=\"lg-f\">F</td><td>Obtains it, cannot stop desiring it and is not happy</td><td><strong>Not there</strong>: r is inside p. It is the only false row.</td></tr><tr class=\"lg-ok\"><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td>Obtains it, can stop desiring it and is not happy</td><td>The frame outside p, with ✕: the real case that the subjunctive suggests.</td></tr><tr><td class=\"lg-f\">F</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td>Does not obtain it, cannot stop desiring it and is not happy</td><td>Outside the frame.</td></tr><tr><td class=\"lg-f\">F</td><td class=\"lg-f\">F</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td>Does not obtain it, can stop desiring it and is not happy</td><td>Outside the frame.</td></tr></tbody></table></div><ul><li><strong>The trap of the counterfactual.</strong> In the row of the real case, <em>r</em> is false, and with <em>r</em> false the arrow is true whatever happens with <em>p</em>. So, with the table, ‘if they could not stop desiring it, they would be happy’ would be just as true as ‘if they could not stop desiring it, they would be even unhappier’. The table does not distinguish between the two.</li><li>That is why counterfactuals need another tool. The best known is that of possible worlds (Robert Stalnaker, David Lewis): the sentence is true if, in the world most similar to ours in which they could not stop desiring it, they were happy. It is no longer enough to look at truth values: one has to imagine how things would be.</li></ul>"
   }
+ },
+ {
+  "id": "curry",
+  "grupo": "autorref",
+  "nivel": 4,
+  "titulo": "Curry’s paradox: ‘If this sentence is true, the Moon is made of cheese’",
+  "origen": "Haskell B. Curry, ‘The Inconsistency of Certain Formal Logics’, <em>Journal of Symbolic Logic</em> 7 (1942).",
+  "enunciado": "Let C be the sentence ‘If C is true, the Moon is made of cheese’. Suppose C is true. Then, by what C says, if C is true, the Moon is made of cheese; and since C is true, by modus ponens, the Moon is made of cheese. So, assuming C, we reach the conclusion that the Moon is made of cheese: by conditional proof, ‘if C, the Moon is made of cheese’, which is exactly what C says. Therefore C is true, and, by modus ponens once again, the Moon is made of cheese.",
+  "problema": "Every step is a natural deduction rule from level 4 (assumption, modus ponens, conditional proof). No negation is needed, unlike in the Liar, and the conclusion can be anything at all. If the sentence C is legitimate, you can prove whatever you like.",
+  "salidas": "<ul><li>Forbid a sentence from speaking of itself in this way, as in the liar paradox (Tarski: language and metalanguage).</li><li>Reject contraction: some logics do not accept that one and the same assumption be used twice (in the derivation, the assumption C is used once as a premise of the modus ponens and again to draw out what C says, «if C, the Moon is made of cheese»), and so the paradox does not arise.</li><li>Reject modus ponens for that conditional: there are «detachment-free» logics in which, from «if C, then A» and C, A cannot be detached.</li></ul><p>What does not work as a way out: replacing the material conditional with a more demanding one. The paradox arises with any conditional that meets three conditions: identity (C follows from C), modus ponens and contraction.</p>",
+  "pensar": "Do it on the ‘Natural deduction’ workbench: which rule would you use for each step, and which of them would you change so that the paradox did not go through?"
+ },
+ {
+  "id": "cuervos",
+  "grupo": "razonar",
+  "nivel": 6,
+  "titulo": "Hempel’s ravens: does a green apple confirm that ravens are black?",
+  "origen": "Carl G. Hempel, «Studies in the Logic of Confirmation», <em>Mind</em> 54 (1945). The quantitative response: Janina Hosiasson-Lindenbaum, «On Confirmation», <em>Journal of Symbolic Logic</em> 5 (1940), and J. L. Mackie, «The Paradox of Confirmation», <em>British Journal for the Philosophy of Science</em> 13 (1963).",
+  "enunciado": "Every black raven I see confirms ‘All ravens are black’ a little. That sentence is equivalent to ‘Everything that is not black is not a raven’ (contraposition). And every non-black thing that is not a raven, such as a green apple, confirms this second sentence. Therefore, without leaving home, a green apple confirms that all ravens are black.",
+  "problema": "Both steps seem correct: instances confirm generalisations, and whatever confirms a sentence also confirms the sentences equivalent to it. But the conclusion seems absurd.",
+  "salidas": "<ul><li>Hempel accepted the conclusion: the apple does confirm. For him the strangeness is psychological, not logical: it seems odd to us because we already know beforehand that the apple is not a raven, and that background knowledge is not part of the data.</li><li>The Bayesian or quantitative response (Janina Hosiasson-Lindenbaum, 1940; J. L. Mackie, 1963): the apple confirms, but very slightly, and a black raven considerably more, because there are vastly more non-black things than ravens. The degree of confirmation depends on how many things of each kind there are.</li><li>Others say that the problem lies in the idea of «confirming by instances», not in the logic of contraposition, which is impeccable (that of statements, level 4; that of a universal, level 6).</li></ul>",
+  "pensar": "Look at the ‘Induction and abduction’ workbench: why is a generalisation stronger with varied instances than with many identical ones?"
+ },
+ {
+  "id": "newcomb",
+  "grupo": "razonar",
+  "nivel": 7,
+  "titulo": "Newcomb’s paradox: one box or both?",
+  "origen": "Devised by the physicist William Newcomb; published by Robert Nozick, ‘Newcomb’s Problem and Two Principles of Choice’ (1969).",
+  "enunciado": "There are two boxes. The transparent one contains 1,000 euros. The opaque one contains a million or nothing. You can take only the opaque box or both. Yesterday, a predictor who is almost never wrong put the million in the opaque box only if they predicted that you would take that box alone. What do you do?",
+  "problema": "Two flawless pieces of reasoning clash. One: whoever takes one box almost always walks away with a million, and whoever takes two, with a thousand euros; so, one. The other: the money is either already there or not; whatever you take, you do not change that, and with both you always have a thousand euros more; so, both.",
+  "salidas": "<ul><li>‘Causal’ decision theory chooses two boxes: what you do now does not cause what happened yesterday.</li><li>‘Evidential’ theory chooses one: your choice is the best sign of what the predictor predicted.</li><li>Others doubt that such a predictor is possible without the choice ceasing to be free. The debate is still open.</li></ul>",
+  "pensar": "Write out both pieces of reasoning as arguments with numbered premises: which premise is it that separates them?"
+ },
+ {
+  "id": "estoicos",
+  "grupo": "historia",
+  "nivel": 4,
+  "titulo": "Stoic logic: Chrysippus’s five indemonstrables",
+  "origen": "Chrysippus of Soli (c. 280-206 BC), according to Sextus Empiricus, <em>Against the Mathematicians</em> VIII 223-227, and Diogenes Laertius, <em>Lives</em> VII 79-81. The discussion of the conditional, in Sextus Empiricus, <em>Against the Mathematicians</em> VIII 112-117; Chrysippus' criterion, in Diogenes Laertius, VII 73; Callimachus' crows, in Sextus Empiricus, <em>Against the Mathematicians</em> I 309-310.",
+  "enunciado": "While Aristotle reasoned with terms (‘every man is mortal’), the Stoics reasoned with whole propositions, joined by ‘if’, ‘and’ and ‘or’. Chrysippus laid down five forms at the base that need no proof, the ‘indemonstrables’, and showed that the others can be reduced to them. His examples speak of day and light: ‘If it is day, it is light; it is day; therefore it is light’.",
+  "problema": "<ul><li>1st: if the first, the second; the first; therefore the second. This is <strong>modus ponens</strong>.</li><li>2nd: if the first, the second; not the second; therefore not the first. This is <strong>modus tollens</strong>.</li><li>3rd: not (the first and the second); the first; therefore not the second. This is exercise 10 on the ‘Natural deduction’ workbench.</li><li>4th: either the first or the second; the first; therefore not the second. Careful: it is valid because the Stoic ‘or’ is <strong>exclusive</strong>; with today’s inclusive ‘or’ it is the fallacy of affirming a disjunct.</li><li>5th: either the first or the second; not the first; therefore the second. This is the <strong>disjunctive syllogism</strong>.</li></ul>",
+  "salidas": "<p>The Stoics also debated when a conditional is true, so much so that the poet Callimachus joked that even the crows on the rooftops were cawing about it. Philo of Megara said that it is false only when the antecedent is true and the consequent false: this is the material conditional of the truth tables of level 3. Diodorus Cronus asked for more: that it could never have been, and could never be, the case that the antecedent is true and the consequent false. Chrysippus demanded a connection: that the contradictory of the consequent, that is, its negation (ἀντικείμενον, <em>antikeímenon</em>), clash with the antecedent.</p><p>What it does not say: the Stoics did not use letters, but «the first» and «the second», and had no truth tables; most of their logic was lost and was reconstructed in the 20th century.</p>",
+  "pensar": "Which of the three ideas of the conditional (Philo, Diodorus, Chrysippus) is closest to the ‘if’ we use when we speak? Try it with ‘if the Moon is made of cheese, 2 + 2 = 4’."
+ },
+ {
+  "id": "medievales",
+  "grupo": "historia",
+  "nivel": 6,
+  "titulo": "Medieval logic: supposition, consequences and obligations",
+  "origen": "William of Ockham, <em>Summa logicae</em> (c. 1323), I 63-64 (supposition) and II 32-33 (the contradictory of a conjunction and of a disjunction); John Buridan, <em>Treatise on Consequences</em> (c. 1335); Walter Burley, <em>De obligationibus</em> (c. 1302).",
+  "enunciado": "In the medieval universities, logic was at the centre of studies. The logicians of the 13th and 14th centuries, without symbols and in Latin, arrived at ideas that are now written with formulas: what thing a term refers to within a sentence, when one sentence follows from another and how to stay consistent in a debate.",
+  "problema": "<ul><li><strong>Supposition:</strong> in «man runs», «man» stands for particular men (personal supposition); in «man is a species», for the species (simple); in “«man» has two syllables”, for the word (material). This is what variables, quantifiers and quotation marks do today.</li><li><strong>Consequences:</strong> a consequence is good if it is impossible for the antecedent to be true and the consequent false. Buridan criticises that definition: for him only token-sentences, those that someone actually forms, are true or false, and by it «No sentence is negative; therefore no donkey runs» would come out good, because the antecedent cannot be true (on forming it, there is already a negative sentence); and it is not good. He reformulates it with those sentences in mind: it is good if it is impossible for things to be as the antecedent says without being as the consequent says, when both are formed at the same time. They distinguished formal consequences, which hold by virtue of form, from material ones: it is the idea of validity of level 1.</li><li><strong>Obligations:</strong> a game between an opponent and a respondent. A sentence, normally a false one, is accepted at the start (the <em>positio</em>), and from then on the respondent must grant what follows and deny what clashes, without ever contradicting himself. It is like the search for countermodels at the «Spinoza» workbench.</li></ul>",
+  "salidas": "<p>Ockham stated in words the laws that we now call De Morgan's laws, five centuries before De Morgan (<em>Summa logicae</em> II 32-33: the contradictory of a conjunction is the disjunction of the contradictories of its parts, and vice versa). Buridan gave his name to the paradox of the ass (which, incidentally, does not appear in his works).</p><p>What it does not say: these authors did not have a predicate logic with ∀ and ∃ like Frege's; their theory of supposition solved some of those problems by other means, and modern logic forgot it for centuries.</p>",
+  "pensar": "In ‘Every man loves some woman’, which women does ‘woman’ refer to: a single one for all of them, or a different one for each? Compare it with ∀x ∃y and ∃y ∀x (level 6)."
  }
 ];

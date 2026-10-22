@@ -7,6 +7,8 @@ const LAB = {
   "mesaMundo": "World of shapes",
   "mesaRelaciones": "Relations",
   "mesaDemos": "Guided proofs",
+  "mesaDeduccion": "Natural deduction",
+  "mesaInduccion": "Induction and abduction",
   "mesaSpinoza": "Spinoza (in development)",
   "intro": "Tables for doing logic with your hands: decipher an unknown connective, grow truth trees, build worlds where sentences are true, draw relations and follow famous proofs step by step.",
   "verdadera": "true",
