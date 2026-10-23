@@ -153,6 +153,7 @@ const LABSPZ = {
   "gNombre": "It is called ‘Possible worlds’ because that is what it looks for: a possible world in which all your premises are true and the claim is false. If there is none, the claim follows. The idea comes from Leibniz and is that of modal logic.",
   "tEjemplo": "An example world",
   "ejemploTxt": "In this world all your premises hold, and so does the claim. That is no accident: it happens in every possible world that satisfies those premises, and that is what it means for it to follow.",
+  "verIsabelle": "See the proof in Isabelle",
   "gElige": "Choose a theory",
   "gNRetos": "{n} challenges",
   "gEmpieza": "to get started",
@@ -1948,6 +1949,93 @@ const LABSPZ = {
     "pregunta": "Everything in the world may have its condition, nothing outside may condition it, and <b>nothing may be necessary</b>.",
     "nota": "This is Cleanthes’ objection in D. Hume’s <em>Dialogues concerning Natural Religion</em> (1779, part IX): if every member of an eternal chain has its explanation, asking in addition for the cause of the whole is one question too many. It is enough to let go of the thesis’s premise, ‘the series of conditions is complete’. Isabelle builds that world with the integers (modelo_antitesis4). An open debate, without a verdict.",
     "notaNo": "With the series complete it cannot happen: something in the world would be unconditioned (salida4_con_serie_completa)."
+   }
+  ]
+ },
+ "isabelleWeb": {
+  "titulo": "What is Isabelle? Proofs, from the inside",
+  "parrafos": [
+   "Isabelle/HOL is a computer program that checks proofs step by step: if it accepts a proof, the proof has no logical flaws. Every premise on this table is a definition in Isabelle, and every claim the table presents as proved is a theorem with its proof, which Isabelle has accepted without a single error.",
+   "Here you can see those proofs as they were written. Next to each result on the table, the link ‘See the proof in Isabelle’ takes you to the exact theorem."
+  ],
+  "pdf": "Download the Isabelle notebook (PDF, 79 pages)",
+  "tTeorias": "The 15 theories, with their 298 results",
+  "nota": "The proofs are written in the Isabelle language, with the comments in Spanish. All of them were checked with Isabelle2025-2.",
+  "teorias": [
+   {
+    "f": "Mundo_tiempo_creacion",
+    "t": "Practice: time, duration and creation",
+    "d": "Beginning earlier, lasting longer and creating, with their premises."
+   },
+   {
+    "f": "Mundo_tiempo_definido",
+    "t": "Time, defined",
+    "d": "With instants: beginning, ending, lasting and surviving, defined."
+   },
+   {
+    "f": "Propiedades_relaciones",
+    "t": "Properties of relations",
+    "d": "Which property of a relation follows from which, and which do not."
+   },
+   {
+    "f": "Etica_proposicional",
+    "t": "The Ethics in propositional logic",
+    "d": "With only negation, disjunction and conjunction."
+   },
+   {
+    "f": "Etica_nand",
+    "t": "The Ethics with a single connective",
+    "d": "Everything with NAND, the Sheffer stroke."
+   },
+   {
+    "f": "Spinoza_Etica_I",
+    "t": "Spinoza, Ethics I",
+    "d": "Part I of the Ethics, with every premise in view."
+   },
+   {
+    "f": "Spinoza_Etica_I_piloto",
+    "t": "Spinoza: only with what he cites",
+    "d": "Each proposition, with only the premises that Spinoza cites."
+   },
+   {
+    "f": "Spinoza_identidad_minimal",
+    "t": "Spinoza: the minimal core",
+    "d": "A minimal version, in Spinoza’s order."
+   },
+   {
+    "f": "Spinoza_diagnostico_quatenus",
+    "t": "Spinoza: diagnosis of ‘in so far as’",
+    "d": "Which premise prevents a body and its idea from being the same thing."
+   },
+   {
+    "f": "Spinoza_redundancia",
+    "t": "Spinoza: surplus premises",
+    "d": "We check whether they really are surplus."
+   },
+   {
+    "f": "Cinco_vias",
+    "t": "The Five Ways",
+    "d": "Thomas Aquinas, way by way, with their premises."
+   },
+   {
+    "f": "Antinomias_matematicas",
+    "t": "Kant’s antinomies: the beginning and the simple",
+    "d": "Thesis, antithesis, the clash and the ways out."
+   },
+   {
+    "f": "Antinomias_dinamicas",
+    "t": "Kant’s antinomies: freedom and the necessary being",
+    "d": "Thesis, antithesis, the clash and the ways out."
+   },
+   {
+    "f": "Parmenides_herederos",
+    "t": "From being to the cosmos: Parmenides and his heirs",
+    "d": "The one, the unmoving, the atomists, Melissus and Zeno."
+   },
+   {
+    "f": "Timeo_demiurgo",
+    "t": "From being to the cosmos: the Demiurge",
+    "d": "The Timaeus: the maker, the model and time."
    }
   ]
  },
