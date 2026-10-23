@@ -471,6 +471,14 @@ const LOG_ITIN = {
      "h": "#logica/spinoza"
     },
     {
+     "t": "Laboratory, ‘Spinoza’, world ‘Kant’s antinomies’: thesis, antithesis, Kant’s way out and others",
+     "h": "#logica/spinoza"
+    },
+    {
+     "t": "Laboratory, ‘Spinoza’, world ‘From being to the cosmos’: Parmenides, his heirs and the Demiurge",
+     "h": "#logica/spinoza"
+    },
+    {
      "t": "The Five Ways and where they come from",
      "h": "#teoria/hf-cinco-vias"
     }

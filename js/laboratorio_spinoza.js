@@ -95,6 +95,83 @@ const LABSPZ = {
   "mundoTiempo": "Practice: time, duration and creation",
   "mundoSpinoza": "Spinoza, Ethics I",
   "mundoReloj": "Time, defined",
+  "mundoAnt": "Kant’s antinomies",
+  "ledeAnt": "In the Critique of Pure Reason (A426-461 / B454-489) Kant showed that reason, when it thinks the world as a whole, contradicts itself: on the beginning of the world, the simple, freedom and the necessary being, it can prove the thesis and the antithesis alike. Here each proof is separated into its premises: each is demonstrated from its own, and what clashes are the premises (tick them together and you will see it). Then come the ways out: Kant’s (in the first two, thesis and antithesis can both be false; in the last two, both true) and another that Kant did not take, letting go of the thesis’s premise. At the end, the debate over Kant’s own premises.",
+  "notaDefsAnt": "The table captures the logical skeleton of the antinomies, not Kant’s transcendental idealism. ‘The series is complete’ is read here as ‘there is no infinite regress’, just as in the Five Ways: it is an interpretation. And because the table looks only for finite worlds, endless regress and endless division show up as circles; infinite worlds are built by Isabelle.",
+  "defsAnt": "Definitions",
+  "grupoA1": "1st: The beginning of the world",
+  "grupoA2": "2nd: The simple",
+  "grupoA3": "3rd: Freedom",
+  "grupoA4": "4th: The necessary being",
+  "notaPieA": "The table searches for worlds of up to 4 things and 4 instants. ‘Proved in Isabelle’ means that Isabelle/HOL checked the proof from those premises (theories Antinomias_matematicas and Antinomias_dinamicas). If no world is found in which the proposition fails, that proves nothing.",
+  "notaSinA": "In a finite world there is always a first instant, a first cause and a last part. That is why the world without a beginning, endless regress and endless division do not fit on the table: Isabelle builds them with the integers and the natural numbers (modelo_antitesis1, modelo_antitesis2, modelo_antitesis3).",
+  "choqueIsa": "Isabelle proves that these premises clash in any world, infinite ones included ({t}).",
+  "mundoCosmos": "From being to the cosmos",
+  "ledeCosmos": "Parmenides reasons from very few premises: what is, is, and not-being is not. From this he concludes that being neither comes to be nor changes, and that it is one. Here the proof is broken down into its premises, so you can see which one does the work. Then come his heirs, each of whom drops a different premise: the atomists admit the void; Melissus, without dropping anything, takes a step that does not hold; and Plato, in the Timaeus, splits the problem into two planes, what always is and what becomes, and posits a maker, the Demiurge.",
+  "notaDefsCosmos": "Here there are things and instants. ‘Is’ is read as ‘there is’: <code>ExisteEn(x, t)</code>, x is at instant t. <code>Claro(x, t)</code> stands for any quality that can change, such as the bright colour of fragment B8. The relations of the <em>Timaeus</em> say nothing about time, except the one about beginning.",
+  "defsCosmos": "Definitions",
+  "grupoC1": "Parmenides: being",
+  "grupoC2": "The atomists: the void",
+  "grupoC3": "Melissus: the ungenerated",
+  "grupoC4": "The Demiurge of the Timaeus",
+  "notaPieC": "Worlds of up to 4 things and 3 instants are searched. ‘Proved in Isabelle’ means that Isabelle/HOL checked the proof from those premises (theories Parmenides_herederos and Timeo_demiurgo). If no world is found in which the proposition fails, that proves nothing.",
+  "clSiempre": "always is",
+  "clVacio": "void",
+  "lyHace": "makes",
+  "lyCopia": "is a copy of",
+  "lyDobleC": "double circle: what always is, or the void",
+  "eDeviene": "becomes",
+  "eVisible": "visible",
+  "eBello": "beautiful",
+  "eBueno": "good",
+  "eGenerado": "generated",
+  "ePrincipio": "with a beginning",
+  "eClaro": "clear at {x}",
+  "eNuncaClaro": "is never clear",
+  "hClaro": "When each thing is clear",
+  "hVacio": "The void",
+  "hMeliso": "Generation and beginning",
+  "hDemiurgo": "The Demiurge",
+  "fClaroV": "Instants at which {a} is clear: {x}",
+  "fVacio": "{a} is void",
+  "fGenerado": "{a} is generated",
+  "fPrincipio": "{a} has a beginning",
+  "fCopia": "{a} is a copy of {b}",
+  "fCopiaSi": "{a} is a copy of itself",
+  "fSiempre": "{a} always is",
+  "fDeviene": "{a} becomes",
+  "fVisible": "{a} is visible",
+  "fBello": "{a} is beautiful",
+  "fBueno": "{a} is good",
+  "infinitoTxt": "It can happen, but only in an infinite world: the table, which looks for worlds of up to four things, cannot build it. Isabelle can ({t}).",
+  "lyCausaInt": "is the intelligible cause of",
+  "lyCond": "is a condition of",
+  "lyFund": "is the intelligible ground of",
+  "lyDobleA": "double circle: free, unconditioned or simple",
+  "clLibre": "free",
+  "clIncond": "unconditioned",
+  "clSimple": "simple",
+  "eFen": "appearance",
+  "eEnMundo": "in the world",
+  "eEspacio": "in space",
+  "hTiempoMundo": "When the world exists",
+  "fMundoEn": "The world exists at the instants {x}",
+  "fMundoNunca": "The world exists at no instant",
+  "hPartes": "Parts",
+  "hCondiciones": "Conditions",
+  "fParteSi": "{a} is a part of itself",
+  "fCausaInt": "{a} is the intelligible cause of {b}",
+  "fCausaIntSi": "{a} is the intelligible cause of itself",
+  "fCond": "{a} is a condition of {b}",
+  "fCondSi": "{a} is a condition of itself",
+  "fFund": "{a} is the intelligible ground of {b}",
+  "fFundSi": "{a} is the ground of itself",
+  "fFen": "{a} is an appearance",
+  "fEnMundo": "{a} is in the world",
+  "fEspacio": "{a} occupies a space",
+  "tamTiempo": "There is a timeline of {k} that satisfies all the ticked premises and on which the proposition fails.",
+  "dibujoAriaT": "The timeline: the instants at which the world exists are coloured.",
+  "ejeMundo": "instants (coloured when the world exists)",
   "chocan": "These premises clash with one another: {x}. Remove one of them and try again: another group may also clash.",
   "chocanTodas": "They all clash at once: if you remove any one of them, the rest fit together.",
   "chocanFijas": "They clash with what is fixed in this world, even if you tick no premise.",
@@ -986,6 +1063,58 @@ const LABSPZ = {
     "{1} exists at instant {2}",
     "{1} does not exist at instant {2}"
    ],
+   "Claro": [
+    "{1} is clear at instant {2}",
+    "{1} is not clear at instant {2}"
+   ],
+   "Vacio": [
+    "{1} is void",
+    "{1} is not void"
+   ],
+   "Generado": [
+    "{1} is generated",
+    "{1} is not generated"
+   ],
+   "Principio": [
+    "{1} has a beginning",
+    "{1} has no beginning"
+   ],
+   "Siempre": [
+    "{1} is among what always is",
+    "{1} is not among what always is"
+   ],
+   "Deviene": [
+    "{1} becomes",
+    "{1} does not become"
+   ],
+   "Visible": [
+    "{1} is visible and tangible",
+    "{1} is not visible"
+   ],
+   "Bello": [
+    "{1} is beautiful",
+    "{1} is not beautiful"
+   ],
+   "Bueno": [
+    "{1} is good",
+    "{1} is not good"
+   ],
+   "Copia": [
+    "{1} is a copy of {2}",
+    "{1} is not a copy of {2}"
+   ],
+   "cambia": [
+    "{1} changes",
+    "{1} does not change"
+   ],
+   "siempreEs": [
+    "{1} always is",
+    "{1} is not what always is"
+   ],
+   "comienza": [
+    "{1} begins",
+    "{1} does not begin"
+   ],
    "Antes": [
     "{1} began before {2}",
     "{1} did not begin before {2}"
@@ -997,6 +1126,50 @@ const LABSPZ = {
    "Crea": [
     "{1} created {2}",
     "{1} did not create {2}"
+   ],
+   "Mundo": [
+    "the world exists at instant {1}",
+    "the world does not exist at instant {1}"
+   ],
+   "Parte": [
+    "{1} is part of {2}",
+    "{1} is not part of {2}"
+   ],
+   "EnEspacio": [
+    "{1} occupies a space",
+    "{1} does not occupy a space"
+   ],
+   "Fen": [
+    "{1} is an appearance",
+    "{1} is not an appearance"
+   ],
+   "CausaInt": [
+    "{1} is the intelligible cause of {2}",
+    "{1} is not the intelligible cause of {2}"
+   ],
+   "Cond": [
+    "{1} is a condition of {2}",
+    "{1} is not a condition of {2}"
+   ],
+   "EnMundo": [
+    "{1} is in the world",
+    "{1} is not in the world"
+   ],
+   "Fund": [
+    "{1} is the intelligible ground of {2}",
+    "{1} is not the intelligible ground of {2}"
+   ],
+   "incondicionado": [
+    "{1} is unconditioned",
+    "{1} is not unconditioned"
+   ],
+   "simple": [
+    "{1} is simple",
+    "{1} is not simple"
+   ],
+   "compuesto": [
+    "{1} is composite",
+    "{1} is not composite"
    ],
    "Mueve": [
     "{1} moves {2}",
@@ -1241,10 +1414,12 @@ const LABSPZ = {
     ]
    },
    {
-    "titulo": "Why there are four worlds",
+    "titulo": "Why there are six worlds",
     "parrafos": [
      "The practice world is small on purpose: three relations that anyone can understand, so as to get the knack, although it leaves unsaid what time is. The defined-time world says it: with instants, beginning earlier, lasting longer and outliving are defined, and what were premises become theorems. Spinoza’s world formalises Part I of the <em>Ethics</em>. There, the premises beginning with H_ are those that Spinoza treats as obvious and does not write down: we have had to add them to make his proofs work. If any of them strikes you as false, remove it and see what stops following.",
-     "The Five Ways world separates the arguments of Thomas Aquinas into their premises. In almost every way, the conclusion follows at once from one premise: the one that forbids infinite regress, the step from «everything can fail to be» to «at some time there was nothing», or the one that says that what lacks knowledge tends towards an end only if someone directs it. That is where the dispute lies."
+     "The Five Ways world separates the arguments of Thomas Aquinas into their premises. In almost every way, the conclusion follows at once from one premise: the one that forbids infinite regress, the step from «everything can fail to be» to «at some time there was nothing», or the one that says that what lacks knowledge tends towards an end only if someone directs it. That is where the dispute lies.",
+     "The world of Kant’s antinomies takes the four contradictions of reason when it thinks the world as a whole: the beginning, the simple, freedom and the necessary being. Each thesis and each antithesis is proved from its own premise, and what clashes are the premises. Kant proposes two ways out: in the first two, both sides can be false; in the last two, both true. There are others: letting go of the thesis’s premise or, with Hegel, seeing no error in the contradiction. The table checks this with small worlds, and Isabelle with infinite ones.",
+     "The world of Parmenides and his heirs, ‘From being to the cosmos’, follows a single idea: faced with the same argument, each school drops a different premise. The leap from ‘not being clear’ to ‘not being’ yields both the one and the unmoving; the atomists drop ‘the void is not’; Melissus takes a step that does not hold; and Plato, in the <em>Timaeus</em>, splits the problem into two planes and posits a maker, the Demiurge."
     ]
    }
   ],
@@ -1301,8 +1476,781 @@ const LABSPZ = {
    "Move on to the world “Time, defined”, propositions 5 and 6. How do outliving and lasting longer differ? Look at the bars. Then 7: why is outliving not enough for lasting longer?",
    "At the end of the drop-down, «✎ Write your own proposition». Write «whoever creates something is uncreated» in logic and see whether it follows. If not, which premise of yours would be needed? Add it under «Your premises».",
    "In «The Five Ways», proposition 1. It comes with only «something moves» and a countermodel appears: what fails? Tick «there is no infinite regress» and try again. Then proposition 5: where does the step «if everything can fail to be, at some time nothing was» go wrong?",
+   "In ‘From being to the cosmos’, proposition 2: which premise does all the work? Remove it and try 3. Then 6, as it stands: why does what Melissus says not follow?",
+   "In ‘Kant’s antinomies’, proposition 8. Then tick ‘The series of causes is complete’ and ‘The law of nature’ together: what does the table tell you? Finish with 10: how can both stand?",
    "Switch to Spinoza’s world, proposition 5. With the premise that is ticked, a countermodel appears: Leibniz’s. Which premise is missing, and what does it say?",
    "Proposition 14. Remove, one by one, the premises that Isabelle used. Which strikes you as the most debatable?"
+  ]
+ },
+ "antinomias": {
+  "defs": [
+   {
+    "id": "libre",
+    "origen": "Third antinomy",
+    "texto": "x is free, in the cosmological sense: it begins a series of itself; no earlier state determines it."
+   },
+   {
+    "id": "incondicionado",
+    "origen": "Fourth antinomy",
+    "texto": "x is unconditioned, absolutely necessary: its existence depends on no condition."
+   },
+   {
+    "id": "simple",
+    "origen": "Second antinomy",
+    "texto": "x is simple: it has no parts."
+   },
+   {
+    "id": "compuesto",
+    "origen": "Second antinomy",
+    "texto": "x is composite: it has some part."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "a1",
+    "nom": "1st: The beginning of the world"
+   },
+   {
+    "id": "a2",
+    "nom": "2nd: The simple"
+   },
+   {
+    "id": "a3",
+    "nom": "3rd: Freedom"
+   },
+   {
+    "id": "a4",
+    "nom": "4th: The necessary being"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "T1_sintesis_completa",
+    "grupo": "a1",
+    "que": "The series of the world’s past states is complete: there is no infinite regress backwards. This is how the table reads Kant’s phrase ‘an infinite series cannot be completed by successive synthesis’. In a finite world, like those of the table, it always holds."
+   },
+   {
+    "id": "A1_tiempo_sin_principio",
+    "grupo": "a1",
+    "que": "Time has no first instant: before every instant there is another. It fits only in an infinite world, which the table cannot build."
+   },
+   {
+    "id": "A1_tiempo_vacio_homogeneo",
+    "grupo": "a1",
+    "que": "Empty time is homogeneous: if the world exists at one instant and before that there was nothing, nothing distinguishes that instant from an earlier empty one, so the world would have to exist at it too."
+   },
+   {
+    "id": "M1_hay_mundo",
+    "grupo": "a1",
+    "que": "The world exists at some instant: it is a whole given in time."
+   },
+   {
+    "id": "T2_division_acaba",
+    "grupo": "a2",
+    "que": "Division comes to an end: there are no parts of parts without end. This is how the table reads Kant: composition is only a relation between substances, and if it were removed, something would have to remain."
+   },
+   {
+    "id": "M_transitiva",
+    "grupo": "a2",
+    "que": "A part of a part is a part of the whole."
+   },
+   {
+    "id": "M_irreflexiva",
+    "grupo": "a2",
+    "que": "Nothing is a proper part of itself."
+   },
+   {
+    "id": "A2_espacio_divisible",
+    "grupo": "a2",
+    "que": "What occupies a space has parts that also occupy a space: space consists not of points but of spaces."
+   },
+   {
+    "id": "M2_hay_espacio",
+    "grupo": "a2",
+    "que": "Something occupies a space."
+   },
+   {
+    "id": "T3_serie_completa",
+    "grupo": "a3",
+    "que": "The series of the causes of what happens is complete: there is no infinite regress."
+   },
+   {
+    "id": "A3_ley_natural",
+    "grupo": "a3",
+    "que": "The law of nature: everything that happens has an earlier state that determines it."
+   },
+   {
+    "id": "S3_ley_de_los_fenomenos",
+    "grupo": "a3",
+    "que": "The law of nature holds of appearances: every appearance has a natural cause that is also an appearance."
+   },
+   {
+    "id": "T4_serie_completa",
+    "grupo": "a4",
+    "que": "The series of the conditions of existence is complete: there is no infinite regress."
+   },
+   {
+    "id": "T4_condicion_en_el_tiempo",
+    "grupo": "a4",
+    "que": "What conditions something that is in time is also in time, in the world. Both thesis and antithesis use it."
+   },
+   {
+    "id": "A4_ley_dinamica",
+    "grupo": "a4",
+    "que": "The dynamical law: everything in the world has a condition."
+   },
+   {
+    "id": "M4_hay_mundo",
+    "grupo": "a4",
+    "que": "There is a world: something exists in it."
+   },
+   {
+    "id": "S4_ley_en_el_mundo",
+    "grupo": "a4",
+    "que": "Within the world, every thing has a condition that is also in the world."
+   }
+  ],
+  "debate": {
+   "titulo": "What if the problem is Kant’s premises?",
+   "parrafos": [
+    "Logic does not decide whether thesis and antithesis are contradictories or contraries: that depends on a prior premise, whether ‘the world’ is a given whole. Kant settles it with his own philosophy, and that opens up several objections. No verdict is given here.",
+    "<b>A circle?</b> Kant presents the antinomies as an indirect proof of his transcendental idealism: if the world were a thing in itself, reason would contradict itself (A506-507 / B534-535). But his way out already assumes that space and time are forms of our sensibility, and that is why the world is never given entire. If the antinomies dissolve thanks to idealism, can they also be an independent proof of it? H. E. Allison, in <em>Kant’s Transcendental Idealism</em> (1983), replies that a weaker premise is enough: the realist supposes that the world is a whole given in itself, and that supposition alone leads to the contradiction.",
+    "<b>Why let go of that premise and not another?</b> Each clash rests on several premises, and the table lets you remove any of them. Kant lets go of the given world. Whoever lets go of the thesis’s premise, ‘the series is complete’, keeps the antithesis without an antinomy: these are propositions 4b, 7b, 10b and 14b, which Isabelle builds with the integers and the natural numbers. Schopenhauer, Cantor and Russell saw it so, for different reasons.",
+    "<b>What if the contradiction is not an error?</b> G. W. F. Hegel, in the <em>Encyclopaedia of the Philosophical Sciences</em> (§ 48), reproaches Kant with too much tenderness towards the world: he removes the contradiction from it in order to load it onto reason. For Hegel, the contradiction lies in things themselves, and there are not four antinomies: they appear in every concept. The classical logic of the table does not admit that way out: in it, anything follows from a contradiction.",
+    "Something to think about: on the table, which premise seems easiest to let go of in each antinomy? Is it the same one in all four?"
+   ],
+   "tAntes": "Before Kant",
+   "antes": [
+    "Zeno of Elea (5th century BC): the paradoxes of motion and of endless division, as Aristotle reports them in the <em>Physics</em> (book VI).",
+    "Sextus Empiricus (2nd century), <em>Outlines of Pyrrhonism</em>: to set against every argument another of equal force (<em>isosthéneia</em>) and to suspend judgement (<em>epokhḗ</em>).",
+    "Maimonides, <em>The Guide for the Perplexed</em> (II, 15-25), and Thomas Aquinas, <em>Summa theologiae</em> (I, q. 46, a. 2) and <em>On the Eternity of the World</em>: neither the beginning of the world nor its eternity can be demonstrated. Kant will say something stronger: that both are demonstrated.",
+    "P. Bayle, <em>Historical and Critical Dictionary</em> (1697), article ‘Zeno of Elea’: extension cannot consist of points, or of extended atoms, or of parts divisible without end. It is almost the second antinomy, but Bayle concludes that one must fall back on faith.",
+    "G. W. Leibniz and S. Clarke, <em>Correspondence</em> (1715-1716): the beginning of the world, absolute space and freedom. S. M. Al-Azm, in <em>The Origins of Kant’s Arguments in the Antinomies</em> (1972), maintains that Kant took a good part of his proofs from there."
+   ]
+  },
+  "props": [
+   {
+    "id": "K1T",
+    "parte": 1,
+    "nombre": "1. The world has a beginning (thesis)",
+    "cita": "The world has a beginning in time, and is also enclosed within limits in space. (A426 / B454)",
+    "pregunta": "The world has a <b>beginning</b> in time: there is an instant at which it exists and before which it did not exist.",
+    "pasos": [
+     {
+      "txt": "Suppose the world has no beginning: before every state of the world there was another.",
+      "k": "hip"
+     },
+     {
+      "txt": "Then an infinite series of states would have elapsed up to now, and an infinite series cannot have been completed.",
+      "k": "T1_sintesis_completa"
+     },
+     {
+      "txt": "But the world exists. Clash.",
+      "k": "M1_hay_mundo"
+     },
+     {
+      "txt": "So it has a beginning. Isabelle proves it (tesis1), with the complete synthesis read as ‘no infinite regress’.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T1_sintesis_completa": "Without it, the world may have no beginning, but only in an infinite world, like the integers: the table cannot build it (modelo_antitesis1). In a finite world there is always a first instant.",
+     "M1_hay_mundo": "Without it, there may be no world, and then no beginning either."
+    }
+   },
+   {
+    "id": "K1A",
+    "parte": 1,
+    "nombre": "2. The world has no beginning (antithesis)",
+    "cita": "The world has no beginning and no limits in space, but is infinite in both time and space. (A427 / B455)",
+    "pregunta": "The world has <b>no beginning</b> in time.",
+    "pasos": [
+     {
+      "txt": "Suppose the world begins at an instant.",
+      "k": "hip"
+     },
+     {
+      "txt": "Before that instant there was another: an empty time.",
+      "k": "A1_tiempo_sin_principio"
+     },
+     {
+      "txt": "But in empty time no instant is distinguishable from another: if the world began at this one, it would have to exist at the earlier one too. Clash.",
+      "k": "A1_tiempo_vacio_homogeneo"
+     },
+     {
+      "txt": "So the world does not begin. Isabelle proves it (antitesis1).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "A1_tiempo_sin_principio": "Without it, time may have a first instant, and the world begin at it with no empty time before.",
+     "A1_tiempo_vacio_homogeneo": "Without it, the world may begin at any instant whatever, after an empty time."
+    }
+   },
+   {
+    "id": "K1D",
+    "parte": 1,
+    "nombre": "3. If the world is given, it either begins or it does not",
+    "pregunta": "If the world exists as a whole in time, it either <b>has a beginning</b> or <b>has none</b>.",
+    "prueba": "With the world given, ‘has a beginning’ and ‘has no beginning’ are contradictories: one of the two is true and the other false. That is why Kant can prove each by refuting the other: all his proofs are by reductio ad absurdum."
+   },
+   {
+    "id": "K1S",
+    "parte": 1,
+    "posible": true,
+    "nombre": "4. Without the world given, both fall (Kant’s way out)",
+    "pregunta": "The world may <b>neither have a beginning nor fail to have one</b>.",
+    "nota": "It happens if the world is not a whole given in time. This is the way out that Kant proposes for the mathematical antinomies (A501-507 / B529-535): thesis and antithesis are not contradictories but contraries, like ‘every body smells good’ and ‘every body smells bad’, which are both false if bodies have no smell. For Kant, the world is not a thing in itself but a regress of experiences that is never given entire. The table shows only the logical form: without the presupposition, neither of the two holds.",
+    "notaNo": "With the world given it cannot happen: that is proposition 3."
+   },
+   {
+    "id": "K1C",
+    "parte": 1,
+    "posible": true,
+    "nombre": "4b. Another way out: a past without a beginning",
+    "pregunta": "The world may exist and <b>have no beginning</b>: before every state there was another, without end.",
+    "nota": "This is a way out that Kant did not take: letting go of the thesis’s premise, ‘an infinite series cannot have been completed’. With G. Cantor’s actual infinite, an infinite past that has already elapsed involves no contradiction, and the antithesis is left without a rival. B. Russell, in <em>Our Knowledge of the External World</em> (1914, lecture VI), maintained that the proofs of the theses rest on a mistake about the infinite. Isabelle builds that world with the integers (modelo_antitesis1). Which premise must be let go, the thesis’s or the given world’s, is no longer something logic decides.",
+    "notaNo": "With the thesis’s premise it cannot happen: that is proposition 1."
+   },
+   {
+    "id": "K2T",
+    "parte": 2,
+    "nombre": "5. Every composite consists of simple parts (thesis)",
+    "cita": "Every composite substance in the world consists of simple parts, and nothing exists anywhere except the simple or what is composed of it. (A434 / B462)",
+    "pregunta": "Every composite has some <b>simple part</b>.",
+    "pasos": [
+     {
+      "txt": "Suppose a composite with no simple part: each of its parts has another part, and that one another, without end.",
+      "k": "hip"
+     },
+     {
+      "txt": "But division comes to an end: composition is only a relation between substances, and if it were removed something would remain.",
+      "k": "T2_division_acaba"
+     },
+     {
+      "txt": "The last thing reached is a part of the composite, because a part of a part is a part.",
+      "k": "M_transitiva"
+     },
+     {
+      "txt": "So the composite has a simple part. Isabelle proves it (tesis2).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T2_division_acaba": "Without it, in a finite world it can fail only if something is a part of itself: genuinely endless division needs an infinite world (modelo_antitesis2).",
+     "M_transitiva": "Without it, the last thing reached by dividing may not be a part of the composite."
+    }
+   },
+   {
+    "id": "K2A",
+    "parte": 2,
+    "nombre": "6. Nothing is simple (antithesis)",
+    "cita": "No composite thing in the world consists of simple parts, and nothing simple exists in it. (A435 / B463)",
+    "pregunta": "Nothing that occupies a space is <b>simple</b>.",
+    "prueba": "Everything composite occupies a space, and space consists not of points but of spaces: what occupies it has parts outside one another, which also occupy a space. Nothing in it can be simple. Isabelle proves it (antitesis2).",
+    "leccion": {
+     "A2_espacio_divisible": "Without it, something in space may be simple, like an atom."
+    }
+   },
+   {
+    "id": "K2M",
+    "parte": 2,
+    "posible": true,
+    "nombre": "7. Something simple and a composite without simple parts (both fail)",
+    "pregunta": "There may be something simple and, at the same time, a composite that has <b>no simple part at all</b>.",
+    "nota": "That world makes thesis and antithesis false together: here too they are not contradictories but contraries, and more clearly than in the first, because there are composites. For Kant, the division of a body goes only ‘to the indefinite’: simple parts are never reached, nor are infinitely many parts given (A523-527 / B551-555). Logic can no longer check that."
+   },
+   {
+    "id": "K2C",
+    "parte": 2,
+    "posible": true,
+    "nombre": "7b. Another way out: divisible without end",
+    "pregunta": "There may be composites and <b>nothing simple</b>: every part has parts in turn, without end.",
+    "nota": "Again, letting go of the thesis’s premise, ‘division comes to an end’. A. Schopenhauer, in the ‘Criticism of the Kantian Philosophy’ that he added to <em>The World as Will and Representation</em> (1819), maintains that in all four antinomies only the proofs of the antitheses are valid, and that those of the theses are sophisms. The mathematics of the continuum, from Cantor and Dedekind onwards, treats a segment with infinitely many parts without contradiction. Isabelle builds that world with the natural numbers (modelo_antitesis2).",
+    "notaNo": "With the thesis’s premise it cannot happen: if division comes to an end, something is simple."
+   },
+   {
+    "id": "K3T",
+    "parte": 3,
+    "nombre": "8. There is causality through freedom (thesis)",
+    "cita": "Causality according to laws of nature is not the only causality from which all the appearances of the world can be derived. To explain them it is necessary to assume in addition a causality through freedom. (A444 / B472)",
+    "pregunta": "There is something <b>free</b>: it begins a series of itself, with no earlier state determining it.",
+    "pasos": [
+     {
+      "txt": "Suppose everything happens only according to natural laws: each state has an earlier state that determines it.",
+      "k": "hip"
+     },
+     {
+      "txt": "Then the series of causes never has a first beginning.",
+      "k": "hip"
+     },
+     {
+      "txt": "But the series of causes must be complete: nothing happens without a sufficiently determined cause. Clash.",
+      "k": "T3_serie_completa"
+     },
+     {
+      "txt": "So there is a cause that begins a series of itself: a causality through freedom. Isabelle proves it (tesis3).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T3_serie_completa": "Without it, causes may go round in a circle, and every event has its cause. Isabelle also builds the endless regress with the integers (modelo_antitesis3)."
+    }
+   },
+   {
+    "id": "K3A",
+    "parte": 3,
+    "nombre": "9. Everything happens by laws of nature (antithesis)",
+    "cita": "There is no freedom, but everything in the world happens solely according to laws of nature. (A445 / B473)",
+    "pregunta": "Nothing is <b>free</b>: everything has an earlier state that determines it.",
+    "prueba": "A free cause would begin a series with no earlier state determining it according to a law. That breaks the law of causality and, with it, the unity of experience. Isabelle proves it (antitesis3).",
+    "leccion": {
+     "A3_ley_natural": "Without it, some event may begin of itself."
+    }
+   },
+   {
+    "id": "K3S",
+    "parte": 3,
+    "posible": true,
+    "nombre": "10. Freedom and nature at once (Kant’s way out)",
+    "pregunta": "There may be something <b>that is not an appearance</b>, free, that is the intelligible cause of appearances, even though each appearance has its natural cause.",
+    "nota": "This is the way out that Kant proposes for the dynamical antinomies (A532-558 / B560-586): the antithesis holds of appearances and the thesis of the intelligible. With two different causalities, the natural one between appearances and the intelligible one from outside, the two can stand together: here they are not both false, as in the mathematical ones, but both true. In a finite world, natural causality between appearances comes out as a circle; Isabelle builds it without circles, with the integers (solucion3). Whether that intelligible cause exists, logic does not decide: it only shows that there is no contradiction.",
+    "notaNo": "With these premises it cannot happen."
+   },
+   {
+    "id": "K3C",
+    "parte": 3,
+    "posible": true,
+    "nombre": "10b. Another way out: causes without a first cause",
+    "pregunta": "Everything may have its cause <b>without circles and without a first cause</b>: an endless regress.",
+    "nota": "Letting go of the thesis’s premise, ‘the series of causes is complete’, leaves the antithesis alone: everything happens by natural laws and no free cause is needed to begin the series. Isabelle builds it with the integers (modelo_antitesis3). Whether there is then room for human freedom is another question, and logic does not decide it.",
+    "notaNo": "With the thesis’s premise it cannot happen: there is something free (proposition 8)."
+   },
+   {
+    "id": "K4T",
+    "parte": 4,
+    "nombre": "11. Something necessary belongs to the world (thesis)",
+    "cita": "To the world belongs something that, whether as a part of it or as its cause, is an absolutely necessary being. (A452 / B480)",
+    "pregunta": "In the world there is something <b>unconditioned</b>, absolutely necessary.",
+    "pasos": [
+     {
+      "txt": "Suppose everything in the world has a condition.",
+      "k": "hip"
+     },
+     {
+      "txt": "But the series of conditions is complete: we must arrive at something unconditioned.",
+      "k": "T4_serie_completa"
+     },
+     {
+      "txt": "What conditions something that is in time is in time: the unconditioned belongs to the world.",
+      "k": "T4_condicion_en_el_tiempo"
+     },
+     {
+      "txt": "And there is a world. Clash.",
+      "k": "M4_hay_mundo"
+     },
+     {
+      "txt": "So something absolutely necessary belongs to the world. Isabelle proves it (tesis4). Note: from ‘every thing in the world has a condition’ it does not follow that ‘the whole world has a condition outside it’. This is the step in the cosmological argument that Kant criticises, and to check it we must speak of sets of things, in higher-order logic (el_todo_no_tiene_condicion_exterior).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T4_serie_completa": "Without it, conditions may go round in a circle, and nothing in the world is unconditioned.",
+     "T4_condicion_en_el_tiempo": "Without it, the unconditioned may lie outside the world, and the thesis no longer says that it belongs to it.",
+     "M4_hay_mundo": "Without it, there may be no world."
+    }
+   },
+   {
+    "id": "K4A",
+    "parte": 4,
+    "nombre": "12. Nothing in the world is necessary (antithesis)",
+    "cita": "There exists nowhere any absolutely necessary being, neither in the world nor outside the world as its cause. (A453 / B481)",
+    "pregunta": "Nothing that is in the world is <b>unconditioned</b>.",
+    "prueba": "Within the world the dynamical law holds: everything in it has a condition. Isabelle proves it (antitesis4_en_el_mundo).",
+    "leccion": {
+     "A4_ley_dinamica": "Without it, something in the world may have no condition."
+    }
+   },
+   {
+    "id": "K4F",
+    "parte": 4,
+    "nombre": "13. Nothing outside the world conditions it (antithesis)",
+    "pregunta": "Nothing that is <b>outside the world</b> is a condition of anything in the world.",
+    "prueba": "If something outside conditioned something in the world, it would begin a series in time and would therefore be in the world. It is the same premise the thesis used: ‘what conditions something in time is in time’. Isabelle proves it (antitesis4_fuera).",
+    "leccion": {
+     "T4_condicion_en_el_tiempo": "Without it, something outside the world may condition something in the world."
+    }
+   },
+   {
+    "id": "K4S",
+    "parte": 4,
+    "posible": true,
+    "nombre": "14. A ground outside time (Kant’s way out)",
+    "pregunta": "There may be something <b>outside the world</b>, unconditioned, that is the intelligible ground of everything in the world, even though within the world everything has its condition.",
+    "nota": "Kant does not apply the premise ‘what conditions something in time is in time’ to the intelligible ground, because it is not a condition in time. So thesis, about the intelligible, and antithesis, about appearances, can both stand (A559-565 / B587-593). Whether that ground exists, and whether it is what religion calls God, logic no longer decides: Kant leaves it to practical reason. Isabelle builds the world without circles (solucion4).",
+    "notaNo": "With these premises it cannot happen."
+   },
+   {
+    "id": "K4C",
+    "parte": 4,
+    "posible": true,
+    "nombre": "14b. Another way out: a chain without a necessary being",
+    "pregunta": "Everything in the world may have its condition, nothing outside may condition it, and <b>nothing may be necessary</b>.",
+    "nota": "This is Cleanthes’ objection in D. Hume’s <em>Dialogues concerning Natural Religion</em> (1779, part IX): if every member of an eternal chain has its explanation, asking in addition for the cause of the whole is one question too many. It is enough to let go of the thesis’s premise, ‘the series of conditions is complete’. Isabelle builds that world with the integers (modelo_antitesis4). An open debate, without a verdict.",
+    "notaNo": "With the series complete it cannot happen: something in the world would be unconditioned (salida4_con_serie_completa)."
+   }
+  ]
+ },
+ "cosmos": {
+  "defs": [
+   {
+    "id": "cambia",
+    "origen": "Parmenides, B8",
+    "texto": "x changes: it is clear at some instant and not at another."
+   },
+   {
+    "id": "siempreEs",
+    "origen": "Parmenides, B8",
+    "texto": "x always is: it exists at every instant."
+   },
+   {
+    "id": "comienza",
+    "origen": "Timaeus, 28b",
+    "texto": "x begins: it exists at some instant and at none earlier."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "c1",
+    "nom": "Parmenides: being"
+   },
+   {
+    "id": "c2",
+    "nom": "The atomists: the void"
+   },
+   {
+    "id": "c3",
+    "nom": "Melissus: the ungenerated"
+   },
+   {
+    "id": "c4",
+    "nom": "The Demiurge of the Timaeus"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "P_no_ser",
+    "grupo": "c1",
+    "que": "Not-being is not: what is, is at every instant; nothing begins or ceases to be (B6, B8)."
+   },
+   {
+    "id": "P_salto_otro",
+    "grupo": "c1",
+    "que": "Being other is not-being: if x is not y, then x is not. This is to read ‘not being y’ as simply ‘not being’."
+   },
+   {
+    "id": "P_salto_cambio",
+    "grupo": "c1",
+    "que": "Ceasing to be clear is not-being: if x is not clear at an instant, then at that instant x is not."
+   },
+   {
+    "id": "P_sin_vacio",
+    "grupo": "c2",
+    "que": "The void is not: nothing is void."
+   },
+   {
+    "id": "P_separa",
+    "grupo": "c2",
+    "que": "Two beings are distinguished only if something void separates them. This is how Aristotle reads the Eleatics."
+   },
+   {
+    "id": "M_generado_principio",
+    "grupo": "c3",
+    "que": "What is generated has a beginning."
+   },
+   {
+    "id": "M_no_generado",
+    "grupo": "c3",
+    "que": "Being is not generated."
+   },
+   {
+    "id": "M_conversa",
+    "grupo": "c3",
+    "que": "What has a beginning is generated. It is the converse of the first, and Melissus does not state it."
+   },
+   {
+    "id": "D_dos_planos",
+    "grupo": "c4",
+    "que": "Nothing always is and at the same time becomes: they are two planes (27d-28a)."
+   },
+   {
+    "id": "D_causa",
+    "grupo": "c4",
+    "que": "Everything that becomes becomes through some cause (28a)."
+   },
+   {
+    "id": "D_visible",
+    "grupo": "c4",
+    "que": "What is visible and tangible becomes (28b-c)."
+   },
+   {
+    "id": "D_bello",
+    "grupo": "c4",
+    "que": "What is visible, the cosmos, is beautiful (29a)."
+   },
+   {
+    "id": "D_hacedor_bueno",
+    "grupo": "c4",
+    "que": "Whoever makes what is visible is good (29a)."
+   },
+   {
+    "id": "D_modelo",
+    "grupo": "c4",
+    "que": "If what is made is beautiful and its maker is good, he made it looking to a model that always is (29a)."
+   },
+   {
+    "id": "U_dos_copias",
+    "grupo": "c4",
+    "que": "If there were two copies of the same model, each would be a copy of another model embracing them both (31a)."
+   },
+   {
+    "id": "U_un_modelo",
+    "grupo": "c4",
+    "que": "Each copy is a copy of only one model, the complete one (31b)."
+   },
+   {
+    "id": "L_literal",
+    "grupo": "c4",
+    "que": "What is made begins to be. This is how Aristotle reads the ‘has come to be’ (<em>gégonen</em>) of the Timaeus."
+   }
+  ],
+  "debate": {
+   "titulo": "Zeno of Elea, and what logic does not decide",
+   "parrafos": [
+    "<b>Zeno and the dichotomy.</b> To defend Parmenides, Zeno argues that motion is impossible: to cross a stadium one must first cross half of it, and before that half of what remains, and so on without end (Aristotle, <em>Physics</em>, VI 9, 239b11-14). The modern mathematical answer is that infinitely many halves add up to a finite distance: 1/2 + 1/4 + 1/8 + … = 1. Isabelle proves this (dicotomia); the table cannot, because it would need an infinite world. Whether that really answers Zeno, who was asking how an endless series is completed, is still debated: it is the same question as Kant’s first antinomy.",
+    "<b>Which premise to drop?</b> Faced with Parmenides, each heir drops a different one: the atomists, ‘the void is not’; Plato, the leap between ‘not being clear’ and ‘not being’; Empedocles and Anaxagoras, ‘nothing changes’, which they replace with the mixing and separation of what already is. None drops ‘nothing comes from nothing’. Logic says which premises clash; which one is dropped is decided by philosophy.",
+    "<b>A likely story.</b> Plato calls his cosmology <em>eikṑs mŷthos</em>, a ‘likely story’ (29d). The table shows its structure and which premises do the work, not whether it is true. An open debate, with no verdict.",
+    "To think about: the Demiurge makes the cosmos, but who makes the Demiurge? Which premise of proposition 7 rules it out or allows it?"
+   ]
+  },
+  "props": [
+   {
+    "id": "C1",
+    "parte": 1,
+    "nombre": "1. Nothing changes",
+    "cita": "Therefore everything that mortals have laid down, convinced that it is true, will be a mere name: coming to be and perishing, being and not being, changing place and altering bright colour. (B8, 38-41)",
+    "pregunta": "Nothing <b>changes</b>: what is clear is always so, and what is not clear never is.",
+    "pasos": [
+     {
+      "txt": "Suppose that x is clear at one instant and not at another.",
+      "k": "hip"
+     },
+     {
+      "txt": "At the instant when it is not clear, x is not: this is the leap from ‘not being clear’ to ‘not being’.",
+      "k": "P_salto_cambio"
+     },
+     {
+      "txt": "But not-being is not: x is at every instant. Clash.",
+      "k": "P_no_ser"
+     },
+     {
+      "txt": "So nothing changes. Isabelle proves it (inmovil_mesa).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "P_salto_cambio": "Without it, something can change and still be: ceasing to be clear is not ceasing to be. This is Plato’s way out in the <em>Sophist</em> (proposition 3).",
+     "P_no_ser": "Without it, something can change if it ceases to be when it is not clear. Parmenides would not admit that."
+    }
+   },
+   {
+    "id": "C2",
+    "parte": 1,
+    "nombre": "2. Being is one",
+    "cita": "It neither was once nor will be, since it is now, all together, one, continuous. (B8, 5-6)",
+    "pregunta": "Everything is <b>the same</b>: there are not two things.",
+    "pasos": [
+     {
+      "txt": "Suppose two different things, x and y.",
+      "k": "hip"
+     },
+     {
+      "txt": "x is not y, and the leap says that then x is not.",
+      "k": "P_salto_otro"
+     },
+     {
+      "txt": "But not-being is not. Clash.",
+      "k": "P_no_ser"
+     },
+     {
+      "txt": "So there is only one thing. Isabelle proves it (uno_mesa). The same leap, applied to ‘being other’ and to ‘not being clear’, yields the one and the unmoving: in Isabelle, both cases come out of a single higher-order premise (salto_casos).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "P_salto_otro": "Without it, there can be many things: being other is not not-being.",
+     "P_no_ser": "Without it, there can be two things, but neither would ever be."
+    }
+   },
+   {
+    "id": "C3",
+    "parte": 1,
+    "posible": true,
+    "nombre": "3. Many things that change, without not-being (the way out of the Sophist)",
+    "pregunta": "There can be <b>two things</b> that always are, and one of them can <b>change</b>.",
+    "nota": "It happens if the leap is dropped: ‘not being clear’ means ‘being other than clear’, not ‘not being at all’. This is what Plato does in the <em>Sophist</em> (241d), when he says that the reasoning of ‘our father Parmenides’ must be put to the test: the so-called ‘parricide’. That Parmenides reasoned with this leap is an interpretation, defended by several commentators, such as G. E. L. Owen, and disputed by others. Isabelle builds that world (sin_el_salto).",
+    "notaNo": "With the leap it cannot happen: this is proposition 1."
+   },
+   {
+    "id": "C4",
+    "parte": 2,
+    "nombre": "4. Without the void, what is is one",
+    "cita": "Some of the ancients believed that what is is necessarily one and unmoving: the void is not, and there could not be many things without something to separate them. (Aristotle, On Generation and Corruption, I 8, 325a2-6)",
+    "pregunta": "What is not void is <b>a single thing</b>.",
+    "prueba": "If there were two beings, something void would separate them; but the void is not. Isabelle proves it (uno_sin_vacio). It is another path to the one, without the leap: that of Aristotle’s reading.",
+    "leccion": {
+     "P_sin_vacio": "Without it, there can be many beings with the void between them: this is the way out of the atomists (proposition 5).",
+     "P_separa": "Without it, two beings can be together with nothing in between."
+    }
+   },
+   {
+    "id": "C5",
+    "parte": 2,
+    "posible": true,
+    "nombre": "5. Many atoms and the void (the way out of the atomists)",
+    "cita": "Leucippus and his companion Democritus say that the full and the void are the elements, and they call the one being and the other not-being; that is why they also say that being is no more than not-being. (Aristotle, Metaphysics, I 4, 985b4-8)",
+    "pregunta": "There can be <b>two beings</b> and something <b>void</b>.",
+    "nota": "The atomists accept that two beings are distinguished only by the void, and they drop ‘the void is not’. They keep another premise of Parmenides: nothing comes from nothing. Atoms are neither born nor perish; they only move through the void. Isabelle builds that world (muchos_con_vacio) and another with motion (atomistas).",
+    "notaNo": "Without the void it cannot happen: this is proposition 4."
+   },
+   {
+    "id": "C6",
+    "parte": 3,
+    "nombre": "6. What is ungenerated has no beginning (Melissus)",
+    "cita": "Since it did not come to be, it is, and always was, and always will be, and it has neither beginning nor end, but is infinite. (Melissus, B2)",
+    "pregunta": "Nothing has a <b>beginning</b>.",
+    "pasos": [
+     {
+      "txt": "Being is not generated.",
+      "k": "M_no_generado"
+     },
+     {
+      "txt": "What has a beginning is generated. This is the premise that is needed, and Melissus does not state it.",
+      "k": "M_conversa"
+     },
+     {
+      "txt": "So being has no beginning. Isabelle proves it with the converse (Meliso_con_la_conversa).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "M_conversa": "Without it, it does not follow: something can have a beginning without having been generated. This is the flaw Aristotle points out (<em>Sophistical Refutations</em>, 5, 167b13-20): from ‘what is generated has a beginning’ Melissus moves to ‘what is ungenerated has none’, and that is denying the antecedent (falacia_de_Meliso).",
+     "M_no_generado": "Without it, something can be generated and have a beginning."
+    }
+   },
+   {
+    "id": "C7",
+    "parte": 4,
+    "nombre": "7. What is visible has a maker",
+    "cita": "Everything that becomes necessarily becomes through some cause. (Timaeus, 28a)",
+    "pregunta": "Everything <b>visible</b> has someone who <b>makes</b> it.",
+    "pasos": [
+     {
+      "txt": "Take something visible.",
+      "k": "hip"
+     },
+     {
+      "txt": "What is visible and tangible becomes.",
+      "k": "D_visible"
+     },
+     {
+      "txt": "What becomes has a cause.",
+      "k": "D_causa"
+     },
+     {
+      "txt": "So what is visible has a maker, the Demiurge. Isabelle proves it (hay_hacedor_mesa). It has the same form as Aquinas’s second way, but here it is not said that the maker is one or that it has no cause.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "D_visible": "Without it, something visible may not become, and needs no cause.",
+     "D_causa": "Without it, something can become without a cause."
+    }
+   },
+   {
+    "id": "C8",
+    "parte": 4,
+    "nombre": "8. The cosmos copies an eternal model",
+    "cita": "If this cosmos is beautiful and its maker is good, it is evident that he looked to what is eternal. (Timaeus, 29a)",
+    "pregunta": "Everything visible is made <b>looking to a model that always is</b>.",
+    "prueba": "What is visible has a maker (proposition 7). What is visible is beautiful and its maker good; and what is beautiful, made by someone good, copies an eternal model. Isabelle proves it (modelo_eterno_mesa). Two of these premises are not matters of fact but of value: Plato adds that to think otherwise is neither lawful nor even to be spoken.",
+    "leccion": {
+     "D_hacedor_bueno": "Without it, the maker may not be good and may copy no eternal model (sin_hacedor_bueno).",
+     "D_bello": "Without it, what is visible may not be beautiful, and nothing requires an eternal model.",
+     "D_modelo": "Without it, a good maker can make something beautiful without a model.",
+     "D_causa": "Without it, what is visible may have no maker.",
+     "D_visible": "Without it, what is visible may neither become nor have a maker."
+    }
+   },
+   {
+    "id": "C9",
+    "parte": 4,
+    "nombre": "9. The model does not become",
+    "cita": "What is that which always is and has no generation, and what is that which always becomes and never is? (Timaeus, 27d-28a)",
+    "pregunta": "What <b>always is</b> does not <b>become</b>.",
+    "prueba": "There are two planes: what always is and has no generation, and what always becomes and never is. Isabelle proves it (el_modelo_no_deviene). This is Plato’s move against Parmenides: not changing holds for one plane, and change for the other. Kant will do something similar in the dynamical antinomies.",
+    "leccion": {
+     "D_dos_planos": "Without it, something can always be and become at the same time: the planes get mixed."
+    }
+   },
+   {
+    "id": "C10",
+    "parte": 4,
+    "nombre": "10. There is only one cosmos",
+    "cita": "Have we spoken rightly in saying that there is one heaven, or was it more correct to say that there are many and infinite? One, if it is to be made after the model. (Timaeus, 31a)",
+    "pregunta": "Two copies of the same model are <b>the same one</b>.",
+    "pasos": [
+     {
+      "txt": "Suppose two different copies of the same model.",
+      "k": "hip"
+     },
+     {
+      "txt": "Each would be a copy of another model embracing them both.",
+      "k": "U_dos_copias"
+     },
+     {
+      "txt": "But each copy is a copy of only one model. Clash.",
+      "k": "U_un_modelo"
+     },
+     {
+      "txt": "So there is only one cosmos. Isabelle proves it (un_solo_cosmos_mesa). It is a regress argument, a cousin of the ‘third man’ in Plato’s <em>Parmenides</em> (132a-b).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "U_dos_copias": "Without it, two cosmoi can copy the same model (sin_dos_copias): the whole weight of the argument rests on this premise.",
+     "U_un_modelo": "Without it, a copy can be a copy of two models at once."
+    }
+   },
+   {
+    "id": "C11",
+    "parte": 4,
+    "posible": true,
+    "nombre": "11. Made and without a beginning (Xenocrates’ reading)",
+    "pregunta": "There can be something <b>made</b> that exists and <b>does not begin</b>.",
+    "nota": "This is how Xenocrates and, later, the Neoplatonists read the <em>Timaeus</em>: ‘has come to be’ (<em>gégonen</em>) means ‘depends on a cause’, not ‘began at an instant’, and Plato would tell it as if it began in order to teach it better. Aristotle rejects that reading (<em>On the Heavens</em>, I 10, 279b32-280a11). A caused and eternal cosmos needs infinitely many instants going back: Isabelle builds it with the integers (lectura_dependencia). Compare Aquinas, in ‘The five ways’: for him, reason alone does not decide whether the world began.",
+    "notaNo": "With the literal reading it cannot happen: what is made begins."
+   },
+   {
+    "id": "C12",
+    "parte": 4,
+    "posible": true,
+    "nombre": "12. A beginning without a ‘before’: time is born with the cosmos",
+    "cita": "Time was born, then, together with the heaven, so that, having been born together, they may also be dissolved together, if they are ever dissolved. (Timaeus, 38b)",
+    "pregunta": "There can be something that <b>begins</b> and yet <b>always is</b>: there is no instant at which it did not exist.",
+    "nota": "This is Plato’s answer: time is the ‘moving image of eternity’ (37d) and is born with the cosmos. The cosmos has a first instant, but there is no empty time before it. So the literal reading is possible without the objection of empty time: Plato drops the premise A1_tiempo_sin_principio of Kant’s first antinomy. Augustine will say the same in the <em>Confessions</em> (XI): to ask what God was doing before creating makes no sense, because there was no before. Isabelle checks it (tiempo_con_el_cosmos).",
+    "notaNo": "With these premises it cannot happen."
+   }
   ]
  },
  "vias": {
