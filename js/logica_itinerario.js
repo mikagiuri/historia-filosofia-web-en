@@ -350,7 +350,7 @@ const LOG_ITIN = {
      "h": "#logica/relaciones"
     },
     {
-     "t": "Laboratory, “Spinoza”: the properties map of the review",
+     "t": "Laboratory, ‘Possible worlds’: the properties map from the review",
      "h": "#logica/spinoza"
     }
    ],
@@ -416,15 +416,15 @@ const LOG_ITIN = {
    "meta": "what a proof assistant is, to look for countermodels and remove premises to see which ones are needed, and to write your own propositions and premises.",
    "pasos": [
     {
-     "t": "Laboratory, “Spinoza”: “About Isabelle, and thank you”",
+     "t": "Laboratory, ‘Possible worlds’: ‘About Isabelle, and thank you’",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laboratory, “Spinoza”, practice world: time, duration and creation",
+     "t": "Laboratory, ‘Possible worlds’, practice theory: time, duration and creation",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laboratory, “Spinoza”, world “Time, defined”",
+     "t": "Laboratory, ‘Possible worlds’, theory ‘Time, defined’",
      "h": "#logica/spinoza"
     },
     {
@@ -438,10 +438,10 @@ const LOG_ITIN = {
    "guia": {
     "obj": "Understand what a proof assistant does, use the countermodel search to see which premises are needed and write your own propositions.",
     "rec": [
-     "‘Spinoza’ workbench, ‘About Isabelle, and thank you’: what Isabelle checks and what it does not.",
-     "Practice world: the workbench’s ‘walk-through to get started’, in order.",
-     "‘Time, defined’ world: propositions 9 and 10.",
-     "‘✎ Write your own proposition’ in either of the two worlds."
+     "‘Possible worlds’ table, ‘About Isabelle, and thank you’: what Isabelle checks and what it does not.",
+     "Practice theory: the table’s ‘walk-through to get started’, in order.",
+     "Theory ‘Time, defined’: propositions 9 and 10.",
+     "‘✎ Write your own proposition’ in either of the two theories."
     ],
     "preg": [
      "In the practice world, proposition 2: press ‘Does it follow?’ as it stands. Which premise is missing? Add it and try again.",
@@ -467,15 +467,15 @@ const LOG_ITIN = {
    "meta": "to break a famous argument down into its premises, see which one does the work at each step and where the objections put their finger.",
    "pasos": [
     {
-     "t": "Laboratory, “Spinoza”, world “The Five Ways”",
+     "t": "Laboratory, ‘Possible worlds’, theory ‘The Five Ways’",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laboratory, ‘Spinoza’, world ‘Kant’s antinomies’: thesis, antithesis, Kant’s way out and others",
+     "t": "Laboratory, ‘Possible worlds’, theory ‘Kant’s antinomies’: thesis, antithesis, Kant’s way out and others",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laboratory, ‘Spinoza’, world ‘From being to the cosmos’: Parmenides, his heirs and the Demiurge",
+     "t": "Laboratory, ‘Possible worlds’, theory ‘From being to the cosmos’: Parmenides, his heirs and the Demiurge",
      "h": "#logica/spinoza"
     },
     {
@@ -490,7 +490,7 @@ const LOG_ITIN = {
     "obj": "Break a famous argument down into its premises, see which one does the work in each step and where the objections put their finger, without giving a verdict on the underlying question.",
     "rec": [
      "Read the exploration ‘The Five Ways and where they come from’.",
-     "‘Spinoza’ workbench, ‘The Five Ways’ world: each way with its premises.",
+     "‘Possible worlds’ table, theory ‘The Five Ways’: each way with its premises.",
      "Propositions 5 and 9: look for their countermodels.",
      "The note on causes ‘in themselves’ and time, at the foot of the definitions."
     ],
@@ -518,7 +518,7 @@ const LOG_ITIN = {
    "meta": "to read Part I of the Ethics as a system, discover the premises the author does not write, see which are redundant and which clash, and understand what it means for a program to check an entire work.",
    "pasos": [
     {
-     "t": "Laboratory, “Spinoza”, world “Spinoza, Ethics I”: layers, “Is any premise redundant?” and “Write your own proposition”",
+     "t": "Laboratory, ‘Possible worlds’, theory ‘Spinoza, Ethics I’: layers, ‘Is any premise superfluous?’ and ‘Write your own proposition’",
      "h": "#logica/spinoza"
     }
    ],
@@ -528,7 +528,7 @@ const LOG_ITIN = {
    "guia": {
     "obj": "Read Part I of the Ethics as a system, uncover the premises Spinoza does not write down, see which are redundant and which clash, and understand what it means for a program to check a whole work.",
     "rec": [
-     "‘Spinoza’ workbench, ‘Spinoza, Ethics I’ world: start with the first layer.",
+     "‘Possible worlds’ table, theory ‘Spinoza, Ethics I’: start with the first layer.",
      "Choose a proposition and press ‘Is any premise redundant?’.",
      "Look for a premise beginning with H_ (the ones Spinoza does not write down) and read it carefully.",
      "‘✎ Write your own proposition’ with the terms of the Ethics."
