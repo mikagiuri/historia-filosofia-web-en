@@ -18,7 +18,7 @@ const LOGX = {
   "silNoValido": "Not valid",
   "silTrad": "Valid only if what the middle term names exists",
   "nomTit": "Informal fallacies: the Corner’s list",
-  "nomIntro": "The traps that lie not in the form of the reasoning but in its content: what is said, about whom and what for. Each name takes you to its glossary entry, which is where it is defined; here you will find other names, an example and how to counter it.",
+  "nomIntro": "The traps that lie not in the form of the reasoning but in its content: what is said, about whom and what for. Each name takes you to its dictionary entry, which is where it is defined; here you will find other names, an example and how to counter it.",
   "nomOtros": "Other names:",
   "nomEj": "Example:",
   "nomParar": "How to counter it:",

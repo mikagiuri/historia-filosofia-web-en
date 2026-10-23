@@ -42,7 +42,7 @@ const PILARES = {
      "limite": "We know what giving a reason is, but not what makes one reason worth more than another.",
      "enl": [
       {
-       "t": "Glossary: reason",
+       "t": "Dictionary: reason",
        "h": "#glosario/g-fil-razon"
       },
       {
@@ -166,11 +166,11 @@ const PILARES = {
        "h": "#teoria/hf-verdad-no-contradice"
       },
       {
-       "t": "Glossary: cooperation between faith and reason",
+       "t": "Dictionary: cooperation between faith and reason",
        "h": "#glosario/g-colaboracion-fe-razon"
       },
       {
-       "t": "Glossary: the limits of reason",
+       "t": "Dictionary: the limits of reason",
        "h": "#glosario/g-los-limites-de-la-razon"
       }
      ]
@@ -200,11 +200,11 @@ const PILARES = {
        "h": "#teoria/hf-descartes-makro"
       },
       {
-       "t": "Glossary: autonomy of reason",
+       "t": "Dictionary: autonomy of reason",
        "h": "#glosario/g-autonomia-de-la-razon"
       },
       {
-       "t": "Glossary: clear and distinct ideas",
+       "t": "Dictionary: clear and distinct ideas",
        "h": "#glosario/g-ideas-claras-y-distintas"
       }
      ]
@@ -238,7 +238,7 @@ const PILARES = {
        "h": "#teoria/fil-t5"
       },
       {
-       "t": "Glossary: relations of ideas and matters of fact",
+       "t": "Dictionary: relations of ideas and matters of fact",
        "h": "#glosario/g-relaciones-de-ideas"
       }
      ]
@@ -268,11 +268,11 @@ const PILARES = {
        "h": "#teoria/hf-kant"
       },
       {
-       "t": "Glossary: private use of reason",
+       "t": "Dictionary: private use of reason",
        "h": "#glosario/g-uso-privado"
       },
       {
-       "t": "Glossary: regulative idea",
+       "t": "Dictionary: regulative idea",
        "h": "#glosario/g-idea-regulativa"
       }
      ]
@@ -302,11 +302,11 @@ const PILARES = {
        "h": "#teoria/hf-posmodernidad"
       },
       {
-       "t": "Glossary: instrumental reason",
+       "t": "Dictionary: instrumental reason",
        "h": "#glosario/g-razon-instrumental"
       },
       {
-       "t": "Glossary: suspicion",
+       "t": "Dictionary: suspicion",
        "h": "#glosario/g-sospecha"
       }
      ]
@@ -328,11 +328,11 @@ const PILARES = {
        "h": "#teoria/hf-posmodernidad"
       },
       {
-       "t": "Glossary: communicative reason",
+       "t": "Dictionary: communicative reason",
        "h": "#glosario/g-razon-comunicativa"
       },
       {
-       "t": "Glossary: ideal speech situation",
+       "t": "Dictionary: ideal speech situation",
        "h": "#glosario/g-situacion-ideal-de-habla"
       },
       {
@@ -414,7 +414,7 @@ const PILARES = {
        "h": "#teoria/hf-platon-superficie"
       },
       {
-       "t": "Glossary: theory of Forms",
+       "t": "Dictionary: theory of Forms",
        "h": "#glosario/g-teoria-de-las-ideas"
       },
       {
@@ -444,7 +444,7 @@ const PILARES = {
        "h": "#teoria/hf-aa"
       },
       {
-       "t": "Glossary: the rejection of the Forms",
+       "t": "Dictionary: the rejection of the Forms",
        "h": "#glosario/g-el-rechazo-de-las-ideas"
       },
       {
@@ -478,7 +478,7 @@ const PILARES = {
        "h": "#teoria/hf-platon-agustin"
       },
       {
-       "t": "Glossary: nominalism",
+       "t": "Dictionary: nominalism",
        "h": "#glosario/g-nominalismo"
       }
      ]
@@ -508,11 +508,11 @@ const PILARES = {
        "h": "#teoria/hf-descartes-simulacion"
       },
       {
-       "t": "Glossary: innatism",
+       "t": "Dictionary: innatism",
        "h": "#glosario/g-innatismo"
       },
       {
-       "t": "Glossary: clear and distinct ideas",
+       "t": "Dictionary: clear and distinct ideas",
        "h": "#glosario/g-ideas-claras-y-distintas-dm"
       }
      ]
@@ -538,11 +538,11 @@ const PILARES = {
        "h": "#teoria/hf-racionalismo"
       },
       {
-       "t": "Glossary: impression",
+       "t": "Dictionary: impression",
        "h": "#glosario/g-impresion"
       },
       {
-       "t": "Glossary: relations of ideas and matters of fact",
+       "t": "Dictionary: relations of ideas and matters of fact",
        "h": "#glosario/g-relaciones-de-ideas"
       }
      ]
@@ -572,11 +572,11 @@ const PILARES = {
        "h": "#teoria/hf-kant-juicios"
       },
       {
-       "t": "Glossary: regulative idea",
+       "t": "Dictionary: regulative idea",
        "h": "#glosario/g-idea-regulativa"
       },
       {
-       "t": "Glossary: category",
+       "t": "Dictionary: category",
        "h": "#glosario/g-categoria"
       }
      ]
@@ -606,15 +606,15 @@ const PILARES = {
        "h": "#teoria/hf-sospecha"
       },
       {
-       "t": "Glossary: dialectic",
+       "t": "Dictionary: dialectic",
        "h": "#glosario/g-dialectica"
       },
       {
-       "t": "Glossary: materialist dialectic",
+       "t": "Dictionary: materialist dialectic",
        "h": "#glosario/g-dialectica-materialista"
       },
       {
-       "t": "Glossary: idealism",
+       "t": "Dictionary: idealism",
        "h": "#glosario/g-fil-idealismo"
       }
      ]
@@ -670,7 +670,7 @@ const PILARES = {
      "limite": "We know that coming before is not enough to be a cause. But what if two things always go together?",
      "enl": [
       {
-       "t": "Glossary: false cause",
+       "t": "Dictionary: false cause",
        "h": "#glosario/g-fil-causa-falsa"
       }
      ]
@@ -688,7 +688,7 @@ const PILARES = {
      "limite": "We know what is not enough to be a cause, but not yet what a cause is. The first philosopher to ask this seriously does so from a prison cell.",
      "enl": [
       {
-       "t": "Glossary: false cause",
+       "t": "Dictionary: false cause",
        "h": "#glosario/g-fil-causa-falsa"
       },
       {
@@ -752,11 +752,11 @@ const PILARES = {
        "h": "#universo"
       },
       {
-       "t": "Glossary: the four causes",
+       "t": "Dictionary: the four causes",
        "h": "#glosario/g-las-cuatro-causas"
       },
       {
-       "t": "Glossary: Unmoved Mover",
+       "t": "Dictionary: Unmoved Mover",
        "h": "#glosario/g-motor-inmovil"
       },
       {
@@ -790,7 +790,7 @@ const PILARES = {
        "h": "#teoria/hf-fe-razon"
       },
       {
-       "t": "Glossary: five ways",
+       "t": "Dictionary: five ways",
        "h": "#glosario/g-cinco-vias"
       }
      ]
@@ -842,11 +842,11 @@ const PILARES = {
        "h": "#teoria/hf-racionalismo"
       },
       {
-       "t": "Glossary: habit",
+       "t": "Dictionary: habit",
        "h": "#glosario/g-habito"
       },
       {
-       "t": "Glossary: relations of ideas and matters of fact",
+       "t": "Dictionary: relations of ideas and matters of fact",
        "h": "#glosario/g-relaciones-de-ideas"
       }
      ]
@@ -876,7 +876,7 @@ const PILARES = {
        "h": "#teoria/hf-kant-juicios"
       },
       {
-       "t": "Glossary: category",
+       "t": "Dictionary: category",
        "h": "#glosario/g-categoria"
       }
      ]
@@ -932,7 +932,7 @@ const PILARES = {
        "h": "#teoria/hf-siglo21"
       },
       {
-       "t": "Glossary: false cause",
+       "t": "Dictionary: false cause",
        "h": "#glosario/g-fil-causa-falsa"
       }
      ]

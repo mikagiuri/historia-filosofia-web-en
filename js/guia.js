@@ -99,12 +99,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, glossary concepts, its period and its chronogram), <strong>Prepare for the PAU</strong> (readings, commentaries, essays and comparisons) and <strong>Go deeper</strong>, which opens when you press it (explorations, controversies, games and, in some topics, videos in Basque with their transcript).",
+   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, dictionary concepts, its period and its chronogram), <strong>Prepare for the PAU</strong> (readings, commentaries, essays and comparisons) and <strong>Go deeper</strong>, which opens when you press it (explorations, controversies, games and, in some topics, videos in Basque with their transcript).",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, glossary concepts and its period), <strong>Think and write</strong> (readings, essays, dilemmas and the Logic Corner) and <strong>Go deeper</strong>, which opens when you press it (explorations, controversies, games and, in some topics, videos in Basque with their transcript).",
+   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, dictionary concepts and its period), <strong>Think and write</strong> (readings, essays, dilemmas and the Logic Corner) and <strong>Go deeper</strong>, which opens when you press it (explorations, controversies, games and, in some topics, videos in Basque with their transcript).",
    "solo": "fil"
   },
   {
@@ -124,7 +124,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "hf",
-   "x": "On this site, thinkers, topics and glossary terms carry from one to five <strong>importance dots</strong> ●●●●○: the more dots, the more weight it has in the subject and in the PAU. Each level has its name:"
+   "x": "On this site, thinkers, topics and dictionary terms carry from one to five <strong>importance dots</strong> ●●●●○: the more dots, the more weight it has in the subject and in the PAU. Each level has its name:"
   },
   {
    "type": "list",
@@ -164,7 +164,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "hf",
-   "x": "The dots appear in <strong>Biographies</strong> (next to each thinker’s dates; in their entry, with the name of the level and a <strong>Why</strong> line giving the reason), in the <strong>list of topics</strong> on the subject page and in the <strong>Glossary</strong>. In Biographies and in the Glossary, the <strong>Essential and core only</strong> button keeps only those with five and four dots, and <strong>What the dots mean</strong> opens this same explanation."
+   "x": "The dots appear in <strong>Biographies</strong> (next to each thinker’s dates; in their entry, with the name of the level and a <strong>Why</strong> line giving the reason), in the <strong>list of topics</strong> on the subject page and in the <strong>Dictionary</strong>. In Biographies and in the Dictionary, the <strong>Essential and core only</strong> button keeps only those with five and four dots, and <strong>What the dots mean</strong> opens this same explanation."
   },
   {
    "type": "img",
@@ -323,7 +323,7 @@ const GUIA = {
     },
     {
      "nombre": "Readings",
-     "texto": "The five PAU texts with their reading guide, the extracts, model answers and a glossary.",
+     "texto": "The five PAU texts with their reading guide, the extracts, model answers and a dictionary.",
      "view": "lecturas"
     }
    ]
@@ -449,7 +449,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Click the magnifying glass 🔎 and type a word: the search looks through the whole website (theory, glossary, readings, questions, cards…) and groups the results by type, with the word highlighted. Move with the arrow keys, open a result with Enter and close with Esc. When you open a result, the website takes you to the exact place where the word appears."
+   "x": "Click the magnifying glass 🔎 and type a word: the search looks through the whole website (theory, dictionary, readings, questions, cards…) and groups the results by type, with the word highlighted. Move with the arrow keys, open a result with Enter and close with Esc. When you open a result, the website takes you to the exact place where the word appears."
   },
   {
    "type": "img",

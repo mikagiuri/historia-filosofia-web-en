@@ -250,7 +250,7 @@ const LOGM_EXTRA_TXT = {
   lpIntro: "The formal fallacies above are refuted by their form: a single counterexample is enough. Other fallacies have no flaw in their form, but formalising them helps you to see them; and others cannot be refuted by logic, because the problem lies in the content.",
   lpAyuda: "Logic helps, but it is not enough", lpNo: "Logic does not refute them", lpQueVe: "What logic shows",
   lpNoIntro: "Their form may be valid or they may not even be an argument: the flaw lies in whether the premises are true or relevant. To detect them you have to ask about the content.",
-  lpNoNomina: "This is only a sample. The complete list of informal fallacies, with a name for each and its glossary definition, is the one in «Informal fallacies: the Corner's list», further down this tab.", lpNoNominaIr: "Go to the full list ↓",   /* (22-10) remite a la nómina única */
+  lpNoNomina: "This is only a sample. The complete list of informal fallacies, with a name for each and its dictionary definition, is the one in «Informal fallacies: the Corner's list», further down this tab.", lpNoNominaIr: "Go to the full list ↓",   /* (22-10) remite a la nómina única */
   lpDuelo: "Practise them in the Duel of Reasons →"
 };
 const LOGM_CONV = [

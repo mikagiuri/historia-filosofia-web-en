@@ -761,7 +761,7 @@ const REP_DIAL = {
   "dPlaton": "Plato's argument: justice is the harmony of the parts, in the city as in the soul (Republic IV, 433a and 441d-e).",
   "dObjecion": "Objection: choose one of the criticisms that came up in your game (Thrasymachus, Glaucon, Aristotle, Popper…) and explain it in your own words.",
   "dTuya": "Your conclusion: which position from your game would you defend in writing, and why?",
-  "glosario": "Concepts in the glossary",
+  "glosario": "Concepts in the dictionary",
   "sinDialogos": "There were no dialogues in this game.",
   "hudReg": "Regime",
   "elegir": "Choose a version",

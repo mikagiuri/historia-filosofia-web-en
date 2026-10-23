@@ -558,7 +558,7 @@ const LOG_ITIN = {
    "txt": "The traps that are not of form but of content, and the art of arguing.",
    "pasos": [
     {
-     "t": "Fallacies: the list of informal fallacies, linked to the glossary, and ‘Which fallacy is it?’",
+     "t": "Fallacies: the list of informal fallacies, linked to the dictionary, and ‘Which fallacy is it?’",
      "h": "#logica/falacias"
     },
     {

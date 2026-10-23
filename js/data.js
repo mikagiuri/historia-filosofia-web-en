@@ -7927,7 +7927,7 @@ const QUIZZES = {
     "fb": "In the Theogony, pairs of opposites arise from an original chaos; it is a mythical account starring divine beings."
    },
    {
-    "q": "In the topic’s glossary, the term logos includes, besides ‘word’ and ‘reason’…",
+    "q": "In the topic’s dictionary, the term logos includes, besides ‘word’ and ‘reason’…",
     "o": [
      "the obligation to accept what the poets pass on",
      "obedience to the laws approved by the assembly",
@@ -10162,7 +10162,7 @@ const QUIZZES = {
     "fb": "For Socratic intellectualism, evil is born of ignorance: if the good is truly known, one acts well, so the solution is to teach."
    },
    {
-    "q": "What does areté mean according to the topic’s glossary?",
+    "q": "What does areté mean according to the topic’s dictionary?",
     "o": [
      "Virtue: excellence in carrying out one’s proper function",
      "Full happiness: the ultimate end of all human actions",
@@ -11477,7 +11477,7 @@ const QUIZZES = {
     "fb": "Ockham’s razor commands that entities not be multiplied without necessity: between two equivalent explanations, the simpler one."
    },
    {
-    "q": "What is a natural truth, according to the topic’s glossary?",
+    "q": "What is a natural truth, according to the topic’s dictionary?",
     "o": [
      "One that reason attains and that is accessible to all.",
      "One that is known only by divine revelation.",
@@ -13280,7 +13280,7 @@ const QUIZZES = {
      "A recent invention of 20th-century neoliberalism"
     ],
     "a": 2,
-    "fb": "According to the glossary, private property is understood as a natural right and is the basis of capitalism."
+    "fb": "According to the dictionary, private property is understood as a natural right and is the basis of capitalism."
    },
    {
     "q": "According to the topic’s aporia, what does it depend on which political system seems ‘natural’ to us?",
@@ -17346,7 +17346,7 @@ const QUIZZES = {
     "fb": "Herrero criticises a system that prioritises profit and acts as if the planet’s resources were infinite, ignoring that we are eco-dependent."
    },
    {
-    "q": "According to the topic’s glossary, what does Yayo Herrero’s ecofeminism link?",
+    "q": "According to the topic’s dictionary, what does Yayo Herrero’s ecofeminism link?",
     "o": [
      "The ecological crisis and the oppression of women",
      "The workers’ struggle and the defence of the free market",
@@ -17734,7 +17734,7 @@ const QUIZZES = {
     "fb": "The structure of opposites and the search for an order are kept, but the recourse to the supernatural and the arbitrary is abandoned."
    },
    {
-    "q": "In the topic’s glossary, the polis is defined as…",
+    "q": "In the topic’s dictionary, the polis is defined as…",
     "o": [
      "the city and the political community",
      "the equal right to speak in the assembly",
@@ -18477,7 +18477,7 @@ const QUIZZES = {
     "fb": "For Aristotle the human being is matter (body) plus form (soul): hylomorphism."
    },
    {
-    "q": "According to the topic’s glossary, what does change consist of?",
+    "q": "According to the topic’s dictionary, what does change consist of?",
     "o": [
      "In the union of matter and form.",
      "In the passage from potentiality to actuality.",
@@ -18485,7 +18485,7 @@ const QUIZZES = {
      "In the purification of the soul through philosophy."
     ],
     "a": 1,
-    "fb": "The glossary defines change as the passage from potentiality (possibility of being) to actuality (its realisation)."
+    "fb": "The dictionary defines change as the passage from potentiality (possibility of being) to actuality (its realisation)."
    },
    {
     "q": "When does the theory place the anthropological turn of philosophy?",
@@ -18627,7 +18627,7 @@ const QUIZZES = {
     "fb": "The ethical virtues are habits acquired through the repetition of acts; the dianoetic ones, by contrast, are acquired through teaching."
    },
    {
-    "q": "How does the glossary define the ‘mean’?",
+    "q": "How does the dictionary define the ‘mean’?",
     "o": [
      "The arithmetic mean calculated between two quantities",
      "The balance that arises between soul and body",
@@ -18894,7 +18894,7 @@ const QUIZZES = {
     "fb": "Stoicism was founded by Zeno of Citium."
    },
    {
-    "q": "In the topic’s glossary, what is the koine?",
+    "q": "In the topic’s dictionary, what is the koine?",
     "o": [
      "The ideal of living unnoticed",
      "The common Greek language of Hellenism",
@@ -19246,7 +19246,7 @@ const QUIZZES = {
      "The set of authors who defended Christianity against the accusations of the Empire."
     ],
     "a": 0,
-    "fb": "The glossary defines Patristics as the tradition of the first thinkers of the Church who tried to explain the Christian faith in Greek and Roman conceptual language; Augustine is one of its high points."
+    "fb": "The dictionary defines Patristics as the tradition of the first thinkers of the Church who tried to explain the Christian faith in Greek and Roman conceptual language; Augustine is one of its high points."
    },
    {
     "q": "How is Scholasticism defined in the topic?",
@@ -22203,7 +22203,7 @@ const QUIZZES = {
     "fb": "The topic calls ‘heteronorm’ what is presented as normal, which is not natural but the result of a repeated norm, according to Butler."
    },
    {
-    "q": "According to the topic’s glossary, what is performativity?",
+    "q": "According to the topic’s dictionary, what is performativity?",
     "o": [
      "The biological and immutable essence of sex",
      "The external prohibition of social roles",
@@ -22214,7 +22214,7 @@ const QUIZZES = {
     "fb": "Performativity designates gender as a repeated act: something we do through the repetition of gestures, clothing and ways of speaking."
    },
    {
-    "q": "According to the glossary, eco-dependence is the idea that...",
+    "q": "According to the dictionary, eco-dependence is the idea that...",
     "o": [
      "the human being is a sovereign subject situated outside nature",
      "the economy works apart from the biosphere",
@@ -22258,7 +22258,7 @@ const QUIZZES = {
     "fb": "The public sphere needs reliable information, reasoned debate and shared attention, conditions that the logic of platforms tends to weaken."
    },
    {
-    "q": "An automatic recruitment system rejects female candidates from certain neighbourhoods because it learns from biased historical data. Which concept in the glossary best explains this?",
+    "q": "An automatic recruitment system rejects female candidates from certain neighbourhoods because it learns from biased historical data. Which concept in the dictionary best explains this?",
     "o": [
      "Algorithmic discrimination",
      "The manufacture of consent",
