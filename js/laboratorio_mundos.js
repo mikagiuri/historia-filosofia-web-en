@@ -1,5 +1,5 @@
-// Generado por web_i18n/i18n_rebuild.js (en) a partir de web/js/laboratorio_spinoza.js. No editar a mano: editar la memoria tm/en.json y regenerar.
-const LABSPZ = {
+// Generado por web_i18n/i18n_rebuild.js (en) a partir de web/js/laboratorio_mundos.js. No editar a mano: editar la memoria tm/en.json y regenerar.
+const LABMP = {
  "t": {
   "enDesarrollo": "In development",
   "avisoDesarrollo": "<strong>Table in development.</strong> It formalises Part I of Spinoza’s <em>Ethics</em> as checked in the Isabelle/HOL proof assistant. It may change and may contain errors.",
@@ -154,6 +154,7 @@ const LABSPZ = {
   "tEjemplo": "An example world",
   "ejemploTxt": "In this world all your premises hold, and so does the claim. That is no accident: it happens in every possible world that satisfies those premises, and that is what it means for it to follow.",
   "verIsabelle": "See the proof in Isabelle",
+  "altCaptura": "Screenshot of Isabelle: {t}",
   "gElige": "Choose a theory",
   "gNRetos": "{n} challenges",
   "gEmpieza": "to get started",
@@ -1957,6 +1958,50 @@ const LABSPZ = {
   "parrafos": [
    "Isabelle/HOL is a computer program that checks proofs step by step: if it accepts a proof, the proof has no logical flaws. Every premise on this table is a definition in Isabelle, and every claim the table presents as proved is a theorem with its proof, which Isabelle has accepted without a single error.",
    "Here you can see those proofs as they were written. Next to each result on the table, the link ‘See the proof in Isabelle’ takes you to the exact theorem."
+  ],
+  "tCapturas": "What Isabelle looks like: eight screenshots",
+  "introCapturas": "Real screenshots of the program (Isabelle2025-2) using the theories on this table. Click an image to enlarge it.",
+  "capturas": [
+   {
+    "f": "01_programa_abierto",
+    "t": "1. The program open.",
+    "d": "On the left, the editor, where the theory is written (here, Parmenides’ theory). Below, the ‘Output’ panel, where Isabelle replies. On the right, the list of theories: the white box means that everything has been checked."
+   },
+   {
+    "f": "02_definiciones",
+    "t": "2. A premise is a named sentence.",
+    "d": "‘definition P_no_ser’ gives a name to a sentence: ‘every thing x exists at every moment t’. Further down, ‘P_salto_otro’: if x is different from y, x does not exist. On the table, these sentences are the premise cards."
+   },
+   {
+    "f": "03_teorema_demostrado",
+    "t": "3. A proven theorem.",
+    "d": "‘theorem uno_mesa’: given the two premises (‘assumes’), all things are the same (‘shows’). The proof is the last line (‘by blast’). Isabelle accepts it: in ‘Output’ it repeats the theorem, with no warning."
+   },
+   {
+    "f": "04_sin_la_premisa",
+    "t": "4. Without a premise, the proof fails.",
+    "d": "The same proof, but without ‘P_salto_otro’. Isabelle marks the line in red and warns: ‘Failed to apply initial proof method’. With ‘P_no_ser’ alone, the statement does not follow."
+   },
+   {
+    "f": "05_nitpick_contramodelo",
+    "t": "5. Nitpick looks for a world where it fails.",
+    "d": "Nitpick does the same as the table: it looks for a possible world in which the premise is true and the statement is false. It finds one with 2 things and 1 moment: x = c₁ and y = c₂ are two different things, and both exist. This is a counterexample: that is why the statement does not follow."
+   },
+   {
+    "f": "06_prueba_por_pasos",
+    "t": "6. A step-by-step proof.",
+    "d": "The thesis of the fourth antinomy (‘tesis4’), proved step by step, as in ‘Step by step’ on the table: each line with ‘have’ or ‘obtain’ is a step, with its justification (‘by …’). Below, ‘Proof state’ shows what is still left to prove."
+   },
+   {
+    "f": "07_modelo_infinito",
+    "t": "7. An infinite model.",
+    "d": "‘modelo_antitesis3’ uses the integers (int): each number has a cause, the one before it (x = y + 1), and the series never ends going backwards. The table only builds small worlds; Isabelle can also reason about infinite worlds."
+   },
+   {
+    "f": "08_cuenta_con_numeros",
+    "t": "8. Isabelle knows maths too.",
+    "d": "Zeno’s dichotomy: 1/2 + 1/4 + 1/8 + … = 1. In Isabelle it is written ‘(λn. (1/2) ^ Suc n) sums 1’ (‘Suc n’ is n + 1) and it is proved with two theorems from its library on series: infinitely many halves add up to a finite distance."
+   }
   ],
   "pdf": "Download the Isabelle notebook (PDF, 79 pages)",
   "tTeorias": "The 15 theories, with their 298 results",

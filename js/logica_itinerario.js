@@ -351,7 +351,7 @@ const LOG_ITIN = {
     },
     {
      "t": "Laboratory, ‘Possible worlds’: the properties map from the review",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     }
    ],
    "control": {
@@ -417,19 +417,19 @@ const LOG_ITIN = {
    "pasos": [
     {
      "t": "Laboratory, ‘Possible worlds’: ‘About Isabelle, and thank you’",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laboratory, ‘Possible worlds’, practice theory: time, duration and creation",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laboratory, ‘Possible worlds’, theory ‘Time, defined’",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "“✎ Write your own proposition”, in either of the two worlds",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     }
    ],
    "control": {
@@ -468,15 +468,15 @@ const LOG_ITIN = {
    "pasos": [
     {
      "t": "Laboratory, ‘Possible worlds’, theory ‘The Five Ways’",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laboratory, ‘Possible worlds’, theory ‘Kant’s antinomies’: thesis, antithesis, Kant’s way out and others",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laboratory, ‘Possible worlds’, theory ‘From being to the cosmos’: Parmenides, his heirs and the Demiurge",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "The Five Ways and where they come from",
@@ -519,7 +519,7 @@ const LOG_ITIN = {
    "pasos": [
     {
      "t": "Laboratory, ‘Possible worlds’, theory ‘Spinoza, Ethics I’: layers, ‘Is any premise superfluous?’ and ‘Write your own proposition’",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     }
    ],
    "control": {
