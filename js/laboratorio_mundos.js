@@ -154,6 +154,8 @@ const LABMP = {
   "tEjemplo": "An example world",
   "ejemploTxt": "In this world all your premises hold, and so does the claim. That is no accident: it happens in every possible world that satisfies those premises, and that is what it means for it to follow.",
   "verIsabelle": "See the proof in Isabelle",
+  "asiIsabelle": "This is how Isabelle checks it (click to see the whole theory):",
+  "altTeorema": "Screenshot of Isabelle: theorem {t} and its proof",
   "altCaptura": "Screenshot of Isabelle: {t}",
   "gElige": "Choose a theory",
   "gNRetos": "{n} challenges",
