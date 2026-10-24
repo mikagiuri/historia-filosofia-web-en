@@ -45,8 +45,62 @@
     <button class="theme" id="helpbtn" title="How to use the website" aria-label="How to use the website">?</button>
     <details class="langmenu" id="langmenu"><summary class="theme langbtn" title="Language" aria-label="Language">🌐</summary><div class="langlist"><a href="https://mikagiuri.github.io/historia-filosofia-web/" hreflang="es" lang="es" onclick="this.href=this.href.split('#')[0]+location.hash">Castellano</a><a href="https://mikagiuri.github.io/historia-filosofia-web-eu/" hreflang="eu" lang="eu" onclick="this.href=this.href.split('#')[0]+location.hash">Euskara</a><a href="https://mikagiuri.github.io/historia-filosofia-web-fr/" hreflang="fr" lang="fr" onclick="this.href=this.href.split('#')[0]+location.hash">Français</a><a href="https://mikagiuri.github.io/historia-filosofia-web-en/" hreflang="en" lang="en" aria-current="true" onclick="this.href=this.href.split('#')[0]+location.hash">English</a><a href="https://mikagiuri.github.io/historia-filosofia-web-ar/" hreflang="ar" lang="ar" onclick="this.href=this.href.split('#')[0]+location.hash">العربية</a></div></details>
     <button class="theme" id="theme" title="Switch light/dark mode" aria-label="Switch light/dark mode">◐</button>
+    <button class="theme" id="a11ybtn" title="Reading: listen, font and spacing" aria-label="Reading: listen, font and spacing" aria-expanded="false" aria-controls="a11ypanel">Aa</button>
   </div>
 </header>
+<!-- DUA (P1, P2 y P7, 24-10): panel «Aa» (js/accesibilidad.js, js/escuchar.js, css/accesibilidad.css). Flota: no desplaza nada. -->
+<div class="a11y-panel" id="a11ypanel" role="dialog" aria-labelledby="a11ytit" hidden>
+  <p class="a11y-tit" id="a11ytit">Reading settings</p>
+  <button type="button" class="a11y-escuchar" id="a11yescuchar">▶ Listen to this page</button>
+  <p class="a11y-aviso" id="a11yaviso" role="status" hidden></p>
+  <fieldset>
+    <legend>Text size</legend>
+    <div class="a11y-seg" data-a11y="tam">
+      <button type="button" data-v="90" aria-label="Smaller text">A−</button>
+      <button type="button" data-v="100" aria-label="Normal text">A</button>
+      <button type="button" data-v="125" aria-label="Larger text">A+</button>
+      <button type="button" data-v="150" aria-label="Much larger text">A++</button>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Line spacing</legend>
+    <div class="a11y-seg" data-a11y="lh">
+      <button type="button" data-v="normal">Normal</button>
+      <button type="button" data-v="amplio">Wide</button>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Letter and word spacing</legend>
+    <div class="a11y-seg" data-a11y="esp">
+      <button type="button" data-v="normal">Normal</button>
+      <button type="button" data-v="amplio">Wide</button>
+    </div>
+  </fieldset>
+  <label class="a11y-fila"><span>Typeface</span>
+    <select id="a11yfuente">
+      <option value="web">The website’s own</option>
+      <option value="atkinson">Atkinson Hyperlegible</option>
+      <option value="sistema">The system’s own</option>
+      <option value="opendyslexic">OpenDyslexic (personal preference)</option>
+    </select>
+  </label>
+  <p class="a11y-nota" id="a11ynotaod" hidden>Some people find OpenDyslexic more comfortable, but there is no evidence that it helps people read better.</p>
+  <label class="a11y-chk"><input type="checkbox" data-a11y="izq"> <span>Align text to the left</span></label>
+  <label class="a11y-chk"><input type="checkbox" data-a11y="contraste"> <span>More contrast</span></label>
+  <label class="a11y-chk"><input type="checkbox" data-a11y="mov"> <span>Reduce motion</span></label>
+  <button type="button" class="a11y-reset" id="a11yreset">Reset</button>
+  <p class="a11y-pie">Settings are saved on this device only.</p>
+</div>
+<div class="a11y-bar" id="a11ybar" role="region" aria-label="Reading aloud" hidden>
+  <button type="button" id="a11ypausa" aria-label="Pause">⏸</button>
+  <button type="button" id="a11ysig" aria-label="Next paragraph">⏭</button>
+  <select id="a11yvel" aria-label="Speed">
+    <option value="0.8">0.8×</option>
+    <option value="1" selected>1×</option>
+    <option value="1.25">1.25×</option>
+  </select>
+  <button type="button" id="a11yparar" aria-label="Stop">■</button>
+</div>
 
 <main class="wrap" id="contenido">
 
@@ -178,6 +232,8 @@
 
   
 
+  
+
   <!-- MAPAS -->
   <section class="view" id="mapas">
     <p class="eyebrow">Tool</p>
@@ -189,6 +245,36 @@
       <div class="maphead" id="maphead"></div>
       <svg id="mapsvg" role="img" aria-label="Concept map"></svg>
     </div>
+  </section>
+
+  <!-- MI MAPA (DUA D3.2, decisión del profesor P5, 24-10): esquema propio con Markmap; solo FIL y HF (build_eso lo quita); se guarda en el dispositivo; js/mimapa.js -->
+  <section class="view" id="mimapa">
+    <p class="eyebrow">Tool</p>
+    <h1 class="title">My map</h1>
+    <p class="lead">Make your own map while you read the topic or your notes: write <strong>one idea per line</strong> and use <strong>indentation</strong> (Tab or two spaces) to hang some ideas from others. The map is drawn straight away, it is saved on this device and you can <strong>download it to view offline</strong>. To leave the box with the keyboard, press Esc and then Tab.</p>
+    <div class="mm-barra">
+      <label><span>My maps</span> <select id="mmmios" aria-label="My maps"></select></label>
+      <button type="button" class="mm-btn" id="mmnuevo">New map</button>
+      <button type="button" class="mm-btn" id="mmborrar">Delete this map</button>
+    </div>
+    <div class="mm-barra">
+      <label><span>Start from a map on the website</span> <select id="mmbase" aria-label="Start from a map on the website"></select></label>
+      <label><input type="checkbox" id="mmsolo" checked> <span>Main branches only, for you to complete</span></label>
+      <button type="button" class="mm-btn" id="mmusar">Use this map</button>
+    </div>
+    <div class="mm-grid">
+      <div class="mm-edit">
+        <label><span>Title</span> <input type="text" id="mmtitulo" placeholder="For example: Plato"></label>
+        <label><span>Ideas (one per line; indentation marks the branches)</span> <textarea id="mmtexto" spellcheck="true" placeholder="Las Ideas&#10;  perfectas y eternas&#10;  modelo de las cosas&#10;El mundo sensible&#10;  cambiante&#10;  copia de las Ideas"></textarea></label>
+      </div>
+      <div class="mapstage"><svg id="mmsvg" role="img" aria-label="Drawing of my map"></svg></div>
+    </div>
+    <div class="mm-acciones">
+      <button type="button" class="mm-btn" id="mmhtml">Download to view offline (.html)</button>
+      <button type="button" class="mm-btn" id="mmmd">Download the text (.md)</button>
+      <span class="mm-btn mm-cargar">Load a .md file <input type="file" id="mmcargar" accept=".md,.txt,text/markdown,text/plain" aria-label="Load a .md file"></span>
+    </div>
+    <p class="mm-pie">It is not handed in or marked: it is for studying. It is saved on this device only.</p>
   </section>
 
   <!-- ESQUEMAS -->
@@ -1197,6 +1283,8 @@
 (function(){var s=document.querySelector(".sitefoot-ver");if(!s||!window.fetch)return;fetch("sw.js",{cache:"no-cache"}).then(function(r){return r.ok?r.text():"";}).then(function(t){var m=/VERSION\s*=\s*"(v\d+)/.exec(t);if(m)s.textContent=" · "+m[1];}).catch(function(){});})();</script>
 
 <script src="js/store.js"></script>
+<script src="js/accesibilidad.js"></script><!-- DUA D1.2: panel «Aa» (P1, P2, P7) -->
+<script src="js/escuchar.js"></script><!-- DUA D1.1: «Escuchar esta página» -->
 <script src="js/lang_fragmentos.js"></script><!-- DUA D0.6: marca el griego con lang="grc" tras pintar la vista -->
 <script src="js/data.js"></script>
 <script src="js/tarjetas_img.js"></script>
@@ -1228,6 +1316,7 @@
 <!-- markmap-autoloader se carga bajo demanda al abrir Mapas (js/lazy_libs.js) -->
 <script src="js/maps.js"></script>
 <script src="js/mapsview.js"></script>
+<script src="js/mimapa.js"></script><!-- DUA D3.2: «Mi mapa» -->
 <script src="js/infografias.js"></script>
 <script src="js/infografiasview.js"></script>
 <script src="js/diccionario.js"></script>
@@ -1338,7 +1427,7 @@
 <script src="js/compacto.js"></script>
 <script src="js/nav_toc.js"></script>
 <script src="js/lazy_libs.js"></script>
-<script>window.USO_CONFIG={"url":"https://script.google.com/macros/s/AKfycbzBE41zf12MG7pFbgwgjbOQPriNBJZz4vSigkE-gIjWgSx67pQ-K1IgI4qoRpMlIaQT/exec","grupos":{"hf":["2E"]},"version":"v278"};</script>
+<script>window.USO_CONFIG={"url":"https://script.google.com/macros/s/AKfycbzBE41zf12MG7pFbgwgjbOQPriNBJZz4vSigkE-gIjWgSx67pQ-K1IgI4qoRpMlIaQT/exec","grupos":{"hf":["2E"]},"version":"v279"};</script>
 <script src="js/uso.js"></script>
 <script>
   /* PWA: registra el service worker (offline + instalable). Falla en silencio

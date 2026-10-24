@@ -12,7 +12,7 @@
      epocas         →  Fichas · Cronogramas · Genealogías   (epocas / cronogramas / genealogias)
      biografias     →  Todos · Perseguidos · Comunidades   (biografias / perseguidos / comunidades)
      talleres       →  Taller de Leibniz · El universo aristotélico · El arte de la palabra · Los afectos de Spinoza   (leibniz / universo / palabra / afectos; 19-10, 20-10)
-     mapas          →  Mapas conceptuales ⇄ Infografías   (mapas / infografias; 23-10: el botón «Mapas e infografías» ya no abre solo Mapas)
+     mapas          →  Mapas conceptuales ⇄ Infografías ⇄ Mi mapa   (mapas / infografias / mimapa; 23-10: el botón «Mapas e infografías» ya no abre solo Mapas; 24-10: «Mi mapa», DUA D3.2, solo FIL y HF)
 
    Integración con el resto (sin tocar esos ficheros más que lo justo):
    - app.js (show) usa commuteEntry(id) para marcar en el menú la ENTRADA del grupo
@@ -29,7 +29,7 @@ const CONMUTADORES = [
   { entry: "epocas",       modos: [["epocas", "Cards"], ["cronogramas", "Chronograms"], ["genealogias", "Genealogies"]] },
   { entry: "biografias",     modos: [["biografias", "All"], ["perseguidos", "Persecuted"], ["comunidades", "Communities"]] },
   { entry: "leibniz",      modos: [["leibniz", "Leibniz’s Workshop"], ["universo", "The Aristotelian universe"], ["palabra", "The Art of the Word"], ["afectos", "Spinoza's affects"], ["hegel", "Hegel’s Workshop"]] },   // (22-10) + hegel (solo HF); (20-10) + afectos; (19-10) «Talleres»: unidades transversales
-  { entry: "mapas",        modos: [["mapas", "Concept maps"], ["infografias", "Infographics"]] }   // (23-10) el botón «Mapas e infografías» cumple su rótulo: Infografías no tenía puerta de menú; el conmutador la saca (ambas secciones ya están en el build de fil y hf)
+  { entry: "mapas",        modos: [["mapas", "Concept maps"], ["infografias", "Infographics"], ["mimapa", "My map"]] }   // (23-10) el botón «Mapas e infografías» cumple su rótulo: Infografías no tenía puerta de menú; el conmutador la saca (ambas secciones ya están en el build de fil y hf)
 ];
 
 /* índices vista → { entrada, rótulo, grupo } */

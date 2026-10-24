@@ -58,7 +58,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The topics are grouped by <strong>periods</strong> (Ancient, Medieval, Renaissance, Modern, Enlightenment and Contemporary), each with its own colour, and the list starts with Topic 3. Topics 1 and 2, which introduce the subject, are at the end. The colour of each period goes with you all over the site: in the filters, the cards and the quizzes.",
+   "x": "The topics are grouped by <strong>periods</strong> (Ancient, Medieval, Modern, Enlightenment and Contemporary), each with its own colour, and the list starts with Topic 3. Topics 1 and 2, which introduce the subject, are at the end. The colour of each period goes with you all over the site: in the filters, the cards and the quizzes.",
    "solo": "hf"
   },
   {
@@ -85,6 +85,10 @@ const GUIA = {
    "x": "In the header you also have the <strong>search</strong> 🔎, the <strong>language</strong> button 🌐, the <strong>light or dark theme</strong> button ◐ and the button for this <strong>guide</strong> ?. The screenshots in this guide are in <strong>night mode</strong>; if you prefer a light background, press ◐."
   },
   {
+   "type": "p",
+   "x": "The <strong>Aa</strong> button opens the <strong>reading settings</strong>. <strong>Listen to this page</strong> reads aloud, paragraph by paragraph, whatever is in front of you. You can also make the text bigger, add more space between lines, letters and words, change the typeface, align the text to the left, raise the contrast or turn off animations. Settings are saved on your device only, and <strong>Reset</strong> puts everything back as it was. To listen, your device needs a voice in the language of the website; with the ‘online’ voices in Chrome or Edge, the text of the page goes through the browser’s speech service."
+  },
+  {
    "type": "h",
    "x": "Inside a topic"
   },
@@ -99,12 +103,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, dictionary concepts, its period and its chronogram), <strong>Prepare for the PAU</strong> (readings, commentaries, essays and comparisons) and <strong>Go deeper</strong>, which opens when you press it (explorations, controversies, games and, in some topics, videos in Basque with their transcript).",
+   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, dictionary concepts, its period and its chronogram), <strong>Prepare for the PAU</strong> (readings, commentaries, essays and comparisons) and <strong>Go deeper</strong>, which opens when you press it (explorations, dilemmas, hints, the Logic Corner, controversies, communities, the persecuted, the Duel of Reasons, games and, in some topics, videos in Basque with their transcript).",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, dictionary concepts and its period), <strong>Think and write</strong> (readings, essays, dilemmas and the Logic Corner) and <strong>Go deeper</strong>, which opens when you press it (explorations, controversies, games and, in some topics, videos in Basque with their transcript).",
+   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, dictionary concepts and its period), <strong>Think and write</strong> (readings, essays, dilemmas, hints and the Logic Corner) and <strong>Go deeper</strong>, which opens when you press it (explorations, controversies, communities, the persecuted, the Duel of Reasons, games and, in some topics, videos in Basque with their transcript).",
    "solo": "fil"
   },
   {
@@ -207,11 +211,11 @@ const GUIA = {
     },
     {
      "nombre": "Maps and infographics",
-     "texto": "Maps that fold and unfold: press a node to open or close its branches, drag to move around and use the wheel to zoom in. The infographics and outlines for each topic open from the ‘To continue with this topic’ box or from ‘Explore the subject’, on the subject page.",
+     "texto": "Maps that fold and unfold: press a node to open or close its branches, drag to move around and use the wheel to zoom in. At the top there are two buttons to switch between concept maps and infographics. The outlines for each topic open from the ‘To continue with this topic’ box or from ‘Explore the subject’, on the subject page.",
      "view": "mapas"
     },
     {
-     "nombre": "Glossary",
+     "nombre": "Dictionary",
      "texto": "The subject’s dictionary: every term with its definition. Search for a word or filter the terms.",
      "view": "diccionario"
     },
@@ -226,6 +230,10 @@ const GUIA = {
    "type": "img",
    "src": "07_tarjetas.webp",
    "cap": "Cards: choose the type, the filter and the deck; below are the buttons to move on, shuffle and mark “I know it”."
+  },
+  {
+   "type": "tip",
+   "x": "In <strong>Maps and infographics</strong> there is also <strong>My map</strong>: make your own map while you read, with one idea per line and indentation for the branches, or start from a map on the website and complete it. It is saved on your device and you can download it to view offline. It is not handed in or marked: it is for studying."
   },
   {
    "type": "h",
@@ -283,12 +291,12 @@ const GUIA = {
   {
    "type": "p",
    "solo": "fil",
-   "x": "The <strong>Logic Corner</strong> now has its own tab. It brings together truth tables, valid arguments, syllogisms with Venn diagrams, paradoxes and exercises to train your reasoning."
+   "x": "The <strong>Logic Corner</strong> now has its own tab. It brings together truth tables, valid arguments, syllogisms with Venn diagrams, paradoxes and exercises to train your reasoning, plus a <strong>pathway from zero to expert</strong> to work through in order."
   },
   {
    "type": "p",
    "solo": "fil",
-   "x": "At the top, the <strong>Laboratory</strong>, with several tables to work step by step: truth trees, a world of shapes, relations, guided proofs and the tables of Kant’s judgements and Spinoza’s Ethics."
+   "x": "At the top, the <strong>Laboratory</strong>, with several tables to work step by step: truth trees, a world of shapes, relations, guided proofs, natural deduction, induction and abduction, ‘Let’s talk’, Kant’s judgements and ‘Possible worlds’, which is still in development."
   },
   {
    "type": "h",
