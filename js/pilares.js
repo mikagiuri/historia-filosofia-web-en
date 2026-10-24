@@ -1,7 +1,7 @@
 // Generado por web_i18n/i18n_rebuild.js (en) a partir de web/js/pilares.js. No editar a mano: editar la memoria tm/en.json y regenerar.
 const PILARES = {
  "t": {
-  "intro": "A <strong>pillar</strong> is a concept that holds up a large part of philosophy and whose meaning has changed over the course of history. Here you climb it in ten steps: each one is a way of understanding it that corrects or displaces the one before. The first ones will seem easy; the last ones are genuinely hard. This is not a glossary for revision: it is an exercise. On each step you have to understand what is said, apply it to a case, link it to what you have already climbed and check whether you have understood it.",
+  "intro": "A <strong>pillar</strong> is a concept that holds up a large part of philosophy and whose meaning has changed over the course of history. Here you climb it in ten steps: each one is a way of understanding it that corrects or displaces the one before. The first ones will seem easy; the last ones are genuinely hard. This is not a dictionary for revision: it is an exercise. On each step you have to understand what is said, apply it to a case, link it to what you have already climbed and check whether you have understood it.",
   "comoTit": "How to work on a pillar",
   "como": [
    "<strong>Understand</strong> what is said and the quotation: read it slowly and explain it in your own words.",
