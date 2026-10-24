@@ -198,7 +198,7 @@ const EA_EJES = {
      "Machiavelli; the contractualists Hobbes, Locke and Rousseau; Montesquieu, who thinks about how to limit power.",
      "A break with the divine or natural origin of power: society is a product of the human will. Locke grounds natural rights in God; Hobbes reasons mechanically.",
      "The state of nature is not a historical fact but a philosophical experiment: a model to justify political power rationally.",
-     "A wolf to man, selfish (Hobbes); reasonable, with rights to life, liberty and property (Locke); good by nature, corrupted by society (Rousseau).",
+     "Selfish, a wolf to man (Hobbes, in Plautus’s words); reasonable, with rights to life, liberty and property (Locke); good by nature, corrupted by society (Rousseau).",
      "Absolute power that gives security (Leviathan), limited and revocable government (Locke), popular sovereignty and general will (Rousseau), separation of powers (Montesquieu).",
      "Machiavelli describes power as it is, not as it should be (fortuna and virtù); Hobbes explains politics with the mechanical outlook of the new science.",
      "The basis of liberalism and of the rule of law; an echo in the US Declaration of Independence (1776); criterion of legitimacy: origin, end and limit of power."

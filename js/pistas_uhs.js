@@ -3134,16 +3134,16 @@ const PISTAS = [
     "repaso": [
      "Have I said that, for Spinoza, nothing is more useful to a human being than another human being?",
      "Have I explained that those guided by reason agree, because they want for others what they want for themselves?",
-     "Have I contrasted his formula ‘man is a God to man’ with Hobbes’s ‘wolf’?"
+     "Have I contrasted his formula ‘man is a God to man’ with Plautus’s ‘wolf’, popularised by Hobbes?"
     ],
     "intro": [
-     "Hobbes, a contemporary of Spinoza, thought that if everyone looks after their own interests, man is a wolf to man. Spinoza also starts from self-interest. Think about where he ends up."
+     "Hobbes, a contemporary of Spinoza, thought that if everyone looks after their own interests, man is a wolf to man (a line from Plautus that he made famous). Spinoza also starts from self-interest. Think about where he ends up."
     ],
     "pistas": [
      "Remember: for Spinoza, seeking one’s own advantage is not a vice; it is the basis of virtue.",
      "Ask yourself what is most useful for preserving and increasing your power. A thing, or someone?",
      "Spinoza replies that <strong>nothing is more useful to man than man</strong>, above all the man guided by reason: two people who think well want compatible things.",
-     "That is why those guided by reason <strong>want nothing for themselves that they do not want for others</strong>. Against Hobbes’s wolf, Spinoza writes that ‘man is a God to man’."
+     "That is why those guided by reason <strong>want nothing for themselves that they do not want for others</strong>. Against the wolf that Hobbes popularised (the phrase is Plautus’s), Spinoza writes that ‘man is a God to man’."
     ],
     "comprobacion": {
      "pregunta": "According to Spinoza, why does seeking one’s own advantage not lead to conflict?",
@@ -3189,7 +3189,7 @@ const PISTAS = [
       "definicion": [
        "Spinoza does not set self-interest against morality: seeking what is useful to oneself, under reason, is virtue.",
        "But reason shows that what is most useful to each of us is another human being who is also guided by reason: together they are more powerful than apart. That is why they want for others the same as for themselves.",
-       "The passions, on the other hand, set us against one another: in them human beings disagree. Against Hobbes’s ‘wolf’, which needs a sovereign to restrain it, Spinoza trusts that reason produces harmony."
+       "The passions, on the other hand, set us against one another: in them human beings disagree. Against Plautus’s ‘wolf’, made famous by Hobbes, a wolf that needs a sovereign to restrain it, Spinoza trusts that reason produces harmony."
       ],
       "comprobacion": {
        "boton": "Finish by checking",
@@ -3212,7 +3212,7 @@ const PISTAS = [
         [
          "Never: man is a wolf to man.",
          false,
-         "That is Hobbes’s thesis, which Spinoza turns on its head."
+         "That is the view Hobbes made famous with Plautus’s line, and Spinoza turns it on its head."
         ]
        ],
        "ok": "Correct: reason unites; the passions divide.",

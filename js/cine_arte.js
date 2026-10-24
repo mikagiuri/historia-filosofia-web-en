@@ -77,7 +77,7 @@ const CINE = [
   "t": "Lord of the Flies",
   "year": 1990,
   "autor": "Harry Hook",
-  "q": "Hobbes's state of nature: without a pact, ‘man is a wolf to man’.",
+  "q": "Hobbes's state of nature: without a pact, ‘man is a wolf to man’ (a line from Plautus that he made famous).",
   "esc": "The conch as the symbol of the right to speak, and the moment when Jack’s group scorns it.",
   "pregs": [
    "What does the conch represent, and why does it lose its power?",

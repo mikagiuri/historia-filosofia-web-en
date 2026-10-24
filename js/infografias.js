@@ -800,7 +800,7 @@ const INFOGRAFIAS = {
   "title": "THOMAS<br><em>HOBBES</em>",
   "kicker": "History of Philosophy · Hobbes",
   "subtitle": "The contract of fear",
-  "tagline": "Homo homini lupus",
+  "tagline": "Homo homini lupus (Plautus)",
   "author": "1588–1679",
   "ghost": "Leviathan",
   "portrait": "hobbes.jpg",
@@ -817,7 +817,7 @@ const INFOGRAFIAS = {
      },
      {
       "t": "War of all against all",
-      "p": "‘Man is a wolf to man’; life is solitary, poor and short."
+      "p": "As Plautus’s line has it, ‘man is a wolf to man’; life is solitary, poor and short."
      },
      {
       "t": "The covenant",

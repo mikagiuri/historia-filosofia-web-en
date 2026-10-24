@@ -112,7 +112,7 @@ const MAPS = {
   "subject": "hf",
   "tema": "History of Philosophy · Modern political philosophy",
   "title": "The social contract",
-  "md": "# The social contract\n## The idea\n- Power does not come from God but from a **pact** between individuals\n- From the **state of nature** to **civil society**\n## Hobbes — absolutism\n- State of nature: **war of all against all**\n- *‘Man is a wolf to man’*\n- **All** power is surrendered to the sovereign: the **Leviathan**\n- Aim: **security**\n## Locke — liberalism\n- Natural rights: life, liberty and **property**\n- Power is **limited** and revocable\n- **Separation of powers**; parliamentary monarchy\n- Aim: to protect rights\n## Rousseau — democracy\n- The human being is born **good**; society corrupts him\n- **General will** — sovereignty of the people\n- Aim: **freedom** and equality"
+  "md": "# The social contract\n## The idea\n- Power does not come from God but from a **pact** between individuals\n- From the **state of nature** to **civil society**\n## Hobbes — absolutism\n- State of nature: **war of all against all**\n- *‘Man is a wolf to man’* (Plautus; popularised by Hobbes)\n- **All** power is surrendered to the sovereign: the **Leviathan**\n- Aim: **security**\n## Locke — liberalism\n- Natural rights: life, liberty and **property**\n- Power is **limited** and revocable\n- **Separation of powers**; parliamentary monarchy\n- Aim: to protect rights\n## Rousseau — democracy\n- The human being is born **good**; society corrupts him\n- **General will** — sovereignty of the people\n- Aim: **freedom** and equality"
  },
  "map-utilitarismo-liberalismo": {
   "subject": "hf",

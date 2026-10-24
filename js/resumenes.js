@@ -972,7 +972,7 @@ const RESUMENES = [
     "items": [
      {
       "t": "War of all against all",
-      "d": "‘Man is a wolf to man.’"
+      "d": "‘Man is a wolf to man’: a line from Plautus that Hobbes made famous."
      },
      {
       "t": "An absolute sovereign: the Leviathan",

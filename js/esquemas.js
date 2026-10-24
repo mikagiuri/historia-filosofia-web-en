@@ -3550,7 +3550,7 @@ const ESQUEMAS = {
   "block": "B",
   "tema": "Social contract",
   "title": "The social contract",
-  "mermaid": "flowchart TD\n  center[\"THE SOCIAL CONTRACT\"]:::axis\n  idea[\"From the state of nature to society<br>by a pact\"]:::key\n  hob[\"HOBBES\"]:::key\n  loc[\"LOCKE\"]:::key\n  rou[\"ROUSSEAU\"]:::key\n  center -->|\"common thesis\"| idea\n  idea --> hob\n  idea --> loc\n  idea --> rou\n  hob --> h1[\"‘homo homini lupus’\"]\n  hob -->|\"pact that gives\"| h2[\"Leviathan:<br>absolute monarchy\"]\n  loc --> l1[\"natural rights:<br>life, liberty, property\"]\n  loc -->|\"pact that gives\"| l2[\"parliamentary monarchy<br>+ separation of powers\"]\n  rou --> r1[\"the general will\"]\n  rou -->|\"pact that gives\"| r2[\"assembly democracy\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;",
+  "mermaid": "flowchart TD\n  center[\"THE SOCIAL CONTRACT\"]:::axis\n  idea[\"From the state of nature to society<br>by a pact\"]:::key\n  hob[\"HOBBES\"]:::key\n  loc[\"LOCKE\"]:::key\n  rou[\"ROUSSEAU\"]:::key\n  center -->|\"common thesis\"| idea\n  idea --> hob\n  idea --> loc\n  idea --> rou\n  hob --> h1[\"‘homo homini lupus’<br>(Plautus, popularised by Hobbes)\"]\n  hob -->|\"pact that gives\"| h2[\"Leviathan:<br>absolute monarchy\"]\n  loc --> l1[\"natural rights:<br>life, liberty, property\"]\n  loc -->|\"pact that gives\"| l2[\"parliamentary monarchy<br>+ separation of powers\"]\n  rou --> r1[\"the general will\"]\n  rou -->|\"pact that gives\"| r2[\"assembly democracy\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;",
   "v2": {
    "pregunta": "If society is not natural, why do we obey power and what limits does it have?",
    "raiz": "THE SOCIAL CONTRACT",
@@ -3576,7 +3576,7 @@ const ESQUEMAS = {
       {
        "rel": "state of nature",
        "t": "War of all against all",
-       "d": "‘Man is a wolf to man.’"
+       "d": "‘Man is a wolf to man’: a line from Plautus that Hobbes made famous."
       },
       {
        "rel": "the contract creates",

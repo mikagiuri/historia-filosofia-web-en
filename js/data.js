@@ -12932,7 +12932,7 @@ const QUIZZES = {
      "Hobbes sees it as selfish; Rousseau, as good until society corrupts it."
     ],
     "a": 3,
-    "fb": "For Hobbes, without a State the human being is selfish (‘a wolf to man’); for Rousseau he is good by nature and society corrupts him."
+    "fb": "For Hobbes, without a State the human being is selfish (‘a wolf to man’, in the words of Plautus that he made famous); for Rousseau he is good by nature and society corrupts him."
    },
    {
     "q": "Which idea of the ancient tradition do the modern contractualists call into question?",
@@ -13067,7 +13067,7 @@ const QUIZZES = {
     "fb": "Coercion is the use of the State’s force (here, the penalty) to enforce the laws."
    },
    {
-    "q": "Who is the saying ‘man is a wolf to man’ attributed to?",
+    "q": "Which modern philosopher popularised Plautus’s saying ‘man is a wolf to man’?",
     "o": [
      "Machiavelli.",
      "Rousseau.",
@@ -13075,7 +13075,7 @@ const QUIZZES = {
      "Hobbes."
     ],
     "a": 3,
-    "fb": "The saying sums up Hobbes’s view of the state of nature: without a State, selfishness leads to the war of all against all."
+    "fb": "The saying is by Plautus (Asinaria), but Hobbes made it famous in De cive (1642): for him, without a State, selfishness leads to the war of all against all."
    },
    {
     "q": "Which author wrote ‘The Prince’, in which he describes power as it is?",
