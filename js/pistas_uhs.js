@@ -2,7 +2,7 @@
 const PISTAS = [
  {
   "id": "socrates-sofistas",
-  "ilustre": "socrates",
+  "biografia": "socrates",
   "subject": "hf",
   "tema": "Topic 5 · Socrates and the Sophists",
   "unidad": "hf-sofistas",
@@ -62,7 +62,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "The measure of all things",
-      "glosario": [
+      "diccionario": [
        "g-sofistas",
        "g-nomos"
       ],
@@ -102,7 +102,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Irony and maieutics",
-      "glosario": [
+      "diccionario": [
        "g-ironia-socratica",
        "g-mayeutica"
       ],
@@ -198,7 +198,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Virtue and knowledge",
       "titulo": "No one errs willingly",
-      "glosario": [
+      "diccionario": [
        "g-intelectualismo-moral",
        "g-akrasia"
       ],
@@ -253,7 +253,7 @@ const PISTAS = [
  },
  {
   "id": "hf-caverna",
-  "ilustre": "platon",
+  "biografia": "platon",
   "subject": "hf",
   "tema": "Topic 6 · Plato",
   "unidad": "hf-platon",
@@ -312,7 +312,7 @@ const PISTAS = [
       "boton": "I need to see the outline",
       "etiqueta": "Outline of the allegory",
       "titulo": "What each thing is",
-      "glosario": [
+      "diccionario": [
        "g-el-mito-de-la-caverna",
        "g-doxa",
        "g-episteme"
@@ -355,7 +355,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "The two worlds",
-      "glosario": [
+      "diccionario": [
        "g-mundo-sensible",
        "g-teoria-de-las-ideas",
        "g-dualismo-ontologico"
@@ -446,7 +446,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Knowledge and politics",
       "titulo": "The philosopher’s return",
-      "glosario": [
+      "diccionario": [
        "g-el-bien",
        "g-dialectica-ap"
       ],
@@ -496,7 +496,7 @@ const PISTAS = [
  },
  {
   "id": "platon-alma",
-  "ilustre": "platon",
+  "biografia": "platon",
   "subject": "hf",
   "tema": "Topic 7 · Plato: the soul",
   "unidad": "hf-antropologia",
@@ -556,7 +556,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "Two parts that clash",
-      "glosario": [
+      "diccionario": [
        "g-alma-racional",
        "g-alma-concupiscible"
       ],
@@ -596,7 +596,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Three parts, three functions",
-      "glosario": [
+      "diccionario": [
        "g-las-tres-partes-del-alma",
        "g-alma-irascible"
       ],
@@ -689,7 +689,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "The soul and the city",
       "titulo": "Doing one's own",
-      "glosario": [
+      "diccionario": [
        "g-justicia",
        "g-sabiduria",
        "g-valentia",
@@ -746,7 +746,7 @@ const PISTAS = [
  },
  {
   "id": "aristoteles-etica",
-  "ilustre": "aristoteles",
+  "biografia": "aristoteles",
   "subject": "hf",
   "tema": "Topic 8 · Aristotle: ethics",
   "unidad": "hf-etica",
@@ -806,7 +806,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "The definition",
-      "glosario": [
+      "diccionario": [
        "g-eudaimonia",
        "g-arete"
       ],
@@ -846,7 +846,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Ultimate end and function",
-      "glosario": [
+      "diccionario": [
        "g-eudaimonia",
        "g-teleologia"
       ],
@@ -939,7 +939,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "The mean",
       "titulo": "Neither cowardly nor rash",
-      "glosario": [
+      "diccionario": [
        "g-termino-medio",
        "g-phronesis",
        "g-virtud"
@@ -995,7 +995,7 @@ const PISTAS = [
  },
  {
   "id": "agustin-mal",
-  "ilustre": "agustin",
+  "biografia": "agustin",
   "subject": "hf",
   "tema": "Topic 12 · Augustine of Hippo",
   "unidad": "hf-fe-razon",
@@ -1055,7 +1055,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "Everything that exists is good",
-      "glosario": [
+      "diccionario": [
        "g-mal-como-privacion",
        "g-neoplatonismo"
       ],
@@ -1095,7 +1095,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "From Manichaeism to privation",
-      "glosario": [
+      "diccionario": [
        "g-mal-como-privacion",
        "g-conversion"
       ],
@@ -1187,7 +1187,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "The will",
       "titulo": "A twisted will",
-      "glosario": [
+      "diccionario": [
        "g-libre-albedrio",
        "g-interioridad"
       ],
@@ -1243,7 +1243,7 @@ const PISTAS = [
  },
  {
   "id": "tomas-fe-razon",
-  "ilustre": "tomas",
+  "biografia": "tomas",
   "subject": "hf",
   "tema": "Topic 12 · Thomas Aquinas",
   "unidad": "hf-fe-razon",
@@ -1303,7 +1303,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "A twofold mode of truth",
-      "glosario": [
+      "diccionario": [
        "g-verdades-naturales-y-sobrenaturales",
        "g-escolastica"
       ],
@@ -1343,7 +1343,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Distinguish without separating",
-      "glosario": [
+      "diccionario": [
        "g-verdades-naturales-y-sobrenaturales",
        "g-ley-natural"
       ],
@@ -1440,7 +1440,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "The First Way",
       "titulo": "From motion to the first mover",
-      "glosario": [
+      "diccionario": [
        "g-cinco-vias",
        "g-el-ser-necesario",
        "g-argumento-ontologico"
@@ -1497,7 +1497,7 @@ const PISTAS = [
  },
  {
   "id": "descartes-metodo",
-  "ilustre": "descartes",
+  "biografia": "descartes",
   "subject": "hf",
   "tema": "Topic 14 · Descartes",
   "unidad": "hf-racionalismo",
@@ -1557,7 +1557,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "The first rule",
-      "glosario": [
+      "diccionario": [
        "g-reglas-del-metodo",
        "g-ideas-claras-y-distintas"
       ],
@@ -1597,7 +1597,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Four rules",
-      "glosario": [
+      "diccionario": [
        "g-reglas-del-metodo",
        "g-intuicion",
        "g-deduccion"
@@ -1691,7 +1691,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Living while one doubts",
       "titulo": "The travellers in the forest",
-      "glosario": [
+      "diccionario": [
        "g-moral-provisional",
        "g-duda-metodica"
       ],
@@ -1747,7 +1747,7 @@ const PISTAS = [
  },
  {
   "id": "hf-duda",
-  "ilustre": "descartes",
+  "biografia": "descartes",
   "subject": "hf",
   "tema": "Topic 14 · Descartes",
   "unidad": "hf-racionalismo",
@@ -1805,7 +1805,7 @@ const PISTAS = [
       "boton": "I need to see the steps",
       "etiqueta": "The path of doubt",
       "titulo": "Three reasons to doubt",
-      "glosario": [
+      "diccionario": [
        "g-el-genio-maligno"
       ],
       "definicion": [
@@ -1848,7 +1848,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Methodical doubt",
-      "glosario": [
+      "diccionario": [
        "g-duda-metodica",
        "g-ideas-claras-y-distintas"
       ],
@@ -1939,7 +1939,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "The first certainty",
       "titulo": "The cogito",
-      "glosario": [
+      "diccionario": [
        "g-cogito",
        "g-res-cogitans",
        "g-la-garantia-de-dios"
@@ -1990,7 +1990,7 @@ const PISTAS = [
  },
  {
   "id": "hume-empirismo",
-  "ilustre": "hume",
+  "biografia": "hume",
   "subject": "hf",
   "tema": "Topic 14 · Hume",
   "unidad": "hf-racionalismo",
@@ -2050,7 +2050,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "Copies of impressions",
-      "glosario": [
+      "diccionario": [
        "g-impresion",
        "g-empirismo"
       ],
@@ -2090,7 +2090,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "The empiricist criterion",
-      "glosario": [
+      "diccionario": [
        "g-impresion",
        "g-haz-de-percepciones"
       ],
@@ -2183,7 +2183,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Causality and custom",
       "titulo": "The great guide of life",
-      "glosario": [
+      "diccionario": [
        "g-relaciones-de-ideas",
        "g-habito",
        "g-el-problema-de-la-induccion"
@@ -2240,7 +2240,7 @@ const PISTAS = [
  },
  {
   "id": "descartes-sustancias",
-  "ilustre": "descartes",
+  "biografia": "descartes",
   "subject": "hf",
   "tema": "Topic 15 · Descartes: the substances",
   "unidad": "hf-metafisica",
@@ -2300,7 +2300,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "A substance that only thinks",
-      "glosario": [
+      "diccionario": [
        "g-res-cogitans-dm",
        "g-sustancia-dm"
       ],
@@ -2340,7 +2340,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "The three substances",
-      "glosario": [
+      "diccionario": [
        "g-sustancia-dm",
        "g-res-extensa",
        "g-la-garantia-de-dios-dm"
@@ -2438,7 +2438,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Elisabeth’s objection",
       "titulo": "How does the soul move the body?",
-      "glosario": [
+      "diccionario": [
        "g-dualismo-dm",
        "g-glandula-pineal",
        "g-ocasionalismo-dm"
@@ -2495,7 +2495,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-naturaleza",
-  "ilustre": "spinoza",
+  "biografia": "spinoza",
   "subject": "hf",
   "tema": "Topic 15 · Spinoza",
   "unidad": "hf-metafisica",
@@ -2554,7 +2554,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "What the Ethics says",
-      "glosario": [
+      "diccionario": [
        "g-deus-sive-natura",
        "g-modo"
       ],
@@ -2594,7 +2594,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "What produces and what is produced",
-      "glosario": [
+      "diccionario": [
        "g-natura-naturans",
        "g-sustancia-b5"
       ],
@@ -2684,7 +2684,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Necessity without purposes",
       "titulo": "The prejudice of the ‘what for’",
-      "glosario": [
+      "diccionario": [
        "g-deus-sive-natura",
        "g-panteismo"
       ],
@@ -2739,7 +2739,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-libertad",
-  "ilustre": "spinoza",
+  "biografia": "spinoza",
   "subject": "hf",
   "tema": "Topic 15 · Spinoza",
   "unidad": "hf-metafisica",
@@ -2799,7 +2799,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "Effort and the affects",
-      "glosario": [
+      "diccionario": [
        "g-conatus",
        "g-alegria-y-tristeza"
       ],
@@ -2839,7 +2839,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "From conatus to love and hatred",
-      "glosario": [
+      "diccionario": [
        "g-conatus",
        "g-alegria-y-tristeza"
       ],
@@ -2932,7 +2932,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Freedom without free will",
       "titulo": "To understand is to act",
-      "glosario": [
+      "diccionario": [
        "g-servidumbre",
        "g-idea-adecuada"
       ],
@@ -2987,7 +2987,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-alegria",
-  "ilustre": "spinoza",
+  "biografia": "spinoza",
   "subject": "hf",
   "tema": "Topic 15 · Spinoza",
   "unidad": "hf-metafisica",
@@ -3047,7 +3047,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "Three sentences from the Ethics",
-      "glosario": [
+      "diccionario": [
        "g-beatitud",
        "g-conatus"
       ],
@@ -3087,7 +3087,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "An ethics of power",
-      "glosario": [
+      "diccionario": [
        "g-alegria-y-tristeza",
        "g-beatitud"
       ],
@@ -3178,7 +3178,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Usefulness and community",
       "titulo": "Man, a God to man",
-      "glosario": [
+      "diccionario": [
        "g-conatus",
        "g-servidumbre"
       ],
@@ -3233,7 +3233,7 @@ const PISTAS = [
  },
  {
   "id": "contrato-social",
-  "ilustre": "rousseau",
+  "biografia": "rousseau",
   "subject": "hf",
   "tema": "Topic 16 · The social contract",
   "unidad": "hf-contrato",
@@ -3293,7 +3293,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "Solitary, poor, brutish and short",
-      "glosario": [
+      "diccionario": [
        "g-estado-de-naturaleza",
        "g-contrato-social"
       ],
@@ -3333,7 +3333,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Hobbes and Locke",
-      "glosario": [
+      "diccionario": [
        "g-derechos-naturales",
        "g-poder-legitimo",
        "g-soberania"
@@ -3431,7 +3431,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Rousseau",
       "titulo": "Obeying oneself",
-      "glosario": [
+      "diccionario": [
        "g-voluntad-general",
        "g-soberania",
        "g-contrato-social"
@@ -3488,7 +3488,7 @@ const PISTAS = [
  },
  {
   "id": "kant-ilustracion",
-  "ilustre": "kant",
+  "biografia": "kant",
   "subject": "hf",
   "tema": "Topic 18 · Kant: the Enlightenment",
   "unidad": "hf-ilustracion",
@@ -3548,7 +3548,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "The definition",
-      "glosario": [
+      "diccionario": [
        "g-minoria-de-edad",
        "g-autonomia"
       ],
@@ -3588,7 +3588,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Laziness, cowardice and guardians",
-      "glosario": [
+      "diccionario": [
        "g-minoria-de-edad",
        "g-autonomia"
       ],
@@ -3680,7 +3680,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Two uses of reason",
       "titulo": "Reasoning in public, obeying in office",
-      "glosario": [
+      "diccionario": [
        "g-uso-publico",
        "g-uso-privado"
       ],
@@ -3735,7 +3735,7 @@ const PISTAS = [
  },
  {
   "id": "feminismo-ilustrado",
-  "ilustre": "wollstonecraft",
+  "biografia": "wollstonecraft",
   "subject": "hf",
   "tema": "Topic 18 · First-wave feminism",
   "unidad": "hf-ilustracion",
@@ -3795,7 +3795,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "From the scaffold to the rostrum",
-      "glosario": [
+      "diccionario": [
        "g-declaracion-de-los-derechos-de-la-mujer",
        "g-la-grieta-de-la-universalidad"
       ],
@@ -3835,7 +3835,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "A half-hearted universality",
-      "glosario": [
+      "diccionario": [
        "g-declaracion-de-los-derechos-de-la-mujer",
        "g-feminismo",
        "g-las-olas"
@@ -3933,7 +3933,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Rousseau and Wollstonecraft",
       "titulo": "Power over themselves",
-      "glosario": [
+      "diccionario": [
        "g-educacion-igualitaria",
        "g-feminismo"
       ],
@@ -3989,7 +3989,7 @@ const PISTAS = [
  },
  {
   "id": "kant-conocimiento",
-  "ilustre": "kant",
+  "biografia": "kant",
   "subject": "hf",
   "tema": "Topic 19 · Kant: knowledge",
   "unidad": "hf-kant",
@@ -4049,7 +4049,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "Objects conforming to our knowledge",
-      "glosario": [
+      "diccionario": [
        "g-revolucion-copernicana",
        "g-a-priori"
       ],
@@ -4089,7 +4089,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Synthetic a priori judgements",
-      "glosario": [
+      "diccionario": [
        "g-juicios-sinteticos-a-priori",
        "g-intuiciones-puras",
        "g-categoria"
@@ -4187,7 +4187,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Phenomenon and noumenon",
       "titulo": "Empty and blind",
-      "glosario": [
+      "diccionario": [
        "g-fenomeno",
        "g-noumeno",
        "g-idea-regulativa"
@@ -4244,7 +4244,7 @@ const PISTAS = [
  },
  {
   "id": "kant-imperativo",
-  "ilustre": "kant",
+  "biografia": "kant",
   "subject": "hf",
   "tema": "Topic 20 · Kant: the ethics of duty",
   "unidad": "hf-etica-deber",
@@ -4302,7 +4302,7 @@ const PISTAS = [
       "boton": "I need to read a text",
       "etiqueta": "Supporting text",
       "titulo": "Read and look for the decisive opposition",
-      "glosario": [
+      "diccionario": [
        "g-deber"
       ],
       "cita": {
@@ -4344,7 +4344,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Categorical imperative",
-      "glosario": [
+      "diccionario": [
        "g-imperativo-categorico",
        "g-imperativo-hipotetico",
        "g-autonomia"
@@ -4435,7 +4435,7 @@ const PISTAS = [
       "boton": "Show the formulation",
       "etiqueta": "Formulation of the universal law",
       "titulo": "The formulation",
-      "glosario": [
+      "diccionario": [
        "g-imperativo-categorico",
        "g-a-priori"
       ],
@@ -4490,7 +4490,7 @@ const PISTAS = [
  },
  {
   "id": "kant-humanidad",
-  "ilustre": "kant",
+  "biografia": "kant",
   "subject": "hf",
   "tema": "Topic 20 · Kant: the ethics of duty",
   "unidad": "hf-etica-deber",
@@ -4548,7 +4548,7 @@ const PISTAS = [
       "boton": "I need to read a text",
       "etiqueta": "Supporting text",
       "titulo": "Read the formula and notice two expressions",
-      "glosario": [
+      "diccionario": [
        "g-imperativo-categorico"
       ],
       "cita": {
@@ -4590,7 +4590,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Price and dignity",
-      "glosario": [
+      "diccionario": [
        "g-dignidad",
        "g-autonomia"
       ],
@@ -4680,7 +4680,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "The two tests, applied to the same case",
       "titulo": "The false promise, seen twice",
-      "glosario": [
+      "diccionario": [
        "g-deber",
        "g-imperativo-categorico"
       ],
@@ -4730,7 +4730,7 @@ const PISTAS = [
  },
  {
   "id": "marx-alienacion",
-  "ilustre": "marx",
+  "biografia": "marx",
   "subject": "hf",
   "tema": "Topic 21 · Marx",
   "unidad": "hf-sospecha",
@@ -4789,7 +4789,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "The more they produce, the poorer they are",
-      "glosario": [
+      "diccionario": [
        "g-alienacion",
        "g-plusvalia"
       ],
@@ -4829,7 +4829,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "The four alienations",
-      "glosario": [
+      "diccionario": [
        "g-alienacion",
        "g-praxis"
       ],
@@ -4922,7 +4922,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Base and superstructure",
       "titulo": "Social being and consciousness",
-      "glosario": [
+      "diccionario": [
        "g-infraestructura",
        "g-ideologia"
       ],
@@ -4977,7 +4977,7 @@ const PISTAS = [
  },
  {
   "id": "nietzsche-destino",
-  "ilustre": "nietzsche",
+  "biografia": "nietzsche",
   "subject": "hf",
   "tema": "Topic 21 · Nietzsche",
   "unidad": "hf-sospecha",
@@ -5035,7 +5035,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "Dynamite",
-      "glosario": [
+      "diccionario": [
        "g-transmutacion-de-los-valores",
        "g-nihilismo"
       ],
@@ -5079,7 +5079,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "The immoralist’s two negations",
-      "glosario": [
+      "diccionario": [
        "g-ressentiment",
        "g-genealogia-de-la-moral"
       ],
@@ -5170,7 +5170,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Morality and life",
       "titulo": "Against life, for life",
-      "glosario": [
+      "diccionario": [
        "g-la-muerte-de-dios",
        "g-superhombre"
       ],
@@ -5224,7 +5224,7 @@ const PISTAS = [
  },
  {
   "id": "arendt-mal-accion",
-  "ilustre": "arendt",
+  "biografia": "arendt",
   "subject": "hf",
   "tema": "Topic 22 · Hannah Arendt",
   "unidad": "hf-capitalismo",
@@ -5284,7 +5284,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "Sheer thoughtlessness",
-      "glosario": [
+      "diccionario": [
        "g-banalidad-del-mal",
        "g-totalitarismo"
       ],
@@ -5324,7 +5324,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "An evil without monsters, and the debate around it",
-      "glosario": [
+      "diccionario": [
        "g-banalidad-del-mal",
        "g-soledad-politica"
       ],
@@ -5417,7 +5417,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "The active life",
       "titulo": "Labour, work and action",
-      "glosario": [
+      "diccionario": [
        "g-vita-activa",
        "g-natalidad",
        "g-espacio-publico"
@@ -5474,7 +5474,7 @@ const PISTAS = [
  },
  {
   "id": "sartre-existencia",
-  "ilustre": "sartre",
+  "biografia": "sartre",
   "subject": "hf",
   "tema": "Topic 25 · Sartre and existentialism",
   "unidad": "hf-existencialismo",
@@ -5534,7 +5534,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "A human being is nothing but what they make of themselves",
-      "glosario": [
+      "diccionario": [
        "g-la-existencia-primero",
        "g-ser-para-si"
       ],
@@ -5574,7 +5574,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "The paper-knife and the human being",
-      "glosario": [
+      "diccionario": [
        "g-la-existencia-primero",
        "g-ser-para-si"
       ],
@@ -5667,7 +5667,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "Freedom and responsibility",
       "titulo": "Condemned to be free",
-      "glosario": [
+      "diccionario": [
        "g-angustia",
        "g-mala-fe",
        "g-circunstancia"
@@ -5724,7 +5724,7 @@ const PISTAS = [
  },
  {
   "id": "beauvoir-conclusion",
-  "ilustre": "beauvoir",
+  "biografia": "beauvoir",
   "subject": "hf",
   "tema": "Topic 26 · Beauvoir",
   "unidad": "hf-beauvoir",
@@ -5784,7 +5784,7 @@ const PISTAS = [
       "boton": "I need to read the text",
       "etiqueta": "Supporting text",
       "titulo": "No fatality",
-      "glosario": [
+      "diccionario": [
        "g-el-destino",
        "g-la-situacion"
       ],
@@ -5828,7 +5828,7 @@ const PISTAS = [
      {
       "etiqueta": "Definition and explanation",
       "titulo": "Nature and history",
-      "glosario": [
+      "diccionario": [
        "g-la-construccion-del-genero",
        "g-la-ambiguedad"
       ],
@@ -5919,7 +5919,7 @@ const PISTAS = [
       "boton": "Show the explanation",
       "etiqueta": "From war to fraternity",
       "titulo": "Two freedoms that recognise each other",
-      "glosario": [
+      "diccionario": [
        "g-alteridad",
        "g-la-ambiguedad"
       ],

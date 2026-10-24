@@ -118,7 +118,7 @@ const CITAS = [
   "o": "fragment DK 21 B15",
   "e": "ancient",
   "id": "jenofanes",
-  "img": "media/retratos/ilustres/jenofanes.jpg",
+  "img": "media/retratos/biografias/jenofanes.jpg",
   "sen": "Xenophanes criticises the anthropomorphism of Greek religion: each people imagines the gods in its own image. Against this he defends a single god, who does not resemble mortals.",
   "uso": "To explain the move from myth to logos and the pre-Socratic criticism of Homer’s gods, or in debates about religion and human projection."
  },
@@ -222,7 +222,7 @@ const CITAS = [
   "o": "paraphrase not located in Scivias; the ‘living light’ comes from her letter to Guibert of Gembloux (1175)",
   "e": "medieval",
   "id": "hildegarda",
-  "img": "media/retratos/ilustres/hildegarda.jpg",
+  "img": "media/retratos/biografias/hildegarda.jpg",
   "sen": "Hildegard describes her visions as a light that comes from God and is reflected in all creatures. For her, the whole world shows forth the divine radiance.",
   "uso": "To introduce Hildegard of Bingen and medieval mysticism, or in a presentation on women philosophers in the Middle Ages.",
   "trampa": "It is not a located quotation: it is a paraphrase; the ‘living light’ comes from her letter to Guibert of Gembloux, not from Scivias."
@@ -469,7 +469,7 @@ const CITAS = [
   "o": "paraphrase of Man a Machine (1748)",
   "e": "modern",
   "id": "lamettrie",
-  "img": "media/retratos/ilustres/lamettrie.jpg",
+  "img": "media/retratos/biografias/lamettrie.jpg",
   "sen": "La Mettrie defends a radical materialism: the human being is a complex machine, and what we call the soul depends entirely on the organisation of the body.",
   "uso": "To introduce Enlightenment materialism as opposed to Cartesian dualism, or in debates about the mind–brain relationship.",
   "trampa": "It is not a literal quotation, but a summary of the central thesis of Man a Machine."
@@ -500,7 +500,7 @@ const CITAS = [
   "o": "The Freedom of a Christian (1520), § 1",
   "e": "modern",
   "id": "lutero",
-  "img": "media/retratos/ilustres/lutero.jpg",
+  "img": "media/retratos/biografias/lutero.jpg",
   "sen": "Luther presents a paradox: through faith the Christian is free and depends on no one for salvation; through love, he puts himself at the service of others.",
   "uso": "To introduce the Protestant Reformation and its idea of inner freedom, or in debates about freedom and responsibility."
  },
@@ -632,7 +632,7 @@ const CITAS = [
   "o": "Dialectic of Enlightenment (1944), ‘The Concept of Enlightenment’",
   "e": "contemporary",
   "id": "adorno",
-  "img": "media/retratos/ilustres/adorno.jpg",
+  "img": "media/retratos/biografias/adorno.jpg",
   "sen": "For Adorno and Horkheimer, Enlightenment reason, by reducing everything to calculation and the domination of nature, turns against human beings themselves and ends up serving domination.",
   "uso": "To explain the Frankfurt School and instrumental reason, or in an essay on the limits of technical progress.",
   "trampa": "It is not a rejection of the Enlightenment: the authors want reason to criticise itself in order to save its promise of emancipation."
@@ -681,7 +681,7 @@ const CITAS = [
   "o": "Gender Trouble (1990), ch. 1",
   "e": "contemporary",
   "id": "butler",
-  "img": "media/retratos/ilustres/butler.jpg",
+  "img": "media/retratos/biografias/butler.jpg",
   "sen": "For Butler, gender is not something one is by nature, but something one does: acts repeated according to social norms which, through repetition, come to look like a natural essence.",
   "uso": "To explain the theory of gender performativity, or in debates about nature and culture in identity."
  },
@@ -701,7 +701,7 @@ const CITAS = [
   "o": "Of Grammatology (1967), part II, ch. 2",
   "e": "contemporary",
   "id": "derrida",
-  "img": "media/retratos/ilustres/derrida.jpg",
+  "img": "media/retratos/biografias/derrida.jpg",
   "sen": "Derrida states that there is no pure meaning outside language: everything we understand reaches us already within networks of signs and interpretations.",
   "uso": "To introduce deconstruction and the linguistic turn, or in debates about interpretation and truth.",
   "trampa": "It does not mean that only books exist or that the world is not real, but that we have access to nothing without the mediation of language and interpretation."
@@ -911,7 +911,7 @@ const CITAS = [
   "o": "The Postmodern Condition (1979), Introduction",
   "e": "contemporary",
   "id": "lyotard",
-  "img": "media/retratos/ilustres/lyotard.jpg",
+  "img": "media/retratos/biografias/lyotard.jpg",
   "sen": "For Lyotard, postmodernity stops believing in the grand narratives that gave meaning to history, such as progress, emancipation or revolution.",
   "uso": "To introduce postmodernity and the crisis of modernity, or in an essay on progress."
  },
@@ -982,7 +982,7 @@ const CITAS = [
   "o": "Liquid Modernity (2000), Preface",
   "e": "contemporary",
   "id": "bauman",
-  "img": "media/retratos/ilustres/bauman.jpg",
+  "img": "media/retratos/biografias/bauman.jpg",
   "sen": "Bauman uses the image of liquids to describe our age: jobs, relationships and identities are no longer solid or lasting, but constantly change shape.",
   "uso": "To explain Bauman’s liquid modernity, or in debates about precariousness, consumerism and relationships in today’s society."
  },
@@ -1591,7 +1591,7 @@ const CITAS = [
   "o": "Letter to Herder, 6 August 1784",
   "e": "modern",
   "id": "hamann",
-  "img": "media/retratos/ilustres/hamann.jpg",
+  "img": "media/retratos/biografias/hamann.jpg",
   "sen": "Hamann criticises Kant’s pure reason: there is no reason separate from language, because we always think with the words of a particular, inherited and historical language. In Greek, logos means both reason and word.",
   "uso": "To introduce the critique of the Enlightenment and the turn towards language, or in an essay on the relationship between thought and language."
  },
@@ -1601,7 +1601,7 @@ const CITAS = [
   "o": "Treatise on the Origin of Language (1772), first sentence",
   "e": "modern",
   "id": "herder",
-  "img": "media/retratos/ilustres/herder.jpg",
+  "img": "media/retratos/biografias/herder.jpg",
   "sen": "Herder opens his treatise by stating that language is neither a divine gift nor a later invention: it is rooted in the natural expression of sensations, which human beings share with animals.",
   "uso": "To explain the Enlightenment debate on the origin of language, or in an essay on what distinguishes human beings from animals."
  },
@@ -1611,7 +1611,7 @@ const CITAS = [
   "o": "The Sorrows of Young Werther (1774), letter of 22 May",
   "e": "modern",
   "id": "goethe",
-  "img": "media/retratos/ilustres/goethe.jpg",
+  "img": "media/retratos/biografias/goethe.jpg",
   "sen": "Werther, Goethe’s protagonist, takes refuge within himself and discovers there a whole world of feelings and imagination, richer than the outside reality that disappoints him.",
   "uso": "To introduce Sturm und Drang and Romanticism, with their high regard for feeling and inwardness as opposed to Enlightenment reason."
  },
@@ -1621,7 +1621,7 @@ const CITAS = [
   "o": "Faust I (1808), the study scene",
   "e": "modern",
   "id": "goethe",
-  "img": "media/retratos/ilustres/goethe.jpg",
+  "img": "media/retratos/biografias/goethe.jpg",
   "sen": "Faust tries to translate the opening of John’s Gospel, ‘In the beginning was the Word’, and ends up writing ‘the deed’: what comes first is not the word or thought, but doing.",
   "uso": "To introduce Goethe’s Faust and the primacy of action, or in an essay on theory and practice."
  },
@@ -1631,7 +1631,7 @@ const CITAS = [
   "o": "Letters on the Aesthetic Education of Man (1795), letter 15",
   "e": "modern",
   "id": "schiller",
-  "img": "media/retratos/ilustres/schiller.jpg",
+  "img": "media/retratos/biografias/schiller.jpg",
   "sen": "For Schiller, in play, and above all in art, the human being unites his two drives, the sensuous and the rational, without one dominating the other; that is why it is there that he is fully free and human.",
   "uso": "To explain Schiller’s aesthetic education, or in an essay on art, play and freedom."
  },
@@ -1641,7 +1641,7 @@ const CITAS = [
   "o": "Reply to Goethe about the primal plant (1794), according to Goethe, Fortunate Event (1817)",
   "e": "modern",
   "id": "schiller",
-  "img": "media/retratos/ilustres/schiller.jpg",
+  "img": "media/retratos/biografias/schiller.jpg",
   "sen": "Goethe believed he had seen the primal plant from which all plants derive; Schiller, a Kantian, replied that this cannot be seen: it is an idea of reason, not something given in experience.",
   "uso": "To explain the Kantian distinction between experience and idea, or the dialogue between Goethe and Schiller on science and nature."
  },
@@ -1661,7 +1661,7 @@ const CITAS = [
   "o": "Athenaeum (1798), fragment 116",
   "e": "contemporary",
   "id": "schlegel",
-  "img": "media/retratos/ilustres/schlegel.jpg",
+  "img": "media/retratos/biografias/schlegel.jpg",
   "sen": "Schlegel defines Romantic poetry as an open project that mixes genres, unites poetry, philosophy and life, and is never finished: it is always in the making.",
   "uso": "To introduce German Romanticism and its idea of art as an infinite search, as opposed to classicism."
  },
@@ -1689,7 +1689,7 @@ const CITAS = [
   "o": "A New View of Society (1813), First Essay",
   "e": "contemporary",
   "id": "owen",
-  "img": "media/retratos/ilustres/owen.jpg",
+  "img": "media/retratos/biografias/owen.jpg",
   "sen": "For Owen, people’s character does not depend on them, but on the circumstances and the education they receive; by changing the environment, a whole better society can be formed.",
   "uso": "To introduce Owen’s utopian socialism, or in an essay on the influence of environment and education on character."
  },
@@ -1699,7 +1699,7 @@ const CITAS = [
   "o": "The Theory of the Four Movements (1808)",
   "e": "contemporary",
   "id": "fourier",
-  "img": "media/retratos/ilustres/fourier.jpg",
+  "img": "media/retratos/biografias/fourier.jpg",
   "sen": "For Fourier, the degree of women’s freedom is the measure of a society’s progress: the freer they are, the more advanced it is.",
   "uso": "To introduce Fourier’s utopian socialism and its relationship with feminism, or in an essay on social progress."
  },
@@ -1709,7 +1709,7 @@ const CITAS = [
   "o": "What Is Property? (1840), ch. 1",
   "e": "contemporary",
   "id": "proudhon",
-  "img": "media/retratos/ilustres/proudhon.jpg",
+  "img": "media/retratos/biografias/proudhon.jpg",
   "sen": "Proudhon criticises property understood as the right to obtain income without working, through rents or interest: for him, that is appropriating other people’s labour.",
   "uso": "To introduce anarchism and 19th-century socialism, or in an essay on private property.",
   "trampa": "It is not by Marx, and Proudhon does not reject all possession: he distinguishes property that lives off other people’s labour from the possession of what one uses and works."
@@ -1770,7 +1770,7 @@ const CITAS = [
   "o": "Letter to Hegel, 4 February 1795",
   "e": "contemporary",
   "id": "schelling",
-  "img": "media/retratos/ilustres/schelling.jpg",
+  "img": "media/retratos/biografias/schelling.jpg",
   "sen": "The young Schelling confesses to Hegel his allegiance to Spinoza: like Spinoza, he was looking for a single absolute principle from which everything derives, though starting from the self and freedom.",
   "uso": "To introduce Spinoza’s influence on German idealism and the friendship between Schelling and Hegel."
  },
@@ -1801,7 +1801,7 @@ const CITAS = [
   "o": "Letters on the Aesthetic Education of Man (1795), letter 6",
   "e": "modern",
   "id": "schiller",
-  "img": "media/retratos/ilustres/schiller.jpg",
+  "img": "media/retratos/biografias/schiller.jpg",
   "sen": "Schiller criticises the division of labour and the specialisation of modern society: each person is reduced to a small task and develops only one part of himself, instead of being a complete human being.",
   "uso": "To explain Schiller’s critique of modernity, as a forerunner of alienation in Marx, or in debates about specialisation."
  },
@@ -1821,7 +1821,7 @@ const CITAS = [
   "o": "Le Père Goriot (1835), Vautrin's words",
   "e": "contemporary",
   "id": "balzac",
-  "img": "media/retratos/ilustres/balzac.jpg",
+  "img": "media/retratos/biografias/balzac.jpg",
   "sen": "Vautrin, a criminal in Balzac’s novel, suggests that great fortunes of murky origin hide a crime that nobody remembers because it left no trace.",
   "uso": "To illustrate the literary criticism of 19th-century bourgeois society, or in debates about the origin of wealth and inequality.",
   "trampa": "It is often quoted as ‘behind every great fortune there is a crime’, but Balzac only speaks of fortunes with no apparent cause, and it is said by a character, not by the author."
@@ -1832,7 +1832,7 @@ const CITAS = [
   "o": "The Hessian Courier (1834), with Friedrich Ludwig Weidig; slogan of the French Revolution",
   "e": "contemporary",
   "id": "buchner",
-  "img": "media/retratos/ilustres/buchner.jpg",
+  "img": "media/retratos/biografias/buchner.jpg",
   "sen": "Büchner and Weidig’s pamphlet calls on poor peasants to rise up against the princes and the rich who exploit them through taxes: the struggle is that of those below against those above.",
   "uso": "To introduce revolutionary thought before 1848 and 19th-century social criticism.",
   "trampa": "It is often attributed to Büchner as if it were his own, but he took it as a slogan from the French Revolution."

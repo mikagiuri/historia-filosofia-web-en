@@ -41,7 +41,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Some sections bring together several things of the same kind: at the top they have a <strong>row of buttons</strong> to switch from one to another. For example, in Quizzes you can switch to <strong>Against the clock</strong>, and in Biographies to <strong>Persecuted</strong> or <strong>Communities</strong>."
+   "x": "Some sections bring together several things of the same kind: at the top they have a <strong>row of buttons</strong> to switch from one to another. For example, in Quizzes you can switch to <strong>Challenges</strong>, and in Biographies to <strong>Persecuted</strong> or <strong>Communities</strong>."
   },
   {
    "type": "h",
@@ -213,7 +213,7 @@ const GUIA = {
     {
      "nombre": "Glossary",
      "texto": "The subject’s dictionary: every term with its definition. Search for a word or filter the terms.",
-     "view": "glosario"
+     "view": "diccionario"
     },
     {
      "nombre": "Roots",
@@ -242,7 +242,7 @@ const GUIA = {
    "rows": [
     {
      "nombre": "Quizzes",
-     "texto": "Multiple-choice questions with instant marking and an explanation of each answer. Your best score is saved. At the top, the Against the clock button: timed questions, with points for speed and for streaks.",
+     "texto": "Multiple-choice questions with instant marking and an explanation of each answer. Your best score is saved. At the top, the Challenges button: timed questions, with points for speed and for streaks.",
      "view": "cuestionarios"
     },
     {
@@ -265,7 +265,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "08_cuestionarios.webp",
-   "cap": "Quizzes: at the top, the Against the clock button; below, filter, choose the quiz from the drop-down list and answer."
+   "cap": "Quizzes: at the top, the Challenges button; below, filter, choose the quiz from the drop-down list and answer."
   },
   {
    "type": "tip",
@@ -307,9 +307,9 @@ const GUIA = {
    "solo": "hf",
    "rows": [
     {
-     "nombre": "Guide to the exam",
+     "nombre": "Prepare for the PAU",
      "texto": "What the exam is like, how to approach Exercise 1 (text comprehension) and Exercise 3 (exposition), and the official models.",
-     "view": "pau"
+     "view": "prepara_PAU"
     },
     {
      "nombre": "Text commentary",
@@ -331,7 +331,7 @@ const GUIA = {
   {
    "type": "tip",
    "solo": "hf",
-   "x": "Start with the Guide to the exam to find out what you will be asked, then follow the PAU itinerary on the subject page: it takes you through each exercise in order."
+   "x": "Start with ‘Prepare for the PAU’ to find out what you will be asked, then follow the PAU itinerary on the subject page: it takes you through each exercise in order."
   },
   {
    "type": "h",
@@ -505,7 +505,7 @@ const GUIA = {
     {
      "titulo": "Prepare for the exam",
      "texto": "PAU: readings, commentaries and essays.",
-     "view": "pau",
+     "view": "prepara_PAU",
      "solo": "hf"
     },
     {

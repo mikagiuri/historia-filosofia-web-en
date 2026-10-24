@@ -1192,7 +1192,7 @@ const IMPRESCINDIBLES = {
    "Teacher’s review (20-10-2026): PAU reading (Discourse on the Method II-IV)"
   ]
  },
- "glosarioGrupos": {
+ "diccionarioGrupos": {
   "1": [
    5,
    "Vocabulary of Republic VII, a PAU reading"

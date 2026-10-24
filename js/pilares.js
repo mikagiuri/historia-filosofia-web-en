@@ -43,7 +43,7 @@ const PILARES = {
      "enl": [
       {
        "t": "Dictionary: reason",
-       "h": "#glosario/g-fil-razon"
+       "h": "#diccionario/g-fil-razon"
       },
       {
        "t": "Logic and argumentation (Philosophy Year 1)",
@@ -167,11 +167,11 @@ const PILARES = {
       },
       {
        "t": "Dictionary: cooperation between faith and reason",
-       "h": "#glosario/g-colaboracion-fe-razon"
+       "h": "#diccionario/g-colaboracion-fe-razon"
       },
       {
        "t": "Dictionary: the limits of reason",
-       "h": "#glosario/g-los-limites-de-la-razon"
+       "h": "#diccionario/g-los-limites-de-la-razon"
       }
      ]
     },
@@ -201,11 +201,11 @@ const PILARES = {
       },
       {
        "t": "Dictionary: autonomy of reason",
-       "h": "#glosario/g-autonomia-de-la-razon"
+       "h": "#diccionario/g-autonomia-de-la-razon"
       },
       {
        "t": "Dictionary: clear and distinct ideas",
-       "h": "#glosario/g-ideas-claras-y-distintas"
+       "h": "#diccionario/g-ideas-claras-y-distintas"
       }
      ]
     },
@@ -239,7 +239,7 @@ const PILARES = {
       },
       {
        "t": "Dictionary: relations of ideas and matters of fact",
-       "h": "#glosario/g-relaciones-de-ideas"
+       "h": "#diccionario/g-relaciones-de-ideas"
       }
      ]
     },
@@ -269,11 +269,11 @@ const PILARES = {
       },
       {
        "t": "Dictionary: private use of reason",
-       "h": "#glosario/g-uso-privado"
+       "h": "#diccionario/g-uso-privado"
       },
       {
        "t": "Dictionary: regulative idea",
-       "h": "#glosario/g-idea-regulativa"
+       "h": "#diccionario/g-idea-regulativa"
       }
      ]
     },
@@ -303,11 +303,11 @@ const PILARES = {
       },
       {
        "t": "Dictionary: instrumental reason",
-       "h": "#glosario/g-razon-instrumental"
+       "h": "#diccionario/g-razon-instrumental"
       },
       {
        "t": "Dictionary: suspicion",
-       "h": "#glosario/g-sospecha"
+       "h": "#diccionario/g-sospecha"
       }
      ]
     },
@@ -329,11 +329,11 @@ const PILARES = {
       },
       {
        "t": "Dictionary: communicative reason",
-       "h": "#glosario/g-razon-comunicativa"
+       "h": "#diccionario/g-razon-comunicativa"
       },
       {
        "t": "Dictionary: ideal speech situation",
-       "h": "#glosario/g-situacion-ideal-de-habla"
+       "h": "#diccionario/g-situacion-ideal-de-habla"
       },
       {
        "t": "Logic and argumentation (Philosophy Year 1)",
@@ -415,7 +415,7 @@ const PILARES = {
       },
       {
        "t": "Dictionary: theory of Forms",
-       "h": "#glosario/g-teoria-de-las-ideas"
+       "h": "#diccionario/g-teoria-de-las-ideas"
       },
       {
        "t": "Reality: what is there and what is it like? (Philosophy Year 1)",
@@ -445,7 +445,7 @@ const PILARES = {
       },
       {
        "t": "Dictionary: the rejection of the Forms",
-       "h": "#glosario/g-el-rechazo-de-las-ideas"
+       "h": "#diccionario/g-el-rechazo-de-las-ideas"
       },
       {
        "t": "Workshop: the Aristotelian universe",
@@ -479,7 +479,7 @@ const PILARES = {
       },
       {
        "t": "Dictionary: nominalism",
-       "h": "#glosario/g-nominalismo"
+       "h": "#diccionario/g-nominalismo"
       }
      ]
     },
@@ -509,11 +509,11 @@ const PILARES = {
       },
       {
        "t": "Dictionary: innatism",
-       "h": "#glosario/g-innatismo"
+       "h": "#diccionario/g-innatismo"
       },
       {
        "t": "Dictionary: clear and distinct ideas",
-       "h": "#glosario/g-ideas-claras-y-distintas-dm"
+       "h": "#diccionario/g-ideas-claras-y-distintas-dm"
       }
      ]
     },
@@ -539,11 +539,11 @@ const PILARES = {
       },
       {
        "t": "Dictionary: impression",
-       "h": "#glosario/g-impresion"
+       "h": "#diccionario/g-impresion"
       },
       {
        "t": "Dictionary: relations of ideas and matters of fact",
-       "h": "#glosario/g-relaciones-de-ideas"
+       "h": "#diccionario/g-relaciones-de-ideas"
       }
      ]
     },
@@ -573,11 +573,11 @@ const PILARES = {
       },
       {
        "t": "Dictionary: regulative idea",
-       "h": "#glosario/g-idea-regulativa"
+       "h": "#diccionario/g-idea-regulativa"
       },
       {
        "t": "Dictionary: category",
-       "h": "#glosario/g-categoria"
+       "h": "#diccionario/g-categoria"
       }
      ]
     },
@@ -607,15 +607,15 @@ const PILARES = {
       },
       {
        "t": "Dictionary: dialectic",
-       "h": "#glosario/g-dialectica"
+       "h": "#diccionario/g-dialectica"
       },
       {
        "t": "Dictionary: materialist dialectic",
-       "h": "#glosario/g-dialectica-materialista"
+       "h": "#diccionario/g-dialectica-materialista"
       },
       {
        "t": "Dictionary: idealism",
-       "h": "#glosario/g-fil-idealismo"
+       "h": "#diccionario/g-fil-idealismo"
       }
      ]
     },
@@ -671,7 +671,7 @@ const PILARES = {
      "enl": [
       {
        "t": "Dictionary: false cause",
-       "h": "#glosario/g-fil-causa-falsa"
+       "h": "#diccionario/g-fil-causa-falsa"
       }
      ]
     },
@@ -689,7 +689,7 @@ const PILARES = {
      "enl": [
       {
        "t": "Dictionary: false cause",
-       "h": "#glosario/g-fil-causa-falsa"
+       "h": "#diccionario/g-fil-causa-falsa"
       },
       {
        "t": "The hypothetico-deductive method: the Semmelweis case (Philosophy Year 1)",
@@ -753,11 +753,11 @@ const PILARES = {
       },
       {
        "t": "Dictionary: the four causes",
-       "h": "#glosario/g-las-cuatro-causas"
+       "h": "#diccionario/g-las-cuatro-causas"
       },
       {
        "t": "Dictionary: Unmoved Mover",
-       "h": "#glosario/g-motor-inmovil"
+       "h": "#diccionario/g-motor-inmovil"
       },
       {
        "t": "Reality: what is there and what is it like? (Philosophy Year 1)",
@@ -791,7 +791,7 @@ const PILARES = {
       },
       {
        "t": "Dictionary: five ways",
-       "h": "#glosario/g-cinco-vias"
+       "h": "#diccionario/g-cinco-vias"
       }
      ]
     },
@@ -843,11 +843,11 @@ const PILARES = {
       },
       {
        "t": "Dictionary: habit",
-       "h": "#glosario/g-habito"
+       "h": "#diccionario/g-habito"
       },
       {
        "t": "Dictionary: relations of ideas and matters of fact",
-       "h": "#glosario/g-relaciones-de-ideas"
+       "h": "#diccionario/g-relaciones-de-ideas"
       }
      ]
     },
@@ -877,7 +877,7 @@ const PILARES = {
       },
       {
        "t": "Dictionary: category",
-       "h": "#glosario/g-categoria"
+       "h": "#diccionario/g-categoria"
       }
      ]
     },
@@ -933,7 +933,7 @@ const PILARES = {
       },
       {
        "t": "Dictionary: false cause",
-       "h": "#glosario/g-fil-causa-falsa"
+       "h": "#diccionario/g-fil-causa-falsa"
       }
      ]
     }

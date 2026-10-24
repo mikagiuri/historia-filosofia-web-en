@@ -48,7 +48,7 @@ const DILEMAS = [
     "quien": "Socrates",
     "elige": "B",
     "porque": "Three reasons in the Crito: one must not return injustice for injustice; the Laws raised him and he accepted them by staying in Athens (a tacit agreement); fleeing would harm his soul, and the soul is worth more than life.",
-    "ilustre": "socrates"
+    "biografia": "socrates"
    },
    {
     "quien": "Antigone (Sophocles)",
@@ -59,19 +59,19 @@ const DILEMAS = [
     "quien": "Plato",
     "elige": "B",
     "porque": "He inherits his teacher's answer, but in the Republic he concludes that the underlying problem is another: as long as those who do not know govern, the laws will be unjust; the solution is not to flee but for philosophers to govern.",
-    "ilustre": "platon"
+    "biografia": "platon"
    },
    {
     "quien": "Spinoza",
     "elige": "B",
     "porque": "With nuances. The free man never acts deceitfully, not even to escape a danger of death (Ethics, IV, 72, scholium), and fleeing by evading the laws of one’s own city would look much like that. But withdrawing in time takes as much strength of mind as fighting (IV, 69, corollary), and he himself, expelled from his community like Socrates, stepped aside cautiously so he could go on thinking: neither martyr nor fugitive.",
-    "ilustre": "spinoza"
+    "biografia": "spinoza"
    },
    {
     "quien": "Kant",
     "elige": "B",
     "porque": "Obey in your actions and reason in public: the officer carries out the order and may afterwards criticise it in writing (What is Enlightenment?, 1784). In the Metaphysics of Morals (1797) he denies any right of rebellion; whether that also rules out refusing to carry out an immoral order is an open debate among his interpreters.",
-    "ilustre": "kant"
+    "biografia": "kant"
    }
   ],
   "otra": "Spinoza’s, condemned like Socrates by his own community: neither fleeing by evading the law nor staying to die, but stepping aside in time, keeping quiet about what was strictly necessary (his motto was ‘Caute’, with caution) and going on thinking.",
@@ -121,13 +121,13 @@ const DILEMAS = [
     "quien": "Plato",
     "elige": "A",
     "porque": "Whoever has seen the good cannot stay looking at it: the city educated him and is owed his return; a philosopher who does not govern leaves power to those who love power.",
-    "ilustre": "platon"
+    "biografia": "platon"
    },
    {
     "quien": "Epicurus",
     "elige": "B",
     "porque": "‘Live unnoticed’: politics is a source of disturbance; the wise person tends their garden with friends and does not try to save the crowd, which does not want to be saved.",
-    "ilustre": "epicuro"
+    "biografia": "epicuro"
    },
    {
     "quien": "The Stoics",
@@ -138,7 +138,7 @@ const DILEMAS = [
     "quien": "Nietzsche",
     "elige": "B",
     "porque": "With suspicion: what if the one who goes down does not want to free but to dominate? Zarathustra comes down from the mountain and discovers that the people do not want his gift. Truth is not imposed: it is offered to whoever can bear it.",
-    "ilustre": "nietzsche"
+    "biografia": "nietzsche"
    }
   ],
   "debate": {
@@ -173,7 +173,7 @@ const DILEMAS = [
     "quien": "Epicurus",
     "elige": "A",
     "porque": "The pleasures of the soul, friendship and conversation are enough; natural desire is easy to satisfy and the fear of the gods and of death is an error of reasoning. ‘Live unnoticed.’",
-    "ilustre": "epicuro"
+    "biografia": "epicuro"
    },
    {
     "quien": "The Stoics (Zeno, Seneca, Epictetus)",
@@ -189,7 +189,7 @@ const DILEMAS = [
     "quien": "Aristotle",
     "elige": "B",
     "porque": "With a correction: happiness is the activity of reason in the city, with friends and with some external goods; neither Diogenes's barrel nor Epicurus's garden is enough for a full life.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    }
   ],
   "debate": {
@@ -229,13 +229,13 @@ const DILEMAS = [
     "quien": "Augustine of Hippo",
     "elige": "A",
     "porque": "With a nuance: ‘believe in order to understand’. Faith comes first, but not against reason, rather as its guide; reason comes in afterwards to understand what is believed.",
-    "ilustre": "agustin"
+    "biografia": "agustin"
    },
    {
     "quien": "Thomas Aquinas",
     "elige": "B",
     "porque": "Faith and reason collaborate because they come from the same source; reason can prove that God exists (the five ways) and defend the faith, although the mysteries (the Trinity) remain above it.",
-    "ilustre": "tomas"
+    "biografia": "tomas"
    },
    {
     "quien": "William of Ockham",
@@ -280,7 +280,7 @@ const DILEMAS = [
     "quien": "Thomas Aquinas",
     "elige": "B",
     "porque": "The true cannot contradict the true. If Aristotle concludes that the world is eternal, his argument must be examined: reason, says Thomas, can demonstrate neither eternity nor creation; the question is left to faith.",
-    "ilustre": "tomas"
+    "biografia": "tomas"
    },
    {
     "quien": "Bishop Tempier (the condemnation of 1277)",
@@ -325,13 +325,13 @@ const DILEMAS = [
     "quien": "Descartes (rationalism)",
     "elige": "A",
     "porque": "Methodical doubt is voluntary, provisional and radical, and it finds a bedrock: I doubt, therefore I think, therefore I exist. From there, with God's guarantee, everything is rebuilt with certainty.",
-    "ilustre": "descartes"
+    "biografia": "descartes"
    },
    {
     "quien": "Hume (empiricism)",
     "elige": "B",
     "porque": "Cartesian doubt, if it were possible, would be incurable: there is no principle that cannot be doubted. Luckily it is impossible: nature compels us to believe. We must start from experience, not from nothing.",
-    "ilustre": "hume"
+    "biografia": "hume"
    },
    {
     "quien": "Peirce and pragmatism (19th century)",
@@ -342,7 +342,7 @@ const DILEMAS = [
     "quien": "Kant",
     "elige": "A",
     "porque": "In his own way: he did not doubt everything, but he did ask about the conditions of all possible knowledge before admitting any. Critique is Cartesian doubt turned into a method.",
-    "ilustre": "kant"
+    "biografia": "kant"
    }
   ],
   "debate": {
@@ -377,13 +377,13 @@ const DILEMAS = [
     "quien": "Hobbes",
     "elige": "A",
     "porque": "In the state of nature life is ‘solitary, poor, nasty, brutish, and short’; out of fear, men surrender all their right to an absolute sovereign. Dividing power is returning to war.",
-    "ilustre": "hobbes"
+    "biografia": "hobbes"
    },
    {
     "quien": "Rousseau",
     "elige": "B",
     "porque": "Man is born free and good; the legitimate pact does not surrender freedom but transforms it: each person obeys the general will of which they are part, and so obeys only themselves.",
-    "ilustre": "rousseau"
+    "biografia": "rousseau"
    },
    {
     "quien": "Locke",
@@ -428,19 +428,19 @@ const DILEMAS = [
     "quien": "Kant",
     "elige": "B",
     "porque": "He wrote it in 1797 against those who raised this case against him: lying is always contrary to duty, because the maxim ‘I lie when it suits me’ cannot be universalised without destroying the trust that makes language possible; for the result of telling the truth it is not I who am responsible, but the murderer.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Bentham and Mill (utilitarianism)",
     "elige": "A",
     "porque": "An action is good if it produces the greatest happiness for the greatest number; the lie that saves a life is obligatory. Mill would add that the rule ‘do not lie’ is useful in general, and that is why exceptions must be extremely rare and very clear.",
-    "ilustre": "mill"
+    "biografia": "mill"
    },
    {
     "quien": "Aristotle",
     "elige": "A",
     "porque": "Not by calculation: the prudent person (phronesis) knows that truthfulness is one virtue among others and that justice and friendship weigh more here; ethics is not applying rules but judging the particular case well.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Benjamin Constant",
@@ -480,13 +480,13 @@ const DILEMAS = [
     "quien": "Nietzsche",
     "elige": "A",
     "porque": "Master morality calls ‘good’ what is noble and strong; slave morality, born of resentment, inverts the values: it calls the meek good and the powerful evil. Judaism and Christianity won that battle; values must be revalued.",
-    "ilustre": "nietzsche"
+    "biografia": "nietzsche"
    },
    {
     "quien": "Kant",
     "elige": "B",
     "porque": "Dignity is equal in every rational being; there are no ‘masters’ or ‘slaves’ before the moral law. That morality favours the weak does not refute it: humanity is not a tournament.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Marx",
@@ -497,7 +497,7 @@ const DILEMAS = [
     "quien": "Simone de Beauvoir",
     "elige": "B",
     "porque": "The morality of ambiguity: my freedom is real only if it wills the freedom of others; the Nietzschean ‘master’ who needs slaves is not free, he is dependent on his domination.",
-    "ilustre": "beauvoir"
+    "biografia": "beauvoir"
    }
   ],
   "debate": {
@@ -532,13 +532,13 @@ const DILEMAS = [
     "quien": "Hannah Arendt",
     "elige": "B",
     "porque": "Eichmann was guilty and had to die; but what was terrible was his normality: the inability to think from another's point of view. Radical evil does not require wickedness, only ceasing to judge. And that can happen to anyone.",
-    "ilustre": "arendt"
+    "biografia": "arendt"
    },
    {
     "quien": "Kant",
     "elige": "A",
     "porque": "Moral autonomy is giving yourself the law; whoever obeys an immoral order has given up his reason and remains responsible, because nobody can be forced to be immoral. Kant, by tragic irony, was the philosopher Eichmann claimed to have read.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Sartre (existentialism)",
@@ -549,7 +549,7 @@ const DILEMAS = [
     "quien": "Socrates",
     "elige": "A",
     "porque": "He already said so before the Thirty Tyrants, who ordered him to arrest an innocent man: he went home. It is better to suffer injustice than to commit it, and an unjust law does not make just what it commands.",
-    "ilustre": "socrates"
+    "biografia": "socrates"
    }
   ],
   "debate": {
@@ -584,7 +584,7 @@ const DILEMAS = [
     "quien": "Simone de Beauvoir",
     "elige": "B",
     "porque": "‘One is not born, but rather becomes, a woman’. Woman has been constructed as the Other; her freedom is real but situated, and a situation of oppression narrows the possible choices. The person is not judged: the situation is changed.",
-    "ilustre": "beauvoir"
+    "biografia": "beauvoir"
    },
    {
     "quien": "Sartre",
@@ -595,7 +595,7 @@ const DILEMAS = [
     "quien": "Mill (liberalism)",
     "elige": "A",
     "porque": "Over himself, over his own body and mind, the individual is sovereign; society may intervene only to prevent harm to others. Although Mill himself, in The Subjection of Women, admits that a preference educated in submission is not entirely a preference.",
-    "ilustre": "mill"
+    "biografia": "mill"
    },
    {
     "quien": "Marx",
@@ -635,7 +635,7 @@ const DILEMAS = [
     "quien": "Rawls (egalitarian liberalism)",
     "elige": "B",
     "porque": "Behind the veil of ignorance, a rational being chooses the maximin strategy: that the worst possible position be as good as possible. Hence his two principles: basic liberties for all and inequalities only if they favour the worst off. The welfare state thus has a moral basis: intervening is not charity, it is justice.",
-    "ilustre": "rawls"
+    "biografia": "rawls"
    },
    {
     "quien": "Nozick (libertarianism)",

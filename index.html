@@ -39,7 +39,7 @@
   <div class="wrap bar-in">
     <a class="brand" href="#hf"><span class="owl" aria-hidden="true">🦉</span> Philosophy Classroom</a>
     <nav class="tabs" id="tabs" aria-label="Sections">
-      <div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Study</span><div class="navmenu"><button data-view="hf" aria-current="true">Theory</button><button data-view="pilares">Pillars</button><button data-view="tarjetas">Cards</button><button data-view="mapas">Maps and infographics</button><button data-view="glosario">Dictionary</button><button data-view="etimos">Roots</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Practise</span><div class="navmenu"><button data-view="cuestionarios">Quizzes</button><button data-view="pistas">Hints</button><button data-view="rescritura">Rewriting</button><button data-view="dilemas">Debate</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">PAU</span><div class="navmenu"><button data-view="pau">Guide to the exam</button><button data-view="comentario">Text commentary</button><button data-view="disertaciones">Essays</button><button data-view="lecturas">Readings</button></div></div><div class="navsec navsplit"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">History</span><div class="navmenu"><button data-view="epocas">Periods</button><button data-view="cronogramas">Chronograms</button><button data-view="biografias">Biographies</button><button data-view="adagios">Adages</button><button data-view="galeria">Gallery</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Games</span><div class="navmenu"><button data-view="eudaimonia">Eudaimonia</button><button data-view="republica">The Republic</button><button data-view="rayuela">Philosophical hopscotch</button><button data-view="leibniz">Workshops</button></div></div>
+      <div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Study</span><div class="navmenu"><button data-view="hf" aria-current="true">Theory</button><button data-view="pilares">Pillars</button><button data-view="tarjetas">Cards</button><button data-view="mapas">Maps and infographics</button><button data-view="diccionario">Dictionary</button><button data-view="etimos">Roots</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Practise</span><div class="navmenu"><button data-view="cuestionarios">Quizzes</button><button data-view="pistas">Hints</button><button data-view="rescritura">Rewriting</button><button data-view="dilemas">Debate</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">PAU</span><div class="navmenu"><button data-view="prepara_PAU">Prepare for the PAU</button><button data-view="comentario">Text commentary</button><button data-view="disertaciones">Essays</button><button data-view="lecturas">Readings</button></div></div><div class="navsec navsplit"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">History</span><div class="navmenu"><button data-view="epocas">Periods</button><button data-view="cronogramas">Chronograms</button><button data-view="biografias">Biographies</button><button data-view="adagios">Adages</button><button data-view="galeria">Gallery</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Games</span><div class="navmenu"><button data-view="eudaimonia">Eudaimonia</button><button data-view="republica">The Republic</button><button data-view="rayuela">Philosophical hopscotch</button><button data-view="leibniz">Workshops</button></div></div>
     </nav>
     <button class="navtoggle" id="navtoggle" aria-label="Open sections menu" aria-expanded="false">☰</button>
     <button class="theme" id="helpbtn" title="How to use the website" aria-label="How to use the website">?</button>
@@ -119,9 +119,9 @@
   </section>
 
   <!-- PAU -->
-  <section class="view" id="pau">
+  <section class="view" id="prepara_PAU">
     <p class="eyebrow">University entrance exam</p>
-    <h1 class="title">PAU preparation</h1>
+    <h1 class="title">Prepare for the PAU</h1>
     <p class="lead">Everything you need for the History of Philosophy exam: the <strong>structure</strong> of the paper, how to tackle <strong>Exercise 1</strong> (text comprehension) and <strong>Exercise 3</strong> (exposition), and the <strong>official models</strong>. Exercise 2, the essay, has its own tab.</p>
     <div class="chips" id="pauchips" role="group" aria-label="Choose PAU guide"></div>
     <div class="theory-layout">
@@ -205,7 +205,7 @@
   </section>
 
   <!-- RESÚMENES (antes «Esquemas de autor») -->
-  <section class="view" id="esqautor">
+  <section class="view" id="resumenes">
     <p class="eyebrow">Study</p>
     <h1 class="title">Summaries</h1>
     <p class="lead"><strong>25 summaries by topic/author</strong> from the syllabus (by the department), in a clean, printable text format—one author, one revision page for the PAU. They complement the graphs in <strong>Outlines</strong>.</p>
@@ -223,14 +223,14 @@
     <div class="galgrid" id="galgrid"></div>
   </section>
 
-  <!-- GLOSARIO -->
-  <section class="view" id="glosario">
+  <!-- DICCIONARIO -->
+  <section class="view" id="diccionario">
     <p class="eyebrow">Reference</p>
     <h1 class="title">Dictionary</h1>
     <p class="lead">The subject’s dictionary: <strong>301 terms</strong> from History of Philosophy with their definitions, taken from the department’s textbook. Search by word or filter by <strong>block</strong> and <strong>area</strong>.</p>
-    <div class="filterbar" id="glofilter" role="group" aria-label="Filter dictionary"></div>
-    <div class="glocount" id="glocount"></div>
-    <div class="glolist" id="glolist"></div>
+    <div class="filterbar" id="dicfilter" role="group" aria-label="Filter dictionary"></div>
+    <div class="diccount" id="diccount"></div>
+    <div class="diclist" id="diclist"></div>
   </section>
 
   <!-- ÉTIMOS -->
@@ -265,7 +265,7 @@
   </section>
 
   <section class="view" id="epocas">
-    <!-- (12-10) Índice de las fichas de época (epocas_fichas.js), que antes solo se abrían desde Ilustres; cada tarjeta lleva el cosmos de su época. -->
+    <!-- (12-10) Índice de las fichas de época (epocas_fichas.js), que antes solo se abrían desde Biografías; cada tarjeta lleva el cosmos de su época. -->
     <p class="eyebrow">History</p>
     <h1 class="title">Periods</h1>
     <p class="lead">Seven cards, from ancient Greece to today: what changed in each era in society, politics, science, art and thought, and how the cosmos was pictured.</p>
@@ -355,11 +355,11 @@
     <div id="itin-quiz"></div>
   </section>
 
-  <section class="view" id="reto">
+  <section class="view" id="retos">
     <p class="eyebrow">Tool</p>
-    <h1 class="title">Juego · Reto</h1>
+    <h1 class="title">Challenges</h1>
     <p class="lead">Revise by playing: against the clock, with points for speed and streaks. Your best score is saved in this browser.</p>
-    <div id="retobox"></div>
+    <div id="retosbox"></div>
   </section>
 
   <section class="view" id="cronogramas">
@@ -1201,7 +1201,7 @@
 <script src="js/tarjetas_img.js"></script>
 <script src="js/flashcards.js"></script>
 <script src="js/quiz.js"></script>
-<script src="js/retoview.js"></script>
+<script src="js/retosview.js"></script>
 <script src="js/theory.js"></script>
 <script src="js/theoryview.js"></script>
 <script src="js/retratos_museo.js"></script>
@@ -1216,8 +1216,8 @@
 <script src="js/lecturasview.js"></script>
 <script src="js/disertaciones.js"></script>
 <script src="js/disertacionesview.js"></script>
-<script src="js/pau.js"></script>
-<script src="js/pauview.js"></script>
+<script src="js/prepara_PAU.js"></script>
+<script src="js/prepara_PAUview.js"></script>
 <script src="js/comentario.js"></script>
 <script src="js/comentarioview.js"></script>
 <script src="js/diapositivas.js"></script>
@@ -1229,11 +1229,11 @@
 <script src="js/mapsview.js"></script>
 <script src="js/infografias.js"></script>
 <script src="js/infografiasview.js"></script>
-<script src="js/glosario.js"></script>
-<script src="js/glosario_grids.js"></script>
+<script src="js/diccionario.js"></script>
+<script src="js/diccionario_grids.js"></script>
 <script src="js/imprescindibles.js"></script>
 <script src="js/imprescindiblesview.js"></script>
-<script src="js/glosarioview.js"></script>
+<script src="js/diccionarioview.js"></script>
 <script src="js/biografias.js"></script>
 <script src="js/videos_eu.js"></script>
 <script src="js/epocas_fichas.js"></script>
@@ -1298,9 +1298,9 @@
 <script src="js/esquemas.js"></script>
 <script src="js/esq_grid.js"></script>
 <script src="js/esquemasview.js"></script>
-<script src="js/esquemas_autor.js"></script>
+<script src="js/resumenes.js"></script>
 <script src="js/esquemas_ejes.js"></script>
-<script src="js/esquemas_autorview.js"></script>
+<script src="js/resumenesview.js"></script>
 <script src="js/sesiones.js"></script>
 <script src="js/sesionesview.js"></script>
 <script src="js/calendarioview.js"></script>
@@ -1337,7 +1337,7 @@
 <script src="js/compacto.js"></script>
 <script src="js/nav_toc.js"></script>
 <script src="js/lazy_libs.js"></script>
-<script>window.USO_CONFIG={"url":"https://script.google.com/macros/s/AKfycbzBE41zf12MG7pFbgwgjbOQPriNBJZz4vSigkE-gIjWgSx67pQ-K1IgI4qoRpMlIaQT/exec","grupos":{"hf":["2E"]},"version":"v275"};</script>
+<script>window.USO_CONFIG={"url":"https://script.google.com/macros/s/AKfycbzBE41zf12MG7pFbgwgjbOQPriNBJZz4vSigkE-gIjWgSx67pQ-K1IgI4qoRpMlIaQT/exec","grupos":{"hf":["2E"]},"version":"v276"};</script>
 <script src="js/uso.js"></script>
 <script>
   /* PWA: registra el service worker (offline + instalable). Falla en silencio

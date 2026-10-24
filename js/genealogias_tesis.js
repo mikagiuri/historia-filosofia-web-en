@@ -3,301 +3,301 @@ const GEN_TESIS = {
  "tesis": [
   {
    "id": "her-flujo",
-   "ilustre": "heraclito",
+   "biografia": "heraclito",
    "t": "Everything flows: you cannot step into the same river twice.",
    "ref": "Fragment DK 22 B 91 (Plutarch); ‘everything flows’ (panta rhei) is the formula by which tradition sums it up",
    "forma": "traditional formula"
   },
   {
    "id": "par-ser",
-   "ilustre": "parmenides",
+   "biografia": "parmenides",
    "t": "What is, is, and what is not, is not: change and plurality are mere appearance.",
    "ref": "Poem, fragments DK 28 B 2 and B 8",
    "forma": "paraphrase"
   },
   {
    "id": "pro-medida",
-   "ilustre": "protagoras",
+   "biografia": "protagoras",
    "t": "Man is the measure of all things.",
    "ref": "Fragment DK 80 B 1, quoted by Plato, Theaetetus 152a",
    "forma": "verbatim"
   },
   {
    "id": "soc-examen",
-   "ilustre": "socrates",
+   "biografia": "socrates",
    "t": "The unexamined life is not worth living.",
    "ref": "Plato, Apology of Socrates 38a",
    "forma": "verbatim"
   },
   {
    "id": "soc-virtud",
-   "ilustre": "socrates",
+   "biografia": "socrates",
    "t": "No one does wrong knowingly: virtue is knowledge.",
    "ref": "Plato, Protagoras 345d-e and 358c-d (moral intellectualism)",
    "forma": "paraphrase"
   },
   {
    "id": "pla-ideas",
-   "ilustre": "platon",
+   "biografia": "platon",
    "t": "The Forms, eternal and unchanging, are true reality; the sensible world is only a copy of them.",
    "ref": "Republic VII 514a-517c (the cave); Phaedo 74a-75d",
    "forma": "paraphrase"
   },
   {
    "id": "pla-anam",
-   "ilustre": "platon",
+   "biografia": "platon",
    "t": "To know is to recollect what the soul contemplated before birth.",
    "ref": "Meno 81c-d; Phaedo 72e-76e (anamnesis)",
    "forma": "paraphrase"
   },
   {
    "id": "pla-rey",
-   "ilustre": "platon",
+   "biografia": "platon",
    "t": "There will be no end to the troubles of cities until philosophers rule or rulers become philosophers.",
    "ref": "Republic V 473c-d",
    "forma": "paraphrase"
   },
   {
    "id": "ari-forma",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "There are no separate Forms: form is in things themselves, united with matter.",
    "ref": "Metaphysics I 9 (990b-991b) and VII",
    "forma": "paraphrase"
   },
   {
    "id": "ari-exp",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "All knowledge begins with sense perception: from it arise memory and experience.",
    "ref": "Metaphysics I 1 (980a-981a); Posterior Analytics II 19 (100a)",
    "forma": "paraphrase"
   },
   {
    "id": "ari-habito",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "Ethical virtue is not taught like a science: it is acquired by habit, through practice.",
    "ref": "Nicomachean Ethics II 1 (1103a14-b25)",
    "forma": "paraphrase"
   },
   {
    "id": "ari-polis",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "The human being is by nature a political animal.",
    "ref": "Politics I 2 (1253a2-3)",
    "forma": "verbatim"
   },
   {
    "id": "epi-placer",
-   "ilustre": "epicuro",
+   "biografia": "epicuro",
    "t": "Pleasure is the beginning and the end of the happy life.",
    "ref": "Letter to Menoeceus 128-129",
    "forma": "verbatim"
   },
   {
    "id": "agu-interior",
-   "ilustre": "agustin",
+   "biografia": "agustin",
    "t": "Do not go outward; return within yourself: truth dwells in the inner man.",
    "ref": "On True Religion 39, 72",
    "forma": "verbatim"
   },
   {
    "id": "agu-creer",
-   "ilustre": "agustin",
+   "biografia": "agustin",
    "t": "Believe in order to understand, and understand in order to believe.",
    "ref": "Sermon 43, 7, 9",
    "forma": "paraphrase"
   },
   {
    "id": "tom-armonia",
-   "ilustre": "tomas",
+   "biografia": "tomas",
    "t": "Reason and faith cannot contradict each other, because both come from God.",
    "ref": "Summa contra Gentiles I 7",
    "forma": "paraphrase"
   },
   {
    "id": "tom-vias",
-   "ilustre": "tomas",
+   "biografia": "tomas",
    "t": "God’s existence is demonstrated from His effects in the sensible world (the five ways).",
    "ref": "Summa Theologiae I, q. 2, a. 3",
    "forma": "paraphrase"
   },
   {
    "id": "ock-navaja",
-   "ilustre": "ockham",
+   "biografia": "ockham",
    "t": "Entities must not be multiplied beyond necessity.",
    "ref": "‘Ockham’s razor’; in his works: ‘plurality is not to be posited without necessity’ (Ordinatio I, d. 30, q. 1)",
    "forma": "traditional formula"
   },
   {
    "id": "ock-univ",
-   "ilustre": "ockham",
+   "biografia": "ockham",
    "t": "Universals do not exist outside the mind: they are signs that signify many singular things.",
    "ref": "Summa Logicae I 14-15",
    "forma": "paraphrase"
   },
   {
    "id": "des-cogito",
-   "ilustre": "descartes",
+   "biografia": "descartes",
    "t": "I think, therefore I am.",
    "ref": "Discourse on the Method IV (AT VI 32)",
    "forma": "verbatim"
   },
   {
    "id": "des-innatas",
-   "ilustre": "descartes",
+   "biografia": "descartes",
    "t": "There are innate ideas, such as the idea of God, that do not come from the senses.",
    "ref": "Meditations on First Philosophy III (AT VII 37-38 and 51)",
    "forma": "paraphrase"
   },
   {
    "id": "des-dual",
-   "ilustre": "descartes",
+   "biografia": "descartes",
    "t": "The soul and the body are two distinct substances: one thinks and the other is extended.",
    "ref": "Meditations on First Philosophy VI (AT VII 78)",
    "forma": "paraphrase"
   },
   {
    "id": "hob-guerra",
-   "ilustre": "hobbes",
+   "biografia": "hobbes",
    "t": "Without a common power to keep them all in awe, men are in a war of every man against every man, and the life of man is solitary, poor, nasty, brutish, and short.",
    "ref": "Leviathan I 13",
    "forma": "paraphrase"
   },
   {
    "id": "loc-tabla",
-   "ilustre": "locke",
+   "biografia": "locke",
    "t": "There are no innate ideas: at first the mind is, as we say, white paper, and everything comes to it from experience.",
    "ref": "An Essay Concerning Human Understanding I and II 1, § 2",
    "forma": "paraphrase"
   },
   {
    "id": "loc-resistir",
-   "ilustre": "locke",
+   "biografia": "locke",
    "t": "Government exists to protect life, liberty and property; if it violates them, the people may resist it.",
    "ref": "Second Treatise of Government §§ 123-131 and 222",
    "forma": "paraphrase"
   },
   {
    "id": "hum-impr",
-   "ilustre": "hume",
+   "biografia": "hume",
    "t": "All our ideas are copies of our impressions.",
    "ref": "An Enquiry Concerning Human Understanding, Section II",
    "forma": "paraphrase"
   },
   {
    "id": "hum-causa",
-   "ilustre": "hume",
+   "biografia": "hume",
    "t": "The necessary connection between cause and effect is not perceived: we expect it out of custom.",
    "ref": "An Enquiry Concerning Human Understanding, Sections V and VII",
    "forma": "paraphrase"
   },
   {
    "id": "hum-esclava",
-   "ilustre": "hume",
+   "biografia": "hume",
    "t": "Reason is, and ought only to be, the slave of the passions.",
    "ref": "A Treatise of Human Nature II, 3, 3",
    "forma": "verbatim"
   },
   {
    "id": "rou-bueno",
-   "ilustre": "rousseau",
+   "biografia": "rousseau",
    "t": "Human beings are good by nature: society corrupts them.",
    "ref": "Formula that sums up the Discourse on Inequality and the opening of Emile (‘everything degenerates in the hands of man’)",
    "forma": "traditional formula"
   },
   {
    "id": "kan-sapere",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Enlightenment is man’s emergence from his self-incurred immaturity: have the courage to use your own understanding!",
    "ref": "An Answer to the Question: What is Enlightenment? (1784), AA VIII 35",
    "forma": "verbatim"
   },
   {
    "id": "kan-exp",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Although all our cognition commences with experience, yet it does not on that account all arise from experience.",
    "ref": "Critique of Pure Reason, Introduction, B 1",
    "forma": "verbatim"
   },
   {
    "id": "kan-ley",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Act only according to that maxim by which you can at the same time will that it should become a universal law.",
    "ref": "Groundwork of the Metaphysics of Morals, AA IV 421",
    "forma": "verbatim"
   },
   {
    "id": "kan-mentir",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "It is not permissible to lie, not even to the murderer who asks where your friend is hiding.",
    "ref": "On a Supposed Right to Lie from Philanthropy (1797), AA VIII 425-430",
    "forma": "paraphrase"
   },
   {
    "id": "mil-util",
-   "ilustre": "mill",
+   "biografia": "mill",
    "t": "Actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse of happiness.",
    "ref": "Utilitarianism, Chapter II",
    "forma": "paraphrase"
   },
   {
    "id": "mil-socrates",
-   "ilustre": "mill",
+   "biografia": "mill",
    "t": "It is better to be Socrates dissatisfied than a fool satisfied.",
    "ref": "Utilitarianism, Chapter II",
    "forma": "verbatim"
   },
   {
    "id": "mar-conciencia",
-   "ilustre": "marx",
+   "biografia": "marx",
    "t": "It is not the consciousness of men that determines their being, but their social being that determines their consciousness.",
    "ref": "A Contribution to the Critique of Political Economy (1859), Preface",
    "forma": "verbatim"
   },
   {
    "id": "mar-tesis",
-   "ilustre": "marx",
+   "biografia": "marx",
    "t": "The philosophers have only interpreted the world, in various ways; the point is to change it.",
    "ref": "Theses on Feuerbach, XI",
    "forma": "verbatim"
   },
   {
    "id": "nie-dios",
-   "ilustre": "nietzsche",
+   "biografia": "nietzsche",
    "t": "God is dead, and we have killed him.",
    "ref": "The Gay Science § 125 (‘The Madman’)",
    "forma": "verbatim"
   },
   {
    "id": "nie-fabula",
-   "ilustre": "nietzsche",
+   "biografia": "nietzsche",
    "t": "The ‘true world’ is a fable: there is no other world behind the one we live in.",
    "ref": "Twilight of the Idols, ‘How the “True World” Finally Became a Fable’",
    "forma": "paraphrase"
   },
   {
    "id": "nie-socrates",
-   "ilustre": "nietzsche",
+   "biografia": "nietzsche",
    "t": "Socrates is a symptom of decadence: to set reason against the instincts is to fall ill.",
    "ref": "Twilight of the Idols, ‘The Problem of Socrates’",
    "forma": "paraphrase"
   },
   {
    "id": "ort-circ",
-   "ilustre": "ortega",
+   "biografia": "ortega",
    "t": "I am myself and my circumstance, and if I do not save it, I do not save myself.",
    "ref": "Meditations on Quixote (1914), ‘Reader…’",
    "forma": "verbatim"
   },
   {
    "id": "sar-exist",
-   "ilustre": "sartre",
+   "biografia": "sartre",
    "t": "Existence precedes essence: man is nothing other than what he makes of himself.",
    "ref": "Existentialism Is a Humanism (1946)",
    "forma": "verbatim"
   },
   {
    "id": "bea-mujer",
-   "ilustre": "beauvoir",
+   "biografia": "beauvoir",
    "t": "One is not born, but rather becomes, a woman.",
    "ref": "The Second Sex, vol. II, Part One, Chapter I",
    "forma": "verbatim"
