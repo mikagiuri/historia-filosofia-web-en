@@ -31,12 +31,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The menu’s first tabs are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training) and <strong>PAU</strong> (the exam, the texts and writing). After a line come the extra ones: <strong>History</strong> (the context of the philosophers) and <strong>Games</strong>. The <strong>Logic Corner</strong> has no tab on this website: the links in the topics that use it open it.",
+   "x": "The first tabs of the menu are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (check what you know and train) and <strong>PAU</strong> (the exam, the texts and the writing). After a line come the complementary ones: <strong>History</strong> (the context of the philosophers, with the Pillars and the Etymologies) and <strong>Games</strong>. The <strong>Logic Corner</strong> has no tab on this website: it is opened by the links of the topics that use it.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "The menu’s first tabs are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (checking what you know and training), <strong>Logic</strong> (the Logic Corner, with its exercises and its laboratory) and <strong>Write and read</strong> (the essay and the texts). After a line come the extra ones: <strong>History</strong> (the context of the philosophers) and <strong>Games</strong>.",
+   "x": "The first tabs of the menu are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (check what you know and train), <strong>Logic</strong> (the Logic Corner, with its exercises and its laboratory) and <strong>Write and read</strong> (the essay and the texts). After a line come the complementary ones: <strong>History</strong> (the context of the philosophers, with the Pillars and the Etymologies) and <strong>Games</strong>.",
    "solo": "fil"
   },
   {
@@ -67,7 +67,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The topics are grouped by <strong>branches</strong> of philosophy (anthropology, knowledge, logic, ethics, politics and aesthetics), each with its own colour. You will find that colour all over the website: in the filters, the cards and the quizzes.",
+   "x": "The topics are grouped into <strong>blocks</strong> (“Block 2 · …”), each with the colour of its branch of philosophy (anthropology, knowledge, logic, ethics, politics and aesthetics). Click the header of a block to expand it: you will see its topics, with the numbered subtopics (1.1, 1.2…). Topic 1 is separate, in an Introduction group, in grey. That colour accompanies you throughout the website: in the filters, the cards and the quizzes.",
    "solo": "fil"
   },
   {
@@ -77,7 +77,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "<strong>Explorations</strong> opens further reading on the topic, which is optional. Further down is <strong>Explore the subject</strong>: everything on the website, counted by type.",
+   "x": "Within each block, <strong>Explorations</strong> expands the optional extension activities and readings. Further down is <strong>Explore the subject</strong>: everything on the website, organised by type.",
    "solo": "fil"
   },
   {
@@ -86,7 +86,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The <strong>Aa</strong> button opens the <strong>reading settings</strong>. <strong>Listen to this page</strong> reads aloud, paragraph by paragraph, whatever is in front of you. You can also make the text bigger, add more space between lines, letters and words, change the typeface, align the text to the left, raise the contrast or turn off animations. Settings are saved on your device only, and <strong>Reset</strong> puts everything back as it was. To listen, your device needs a voice in the language of the website; with the ‘online’ voices in Chrome or Edge, the text of the page goes through the browser’s speech service."
+   "x": "The <strong>Aa</strong> button opens the <strong>reading settings</strong>. <strong>Listen to this page</strong> reads aloud, paragraph by paragraph, what is in front of you. You can also enlarge the font, increase the spacing of lines, letters and words, change the font type, align the text to the left, increase the contrast or remove the animations. The settings are saved only on your device, and <strong>Reset</strong> leaves everything as it was. To listen, the device needs a voice in the language of the website; with the ‘online’ voices of Chrome or Edge, the text of the page goes through the browser's speech service. Furthermore, in the Theory, the dictionary terms appear underlined with dots within the text. If they bother you, turn them off with <strong>Aa</strong>."
   },
   {
    "type": "h",
@@ -103,12 +103,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, dictionary concepts, its period and its chronogram), <strong>Prepare for the PAU</strong> (readings, commentaries, essays and comparisons) and <strong>Go deeper</strong>, which opens when you press it (explorations, dilemmas, hints, the Logic Corner, controversies, communities, the persecuted, the Duel of Reasons, games and, in some topics, videos in Basque with their transcript).",
+   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (flashcards, quizzes, infographics, maps, diagrams, dictionary concepts, its period and its timeline), <strong>Prepare for the PAU</strong> (readings, commentaries, essays and comparisons) and <strong>Extend</strong>, which unfolds when you press it (explorations, dilemmas, clues, the Logic Corner, controversies, communities, persecuted, the Duel of reasons, games and, in some topics, videos in Basque with their transcription). The box appears <strong>only once</strong>, at the end. In addition, the materials of the topic (flashcards, diagrams…) also appear <strong>interspersed between the paragraphs</strong> where they belong.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (cards, quizzes, infographics, maps, outlines, dictionary concepts and its period), <strong>Think and write</strong> (readings, essays, dilemmas, hints and the Logic Corner) and <strong>Go deeper</strong>, which opens when you press it (explorations, controversies, communities, the persecuted, the Duel of Reasons, games and, in some topics, videos in Basque with their transcript).",
+   "x": "At the end of each topic there is a box, <strong>To continue with this topic</strong>, with all the material for that topic in three blocks: <strong>Study</strong> (flashcards, quizzes, infographics, maps, diagrams, dictionary concepts and its period), <strong>Think and write</strong> (readings, essays, dilemmas, clues and the Logic Corner) and <strong>Extend</strong>, which unfolds when you press it (explorations, controversies, communities, persecuted, the Duel of reasons, games and, in some topics, videos in Basque with their transcription). The box appears <strong>only once</strong>, at the end. In addition, the materials of the topic (flashcards, diagrams…) also appear <strong>interspersed between the paragraphs</strong> where they belong.",
    "solo": "fil"
   },
   {
@@ -200,29 +200,24 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
-     "nombre": "Pillars",
-     "texto": "The great concepts (reason, idea, cause) in ten steps, from the everyday word to today’s debate. Each step corrects the one before and asks you to work: apply the idea to a case, link it to what you have already climbed and check whether you have understood it. Tick the steps you get past: this is saved only in your browser.",
-     "view": "pilares"
-    },
-    {
      "nombre": "Cards",
      "texto": "Click the card (or press the space bar) to turn it over and mark the ones you have mastered with “I know it”. Your progress is saved.",
      "view": "tarjetas"
     },
     {
      "nombre": "Maps and infographics",
-     "texto": "Maps that fold and unfold: press a node to open or close its branches, drag to move around and use the wheel to zoom in. At the top there are two buttons to switch between concept maps and infographics. The outlines for each topic open from the ‘To continue with this topic’ box or from ‘Explore the subject’, on the subject page.",
+     "texto": "Maps that fold and unfold: press a node to open or close its branches, drag to move around and use the wheel to zoom in. At the top there are two buttons to switch from concept maps to infographics.",
      "view": "mapas"
     },
     {
-     "nombre": "Dictionary",
-     "texto": "The subject’s dictionary: every term with its definition. Search for a word or filter the terms.",
-     "view": "diccionario"
+     "nombre": "Diagrams",
+     "texto": "Conceptual diagrams with their relationships. Choose one by its title. In History of Philosophy you can filter them by period.",
+     "view": "esquemas"
     },
     {
-     "nombre": "Roots",
-     "texto": "Where the words of philosophy come from: their Greek or Latin root, to understand better what they mean today. Search for a word or browse them by topic.",
-     "view": "etimos"
+     "nombre": "Dictionary",
+     "texto": "The dictionary of the subject: each term with its definition. Search for a word or filter the terms. Within the Theory, the dictionary terms of that topic appear with a <em>dotted underline</em> the first time they appear in each section. Touch them, reach them with the keyboard or hover over them: you will see the definition, the root and ‘View card’. <strong>Esc</strong> closes it. It is activated by default, and the <strong>Aa</strong> button turns it off.",
+     "view": "diccionario"
     }
    ]
   },
@@ -316,7 +311,7 @@ const GUIA = {
    "rows": [
     {
      "nombre": "Prepare for the PAU",
-     "texto": "What the exam is like, how to approach Exercise 1 (text comprehension) and Exercise 3 (exposition), and the official models.",
+     "texto": "An index with 6 collapsible groups, in the order of the exam: <strong>Know the exam</strong>, <strong>Exercise 1 · Text comprehension</strong>, <strong>Exercise 2 · Essay</strong>, <strong>Exercise 3 · Rethinking the HF</strong>, <strong>The five readings</strong> and <strong>Practise: mock exams</strong>. Open each guide from its link and move from one to another with the <strong>Previous</strong> and <strong>Next</strong> buttons. It includes <strong>Worked answers</strong>: worked models of Exercise 1, of the essay and of Exercise 3.",
      "view": "prepara_PAU"
     },
     {
@@ -339,7 +334,7 @@ const GUIA = {
   {
    "type": "tip",
    "solo": "hf",
-   "x": "Start with ‘Prepare for the PAU’ to find out what you will be asked, then follow the PAU itinerary on the subject page: it takes you through each exercise in order."
+   "x": "Start with Prepare for PAU to know what they are going to ask you. Go through the 6 groups in order with <strong>Previous</strong> and <strong>Next</strong>, and follow the PAU Itinerary on the subject page: it takes you in order through each exercise. When you have doubts, look at the <strong>Worked answers</strong>."
   },
   {
    "type": "h",
@@ -406,6 +401,16 @@ const GUIA = {
      "nombre": "Gallery",
      "texto": "Images by author and topic; click them to see them full screen.",
      "view": "galeria"
+    },
+    {
+     "nombre": "Pillars",
+     "texto": "The great concepts (reason, idea, cause) in ten steps, from the everyday word to today’s debate. Each step corrects the one before and asks you to work: apply the idea to a case, link it to what you have already climbed and check whether you have understood it. Tick the steps you get past: this is saved only in your browser.",
+     "view": "pilares"
+    },
+    {
+     "nombre": "Roots",
+     "texto": "Where the words of philosophy come from: their Greek or Latin root, to understand better what they mean today. Search for a word or browse them by topic.",
+     "view": "etimos"
     }
    ]
   },
