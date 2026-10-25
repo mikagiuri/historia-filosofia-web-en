@@ -2649,7 +2649,7 @@ const PISTAS = [
     "pistas": [
      "Remember: in Spinoza everything follows from the nature of God with <strong>necessity</strong>, as the properties of a triangle follow from its definition.",
      "A triangle does not have its angles ‘for’ anything. Ask yourself whether Nature, which is God, needs purposes.",
-     "In the appendix to Part I, Spinoza says that men suppose that natural things act, as they do, <strong>for an end</strong>: it is a prejudice born of our ignorance of causes.",
+     "In the appendix to Part I, Spinoza says that human beings suppose that natural things act, as they do, <strong>for an end</strong>: it is a prejudice born of our ignorance of causes.",
      "That is why knowing God is not guessing his plans: it is <strong>understanding the necessary order</strong> of Nature. Here he parts company with the Stoics, who believed in a good providence."
     ],
     "comprobacion": {
@@ -4990,7 +4990,7 @@ const PISTAS = [
     "etiqueta": "Opening question",
     "pregunta": "What does Nietzsche mean when he calls himself ‘the first immoralist’?",
     "repaso": [
-     "Have I said that ‘immoralist’ contains two negations: that of the ‘good’ type of man and that of Christian morality?",
+     "Have I said that ‘immoralist’ contains two negations: that of the ‘good’ type of human being and that of Christian morality?",
      "Have I explained that he calls that morality ‘the morality of <em>décadence</em>’, a sign of weakness and of a life in decline?",
      "Have I said that negation is not his last word: he negates in order to be able to say yes to life?"
     ],
@@ -5000,14 +5000,14 @@ const PISTAS = [
     "pistas": [
      "To get your bearings: an <strong>immoralist</strong> is not someone who defends crime, but someone who denies that received morality has value in itself.",
      "In §4 Nietzsche says that the word contains <strong>two negations</strong>. Work out what each one refers to: a type of person and a type of morality.",
-     "He denies the type of man regarded as supreme, <strong>the good</strong>, the benevolent; and he denies the morality that has imposed itself as ‘morality in itself’: <strong>Christian morality</strong>, which he calls the morality of <em>décadence</em>.",
+     "He denies the type of human being regarded as supreme, <strong>the good</strong>, the benevolent; and he denies the morality that has imposed itself as ‘morality in itself’: <strong>Christian morality</strong>, which he calls the morality of <em>décadence</em>.",
      "But it is not just a ‘no’: he presents himself as the antithesis of a spirit that says no. <strong>Negating and annihilating are conditions of saying yes</strong> to life."
     ],
     "comprobacion": {
      "pregunta": "What does Nietzsche deny by calling himself an ‘immoralist’?",
      "opciones": [
       [
-       "The ‘good’ type of man and Christian morality, which he considers a morality of decadence.",
+       "The ‘good’ type of human being and Christian morality, which he considers a morality of decadence.",
        true
       ],
       [
@@ -5027,7 +5027,7 @@ const PISTAS = [
        "No: what he criticises is the way morality has distributed ‘good’ and ‘bad’."
       ]
      ],
-     "ok": "Good: two negations, the ‘good’ man and the morality of <em>décadence</em>.",
+     "ok": "Good: two negations, the ‘good’ human being and the morality of <em>décadence</em>.",
      "mal": "Not yet."
     },
     "rescate": [
@@ -5084,7 +5084,7 @@ const PISTAS = [
        "g-genealogia-de-la-moral"
       ],
       "definicion": [
-       "<strong>First negation</strong> → the type of man regarded as supreme: ‘the good’, the benevolent. Their condition of existence, he says, is not wanting to see what reality is like (§4).",
+       "<strong>First negation</strong> → the type of human being regarded as supreme: ‘the good’, the benevolent. Their condition of existence, he says, is not wanting to see what reality is like (§4).",
        "<strong>Second negation</strong>, the decisive one → Christian morality, the morality of <em>décadence</em>: a morality of self-renunciation that betrays a will to the end (§4 and §7).",
        "<strong>But it is not simply a ‘no’</strong> → negating and annihilating are conditions for saying yes to life. That is why he calls himself a ‘joyful messenger’ (§1)."
       ],
@@ -5100,7 +5100,7 @@ const PISTAS = [
         [
          "That of the particular people who are kind.",
          false,
-         "He does not attack particular people, but a type of man whom morality has set up as a model."
+         "He does not attack particular people, but a type of human being whom morality has set up as a model."
         ],
         [
          "That of science and knowledge.",
@@ -5217,7 +5217,7 @@ const PISTAS = [
   "cierre": {
    "titulo": "You can now explain ‘Why I Am a Destiny’",
    "parrafos": [
-    "Nietzsche calls himself ‘the first immoralist’: he denies the ‘good’ type of man and Christian morality, which he considers a morality of <em>décadence</em>, hostile to life. His formula is the revaluation of all values: creating values that say yes to life, summed up in ‘Dionysus versus the Crucified’.",
+    "Nietzsche calls himself ‘the first immoralist’: he denies the ‘good’ type of human being and Christian morality, which he considers a morality of <em>décadence</em>, hostile to life. His formula is the revaluation of all values: creating values that say yes to life, summed up in ‘Dionysus versus the Crucified’.",
     "For the PAU: in the summary, include the two negations of §4; in option A or B, relate them to the death of God and nihilism."
    ]
   }

@@ -250,7 +250,7 @@ const RESUMENES = [
     "items": [
      {
       "t": "Relativism",
-      "d": "‘Man is the measure of all things’: there is no single truth or justice.",
+      "d": "‘The human being is the measure of all things’: there is no single truth or justice.",
       "a": "Protagoras"
      },
      {

@@ -18,7 +18,7 @@ const GEN_TESIS = {
   {
    "id": "pro-medida",
    "biografia": "protagoras",
-   "t": "Man is the measure of all things.",
+   "t": "The human being is the measure of all things.",
    "ref": "Fragment DK 80 B 1, quoted by Plato, Theaetetus 152a",
    "forma": "verbatim"
   },
@@ -407,7 +407,7 @@ const GEN_TESIS = {
   {
    "k": "hob-guerra|rou-bueno",
    "tipo": "desacuerdo",
-   "por": "Rousseau accuses Hobbes of attributing to natural man the vices that society actually produces."
+   "por": "Rousseau accuses Hobbes of attributing to the natural human being the vices that society actually produces."
   },
   {
    "k": "hob-guerra|loc-resistir",

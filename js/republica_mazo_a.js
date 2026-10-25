@@ -855,14 +855,14 @@ const REP_MAZO_A = {
    "id": "alma_thymos",
    "name": "The timocratic soul (spirit rules)",
    "lema": "It loves honour and power more than knowledge.",
-   "txt": "The timocratic man hands over command within himself to the spirited, victory-loving element. *Thymós* is the irascible or spirited part; its excess is ambition (*philotimía*).",
+   "txt": "The timocratic human being hands over command within himself to the spirited, victory-loving element. *Thymós* is the irascible or spirited part; its excess is ambition (*philotimía*).",
    "loc": "Republic VIII, 548d-550b"
   },
   {
    "id": "alma_epithymia_nec",
    "name": "The oligarchic soul (necessary appetite rules)",
    "lema": "It saves, fears spending and leaves unsatisfied every desire that brings no profit.",
-   "txt": "The oligarchic man puts the appetitive, money-loving element on the throne. *Epithymía* is the appetitive part; here its ‘necessary’ form, that of money, dominates.",
+   "txt": "The oligarchic human being puts the appetitive, money-loving element on the throne. *Epithymía* is the appetitive part; here its ‘necessary’ form, that of money, dominates.",
    "loc": "Republic VIII, 553a-554e"
   },
   {
@@ -876,7 +876,7 @@ const REP_MAZO_A = {
    "id": "alma_eros_tirano",
    "name": "The tyrannical soul (the desire with a sting rules: Eros)",
    "lema": "The one who can do everything outside is the greatest slave within.",
-   "txt": "In the tyrant’s soul one ruling desire governs the rest like a sting; he is truly a slave even though he commands, full of fear, friendless, unable to do what he wants: the most wretched of men. Plato’s argument is set out here, not a judgement on any real regime.",
+   "txt": "In the tyrant’s soul one ruling desire governs the rest like a sting; he is truly a slave even though he commands, full of fear, friendless, unable to do what he wants: the most wretched of human beings. Plato’s argument is set out here, not a judgement on any real regime.",
    "loc": "Republic IX, 571a-580a"
   }
  ],

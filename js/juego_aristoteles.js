@@ -276,7 +276,7 @@ const JUEGO_ARIS = {
     }
    },
    "perfil": "The most famous and best-paid sophist in Greece; a friend of Pericles and suspect to the devout.",
-   "frase": "Man is the measure of all things.",
+   "frase": "The human being is the measure of all things.",
    "destino": "Pericles commissioned him to draw up the laws of the colony of Thurii. According to tradition, he was accused of impiety for his book On the Gods, his books were burned in the agora, and he died in a shipwreck while fleeing from Athens."
   },
   {

@@ -272,7 +272,7 @@ const ADAGIOS = [
   "la": "Homo mensura",
   "gr": "Πάντων χρημάτων μέτρον ἄνθρωπος",
   "tr": "pánton khremáton métron ánthropos",
-  "es": "Man is the measure of all things.",
+  "es": "The human being is the measure of all things.",
   "o": "Protagoras, quoted by Plato, Theaetetus 152a",
   "sen": "Things are for each person as they appear to them: there is no truth above all points of view.",
   "uso": "For the Sophists and relativism.",

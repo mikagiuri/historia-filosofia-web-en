@@ -282,7 +282,7 @@ const DECKS = {
    [
     "📏",
     "Protagoras",
-    "‘Man is the measure of all things’: relativism. There is no single truth or justice; they depend on the human being."
+    "‘The human being is the measure of all things’: relativism. There is no single truth or justice; they depend on the human being."
    ],
    [
     "🌀",
@@ -374,7 +374,7 @@ const DECKS = {
    ],
    [
     "🏛️",
-    "‘Man is the measure of all things: of those that are, that they are; of those that are not, that they are not.’",
+    "‘The human being is the measure of all things: of those that are, that they are; of those that are not, that they are not.’",
     "Protagoras — Man as the measure (DK B1)"
    ],
    [
@@ -4406,7 +4406,7 @@ const QUIZZES = {
      "Prohibiting public debate."
     ],
     "a": 1,
-    "fb": "The language of rights opens up the problem of whom ‘man’ really includes, since women, slaves and colonised peoples were left out."
+    "fb": "The language of rights opens up the problem of whom ‘the human being’ really includes, since women, slaves and colonised peoples were left out."
    },
    {
     "q": "What does Olympe de Gouges’ critique do?",
@@ -8558,7 +8558,7 @@ const QUIZZES = {
      "Love and Strife, uniting and separating the roots."
     ],
     "a": 1,
-    "fb": "The cosmos was not created by gods or men: it is eternal and self-sufficient, a fire that is kindled and extinguished according to a measure."
+    "fb": "The cosmos was not created by gods or human beings: it is eternal and self-sufficient, a fire that is kindled and extinguished according to a measure."
    },
    {
     "q": "What does it mean that Heraclitus’s fire is kindled and extinguished ‘according to a measure’?",
@@ -9543,7 +9543,7 @@ const QUIZZES = {
     "o": [
      "Because it is the matter of which the soul is the form, and without it the soul could not exist.",
      "Because it distracts the soul with desires, fears and illnesses, and prevents it from reaching the truth.",
-     "Because it was created by the gods as a punishment for the guilt of the first men.",
+     "Because it was created by the gods as a punishment for the guilt of the first human beings.",
      "Because it forces the soul to obey the laws of the city instead of reason."
     ],
     "a": 1,
@@ -13937,7 +13937,7 @@ const QUIZZES = {
    {
     "q": "Kant’s three questions (What can I know? What ought I to do? What may I hope?) are summed up, according to him, in a single one. Which?",
     "o": [
-     "What is man?",
+     "What is the human being?",
      "What is being?",
      "What is happiness?",
      "What is truth?"
@@ -14306,7 +14306,7 @@ const QUIZZES = {
      "What is being?"
     ],
     "a": 3,
-    "fb": "The three Kantian questions are what can I know, what ought I to do and what may I hope, summed up in what is man."
+    "fb": "The three Kantian questions are what can I know, what ought I to do and what may I hope, summed up in what is a human being."
    }
   ]
  },
@@ -16322,10 +16322,10 @@ const QUIZZES = {
    {
     "q": "What relationship does Sartre establish between his atheism and human freedom?",
     "o": [
-     "God grants freedom so that man may be saved.",
+     "God grants freedom so that the human being may be saved.",
      "Without a God who dictates norms, each person makes himself.",
      "Without God, everything is subject to the laws of nature.",
-     "Atheism frees man from all responsibility."
+     "Atheism frees human beings from all responsibility."
     ],
     "a": 1,
     "fb": "Sartre’s atheistic humanism starts from the fact that there is no God who dictates norms; that is why we are fully responsible for what we are."
@@ -16346,11 +16346,11 @@ const QUIZZES = {
     "o": [
      "That love for God is the proof that God exists.",
      "That reason proves that the soul is immortal.",
-     "That feeling defines man more than thinking does.",
+     "That feeling defines the human being more than thinking does.",
      "That only what someone perceives exists."
     ],
     "a": 2,
-    "fb": "Unamuno sets his formula against ‘I think, therefore I am’: what defines the man of flesh and blood is feeling, not abstract reasoning."
+    "fb": "Unamuno sets his formula against ‘I think, therefore I am’: what defines the human being of flesh and blood is feeling, not abstract reasoning."
    },
    {
     "q": "Why does Ortega propose a ‘vital reason’?",
@@ -16391,7 +16391,7 @@ const QUIZZES = {
      "It holds that life has no predetermined purpose.",
      "It claims that history is heading towards decline.",
      "It denies that human beings can know anything for certain.",
-     "It considers that man is evil by nature."
+     "It considers that the human being is evil by nature."
     ],
     "a": 0,
     "fb": "Existentialist pessimism consists in the fact that life lacks a purpose given in advance (Sartre’s ‘nausea’, Heidegger’s ‘nothingness’)."

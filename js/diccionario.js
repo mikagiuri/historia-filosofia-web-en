@@ -1029,7 +1029,7 @@ const DICCIONARIO = [
   "bloque": "B",
   "unidad": "B3",
   "tema": "Renaissance and science",
-  "def": "The dignity of man: Renaissance humanism (Pico della Mirandola) maintained that the human being has no fixed nature, that he is a being capable of building himself in freedom.",
+  "def": "The dignity of the human being: Renaissance humanism (Pico della Mirandola) maintained that the human being has no fixed nature, that he is a being capable of building himself in freedom.",
   "biografia": [
    "pico"
   ]
@@ -4566,7 +4566,7 @@ const DICCIONARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sophists, Aspasia and Socrates",
-  "def": "The position according to which truth and values depend on the subject: one's own perception and interest are the measure. It is a form of relativism applied to the individual (Protagoras: “man is the measure of all things”).",
+  "def": "The position according to which truth and values depend on the subject: one's own perception and interest are the measure. It is a form of relativism applied to the individual (Protagoras: “the human being is the measure of all things”).",
   "biografia": [
    "protagoras"
   ]
@@ -4595,7 +4595,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "The creative vital force capable of creating new values. It is not a political caricature, but the image of the overcoming of man.",
+  "def": "The creative vital force capable of creating new values. It is not a political caricature, but the image of the overcoming of the human being.",
   "biografia": [
    "nietzsche"
   ]

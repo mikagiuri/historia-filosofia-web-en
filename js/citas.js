@@ -154,7 +154,7 @@ const CITAS = [
   "trampa": "It is not a literal quotation: it sums up several passages of the Republic on the analogy of the sun, where the Form of the Good appears as the ‘child’ or offspring that the Good begets in its own likeness."
  },
  {
-  "c": "Man is the measure of all things: of those that are, that they are; of those that are not, that they are not.",
+  "c": "The human being is the measure of all things: of those that are, that they are; of those that are not, that they are not.",
   "a": "Protagoras",
   "o": "fragment DK 80 B1 (quoted by Plato, Theaetetus 152a)",
   "e": "ancient",
@@ -693,7 +693,7 @@ const CITAS = [
   "id": "darwin",
   "img": "media/retratos/museo/darwin.jpg",
   "sen": "With all his capacities, the human being comes from earlier forms of life; his body preserves the traces of that animal ancestry.",
-  "uso": "To explain the theory of evolution and its impact on the idea of the human being, or in an essay on the place of man in nature."
+  "uso": "To explain the theory of evolution and its impact on the idea of the human being, or in an essay on the place of the human being in nature."
  },
  {
   "c": "There is nothing outside the text.",
@@ -973,7 +973,7 @@ const CITAS = [
   "e": "contemporary",
   "id": "unamuno",
   "img": "media/retratos/museo2/unamuno.jpg",
-  "sen": "For Unamuno, philosophy should not concern itself with an abstract man, but with the real individual who is born, suffers and dies. What drives us to think is the longing not to die completely.",
+  "sen": "For Unamuno, philosophy should not concern itself with an abstract human being, but with the real individual who is born, suffers and dies. What drives us to think is the longing not to die completely.",
   "uso": "To introduce Unamuno’s thought and the tragic sense of life, or in an essay on reason and faith in the face of death."
  },
  {
@@ -1180,7 +1180,7 @@ const CITAS = [
   "uso": "To explain virtue as a habit in Aristotle’s ethics, or in debates about moral education."
  },
  {
-  "c": "It may happen that the many, although none of them is individually an excellent man, turn out better when they come together than those few, not one by one but all together, just as feasts to which many contribute are better than those paid for by one person alone.",
+  "c": "It may happen that the many, although none of them is individually an excellent human being, turn out better when they come together than those few, not one by one but all together, just as feasts to which many contribute are better than those paid for by one person alone.",
   "a": "Aristotle",
   "o": "Politics, III, 11, 1281a42-b3, our own translation",
   "e": "ancient",
@@ -1240,7 +1240,7 @@ const CITAS = [
   "uso": "To explain Plato’s criticism of writing in the Phaedrus, or in debates about memory, reading and new technologies."
  },
  {
-  "c": "War is the father of all and king of all; some it has shown to be gods and others men; some it has made slaves and others free.",
+  "c": "War is the father of all and king of all; some it has shown to be gods and others human beings; some it has made slaves and others free.",
   "a": "Heraclitus",
   "o": "fragment DK 22 B53, our own translation",
   "e": "ancient",

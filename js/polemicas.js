@@ -267,7 +267,7 @@ const POLEMICAS = [
    "t": "What is looked for is the conscience of the one who gives [baptism], which is what washes that of the one who receives it.",
    "ref": "Petilian, letter quoted by Augustine in Answer to the Letters of Petilian, I, 1, 2"
   },
-  "fuerte_a": "If baptism depended on the priest’s conscience, nobody could be sure they were baptised, because another person’s conscience cannot be seen. Hope would be placed in a man and not in God.",
+  "fuerte_a": "If baptism depended on the priest’s conscience, nobody could be sure they were baptised, because another person’s conscience cannot be seen. Hope would be placed in a human being and not in God.",
   "fuerte_b": "A Church that accepts as pastors those who betrayed the faith to save themselves loses its holiness. The purity of the ministers is the guarantee that it is still the Church of the martyrs.",
   "desenlace": "At the Conference of Carthage (1, 3 and 8 June 411), with 286 Catholic bishops and about 280 Donatists, the imperial delegate Marcellinus ruled in favour of the Catholics, and a law of Honorius in 412 punished the Donatists. Augustine, who at first did not want to force anyone, ended up accepting the pressure of the imperial laws (Letter 93, from 408), a position that has been much debated since.",
   "trucos": "Petilian accused Augustine of having been a Manichaean priest and of being a ‘dialectician’, an artist of deception; Augustine denied the first charge and defended dialectic (Answer to the Letters of Petilian, III, 16-17).",
@@ -531,7 +531,7 @@ const POLEMICAS = [
   ],
   "pregunta": "Is there a single intellect for all humanity? Can reason prove the opposite of what faith teaches?",
   "contexto": "In Paris, the Faculty of Arts taught Aristotle with Averroes’ commentaries, and the Faculty of Theology feared the consequences. Siger of Brabant (c. 1240-1284), a master of Arts, defended Averroes’ reading; Thomas, a Dominican theologian, also admired Aristotle, but read him differently. In 1270 Thomas wrote On the Unity of the Intellect against the Averroists, and that same year Bishop Tempier condemned thirteen theses.",
-  "tesis_a": "Each human being has their own intellect, which is part of their soul: that is why it is this particular man who thinks. And he read this in Aristotle himself. Reason, rightly used, never contradicts faith.",
+  "tesis_a": "Each human being has their own intellect, which is part of their soul: that is why it is this particular human being who thinks. And he read this in Aristotle himself. Reason, rightly used, never contradicts faith.",
   "tesis_b": "Following Averroes, the intellect that knows is one and separate for the whole human species. Siger said he was setting out what the philosophers held through natural reason, even though, as a Christian, he accepted what faith commands.",
   "cita_a": {
    "t": "Let him not speak in corners or before boys who cannot judge such difficult questions, but let him write against this treatise, if he dares.",

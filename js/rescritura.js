@@ -143,7 +143,7 @@ const RESCRITURA_TEXTOS = [
    },
    {
     "tipo": "malinterpretacion",
-    "texto": "Rousseau explains how men lost their natural freedom and proposes breaking the chains by going back to living in nature, without laws or government.",
+    "texto": "Rousseau explains how human beings lost their natural freedom and proposes breaking the chains by going back to living in nature, without laws or government.",
     "porque": "Rousseau expressly says he does not know how the change came about, and he does not propose going back to nature, but finding out what makes the social order legitimate."
    }
   ]
@@ -363,7 +363,7 @@ const RESCRITURA_TEXTOS = [
    },
    {
     "tipo": "sinonimia",
-    "texto": "An existence without analysis is not worthy of being lived by man.",
+    "texto": "An existence without analysis is not worthy of being lived by a human being.",
     "porque": "The same sentence with synonyms. And ‘analysis’ is not the same as ‘examination’: Socrates is not talking about analysing data, but about reviewing one’s own life through dialogue."
    },
    {
@@ -377,7 +377,7 @@ const RESCRITURA_TEXTOS = [
   "id": "protagoras",
   "autor": "Protagoras",
   "obra": "Quoted by Plato in the <em>Theaetetus</em>, 152a (5th century BC)",
-  "original": "Man is the measure of all things: of the things that are, that they are, and of the things that are not, that they are not.",
+  "original": "The human being is the measure of all things: of the things that are, that they are, and of the things that are not, that they are not.",
   "terminos": [
    "measure"
   ],
@@ -389,7 +389,7 @@ const RESCRITURA_TEXTOS = [
    },
    {
     "tipo": "copia",
-    "texto": "Protagoras says that man is the measure of all things, of those that are and of those that are not.",
+    "texto": "Protagoras says that the human being is the measure of all things, of those that are and of those that are not.",
     "porque": "It is the original sentence with ‘Protagoras says that’ in front and one chunk fewer."
    },
    {

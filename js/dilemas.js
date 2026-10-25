@@ -64,7 +64,7 @@ const DILEMAS = [
    {
     "quien": "Spinoza",
     "elige": "B",
-    "porque": "With nuances. The free man never acts deceitfully, not even to escape a danger of death (Ethics, IV, 72, scholium), and fleeing by evading the laws of one’s own city would look much like that. But withdrawing in time takes as much strength of mind as fighting (IV, 69, corollary), and he himself, expelled from his community like Socrates, stepped aside cautiously so he could go on thinking: neither martyr nor fugitive.",
+    "porque": "With nuances. The free human being never acts deceitfully, not even to escape a danger of death (Ethics, IV, 72, scholium), and fleeing by evading the laws of one’s own city would look much like that. But withdrawing in time takes as much strength of mind as fighting (IV, 69, corollary), and he himself, expelled from his community like Socrates, stepped aside cautiously so he could go on thinking: neither martyr nor fugitive.",
     "biografia": "spinoza"
    },
    {
@@ -376,13 +376,13 @@ const DILEMAS = [
    {
     "quien": "Hobbes",
     "elige": "A",
-    "porque": "In the state of nature life is ‘solitary, poor, nasty, brutish, and short’; out of fear, men surrender all their right to an absolute sovereign. Dividing power is returning to war.",
+    "porque": "In the state of nature life is ‘solitary, poor, nasty, brutish, and short’; out of fear, human beings surrender all their right to an absolute sovereign. Dividing power is returning to war.",
     "biografia": "hobbes"
    },
    {
     "quien": "Rousseau",
     "elige": "B",
-    "porque": "Man is born free and good; the legitimate pact does not surrender freedom but transforms it: each person obeys the general will of which they are part, and so obeys only themselves.",
+    "porque": "The human being is born free and good; the legitimate pact does not surrender freedom but transforms it: each person obeys the general will of which they are part, and so obeys only themselves.",
     "biografia": "rousseau"
    },
    {
@@ -393,7 +393,7 @@ const DILEMAS = [
    {
     "quien": "Machiavelli",
     "elige": "A",
-    "porque": "Without illusions: men are ungrateful and fickle, and it is safer to be feared than loved. The founder of a new order needs a free hand; afterwards, if he is prudent, he will be able to give laws."
+    "porque": "Without illusions: human beings are ungrateful and fickle, and it is safer to be feared than loved. The founder of a new order needs a free hand; afterwards, if he is prudent, he will be able to give laws."
    }
   ],
   "debate": {
@@ -524,7 +524,7 @@ const DILEMAS = [
   "titulo": "Just following orders",
   "situacion": "Jerusalem, 1961. Adolf Eichmann, the official who organised the trains to the extermination camps, defends himself: he hated no one, he killed no one with his own hands, he obeyed the laws of his State and the orders of his superiors; disobeying would have been, in his world, the immoral thing. Hannah Arendt, who attends the trial, writes that he was not a monster but a man who had stopped thinking. You are a member of the jury.",
   "a": "Guilty without mitigating circumstances: obeying does not exonerate; each person is responsible for what they do, and ‘following orders’ is the excuse of every executioner.",
-  "b": "Guilty, but the verdict is not enough: if an ordinary man could do this just by not thinking, the problem is not him but a system that manufactures obedient people; judging him alone is too easy.",
+  "b": "Guilty, but the verdict is not enough: if an ordinary human being could do this just by not thinking, the problem is not him but a system that manufactures obedient people; judging him alone is too easy.",
   "pregunta": "Can a person be responsible for the evil they commit by obeying? Is evil a choice or an absence of thought?",
   "enjuego": "The banality of evil, individual responsibility within a system, and the relationship between thinking and acting well.",
   "escuelas": [
@@ -563,7 +563,7 @@ const DILEMAS = [
    "If evil is not thinking, is philosophy a vaccine? And why were there philosophy professors in the Nazi party?",
    "Are there orders you follow today without thinking (at work, in the group, online)? Where would you draw the line and how would you know you had crossed it?"
   ],
-  "ysi": "What if Eichmann had disobeyed and been shot, and the trains had left all the same with another official? Arendt answers that it does matter: not because it changes the result, but because the world would be a different one with one fewer man who said yes.",
+  "ysi": "What if Eichmann had disobeyed and been shot, and the trains had left all the same with another official? Arendt answers that it does matter: not because it changes the result, but because the world would be a different one with one fewer human being who said yes.",
   "pau": "‘Is someone who obeys orders responsible for their actions?’ Argue in 200-300 words from Arendt and at least one other position (Kant, Sartre or Socrates), with a present-day example.",
   "dato": "Arendt was harshly attacked by the Jewish community for her book: many read ‘banality’ as an excuse. She replied that she had described something more terrifying than a monster: that evil does not need monsters."
  },
