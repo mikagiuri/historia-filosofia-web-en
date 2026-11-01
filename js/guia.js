@@ -54,11 +54,11 @@ const GUIA = {
   {
    "type": "img",
    "src": "01_ficha.webp",
-   "cap": "The subject page: the menu at the top and the list of topics below."
+   "cap": "The subject page: the menu at the top; below, the topics, in expandable blocks (here, one open)."
   },
   {
    "type": "p",
-   "x": "The topics are grouped by <strong>periods</strong> (Ancient, Medieval, Modern, Enlightenment and Contemporary), each with its own colour, and the list starts with Topic 3. Topics 1 and 2, which introduce the subject, are at the end. The colour of each period goes with you all over the site: in the filters, the cards and the quizzes.",
+   "x": "The topics are grouped into <strong>blocks</strong> by periods (“Block 1 · Ancient”, “Block 2 · Medieval” … up to Contemporary), each one with its colour and, in brackets, how many topics it has. Press the header of a block to expand it and you will see its topics; press it again to collapse it. Topics 1 and 2, which introduce the subject, go at the end, in the <strong>Introduction</strong> group, in grey. The colour of each period goes with you all over the site: in the filters, the cards and the quizzes.",
    "solo": "hf"
   },
   {
@@ -67,7 +67,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The topics are grouped into <strong>blocks</strong> (“Block 2 · …”), each with the colour of its branch of philosophy (anthropology, knowledge, logic, ethics, politics and aesthetics). Click the header of a block to expand it: you will see its topics, with the numbered subtopics (1.1, 1.2…). Topic 1 is separate, in an Introduction group, in grey. That colour accompanies you throughout the website: in the filters, the cards and the quizzes.",
+   "x": "The topics are grouped into <strong>blocks</strong> (“Block 2 · …”), each with the colour of its branch of philosophy (anthropology, knowledge, logic, ethics, politics and aesthetics). Click the header of a block to expand it: you will see its topics, with the numbered subtopics (1.1, 1.2…). Block 1 (“What is philosophy?”) is the introduction and is in grey. That colour accompanies you throughout the website: in the filters, the cards and the quizzes.",
    "solo": "fil"
   },
   {
@@ -212,7 +212,14 @@ const GUIA = {
     {
      "nombre": "Diagrams",
      "texto": "Conceptual diagrams with their relationships. Choose one by its title. In History of Philosophy you can filter them by period.",
-     "view": "esquemas"
+     "view": "esquemas",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Diagrams",
+     "texto": "Conceptual diagrams with their relationships. Choose one by its title.",
+     "view": "esquemas",
+     "solo": "fil"
     },
     {
      "nombre": "Dictionary",
