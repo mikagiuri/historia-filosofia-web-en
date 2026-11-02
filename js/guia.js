@@ -498,6 +498,11 @@ const GUIA = {
    "type": "steps",
    "rows": [
     {
+     "titulo": "Review its terms",
+     "texto": "At the top of each topic, open 'Before you start: 5 terms' and read its definitions before the theory.",
+     "view": "MATERIA"
+    },
+    {
      "titulo": "Read the theory for the topic",
      "texto": "Study › Theory › the topic. Use the sections on the left to go through it part by part.",
      "view": "MATERIA"
@@ -537,6 +542,40 @@ const GUIA = {
     {
      "titulo": "If you want more",
      "texto": "The History and Games tabs, Practise › Debate and the ‘Go deeper’ block in the topic box: context, games, debates and videos to go further."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "x": "<strong>To study better</strong>, whatever the topic:"
+  },
+  {
+   "type": "list",
+   "rows": [
+    {
+     "nombre": "In short blocks",
+     "texto": "10 to 20 minutes of full attention, with a short break between blocks: it works better than a whole afternoon at half effort."
+    },
+    {
+     "nombre": "Two-sided card",
+     "texto": "On one side, the author and their thesis in one sentence; on the other, a drawing of the idea. Revise by looking at one side and saying the other."
+    },
+    {
+     "nombre": "Redraw the map",
+     "texto": "Look at the concept map for the topic, close it and draw it again from memory. Then compare it with the original: whatever is missing is what you need to revise."
+    },
+    {
+     "nombre": "Reconstruct an argument",
+     "texto": "With three questions: what does the author claim?, why do they claim it?, how do they get from their reasons to their conclusion?"
+    },
+    {
+     "nombre": "Before you answer",
+     "texto": "Mark up the question: the instruction, the topic and the limits. This is explained in 'How to read an exam question', in Essays.",
+     "view": "disertaciones"
+    },
+    {
+     "nombre": "If you go blank",
+     "texto": "Write the first thing you remember, even if it is a single word, and go back to the question. If you are studying, look only at the heading of the section and try again before rereading it."
     }
    ]
   },
