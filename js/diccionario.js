@@ -374,6 +374,7 @@ const DICCIONARIO = [
   "area": "Ethics",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kant's philosophy",
   "def": "That the rational subject act according to the principle that he can give himself as a universal law.",
   "biografia": [
@@ -424,6 +425,19 @@ const DICCIONARIO = [
   "unidad": "C6",
   "tema": "Postmodernity",
   "def": "The regime that arises when modern power administers life: it manages populations, health, sexuality, birth rates, migrations, not only through laws but through statistics, epidemiology and security apparatuses."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Canon",
+  "id": "g-canon",
+  "et": "From the Greek κανών (*kanón*), ‘measuring rod, rule’.",
+  "area": "History",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "On the threshold of philosophy",
+  "def": "The list of authors and works that a tradition regards as ‘classics’ and that are therefore studied. Choosing them is not neutral: for centuries it left out many women philosophers and non-European thinkers."
  },
  {
   "subject": "hf",
@@ -667,6 +681,19 @@ const DICCIONARIO = [
   "subject": "hf",
   "imp": 3,
   "impg": 12,
+  "t": "Worldview",
+  "id": "g-cosmovision",
+  "et": "A calque of the German *Weltanschauung* (*Welt*, ‘world’, and *Anschauung*, ‘view’). The Spanish *cosmovisión* is formed from the Greek κόσμος (*kósmos*), ‘order, world’, and the Latin *visio*, ‘vision’.",
+  "area": "History",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "On the threshold of philosophy",
+  "def": "The set of beliefs that a period or a culture takes for granted without discussing them, and from which it interprets the world. Questioning them is often what moves philosophy forward."
+ },
+ {
+  "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Ecological crisis",
   "id": "g-crisis-ecologica",
   "et": "*Crisis*, from the Greek κρίσις (*krísis*), ‘decision, decisive moment’. *Ecology*, from the Greek οἶκος (*oîkos*) ‘house’ + λόγος (*lógos*) ‘study’.",
@@ -764,6 +791,7 @@ const DICCIONARIO = [
   "area": "Ethics",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kant's philosophy",
   "def": "Acting out of respect for the moral law; not merely coinciding with the norm, but having the right moral motivation.",
   "biografia": [
@@ -1012,6 +1040,7 @@ const DICCIONARIO = [
   "area": "Ethics",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kant's philosophy",
   "def": "The absolute value of the person; it is not price, utility or replaceability.",
   "biografia": [
@@ -1736,6 +1765,7 @@ const DICCIONARIO = [
   "area": "Method",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "On the threshold of philosophy",
   "def": "Reasoning that seems sound but does not properly justify its conclusion."
  },
@@ -1891,8 +1921,9 @@ const DICCIONARIO = [
   "area": "Text",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "On the threshold of philosophy",
-  "def": "Definition: A written or discursive way of organising and expressing thought."
+  "def": "A written or discursive way of organising and expressing thought."
  },
  {
   "subject": "hf",
@@ -1989,7 +2020,7 @@ const DICCIONARIO = [
   "bloque": "A",
   "unidad": "A1-A2",
   "tema": "On the threshold of philosophy",
-  "def": "Etymology: history + -ity, character or condition. Definition: Thought is always situated in a specific era, society and culture."
+  "def": "Thought is always situated in a specific age, society and culture."
  },
  {
   "subject": "hf",
@@ -2145,6 +2176,7 @@ const DICCIONARIO = [
   "area": "Ethics",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kant's philosophy",
   "def": "An unconditional moral command: it orders an action for its own sake, without depending on any end one desires. Its first formula, that of universal law: act only according to that maxim through which you can at the same time will that it become a universal law (*Groundwork of the Metaphysics of Morals*, II, Ak. IV 421).",
   "biografia": [
@@ -2161,6 +2193,7 @@ const DICCIONARIO = [
   "area": "Ethics",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kant's philosophy",
   "def": "A conditional command: it orders a means to an end one wants ('if you want to pass, study'). Kant distinguishes rules of skill and counsels of prudence; obeying them gives the action no moral worth (*Groundwork*, II, Ak. IV 414-417).",
   "biografia": [
@@ -3040,6 +3073,19 @@ const DICCIONARIO = [
   "subject": "hf",
   "imp": 4,
   "impg": 10,
+  "t": "Invisible hand",
+  "id": "g-mano-invisible",
+  "et": "Adam Smith’s metaphor (*invisible hand*) in *The Wealth of Nations* (1776), book IV, chapter 2.",
+  "area": "Economics",
+  "bloque": "B",
+  "unidad": "B7",
+  "tema": "Utilitarianism and liberalism",
+  "def": "Adam Smith’s image: whoever pursues their own interest in a free market contributes, without intending to, to the well-being of all, as if an invisible hand coordinated everyone’s interests. Hence his idea that the State should intervene little in the economy."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Materialism",
   "id": "g-materialismo",
   "et": "*Matter*, from the Latin *materia*, ‘timber, building material’, related to *mater*, ‘mother’.",
@@ -3137,11 +3183,25 @@ const DICCIONARIO = [
   "area": "Ethics",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 18,
   "tema": "Kant's philosophy",
   "def": "For Kant, the inability to use one's own understanding without the guidance of another. One is guilty of it oneself when it is due not to a lack of understanding but to a lack of resolve and courage; its causes are laziness and cowardice (*What Is Enlightenment?*, 1784, Ak. VIII 35).",
   "biografia": [
    "kant"
   ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Myth",
+  "id": "g-mito",
+  "et": "From the Greek μῦθος (*mýthos*), ‘word, story’.",
+  "area": "History",
+  "bloque": "A",
+  "unidad": "A3",
+  "tema": "The birth of philosophy in Greece",
+  "def": "A traditional story, handed down by the poets (above all Homer and Hesiod), that explains the origin of the world and what happens in it through the will of gods and extraordinary beings, without looking for the causes in nature itself."
  },
  {
   "subject": "hf",
@@ -3154,7 +3214,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "Postmodernity",
-  "def": "Definition: Habermas's idea that the Enlightenment's promises of freedom and reason must be critically reconstructed without discarding them.",
+  "def": "Habermas's idea that the Enlightenment's promises of freedom and reason must be critically reconstructed without discarding them.",
   "biografia": [
    "habermas"
   ]
@@ -3281,6 +3341,7 @@ const DICCIONARIO = [
   "area": "Method",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "On the threshold of philosophy",
   "def": "A procedure that organises questions, concepts and arguments in order to work on a problem."
  },
@@ -3533,6 +3594,20 @@ const DICCIONARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
+  "t": "Quaestio and disputatio",
+  "id": "g-quaestio-disputatio",
+  "et": "From the Latin *quaestio*, ‘search, question’, from *quaerere*, ‘to seek’, and *disputatio*, ‘discussion’, from *disputare*, ‘to examine thoroughly’.",
+  "area": "Method",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "temaN": 2,
+  "tema": "On the threshold of philosophy",
+  "def": "The method of the medieval universities: a question is posed, the reasons and authorities for and against are gathered, a reasoned answer is given and each objection is answered. Thomas Aquinas wrote his *Summa Theologiae* in this way."
+ },
+ {
+  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Vital reason",
@@ -3642,6 +3717,19 @@ const DICCIONARIO = [
   "biografia": [
    "aristoteles"
   ]
+ },
+ {
+  "subject": "hf",
+  "imp": 3,
+  "impg": 12,
+  "t": "Transmission",
+  "id": "g-transmision",
+  "et": "From the Latin *transmissio*, ‘passage to the other side’, from *transmittere*, ‘to send across’.",
+  "area": "History",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "On the threshold of philosophy",
+  "def": "The path by which texts and ideas pass from one generation to the next: they are copied, translated, commented on and taught in schools, monasteries or universities. What was not transmitted was lost, and that changes the picture we have of each author."
  },
  {
   "subject": "hf",
@@ -3946,7 +4034,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "C10",
   "tema": "Challenges of the 21st century",
-  "def": "Definition: that power appears, instead of as prohibition, as a continuous command of capability, self-improvement and performance."
+  "def": "That power appears, instead of as prohibition, as a continuous command of capability, self-improvement and performance."
  },
  {
   "subject": "hf",
@@ -3999,6 +4087,7 @@ const DICCIONARIO = [
   "area": "Method",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "On the threshold of philosophy",
   "def": "When interpreting a text or an interlocutor, trying to reconstruct their strongest version. It is not agreeing, but understanding what they really defend before criticising them."
  },
@@ -4198,6 +4287,7 @@ const DICCIONARIO = [
   "area": "Ethics",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kant's philosophy",
   "def": "Joxe Azurmendi's ethical stance: renouncing absolute values, but without falling into nihilism; uniting the ethics of conviction (principles) and that of responsibility (consequences), without granting absolute value to either.",
   "biografia": [
@@ -4684,7 +4774,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Language and Science",
-  "def": "Definition: Russell's analysis for clarifying the logical structure that lies beneath the surface grammar of a sentence.",
+  "def": "Russell's analysis for clarifying the logical structure that lies beneath the surface grammar of a sentence.",
   "biografia": [
    "russell"
   ]
@@ -4849,6 +4939,19 @@ const DICCIONARIO = [
   "unidad": "A8",
   "tema": "Classical ethics",
   "def": "The right measure between excess and deficiency, adjusted to the situation and to right reason."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Universality",
+  "id": "g-universalidad",
+  "et": "From the Latin *universalis*, ‘concerning the whole’, from *universus*, ‘entire, turned into one’ (*unus* + *versus*).",
+  "area": "History",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "On the threshold of philosophy",
+  "def": "The condition of philosophical questions that come back in different periods and cultures (what truth is, what is just, whether we are free), because they arise from basic concerns of human life. It does not mean that there is only one answer."
  },
  {
   "subject": "hf",
@@ -5497,6 +5600,7 @@ const DICCIONARIO = [
   "id": "g-querella-de-las-mujeres",
   "area": "Feminism",
   "bloque": "B",
+  "temaN": 11,
   "tema": "Medieval philosophy",
   "def": "A long controversy, opened by Christine de Pizan around 1400 with the ‘Quarrel of the Rose’, over the dignity and the intellectual capacity of women; it ran on in European culture until the French Revolution.",
   "biografia": [

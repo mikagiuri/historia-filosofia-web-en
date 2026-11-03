@@ -61,9 +61,9 @@ const WEEK = [
 const SUBJECTS = {
  "hf": {
   "name": "History of Philosophy",
-  "kick": "Year 2 of Bachillerato · Blocks A, B and C",
+  "kick": "Year 2 of Bachillerato",
   "color": "var(--hf)",
-  "intro": "From ancient to contemporary philosophy: the theory of the 27 topics, classroom materials and the five PAU texts (Plato, Descartes, Kant, Nietzsche and Beauvoir), in the ‘Readings’ tab.",
+  "intro": "",
   "mats": [],
   "tools": [
    [
@@ -6984,7 +6984,7 @@ const QUIZZES = {
   ]
  },
  "hf-a01-banco": {
-  "name": "T1 · Historicity and universality of philosophy (extended bank)",
+  "name": "T1 · Historicity and universality of philosophy",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -7376,7 +7376,7 @@ const QUIZZES = {
   ]
  },
  "hf-a02-banco": {
-  "name": "T2 · The methods of philosophy (extended bank)",
+  "name": "T2 · The methods of philosophy",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -7768,7 +7768,7 @@ const QUIZZES = {
   ]
  },
  "hf-a03-banco": {
-  "name": "T3 · The emergence of philosophy: from myth to logos (extended bank)",
+  "name": "T3 · The emergence of philosophy: from myth to logos",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -8160,7 +8160,7 @@ const QUIZZES = {
   ]
  },
  "hf-a04-banco": {
-  "name": "T4 · The problem of reality in the pre-Socratics (extended bank)",
+  "name": "T4 · The problem of reality in the pre-Socratics",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -8596,7 +8596,7 @@ const QUIZZES = {
   ]
  },
  "hf-a05-banco": {
-  "name": "T5 · The Greek Enlightenment: the Sophists, Socrates and Aspasia (extended bank)",
+  "name": "T5 · The Greek Enlightenment: the Sophists, Socrates and Aspasia",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -9021,7 +9021,7 @@ const QUIZZES = {
   ]
  },
  "hf-a06-banco": {
-  "name": "T6 · Plato: the theory of Forms and the Republic (extended bank)",
+  "name": "T6 · Plato: the theory of Forms and the Republic",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -9457,7 +9457,7 @@ const QUIZZES = {
   ]
  },
  "hf-a07-banco": {
-  "name": "T7 · Classical anthropology: Socrates, Plato and Aristotle (extended bank)",
+  "name": "T7 · Classical anthropology: Socrates, Plato and Aristotle",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -9849,7 +9849,7 @@ const QUIZZES = {
   ]
  },
  "hf-a08-banco": {
-  "name": "T8 · Classical ethics: intellectualism, virtues and eudaimonia (extended bank)",
+  "name": "T8 · Classical ethics: intellectualism, virtues and eudaimonia",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -10241,7 +10241,7 @@ const QUIZZES = {
   ]
  },
  "hf-a09-banco": {
-  "name": "T9 · Classical politics: Plato and Aristotle (extended bank)",
+  "name": "T9 · Classical politics: Plato and Aristotle",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -10633,7 +10633,7 @@ const QUIZZES = {
   ]
  },
  "hf-a10-banco": {
-  "name": "T10 · Hellenism: Cynicism, Stoicism, Epicureanism and Scepticism (extended bank)",
+  "name": "T10 · Hellenism: Cynicism, Stoicism, Epicureanism and Scepticism",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -11025,7 +11025,7 @@ const QUIZZES = {
   ]
  },
  "hf-b11-banco": {
-  "name": "T11 · Medieval philosophy: stages, methods and the problem of universals (extended bank)",
+  "name": "T11 · Medieval philosophy: stages, methods and the problem of universals",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -11340,7 +11340,7 @@ const QUIZZES = {
   ]
  },
  "hf-b12-banco": {
-  "name": "T12 · Faith and reason: the assimilation of Greek philosophy and the existence of God (extended bank)",
+  "name": "T12 · Faith and reason: the assimilation of Greek philosophy and the existence of God",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -11677,7 +11677,7 @@ const QUIZZES = {
   ]
  },
  "hf-b13-banco": {
-  "name": "T13 · The birth of modernity: Renaissance, Protestantism and the scientific revolution (extended bank)",
+  "name": "T13 · The birth of modernity: Renaissance, Protestantism and the scientific revolution",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -12014,7 +12014,7 @@ const QUIZZES = {
   ]
  },
  "hf-b14-banco": {
-  "name": "T14 · Rationalism and empiricism: Descartes and Hume (extended bank)",
+  "name": "T14 · Rationalism and empiricism: Descartes and Hume",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -12406,7 +12406,7 @@ const QUIZZES = {
   ]
  },
  "hf-b15-banco": {
-  "name": "T15 · The modern metaphysical debate: dualism and materialism (extended bank)",
+  "name": "T15 · The modern metaphysical debate: dualism and materialism",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -12743,7 +12743,7 @@ const QUIZZES = {
   ]
  },
  "hf-b16-banco": {
-  "name": "T16 · The origin of society and power: Machiavelli and the social contract (extended bank)",
+  "name": "T16 · The origin of society and power: Machiavelli and the social contract",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -13135,7 +13135,7 @@ const QUIZZES = {
   ]
  },
  "hf-b17-banco": {
-  "name": "T17 · Utilitarianism and liberalism: the foundations of capitalism (extended bank)",
+  "name": "T17 · Utilitarianism and liberalism: the foundations of capitalism",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -13527,7 +13527,7 @@ const QUIZZES = {
   ]
  },
  "hf-c18-banco": {
-  "name": "T18 · The Enlightenment project: the power and limits of reason (extended bank)",
+  "name": "T18 · The Enlightenment project: the power and limits of reason",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -13919,7 +13919,7 @@ const QUIZZES = {
   ]
  },
  "hf-c19-banco": {
-  "name": "T19 · Kant’s critical philosophy and the problem of metaphysics (extended bank)",
+  "name": "T19 · Kant’s critical philosophy and the problem of metaphysics",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -14311,7 +14311,7 @@ const QUIZZES = {
   ]
  },
  "hf-c20-banco": {
-  "name": "T20 · Ethics of happiness and ethics of duty: Kant versus utilitarianism (extended bank)",
+  "name": "T20 · Ethics of happiness and ethics of duty: Kant versus utilitarianism",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -14703,7 +14703,7 @@ const QUIZZES = {
   ]
  },
  "hf-c21-banco": {
-  "name": "T21 · The philosophers of suspicion: Marx, Nietzsche and Freud (extended bank)",
+  "name": "T21 · The philosophers of suspicion: Marx, Nietzsche and Freud",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -15095,7 +15095,7 @@ const QUIZZES = {
   ]
  },
  "hf-c22-banco": {
-  "name": "T22 · The critique of capitalism: from Marx to Rawls (extended bank)",
+  "name": "T22 · The critique of capitalism: from Marx to Rawls",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -15487,7 +15487,7 @@ const QUIZZES = {
   ]
  },
  "hf-c23-banco": {
-  "name": "T23 · Nietzsche and postmodernity: Habermas versus the breakaway thinkers (extended bank)",
+  "name": "T23 · Nietzsche and postmodernity: Habermas versus the breakaway thinkers",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -15868,7 +15868,7 @@ const QUIZZES = {
   ]
  },
  "hf-c24-banco": {
-  "name": "T24 · Analytic philosophy: Wittgenstein and the linguistic turn (extended bank)",
+  "name": "T24 · Analytic philosophy: Wittgenstein and the linguistic turn",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -16260,7 +16260,7 @@ const QUIZZES = {
   ]
  },
  "hf-c25-banco": {
-  "name": "T25 · Existentialism: Heidegger, Sartre and Spanish philosophy (extended bank)",
+  "name": "T25 · Existentialism: Heidegger, Sartre and Spanish philosophy",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -16652,7 +16652,7 @@ const QUIZZES = {
   ]
  },
  "hf-c26-banco": {
-  "name": "T26 · Contemporary feminism: Simone de Beauvoir (extended bank)",
+  "name": "T26 · Contemporary feminism: Simone de Beauvoir",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -17033,7 +17033,7 @@ const QUIZZES = {
   ]
  },
  "hf-c27-banco": {
-  "name": "T27 · Society today: challenges of the 21st century (extended bank)",
+  "name": "T27 · Society today: challenges of the 21st century",
   "subject": "hf",
   "block": "C",
   "items": [

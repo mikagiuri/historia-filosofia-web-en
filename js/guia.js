@@ -36,7 +36,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "The first tabs of the menu are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (check what you know and train), <strong>Logic</strong> (the Logic Corner, with its exercises and its laboratory) and <strong>Write and read</strong> (the essay and the texts). After a line come the complementary ones: <strong>History</strong> (the context of the philosophers, with the Pillars and the Etymologies) and <strong>Games</strong>.",
+   "x": "The first tabs of the menu are the essential ones: <strong>Study</strong> (the theory and what helps you learn it), <strong>Practise</strong> (check what you know and train) and <strong>Reason and write</strong> (the Logic Corner, the essay and the texts). After a line come the complementary ones: <strong>History</strong> (the context of the philosophers, with the Pillars and the Etymologies) and <strong>Games</strong>.",
    "solo": "fil"
   },
   {
@@ -49,7 +49,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "When you open the website you arrive at the <strong>subject page</strong>: the title, a short introduction and the <strong>list of topics</strong>. Click a topic to open its theory. From anywhere, you can come back here with <strong>Study › Theory</strong> or by clicking “Philosophy Classroom” at the top left."
+   "x": "When you open the website you arrive at the <strong>subject page</strong>: the title and the <strong>list of topics</strong>. Click a topic to open its theory. From anywhere, you can come back here with <strong>Study › Theory</strong> or by clicking “Philosophy Classroom” at the top left."
   },
   {
    "type": "img",
@@ -293,7 +293,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "fil",
-   "x": "The <strong>Logic Corner</strong> now has its own tab. It brings together truth tables, valid arguments, syllogisms with Venn diagrams, paradoxes and exercises to train your reasoning, plus a <strong>pathway from zero to expert</strong> to work through in order."
+   "x": "The <strong>Logic Corner</strong> is in the <strong>Reason and write</strong> group, together with the essay and the readings. It brings together truth tables, valid arguments, syllogisms with Venn diagrams, paradoxes and exercises to train your reasoning, plus a <strong>pathway from zero to expert</strong> to work through in order."
   },
   {
    "type": "p",
@@ -345,13 +345,13 @@ const GUIA = {
   },
   {
    "type": "h",
-   "x": "Write and read",
+   "x": "Reason and write",
    "solo": "fil"
   },
   {
    "type": "img",
    "src": "04_menu_tercera.webp",
-   "cap": "The “Write and read” menu.",
+   "cap": "The “Reason and write” menu.",
    "w": "menu",
    "solo": "fil"
   },
@@ -535,7 +535,7 @@ const GUIA = {
     },
     {
      "titulo": "Prepare for the exam",
-     "texto": "Write and read: essays and readings.",
+     "texto": "Reason and write: logic, essays and readings.",
      "view": "disertaciones",
      "solo": "fil"
     },
