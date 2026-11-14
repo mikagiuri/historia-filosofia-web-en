@@ -18,7 +18,7 @@ const LOG_TXT = {
   argTitulo: "Is this argument valid?", premisas: "Premises (separated by semicolons)", conclusion: "Conclusion",
   comprobar: "Check", premisa: "Premise {n}",
   valido: "Valid: in every row in which the premises are true, the conclusion is true as well.",
-  noValido: "Not valid: there is at least one row with true premises and a false conclusion (marked in red). It is a counterexample.",
+  noValido: "Not valid: there is at least one row with true premises and a false conclusion (marked with ✗). It is a counterexample.",
   filasPremisas: "The highlighted rows are those in which all the premises are true.",
   mp: "Modus ponens", mt: "Modus tollens", ac: "Affirming the consequent (fallacy)", sd: "Disjunctive syllogism", sh: "Hypothetical syllogism",
   demorgan: "De Morgan’s law", tercero: "Excluded middle", nocontra: "Contradiction",
