@@ -1141,5 +1141,429 @@ const LUGARES = {
     "t": "When Alexander dies, in 323, Athens rises against Macedonia, and Aristotle, a friend of the Macedonians, is charged with impiety. He leaves the Lyceum to Theophrastus and withdraws to Chalcis, on the island of Euboea, where his mother’s family had a house. He dies there the following year, of an illness, at the age of sixty-two."
    }
   ]
+ },
+ "presocraticos": {
+  "titulo": "The Presocratics’ places",
+  "intro": "Greek philosophy was not born in Athens but in the cities on the edges of the Greek world: first in Ionia, on the coast of Asia Minor, and later in Magna Graecia, southern Italy and Sicily, where many Ionians arrived fleeing the Persians. They were ports and colonies, open to trade and to other cultures. The map follows the Presocratics city by city, roughly in the order in which they appeared.",
+  "nota": "Each number is a city: the one where a thinker was born or the one where he taught. The dates are approximate, and much of what we know about their lives comes from much later biographers, such as Diogenes Laertius.",
+  "notaFronteras": "The map draws no borders: between the 6th and 5th centuries BC the Greek world was made up of hundreds of independent cities spread along the coasts of the Mediterranean, and from 546 BC those of Ionia were under the Persian king. Only the regions are named.",
+  "marco": [
+   11.6,
+   33.4,
+   29.6,
+   42.3
+  ],
+  "sinRuta": true,
+  "sinFronteras": true,
+  "detalle": {
+   "marco": [
+    26.2,
+    37.35,
+    27.75,
+    38.55
+   ],
+   "en": [
+    0.25,
+    0.52
+   ],
+   "ancho": 0.3
+  },
+  "zonas": [
+   {
+    "tipo": "h",
+    "poly": [
+     [
+      26.15,
+      38.85
+     ],
+     [
+      27.15,
+      38.85
+     ],
+     [
+      27.75,
+      38.55
+     ],
+     [
+      28,
+      38.1
+     ],
+     [
+      27.95,
+      37.6
+     ],
+     [
+      27.6,
+      37.3
+     ],
+     [
+      27.1,
+      37.28
+     ],
+     [
+      26.5,
+      37.55
+     ],
+     [
+      25.8,
+      38.1
+     ],
+     [
+      25.8,
+      38.65
+     ]
+    ]
+   },
+   {
+    "tipo": "d",
+    "poly": [
+     [
+      14.75,
+      40.72
+     ],
+     [
+      15.6,
+      40.95
+     ],
+     [
+      16.6,
+      40.85
+     ],
+     [
+      17.5,
+      40.75
+     ],
+     [
+      18.7,
+      40.45
+     ],
+     [
+      18.7,
+      39.6
+     ],
+     [
+      17.6,
+      37.7
+     ],
+     [
+      15.66,
+      37.7
+     ],
+     [
+      15.66,
+      38.32
+     ],
+     [
+      15.4,
+      38.9
+     ],
+     [
+      15.25,
+      39.55
+     ],
+     [
+      14.55,
+      39.95
+     ]
+    ]
+   },
+   {
+    "tipo": "d",
+    "poly": [
+     [
+      13.1,
+      38.4
+     ],
+     [
+      15.75,
+      38.4
+     ],
+     [
+      15.75,
+      36.5
+     ],
+     [
+      12.9,
+      36.9
+     ]
+    ]
+   }
+  ],
+  "grupos": [
+   {
+    "t": "Milesians",
+    "paradas": [
+     1
+    ],
+    "d": "Thales, Anaximander and Anaximenes, from Miletus, look for the <em>arche</em>, the principle everything is made of."
+   },
+   {
+    "t": "The Pythagoreans",
+    "paradas": [
+     2,
+     4
+    ],
+    "viajes": [
+     {
+      "de": 2,
+      "a": 4
+     }
+    ],
+    "d": "Pythagoras was born in Samos and founded his community in Croton; his followers, such as Philolaus, saw numbers as the key to the universe."
+   },
+   {
+    "t": "Heraclitus",
+    "paradas": [
+     5
+    ],
+    "d": "Heraclitus of Ephesus had no school: everything changes, but according to a law, the <em>logos</em>."
+   },
+   {
+    "t": "Eleatics",
+    "paradas": [
+     3,
+     6,
+     2
+    ],
+    "viajes": [
+     {
+      "de": 3,
+      "a": [
+       15.08,
+       37.5
+      ]
+     },
+     {
+      "de": [
+       15.08,
+       37.5
+      ],
+      "a": 6,
+      "dudoso": true
+     }
+    ],
+    "d": "Parmenides and Zeno, from Elea, and Melissus, from Samos: being cannot change and the senses deceive us. Tradition makes Xenophanes of Colophon their forerunner."
+   },
+   {
+    "t": "The pluralists",
+    "paradas": [
+     7,
+     8,
+     9
+    ],
+    "viajes": [
+     {
+      "de": 7,
+      "a": 9
+     }
+    ],
+    "d": "Empedocles, from Akragas, and Anaxagoras, from Clazomenae, who taught in Athens: everything is made of many elements that mix and separate."
+   },
+   {
+    "t": "Atomists",
+    "paradas": [
+     10
+    ],
+    "viajes": [
+     {
+      "de": 1,
+      "a": 10,
+      "dudoso": true
+     },
+     {
+      "de": 6,
+      "a": 10,
+      "dudoso": true,
+      "comba": -0.12
+     }
+    ],
+    "d": "Leucippus and Democritus, in Abdera: everything is made of atoms moving in the void."
+   }
+  ],
+  "rotulos": [
+   {
+    "t": "Magna Graecia",
+    "tipo": "region",
+    "lon": 16.55,
+    "lat": 40.55,
+    "partir": true
+   },
+   {
+    "t": "Sicily",
+    "tipo": "region",
+    "lon": 14.35,
+    "lat": 37.85
+   },
+   {
+    "t": "Greece",
+    "tipo": "region",
+    "lon": 21.9,
+    "lat": 39.45
+   },
+   {
+    "t": "Thrace",
+    "tipo": "region",
+    "lon": 25.6,
+    "lat": 41.55
+   },
+   {
+    "t": "Asia Minor",
+    "tipo": "region",
+    "lon": 28.9,
+    "lat": 39.35,
+    "partir": true
+   },
+   {
+    "t": "Aegean Sea",
+    "tipo": "mar",
+    "lon": 25,
+    "lat": 38.95
+   },
+   {
+    "t": "Ionian Sea",
+    "tipo": "mar",
+    "lon": 19,
+    "lat": 38.95
+   },
+   {
+    "t": "Tyrrhenian Sea",
+    "tipo": "mar",
+    "lon": 13.2,
+    "lat": 39.9
+   },
+   {
+    "t": "Ionia",
+    "tipo": "region",
+    "lon": 27.45,
+    "lat": 38.3,
+    "det": true
+   }
+  ],
+  "paradas": [
+   {
+    "lugar": "Miletus",
+    "anio": -585,
+    "fechas": "6th c. BC",
+    "lon": 27.28,
+    "lat": 37.53,
+    "det": true,
+    "biografia": [
+     "tales",
+     "anaximandro",
+     "anaximenes"
+    ],
+    "t": "The richest city in Ionia, a port open to Egypt, Phoenicia and Babylon. Greek philosophy and science begin here, with three thinkers looking for the <em>arche</em>, the principle of all things: Thales (water), Anaximander (the <em>apeiron</em>, the boundless) and Anaximenes (air). The Persians razed Miletus in 494 BC. Today its ruins lie some eight kilometres from the sea: silt from the river Maeander filled in the bay."
+   },
+   {
+    "lugar": "Samos",
+    "anio": -570,
+    "anioGrupo": {
+     "3": -440
+    },
+    "fechas": "c. 570-530 BC and 5th c. BC",
+    "lon": 26.94,
+    "lat": 37.69,
+    "det": true,
+    "biografia": [
+     "pitagoras",
+     "meliso"
+    ],
+    "t": "Pythagoras was born on this island, opposite Miletus, around 570 BC. Around 530 he left for Italy, fleeing, so the story goes, the tyrant Polycrates. In the following century Samos was also home to Melissus, a follower of Parmenides, who moreover commanded the island’s fleet against Athens."
+   },
+   {
+    "lugar": "Colophon",
+    "anio": -546,
+    "fechas": "c. 570-546 BC",
+    "lon": 27.14,
+    "lat": 38.12,
+    "det": true,
+    "biografia": [
+     "jenofanes"
+    ],
+    "t": "Xenophanes’ homeland. When the Persians conquered Ionia, in 546 BC, he left it at about twenty-five and spent the rest of his long life travelling around the Greek cities, above all in Sicily, reciting his verses. In them he mocks gods with human form: if oxen could paint, they would paint gods shaped like oxen."
+   },
+   {
+    "lugar": "Croton",
+    "anio": -530,
+    "fechas": "from c. 530 BC",
+    "lon": 17.12,
+    "lat": 39.08,
+    "biografia": [
+     "pitagoras",
+     "filolao"
+    ],
+    "t": "In this colony in southern Italy, Pythagoras founded a community that lived in common, with rules about food and silence, studied numbers as the key to the universe and came to govern the city. A revolt ended its power, and Pythagoras died in nearby Metapontum. Philolaus (5th c. BC), the first Pythagorean to write a book, also came from Croton."
+   },
+   {
+    "lugar": "Ephesus",
+    "anio": -500,
+    "fechas": "c. 540-480 BC",
+    "lon": 27.34,
+    "lat": 37.94,
+    "det": true,
+    "biografia": [
+     "heraclito"
+    ],
+    "t": "Heraclitus, from a noble family, lived here apart from politics and from people. He said that everything changes, like a river we cannot step into twice, but that change follows a law, the <em>logos</em>. He was called “the Obscure” because of his style, and according to tradition he left his book in the temple of Artemis."
+   },
+   {
+    "lugar": "Elea",
+    "anio": -480,
+    "fechas": "5th century BC",
+    "lon": 15.15,
+    "lat": 40.16,
+    "biografia": [
+     "parmenides",
+     "zenon_elea"
+    ],
+    "t": "A colony founded around 540 BC in southern Italy by Ionians from Phocaea fleeing the Persians. Here Parmenides wrote a poem about being: what is, is, and can neither change nor cease to be; the senses deceive us. According to tradition he gave the city its laws. His disciple Zeno defended him with paradoxes such as that of Achilles and the tortoise."
+   },
+   {
+    "lugar": "Clazomenae",
+    "anio": -500,
+    "fechas": "c. 500 BC",
+    "lon": 26.77,
+    "lat": 38.36,
+    "det": true,
+    "biografia": [
+     "anaxagoras"
+    ],
+    "t": "The Ionian city where Anaxagoras was born, into a wealthy family. The story goes that he left his property to his relatives in order to devote himself to studying nature. For him, everything is in everything, mixed in tiny parts, and an intelligence, the <em>nous</em>, puts it in order."
+   },
+   {
+    "lugar": "Akragas (Agrigento)",
+    "anio": -465,
+    "fechas": "c. 495-435 BC",
+    "lon": 13.58,
+    "lat": 37.31,
+    "biografia": [
+     "empedocles"
+    ],
+    "t": "A rich Greek city in the south of Sicily. Empedocles, from a noble family, defended democracy here and, according to tradition, refused to be king. He taught that everything is made of four roots (earth, water, air and fire), which Love unites and Strife separates. Legend says he died by throwing himself into Etna."
+   },
+   {
+    "lugar": "Athens",
+    "anio": -455,
+    "fechas": "c. 460-430 BC",
+    "lon": 23.73,
+    "lat": 37.98,
+    "biografia": [
+     "anaxagoras"
+    ],
+    "t": "Anaxagoras brought the philosophy of Ionia to Athens, where he lived for some thirty years and was a friend of Pericles. Accused of impiety for saying that the Sun is a red-hot stone, he left for Lampsacus, where he died around 428 BC. According to Plato, Parmenides and Zeno visited Athens around 450; Democritus, on the other hand, said that he went there and nobody knew him."
+   },
+   {
+    "lugar": "Abdera",
+    "anio": -430,
+    "fechas": "5th century BC",
+    "lon": 24.98,
+    "lat": 40.94,
+    "biografia": [
+     "leucipo",
+     "democrito"
+    ],
+    "t": "An Ionian colony on the coast of Thrace. Democritus taught here (c. 460-370 BC): everything is made of atoms, indivisible particles that move in the void. He learned the idea from Leucippus, about whom very little is known; tradition places him in Abdera, although others say he came from Miletus or Elea. The sophist Protagoras also came from Abdera."
+   }
+  ]
  }
 };
